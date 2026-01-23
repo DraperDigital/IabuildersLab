@@ -44,8 +44,27 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
     const userTier: string = "free";
     const isLocked = isProContent && userTier !== "pro";
 
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'CreativeWork',
+        name: prompt.title,
+        description: prompt.summary,
+        image: prompt.featured_image_url ? `https://iabuildersvault.com${prompt.featured_image_url}` : undefined,
+        genre: prompt.category,
+        author: {
+            '@type': 'Organization',
+            name: 'IA Builders Vault'
+        },
+        datePublished: prompt.created_at,
+        dateModified: prompt.updated_at,
+    };
+
     return (
         <div className="flex min-h-screen flex-col bg-slate-950">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <PublicHeader />
 
             <main className="container mx-auto py-12 px-4">

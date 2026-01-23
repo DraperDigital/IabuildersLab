@@ -2054,130 +2054,296 @@ export const EXTRA_MOCK_PROMPTS = [
         "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }]
     },
     {
-        "id": "ext-pg-454-5",
+        "id": "neon-noir-digital-rebellion",
         "type": "prompt",
-        "title": "Urban Shadows: The Hacker's Realm",
+        "title": "Neon Noir Portrait — Digital Rebellion",
         "slug": "urban-shadows-hackers-realm",
-        "summary": "Neon-soaked city and a mysterious, intense gaze.",
-        "body_markdown": "In the heart of a neon-soaked city, a solitary figure emerges. Cloaked in mystery, her intense gaze reflects both determination and the glow of digital secrets. The rain whispers tales of rebellion.",
-        "prompt_text": "In the heart of a neon-soaked city, a solitary figure emerges. Cloaked in mystery, her intense gaze reflects both determination and the glow of digital secrets. The rain whispers tales of rebellion.",
+        "summary": "Retrato cyberpunk neo-noir con estética de rebelión digital.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Figura femenina intensa, piel húmeda, expresión determinada.
+*   **E (Entorno):** Ciudad nocturna con neón, calles mojadas, arquitectura futurista.
+*   **A (Acción):** Postura firme y desafiante, mirada directa sostenida.
+*   **I (Iluminación):** Neón nocturno urbano, reflejos de colores saturados en la lluvia.
+*   **S (Sensación):** Rebelión, misterio, subversión digital.
+*   **E (Estilo):** Neon-noir cyberpunk, texturas mojadas fotorrealistas.
+*   **M (Composición):** Plano medio centrado, profundidad urbana.
+*   **P (Post):** Paleta fría con acentos neón ácidos, contraste alto, look rebelde.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Neon Noir Portrait — Digital Rebellion",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Figura femenina con rasgos definidos y expresivos, piel realista con reflejos húmedos por la lluvia.",
+                    "expresion": "Intensa y determinada, mirada firme cargada de propósito.",
+                    "coherencia": "Identidad facial consistente, proporciones realistas, presencia fuerte."
+                },
+                "E_Entorno": {
+                    "fondo": "Ciudad nocturna empapada de luces neón.",
+                    "ambientacion": "Entorno urbano futurista con estética cyberpunk.",
+                    "elementos_clave": "Calles mojadas, reflejos de neón, arquitectura densa."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie, ligeramente adelantada en el encuadre.",
+                    "lenguaje_corporal": "Postura firme, actitud desafiante y rebelde.",
+                    "mirada": "Directa a cámara o ligeramente lateral, manteniendo tensión narrativa."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación nocturna urbana.",
+                    "caracteristicas": "Luces neón de colores intensos reflejadas en la lluvia, contrastes marcados y brillos húmedos."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Misterio, rebelión, determinación.",
+                    "tono": "Neo-noir, cyberpunk, subversivo."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato cinematográfico cyberpunk.",
+                    "texturas": "Superficies mojadas, piel húmeda, neón difuso.",
+                    "nivel_realismo": "Fotorrealista con estética futurista."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio.",
+                    "angulo": "Ángulo neutro o ligeramente bajo.",
+                    "encuadre": "Composición centrada con profundidad urbana al fondo."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Paleta fría con acentos neón saturados (azules, magentas, verdes).",
+                    "contraste": "Alto.",
+                    "acabado": "Look cinematográfico oscuro con atmósfera rebelde y digital."
+                }
+            },
+            "final_prompt": "Cinematic cyberpunk neon-noir portrait of a rebellious woman with wet skin, intense determined expression. Night city background drenched in neon rain, wet streets. High contrast colorful neon lighting reflections. Photorealistic 8K, cold palette with acid green and magenta accents, digital rebellion atmosphere. --ar 16:9"
+        }, null, 2),
         "category": "Cyberpunk",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
-        "featured_image_url": "https://files.promptgather.io/e34234c9cd0b2454a3d03db140e098a1_thumb_1762912189831.jpg",
+        "featured_image_url": "/images/prompts/neon-noir-rebellion.jpg",
         "paywall_level": "free_preview",
         "created_at": new Date().toISOString(),
         "updated_at": new Date().toISOString(),
-        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }]
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-cyb", "name": "Cyberpunk", "slug": "cyberpunk" }]
     },
     {
-        "id": "ext-pg-454-6",
+        "id": "cinematic-subway-longing-reflection",
         "type": "prompt",
-        "title": "In the Shadows of Longing: A Subway Story",
+        "title": "Cinematic Subway Portrait — Longing and Reflection",
         "slug": "shadows-longing-subway-story",
-        "summary": "Cinematic subway scene with a man in a trench coat.",
-        "body_markdown": "Caught in a moment of heavy anticipation, a man in a trench coat holds a crumpled promise as the subway echoes his solitude. Each frame speaks of longing and reflection.",
-        "prompt_text": "Caught in a moment of heavy anticipation, a man in a trench coat holds a crumpled promise as the subway echoes his solitude. Each frame speaks of longing and reflection.",
+        "summary": "Retrato cinematográfico en el metro, cargado de anhelo y reflexión.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Hombre adulto, rasgos definidos, mirada profunda y pensativa.
+*   **E (Entorno):** Estación de metro subterránea, eco visual, luces artificiales.
+*   **A (Acción):** Sosteniendo un papel arrugado (promesa rota), postura contenida.
+*   **I (Iluminación):** Luces duras del metro, sombras marcadas.
+*   **S (Sensación):** Soledad, anhelo, anticipación pesada.
+*   **E (Estilo):** Retrato narrativo urbano, fotorrealista emocional.
+*   **M (Composición):** Plano medio, ángulo neutro, espacio negativo.
+*   **P (Post):** Paleta fría desaturada, acentos verdosos, look cinematográfico.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Cinematic Subway Portrait — Longing and Reflection",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Hombre adulto con rasgos definidos y naturales, piel realista con textura visible.",
+                    "expresion": "Cargada de anticipación y reflexión, mirada profunda y pensativa.",
+                    "vestuario": "Gabardina (trench coat) oscura, clásica y atemporal.",
+                    "coherencia": "Identidad facial consistente, proporciones realistas, sin exageración estilística."
+                },
+                "E_Entorno": {
+                    "fondo": "Estación de metro subterránea.",
+                    "ambientacion": "Espacio urbano cerrado con eco, sensación de vacío y tránsito constante.",
+                    "elementos_clave": "Arquitectura del metro, túneles, luces artificiales."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie o ligeramente inclinado, cuerpo contenido.",
+                    "lenguaje_corporal": "Postura tensa pero controlada, reflejo de espera y duda.",
+                    "accion": "Sosteniendo un papel arrugado como símbolo de una promesa rota.",
+                    "mirada": "Dirigida hacia abajo o hacia el vacío, fuera de cámara."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación artificial urbana.",
+                    "caracteristicas": "Luces duras del metro creando sombras marcadas y contrastes dramáticos."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Soledad, anhelo, anticipación pesada.",
+                    "tono": "Melancólico, introspectivo, cinematográfico."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato cinematográfico urbano narrativo.",
+                    "texturas": "Superficies frías del metro, tela del abrigo con detalle visible.",
+                    "nivel_realismo": "Fotorrealista con carga emocional."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio.",
+                    "angulo": "Ángulo neutro o ligeramente bajo.",
+                    "encuadre": "Composición que deja espacio negativo para enfatizar soledad."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Paleta fría y desaturada con acentos amarillos o verdosos del metro.",
+                    "contraste": "Medio-alto.",
+                    "acabado": "Look cinematográfico urbano con énfasis narrativo."
+                }
+            },
+            "final_prompt": "Cinematic urban portrait of a middle-aged man in a dark trench coat, deep pensive expression, holding a crumpled paper. Underground subway station background with tunnels and artificial lights. High contrast harsh artificial lighting. Photorealistic 8K, cold desaturated palette with greenish accents, melancholic atmosphere. --ar 16:9"
+        }, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
-        "featured_image_url": "https://files.promptgather.io/1d5cc11439c9d56364d8019689e86dee_thumb_1762912188425.jpg",
+        "featured_image_url": "/images/prompts/subway-longing.jpg",
         "paywall_level": "free_preview",
         "created_at": new Date().toISOString(),
         "updated_at": new Date().toISOString(),
         "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }]
     },
     {
-        "id": "ext-pg-454-7",
+        "id": "poetic-sunset-solitude-in-thought",
         "type": "prompt",
-        "title": "Golden Hour Reflections on a Bus",
-        "slug": "golden-hour-reflections-bus",
-        "summary": "Woman on a bus during sunset, pensive mood.",
-        "body_markdown": "A moment frozen in time: a young woman's pensive gaze meets the warmth of sunset, shadows dance across her face, creating a poignant canvas of solitude and thought.",
-        "prompt_text": "A moment frozen in time: a young woman's pensive gaze meets the warmth of sunset, shadows dance across her face, creating a poignant canvas of solitude and thought.",
+        "title": "Golden Hour",
+        "slug": "golden-hour",
+        "summary": "Retrato poético al atardecer, soledad en pensamiento.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Mujer joven, rasgos naturales, textura de piel realista, mirada introspectiva.
+*   **E (Entorno):** Exterior al atardecer, luz cálida en el horizonte.
+*   **A (Acción):** Postura relajada y quieta, mirada fuera de cámara, pausa en el tiempo.
+*   **I (Iluminación):** Luz natural de sunset, sombras suaves que danzan en el rostro.
+*   **S (Sensación):** Soledad, melancolía suave, intimidad emocional.
+*   **E (Estilo):** Lifestyle cinematográfico, fotorrealista con sensibilidad artística.
+*   **M (Composición):** Primer plano íntimo, composición centrada.
+*   **P (Post):** Tonos dorados cálidos, contraste suave, look delicado.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Poetic Sunset Portrait — Solitude in Thought",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Mujer joven con rasgos suaves y naturales, piel realista con textura visible.",
+                    "expresion": "Pensativa, introspectiva, mirada cargada de emoción contenida.",
+                    "coherencia": "Identidad facial consistente, proporciones realistas, sin estilización excesiva."
+                },
+                "E_Entorno": {
+                    "fondo": "Entorno exterior al atardecer.",
+                    "ambientacion": "Escenario tranquilo y silencioso que acompaña el momento introspectivo.",
+                    "elementos_clave": "Luz cálida del sol bajo en el horizonte."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura relajada, cuerpo quieto.",
+                    "lenguaje_corporal": "Quietud contemplativa, sensación de pausa en el tiempo.",
+                    "mirada": "Dirigida ligeramente fuera de cámara."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación natural de sunset.",
+                    "caracteristicas": "Luz cálida lateral creando sombras suaves que danzan sobre el rostro."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Soledad, reflexión, melancolía suave.",
+                    "tono": "Poético, íntimo, emocional."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato cinematográfico lifestyle.",
+                    "texturas": "Piel natural, transiciones suaves de luz y sombra.",
+                    "nivel_realismo": "Fotorrealista con sensibilidad artística."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Primer plano o plano medio.",
+                    "angulo": "Ángulo neutro.",
+                    "encuadre": "Composición íntima centrada en el rostro."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos cálidos dorados con sombras suaves.",
+                    "contraste": "Suave.",
+                    "acabado": "Look cinematográfico delicado y emocional."
+                }
+            },
+            "final_prompt": "Cinematic lifestyle portrait of a young woman with soft natural features, pensive and introspective expression. Outdoor sunset setting with warm low horizon light. Natural sunset lighting creating dancing soft shadows on face. Photorealistic 8K, golden warm tones, soft contrast, delicate emotional atmosphere. --ar 16:9"
+        }, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
-        "featured_image_url": "https://files.promptgather.io/b43de57ed0f3f81b0d8e3103a8727bb5_thumb_1762912186322.jpg",
+        "featured_image_url": "/images/prompts/golden-hour.jpg",
         "paywall_level": "free_preview",
         "created_at": new Date().toISOString(),
         "updated_at": new Date().toISOString(),
         "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }]
     },
     {
-        "id": "ext-pg-454-8",
+        "id": "power-portrait-teal-smoke-authority",
         "type": "prompt",
-        "title": "The Final Boss: A Cinematic Empress of AI Power",
-        "slug": "final-boss-cinematic-empress",
-        "summary": "Commanding presence in a black suit with teal lighting.",
-        "body_markdown": "In a haze of swirling smoke, she stands as the epitome of confidence. Clad in a tailored black suit, her striking presence against soft teal lighting captivates, revealing the commanding essence of Grok Imagine.",
-        "prompt_text": "In a haze of swirling smoke, she stands as the epitome of confidence. Clad in a tailored black suit, her striking presence against soft teal lighting captivates, revealing the commanding essence of Grok Imagine.",
+        "title": "Power Portrait — Teal Smoke Authority",
+        "slug": "teal-smoke-authority-power",
+        "summary": "Retrato de poder cinematográfico con humo teal y estética editorial.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Figura femenina elegante, rasgos definidos, expresión de confianza silenciosa.
+*   **E (Entorno):** Espacio minimalista oscuro, humo en movimiento creando profundidad.
+*   **A (Acción):** Postura firme y erguida, control total del espacio.
+*   **I (Iluminación):** Luz cinematográfica suave, halo teal difuso a través de la neblina.
+*   **S (Sensación):** Confianza, autoridad, misterio elegante.
+*   **E (Estilo):** Retrato de poder editorial, fotorrealista, texturas de traje definidas.
+*   **M (Composición):** Plano medio a tres cuartos, ángulo bajo de autoridad, formato 16:9.
+*   **P (Post):** Paleta oscura con acentos teal, look sofisticado y limpio.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Power Portrait — Teal Smoke Authority (16:9)",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Figura femenina con rasgos definidos y elegantes, estructura facial equilibrada, piel realista con acabado editorial pulido.",
+                    "expresion": "Segura y dominante, confianza silenciosa.",
+                    "vestuario": "Traje negro a medida con líneas limpias y corte impecable.",
+                    "coherencia": "Identidad visual consistente, proporciones realistas."
+                },
+                "E_Entorno": {
+                    "fondo": "Espacio oscuro envuelto en humo en movimiento.",
+                    "ambientacion": "Escenario minimalista y abstracto que enfatiza liderazgo.",
+                    "elementos_clave": "Neblina/smoke creando capas de profundidad."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie, postura firme y erguida.",
+                    "lenguaje_corporal": "Control total del espacio.",
+                    "mirada": "Directa al frente, presencia autoritaria."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación cinematográfica suave.",
+                    "caracteristicas": "Luz teal difusa atravesando el humo, halo envolvente con sombras controladas."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Confianza, autoridad, misterio.",
+                    "tono": "Elegante, poderoso, cinematográfico."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato cinematográfico de poder con estética editorial.",
+                    "texturas": "Tela del traje bien definida; humo etéreo.",
+                    "nivel_realismo": "Fotorrealista."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio a tres cuartos.",
+                    "angulo": "Ligeramente bajo para reforzar autoridad.",
+                    "encuadre": "Formato horizontal 16:9, sujeto dominante centrado con espacio negativo lateral."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Paleta oscura con acentos teal suaves.",
+                    "contraste": "Medio.",
+                    "acabado": "Look limpio y sofisticado con atmósfera envolvente.",
+                    "branding_conceptual": "La presencia visual comunica la esencia de liderazgo asociada a Grok Imagine."
+                }
+            },
+            "final_prompt": "Cinematic power portrait of an elegant woman in a tailored black suit, confident and dominant expression. Dark minimalist background with swirling teal smoke and mist. Soft diffuse cinematic lighting, teal halo effect. Photorealistic 8K, editorial aesthetic, high contrast, sophisticated atmosphere. --ar 16:9"
+        }, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
-        "is_featured": false,
-        "featured_image_url": "https://files.promptgather.io/a94fec40fef5cbfe18f538b39514917c_thumb_1762912184164.jpg",
+        "is_featured": true,
+        "featured_image_url": "/images/prompts/teal-smoke-authority.jpg",
         "paywall_level": "free_preview",
         "created_at": new Date().toISOString(),
         "updated_at": new Date().toISOString(),
-        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }]
-    },
-    {
-        "id": "ext-pg-454-9",
-        "type": "prompt",
-        "title": "Chill Elegance: A Winter's Embrace",
-        "slug": "chill-elegance-winter-embrace",
-        "summary": "Serene figure in fur coat amidst snowflakes.",
-        "body_markdown": "Snowflakes dance around a serene figure draped in a luxurious fur coat. This captivating portrait captures the essence of winter's tranquility, where each snowflake tells a story of cold beauty.",
-        "prompt_text": "Snowflakes dance around a serene figure draped in a luxurious fur coat. This captivating portrait captures the essence of winter's tranquility, where each snowflake tells a story of cold beauty.",
-        "category": "Portrait",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "featured_image_url": "https://files.promptgather.io/2b1dfd23f9eb566372d48c887a8cde40_thumb_1762912182581.jpg",
-        "paywall_level": "free_preview",
-        "created_at": new Date().toISOString(),
-        "updated_at": new Date().toISOString(),
-        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }]
-    },
-    {
-        "id": "ext-pg-454-10",
-        "type": "prompt",
-        "title": "Melodies in the Shadows: Grok AI's Creative Vibes",
-        "slug": "melodies-shadows-creative-vibes",
-        "summary": "Focused artist in a dim music studio.",
-        "body_markdown": "In a dim music studio, a focused artist channels creativity, surrounded by instruments. The only light reveals her passion for sound, GUITARS and MIDI controllers poised for a sonic adventure!",
-        "prompt_text": "In a dim music studio, a focused artist channels creativity, surrounded by instruments. The only light reveals her passion for sound, GUITARS and MIDI controllers poised for a sonic adventure!",
-        "category": "Creative",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "featured_image_url": "https://files.promptgather.io/f69c20c22cf76934de324ebfc4ee7c85_thumb_1762912181251.jpg",
-        "paywall_level": "free_preview",
-        "created_at": new Date().toISOString(),
-        "updated_at": new Date().toISOString(),
-        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }]
-    },
-    {
-        "id": "ext-pg-454-11",
-        "type": "prompt",
-        "title": "The Duality of Existence: Geisha in Contrast",
-        "slug": "duality-existence-geisha-contrast",
-        "summary": "Visual juxtaposition of urbanity and nature in a Geisha portrait.",
-        "body_markdown": "A striking visual juxtaposition captures the geisha's essence—half shrouded in geometric urbanity, half enveloped in vibrant nature. This artwork eloquently narrates humanity's complex relationship with both modernity and the wild.",
-        "prompt_text": "A striking visual juxtaposition captures the geisha's essence—half shrouded in geometric urbanity, half enveloped in vibrant nature. This artwork eloquently narrates humanity's complex relationship with both modernity and the wild.",
-        "category": "Creative",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "featured_image_url": "https://files.promptgather.io/d03afee9b8349258e1e34ba11df0e280_thumb_1762912179849.jpg",
-        "paywall_level": "free_preview",
-        "created_at": new Date().toISOString(),
-        "updated_at": new Date().toISOString(),
-        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }]
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-cinematic", "name": "Cinematic", "slug": "cinematic" }]
     },
     {
         "id": "ext-pg-454-12",
@@ -2259,4 +2425,224 @@ export const EXTRA_MOCK_PROMPTS = [
         "updated_at": new Date().toISOString(),
         "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-cyb", "name": "Cyberpunk", "slug": "cyberpunk" }]
     },
+    {
+        "id": "duality-existence-geisha-contrast",
+        "type": "prompt",
+        "title": "Conceptual Juxtaposition Portrait — Geisha Between Worlds",
+        "slug": "geisha-dual-existence-conceptual",
+        "summary": "Retrato conceptual que divide el mundo de una geisha entre lo urbano y lo natural.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Figura de geisha simbólica, rasgos delicados, expresión serena y contemplativa.
+*   **E (Entorno):** Composición dividida: Lado urbano (arquitectura moderna rígida) vs Lado natural (vegetación exuberante).
+*   **A (Acción):** Postura estática centrada, equilibrio meditativo entre dos realidades.
+*   **I (Iluminación):** Luz fría estructurada (urbano) vs Luz cálida vibrante (natural).
+*   **S (Sensación):** Dualidad, tensión poética entre progreso y naturaleza.
+*   **E (Estilo):** Arte conceptual, semi-realista, fuerte narrativa visual.
+*   **M (Composición):** Plano medio frontal, composición simétrica que enfatiza la división.
+*   **P (Post):** Color grading contrastado, estilo editorial simbólico, contraste alto.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Conceptual Juxtaposition Portrait — Geisha Between Worlds",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Figura femenina inspirada en una geisha, con rasgos delicados y expresión serena, identidad tratada de forma simbólica y artística más que literal.",
+                    "expresion": "Calma, introspectiva, contemplativa.",
+                    "coherencia": "El rostro permanece reconocible y equilibrado a pesar de la división visual conceptual."
+                },
+                "E_Entorno": {
+                    "fondo": "Composición dividida en dos mundos contrastantes.",
+                    "lado_urbano": "Estructuras geométricas, arquitectura moderna, formas rígidas y urbanas.",
+                    "lado_natural": "Vegetación exuberante, colores vivos, naturaleza orgánica y salvaje.",
+                    "ambientacion": "Contraste visual entre modernidad y naturaleza."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura estática y centrada, símbolo de equilibrio entre dos realidades.",
+                    "lenguaje_corporal": "Quietud deliberada, presencia meditativa.",
+                    "mirada": "Neutral o suavemente dirigida al frente, reforzando la dualidad."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación conceptual diferenciada por zonas.",
+                    "caracteristicas": "Luz fría y estructurada en el lado urbano, luz cálida y vibrante en el lado natural."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Dualidad, reflexión, tensión entre progreso y naturaleza.",
+                    "tono": "Poético, simbólico, contemplativo."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Arte conceptual con narrativa visual fuerte.",
+                    "tecnicas": "Juxtaposición visual, división simbólica del retrato.",
+                    "texturas": "Contraste entre superficies geométricas duras y elementos orgánicos vivos.",
+                    "nivel_realismo": "Semi-realista conceptual."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio o primer plano.",
+                    "angulo": "Ángulo frontal.",
+                    "encuadre": "Composición simétrica que enfatiza la división entre ambos mundos."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Paleta contrastante entre tonos fríos urbanos y colores saturados naturales.",
+                    "contraste": "Alto entre ambas mitades.",
+                    "acabado": "Estilo artístico editorial con fuerte carga simbólica."
+                }
+            },
+            "final_prompt": "Conceptual juxtaposition portrait of a symbolic geisha figure, delicate features, serene expression. The scene is perfectly split vertically: left side features cold blue rigid modern urban architecture, right side features warm vibrant organic exuberant jungle vegetation. Symmetrical composition, centered subject. Conceptual art style, high contrast between cold and warm lighting, 8K resolution, symbolic editorial aesthetic. --ar 16:9"
+        }, null, 2),
+        "category": "Conceptual",
+        "level": "advanced",
+        "is_published": true,
+        "is_featured": true,
+        "featured_image_url": "/images/prompts/geisha-dual-existence.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-conceptual", "name": "Conceptual", "slug": "conceptual" }]
+    },
+    {
+        "id": "melodies-shadows-creative-vibes",
+        "type": "prompt",
+        "title": "Cinematic Music Studio Portrait — Creative Focus",
+        "slug": "music-studio-creative-focus",
+        "summary": "Retrato cinematográfico de una artista en su estudio, capturando la esencia de la creación musical.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Artista femenina, rasgos naturales y expresivos, profundamente concentrada.
+*   **E (Entorno):** Estudio musical en penumbra, guitarras y controladores MIDI de fondo.
+*   **A (Acción):** Interactuando con el equipo, postura inmersiva y enfocada.
+*   **I (Iluminación):** Luz mínima direccional, creando sombras profundas y atmósfera íntima.
+*   **S (Sensación):** Pasión, introspección, proceso creativo auténtico.
+*   **E (Estilo):** Fotorrealista, estilo lifestyle cinematográfico.
+*   **M (Composición):** Plano medio, composición equilibrada entre artista e instrumentos.
+*   **P (Post):** Tonos cálidos y oscuros, acabado analógico, contraste medio-alto.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Cinematic Music Studio Portrait — Creative Focus",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Artista femenina con rasgos naturales y expresivos, piel realista, identidad clara y auténtica.",
+                    "expresion": "Concentrada, inspirada, profundamente conectada con el sonido.",
+                    "coherencia": "Rasgos consistentes, apariencia realista sin estilización excesiva."
+                },
+                "E_Entorno": {
+                    "fondo": "Estudio musical en penumbra.",
+                    "elementos_clave": "Guitarras visibles, controladores MIDI y equipo musical rodeando a la artista.",
+                    "ambientacion": "Espacio creativo íntimo y funcional, cargado de potencial sonoro."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie o sentada frente al equipo musical.",
+                    "lenguaje_corporal": "Postura enfocada, inmersa en el proceso creativo.",
+                    "accion": "Interactuando o preparándose para usar guitarras y controladores MIDI.",
+                    "mirada": "Dirigida hacia los instrumentos o ligeramente hacia abajo, en concentración."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación mínima y direccional.",
+                    "caracteristicas": "Un único punto de luz que revela parcialmente el rostro y los instrumentos, dejando el resto del espacio en sombra."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Creatividad, pasión, introspección.",
+                    "tono": "Íntimo, artístico, inspirador."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato cinematográfico lifestyle en entorno musical.",
+                    "texturas": "Materiales reales de instrumentos, superficies mates y metálicas.",
+                    "nivel_realismo": "Fotorrealista."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio.",
+                    "angulo": "Ángulo neutro o ligeramente lateral.",
+                    "encuadre": "Composición que integra a la artista y los instrumentos sin saturar la escena."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos oscuros y cálidos con acentos suaves.",
+                    "contraste": "Medio-alto, enfatizando luces y sombras.",
+                    "acabado": "Look cinematográfico íntimo con sensación analógica."
+                }
+            },
+            "final_prompt": "Cinematic lifestyle portrait of a female music artist, natural and expressive features, deeply focused and connected to sound. Setting is a dim music studio with visible guitars and MIDI controllers in the background. Minimal directional lighting casting soft shadows. Photorealistic 8K, warm analog color grading, intimate creative atmosphere. --ar 16:9"
+        }, null, 2),
+        "category": "Creative",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/music-studio-creative.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-music", "name": "Music", "slug": "music" }]
+    },
+    {
+        "id": "chill-elegance-winter-embrace",
+        "type": "prompt",
+        "title": "Winter Tranquility Portrait — Snowfall Elegance",
+        "slug": "winter-snowfall-elegance",
+        "summary": "Retrato invernal que captura la elegancia y la paz de la nieve al caer.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Figura femenina elegante, traje de piel lujoso, expresión serena y calmada.
+*   **E (Entorno):** Exterior invernal, caída de nieve suave, atmósfera silenciosa.
+*   **A (Acción):** Postura erguida y relajada, presencia serena ante la cámara.
+*   **I (Iluminación):** Luz natural difusa de invierno, envolvente y suave.
+*   **S (Sensación):** Paz, quietud, elegancia fría y poética.
+*   **E (Estilo):** Fotorrealista con toque artístico, retrato cinematográfico.
+*   **M (Composición):** Plano medio centrado, los copos de nieve envuelven al sujeto.
+*   **P (Post):** Paleta fría (blancos y grises azulados), contraste suave, look etéreo.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Winter Tranquility Portrait — Snowfall Elegance",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Figura femenina con rasgos serenos y elegantes, piel natural con tonos fríos suaves, identidad visual calmada y armónica.",
+                    "expresion": "Tranquila, contemplativa, con una sensación de quietud interior.",
+                    "vestuario": "Abrigo de piel lujoso que envuelve la figura con presencia y sofisticación.",
+                    "coherencia": "Proporciones realistas y apariencia refinada, sin exageración."
+                },
+                "E_Entorno": {
+                    "fondo": "Escenario exterior invernal con caída de nieve.",
+                    "ambientacion": "Paisaje frío y silencioso que refuerza la sensación de calma.",
+                    "elementos_clave": "Copos de nieve visibles flotando alrededor del sujeto."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura erguida y relajada.",
+                    "lenguaje_corporal": "Calma absoluta, presencia serena.",
+                    "mirada": "Suave, dirigida al frente o ligeramente fuera de cámara."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación natural difusa de invierno.",
+                    "caracteristicas": "Luz suave y envolvente que resalta la textura del abrigo y los copos de nieve."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Paz, quietud, elegancia fría.",
+                    "tono": "Poético, invernal, contemplativo."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato cinematográfico de invierno.",
+                    "texturas": "Detalle visible en la piel, el abrigo de piel y los copos de nieve.",
+                    "nivel_realismo": "Fotorrealista con toque artístico."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio.",
+                    "angulo": "Ángulo neutro.",
+                    "encuadre": "Composición centrada con nieve envolviendo al sujeto."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Paleta fría con blancos suaves y grises azulados.",
+                    "contraste": "Suave.",
+                    "acabado": "Look limpio y etéreo que refuerza la tranquilidad invernal."
+                }
+            },
+            "final_prompt": "Cinematic winter portrait of an elegant woman in a luxurious fur coat, serene and contemplative expression. Natural soft cold skin tones. Falling snow in a quiet winter landscape background. Diffuse natural winter lighting. Photorealistic 8K, cold color palette with soft whites and blueish grays, ethereal atmosphere. --ar 16:9"
+        }, null, 2),
+        "category": "Cinematic",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/winter-tranquility.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-winter", "name": "Winter", "slug": "winter" }]
+    }
 ];

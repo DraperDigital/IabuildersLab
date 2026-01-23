@@ -4,6 +4,20 @@ import { getTranslations } from "next-intl/server";
 import { Sparkles, Zap, Code2, Rocket } from "lucide-react";
 import { PublicHeader } from "@/components/public-header";
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Landing' });
+
+  return {
+    title: t('title'),
+    description: t('subtitle'),
+    openGraph: {
+      title: t('title'),
+      description: t('subtitle'),
+    },
+  };
+}
+
 export default async function LandingPage() {
   const t = await getTranslations('Landing');
   const common = await getTranslations('Common');
