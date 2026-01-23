@@ -1,0 +1,2857 @@
+-- Clear existing data to prevent duplicates during re-seeding (Optional, remove if you want to keep existing data)
+-- truncate table public.content_tags, public.content, public.tags cascade;
+
+-- Seed Tags
+insert into public.tags (name, slug) values 
+('Productivity', 'productivity'),
+('Marketing', 'marketing'),
+('Automation', 'automation'),
+('Sales', 'sales'),
+('Research', 'research'),
+('SEO', 'seo'),
+('Agents', 'agents'),
+('Analysis', 'analysis'),
+('Content', 'content'),
+('Writing', 'writing'),
+('CRM', 'crm'),
+('Real-time', 'real-time'),
+('Ops', 'ops'),
+('Documentation', 'documentation'),
+('Zapier', 'zapier'),
+('Make', 'make'),
+('Onboarding', 'onboarding'),
+('Link', 'link'),
+('Notion', 'notion'),
+('Social', 'social')
+on conflict (slug) do nothing;
+
+-- Seed Content (Letting Postgres generate the UUIDs)
+insert into public.content (type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level) values
+-- Systems
+('system', 'AI Research & Insight System', 'ai-research-insight-system', 'A complete framework for aggregating, analyzing, and synthesizing market research using AI agents.', '# AI Research & Insight System\n\nThis system is designed to drastically reduce the time it takes to conduct deep market research.\n\n## How it works\n1. **Input**: Unstructured data sources (PDFs, URLs, Notes).\n2. **Process**: Intelligent agents parse and categorize findings.\n3. **Output**: Structured insight reports.\n\n### Key Features\n- Automatic intent detection\n- Source verification\n- Synthesis pipelines\n\n## Implementation\n```typescript\nconst researchAgent = new Agent({\n  model: ''gpt-4-turbo'',\n  tools: [webSearch, pdfParser]\n});\n```\n\n> "This system changed how we approach market analysis." - Beta Tester', 'Research', 'intermediate', true, true, 'free_preview'),
+('system', 'AI Content Production System', 'ai-content-production-system', 'End-to-end pipeline for generating high-quality blog posts, social media snippets, and newsletters.', '# AI Content Production System\n\nStreamline your content engine.\n\n## locked content\nThis content is for Access members only.', 'Content', 'beginner', true, true, 'access'),
+('system', 'AI Lead Capture System', 'ai-lead-capture-system', 'Automated qualification and routing for inbound leads using natural language processing.', 'Locked content...', 'Sales', 'advanced', true, false, 'plus'),
+('system', 'AI Sales Enablement System', 'ai-sales-enablement-system', 'Dynamic battle cards and objection handling scripts generated in real-time during calls.', 'Locked content...', 'Sales', 'advanced', true, false, 'pro'),
+('system', 'AI Documentation & SOP System', 'ai-documentation-sop-system', 'Automatically turn loom videos and messy notes into pristine Standard Operating Procedures.', 'Locked content...', 'Operations', 'intermediate', true, true, 'access'),
+
+-- Prompts
+('prompt', 'Master SEO Content Generator', 'master-seo-content-generator', 'A multi-step prompt chain to generate high-ranking, human-like SEO articles.', '# Master SEO Prompt\n\nUse this to rank #1...', 'Marketing', 'intermediate', true, true, 'free_preview'),
+('prompt', 'Cold Email Outreach Optimizer', 'cold-email-optimizer', 'Refine your cold outreach emails to maximize open rates and replies.', '# Cold Email Prompt\n\n...', 'Sales', 'beginner', true, false, 'access'),
+
+-- Automations
+('automation', 'New Client Onboarding Flow', 'new-client-onboarding-flow', 'Zapier + Make blueprint to automate contract sending, invoicing, and project setup.', '# Onboarding Automation\n\nLink to blueprint...', 'Operations', 'intermediate', true, true, 'plus'),
+('automation', 'Social Media Auto-Poster', 'social-media-auto-poster', 'Connect your Notion content calendar to LinkedIn and Twitter automatically.', '# Social Automation\n\n...', 'Marketing', 'beginner', true, false, 'free_preview')
+on conflict (slug) do nothing;
+
+-- Link Content and Tags (Dynamic lookup by slug because IDs are auto-generated)
+insert into public.content_tags (content_id, tag_id)
+select c.id, t.id from public.content c, public.tags t where c.slug = 'ai-research-insight-system' and t.slug in ('research', 'agents', 'analysis')
+on conflict do nothing;
+
+insert into public.content_tags (content_id, tag_id)
+select c.id, t.id from public.content c, public.tags t where c.slug = 'ai-content-production-system' and t.slug in ('content', 'marketing', 'writing')
+on conflict do nothing;
+
+insert into public.content_tags (content_id, tag_id)
+select c.id, t.id from public.content c, public.tags t where c.slug = 'ai-lead-capture-system' and t.slug in ('sales', 'automation', 'crm')
+on conflict do nothing;
+
+insert into public.content_tags (content_id, tag_id)
+select c.id, t.id from public.content c, public.tags t where c.slug = 'ai-sales-enablement-system' and t.slug in ('sales', 'real-time')
+on conflict do nothing;
+
+insert into public.content_tags (content_id, tag_id)
+select c.id, t.id from public.content c, public.tags t where c.slug = 'ai-documentation-sop-system' and t.slug in ('ops', 'documentation')
+on conflict do nothing;
+
+insert into public.content_tags (content_id, tag_id)
+select c.id, t.id from public.content c, public.tags t where c.slug = 'master-seo-content-generator' and t.slug in ('seo', 'writing')
+on conflict do nothing;
+
+insert into public.content_tags (content_id, tag_id)
+select c.id, t.id from public.content c, public.tags t where c.slug = 'cold-email-optimizer' and t.slug in ('email', 'sales', 'optimization')
+on conflict do nothing;
+
+insert into public.content_tags (content_id, tag_id)
+select c.id, t.id from public.content c, public.tags t where c.slug = 'new-client-onboarding-flow' and t.slug in ('zapier', 'make', 'onboarding')
+on conflict do nothing;
+
+insert into public.content_tags (content_id, tag_id)
+select c.id, t.id from public.content c, public.tags t where c.slug = 'social-media-auto-poster' and t.slug in ('social', 'notion', 'automation')
+on conflict do nothing;
+-- Generated by import_nano_banana.js at 2026-01-23T04:49:43.932Z
+
+
+-- Ensure 'Nano Banana' tag exists
+INSERT INTO public.tags (name, slug) 
+VALUES ('Nano Banana', 'nano-banana') 
+ON CONFLICT (slug) DO NOTHING;
+
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 100: Creative Ad with Real Object and Hand-Drawn Doodle',
+  'nano-banana-case-100',
+  'Created by azed_ai. Imported from Awesome Nano Banana.',
+  'A minimalist and creative advertisement set on a clean white background.
+A real [Real Object] is integrated into a hand-drawn black ink doodle, using loose, playful lines. The [Doodle Concept] interacts with the object in a clever, imaginative way. Include bold black [Ad Copy] text at the top or center. Place the [Brand Logo] clearly at the bottom. The visual should be clean, fun, high-contrast, and conceptually smart.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-100' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 99: Black and White Portrait Art',
+  'nano-banana-case-99',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'A high-resolution black and white portrait artwork, in an editorial and fine art photography style. The background features a soft gradient, transitioning from mid-gray to almost pure white, creating a sense of depth and tranquility. Fine film grain adds a tactile, analog-like softness to the image, reminiscent of classic black and white photography.
+
+On the right side of the frame, a blurred yet striking face of Harry Potter subtly emerges from the shadows, not in a traditional pose, but as if caught in a moment of thought or breath. Only a part of his face is visible: perhaps an eye, a cheekbone, the contour of his lips, evoking a sense of mystery, intimacy, and elegance. His features are delicate yet profound, exuding a melancholic and poetic beauty without being overly dramatic.
+
+A gentle, directional light, softly diffused, caresses the curve of his cheek or glints in his eye—this is the emotional core of the image. The rest of the composition is dominated by ample negative space, intentionally kept simple, allowing the image to breathe. There are no texts, no logos in the image—only an interplay of light, shadow, and emotion.
+
+The overall atmosphere is abstract yet deeply human, like a fleeting glance or a half-remembered dream: intimate, timeless, and poignantly beautiful.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-99' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 98: Blurred Silhouette Behind Frosted Glass',
+  'nano-banana-case-98',
+  'Created by umesh_ai. Imported from Awesome Nano Banana.',
+  'A black and white photograph shows the blurred silhouette of a [SUBJECT] behind a frosted or translucent surface. The [PART] is sharply defined and pressed against the surface, creating a stark contrast with the rest of the hazy, indistinct figure. The background is a soft gradient of gray tones, enhancing the mysterious and artistic atmosphere.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-98' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 97: Cute and Cozy Knitted Doll',
+  'nano-banana-case-97',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'A close-up, professionally composed photograph showcasing a hand-crocheted yarn doll gently cradled by two hands. The doll has a rounded shape, featuring the cute chibi image of the [upload image] character, with vivid contrasting colors and rich details. The hands holding the doll are natural and gentle, with clearly visible finger postures, and natural skin texture and light/shadow transitions, conveying a warm and realistic touch. The background is slightly blurred, depicting an indoor environment with a warm wooden tabletop and natural light streaming in from a window, creating a comfortable and intimate atmosphere. The overall image conveys a sense of exquisite craftsmanship and cherished warmth.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-97' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 96: Custom Anime Figure',
+  'nano-banana-case-96',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Generate an anime-style figure photo placed on a desktop, presented from a casual, everyday snapshot perspective as if taken with a mobile phone. The figure model is based on the attached character photo, accurately reproducing the full body posture, facial expression, and clothing style of the person in the photo, ensuring the entire figure is fully rendered. The overall design is exquisite and detailed, with hair and clothing featuring natural, soft gradient colors and fine textures. The style leans towards Japanese anime, rich in detail, with realistic textures and a beautiful appearance.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-96' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 95: Bobblehead Generator from Selfie',
+  'nano-banana-case-95',
+  'Created by thisdudelikesAI. Imported from Awesome Nano Banana.',
+  'Turn this photo into a bobblehead: enlarge the head slightly, keep the face accurate and cartoonify the body. [Place it on a bookshelf].',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-95' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 94: Three Animals Selfie at Landmark',
+  'nano-banana-case-94',
+  'Created by berryxia_ai. Imported from Awesome Nano Banana.',
+  'A close-up selfie of three [animal type] with different expressions in front of the iconic [landmark], taken at golden hour with cinematic lighting. The animals are positioned close to the camera with their heads touching, mimicking a selfie pose, showing joyful, surprised, and calm expressions. The background features the full architectural detail of [landmark], softly illuminated, with a warm ambient atmosphere. Shot in a photographic, realistic cartoon style, high detail, 1:1 aspect ratio.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-94' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 93: Glass Retexturing',
+  'nano-banana-case-93',
+  'Created by egeberkina. Imported from Awesome Nano Banana.',
+  'retexture the image attached based on the JSON aesthetic below
+{
+"style": "photorealistic 3D render",
+"material": "glass with transparent and iridescent effects",
+"surface_texture": "smooth, polished with subtle reflections and refractive effects",
+"lighting": {
+"type": "studio HDRI",
+"intensity": "high",
+"direction": "angled top-left key light and ambient fill",
+"accent_colors": ["blue", "green", "purple"],
+"reflections": true,
+"refractions": true,
+"dispersion_effects": true,
+"bloom": true
+},
+"color_scheme": {
+"primary": "transparent with iridescent blue, green, and purple hues",
+"secondary": "crystal-clear with subtle chromatic shifts",
+"highlights": "soft, glowing accents reflecting rainbow-like effects",
+"rim_light": "soft reflective light around edges"
+},
+"background": {
+"color": "black",
+"vignette": true,
+"texture": "none"
+},
+"post_processing": {
+"chromatic_aberration": true,
+"glow": true,
+"high_contrast": true,
+"sharp_details": true
+}
+}',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-93' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 92: Perspective 3D Pop-Out Effect',
+  'nano-banana-case-92',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Hyperrealistic, top-down bird''s-eye view shot, a beautiful Instagram model [Anne Hathaway / see reference image], with exquisite and beautiful makeup and fashionable styling, standing on the screen of a smartphone held up by someone. The image creates a strong perspective illusion. Emphasize the 3D effect of the girl standing out from the phone. She wears black-rimmed glasses, high-street fashion, and strikes a cute, playful pose. The phone screen is treated as a dark floor, like a small stage. The scene uses strong forced perspective to show the proportional difference between the hand, the phone, and the girl. The background is clean gray, using soft indoor light, shallow depth of field, and the overall style is surrealistic photorealistic compositing. Very strong perspective.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-92' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 91: Google Maps to Ancient Treasure Map',
+  'nano-banana-case-91',
+  'Created by umesh_ai. Imported from Awesome Nano Banana.',
+  'Transform the image to an ancient treasure map drawn on aged parchment. The map includes detailed elements like sailing ships on the ocean, old ports or castles on the coastline, a dotted path leading to a large ''X'' marking the treasure spot, mountains, palm trees, and a decorative compass rose. The overall style is reminiscent of old pirate adventure films.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-91' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 90: Branded Mechanical Keycaps',
+  'nano-banana-case-90',
+  'Created by egeberkina. Imported from Awesome Nano Banana.',
+  'ultra-realistic 3D render of four mechanical keyboard keycaps in a tight 2x2 grid, all keys touching. View from an isometric angle. One key is transparent with the word “{just}” printed in {white}. The other three colors are: {black, purple, and white}. One key features the {Github} logo. The other two say "{fork}" and "{it}". Realistic plastic texture, rounded sculpted keycaps, soft shadows, clean light-gray background.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-90' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 89: Chrome Emoji Pin',
+  'nano-banana-case-89',
+  'Created by egeberkina. Imported from Awesome Nano Banana.',
+  'highly detailed 3D render of a single metallic {👍} emoji pin attached to a vertical product card, ultra-glossy chrome finish, smooth rounded 3D icon, stylized futuristic design, soft reflections, clean shadows, paper card has a die-cut euro hole at the top center, bold title “{Awesome}” above the pin, fun tagline “{Smash that ⭐ if you like it!}” below, soft gray background, soft studio lighting, minimal aesthetic',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-89' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 88: Children''s Coloring Page Illustration (with Color Reference)',
+  'nano-banana-case-88',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'A black and white line drawing coloring illustration, suitable for direct printing on standard size (8.5x11 inch) paper, without paper borders. The overall illustration style is fresh and simple, using clear and smooth black outline lines, without shadows, grayscale, or color filling, with a pure white background for easy coloring.
+[At the same time, for the convenience of users who are not good at coloring, please generate a complete colored version in the lower right corner as a small image for reference]
+Suitable for: [6-9 year old children]
+Scene description:
+[A unicorn is walking on the grass in the forest, with bright sunshine, blue sky and white clouds]',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-88' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 87: Integrating Word Meaning into Letters',
+  'nano-banana-case-87',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Integrate the meaning of the word into the letters, cleverly blending graphics and letters.
+Word: {beautify}
+Add a brief explanation of the word below.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-87' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 86: Double Exposure',
+  'nano-banana-case-86',
+  'Created by rezzycheck (Sora). Imported from Awesome Nano Banana.',
+  'Double exposure, Midjourney style, merging, blending, overlay double exposure image, Double Exposure style, An exceptional masterpiece by Yukisakura revealing a fantastic double exposure composition of Aragorn son of Arathorn''s silhouette harmoniously intertwined with the visually striking, rugged landscapes of Middle Earth during a lively spring season. Sun-bathed pine forests, mountain peaks, and a lone horse cutting through the trail echo outward through the fabric of his figure, adding layers of narrative and solitude. Beautiful tension builds as the stark monochrome background maintains razor-sharp contrast, drawing all focus to the richly layered double exposure. Characterized by its vibrant full-color scheme within Aragorn''s silhouette and crisp, deliberate lines that trace every contour with emotional precision. (Detailed:1.45). (Detailed background:1.4).',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-86' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 85: Surreal Interaction Scene',
+  'nano-banana-case-85',
+  'Created by umesh_ai. Imported from Awesome Nano Banana.',
+  'A pencil sketch of [Subject 1] interacting with [Subject 2], where [Subject 2] is rendered as a realistic, full-color object, creating a surreal contrast against the hand-drawn style of [Subject 1] and the background',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-85' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 84: Animal Silicone Wrist Rest',
+  'nano-banana-case-84',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Create an image of a cute chibi-style silicone wrist rest based on the {🐼} emoji. The wrist rest is made of soft, food-grade silicone with a skin-friendly matte surface. The interior is filled with slow-rebound foam. Designed in a personified cartoon style, the expression is lively, with both arms stretched out as if hugging the user’s wrist while lying on a desk. The overall shape is round, soft, and adorable, featuring the classic {🐼} color scheme. The design is comforting and cute, suitable for office use. The background is a solid white color with soft lighting. Rendered in a product photography style, the angle is either front-facing or at a 45-degree top-down view, showcasing high-definition details and emphasizing the silicone texture and comfort functionality.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-84' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 83: Glowing Lines Anatomy Diagram',
+  'nano-banana-case-83',
+  'Created by umesh_ai. Imported from Awesome Nano Banana.',
+  'A digital illustration of a [SUBJECT], portrayed with a network of glowing clean pristine blue lines outlining its anatomy. The image is set against a dark background, highlighting the [SUBJECT] form and features. A specific area such as [PART] is emphasized with a red glow to indicate a point of interest or significance. The style is both educational and visually captivating, designed to resemble an advanced imaging technique',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-83' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 82: Signature City Weather Forecast',
+  'nano-banana-case-82',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Show a clear 45-degree bird’s-eye view of an isometric miniature city scene featuring Shanghai’s iconic buildings, such as the Oriental Pearl Tower and the Bund. The weather effect—cloudy—blends softly into the city, interacting gently with the architecture. Use physically based rendering (PBR) and realistic lighting. Solid color background, crisp and clean. Centered composition to highlight the precision and detail of the 3D model. Display “Shanghai Cloudy 20°C” and a cloudy weather icon at the top of the image.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-82' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 81: 3D Translucent Glass Transformation',
+  'nano-banana-case-81',
+  'Created by azed_ai. Imported from Awesome Nano Banana.',
+  'A soft, 3D translucent glass of the attached image with a frosty matte finish and detailed texture, original colors, centered on a light gray background, floats gently in space, soft shadows, natural lighting',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-81' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 80: Code Style Business Card',
+  'nano-banana-case-80',
+  'Created by umesh_ai. Imported from Awesome Nano Banana.',
+  'A close-up shot of a hand holding a business card designed to look like a JSON file opened in VS Code. The card shows code formatted in realistic syntax-highlighted JSON code. The window includes typical toolbar icons and a title bar labeled Business Card.json, styled exactly like the interface of VS Code. Background is slightly blurred, keeping the focus on the card.
+The card displays the following code formatted in JSON:
+{
+"name": "Jamez Bondos",
+"title": "Your Title",
+"email": "your@email.com",
+"link": "yourwebsite"
+}',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-80' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 79: Lego Cityscape (Shanghai Bund)',
+  'nano-banana-case-79',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Create a highly detailed and vividly colored LEGO-style scene of the Shanghai Bund. The foreground features the iconic historical buildings of the Bund, meticulously recreated with LEGO bricks in Western and neoclassical architectural styles — including clock towers, domes, and colonnades. LEGO minifigures are seen strolling along the riverfront, taking photos, and sightseeing, with classic LEGO-style cars parked along the street.
+In the background lies the spectacular Huangpu River, assembled with translucent blue LEGO bricks. On the water, LEGO ferries and tour boats sail along. Across the river stands the skyline of Lujiazui in Pudong, including the Oriental Pearl Tower, Shanghai Tower, Jin Mao Tower, and Shanghai World Financial Center — all rendered as vibrant, lifelike LEGO skyscrapers.
+The sky is LEGO’s signature bright blue, adorned with a few white LEGO brick clouds, creating a visual full of energy and modernity.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-79' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 78: Glass Retexturing',
+  'nano-banana-case-78',
+  'Created by egeberkina. Imported from Awesome Nano Banana.',
+  'retexture the image attached based on the json below:
+
+{
+"style": "photorealistic",
+"material": "glass",
+"background": "plain white",
+"object_position": "centered",
+"lighting": "soft, diffused studio lighting",
+"camera_angle": "eye-level, straight-on",
+"resolution": "high",
+"aspect_ratio": "2:3",
+"details": {
+"reflections": true,
+"shadows": false,
+"transparency": true
+}
+}',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-78' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 77: Story Scene in Crystal Ball',
+  'nano-banana-case-77',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'A delicate crystal ball rests quietly on a warm, softly lit tabletop by the window. The background is blurred and hazy, with warm-toned sunlight gently passing through the crystal ball, refracting specks of golden light that softly illuminate the dim surroundings.
+Inside the crystal ball, a miniature three-dimensional world themed around {Chang’e Flying to the Moon} is naturally displayed — a finely detailed, dreamlike 3D scene. All characters and objects are rendered in adorable chibi style, exquisitely crafted and visually charming, with vivid emotional interactions between them.
+The overall atmosphere is rich with East Asian fantasy elements, full of intricate details and a surreal magical realism texture. The entire scene feels poetic and dreamy, luxurious yet elegant, radiating a gentle, comforting glow — as if imbued with life through the warm play of light and shadow.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-77' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 76: Nostalgic Anime Film Poster',
+  'nano-banana-case-76',
+  'Created by photis (Sora). Imported from Awesome Nano Banana.',
+  '{The Lord of the Rings} anime film poster, the anime is in the style of High School DXD. Visible even folds are seen across the poster as it’s been folded over time, and due to some creases over damaging the poster has caused some physical damage scuffing along the creases and the color has partially faded. Indiscriminate flaps and folds and scratches all around simply from moving back and forth causing subtle yet incremental damage with the ever expanding of entropy we cannot escape, but the loving memories in our hearts will forever be whole. Making the objects we collect along the way priceless is the essence you feel when looking at this nostalgic poster.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-76' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 75: Social Media Frame Integration',
+  'nano-banana-case-75',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Create a stylized 3D chibi character based on the attached photo, accurately preserving the subject’s facial features and clothing details. The character is making a finger heart with the left hand (with a red heart element above the fingers) and playfully sitting on the edge of a giant Instagram frame, with both legs hanging outside the frame. The top of the frame displays the username “Beauty,” and various social media icons (like, comment, share) float around the scene.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-75' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 74: Creative Logo Shaped Bookshelf',
+  'nano-banana-case-74',
+  'Created by umesh_ai. Imported from Awesome Nano Banana.',
+  'Create a photograph of a modern bookshelf inspired by the shape of [LOGO]. The bookshelf features flowing, interconnected curves forming multiple sections of varying sizes. It is made of sleek matte black metal with wooden shelves inside the loops. Soft, warm LED lighting outlines the inner curves. The bookshelf is mounted on a neutral-toned wall and holds a mix of colorful books, small plants, and minimalistic art pieces. The overall vibe is creative, elegant, and slightly futuristic',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-74' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 73: Cute Chibi Keychain',
+  'nano-banana-case-73',
+  'Created by azed_ai. Imported from Awesome Nano Banana.',
+  'A close-up photo of a cute, colorful keychain held by person''s hand. The keychain features a chibi-style of the [attached image ]. The keychain is made of soft rubber with bold black outlines and attached to a small silver keyring, neutral background',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-73' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 72: Gold Pendant Necklace',
+  'nano-banana-case-72',
+  'Created by azed_ai. Imported from Awesome Nano Banana.',
+  'A photorealistic close-up of a gold pendant necklace held by female hand. The pendant features a bas-relief engraving of [image /emoji]. The pendant hangs from a polished gold chain. The background is softly blurred with neutral beige tones, and natural lighting, realistic skin tones, Product photography, 16:9 aspect ratio.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-72' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 71: Miniature Cyberpunk Tilt-Shift Landscape',
+  'nano-banana-case-71',
+  'Created by terry623. Imported from Awesome Nano Banana.',
+  'A highly detailed miniature [Cyberpunk] landscape viewed from above, using a tilt-shift lens effect. The scene is filled with toy-like elements, all rendered in high-resolution CG. Dramatic lighting creates a cinematic atmosphere, with vivid colors and strong contrast, emphasizing depth of field and a realistic micro-perspective, making the viewer feel as if overlooking a toy world. The image contains many visual jokes and details worth repeated viewing.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-71' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 70: Original Pokemon Creation',
+  'nano-banana-case-70',
+  'Created by Anima_Labs. Imported from Awesome Nano Banana.',
+  'Create an original creature inspired by this object (photo provided). The creature should look like it belongs in a fantasy monster-catching universe, with a cute or cool design influenced by retro Japanese RPG monster art. The image must include:
+– A full-body view of the creature, inspired by the shape, materials or purpose of the object.
+– A small orb or capsule (similar an a pokeball) at its feet, designed with patterns and colors matching the object’s look — not a standard Pokéball, but a custom design.
+– An invented name for the creature, displayed next to or below it. – Its elemental type (e.g., Fire, Water, Metal, Nature, Electric…), based on the object’s core properties. The illustration should look like it comes from a fantasy creature encyclopedia, with clean lines, soft shadows, and an expressive, character-driven design.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-70' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 69: Silhouette Art',
+  'nano-banana-case-69',
+  'Created by umesh_ai. Imported from Awesome Nano Banana.',
+  'The silhouette of a basic outline of a [PROMPT]. The background is bright yellow, and the silhouette is solid black.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-69' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 68: Futuristic Logo Trading Card',
+  'nano-banana-case-68',
+  'Created by hewarsaber. Imported from Awesome Nano Banana.',
+  '{
+"prompt": "A futuristic trading card with a dark, moody neon aesthetic and soft sci-fi lighting. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}, with no additional text or label, illuminated with a smooth gradient of {{colors}}, but not overly bright. The reflections on the card surface should be subtle, with a slight glossy finish catching ambient light. The background is a dark carbon fiber texture or deep gradient with soft ambient glows bleeding into the edges. Add subtle light rays streaming down diagonally from the top, giving the scene a soft cinematic glow. Apply light motion blur to the edges and reflections to give the scene a sense of depth and energy, as if it''s part of a high-end tech animation still. Below the card, include realistic floor reflections that mirror the neon edges and logo—slightly diffused for a grounded, futuristic look. Text elements are minimal and softly lit: top-left shows ''{{ticker}}'', top-right has a stylized signature, and the bottom displays ''{{company_name}}'' with a serial number ''{{card_number}}'', a revenue badge reading ''{{revenue}}'', and the year ''{{year}}''. Typography should have a faint glow with slight blurring, and all elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card.",
+"style": {
+"lighting": "Neon glow, soft reflections",
+"font": "Modern sans-serif, clean and minimal",
+"layout": "Centered, structured like a digital collectible card",
+"materials": "Glass, holographic plastic, glowing metal edges"
+},
+"parameters": {
+"logo": "Tesla logo",
+"ticker": "TSLA",
+"company_name": "Tesla Inc.",
+"card_number": "#0006",
+"revenue": "$96.8B",
+"year": "2025",
+"colors": [
+"red",
+"white",
+"dark gray"
+]
+},
+"medium": "3D render, high-resolution digital art",
+"size": "1080px by 1080px"
+}',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-68' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 67: Ultra-realistic 3D Game',
+  'nano-banana-case-67',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Ultra-realistic 3D rendered image that replicates the character design of Natasha from Command & Conquer: Red Alert 3 in 2008, following the original model exactly. The scene is set in a dim and cluttered bedroom from the year 2008. The character is sitting on the carpet, facing an old-fashioned television that is playing Command & Conquer: Red Alert 3 and a game console controller.
+The entire room is filled with a nostalgic atmosphere of the year 2008: snack packaging bags, soda cans, posters, and tangled wires are everywhere. Natasha Volkova is captured in the moment of turning her head, looking back at the camera over her shoulder. There is an innocent smile on her iconic ethereally beautiful face. Her upper body is slightly twisted, with a natural dynamic, as if she is reacting to being startled by the flash.
+The flash slightly overexposes her face and clothes, making her silhouette stand out more prominently in the dimly lit room. The whole photo appears raw and natural. The strong contrast between light and dark casts deep shadows behind her. The image is full of tactile feel, with a simulated texture that resembles an authentic film snapshot from 2008.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-67' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 66: Creative Silk Universe',
+  'nano-banana-case-66',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Transform the {❄️} into a soft 3D object with a silk texture. The entire surface of the object is wrapped in smooth and flowing silk fabric, featuring surreal wrinkle details, soft highlights, and shadows. The object gently floats in the center of a clean light gray background, creating a light and elegant atmosphere. The overall style is surreal, tactile, and modern, conveying a sense of comfort and refined playfulness. Studio lighting, high-resolution rendering.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-66' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 65: Surreal Underwater Scene Popsicle',
+  'nano-banana-case-65',
+  'Created by madpencil_. Imported from Awesome Nano Banana.',
+  'Tilt POV shot of a hand holding a surreal popsicle with a transparent blue exterior, revealing an underwater scene inside: a tiny scuba diver with tiny fish floating with bubbles, ocean waves crashing, and a green popsicle stick running through the center. The popsicle is melting slightly, with a wooden stick at the bottom, hand is holding it by the wooden stick, soft focus new york street background, premium product photography',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-65' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 64: Steampunk Mechanical Fish',
+  'nano-banana-case-64',
+  'Created by f-is-h. Imported from Awesome Nano Banana.',
+  'A steampunk-style mechanical fish with a brass body and clearly visible gear mechanisms when in motion.
+Its mechanical teeth can be slightly seen, neatly arranged and closed, with both upper and lower teeth visible. Each tooth is triangular in shape and made of diamond material.
+The tail fin has a metal wire mesh structure, while other fins are made of semi-transparent amber-colored glass with some subtle bubbles inside.
+The eyes are multi-faceted rubies, with clearly visible reflective shine.
+The fish has "f-is-h" text clearly visible on its body, with all lowercase letters and careful attention to the hyphen placement.
+The image is square, showing the entire fish in the center of the frame, with its head pointing to the right. There is adequate white space around the fish, with more space on the left and right sides. The background has subtle steampunk-style gear patterns.
+The entire fish looks very cool. This is a high-definition image with extremely rich details and unique texture and aesthetics. The image should not be too dark.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-64' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 63: Emoji Cream Popsicle',
+  'nano-banana-case-63',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Generate an image: Transform the [🍓] into a creamy ice cream bar, with cream flowing in curved swirls on top, making it look delicious and tempting. The ice cream is floating at a 45-degree angle in mid-air, rendered in a cute chibi-style 3D aesthetic, set against a solid color background with a unified color palette.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-63' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 62: Kawaii Enamel Pin',
+  'nano-banana-case-62',
+  'Created by gnrlyxyz. Imported from Awesome Nano Banana.',
+  'Turn the subject in the attached image into a kawaii enamel pin. Use glossy metal outlines and vibrant enamel fill. No extra added features. Square mockup format. White background.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-62' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 61: Fake Tweet Screenshot (Einstein)',
+  'nano-banana-case-61',
+  'Created by egeberkina. Imported from Awesome Nano Banana.',
+  'a hyper realistic twitter post by Albert Einstein right after finishing the theory of relativity. include a selfie where you can clearly see scribbled equations and a chalkboard in the background. have it visible that the post was liked by Nikola Tesla',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-61' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 60: Emoji Tufted Rug',
+  'nano-banana-case-60',
+  'Created by gizakdag. Imported from Awesome Nano Banana.',
+  'Create an image of a colorful, hand-tufted rug in the shape of 🦖 emoji, placed on a simple floor background. The rug has a bold, playful design with soft, fluffy texture and thick yarn details. Shot from above, in natural daylight, with a slightly quirky, DIY aesthetic. Vibrant colors, cartoonish outlines, and tactile, cozy material—similar to handmade tufted art rugs.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-60' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 59: Colorful Vector Art Poster',
+  'nano-banana-case-59',
+  'Created by michaelrabone. Imported from Awesome Nano Banana.',
+  'Barcelona Spain colourful summer vector art poster with big "BARCELONA" title at the top and smaller "SPAIN" title under',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-59' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 58: Cloud Art',
+  'nano-banana-case-58',
+  'Created by umesh_ai. Imported from Awesome Nano Banana.',
+  'Generate image: A photograph captures a daytime scene with a [SUBJECT/OBJECT] formed by scattered clouds in the sky, positioned above a [LOCATION]',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-58' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 57: 8-Bit Pixel Icon',
+  'nano-banana-case-57',
+  'Created by egeberkina. Imported from Awesome Nano Banana.',
+  'Create a minimalist 8-bit pixel logo of [🍔], centered on a pure white background. Use a limited retro color palette with pixelated detailing, sharp edges, and clean blocky forms. The logo should be simple, iconic, and clearly recognizable in pixel art style — inspired by classic arcade game aesthetics.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-57' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 56: Miniature 3D Building',
+  'nano-banana-case-56',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  '3D chibi-style miniature design of a whimsical Starbucks café, shaped like an oversized takeaway coffee cup complete with a lid and straw. The building has two floors, with large glass windows that clearly reveal a cozy and refined interior: wooden furniture, warm lighting, and busy baristas at work. On the street, cute little figurines are strolling or sitting, surrounded by benches, street lamps, and potted plants, creating a charming corner of the city. The overall aesthetic follows a detailed and realistic miniature cityscape style, with soft lighting that evokes a relaxing afternoon atmosphere.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-56' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 55: Cute Plant Planter',
+  'nano-banana-case-55',
+  'Created by azed_ai. Imported from Awesome Nano Banana.',
+  'A high-quality photo of a cute ceramic [object/animal]-shaped planter with a glossy finish, filled with a variety of vibrant succulents and greenery including a spiky Haworthia, a rosette-shaped Echeveria, and delicate white flowers. The planter has a friendly face and sits on a soft, neutral background with diffused natural lighting, showcasing fine textures and color contrast in a clean, minimalistic composition',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-55' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 54: Extremely Ordinary iPhone Selfie',
+  'nano-banana-case-54',
+  'Created by jiamimaodashu. Imported from Awesome Nano Banana.',
+  'Please draw an extremely ordinary and unremarkable iPhone selfie, with no clear subject or sense of composition — just like a random snapshot taken casually. The photo should include slight motion blur, with uneven lighting caused by sunlight or indoor lights resulting in mild overexposure. The angle is awkward, the composition is messy, and the overall aesthetic is deliberately plain — as if it was accidentally taken while pulling the phone out of a pocket.
+The subjects are Eason Chan and Nicholas Tse, taken at night, next to the Hong Kong Convention and Exhibition Centre, by Victoria Harbour in Hong Kong.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-54' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 53: Emoji Inflatable Cushion',
+  'nano-banana-case-53',
+  'Created by gizakdag. Imported from Awesome Nano Banana.',
+  'Create a high-resolution 3D render of [🥹] designed as an inflatable, puffy object. The shape should appear soft, rounded, and air-filled — like a plush balloon or blow-up toy. Use a smooth, matte texture with subtle fabric creases and stitching to emphasize the inflatable look. The form should be slightly irregular and squishy, with gentle shadows and soft lighting that highlight volume and realism. Place it on a clean, minimal background (light gray or pale blue), and maintain a playful, sculptural aesthetic.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-53' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 52: Paper Craft Style Emoji Icon',
+  'nano-banana-case-52',
+  'Created by egeberkina. Imported from Awesome Nano Banana.',
+  'A paper craft-style "🔥" floating on a pure white background. The emoji is handcrafted from colorful cut paper with visible textures, creases, and layered shapes. It casts a soft drop shadow beneath, giving a sense of lightness and depth. The design is minimal, playful, and clean — centered in the frame with lots of negative space. Use soft studio lighting to highlight the paper texture and edges.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-52' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 51: Passport Entry Stamp',
+  'nano-banana-case-51',
+  'Created by M_w14_. Imported from Awesome Nano Banana.',
+  'Create a realistic passport page with an entry stamp for [{City}, {Country}]. The stamp should say "Welcome to {City}" in bold English, designed in a round or oval shape with decorative borders. Include the word "ARRIVAL" and a fictional date like "15 APR 2025" Incorporate a subtle silhouette of {Main Landmark} as a background detail within the stamp. Use deep blue or red ink with light smudges for added realism. The stamp should appear slightly angled, as if hand-pressed. The passport page should show visible paper texture and security patterns.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-51' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 50: Physical Destruction Effect Card (Lara Croft)',
+  'nano-banana-case-50',
+  'Created by op7418. Imported from Awesome Nano Banana.',
+  'An ultra-photorealistic, cinematic-style illustration depicting Lara Croft dynamically bursting through the frame of an “Archaeological Adventure” trading card. She is caught mid-jump or swinging on a rope, wearing her iconic adventurer outfit and possibly firing dual pistols. The muzzle flashes help shatter the card’s ancient stone-carved border, creating a visible dimensional rupture with energy cracks and spatial distortions, scattering dust and debris outward.
+
+Her body lunges forward with powerful momentum, breaking through the card’s flat plane, emphasizing strong motion depth. Inside the card (the background) is a depiction of dense jungle ruins or a trap-filled ancient tomb. The shattered card fragments mix with crumbling stone, flying vines, broken ancient coins, and spent shell casings.
+
+The title “Archaeological Adventure” and the name “Lara Croft” (accompanied by a stylized artifact icon) remain visible on the remaining cracked and weathered parts of the card. The scene is lit with adventurous, dynamic lighting that emphasizes her agility and the perilous environment.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-50' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 49: Fashion Magazine Cover Style',
+  'nano-banana-case-49',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'A beautiful woman wearing a pink qipao, adorned with delicate floral accessories on her head and colorful blossoms woven into her hair. Around her neck is an elegant white lace collar. One of her hands gently holds several large butterflies. The overall photography style features high-definition detail and texture, resembling a fashion magazine cover. The word “FASHION DESIGN” is placed at the top center of the image. The background is a minimalist light gray, designed to highlight the subject.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-49' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 48: Voxel Style 3D Icon Conversion',
+  'nano-banana-case-48',
+  'Created by BrettFromDJ. Imported from Awesome Nano Banana.',
+  'Take the icon on the right and transform it into a voxel 3d icon like the icons in the left image. Octane render. 8k.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-48' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 47: ESC Keycap Miniature Diorama',
+  'nano-banana-case-47',
+  'Created by egeberkina. Imported from Awesome Nano Banana.',
+  'A hyper-realistic isometric 3D render of a miniature computer setup inside a translucent mechanical keyboard keycap, specifically placed on the ESC key of a real matte-finished mechanical keyboard. Inside the keycap, a tiny figure sits in a modern ergonomic chair, wearing a cozy textured hoodie, working at a glowing ultra-realistic computer screen. The environment is packed with lifelike miniature tech accessories: real-material desk lamps, monitors with reflections, tiny speaker grills, tangled cables, and ceramic mugs. The base of the scene is made of soil, rocks, and moss, with photorealistic textures and imperfections. The lighting inside the cap mimics natural morning sun, casting soft shadows and warm tones, while the outside has cold ambient reflections from the surrounding keyboard. The word “ESC” is subtly etched onto the top of the translucent keycap with a faint frosted glass effect — just barely visible depending on the angle. The surrounding keyboard keys like F1, Q, Shift, and CTRL are crisp, textured, and photorealistically lit. Shot as if taken with a high-end mobile phone camera, with shallow depth of field, perfect white balance, and cinematic detail.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-47' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 46: Happy Capsule Creation',
+  'nano-banana-case-46',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Title (large text): Fast-Acting Happiness Capsule
+A capsule pill with a green top in Starbucks green and a transparent bottom, printed with the Starbucks logo. Inside the capsule are numerous coffee beans.
+Description (small text): Take when feeling sad or down. Three times a day, two capsules per dose.
+Buy button: Same color as the capsule.
+Below the button, display the price: $9.
+Please follow medical advice and purchase as needed.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-46' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 45: 3D Chibi-style University Anthropomorphic Mascot',
+  'nano-banana-case-45',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Create a personified 3D chibi-style anime girl character representing {Northwestern Polytechnical University}, embodying the school’s distinctive strengths in {aeronautics, astronautics, and marine engineering}.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-45' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 44: RPG-Style Character Card Creation',
+  'nano-banana-case-44',
+  'Created by berryxia_ai. Imported from Awesome Nano Banana.',
+  'Create a digital character card in RPG collectible style.
+The subject is a {Programmer}, standing confidently with tools or symbols relevant to their job.
+Render it in 3D cartoon style, soft lighting, vivid personality.
+Include skill bars or stats like [Skill1 +x], [Skill2 +x, e.g., Creativity +10, UI/UX +8].
+Add a title banner on top and a nameplate on the bottom.
+Frame the card with clean edges like a real figure box.
+Make the background fit the profession''s theme.
+Colors: warm highlights, profession-matching hues.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-44' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 43: Cute Chibi Matryoshka Dolls (Girl with a Pearl Earring)',
+  'nano-banana-case-43',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Transform the person in the image into a set of cute chibi-style Russian nesting dolls (🪆), with a total of five dolls arranged from largest to smallest. Place them on an elegant wooden table. Horizontal aspect ratio: 3:2.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-43' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 42: 3D Q-version Couple Snow Globe',
+  'nano-banana-case-42',
+  'Created by balconychy. Imported from Awesome Nano Banana.',
+  'Transform the person in the attached image into a snow globe scene.
+Overall environment: The snow globe is placed on a tabletop by the window, with a blurred, warm-toned background. Sunlight passes through the globe, casting golden sparkles that gently illuminate the surrounding darkness.
+Inside the globe: The characters are in a cute chibi-style 3D design, gazing at each other with eyes full of love.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-42' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 41: Miniature Three-dimensional Scene Presentation',
+  'nano-banana-case-41',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Miniature three-dimensional scene presentation using tilt-shift photography techniques, depicting a chibi-style version of the scene {Sun Wukong’s Three Battles with the White Bone Demon}',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-41' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 40: Japanese-style Two-Panel Manga (Angry Girl President)',
+  'nano-banana-case-40',
+  'Created by hellokaton. Imported from Awesome Nano Banana.',
+  'Create a two-panel vertical manga in a cute Japanese anime style, theme: “The Daily Work Life of a Girl President.”
+
+Character Design:
+Transform the person in the uploaded image into a cute, moe-style anime girl while preserving all key details from the photo — including the outfit (a suit), hairstyle (bright golden-yellow), and facial features.
+
+Panel 1:
+- Expression: Pouting, disappointed, resting her cheek on one hand
+- Text box: “What do I dooo?! He won’t take my call! (；´д｀)”
+- Scene: Warm-toned office, with the U.S. flag in the background. On the desk: a pile of hamburgers and a vintage red rotary phone. The character is on the left side of the frame, the phone on the right.
+
+Panel 2:
+- Expression: Furious, face red with anger, gritting teeth
+- Action: Slams the desk hard, making the hamburgers jump
+- Speech bubble: “Hmph! Double the tariffs! Ignoring me is their loss! ( `д´ )”
+- Scene: Same office, now a complete mess
+
+Additional Notes:
+- Use a cute, casual handwritten font for all text
+- Keep the composition full and expressive, with adequate space for dialogue and intentional white space
+- Aspect ratio: 2:3
+- The overall visual tone should be colorful and energetic, with a distinctly cartoony style',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-40' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 39: Fantasy Cartoon Illustration',
+  'nano-banana-case-39',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'A cartoon-style character with a smiling computer monitor as its head, wearing gloves and boots, happily jumping through a glowing, blue, circular portal in a lush, fantasy forest landscape. The forest is detailed with large trees, mushrooms, flowers, a serene river, floating islands, and an atmospheric starry night sky with multiple moons. Bright, vibrant colors with soft lighting, fantasy illustration style.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-39' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 38: Hand-drawn Infographic Card',
+  'nano-banana-case-38',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Create a hand-drawn style infographic card in a 9:16 vertical format. The card should have a clear theme, with a beige or off-white paper-textured background. The overall design should reflect a simple, warm, and handmade aesthetic.
+
+At the top of the card, use large, eye-catching brush-style Chinese cursive calligraphy in red and black for the title, creating strong visual contrast. All text should be in Chinese cursive script. The layout should be divided into 2 to 4 clear sections, each conveying a core idea through concise and refined Chinese phrases. The calligraphy should maintain a fluid, rhythmic style that is both legible and artistically expressive. Leave appropriate blank space around the text.
+
+The card should be accented with simple and fun hand-drawn illustrations or icons — such as figures or symbolic elements — to enhance visual appeal and spark thought or emotional resonance. The overall layout should emphasize visual balance and include ample whitespace, ensuring the design is clean, clear, and easy to read.
+
+“Building a personal brand (IP) is long-term compounding.
+Keep updating daily, and results will come — because 99% of people can’t keep it up!”',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-38' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 37: Pastel Power 3D ADS',
+  'nano-banana-case-37',
+  'Created by aziz4ai. Imported from Awesome Nano Banana.',
+  'a soft 3D cartoon-style sculpture of [brand product], made of smooth clay-like textures and vibrant pastel colors, placed in a minimalist isometric scene that complements the product’s nature, clean composition, gentle lighting, subtle shadows, with the product’s logo and a 3-word slogan displayed clearly below',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-37' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 36: Minimalist 3D Illustration (Markdown Format)',
+  'nano-banana-case-36',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Draw a Toilet
+
+## 🎨 Art Style: Minimalist 3D Illustration
+
+### 🟢 Shape Language
+- Rounded edges and smooth, soft forms using simplified geometric shapes.
+
+### 🎨 Colors
+- **Primary palette:** soft beige, light gray, warm orange.
+- **Accent color:** warm orange for focal elements.
+- **Shading:** gentle gradients and smooth transitions, avoiding harsh shadows and highlights.
+
+### 💡 Lighting
+- **Type:** soft, diffuse lighting.
+- **Light source direction:** from above, slightly to the right.
+- **Shadow style:** subtle and diffused, without sharp or high-contrast shadows.
+
+### 🧱 Materials
+- **Surface texture:** matte and smooth with subtle light variation.
+- **Reflectivity:** low to none, avoiding noticeable gloss.
+
+### 🖼️ Composition
+- **Object presentation:** a single, centered object with generous negative space around it.
+- **Perspective:** slight tilt to suggest depth, but no strong depth-of-field effects.
+- **Background:** flat color, low saturation, harmonious with the subject and non-distracting.
+
+### ✒️ Typography
+- **Font style:** minimalist sans-serif.
+- **Text placement:** bottom left corner, small and unobtrusive.
+- **Font color:** gray, low contrast with the background.
+
+### 🖥️ Rendering Style
+- **Technique:** 3D rendering in a simplified low-poly style.
+- **Detail level:** medium — focus on shape and color, avoiding complex textures or fine details.
+
+## 🎯 Style Goal
+> Create a clean and aesthetically pleasing visual that emphasizes simplicity, approachability, and modernity.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-36' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 35: Fluffy Jack-o''-lantern',
+  'nano-banana-case-35',
+  'Created by gizakdag. Imported from Awesome Nano Banana.',
+  'Transform a simple flat vector icon of [🎃] into a soft, 3D fluffy object. The shape is fully covered in fur, with hyperrealistic hair texture and soft shadows. The object is centered on a clean, light gray background and floats gently in space. The style is surreal, tactile, and modern, evoking a sense of comfort and playfulness. Studio lighting, high-resolution render.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-35' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 34: Hand-drawn Infographic Card (Cognition)',
+  'nano-banana-case-34',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Create a hand-drawn style infographic card in vertical 9:16 ratio. The card should have a clear theme, with a beige or off-white paper-textured background. The overall design should convey a rustic, friendly, and handmade aesthetic.
+
+At the top of the card, feature a bold, eye-catching title in large Chinese cursive brush calligraphy using contrasting red and black colors. All text content should be in Chinese cursive script, and the layout should be divided into 2 to 4 clear sections. Each section expresses a core idea with brief and concise Chinese phrases. The cursive font should retain a smooth, rhythmic flow, remaining legible while carrying artistic appeal.
+
+The card should include simple, playful hand-drawn illustrations or icons, such as figures or symbolic elements, to enhance visual interest and spark reader reflection or emotional resonance.
+
+The overall layout should maintain visual balance, with ample white space reserved to ensure clarity, simplicity, and ease of reading and understanding.
+<h1><span style="color:red">“Cognition”</span> defines your ceiling
+<span style="color:red">“Circle”</span> defines your opportunities</h1>
+– You can’t earn money beyond your level of cognition,
+– Nor encounter opportunities beyond your social circle.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-34' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 33: Family Wedding Photo (Q-version)',
+  'nano-banana-case-33',
+  'Created by balconychy. Imported from Awesome Nano Banana.',
+  'Transform the people in the photo into chibi-style 3D characters. The parents are dressed in Western wedding attire — the father in a formal suit, the mother in a wedding gown. The child is a beautiful flower girl holding a bouquet.
+
+The background features a colorful floral arch.
+The characters are in 3D chibi style, while the environment is photorealistic.
+The entire scene is placed inside a photo frame.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-33' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 32: 3D Papercraft Pop-up Book',
+  'nano-banana-case-32',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Multi-layered foldable paper sculpture pop-up book, placed on a desk, with a clean background highlighting the main subject. The book presents a 3D flip-book style, with a 2:3 vertical aspect ratio. The open pages display the scene of [Nezha Demon Child version battling Ao Bing]. All elements are finely foldable and assembled, showcasing a realistic and delicate texture of folded paper. The composition uniformly adopts a frontal perspective, with an overall dreamy and beautiful visual style, vibrant and gorgeous colors, full of a fantastical and lively story atmosphere.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-32' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 31: Anime Sticker Collection',
+  'nano-banana-case-31',
+  'Created by richardchang. Imported from Awesome Nano Banana.',
+  'Naruto stickers',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-31' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 30: 35mm Film Style Flying Island',
+  'nano-banana-case-30',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  '35 mm photo of Moscow floating in the sky on a flying islands.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-30' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 29: Famous Painting Character OOTD',
+  'nano-banana-case-29',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Generate a Q-style 3D C4D-rendered character based on the person in the photo, dressed in a fashion-forward “outfit of the day” (OOTD) inspired by a specific profession.
+Profession: Fashion Designer
+– Keep the original facial features and character pose
+– Stylize the character with a cute, long-legged chibi proportion
+– Outfit and accessories should reflect the profession, including trendy designer wear, glasses, sketchbook or tablet, and stylish shoes
+– Match the outfit with fashion accessories to complete the look
+– Use a solid background color that complements the character’s overall color palette (no gradients or textures)
+
+Composition: Aspect ratio: 9:16
+Top text: “OOTD”
+Left side: the full-body chibi character wearing the complete outfit
+Right side: individual clothing items and accessories laid out separately, as if in a style breakdown',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-29' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 28: Flat Sticker Design',
+  'nano-banana-case-28',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Turn this photo into a chibi-style sticker illustration in a minimalist flat design.
+– Keep the character’s recognizable features
+– Use a cute, simplified aesthetic
+– The sticker should have a thick white border
+– The character should break out of the circular frame, adding a playful touch
+– The circular base should be a solid flat color (no 3D or gradients)
+– Background should be transparent
+The overall style should be clean, modern, and visually appealing for use as a fun Q-version sticker.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-28' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 27: Q-version Emoji Sticker Pack Creation',
+  'nano-banana-case-27',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Create a brand-new set of chibi-style stickers featuring the user as the main character, with six unique poses:
+1.	Making a playful peace sign with both hands and winking.
+2.	Tearful eyes and slightly trembling lips, showing a cute crying expression.
+3.	Arms wide open in a warm, enthusiastic hug pose.
+4.	Lying on their side asleep, resting on a tiny pillow with a sweet smile.
+5.	Pointing forward with confidence, surrounded by shining visual effects.
+6.	Blowing a kiss, with heart symbols floating around.
+Maintain the chibi aesthetic:
+– Exaggerated, expressive big eyes
+– Soft facial lines
+– Playful, short black hairstyle
+– A white outfit with a bold neckline design
+Background: Vibrant red with star or colorful confetti elements for decoration. Leave some clean white space around each sticker.
+Aspect ratio: 9:16',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-27' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 26: Famous Painting Character Cereal Ad',
+  'nano-banana-case-26',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  '“Master Oats”: Based on the visual features of the person in the uploaded photo, generate a custom oatmeal mix that reflects their personality traits — for example, using vegetables, fruits, yogurt, whole grains, etc.
+
+Design a unique cereal box and package aesthetic that aligns with this tailored mix.
+
+Then, create an advertising cover featuring the person as the mascot on the cereal box. The character should retain their recognizable features but be transformed into a cute chibi-style 3D figure with a C4D-quality rendering.
+
+The oatmeal and packaging should be presented in a setting that matches the mood — such as a minimalist kitchen, a sleek supermarket display, or a clean design counter.
+
+The process includes:
+– Character analysis and oat mix pairing
+– Cereal box concept and design
+– Display environment selection
+– Final image with mascot figure, packaging, and styled scene composition
+
+All visuals should be balanced, modern, and appealing, reflecting a premium and fun oat brand identity.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-26' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 25: Minimalist 3D Illustration',
+  'nano-banana-case-25',
+  'Created by 0xdlk. Imported from Awesome Nano Banana.',
+  'Generate a toilet with the following JSON profile:
+{
+"art_style_profile": {
+"style_name": "Minimalist 3D Illustration",
+"visual_elements": {
+"shape_language": "Rounded edges, smooth and soft forms with simplified geometry",
+"colors": {
+"primary_palette": ["Soft beige, light gray, warm orange"],
+"accent_colors": ["Warm orange for focal elements"],
+"shading": "Soft gradients with smooth transitions, avoiding harsh shadows or highlights"
+},
+"lighting": {
+"type": "Soft, diffused lighting",
+"source_direction": "Above and slightly to the right",
+"shadow_style": "Subtle and diffused, no sharp or high-contrast shadows"
+},
+"materials": {
+"surface_texture": "Matte, smooth surfaces with subtle shading",
+"reflectivity": "Low to none, avoiding glossiness"
+},
+"composition": {
+"object_presentation": "Single, central object displayed in isolation with ample negative space",
+"perspective": "Slightly angled, giving a three-dimensional feel without extreme depth",
+"background": "Solid, muted color that complements the object without distraction"
+},
+"typography": {
+"font_style": "Minimalistic, sans-serif",
+"text_placement": "Bottom-left corner with small, subtle text",
+"color": "Gray, low-contrast against the background"
+},
+"rendering_style": {
+"technique": "3D render with simplified, low-poly aesthetics",
+"detail_level": "Medium detail, focusing on form and color over texture or intricacy"
+}
+},
+"purpose": "To create clean, aesthetically pleasing visuals that emphasize simplicity, approachability, and modernity."
+}
+}',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-25' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 24: Funko Pop Figure Creation',
+  'nano-banana-case-24',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Transform the person in the photo into the style of a Funko Pop figure box, presented in isometric view.
+The packaging is labeled with the title “JAMES BOND.”
+Inside the box, display a chibi-style figure based on the person in the photo, along with their essential accessories: a pistol, a wristwatch, a suit, and other signature items.
+Next to the box, show a realistic rendering of the actual figure outside the packaging, with detailed textures and lighting to achieve a lifelike product display.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-24' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 23: "Titanic" Pose Parody',
+  'nano-banana-case-23',
+  'Created by balconychy. Imported from Awesome Nano Banana.',
+  'Transform the person in the attached image into a cute chibi-style 3D character.
+Scene: On the pointed bow of a luxurious cruise ship.
+The man stands behind the woman at the bow, holding her waist with both hands. The woman is wearing a dress, arms spread wide, facing the wind, with a joyful and liberated expression on her face—just like the iconic scene from Titanic.
+The sky is painted in warm sunset tones, and the vast ocean stretches beneath the ship.
+Only the characters should be in chibi 3D style; the rest of the environment should be realistic.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-23' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 22: Xiaohongshu Cover Image',
+  'nano-banana-case-22',
+  'Created by balconychy. Imported from Awesome Nano Banana.',
+  'Draw an image: Create a cover for a Xiaohongshu (RED) post.
+
+Requirements:
+– It must be visually compelling enough to attract user clicks.
+– Use bold, characterful fonts.
+– Vary font sizes to reflect the hierarchy of information; emphasize the structure of the copy.
+– The main title should be at least twice the size of regular text.
+– Leave white space between text sections.
+– Only use bright accent colors to highlight key words and draw attention.
+– The background should feature an eye-catching pattern (such as paper texture, notebook, or a WeChat chat window—choose one).
+– Add appropriate icons or illustrations to enhance visual layers, but avoid visual clutter.
+
+Copy text:
+BREAKING: ChatGPT just got even better!
+– Superior multitasking ✨
+– Stronger coding ability 💪
+– Creativity off the charts 🎨
+Try it now!
+
+Image aspect ratio: 9:16',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-22' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 21: Chibi Character Sticker Pack',
+  'nano-banana-case-21',
+  'Created by leon_yuan2001. Imported from Awesome Nano Banana.',
+  'Please create a set of 9 Chibi stickers featuring [the character in the reference image], arranged in a 3x3 grid.
+Design requirements:
+- Transparent background.
+- 1:1 square aspect ratio.
+- Consistent Chibi Ghibli cartoon style with vibrant colors.
+- Each sticker must have a unique action, expression, and theme, reflecting diverse emotions like "sassy, mischievous, cute, frantic" (e.g., rolling eyes, laughing hysterically on the floor, soul leaving body, petrified, throwing money, foodie mode, social anxiety attack). Incorporate elements related to office workers and internet memes.
+- Each character depiction must be complete, with no missing parts.
+- Each sticker must have a uniform white outline, giving it a sticker-like appearance.
+- No extraneous or detached elements in the image.
+- Strictly no text, or ensure any text is 100% accurate (no text preferred).',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-21' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 20: Action Figure and Real Person in the Same Frame',
+  'nano-banana-case-20',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'In a casual, everyday style as if shot on a mobile phone, an anime figure of [Jackie Chan] is placed on a desk, striking an exaggerated and cool pose, fully equipped. Simultaneously, the corresponding real-life person also appears in the frame, striking a similar pose to the figure, creating an interesting visual contrast with the figure and the real person in the same frame. The overall composition is harmonious and natural, delivering a warm and vibrant, true-to-life visual experience.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-20' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 19: Country Diorama in a Toy Box',
+  'nano-banana-case-19',
+  'Created by TheRelianceAI. Imported from Awesome Nano Banana.',
+  'An ultra-realistic top-down photograph of a 3D-printed diorama inside a beige cardboard box, with the lid being held open by two human hands. The interior of the box reveals a miniature landscape of [COUNTRY NAME], featuring iconic landmarks, terrain, buildings, rivers, vegetation, and crowds of tiny, detailed human figures. The diorama is filled with vibrant, geographically appropriate elements, all crafted in a tactile, toy-like style using matte 3D-printed textures with visible layer lines. At the top, the inside of the box lid displays the phrase “[COUNTRY NAME]” in large, colorful, raised plastic letters—each letter in a different bright color. The lighting is warm and cinematic, highlighting the textures and shadows to evoke a sense of realism and charm, as if the viewer is opening a magical miniature version of the nation',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-19' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 18: Pixar 3D Style',
+  'nano-banana-case-18',
+  'Created by AnimeAI. Imported from Awesome Nano Banana.',
+  'Redraw this photo in Pixar 3D style',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-18' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 17: Retro CRT Computer Boot Screen',
+  'nano-banana-case-17',
+  'Created by Gdgtify. Imported from Awesome Nano Banana.',
+  'Retro CRT computer boot screen that resolves into ASCII-art of [shape or logo]',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-17' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 16: Anime-style Badge',
+  'nano-banana-case-16',
+  'Created by Alittlefatwhale. Imported from Awesome Nano Banana.',
+  'Based on the person in the attachment, generate a photo of an anime-style badge. Requirements:
+Material: Tassel
+Shape: Circular
+Main subject: A hand holding the badge',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-16' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 15: Satirical Poster Generation',
+  'nano-banana-case-15',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Satirical Poster Text (English):
+GPT-4o is taking over.
+Forget working in image AI
+maybe it’s time to deliver takeout instead.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-15' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 14: One Piece Themed Figure Creation',
+  'nano-banana-case-14',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Transform the person in the photo into a One Piece-themed anime-style action figure, presented inside a collectible figure box designed in the visual style of the One Piece universe. The box is shown in an isometric view.
+Inside the box, display the character reimagined in the One Piece anime art style, posed dynamically and accompanied by essential everyday items such as a pistol, a wristwatch, a suit, and leather shoes — all miniaturized and arranged like collectible accessories.
+Next to the box, include a realistic, fully rendered version of the actual figure itself, outside of the packaging. This figure should be rendered with high detail and realism, showcasing the material textures and craftsmanship, as if it were a professionally photographed product.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-14' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 13: Photo to 3D Q-version Style',
+  'nano-banana-case-13',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Transform the characters in the scene into 3D chibi-style figures, while keeping the original scene layout and their clothing exactly the same.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-13' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 12: 3D Couple Jewelry Box Figurine',
+  'nano-banana-case-12',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Create a finely crafted, adorably charming 3D-rendered collectible figure based on the subjects in the photo, displayed inside a pastel-toned, warm and romantic presentation box. The box is designed in a soft cream color with gentle gold accents, resembling an elegant portable jewelry case.
+
+When opened, the box reveals a heartwarming romantic scene: two chibi-style characters gazing sweetly at each other. The lid is engraved with the words “FOREVER TOGETHER,” surrounded by delicate star and heart motifs.
+
+Inside the box stands the female from the photo, holding a small bouquet of white flowers. Beside her is her partner, the male from the photo. Both characters have large, expressive, sparkling eyes and soft, warm smiles that radiate affection and charm.
+
+Behind them is a round window, through which a sunny skyline of a traditional Chinese town can be seen, along with gently drifting clouds. The interior is softly lit with warm ambient lighting, and petals float in the background to enhance the atmosphere.
+
+The overall color scheme of both the display box and the characters is elegant and harmonious, creating a luxurious and dreamlike miniature keepsake.
+
+Aspect ratio: 9:16',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-12' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 11: PS2 Game Cover (GTA x Shrek)',
+  'nano-banana-case-11',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA based in the Shrek Universe.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-11' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 10: Satirical Cartoon Generation',
+  'nano-banana-case-10',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'An illustration in satirical comic style, rendered in a vintage American comic aesthetic. The background features a multi-tiered shelf stocked entirely with identical red baseball caps. The caps have a bold slogan on the front: “MAKE AMERICA GREAT AGAIN,” while a white side tag on each reads “MADE IN CHINA.” The composition uses a close-up perspective focusing on one specific red cap.
+At the bottom of the image, a price label is shown: the original price “$50.00” is crossed out with a thick black X and replaced with “$77.00.” The overall color palette uses nostalgic ochre and deep red tones, with shading that mimics the textured print style of 1990s retro comics.
+The composition is exaggerated and satirical, carrying a strong critique of political consumerism.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-10' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 9: Minimalist Futurist Poster',
+  'nano-banana-case-9',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'A vertical (3:4) 4K-resolution minimalist futurist exhibition poster with an ultra-light cool gray background (#f4f4f4).
+
+At the center of the poster is a fluid 3D metaball shaped like a classic Coca-Cola bottle in full form, rendered in frosted glass with delicate grainy noise.
+The fluid gradient transitions from Coca-Cola Red (#E41C23) to Pearl White (#FFFFFF), giving it a silky glass-like appearance.
+
+High-position softbox lighting casts long, soft colored shadows and a subtle halo.
+
+The fluid overlaps with the text: letters obscured by the frosted glass appear with a gentle Gaussian blur.
+•The main title, the classic red “Coca-Cola” logo, is centered and partially obscured by the fluid. The covered letters are slightly blurred through the frosted glass.
+•The subtitle, in bold all-caps modern sans-serif pure black font, reads: “TASTE THE FEELING”, placed below the main title. It is also partially overlapped by the fluid and blurred in those areas, while the rest remains sharp.
+
+The overall layout is clean with generous whitespace, balanced composition, sharp focus, and HDR high dynamic range.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-9' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 8: Lego Collectible Figure',
+  'nano-banana-case-8',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Generate a vertically-oriented image based on my uploaded photo, using the following prompt:
+Classic LEGO minifigure style in a miniature scene — an animal stands beside me. The color palette of the animal should match mine.
+Please design the animal based on your understanding of me. You may choose any creature — real, surreal, or fantastical — that you feel best reflects my personality.
+The entire scene is set within a transparent glass cube, with a minimalist interior design.
+The base of the miniature is matte black with silver accents, following a clean and modern aesthetic.
+On the base, there is an elegantly engraved nameplate in a refined serif font, displaying the name of the animal.
+The lower part of the base subtly incorporates finely etched biological classification details, similar to a natural history museum display.
+The overall composition should resemble a high-end collectible artwork: meticulously crafted, curated in style, and lit with refined lighting.
+Balance is key to the layout. The background should feature a smooth gradient transition from dark to light tones, selected to match the dominant color theme.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-8' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 7: Personalized Room Design',
+  'nano-banana-case-7',
+  'Created by ZHO_ZHO_ZHO. Imported from Awesome Nano Banana.',
+  'Design a cozy bedroom in a cute 3D style with C4D-quality rendering, presented in an isometric view. The room includes a bed, bookshelf, sofa, green plants, a computer desk, and a computer setup. A framed painting hangs on the wall. Outside the window, a nighttime cityscape is visible with glowing buildings and a dark sky. All furniture and objects should have a soft, rounded, stylized design to match the cute 3D aesthetic. Lighting should be warm and inviting, creating a comfortable nighttime indoor atmosphere.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-7' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 6: Character Stepping Through Portal',
+  'nano-banana-case-6',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'A 3D chibi-style version of the person in the photo is stepping through a glowing portal, reaching out and holding the viewer’s hand. As the character pulls the viewer forward, they turn back with a dynamic glance, inviting the viewer into their world.
+Behind the portal is the viewer’s real-life environment: a typical programmer’s study with a desk, monitor, and laptop, rendered in realistic detail. Inside the portal lies the character’s 3D chibi world, inspired by the photo, with a cool blue color scheme that sharply contrasts with the real-world surroundings.
+The portal itself is a perfectly elliptical frame glowing with mysterious blue and purple light, positioned at the center of the image as a gateway between the two worlds.
+The scene is captured from a third-person perspective, clearly showing the viewer’s hand being pulled into the character’s world. Use a 2:3 aspect ratio.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-6' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 5: Ghibli Style',
+  'nano-banana-case-5',
+  'Created by AnimeAI. Imported from Awesome Nano Banana.',
+  'Redraw this photo in Ghibli style',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-5' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 4: 3D Chibi Chinese Wedding Scene',
+  'nano-banana-case-4',
+  'Created by balconychy. Imported from Awesome Nano Banana.',
+  'Transform the two people in the photo into chibi-style 3D cartoon characters, dressed in traditional Chinese wedding attire. The overall theme is a festive red Chinese-style wedding. The background features a decorative “囍” (double happiness) paper-cut pattern in a classic folk style.
+Clothing (realistic texture, traditional details):
+Male: Wearing a red changpao and magua (traditional robe and jacket) embroidered with golden dragon motifs, symbolizing nobility and grandeur. A large red flower is tied on his chest, representing celebration and good fortune.
+Female: Dressed in a red xiuhe wedding gown adorned with exquisite golden floral and phoenix embroidery, showcasing elegance and luxury. She wears delicate floral hair ornaments to enhance her gentle and graceful appearance.
+Headwear:
+Male: A traditional red zhuangyuan (scholar) hat with golden patterns and a refined golden ornament at the top, exuding classic scholarly dignity.
+Female: A phoenix crown adorned with a central red flower, gold 3D decorative elements, and hanging tassels—luxurious and full of classical charm.
+This image should reflect the joy and blessing of a traditional Chinese wedding, with realistic textures for costumes and accessories, combined with stylized 3D chibi characters.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-4' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 3: Retro Style Promotional Poster',
+  'nano-banana-case-3',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'A retro-style promotional poster emphasizing bold Chinese text. The background features a red-and-yellow radial burst pattern. In the center of the composition is a beautiful young woman illustrated in a refined vintage art style—she smiles warmly with a graceful, approachable presence. The poster advertises GPT’s latest AI image generation service with key slogans in Chinese, such as: “Shocking price: 9.9 per image”, “Supports all scenes, image blending, partial redrawing”, “3 revisions per image”, and “Direct AI output with no need for manual edits”. At the bottom, prominently display the call-to-action: “If you’re interested, click ‘I want this’ in the bottom-right corner”. Illustrate a hand pressing a button in the bottom-right, and place the OpenAI logo in the bottom-left.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-3' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 2: 3D Polaroid Breakout Effect',
+  'nano-banana-case-2',
+  'Created by dotey. Imported from Awesome Nano Banana.',
+  'Convert the character in the scene into a 3D chibi-style figure, placed inside a Polaroid photo. The photo paper is being held by a human hand. The character is stepping out of the Polaroid frame, creating a visual effect of breaking through the two-dimensional photo border and entering the real-world 3D space.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-2' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
+
+INSERT INTO public.content (
+  type, title, slug, summary, body_markdown, category, level, is_published, is_featured, paywall_level, created_at
+) VALUES (
+  'prompt',
+  'Case 1: 3D Chibi Proposal Scene',
+  'nano-banana-case-1',
+  'Created by balconychy. Imported from Awesome Nano Banana.',
+  'Transform the two people in the photo into chibi-style 3D cartoon characters. Change the scene to a proposal setting, with a soft pastel-colored floral arch in the background. Use romantic tones for the overall background. Rose petals are scattered on the ground. While the characters are rendered in cute chibi 3D style, the environment—including the arch, lighting, and textures—should be realistic and photorealistic.',
+  'Generative AI',
+  'intermediate',
+  true,
+  false,
+  'free_preview',
+  NOW()
+) ON CONFLICT (slug) DO UPDATE SET 
+  body_markdown = EXCLUDED.body_markdown,
+  summary = EXCLUDED.summary;
+
+INSERT INTO public.content_tags (content_id, tag_id)
+SELECT c.id, t.id 
+FROM public.content c, public.tags t 
+WHERE c.slug = 'nano-banana-case-1' AND t.slug = 'nano-banana'
+ON CONFLICT DO NOTHING;
