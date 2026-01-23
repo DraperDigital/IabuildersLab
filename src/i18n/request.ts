@@ -11,8 +11,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
     // Static mapping for Turbopack compatibility
     const messages = locale === 'es'
-        ? (await import('../../messages/es.json')).default
-        : (await import('../../messages/en.json')).default;
+        ? (await import('../messages/es.json')).default
+        : (await import('../messages/en.json')).default;
 
     return {
         locale,

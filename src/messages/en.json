@@ -1,0 +1,186 @@
+{
+    "Landing": {
+        "title": "The Systems Repository",
+        "subtitle": "A private library of AI systems, prompt frameworks, and automation blueprints.",
+        "getAccess": "Get Access",
+        "browseSystems": "Browse Systems",
+        "login": "Login"
+    },
+    "Systems": {
+        "title": "Systems Repository",
+        "subtitle": "Proven AI workflows and automation blueprints ready to deploy.",
+        "readSystem": "Read System",
+        "unlockSystem": "Unlock System",
+        "viewDetails": "View Details",
+        "back": "Back to Systems",
+        "locked": "This system is locked",
+        "lockedDesc": "Unlock this research system and 50+ others with a workspace plan."
+    },
+    "Login": {
+        "title": "Welcome back",
+        "subtitle": "Enter your credentials to access your account",
+        "email": "Email",
+        "password": "Password",
+        "submit": "Sign In",
+        "noAccount": "Don't have an account?",
+        "signUp": "Sign up"
+    },
+    "SignUp": {
+        "title": "Create an account",
+        "subtitle": "Enter your email to get started",
+        "email": "Email",
+        "password": "Password",
+        "submit": "Sign Up",
+        "hasAccount": "Already have an account?",
+        "login": "Login"
+    },
+    "Prompts": {
+        "title": "Prompt Library",
+        "subtitle": "High-impact prompts for ChatGPT, Claude, and Gemini.",
+        "readPrompt": "Get Prompt",
+        "viewDetails": "View Details"
+    },
+    "Automations": {
+        "title": "Automation Blueprints",
+        "subtitle": "Copy-paste workflows for Zapier, Make, and n8n.",
+        "readAutomation": "Get Blueprint",
+        "viewDetails": "View Details"
+    },
+    "Common": {
+        "brand": "IA Builders Lab",
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+    },
+    "Paywall": {
+        "title": "Join IA Builders Lab To Unlock This Content",
+        "subtitle": "Get instant access to our complete library of AI systems, prompts, and automation blueprints.",
+        "valueTitle": "Unlock the secrets to AI-powered workflows",
+        "valueDescription": "Join our community and get access to battle-tested AI systems, prompt frameworks, and automation blueprints used by successful AI builders.",
+        "benefit1Title": "78+ AI Systems",
+        "benefit1Desc": "Production-ready workflows and automation blueprints",
+        "benefit2Title": "100+ Prompts",
+        "benefit2Desc": "Battle-tested prompt templates for all major models",
+        "benefit3Title": "50+ Automations",
+        "benefit3Desc": "Copy-paste workflow blueprints for instant deployment",
+        "socialProof": "AI builders already unlocked their potential",
+        "privacyNote": "We respect your privacy. Unsubscribe at any time."
+    },
+    "SocialPack": {
+        "Hero": {
+            "badge": "Content that converts",
+            "title1": "Visual content that",
+            "title2": "converts attention",
+            "title3": "into real actions.",
+            "subtitle": "Stories and carousels ready to publish, designed to generate DMs, comments, and clicks — without you having to think about what to post.",
+            "ctaPrimary": "View plans",
+            "ctaSecondary": "Try Activation Pack"
+        },
+        "Problem": {
+            "title": "Does this sound",
+            "titleAccent": "familiar?",
+            "bullets": [
+                "You post when you can, not when you should",
+                "Your content doesn't look professional",
+                "You waste time on Canva without a system",
+                "You have a great product, but your socials don't drive action"
+            ],
+            "conclusion1": "The problem isn't posting.",
+            "conclusion2": "It's posting without clear intention.",
+            "result": "Result: visibility without results."
+        },
+        "Solution": {
+            "title1": "We don't do",
+            "titleStrike": "\"pretty posts\"",
+            "title2": "We create content with business intent.",
+            "text": "We create stories and carousels ready to publish so your audience does something: send a DM, comment, visit your profile, or click.",
+            "dms": "Send DM",
+            "comments": "Comment",
+            "profile": "Visit profile",
+            "cta": "Click link",
+            "footer": "Clear, consistent content focused on action."
+        },
+        "Process": {
+            "title": "Simple",
+            "titleAccent": "process",
+            "step1": {
+                "title": "Quick brief (5–10 min)",
+                "desc": "Tell us what you sell and what action you want to drive."
+            },
+            "step2": {
+                "title": "Messaging Base (your communication identity)",
+                "desc": "We define audience, tone, and goals for consistency."
+            },
+            "step3": {
+                "title": "AI + Human Production",
+                "desc": "Copy, structure, and visuals aligned with your business."
+            },
+            "step4": {
+                "title": "72h delivery + 1 round of adjustments",
+                "desc": "Content ready to post with room for refinement."
+            },
+            "note": "100% asynchronous process. No unnecessary calls."
+        },
+        "MessageBase": {
+            "title": "Messaging Base",
+            "subtitle": "(included in the monthly plan)",
+            "text": "We define a simple base so all your content stays coherent: audience, tone, key benefits, monthly goal, and CTA. It's not full branding; it's clarity for consistent posting.",
+            "bullets": [
+                "Primary audience",
+                "Tone (1–2 styles)",
+                "Primary benefit/promise",
+                "Monthly goal (DMs, clicks, promo, positioning)",
+                "CTA by network (DM, comments, link, profile)"
+            ]
+        },
+        "Plans": {
+            "title": "Conversion",
+            "titleAccent": "Plans",
+            "badge": "🚀 Limited time launch offer",
+            "activation": {
+                "name": "ACTIVATION PACK",
+                "price": "49",
+                "period": "One-time payment",
+                "features": [
+                    "4 Stories",
+                    "1 Carousel",
+                    "One-time delivery",
+                    "No revisions",
+                    "IG Format (reusable)"
+                ],
+                "cta": "Try Activation Pack"
+            },
+            "monthly": {
+                "name": "MONTHLY PLAN",
+                "price": "149",
+                "recommended": "Recommended",
+                "period": "billed monthly",
+                "features": [
+                    "12 Monthly Stories",
+                    "4 Monthly Carousels",
+                    "IG / FB / WA Adaptation",
+                    "Weekly delivery",
+                    "1 round of adjustments",
+                    "Messaging Base included"
+                ],
+                "cta": "I want the monthly plan"
+            }
+        },
+        "NotDoing": {
+            "title": "What we DON'T do (To avoid misunderstandings)",
+            "bullets": [
+                "We don't do full branding",
+                "We don't manage your social accounts",
+                "We don't promise followers",
+                "We don't work without clear boundaries"
+            ],
+            "footer": "Our focus is practical, action-oriented content, not decorative design."
+        },
+        "FinalCTA": {
+            "title": "Ready to post with coherence and generate action",
+            "ctaPrimary": "Try Activation Pack",
+            "ctaSecondary": "Start monthly plan",
+            "footer": "© 2024 Social Conversion Pack. Inspired by Bolteam."
+        }
+    }
+}

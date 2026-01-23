@@ -1,0 +1,195 @@
+{
+    "Landing": {
+        "title": "Repositorio de Sistemas",
+        "subtitle": "Una biblioteca privada de sistemas de IA, frameworks de prompts y blueprints de automatización.",
+        "getAccess": "Obtener Acceso",
+        "browseSystems": "Explorar Sistemas",
+        "login": "Iniciar Sesión"
+    },
+    "Systems": {
+        "title": "Repositorio de Sistemas",
+        "subtitle": "Flujos de trabajo de IA probados y blueprints de automatización listos para desplegar.",
+        "readSystem": "Leer Sistema",
+        "unlockSystem": "Desbloquear Sistema",
+        "viewDetails": "Ver Detalles",
+        "back": "Volver a Sistemas",
+        "locked": "Este sistema está bloqueado",
+        "lockedDesc": "Desbloquea este sistema y más de 50 otros con un plan workspace."
+    },
+    "Login": {
+        "title": "Bienvenido de nuevo",
+        "subtitle": "Ingresa tus credenciales para acceder a tu cuenta",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "submit": "Iniciar Sesión",
+        "noAccount": "¿No tienes una cuenta?",
+        "signUp": "Regístrate"
+    },
+    "SignUp": {
+        "title": "Crear una cuenta",
+        "subtitle": "Ingresa tu correo para comenzar",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "submit": "Registrarse",
+        "hasAccount": "¿Ya tienes una cuenta?",
+        "login": "Iniciar Sesión"
+    },
+    "Prompts": {
+        "title": "Biblioteca de Prompts",
+        "subtitle": "Prompts de alto impacto para ChatGPT, Claude y Gemini.",
+        "readPrompt": "Obtener Prompt",
+        "viewDetails": "Ver Detalles"
+    },
+    "CopyLibrary": {
+        "title": "Copy Library",
+        "subtitle": "Más de 750 prompts optimizados para marketing, SEO y ventas. Copia y pega resultados profesionales en segundos.",
+        "searchPlaceholder": "Buscar por título, categoría o etiquetas...",
+        "allCategories": "Todas las Categorías",
+        "quickCopy": "Copiado Rápido",
+        "noFound": "No se encontraron prompts en esta categoría."
+    },
+    "Automations": {
+        "title": "Blueprints de Automatización",
+        "subtitle": "Flujos de trabajo copiar-pegar para Zapier, Make y n8n.",
+        "readAutomation": "Obtener Blueprint",
+        "viewDetails": "Ver Detalles"
+    },
+    "Common": {
+        "brand": "IA Builders Lab",
+        "beginner": "Principiante",
+        "intermediate": "Intermedio",
+        "advanced": "Avanzado",
+        "backToHome": "Volver al Inicio"
+    },
+    "Paywall": {
+        "title": "Únete a IA Builders Lab Para Desbloquear Este Contenido",
+        "subtitle": "Obtén acceso instantáneo a nuestra biblioteca completa de sistemas de IA, prompts y blueprints de automatización.",
+        "valueTitle": "Desbloquea los secretos de los flujos de trabajo con IA",
+        "valueDescription": "Únete a nuestra comunidad y obtén acceso a sistemas de IA probados en combate, frameworks de prompts y blueprints de automatización utilizados por constructores de IA exitosos.",
+        "benefit1Title": "78+ Sistemas de IA",
+        "benefit1Desc": "Flujos de trabajo listos para producción y blueprints de automatización",
+        "benefit2Title": "100+ Prompts",
+        "benefit2Desc": "Plantillas de prompts probadas en batalla para todos los modelos principales",
+        "benefit3Title": "50+ Automatizaciones",
+        "benefit3Desc": "Blueprints de flujo de trabajo copiar-pegar para despliegue instantáneo",
+        "socialProof": "constructores de IA ya desbloquearon su potencial",
+        "privacyNote": "Respetamos tu privacidad. Cancela en cualquier momento."
+    },
+    "SocialPack": {
+        "Hero": {
+            "badge": "Contenido que convierte",
+            "title1": "Contenido visual que",
+            "title2": "convierte atención",
+            "title3": "en acciones reales.",
+            "subtitle": "Historias y carruseles listos para publicar, diseñados para generar mensajes, comentarios y clics — sin que tengas que pensar qué subir.",
+            "ctaPrimary": "Ver planes",
+            "ctaSecondary": "Probar Pack Activación"
+        },
+        "Problem": {
+            "title": "¿Te suena",
+            "titleAccent": "familiar?",
+            "bullets": [
+                "Publicas cuando puedes, no cuando deberías",
+                "Tu contenido no se ve profesional",
+                "Pierdes tiempo en Canva sin un sistema",
+                "Tienes un buen producto, pero tus redes no generan acción"
+            ],
+            "conclusion1": "El problema no es publicar.",
+            "conclusion2": "Es publicar sin intención clara.",
+            "result": "Resultado: visibilidad sin resultados."
+        },
+        "Solution": {
+            "title1": "No hacemos",
+            "titleStrike": "\"posts bonitos\"",
+            "title2": "Hacemos contenido con intención comercial.",
+            "text": "Creamos historias y carruseles listos para publicar para que tu audiencia haga algo: enviarte DM, comentar, visitar tu perfil o hacer clic.",
+            "dms": "Enviarte DM",
+            "comments": "Comentar",
+            "profile": "Visitar tu perfil",
+            "cta": "Hacer clic",
+            "footer": "Contenido claro, constante y enfocado en acción."
+        },
+        "Process": {
+            "title": "Proceso",
+            "titleAccent": "simple",
+            "step1": {
+                "title": "Brief rápido (5–10 min)",
+                "desc": "Nos dices qué vendes y qué acción quieres provocar."
+            },
+            "step2": {
+                "title": "Base de Mensaje (tu identidad de comunicación)",
+                "desc": "Definimos público, tono y objetivos para que todo sea coherente."
+            },
+            "step3": {
+                "title": "Producción IA + Humano",
+                "desc": "Copy, estructura y visual alineados a tu negocio."
+            },
+            "step4": {
+                "title": "Entrega 72h + 1 ronda ajustes",
+                "desc": "Contenido listo para publicar con margen para refinamiento."
+            },
+            "note": "Proceso 100% asíncrono. Sin llamadas innecesarias."
+        },
+        "MessageBase": {
+            "title": "Base de Mensaje",
+            "subtitle": "(incluida en el plan mensual)",
+            "text": "Definimos una base simple para que todo tu contenido mantenga coherencia: público, tono, beneficios clave, objetivo del mes y CTA. No es branding completo; es claridad para publicar con consistencia.",
+            "bullets": [
+                "Público principal",
+                "Tono (1–2 estilos)",
+                "Beneficio/Promesa principal",
+                "Objetivo del mes (mensajes, clics, promoción, posicionamiento)",
+                "CTA por red (DM, comentarios, link, perfil)"
+            ]
+        },
+        "Plans": {
+            "title": "Planes de",
+            "titleAccent": "Conversión",
+            "badge": "🚀 Lanzamiento por tiempo limitado",
+            "activation": {
+                "name": "PACK ACTIVACIÓN",
+                "price": "49",
+                "period": "Pago único",
+                "features": [
+                    "4 Historias",
+                    "1 Carrusel",
+                    "Entrega única",
+                    "Sin revisiones",
+                    "Formato IG (reutilizable)"
+                ],
+                "cta": "Probar Pack Activación"
+            },
+            "monthly": {
+                "name": "PLAN MENSUAL",
+                "price": "149",
+                "recommended": "Recomendado",
+                "period": "facturado mensualmente",
+                "features": [
+                    "12 Historias mensuales",
+                    "4 Carruseles mensuales",
+                    "Adaptación IG / FB / WA",
+                    "Entrega semanal",
+                    "1 ronda de ajustes",
+                    "Base de Mensaje incluida"
+                ],
+                "cta": "Quiero el plan mensual"
+            }
+        },
+        "NotDoing": {
+            "title": "Qué NO hacemos (Para evitar malentendidos)",
+            "bullets": [
+                "No hacemos branding completo",
+                "No gestionamos tus redes",
+                "No prometemos seguidores",
+                "No trabajamos sin límites claros"
+            ],
+            "footer": "Nuestro enfoque es contenido práctico orientado a acción, no diseño decorativo."
+        },
+        "FinalCTA": {
+            "title": "Listo para publicar con coherencia y generar acción",
+            "ctaPrimary": "Probar Pack Activación",
+            "ctaSecondary": "Empezar plan mensual",
+            "footer": "© 2024 Social Conversion Pack. Inspired by Bolteam."
+        }
+    }
+}
