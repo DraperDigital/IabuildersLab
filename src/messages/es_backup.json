@@ -191,54 +191,5 @@
             "ctaSecondary": "Empezar plan mensual",
             "footer": "© 2024 Social Conversion Pack. Inspired by Bolteam."
         }
-    },
-    "Footer": {
-        "platform": "Plataforma",
-        "systems": "Sistemas",
-        "prompts": "Prompts",
-        "automations": "Automatizaciones",
-        "pricing": "Precios",
-        "resources": "Recursos",
-        "copyLibrary": "Biblioteca de Copy",
-        "blog": "Blog",
-        "docs": "Documentación",
-        "legal": "Legal",
-        "privacy": "Política de Privacidad",
-        "terms": "Términos de Servicio",
-        "rights": "Todos los derechos reservados."
-    },
-    "Privacy": {
-        "title": "Política de Privacidad",
-        "introTitle": "1. Introducción",
-        "introText": "Bienvenido a IA Builders Lab. Estamos comprometidos con proteger tu información personal y tu derecho a la privacidad.",
-        "collectTitle": "2. Información que Recopilamos",
-        "collectText": "Recopilamos información que nos proporcionas voluntariamente cuando te registras en el sitio web.",
-        "useTitle": "3. Cómo Usamos tu Información",
-        "useText": "Usamos la información que recopilamos para facilitar la creación de cuentas, enviar información administrativa y cumplir con las características clave de nuestro servicio.",
-        "contactTitle": "4. Contáctanos",
-        "contactText": "Si tienes preguntas o comentarios sobre esta política, puedes enviarnos un correo electrónico a support@iabuilderslab.com."
-    },
-    "Terms": {
-        "title": "Términos de Servicio",
-        "agreementTitle": "1. Acuerdo de Términos",
-        "agreementText": "Estos Términos de Servicio constituyen un acuerdo legalmente vinculante entre tú e IA Builders Lab.",
-        "ipTitle": "2. Derechos de Propiedad Intelectual",
-        "ipText": "El Sitio es de nuestra propiedad exclusiva y todo el código fuente, bases de datos, funcionalidad, software, diseños de sitios web, audio, video, texto, fotografías y gráficos en el Sitio son propiedad nuestra o están bajo nuestra licencia.",
-        "userRepTitle": "3. Representaciones del Usuario",
-        "userRepText": "Al usar el Sitio, representas y garantizas que toda la información de registro que envíes será verdadera, precisa, actual y completa.",
-        "prohibitedTitle": "4. Actividades Prohibidas",
-        "prohibitedText": "No puedes acceder ni usar el Sitio para ningún otro propósito que no sea para el que ponemos el Sitio a disposición."
-    },
-    "Docs": {
-        "title": "Documentación",
-        "subtitle": "Todo lo que necesitas para dominar los sistemas, prompts y automatizaciones de IA Builders Lab.",
-        "gettingStartedTitle": "Comenzando",
-        "gettingStartedDesc": "Aprende los conceptos básicos de nuestra plataforma, cómo configurar tu cuenta y hacer tu primera copia.",
-        "systemsTitle": "Sistemas y Flujos de Trabajo",
-        "systemsDesc": "Profundiza en nuestros sistemas de IA preconstruidos y cómo integrarlos en tu flujo de trabajo.",
-        "promptsTitle": "Guías de Prompts",
-        "promptsDesc": "Domina el arte de crear prompts con nuestras guías completas y mejores prácticas.",
-        "tutorialsTitle": "Tutoriales",
-        "tutorialsDesc": "Tutoriales en video paso a paso y guías para casos de uso avanzados."
     }
 }

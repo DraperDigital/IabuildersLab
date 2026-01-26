@@ -182,5 +182,54 @@
             "ctaSecondary": "Start monthly plan",
             "footer": "© 2024 Social Conversion Pack. Inspired by Bolteam."
         }
+    },
+    "Footer": {
+        "platform": "Platform",
+        "systems": "Systems",
+        "prompts": "Prompts",
+        "automations": "Automations",
+        "pricing": "Pricing",
+        "resources": "Resources",
+        "copyLibrary": "Copy Library",
+        "blog": "Blog",
+        "docs": "Documentation",
+        "legal": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "rights": "All rights reserved."
+    },
+    "Privacy": {
+        "title": "Privacy Policy",
+        "introTitle": "1. Introduction",
+        "introText": "Welcome to IA Builders Lab. We are committed to protecting your personal information and your right to privacy.",
+        "collectTitle": "2. Information We Collect",
+        "collectText": "We collect information that you voluntarily provide to us when you register on the website.",
+        "useTitle": "3. How We Use Your Information",
+        "useText": "We use the information we collect to facilitate account creation, send administrative information, and fulfill key features of our service.",
+        "contactTitle": "4. Contact Us",
+        "contactText": "If you have questions or comments about this policy, you may email us at support@iabuilderslab.com."
+    },
+    "Terms": {
+        "title": "Terms of Service",
+        "agreementTitle": "1. Agreement to Terms",
+        "agreementText": "These Terms of Service constitute a legally binding agreement made between you and IA Builders Lab.",
+        "ipTitle": "2. Intellectual Property Rights",
+        "ipText": "The Site is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site are owned or controlled by us.",
+        "userRepTitle": "3. User Representations",
+        "userRepText": "By using the Site, you represent and warrant that all registration information you submit will be true, accurate, current, and complete.",
+        "prohibitedTitle": "4. Prohibited Activities",
+        "prohibitedText": "You may not access or use the Site for any purpose other than that for which we make the Site available."
+    },
+    "Docs": {
+        "title": "Documentation",
+        "subtitle": "Everything you need to master IA Builders Lab systems, prompts, and automations.",
+        "gettingStartedTitle": "Getting Started",
+        "gettingStartedDesc": "Learn the basics of our platform, how to set up your account, and make your first copy.",
+        "systemsTitle": "Systems & Workflows",
+        "systemsDesc": "Deep dive into our pre-built AI systems and how to integrate them into your workflow.",
+        "promptsTitle": "Prompt Guides",
+        "promptsDesc": "Master the art of prompting with our comprehensive guides and best practices.",
+        "tutorialsTitle": "Tutorials",
+        "tutorialsDesc": "Step-by-step video tutorials and walkthroughs for advanced use cases."
     }
 }
