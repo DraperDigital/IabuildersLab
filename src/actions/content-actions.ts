@@ -118,10 +118,23 @@ export async function listContent(filters?: { type?: string; status?: string; se
         console.log("Mock session detected (listContent)");
         let content = applyMockFilters(ALL_MOCK_CONTENT, filters);
 
+        // Sort by updated_at desc
+        content.sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime());
+
+        const totalCount = content.length;
+
+        // Apply Pagination
+        const page = filters?.page || 1;
+        const limit = filters?.limit || 10;
+        const startIndex = (page - 1) * limit;
+        const endIndex = startIndex + limit;
+
+        content = content.slice(startIndex, endIndex);
+
         return {
             data: content,
-            count: content.length,
-            totalPages: 1
+            count: totalCount,
+            totalPages: Math.ceil(totalCount / limit)
         };
     }
 
