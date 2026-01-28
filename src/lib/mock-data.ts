@@ -3083,6 +3083,7 @@ const transformMockItem = (item: any): ContentItemWithTags => ({
 export let ALL_MOCK_CONTENT: ContentItemWithTags[] = [
     ...MOCK_SYSTEMS.map(transformMockItem),
     ...MOCK_PROMPTS.map(transformMockItem),
+    ...EXTRA_MOCK_PROMPTS.map(transformMockItem),
     ...MOCK_AUTOMATIONS.map(transformMockItem)
 ];
 
