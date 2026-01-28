@@ -1,28 +1,5 @@
 export const EXTRA_MOCK_PROMPTS = [
-    {
-        "id": "nano-92",
-        "type": "prompt",
-        "title": "Perspective 3D Pop-Out Effect",
-        "slug": "nano-banana-case-92",
-        "summary": "",
-        "body_markdown": "Hyperrealistic, top-down bird's-eye view shot, a beautiful Instagram model [Anne Hathaway / see reference image], with exquisite and beautiful makeup and fashionable styling, standing on the screen of a smartphone held up by someone. The image creates a strong perspective illusion. Emphasize the 3D effect of the girl standing out from the phone. She wears black-rimmed glasses, high-street fashion, and strikes a cute, playful pose. The phone screen is treated as a dark floor, like a small stage. The scene uses strong forced perspective to show the proportional difference between the hand, the phone, and the girl. The background is clean gray, using soft indoor light, shallow depth of field, and the overall style is surrealistic photorealistic compositing. Very strong perspective.",
-        "prompt_text": "Hyperrealistic, top-down bird's-eye view shot, a beautiful Instagram model [Anne Hathaway / see reference image], with exquisite and beautiful makeup and fashionable styling, standing on the screen of a smartphone held up by someone. The image creates a strong perspective illusion. Emphasize the 3D effect of the girl standing out from the phone. She wears black-rimmed glasses, high-street fashion, and strikes a cute, playful pose. The phone screen is treated as a dark floor, like a small stage. The scene uses strong forced perspective to show the proportional difference between the hand, the phone, and the girl. The background is clean gray, using soft indoor light, shallow depth of field, and the overall style is surrealistic photorealistic compositing. Very strong perspective.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "featured_image_url": "/images/prompts/case-92.jpg",
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-91",
         "type": "prompt",
@@ -35,6 +12,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/ancient-treasure-map.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -58,7 +36,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
-        "featured_image_url": "/images/prompts/case-90.jpg",
+        "featured_image_url": "/images/prompts/github-fork-it-keys.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -82,6 +60,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/chrome-emoji-pin.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -105,6 +84,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/beautify-text-design.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -119,15 +99,76 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-86",
         "type": "prompt",
-        "title": "Double Exposure",
+        "title": "Double Exposure Epic Poster — Aragorn & Middle Earth",
         "slug": "nano-banana-case-86",
-        "summary": "",
-        "body_markdown": "Double exposure, Midjourney style, merging, blending, overlay double exposure image, Double Exposure style, An exceptional masterpiece by Yukisakura revealing a fantastic double exposure composition of Aragorn son of Arathorn's silhouette harmoniously intertwined with the visually striking, rugged landscapes of Middle Earth during a lively spring season. Sun-bathed pine forests, mountain peaks, and a lone horse cutting through the trail echo outward through the fabric of his figure, adding layers of narrative and solitude. Beautiful tension builds as the stark monochrome background maintains razor-sharp contrast, drawing all focus to the richly layered double exposure. Characterized by its vibrant full-color scheme within Aragorn's silhouette and crisp, deliberate lines that trace every contour with emotional precision. (Detailed:1.45). (Detailed background:1.4).",
-        "prompt_text": "Double exposure, Midjourney style, merging, blending, overlay double exposure image, Double Exposure style, An exceptional masterpiece by Yukisakura revealing a fantastic double exposure composition of Aragorn son of Arathorn's silhouette harmoniously intertwined with the visually striking, rugged landscapes of Middle Earth during a lively spring season. Sun-bathed pine forests, mountain peaks, and a lone horse cutting through the trail echo outward through the fabric of his figure, adding layers of narrative and solitude. Beautiful tension builds as the stark monochrome background maintains razor-sharp contrast, drawing all focus to the richly layered double exposure. Characterized by its vibrant full-color scheme within Aragorn's silhouette and crisp, deliberate lines that trace every contour with emotional precision. (Detailed:1.45). (Detailed background:1.4).",
+        "summary": "Composición artística de doble exposición centrada en la silueta de Aragorn.",
+        "body_markdown": `
+# Double Exposure Epic Poster — Aragorn & Middle Earth
+
+*   **R (Render):** Composición artística de doble exposición centrada en la silueta de Aragorn, hijo de Arathorn. Forma base: Silueta humana definida y reconocible. Nivel realismo: Ilustración conceptual de alto detalle con acabado cinematográfico.
+*   **E (Entorno):** Fondo monocromático de alto contraste. Mundo interno: Paisajes de la Tierra Media durante primavera vibrante (bosques de pinos, picos montañosos, senderos, caballo solitario).
+*   **A (Acción):** Presentación: La silueta de Aragorn se presenta de perfil o frontal como figura central. Dinámica visual: Los paisajes emergen y se expanden a través del contorno. Narrativa: Sensación de viaje, soledad heroica y destino.
+*   **I (Iluminación):** Iluminación conceptual integrada. Paisajes bañados por luz solar cálida dentro de la silueta, contrastando con el fondo oscuro.
+*   **S (Sensación):** Épica, introspección, grandeza y melancolía. Tono: Heroico, poético, narrativo.
+*   **E (Estilo):** Doble exposición artística estilo Midjourney. Técnica: Fusión, superposición y blending de capas. Color: Esquema vibrante interior vs monocromo exterior. Líneas: Trazos nítidos y deliberados.
+*   **M (Composición):** Composición tipo póster. Ángulo frontal o ligeramente lateral. Encuadre: Figura central dominante con amplio espacio negativo.
+*   **P (Post):** Alto contraste, negros profundos. Detalle general 1.45, fondo 1.4. Acabado: Masterpiece cinematográfico de doble exposición.
+`,
+        "prompt_text": JSON.stringify({
+            "title": "Double Exposure Epic Poster — Aragorn & Middle Earth",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Composición artística de doble exposición centrada en la silueta de Aragorn, hijo de Arathorn.",
+                    "forma_base": "Silueta humana definida y reconocible, utilizada como contenedor visual.",
+                    "nivel_realismo": "Ilustración conceptual de alto detalle con acabado cinematográfico."
+                },
+                "E_Entorno": {
+                    "fondo": "Fondo monocromático de alto contraste.",
+                    "mundo_interno": "Paisajes de la Tierra Media durante primavera vibrante.",
+                    "elementos_clave": "Bosques de pinos iluminados por el sol, picos montañosos, senderos y un caballo solitario avanzando."
+                },
+                "A_Accion_Presentacion": {
+                    "presentacion": "La silueta de Aragorn se presenta de perfil o frontal como figura central.",
+                    "dinamica_visual": "Los paisajes emergen y se expanden a través del contorno de la silueta.",
+                    "narrativa": "Sensación de viaje, soledad heroica y destino."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación conceptual integrada.",
+                    "caracteristicas": "Paisajes bañados por luz solar cálida dentro de la silueta, contrastando con el fondo oscuro."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Épica, introspección, grandeza y melancolía.",
+                    "tono": "Heroico, poético, narrativo."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Doble exposición artística estilo Midjourney.",
+                    "tecnica": "Fusión, superposición y blending de capas.",
+                    "color": {
+                        "interior_silueta": "Esquema de color completo y vibrante.",
+                        "exterior": "Monocromo de alto contraste."
+                    },
+                    "lineas": "Trazos nítidos y deliberados que definen cada contorno con precisión emocional."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Composición tipo póster.",
+                    "angulo": "Vista frontal o ligeramente lateral de la silueta.",
+                    "encuadre": "Figura central dominante con amplio espacio negativo alrededor."
+                },
+                "P_Postproduccion": {
+                    "detalle": {
+                        "nivel_general": 1.45,
+                        "fondo": 1.4
+                    },
+                    "contraste": "Alto, con negros profundos y colores saturados internos.",
+                    "acabado": "Masterpiece cinematográfico de doble exposición, limpio y refinado."
+                }
+            }
+        }),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/double-exposure-aragorn.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -139,41 +180,80 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-85",
-        "type": "prompt",
-        "title": "Surreal Interaction Scene",
-        "slug": "nano-banana-case-85",
-        "summary": "",
-        "body_markdown": "A pencil sketch of [Subject 1] interacting with [Subject 2], where [Subject 2] is rendered as a realistic, full-color object, creating a surreal contrast against the hand-drawn style of [Subject 1] and the background",
-        "prompt_text": "A pencil sketch of [Subject 1] interacting with [Subject 2], where [Subject 2] is rendered as a realistic, full-color object, creating a surreal contrast against the hand-drawn style of [Subject 1] and the background",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-84",
         "type": "prompt",
-        "title": "Animal Silicone Wrist Rest",
+        "title": "Chibi Silicone Wrist Rest — Panda Design",
         "slug": "nano-banana-case-84",
-        "summary": "",
-        "body_markdown": "Create an image of a cute chibi-style silicone wrist rest based on the {🐼} emoji. The wrist rest is made of soft, food-grade silicone with a skin-friendly matte surface. The interior is filled with slow-rebound foam. Designed in a personified cartoon style, the expression is lively, with both arms stretched out as if hugging the user’s wrist while lying on a desk. The overall shape is round, soft, and adorable, featuring the classic {🐼} color scheme. The design is comforting and cute, suitable for office use. The background is a solid white color with soft lighting. Rendered in a product photography style, the angle is either front-facing or at a 45-degree top-down view, showcasing high-definition details and emphasizing the silicone texture and comfort functionality.",
-        "prompt_text": "Create an image of a cute chibi-style silicone wrist rest based on the {🐼} emoji. The wrist rest is made of soft, food-grade silicone with a skin-friendly matte surface. The interior is filled with slow-rebound foam. Designed in a personified cartoon style, the expression is lively, with both arms stretched out as if hugging the user’s wrist while lying on a desk. The overall shape is round, soft, and adorable, featuring the classic {🐼} color scheme. The design is comforting and cute, suitable for office use. The background is a solid white color with soft lighting. Rendered in a product photography style, the angle is either front-facing or at a 45-degree top-down view, showcasing high-definition details and emphasizing the silicone texture and comfort functionality.",
+        "summary": "Reposamuñecas de silicona estilo chibi inspirado en el emoji de panda.",
+        "body_markdown": `
+# Chibi Silicone Wrist Rest — Panda Design
+
+*   **R (Render):** Reposamuñecas de silicona estilo chibi inspirado en el emoji de panda. Forma: Redondeada, suave y adorable. Personificación: Diseño antropomórfico con expresión viva y brazos extendidos (gesto de abrazo). Estructura interna: Relleno de espuma de rebote lento.
+*   **E (Entorno):** Reposando sobre un escritorio limpio. Fondo: Blanco sólido. Contexto: Escena minimalista tipo fotografía de producto.
+*   **A (Acción):** Presentación: Posición de uso, listo para apoyar la muñeca. Interacción simulada: Brazos abiertos sugiriendo confort. Uso: Accesorio ergonómico para oficina.
+*   **I (Iluminación):** Iluminación suave de estudio. Características: Luz difusa que resalta el volumen y evita sombras duras. Objetivo: Mostrar textura de silicona.
+*   **S (Sensación):** Confort, ternura, cercanía. Tono: Cute, relajante, amigable.
+*   **E (Estilo):** Producto chibi estilo cartoon. Materiales: Silicona suave mate grado alimenticio, espuma interior. Paleta: Blanco, negro y acentos suaves. Detalle: Texturas visibles de silicona.
+*   **M (Composición):** Plano medio de producto. Ángulo: Vista frontal o superior (45°). Encuadre: Objeto centrado con espacio negativo.
+*   **P (Post):** Colores limpios y naturales. Contraste bajo a medio. Acabado: Alta definición, nitidez para destacar textura.
+`,
+        "prompt_text": JSON.stringify({
+            "title": "Chibi Silicone Wrist Rest — Panda Design",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Reposamuñecas de silicona estilo chibi inspirado en el emoji de panda.",
+                    "forma": "Redondeada, suave y adorable, con proporciones cartoon.",
+                    "personificacion": "Diseño antropomórfico con expresión viva y brazos extendidos como si abrazara la muñeca del usuario.",
+                    "estructura_interna": "Relleno de espuma de rebote lento."
+                },
+                "E_Entorno": {
+                    "superficie": "Reposando sobre un escritorio limpio.",
+                    "fondo": "Fondo blanco sólido.",
+                    "contexto": "Escena minimalista tipo fotografía de producto."
+                },
+                "A_Accion_Presentacion": {
+                    "presentacion": "El objeto se muestra en posición de uso, listo para apoyar la muñeca.",
+                    "interaccion_simulada": "Brazos abiertos sugiriendo un gesto de abrazo y confort.",
+                    "uso": "Accesorio ergonómico para oficina."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación suave de estudio.",
+                    "caracteristicas": "Luz difusa que resalta el volumen y evita sombras duras.",
+                    "objetivo": "Mostrar claramente la textura de la silicona."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Confort, ternura, cercanía.",
+                    "tono": "Cute, relajante, amigable."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Producto chibi estilo cartoon.",
+                    "materiales": {
+                        "exterior": "Silicona suave de grado alimenticio con acabado mate y amigable con la piel.",
+                        "interior": "Espuma de rebote lento."
+                    },
+                    "paleta_color": "Esquema clásico del panda (blanco, negro y acentos suaves).",
+                    "detalle": "Texturas visibles de silicona enfatizando comodidad."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio de producto.",
+                    "angulo": "Vista frontal o ángulo superior a 45 grados.",
+                    "encuadre": "Objeto centrado con espacio negativo alrededor."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Colores limpios y naturales.",
+                    "contraste": "Bajo a medio.",
+                    "acabado": "Fotografía de producto en alta definición, clara y atractiva para e-commerce.",
+                    "enfoque": "Alta nitidez para destacar textura y suavidad."
+                }
+            }
+        }),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/chibi-panda-wrist-rest.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -188,15 +268,76 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-83",
         "type": "prompt",
-        "title": "Glowing Lines Anatomy Diagram",
+        "title": "Advanced Anatomical Visualization — Highlighted Area",
         "slug": "nano-banana-case-83",
-        "summary": "",
-        "body_markdown": "A digital illustration of a [SUBJECT], portrayed with a network of glowing clean pristine blue lines outlining its anatomy. The image is set against a dark background, highlighting the [SUBJECT] form and features. A specific area such as [PART] is emphasized with a red glow to indicate a point of interest or significance. The style is both educational and visually captivating, designed to resemble an advanced imaging technique",
-        "prompt_text": "A digital illustration of a [SUBJECT], portrayed with a network of glowing clean pristine blue lines outlining its anatomy. The image is set against a dark background, highlighting the [SUBJECT] form and features. A specific area such as [PART] is emphasized with a red glow to indicate a point of interest or significance. The style is both educational and visually captivating, designed to resemble an advanced imaging technique",
+        "summary": "Ilustración digital del sujeto representado mediante líneas luminosas que delinean su anatomía.",
+        "body_markdown": `
+# Advanced Anatomical Visualization — Highlighted Area
+
+*   **R (Render):** Ilustración digital del sujeto representado mediante líneas luminosas que delinean su anatomía. Sujeto: [SUBJECT]. Representación: Estructura anatómica definida por líneas azules limpias y brillantes. Nivel realismo: Visualización conceptual avanzada, no fotorrealista.
+*   **E (Entorno):** Fondo oscuro uniforme. Función: Maximizar el contraste y resaltar la forma. Contexto: Escena técnica y minimalista.
+*   **A (Acción):** Presentación: Sujeto estático, posición clara y legible. Enfoque: Observación y análisis visual. Punto clave: Zona destacada como área de interés.
+*   **I (Iluminación):** Iluminación generada por las líneas. Características: Líneas azules brillantes vs fondo oscuro. Énfasis: Zona [PART] con resplandor rojo intenso.
+*   **S (Sensación):** Claridad, precisión, enfoque. Tono: Educativo, científico, futurista.
+*   **E (Estilo):** Visualización anatómica avanzada. Inspiración: Imagen médica y escaneo tecnológico. Colores: Azul luminoso (estructura) + Rojo brillante (zona destacada). Líneas: Trazos precisos y definidos.
+*   **M (Composición):** Plano medio o general. Ángulo: Frontal o perspectiva ligera. Encuadre: Sujeto centrado ocupando el foco.
+*   **P (Post):** Alto contraste, alta nitidez en contornos. Acabado: Estética pulida tipo imaging científico. Efectos: Brillo suave (glow).
+`,
+        "prompt_text": JSON.stringify({
+            "title": "Advanced Anatomical Visualization — Highlighted Area",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Ilustración digital del sujeto representado mediante líneas luminosas que delinean su anatomía.",
+                    "sujeto": "[SUBJECT]",
+                    "representacion": "Estructura anatómica definida por líneas azules limpias y brillantes.",
+                    "nivel_realismo": "Visualización conceptual avanzada, no fotorrealista."
+                },
+                "E_Entorno": {
+                    "fondo": "Fondo oscuro uniforme.",
+                    "funcion": "Maximizar el contraste y resaltar la forma del sujeto.",
+                    "contexto": "Escena técnica y minimalista."
+                },
+                "A_Accion_Presentacion": {
+                    "presentacion": "El sujeto se muestra estático, en posición clara y legible.",
+                    "enfoque": "Diseño orientado a observación y análisis visual.",
+                    "punto_clave": "Una zona específica del cuerpo destacada como área de interés."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación generada por las propias líneas luminosas.",
+                    "caracteristicas": "Líneas azules brillantes contrastando con el fondo oscuro.",
+                    "enfasis": "Zona [PART] iluminada con un resplandor rojo intenso."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Claridad, precisión, enfoque.",
+                    "tono": "Educativo, científico, futurista."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Visualización anatómica avanzada.",
+                    "inspiracion": "Técnicas de imagen médica y escaneo tecnológico.",
+                    "colores": {
+                        "estructura_principal": "Azul luminoso limpio.",
+                        "zona_destacada": "Rojo brillante para indicar importancia."
+                    },
+                    "lineas": "Trazos precisos, limpios y bien definidos."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio o general del sujeto completo.",
+                    "angulo": "Vista frontal o ligeramente en perspectiva.",
+                    "encuadre": "Composición centrada con el sujeto ocupando el foco visual."
+                },
+                "P_Postproduccion": {
+                    "contraste": "Alto.",
+                    "nitidez": "Alta definición en líneas y contornos.",
+                    "acabado": "Estética pulida tipo imaging científico avanzado.",
+                    "efectos": "Brillo suave (glow) en líneas y área destacada."
+                }
+            }
+        }),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/glowing-lines-anatomy.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -281,15 +422,77 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-79",
         "type": "prompt",
-        "title": "Lego Cityscape (Shanghai Bund)",
+        "title": "LEGO Cityscape — Shanghai Bund & Pudong Skyline",
         "slug": "nano-banana-case-79",
-        "summary": "",
-        "body_markdown": "Create a highly detailed and vividly colored LEGO-style scene of the Shanghai Bund. The foreground features the iconic historical buildings of the Bund, meticulously recreated with LEGO bricks in Western and neoclassical architectural styles — including clock towers, domes, and colonnades. LEGO minifigures are seen strolling along the riverfront, taking photos, and sightseeing, with classic LEGO-style cars parked along the street.\nIn the background lies the spectacular Huangpu River, assembled with translucent blue LEGO bricks. On the water, LEGO ferries and tour boats sail along. Across the river stands the skyline of Lujiazui in Pudong, including the Oriental Pearl Tower, Shanghai Tower, Jin Mao Tower, and Shanghai World Financial Center — all rendered as vibrant, lifelike LEGO skyscrapers.\nThe sky is LEGO’s signature bright blue, adorned with a few white LEGO brick clouds, creating a visual full of energy and modernity.",
-        "prompt_text": "Create a highly detailed and vividly colored LEGO-style scene of the Shanghai Bund. The foreground features the iconic historical buildings of the Bund, meticulously recreated with LEGO bricks in Western and neoclassical architectural styles — including clock towers, domes, and colonnades. LEGO minifigures are seen strolling along the riverfront, taking photos, and sightseeing, with classic LEGO-style cars parked along the street.\nIn the background lies the spectacular Huangpu River, assembled with translucent blue LEGO bricks. On the water, LEGO ferries and tour boats sail along. Across the river stands the skyline of Lujiazui in Pudong, including the Oriental Pearl Tower, Shanghai Tower, Jin Mao Tower, and Shanghai World Financial Center — all rendered as vibrant, lifelike LEGO skyscrapers.\nThe sky is LEGO’s signature bright blue, adorned with a few white LEGO brick clouds, creating a visual full of energy and modernity.",
+        "summary": "Escena urbana altamente detallada recreada completamente en estilo LEGO.",
+        "body_markdown": `
+# LEGO Cityscape — Shanghai Bund & Pudong Skyline
+
+*   **R (Render):** Escena urbana altamente detallada recreada completamente en estilo LEGO. Estilo de construcción: Bloques LEGO con geometría modular y colores vivos. Escala: Paisaje urbano amplio con arquitectura histórica y moderna.
+*   **E (Entorno):** Ubicación: Shanghai, área del Bund y skyline de Pudong. Ambientación: Ciudad vibrante y moderna recreada como diorama LEGO. Elementos clave: Edificios históricos del Bund en primer plano y skyline de Lujiazui (Oriental Pearl Tower, Shanghai Tower, etc.) en el fondo.
+*   **A (Acción):** Dinámica: Escena urbana activa y viva. Elementos humanos: Minifiguras LEGO caminando, tomando fotos y haciendo turismo. Tráfico: Autos LEGO clásicos estacionados y circulando. Actividad acuática: Ferris y barcos turísticos LEGO navegando el río.
+*   **I (Iluminación):** Iluminación diurna brillante. Características: Luz uniforme que realza los colores LEGO sin sombras dramáticas.
+*   **S (Sensación):** Energía, modernidad, vitalidad urbana. Tono: Alegre, dinámico, optimista.
+*   **E (Estilo):** Diorama urbano estilo LEGO altamente detallado. Arquitectura: Bund (histórico, neoclásico) vs Pudong (rascacielos modernos). Materiales: Plásticos LEGO con acabados limpios y colores saturados. Cielo: Azul brillante LEGO con nubes de bloques.
+*   **M (Composición):** Plano general amplio del paisaje urbano. Ángulo ligeramente elevado. Encuadre: Composición panorámica equilibrada entre Bund, río y skyline.
+*   **P (Post):** Colores saturados y brillantes, fieles al estilo LEGO. Contraste medio. Acabado: Look limpio, nítido y altamente detallado, estilo maqueta coleccionable.
+`,
+        "prompt_text": JSON.stringify({
+            "title": "LEGO Cityscape — Shanghai Bund & Pudong Skyline",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Escena urbana altamente detallada recreada completamente en estilo LEGO.",
+                    "estilo_construccion": "Bloques LEGO con geometría modular y colores vivos.",
+                    "escala": "Paisaje urbano amplio con arquitectura histórica y moderna."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Shanghai, área del Bund y skyline de Pudong.",
+                    "ambientacion": "Ciudad vibrante y moderna recreada como diorama LEGO.",
+                    "elementos_clave": {
+                        "primer_plano": "Edificios históricos del Bund en estilos occidental y neoclásico.",
+                        "fondo": "Río Huangpu y skyline de Lujiazui."
+                    }
+                },
+                "A_Accion_Presentacion": {
+                    "dinamica": "Escena urbana activa y viva.",
+                    "elementos_humanos": "Minifiguras LEGO caminando, tomando fotos y haciendo turismo.",
+                    "trafico": "Autos LEGO clásicos estacionados y circulando por la calle.",
+                    "actividad_acuatica": "Ferris y barcos turísticos LEGO navegando el río."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación diurna brillante.",
+                    "caracteristicas": "Luz uniforme que realza los colores LEGO sin sombras dramáticas."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Energía, modernidad, vitalidad urbana.",
+                    "tono": "Alegre, dinámico, optimista."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Diorama urbano estilo LEGO altamente detallado.",
+                    "arquitectura": {
+                        "bund": "Edificios históricos con torres de reloj, cúpulas y columnatas.",
+                        "pudong": "Rascacielos modernos LEGO incluyendo Oriental Pearl Tower, Shanghai Tower, Jin Mao Tower y Shanghai World Financial Center."
+                    },
+                    "materiales": "Plásticos LEGO con acabados limpios y colores saturados.",
+                    "cielo": "Azul brillante LEGO con nubes blancas construidas en bloques."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano general amplio del paisaje urbano.",
+                    "angulo": "Ángulo ligeramente elevado.",
+                    "encuadre": "Composición panorámica equilibrada entre Bund, río y skyline."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Colores saturados y brillantes, fieles al estilo LEGO.",
+                    "contraste": "Medio.",
+                    "acabado": "Look limpio, nítido y altamente detallado, estilo maqueta coleccionable."
+                }
+            }
+        }),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/lego-shanghai-bund.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -313,6 +516,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/silver-crochet-dog.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -327,15 +531,76 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-77",
         "type": "prompt",
-        "title": "Story Scene in Crystal Ball",
+        "title": "Crystal Ball World — Chang’e Flying to the Moon",
         "slug": "nano-banana-case-77",
-        "summary": "",
-        "body_markdown": "A delicate crystal ball rests quietly on a warm, softly lit tabletop by the window. The background is blurred and hazy, with warm-toned sunlight gently passing through the crystal ball, refracting specks of golden light that softly illuminate the dim surroundings.\nInside the crystal ball, a miniature three-dimensional world themed around {Chang’e Flying to the Moon} is naturally displayed — a finely detailed, dreamlike 3D scene. All characters and objects are rendered in adorable chibi style, exquisitely crafted and visually charming, with vivid emotional interactions between them.\nThe overall atmosphere is rich with East Asian fantasy elements, full of intricate details and a surreal magical realism texture. The entire scene feels poetic and dreamy, luxurious yet elegant, radiating a gentle, comforting glow — as if imbued with life through the warm play of light and shadow.",
-        "prompt_text": "A delicate crystal ball rests quietly on a warm, softly lit tabletop by the window. The background is blurred and hazy, with warm-toned sunlight gently passing through the crystal ball, refracting specks of golden light that softly illuminate the dim surroundings.\nInside the crystal ball, a miniature three-dimensional world themed around {Chang’e Flying to the Moon} is naturally displayed — a finely detailed, dreamlike 3D scene. All characters and objects are rendered in adorable chibi style, exquisitely crafted and visually charming, with vivid emotional interactions between them.\nThe overall atmosphere is rich with East Asian fantasy elements, full of intricate details and a surreal magical realism texture. The entire scene feels poetic and dreamy, luxurious yet elegant, radiating a gentle, comforting glow — as if imbued with life through the warm play of light and shadow.",
+        "summary": "Esfera de cristal delicada que contiene un mundo tridimensional en miniatura.",
+        "body_markdown": `
+# Crystal Ball World — Chang’e Flying to the Moon
+
+*   **R (Render):** Esfera de cristal delicada que contiene un mundo tridimensional en miniatura. Bola de cristal transparente con superficie pulida y refractiva. Escena 3D detallada inspirada en el mito de Chang’e volando hacia la Luna. Objeto exterior fotorrealista con mundo interno estilizado.
+*   **E (Entorno):** Mesa cálida y suavemente iluminada junto a una ventana. Fondo desenfocado y brumoso con tonos cálidos. Luz solar atravesando la esfera y el ambiente circundante.
+*   **A (Acción):** La bola de cristal descansa tranquilamente como objeto central. Escena narrativa congelada en un momento poético. Personajes chibi interactuando emocionalmente dentro del mundo en miniatura.
+*   **I (Iluminación):** Iluminación natural cálida. La luz del sol se refracta a través del cristal creando destellos dorados. Iluminación suave que baña el entorno con un resplandor reconfortante.
+*   **S (Sensación):** Ensueño, calma, ternura, maravilla. Poético, mágico, reconfortante.
+*   **E (Estilo):** Escena híbrida de realismo mágico. Mundo 3D en estilo chibi adorable y detallado. Elementos de fantasía de Asia Oriental. Texturas: Superficie clara con refracción y reflejos suaves; Materiales suaves, colores ricos y detalles intrincados.
+*   **M (Composición):** Primer plano a plano medio del objeto. Ángulo frontal ligeramente elevado. Composición centrada con la bola de cristal como foco absoluto, fondo desenfocado.
+*   **P (Post):** Paleta cálida dorada con acentos suaves y etéreos. Contraste suave a medio. Look de realismo mágico cinematográfico, lujoso pero elegante. Brillos luminosos sutiles, partículas de luz, atmósfera viva.
+`,
+        "prompt_text": JSON.stringify({
+            "title": "Crystal Ball World — Chang’e Flying to the Moon",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Esfera de cristal delicada que contiene un mundo tridimensional en miniatura.",
+                    "estructura": "Bola de cristal transparente con superficie pulida y refractiva.",
+                    "contenido_interno": "Escena 3D detallada inspirada en el mito de Chang’e volando hacia la Luna.",
+                    "nivel_realismo": "Objeto exterior fotorrealista con mundo interno estilizado."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Mesa cálida y suavemente iluminada junto a una ventana.",
+                    "ambientacion_externa": "Fondo desenfocado y brumoso con tonos cálidos.",
+                    "elementos_clave": "Luz solar atravesando la esfera y el ambiente circundante."
+                },
+                "A_Accion_Presentacion": {
+                    "presentacion": "La bola de cristal descansa tranquilamente como objeto central.",
+                    "dinamica_interna": "Escena narrativa congelada en un momento poético.",
+                    "interaccion": "Personajes chibi interactuando emocionalmente dentro del mundo en miniatura."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación natural cálida.",
+                    "caracteristicas": "La luz del sol se refracta a través del cristal creando destellos dorados.",
+                    "efecto": "Iluminación suave que baña el entorno con un resplandor reconfortante."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Ensueño, calma, ternura, maravilla.",
+                    "tono": "Poético, mágico, reconfortante."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Escena híbrida de realismo mágico.",
+                    "estilo_interno": "Mundo 3D en estilo chibi adorable y detallado.",
+                    "influencia_cultural": "Elementos de fantasía de Asia Oriental.",
+                    "texturas": {
+                        "cristal": "Superficie clara con refracción y reflejos suaves.",
+                        "interior": "Materiales suaves, colores ricos y detalles intrincados."
+                    }
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Primer plano a plano medio del objeto.",
+                    "angulo": "Ángulo frontal ligeramente elevado.",
+                    "encuadre": "Composición centrada con la bola de cristal como foco absoluto, fondo desenfocado."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Paleta cálida dorada con acentos suaves y etéreos.",
+                    "contraste": "Suave a medio.",
+                    "acabado": "Look de realismo mágico cinematográfico, lujoso pero elegante.",
+                    "efectos": "Brillos luminosos sutiles, partículas de luz, atmósfera viva."
+                }
+            }
+        }),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/crystal-ball-moon.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -347,29 +612,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-76",
-        "type": "prompt",
-        "title": "Nostalgic Anime Film Poster",
-        "slug": "nano-banana-case-76",
-        "summary": "",
-        "body_markdown": "{The Lord of the Rings} anime film poster, the anime is in the style of High School DXD. Visible even folds are seen across the poster as it’s been folded over time, and due to some creases over damaging the poster has caused some physical damage scuffing along the creases and the color has partially faded. Indiscriminate flaps and folds and scratches all around simply from moving back and forth causing subtle yet incremental damage with the ever expanding of entropy we cannot escape, but the loving memories in our hearts will forever be whole. Making the objects we collect along the way priceless is the essence you feel when looking at this nostalgic poster.",
-        "prompt_text": "{The Lord of the Rings} anime film poster, the anime is in the style of High School DXD. Visible even folds are seen across the poster as it’s been folded over time, and due to some creases over damaging the poster has caused some physical damage scuffing along the creases and the color has partially faded. Indiscriminate flaps and folds and scratches all around simply from moving back and forth causing subtle yet incremental damage with the ever expanding of entropy we cannot escape, but the loving memories in our hearts will forever be whole. Making the objects we collect along the way priceless is the essence you feel when looking at this nostalgic poster.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-75",
         "type": "prompt",
@@ -1086,15 +1329,84 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-44",
         "type": "prompt",
-        "title": "RPG-Style Character Card Creation",
+        "title": "RPG Collectible Character Card — Programmer",
         "slug": "nano-banana-case-44",
-        "summary": "",
-        "body_markdown": "Create a digital character card in RPG collectible style.\nThe subject is a {Programmer}, standing confidently with tools or symbols relevant to their job.\nRender it in 3D cartoon style, soft lighting, vivid personality.\nInclude skill bars or stats like [Skill1 +x], [Skill2 +x, e.g., Creativity +10, UI/UX +8].\nAdd a title banner on top and a nameplate on the bottom.\nFrame the card with clean edges like a real figure box.\nMake the background fit the profession's theme.\nColors: warm highlights, profession-matching hues.",
-        "prompt_text": "Create a digital character card in RPG collectible style.\nThe subject is a {Programmer}, standing confidently with tools or symbols relevant to their job.\nRender it in 3D cartoon style, soft lighting, vivid personality.\nInclude skill bars or stats like [Skill1 +x], [Skill2 +x, e.g., Creativity +10, UI/UX +8].\nAdd a title banner on top and a nameplate on the bottom.\nFrame the card with clean edges like a real figure box.\nMake the background fit the profession's theme.\nColors: warm highlights, profession-matching hues.",
+        "summary": "Tarjeta digital coleccionable estilo RPG con un personaje 3D cartoon.",
+        "body_markdown": `
+# RPG Collectible Character Card — Programmer
+
+*   **R (Render):** Tarjeta digital coleccionable estilo RPG con un personaje 3D cartoon. Personaje Arquetipo: Programador. Estilo: Personaje 3D cartoon con rasgos expresivos y personalidad viva. Apariencia: De pie, postura segura, sosteniendo herramientas o símbolos relacionados con la programación. Coherencia: El personaje representa claramente la profesión a nivel visual y simbólico.
+*   **E (Entorno):** Fondo temático acorde a la profesión de programador. Ambientación: Elementos visuales relacionados con tecnología, código o interfaces abstractas. Contexto: Diseño limpio que no distrae del personaje ni de los stats.
+*   **A (Acción):** Postura confiada y heroica típica de tarjetas RPG. Lenguaje corporal: Actitud segura, preparada y competente. Presentación: El personaje se muestra como figura central dentro de la tarjeta.
+*   **I (Iluminación):** Iluminación suave y uniforme. Características: Luz equilibrada que resalta el volumen 3D y la personalidad del personaje, sin sombras duras.
+*   **S (Sensación):** Competencia, creatividad, confianza. Tono: Divertido, inspirador, profesional.
+*   **E (Estilo):** Tarjeta RPG coleccionable en estilo 3D cartoon. Interfaz: Barras de habilidades y estadísticas visibles (ej. Creatividad +10, UI/UX +8). Marco: Bordes limpios y definidos, similares a una caja o figura coleccionable. Paleta de color: Colores con highlights cálidos y tonos asociados a la profesión.
+*   **M (Composición):** Plano medio del personaje dentro de la tarjeta. Ángulo frontal. Encuadre: Composición vertical tipo carta coleccionable.
+*   **P (Post):** Colores vivos pero balanceados. Contraste medio. Acabado: Aspecto pulido, limpio y listo para colección digital. Elementos de texto: Banner superior (Título) y placa inferior (Nombre).
+`,
+        "prompt_text": JSON.stringify({
+            "title": "RPG Collectible Character Card — Programmer",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Tarjeta digital coleccionable estilo RPG con un personaje 3D cartoon.",
+                    "personaje": {
+                        "arquetipo": "Programador",
+                        "estilo": "Personaje 3D cartoon con rasgos expresivos y personalidad viva.",
+                        "apariencia": "De pie, postura segura, sosteniendo herramientas o símbolos relacionados con la programación."
+                    },
+                    "coherencia": "El personaje representa claramente la profesión a nivel visual y simbólico."
+                },
+                "E_Entorno": {
+                    "fondo": "Fondo temático acorde a la profesión de programador.",
+                    "ambientacion": "Elementos visuales relacionados con tecnología, código o interfaces abstractas.",
+                    "contexto": "Diseño limpio que no distrae del personaje ni de los stats."
+                },
+                "A_Accion_Presentacion": {
+                    "pose": "Postura confiada y heroica típica de tarjetas RPG.",
+                    "lenguaje_corporal": "Actitud segura, preparada y competente.",
+                    "presentacion": "El personaje se muestra como figura central dentro de la tarjeta."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación suave y uniforme.",
+                    "caracteristicas": "Luz equilibrada que resalta el volumen 3D y la personalidad del personaje, sin sombras duras."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Competencia, creatividad, confianza.",
+                    "tono": "Divertido, inspirador, profesional."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Tarjeta RPG coleccionable en estilo 3D cartoon.",
+                    "interfaz": {
+                        "elementos_UI": "Barras de habilidades y estadísticas visibles.",
+                        "ejemplos_stats": [
+                            "Creatividad +10",
+                            "UI/UX +8"
+                        ]
+                    },
+                    "marco": "Bordes limpios y definidos, similares a una caja o figura coleccionable.",
+                    "paleta_color": "Colores con highlights cálidos y tonos asociados a la profesión."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio del personaje dentro de la tarjeta.",
+                    "angulo": "Ángulo frontal.",
+                    "encuadre": "Composición vertical tipo carta coleccionable."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Colores vivos pero balanceados.",
+                    "contraste": "Medio.",
+                    "acabado": "Aspecto pulido, limpio y listo para colección digital.",
+                    "elementos_texto": {
+                        "banner_superior": "Título de la tarjeta",
+                        "placa_inferior": "Nombre del personaje"
+                    }
+                }
+            }
+        }),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/rpg-programmer-card.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.815Z",
@@ -1164,6 +1476,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/nano-41-matrix-chibi.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
         "updated_at": "2026-01-23T05:34:12.816Z",
@@ -1175,29 +1488,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-40",
-        "type": "prompt",
-        "title": "Japanese-style Two-Panel Manga (Angry Girl President)",
-        "slug": "nano-banana-case-40",
-        "summary": "",
-        "body_markdown": "Create a two-panel vertical manga in a cute Japanese anime style, theme: “The Daily Work Life of a Girl President.”\n\nCharacter Design:\nTransform the person in the uploaded image into a cute, moe-style anime girl while preserving all key details from the photo — including the outfit (a suit), hairstyle (bright golden-yellow), and facial features.\n\nPanel 1:\n- Expression: Pouting, disappointed, resting her cheek on one hand\n- Text box: “What do I dooo?! He won’t take my call! (；´д｀)”\n- Scene: Warm-toned office, with the U.S. flag in the background. On the desk: a pile of hamburgers and a vintage red rotary phone. The character is on the left side of the frame, the phone on the right.\n\nPanel 2:\n- Expression: Furious, face red with anger, gritting teeth\n- Action: Slams the desk hard, making the hamburgers jump\n- Speech bubble: “Hmph! Double the tariffs! Ignoring me is their loss! ( `д´ )”\n- Scene: Same office, now a complete mess\n\nAdditional Notes:\n- Use a cute, casual handwritten font for all text\n- Keep the composition full and expressive, with adequate space for dialogue and intentional white space\n- Aspect ratio: 2:3\n- The overall visual tone should be colorful and energetic, with a distinctly cartoony style",
-        "prompt_text": "Create a two-panel vertical manga in a cute Japanese anime style, theme: “The Daily Work Life of a Girl President.”\n\nCharacter Design:\nTransform the person in the uploaded image into a cute, moe-style anime girl while preserving all key details from the photo — including the outfit (a suit), hairstyle (bright golden-yellow), and facial features.\n\nPanel 1:\n- Expression: Pouting, disappointed, resting her cheek on one hand\n- Text box: “What do I dooo?! He won’t take my call! (；´д｀)”\n- Scene: Warm-toned office, with the U.S. flag in the background. On the desk: a pile of hamburgers and a vintage red rotary phone. The character is on the left side of the frame, the phone on the right.\n\nPanel 2:\n- Expression: Furious, face red with anger, gritting teeth\n- Action: Slams the desk hard, making the hamburgers jump\n- Speech bubble: “Hmph! Double the tariffs! Ignoring me is their loss! ( `д´ )”\n- Scene: Same office, now a complete mess\n\nAdditional Notes:\n- Use a cute, casual handwritten font for all text\n- Keep the composition full and expressive, with adequate space for dialogue and intentional white space\n- Aspect ratio: 2:3\n- The overall visual tone should be colorful and energetic, with a distinctly cartoony style",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-39",
         "type": "prompt",
@@ -1210,6 +1501,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/fantasy-monitor-head.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.816Z",
         "updated_at": "2026-01-23T05:34:12.816Z",
@@ -1221,29 +1513,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-38",
-        "type": "prompt",
-        "title": "Hand-drawn Infographic Card",
-        "slug": "nano-banana-case-38",
-        "summary": "",
-        "body_markdown": "Create a hand-drawn style infographic card in a 9:16 vertical format. The card should have a clear theme, with a beige or off-white paper-textured background. The overall design should reflect a simple, warm, and handmade aesthetic.\n\nAt the top of the card, use large, eye-catching brush-style Chinese cursive calligraphy in red and black for the title, creating strong visual contrast. All text should be in Chinese cursive script. The layout should be divided into 2 to 4 clear sections, each conveying a core idea through concise and refined Chinese phrases. The calligraphy should maintain a fluid, rhythmic style that is both legible and artistically expressive. Leave appropriate blank space around the text.\n\nThe card should be accented with simple and fun hand-drawn illustrations or icons — such as figures or symbolic elements — to enhance visual appeal and spark thought or emotional resonance. The overall layout should emphasize visual balance and include ample whitespace, ensuring the design is clean, clear, and easy to read.\n\n“Building a personal brand (IP) is long-term compounding.\nKeep updating daily, and results will come — because 99% of people can’t keep it up!”",
-        "prompt_text": "Create a hand-drawn style infographic card in a 9:16 vertical format. The card should have a clear theme, with a beige or off-white paper-textured background. The overall design should reflect a simple, warm, and handmade aesthetic.\n\nAt the top of the card, use large, eye-catching brush-style Chinese cursive calligraphy in red and black for the title, creating strong visual contrast. All text should be in Chinese cursive script. The layout should be divided into 2 to 4 clear sections, each conveying a core idea through concise and refined Chinese phrases. The calligraphy should maintain a fluid, rhythmic style that is both legible and artistically expressive. Leave appropriate blank space around the text.\n\nThe card should be accented with simple and fun hand-drawn illustrations or icons — such as figures or symbolic elements — to enhance visual appeal and spark thought or emotional resonance. The overall layout should emphasize visual balance and include ample whitespace, ensuring the design is clean, clear, and easy to read.\n\n“Building a personal brand (IP) is long-term compounding.\nKeep updating daily, and results will come — because 99% of people can’t keep it up!”",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-37",
         "type": "prompt",
@@ -1256,6 +1526,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/pastel-power-3d-coke.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.816Z",
         "updated_at": "2026-01-23T05:34:12.816Z",
@@ -1279,6 +1550,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/minimalist-3d-toilet.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.816Z",
         "updated_at": "2026-01-23T05:34:12.816Z",
@@ -1290,44 +1562,75 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-34",
-        "type": "prompt",
-        "title": "Hand-drawn Infographic Card (Cognition)",
-        "slug": "nano-banana-case-34",
-        "summary": "",
-        "body_markdown": "Create a hand-drawn style infographic card in vertical 9:16 ratio. The card should have a clear theme, with a beige or off-white paper-textured background. The overall design should convey a rustic, friendly, and handmade aesthetic.\n\nAt the top of the card, feature a bold, eye-catching title in large Chinese cursive brush calligraphy using contrasting red and black colors. All text content should be in Chinese cursive script, and the layout should be divided into 2 to 4 clear sections. Each section expresses a core idea with brief and concise Chinese phrases. The cursive font should retain a smooth, rhythmic flow, remaining legible while carrying artistic appeal.\n\nThe card should include simple, playful hand-drawn illustrations or icons, such as figures or symbolic elements, to enhance visual interest and spark reader reflection or emotional resonance.\n\nThe overall layout should maintain visual balance, with ample white space reserved to ensure clarity, simplicity, and ease of reading and understanding.\n<h1><span style=\"color:red\">“Cognition”</span> defines your ceiling\n<span style=\"color:red\">“Circle”</span> defines your opportunities</h1>\n– You can’t earn money beyond your level of cognition,\n– Nor encounter opportunities beyond your social circle.",
-        "prompt_text": "Create a hand-drawn style infographic card in vertical 9:16 ratio. The card should have a clear theme, with a beige or off-white paper-textured background. The overall design should convey a rustic, friendly, and handmade aesthetic.\n\nAt the top of the card, feature a bold, eye-catching title in large Chinese cursive brush calligraphy using contrasting red and black colors. All text content should be in Chinese cursive script, and the layout should be divided into 2 to 4 clear sections. Each section expresses a core idea with brief and concise Chinese phrases. The cursive font should retain a smooth, rhythmic flow, remaining legible while carrying artistic appeal.\n\nThe card should include simple, playful hand-drawn illustrations or icons, such as figures or symbolic elements, to enhance visual interest and spark reader reflection or emotional resonance.\n\nThe overall layout should maintain visual balance, with ample white space reserved to ensure clarity, simplicity, and ease of reading and understanding.\n<h1><span style=\"color:red\">“Cognition”</span> defines your ceiling\n<span style=\"color:red\">“Circle”</span> defines your opportunities</h1>\n– You can’t earn money beyond your level of cognition,\n– Nor encounter opportunities beyond your social circle.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-33",
         "type": "prompt",
-        "title": "Family Wedding Photo (Q-version)",
+        "title": "Chibi 3D Family Wedding Portrait — Framed Scene",
         "slug": "nano-banana-case-33",
-        "summary": "",
-        "body_markdown": "Transform the people in the photo into chibi-style 3D characters. The parents are dressed in Western wedding attire — the father in a formal suit, the mother in a wedding gown. The child is a beautiful flower girl holding a bouquet.\n\nThe background features a colorful floral arch.\nThe characters are in 3D chibi style, while the environment is photorealistic.\nThe entire scene is placed inside a photo frame.",
-        "prompt_text": "Transform the people in the photo into chibi-style 3D characters. The parents are dressed in Western wedding attire — the father in a formal suit, the mother in a wedding gown. The child is a beautiful flower girl holding a bouquet.\n\nThe background features a colorful floral arch.\nThe characters are in 3D chibi style, while the environment is photorealistic.\nThe entire scene is placed inside a photo frame.",
-        "category": "Generative AI",
+        "summary": "Retrato familiar de boda en estilo Chibi 3D dentro de un marco.",
+        "body_markdown": "\n# Framework REAISEMP\n\n*   **R (Render):** Personajes chibi 3D, cabezas grandes, expresiones suaves.\n*   **E (Entorno):** Escenario fotográfico realista con arco floral.\n*   **A (Acción):** Familia posando armoniosamente.\n*   **I (Iluminación):** Suave y uniforme.\n*   **S (Sensación):** Ternura, celebración.\n*   **E (Estilo):** Híbrido: personajes estilizados + entorno realista.\n*   **M (Composición):** Plano medio centrado en marco.\n*   **P (Post):** Colores vivos, acabado pulido.\n        ",
+        "prompt_text": JSON.stringify({
+            "title": "Chibi 3D Family Wedding Portrait — Framed Scene",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Transformar a las personas de la foto original en versiones chibi 3D, manteniendo identidad reconocible de cada integrante (padre, madre e hijo) a través de rasgos simplificados.",
+                    "estilo_personajes": "Chibi 3D con cabezas grandes, cuerpos pequeños, proporciones adorables y expresiones suaves.",
+                    "vestuario": {
+                        "padre": "Traje formal occidental de boda.",
+                        "madre": "Vestido de novia elegante.",
+                        "hijo": "Niña florista sosteniendo un ramo."
+                    },
+                    "coherencia": "Cada personaje conserva su rol familiar y relación visual."
+                },
+                "E_Entorno": {
+                    "fondo": "Escenario fotográfico realista.",
+                    "ambientacion": "Arco floral colorido detrás de la familia.",
+                    "marco": "Toda la escena está contenida dentro de un marco de foto visible."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Familia posando junta de forma armoniosa.",
+                    "lenguaje_corporal": "Posturas relajadas y afectuosas.",
+                    "accion": "La niña sostiene un ramo de flores como flower girl."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación suave y uniforme.",
+                    "caracteristicas": "Luz equilibrada que favorece tanto a los personajes chibi como al entorno realista."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Ternura, celebración, alegría familiar.",
+                    "tono": "Encantador, cálido, festivo."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Personajes en estilo chibi 3D contrastando con entorno fotorealista.",
+                    "texturas": {
+                        "personajes": "Superficies suaves tipo juguete/figura 3D.",
+                        "entorno": "Texturas realistas en flores, fondo y marco."
+                    },
+                    "nivel_realismo": "Híbrido: personajes estilizados + entorno realista."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio a plano general.",
+                    "angulo": "Ángulo frontal.",
+                    "encuadre": "Composición centrada dentro de un marco de foto visible."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Colores vivos y alegres.",
+                    "contraste": "Medio.",
+                    "acabado": "Aspecto limpio, pulido y decorativo.",
+                    "presentacion_final": "Escena completa presentada como una fotografía enmarcada."
+                }
+            },
+            "final_prompt": "Chibi 3D family wedding portrait, western wedding attire, father in suit, mother in wedding gown, flower girl with bouquet. Realistic floral arch background, inside a photo frame. 3D cute stylized characters, photorealistic environment. Vibrant colors, soft lighting, 8K. --ar 3:4"
+        }, null, 2),
+        "category": "Creative",
         "level": "intermediate",
+        "featured_image_url": "/images/prompts/chibi-family-wedding.png",
         "is_published": true,
         "is_featured": false,
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
+        "updated_at": new Date().toISOString(),
         "tags": [
             {
                 "id": "t-nano",
@@ -1348,6 +1651,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/3d-papercraft-popup-book.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.816Z",
         "updated_at": "2026-01-23T05:34:12.816Z",
@@ -1359,41 +1663,75 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-31",
-        "type": "prompt",
-        "title": "Anime Sticker Collection",
-        "slug": "nano-banana-case-31",
-        "summary": "",
-        "body_markdown": "Naruto stickers",
-        "prompt_text": "Naruto stickers",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-30",
         "type": "prompt",
-        "title": "35mm Film Style Flying Island",
+        "title": "Floating Moscow — Surreal Aerial Cityscape",
         "slug": "nano-banana-case-30",
-        "summary": "",
-        "body_markdown": "35 mm photo of Moscow floating in the sky on a flying islands.",
-        "prompt_text": "35 mm photo of Moscow floating in the sky on a flying islands.",
+        "summary": "Ciudad de Moscú representada de forma surrealista con islas flotantes.",
+        "body_markdown": `
+# Floating Moscow — Surreal Aerial Cityscape
+
+*   **R (Render):** Ciudad de Moscú representada de forma surrealista, fragmentada en islas flotantes suspendidas en el cielo. Arquitectura urbana a gran escala. Fotorrealista con elemento fantástico.
+*   **E (Entorno):** Cielo abierto a gran altura. Espacio aéreo surrealista sin horizonte terrestre visible. Islas flotantes separadas, masas de tierra suspendidas.
+*   **A (Acción):** Las islas flotan libremente en el aire. Sensación de suspensión y quietud, sin movimiento agresivo. Composición estable y equilibrada entre las islas.
+*   **I (Iluminación):** Iluminación natural tipo daylight. Luz uniforme que ilumina la arquitectura y las islas desde un ángulo alto, sin sombras extremas.
+*   **S (Sensación):** Asombro, surrealismo, contemplación. Onírico, majestuoso, silencioso.
+*   **E (Estilo):** Fotografía surrealista. Estética de fotografía tomada con lente de 35 mm. Arquitectura detallada, superficies naturales de las islas visibles. Alto nivel de detalle.
+*   **M (Composición):** Plano general amplio. Vista aérea o ligeramente elevada. Lente de 35 mm. Encuadre abierto que permite apreciar múltiples islas flotantes.
+*   **P (Post):** Colores naturales con ligero énfasis cinematográfico. Contraste medio. Look fotográfico limpio, surrealista y cinematográfico.
+`,
+        "prompt_text": JSON.stringify({
+            "title": "Floating Moscow — Surreal Aerial Cityscape",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Ciudad de Moscú representada de forma surrealista, fragmentada en islas flotantes suspendidas en el cielo.",
+                    "escala": "Arquitectura urbana a gran escala.",
+                    "nivel_realismo": "Fotorrealista con elemento fantástico."
+                },
+                "E_Entorno": {
+                    "fondo": "Cielo abierto a gran altura.",
+                    "ambientacion": "Espacio aéreo surrealista sin horizonte terrestre visible.",
+                    "elementos_clave": "Islas flotantes separadas, masas de tierra suspendidas."
+                },
+                "A_Accion_Presentacion": {
+                    "presentacion": "Las islas flotan libremente en el aire.",
+                    "dinamica": "Sensación de suspensión y quietud, sin movimiento agresivo.",
+                    "orientacion": "Composición estable y equilibrada entre las islas."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación natural tipo daylight.",
+                    "caracteristicas": "Luz uniforme que ilumina la arquitectura y las islas desde un ángulo alto, sin sombras extremas."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Asombro, surrealismo, contemplación.",
+                    "tono": "Onírico, majestuoso, silencioso."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía surrealista.",
+                    "referencia_fotografica": "Est estética de fotografía tomada con lente de 35 mm.",
+                    "texturas": "Arquitectura detallada, superficies naturales de las islas visibles.",
+                    "nivel_detalle": "Alto, con integración realista de elementos fantásticos."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano general amplio.",
+                    "angulo": "Vista aérea o ligeramente elevada.",
+                    "lente": "35 mm",
+                    "encuadre": "Composición abierta que permite apreciar múltiples islas flotantes."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Colores naturales con ligero énfasis cinematográfico.",
+                    "contraste": "Medio.",
+                    "acabado": "Look fotográfico limpio, surrealista y cinematográfico."
+                }
+            }
+        }),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/floating-moscow.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.816Z",
         "updated_at": "2026-01-23T05:34:12.816Z",
@@ -1408,11 +1746,85 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-29",
         "type": "prompt",
-        "title": "Famous Painting Character OOTD",
+        "title": "OOTD Character Card — Fashion Designer",
         "slug": "nano-banana-case-29",
-        "summary": "",
-        "body_markdown": "Generate a Q-style 3D C4D-rendered character based on the person in the photo, dressed in a fashion-forward “outfit of the day” (OOTD) inspired by a specific profession.\nProfession: Fashion Designer\n– Keep the original facial features and character pose\n– Stylize the character with a cute, long-legged chibi proportion\n– Outfit and accessories should reflect the profession, including trendy designer wear, glasses, sketchbook or tablet, and stylish shoes\n– Match the outfit with fashion accessories to complete the look\n– Use a solid background color that complements the character’s overall color palette (no gradients or textures)\n\nComposition: Aspect ratio: 9:16\nTop text: “OOTD”\nLeft side: the full-body chibi character wearing the complete outfit\nRight side: individual clothing items and accessories laid out separately, as if in a style breakdown",
-        "prompt_text": "Generate a Q-style 3D C4D-rendered character based on the person in the photo, dressed in a fashion-forward “outfit of the day” (OOTD) inspired by a specific profession.\nProfession: Fashion Designer\n– Keep the original facial features and character pose\n– Stylize the character with a cute, long-legged chibi proportion\n– Outfit and accessories should reflect the profession, including trendy designer wear, glasses, sketchbook or tablet, and stylish shoes\n– Match the outfit with fashion accessories to complete the look\n– Use a solid background color that complements the character’s overall color palette (no gradients or textures)\n\nComposition: Aspect ratio: 9:16\nTop text: “OOTD”\nLeft side: the full-body chibi character wearing the complete outfit\nRight side: individual clothing items and accessories laid out separately, as if in a style breakdown",
+        "summary": "Avatar 3D estilo Q / chibi renderizado con calidad C4D, presentado como tarjeta editorial OOTD.",
+        "body_markdown": `
+# OOTD Character Card — Fashion Designer
+
+*   **R (Render):** Avatar 3D estilo Q / chibi renderizado con calidad C4D, presentado como tarjeta editorial OOTD.
+*   **E (Entorno):** Color sólido que complementa la paleta del personaje, Sin gradientes ni texturas.
+*   **A (Acción):** Pose natural y segura, acorde a un diseñador de moda. El personaje actúa como modelo de su propio outfit.
+*   **I (Iluminación):** Iluminación suave y uniforme estilo estudio.
+*   **S (Sensación):** Creatividad, estilo, autoexpresión. Moderno, fashion-forward, cool.
+*   **E (Estilo):** Q-style 3D chibi con acabado C4D.
+*   **M (Composición):** Formato Vertical 9:16. Tarjeta editorial con personaje y breakdown de items.
+*   **P (Post):** Colores limpios y coordinados, Look editorial fashion.
+`,
+        "prompt_text": JSON.stringify({
+            "title": "OOTD Character Card — Fashion Designer",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Avatar 3D estilo Q / chibi renderizado con calidad C4D, presentado como tarjeta editorial OOTD.",
+                    "personaje": {
+                        "origen": "Basado en la persona de la foto",
+                        "identidad": "Mantener rasgos faciales originales y pose base",
+                        "estilizacion": "Proporciones chibi con piernas largas y cuerpo estilizado",
+                        "profesion": "Fashion Designer"
+                    }
+                },
+                "E_Entorno": {
+                    "fondo": "Color sólido que complementa la paleta del personaje",
+                    "restricciones": "Sin gradientes ni texturas",
+                    "contexto": "Escena limpia tipo fashion layout / lookbook digital"
+                },
+                "A_Accion_Presentacion": {
+                    "pose": "Pose natural y segura, acorde a un diseñador de moda",
+                    "actitud": "Creativa, confiada y estilosa",
+                    "interaccion": "El personaje actúa como modelo de su propio outfit"
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación suave y uniforme estilo estudio",
+                    "caracteristicas": "Luz suave y balanceada que resalta materiales, telas y silueta sin sombras duras"
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Creatividad, estilo, autoexpresión",
+                    "tono": "Moderno, fashion-forward, cool"
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Q-style 3D chibi con acabado C4D",
+                    "outfit": {
+                        "descripcion": "Outfit of the day inspirado en la profesión de diseñador de moda",
+                        "prendas": [
+                            "Ropa de diseñador trendy",
+                            "Zapatos estilizados"
+                        ],
+                        "accesorios": [
+                            "Gafas",
+                            "Sketchbook o tablet",
+                            "Accesorios fashion complementarios"
+                        ]
+                    },
+                    "detalle": "Alta definición en telas, accesorios y proporciones chibi"
+                },
+                "M_Composicion_Camara": {
+                    "formato": "Vertical 9:16",
+                    "layout": {
+                        "texto_superior": "OOTD",
+                        "lado_izquierdo": "Personaje chibi a cuerpo completo con outfit completo",
+                        "lado_derecho": "Desglose visual de prendas y accesorios colocados por separado"
+                    },
+                    "encuadre": "Composición balanceada tipo tarjeta editorial"
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Colores limpios y coordinados",
+                    "contraste": "Medio",
+                    "acabado": "Look editorial fashion listo para social media o branding",
+                    "nitidez": "Alta, optimizada para formato móvil"
+                }
+            }
+        }, null, 2),
+        "featured_image_url": "/images/prompts/ootd-fashion-designer.png",
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
@@ -1523,11 +1935,86 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-24",
         "type": "prompt",
-        "title": "Creación de Figura Funko Pop",
+        "title": "Collectible Figure Box — JAMES BOND",
         "slug": "nano-banana-case-24",
-        "summary": "",
-        "body_markdown": "Transform the person in the photo into the style of a Funko Pop figure box, presented in isometric view.\nThe packaging is labeled with the title “JAMES BOND.”\nInside the box, display a chibi-style figure based on the person in the photo, along with their essential accessories: a pistol, a wristwatch, a suit, and other signature items.\nNext to the box, show a realistic rendering of the actual figure outside the packaging, with detailed textures and lighting to achieve a lifelike product display.",
-        "prompt_text": "Transform the person in the photo into the style of a Funko Pop figure box, presented in isometric view.\nThe packaging is labeled with the title “JAMES BOND.”\nInside the box, display a chibi-style figure based on the person in the photo, along with their essential accessories: a pistol, a wristwatch, a suit, and other signature items.\nNext to the box, show a realistic rendering of the actual figure outside the packaging, with detailed textures and lighting to achieve a lifelike product display.",
+        "summary": "Figura coleccionable estilo Funko Pop presentada dentro de su caja y también fuera del empaque.",
+        "body_markdown": `
+# Collectible Figure Box — JAMES BOND
+
+*   **R (Render):** Figura coleccionable estilo Funko Pop presentada dentro de su caja y también fuera del empaque. Caja tipo Funko Pop, Vista Isométrica.
+*   **E (Entorno):** Entorno limpio tipo exhibición de producto, Escena neutral.
+*   **A (Acción):** La caja se muestra cerrada en vista isométrica junto a la figura fuera del empaque.
+*   **I (Iluminación):** Iluminación de estudio realista.
+*   **S (Sensación):** Elegancia, exclusividad, nostalgia.
+*   **E (Estilo):** Producto coleccionable 3D con estética Funko Pop.
+*   **M (Composición):** Plano medio de producto, Vista isométrica.
+*   **P (Post):** Colores equilibrados y realistas.
+`,
+        "prompt_text": JSON.stringify({
+            "title": "Collectible Figure Box — JAMES BOND",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Figura coleccionable estilo Funko Pop presentada dentro de su caja y también fuera del empaque.",
+                    "empaque": {
+                        "tipo": "Caja tipo Funko Pop",
+                        "vista": "Isométrica",
+                        "titulo": "JAMES BOND"
+                    },
+                    "figura": {
+                        "estilo": "Chibi 3D",
+                        "origen": "Basada en la persona de la foto",
+                        "identidad": "Conservar rasgos faciales reconocibles del sujeto",
+                        "proporciones": "Cabeza grande, cuerpo pequeño, estilo coleccionable"
+                    }
+                },
+                "E_Entorno": {
+                    "fondo": "Entorno limpio tipo exhibición de producto",
+                    "ambientacion": "Escena neutral que resalta el empaque y la figura",
+                    "contexto": "Display de producto premium"
+                },
+                "A_Accion_Presentacion": {
+                    "presentacion": "La caja se muestra cerrada en vista isométrica junto a la figura fuera del empaque.",
+                    "posicion_figura": "Figura colocada de pie junto a la caja.",
+                    "interaccion": "Relación clara entre empaque y producto real."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación de estudio realista",
+                    "caracteristicas": "Luz suave y controlada que resalta volúmenes, texturas y materiales.",
+                    "objetivo": "Transmitir calidad de producto físico."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Elegancia, exclusividad, nostalgia.",
+                    "tono": "Premium, icónico, coleccionable."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Producto coleccionable 3D con estética Funko Pop.",
+                    "detalle_figura": {
+                        "ropa": "Traje formal estilo James Bond",
+                        "accesorios": [
+                            "Pistola",
+                            "Reloj de pulsera",
+                            "Elementos icónicos del personaje"
+                        ]
+                    },
+                    "texturas": {
+                        "figura": "Material plástico con acabado detallado y limpio.",
+                        "empaque": "Cartón impreso con gráficos nítidos."
+                    }
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio de producto.",
+                    "angulo": "Vista isométrica.",
+                    "encuadre": "Caja y figura centradas como protagonistas del encuadre."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Colores equilibrados y realistas.",
+                    "contraste": "Medio.",
+                    "acabado": "Render de producto de alta calidad, listo para catálogo o e-commerce.",
+                    "detalle_extra": "Alta definición en materiales, bordes y accesorios."
+                }
+            }
+        }, null, 2),
+        "featured_image_url": "/images/prompts/james-bond-funko.png",
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
@@ -1566,52 +2053,8 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-22",
-        "type": "prompt",
-        "title": "Portada Estilo Xiaohongshu",
-        "slug": "nano-banana-case-22",
-        "summary": "",
-        "body_markdown": "Draw an image: Create a cover for a Xiaohongshu (RED) post.\n\nRequirements:\n– It must be visually compelling enough to attract user clicks.\n– Use bold, characterful fonts.\n– Vary font sizes to reflect the hierarchy of information; emphasize the structure of the copy.\n– The main title should be at least twice the size of regular text.\n– Leave white space between text sections.\n– Only use bright accent colors to highlight key words and draw attention.\n– The background should feature an eye-catching pattern (such as paper texture, notebook, or a WeChat chat window—choose one).\n– Add appropriate icons or illustrations to enhance visual layers, but avoid visual clutter.\n\nCopy text:\nBREAKING: ChatGPT just got even better!\n– Superior multitasking ✨\n– Stronger coding ability 💪\n– Creativity off the charts 🎨\nTry it now!\n\nImage aspect ratio: 9:16",
-        "prompt_text": "Draw an image: Create a cover for a Xiaohongshu (RED) post.\n\nRequirements:\n– It must be visually compelling enough to attract user clicks.\n– Use bold, characterful fonts.\n– Vary font sizes to reflect the hierarchy of information; emphasize the structure of the copy.\n– The main title should be at least twice the size of regular text.\n– Leave white space between text sections.\n– Only use bright accent colors to highlight key words and draw attention.\n– The background should feature an eye-catching pattern (such as paper texture, notebook, or a WeChat chat window—choose one).\n– Add appropriate icons or illustrations to enhance visual layers, but avoid visual clutter.\n\nCopy text:\nBREAKING: ChatGPT just got even better!\n– Superior multitasking ✨\n– Stronger coding ability 💪\n– Creativity off the charts 🎨\nTry it now!\n\nImage aspect ratio: 9:16",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
-    {
-        "id": "nano-21",
-        "type": "prompt",
-        "title": "Pack de Stickers Chibi",
-        "slug": "nano-banana-case-21",
-        "summary": "",
-        "body_markdown": "Please create a set of 9 Chibi stickers featuring [the character in the reference image], arranged in a 3x3 grid.\nDesign requirements:\n- Transparent background.\n- 1:1 square aspect ratio.\n- Consistent Chibi Ghibli cartoon style with vibrant colors.\n- Each sticker must have a unique action, expression, and theme, reflecting diverse emotions like \"sassy, mischievous, cute, frantic\" (e.g., rolling eyes, laughing hysterically on the floor, soul leaving body, petrified, throwing money, foodie mode, social anxiety attack). Incorporate elements related to office workers and internet memes.\n- Each character depiction must be complete, with no missing parts.\n- Each sticker must have a uniform white outline, giving it a sticker-like appearance.\n- No extraneous or detached elements in the image.\n- Strictly no text, or ensure any text is 100% accurate (no text preferred).",
-        "prompt_text": "Please create a set of 9 Chibi stickers featuring [the character in the reference image], arranged in a 3x3 grid.\nDesign requirements:\n- Transparent background.\n- 1:1 square aspect ratio.\n- Consistent Chibi Ghibli cartoon style with vibrant colors.\n- Each sticker must have a unique action, expression, and theme, reflecting diverse emotions like \"sassy, mischievous, cute, frantic\" (e.g., rolling eyes, laughing hysterically on the floor, soul leaving body, petrified, throwing money, foodie mode, social anxiety attack). Incorporate elements related to office workers and internet memes.\n- Each character depiction must be complete, with no missing parts.\n- Each sticker must have a uniform white outline, giving it a sticker-like appearance.\n- No extraneous or detached elements in the image.\n- Strictly no text, or ensure any text is 100% accurate (no text preferred).",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
+
     {
         "id": "nano-20",
         "type": "prompt",
@@ -1658,29 +2101,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-18",
-        "type": "prompt",
-        "title": "Estilo 3D de Pixar",
-        "slug": "nano-banana-case-18",
-        "summary": "",
-        "body_markdown": "Redraw this photo in Pixar 3D style",
-        "prompt_text": "Redraw this photo in Pixar 3D style",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-17",
         "type": "prompt",
@@ -1704,75 +2125,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-16",
-        "type": "prompt",
-        "title": "Insignia Estilo Anime",
-        "slug": "nano-banana-case-16",
-        "summary": "",
-        "body_markdown": "Based on the person in the attachment, generate a photo of an anime-style badge. Requirements:\nMaterial: Tassel\nShape: Circular\nMain subject: A hand holding the badge",
-        "prompt_text": "Based on the person in the attachment, generate a photo of an anime-style badge. Requirements:\nMaterial: Tassel\nShape: Circular\nMain subject: A hand holding the badge",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
-    {
-        "id": "nano-15",
-        "type": "prompt",
-        "title": "Generación de Póster Satírico",
-        "slug": "nano-banana-case-15",
-        "summary": "",
-        "body_markdown": "Satirical Poster Text (English):\nGPT-4o is taking over.\nForget working in image AI\nmaybe it’s time to deliver takeout instead.",
-        "prompt_text": "Satirical Poster Text (English):\nGPT-4o is taking over.\nForget working in image AI\nmaybe it’s time to deliver takeout instead.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
-    {
-        "id": "nano-14",
-        "type": "prompt",
-        "title": "Figura Temática de One Piece",
-        "slug": "nano-banana-case-14",
-        "summary": "",
-        "body_markdown": "Transform the person in the photo into a One Piece-themed anime-style action figure, presented inside a collectible figure box designed in the visual style of the One Piece universe. The box is shown in an isometric view.\nInside the box, display the character reimagined in the One Piece anime art style, posed dynamically and accompanied by essential everyday items such as a pistol, a wristwatch, a suit, and leather shoes — all miniaturized and arranged like collectible accessories.\nNext to the box, include a realistic, fully rendered version of the actual figure itself, outside of the packaging. This figure should be rendered with high detail and realism, showcasing the material textures and craftsmanship, as if it were a professionally photographed product.",
-        "prompt_text": "Transform the person in the photo into a One Piece-themed anime-style action figure, presented inside a collectible figure box designed in the visual style of the One Piece universe. The box is shown in an isometric view.\nInside the box, display the character reimagined in the One Piece anime art style, posed dynamically and accompanied by essential everyday items such as a pistol, a wristwatch, a suit, and leather shoes — all miniaturized and arranged like collectible accessories.\nNext to the box, include a realistic, fully rendered version of the actual figure itself, outside of the packaging. This figure should be rendered with high detail and realism, showcasing the material textures and craftsmanship, as if it were a professionally photographed product.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-13",
         "type": "prompt",
@@ -1819,30 +2172,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-11",
-        "type": "prompt",
-        "title": "Portada de Juego PS2 (GTA x Shrek)",
-        "slug": "nano-banana-case-11",
-        "summary": "",
-        "body_markdown": "Can you create a PS2 video game case of \"Grand Theft Auto: Far Far Away\" a GTA based in the Shrek Universe.",
-        "prompt_text": "Can you create a PS2 video game case of \"Grand Theft Auto: Far Far Away\" a GTA based in the Shrek Universe.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "featured_image_url": "/images/prompts/case-11.jpg",
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-10",
         "type": "prompt",

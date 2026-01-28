@@ -2723,38 +2723,322 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         updated_at: new Date().toISOString(),
         tags: [{ id: "t-coup", name: "Couple", slug: "couple" }, { id: "t-elig", name: "Elegant", slug: "elegant" }]
     },
+
     {
-        id: "p26",
+        id: "pg-13",
         type: "prompt",
-        title: "Pareja B&W Espalda con Espalda",
-        slug: "pareja-bw-espalda-con-espalda",
-        summary: "Retrato editorial de alta costura en blanco y negro, simétrico y fuerte.",
+        title: "Authentic Smartphone Selfie — Wide Angle Car Interior (1:1 Reference Lock)",
+        slug: "authentic-smartphone-selfie",
+        summary: "Selfie auténtico con smartphone y lente gran angular en interior de auto.",
+        featured_image_url: "/images/prompts/authentic-smartphone-selfie.jpg",
         body_markdown: `
 # Framework REAISEMP
 
-*   **R (Render):** Expresión intensa, blazer negro.
-*   **E (Entorno):** Telón gris claro minimalista.
-*   **A (Acción):** Espalda con espalda, mirada intensa.
-*   **I (Iluminación):** Luz controlada, contraste B&W.
-*   **S (Sensación):** Fuerza, sofisticación.
-*   **E (Estilo):** Monocromo elegante fashion.
-*   **M (Composición):** Mitad de cuerpo, simétrico.
-*   **P (Post):** B&W alto contraste.
+*   **R (Render):** Hombre joven, rostro 1:1 referencia, cabello ondulado, gafas de sol reflectantes.
+*   **E (Entorno):** Interior de automóvil, tapicería beige, sunroof, calle desenfocada.
+*   **A (Acción):** Selfie gran angular, brazo extendido, postura relajada, mirada a cámara.
+*   **I (Iluminación):** Natural de mediodía, luz fuerte, sombras definidas.
+*   **S (Sensación):** Autenticidad, calma, confianza cotidiana, street lifestyle.
+*   **E (Estilo):** Selfie smartphone gran angular, fotorrealista, texturas naturales.
+*   **M (Composición):** Plano medio selfie, cámara elevada, encuadre idéntico a referencia.
+*   **P (Post):** Desaturado, contraste medio-alto, grano sutil.
         `,
         prompt_text: JSON.stringify({
-            "title": "Pareja B&W Espalda con Espalda",
-            "framework": "REAISEMP"
-        }, null, 2),
-        category: "Portrait",
-        level: "advanced",
-        featured_image_url: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?q=80&w=1000&auto=format&fit=crop",
+            "title": "Authentic Smartphone Selfie — Wide Angle Car Interior (1:1 Reference Lock)",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Hombre joven utilizando estrictamente el rostro del usuario a partir de la imagen de referencia cargada.",
+                    "expresion": "Relajada y segura, expresión natural.",
+                    "detalles": "Cabello de longitud media, textura ondulada y volumen natural; gafas de sol reflectantes; auriculares puestos.",
+                    "instruccion_critica": "Copiar el rostro exactamente 1:1 desde la imagen de referencia. No modificar rasgos, proporciones ni expresión."
+                },
+                "E_Entorno": {
+                    "fondo": "Interior de automóvil con tapicería beige.",
+                    "ambientacion": "Escena cotidiana y auténtica dentro del coche.",
+                    "elementos_clave": {
+                        "techo": "Techo beige visible ocupando la parte superior del encuadre, con parasol y consola superior.",
+                        "sunroof": "Techo solar mostrando árboles, cielo y líneas eléctricas.",
+                        "interior": "Asientos beige, reposacabezas traseros, línea del cinturón de seguridad, asiento delantero derecho parcial.",
+                        "exterior": "Ventana trasera con calle lavada y desenfocada."
+                    }
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentado en el asiento delantero izquierdo.",
+                    "lenguaje_corporal": "Postura relajada y confiada.",
+                    "accion": "Brazo izquierdo extendido hacia la cámara sosteniendo el teléfono.",
+                    "perspectiva": "El brazo más cercano al lente aparece visualmente más grande por efecto gran angular.",
+                    "mirada": "Dirigida a la cámara, cabeza ligeramente inclinada hacia la derecha."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación natural de mediodía.",
+                    "caracteristicas": "Luz solar fuerte desde arriba y frente, sombras naturales definidas."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Autenticidad, calma, confianza cotidiana.",
+                    "tono": "Street lifestyle, espontáneo, real."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Selfie auténtico con smartphone y lente gran angular.",
+                    "vestuario": "Camisa de manga corta gris-marrón de textura suelta, ligeramente desabotonada; jeans azul claro.",
+                    "texturas": "Piel con textura visible, tela natural.",
+                    "nivel_realismo": "Fotorrealista sin estilización artificial."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio tipo selfie.",
+                    "angulo": "Cámara ligeramente elevada y frente al sujeto.",
+                    "encuadre": "Gran angular, composición idéntica a la referencia.",
+                    "instruccion_critica": "Mantener exactamente el mismo encuadre, perspectiva y framing que la imagen original."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Ligeramente desaturado.",
+                    "contraste": "Medio-alto.",
+                    "acabado": "Grano sutil, look street natural.",
+                    "restricciones": "No agregar ni eliminar elementos. No cambiar mood, pose ni composición."
+                }
+            }
+        }),
+
+        category: "Lifestyle",
+        level: "intermediate",
+        featured_image_url: "/images/prompts/authentic-smartphone-selfie.jpg",
         is_published: true,
         is_featured: false,
         paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
-        tags: [{ id: "t-life", name: "Lifestyle", slug: "lifestyle" }, { id: "t-warm", name: "Warm", slug: "warm" }]
+        tags: [{ id: "t-selfie", name: "Selfie", slug: "selfie" }, { id: "t-life", name: "Lifestyle", slug: "lifestyle" }],
+        customization_guide: "# Selfie Auténtico\nSube tu foto de referencia para copiar exactamente el ángulo y la expresión.",
+        reference_image_guide: "La IA intentará replicar tu pose y entorno 1:1."
     },
+    {
+        id: "pg-14",
+        type: "prompt",
+        title: "1990s Disposable Camera Portrait — Dark Academia Gaze",
+        slug: "90s-disposable-camera-portrait",
+        summary: "Retrato estilo cámara desechable de los 90s con estética Dark Academia.",
+        body_markdown: `
+# Framework REAISEMP
+
+*   **R(Render):** Hombre joven, rostro usuario exacto, mirada intensa predatoria.
+*   **E(Entorno):** Fiesta nocturna casa oscura, caos contenido.
+*   **A(Acción):** De pie frontal, contacto visual directo.
+*   **I(Iluminación):** Flash directo cámara desechable, luz dura.
+*   **S(Sensación):** Peligro sutil, dark academia, rebelde.
+*   **E(Estilo):** Analógica lo-fi 90s, cámara desechable, grano pesado.
+*   **M(Composición):** Primer plano, centrado.
+*   **P(Post):** B&W alto contraste, estética cruda.
+        `,
+        featured_image_url: "/images/prompts/90s-disposable-camera-portrait.png",
+        prompt_text: JSON.stringify({
+            "title": "1990s Disposable Camera Portrait — Dark Academia Gaze",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Hombre joven utilizando estrictamente el rostro del usuario tomado del selfie de referencia, preservando rasgos faciales, proporciones y estructura ósea.",
+                    "expresion": "Mirada directa e intensa, ligeramente entornada, con una expresión predatoria y magnética.",
+                    "detalle_clave": "Ojos claros con enfoque extremo, reflejando el flash directo.",
+                    "instruccion_critica": "No modificar el rostro. Mantener identidad facial exacta."
+                },
+                "E_Entorno": {
+                    "fondo": "Fiesta nocturna en una casa oscura.",
+                    "ambientacion": "Espacio interior con iluminación mínima, sensación de caos contenido.",
+                    "elementos_clave": "Fondos indistintos y oscuros que sugieren gente y movimiento sin definirse."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie, enfrentando directamente a la cámara.",
+                    "lenguaje_corporal": "Postura relajada pero dominante.",
+                    "mirada": "Contacto visual directo y penetrante hacia el lente."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Flash directo de cámara desechable.",
+                    "caracteristicas": "Luz dura frontal que aplana parcialmente el rostro y genera sombras duras alrededor."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Intensidad, peligro sutil, atracción oscura.",
+                    "tono": "Dark academia, lo-fi, rebelde."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía analógica lo-fi de los años 90.",
+                    "tecnica": "Cámara desechable con flash integrado.",
+                    "texturas": "Grano pesado, imperfecciones visibles, ligera falta de nitidez.",
+                    "nivel_realismo": "Fotorrealista con imperfección analógica."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Primer plano.",
+                    "angulo": "Ángulo frontal a la altura de los ojos.",
+                    "encuadre": "Composición centrada, rostro ocupando gran parte del encuadre."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Blanco y negro de alto contraste.",
+                    "contraste": "Muy alto.",
+                    "acabado": "Grano fuerte, ruido visible, estética cruda y auténtica.",
+                    "estilo_final": "Dark academia bad boy, disposable camera realism."
+                }
+            }
+        }, null, 2),
+        is_published: true,
+        is_featured: false,
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [{ id: "t-90s", name: "90s", slug: "90s" }, { id: "t-bw", name: "B&W", slug: "black-white" }],
+        customization_guide: "# Estilo Dark Academia\nIdeal para perfiles con estética misteriosa o rebelde.",
+        reference_image_guide: "Usa una selfie directa. El efecto de flash aplanará la imagen, así que una foto con buena definición ayuda."
+    },
+    {
+        id: "pg-15",
+        type: "prompt",
+        title: "Cinematic Portrait Restoration — Golden Hour Shadow (9:16)",
+        slug: "cinematic-portrait-restoration",
+        summary: "Restauración cinematográfica fotorrealista con iluminación Golden Hour.",
+        body_markdown: `
+# Framework REAISEMP
+
+*   **R(Render):** Rasgos originales preservados, expresión exacta.
+*   **E(Entorno):** Interior minimalista, pared fondo.
+*   **A(Acción):** Pose original, mirada preservada.
+*   **I(Iluminación):** Cinematográfica lateral golden hour, sombras dramáticas.
+*   **S(Sensación):** Misterio, intensidad contenida.
+*   **E(Estilo):** Restauración cinematográfica fotorrealista.
+*   **M(Composición):** Plano original, 9:16 vertical.
+*   **P(Post):** Ultra-HD, highlights cálidos, alto contraste.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "Cinematic Portrait Restoration — Golden Hour Shadow (9:16)",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Sujeto con rasgos faciales originales preservados con total fidelidad.",
+                    "expresion": "Exactamente la expresión original, sin alteraciones.",
+                    "instruccion_critica": "Preservar estrictamente la pose, la expresión y la composición originales.",
+                    "coherencia": "Identidad facial intacta, sin cambios de rasgos ni proporciones."
+                },
+                "E_Entorno": {
+                    "fondo": "Interior minimalista con pared visible detrás del sujeto.",
+                    "ambientacion": "Espacio simple que permite proyectar sombras dramáticas.",
+                    "elementos_clave": "Pared utilizada como superficie para sombra definida."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Pose original del retrato, sin modificaciones.",
+                    "lenguaje_corporal": "Se mantiene exactamente como en la imagen base.",
+                    "mirada": "Dirección de la mirada preservada."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación cinematográfica lateral tipo golden hour.",
+                    "caracteristicas": "Luz cálida lateral que proyecta una sombra definida y dramática en la pared detrás del sujeto."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Misterio, intensidad contenida.",
+                    "tono": "Cinematográfico, cálido, de alto contraste."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Restauración cinematográfica fotorrealista.",
+                    "texturas": "Piel realista mejorada, detalles finos visibles.",
+                    "nivel_realismo": "Ultra-realista."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "El plano original del retrato.",
+                    "angulo": "Ángulo original sin cambios.",
+                    "encuadre": "Formato vertical 9:16, composición estrictamente preservada."
+                },
+                "P_Postproduccion": {
+                    "upscale": "Ultra-HD",
+                    "mejoras": "Aumento de nitidez en detalles, mejora de textura de piel realista, reducción de ruido.",
+                    "color_grading": "Highlights cálidos dorados con sombras profundas.",
+                    "contraste": "Alto.",
+                    "acabado": "Look cinematográfico limpio, fotorealista, con sombras profundas y luces cálidas."
+                }
+            }
+        }, null, 2),
+        category: "Portrait",
+        level: "advanced",
+        featured_image_url: "/images/prompts/cinematic-portrait-restoration.png",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [{ id: "t-cine", name: "Cinematic", slug: "cinematic" }, { id: "t-gold", name: "Golden Hour", slug: "golden-hour" }],
+        customization_guide: "# Restauración Cinematográfica\nEste prompt está diseñado para mejorar fotos existentes dándoles un look de cine.",
+        reference_image_guide: "Sube la foto que quieras 'restaurar' o mejorar. La IA respetará la composición original."
+    },
+    {
+        id: "pg-16",
+        type: "prompt",
+        title: "Monochrome Fine-Art Editorial — Grounded Presence",
+        slug: "monochrome-fine-art-editorial",
+        summary: "Editorial de moda fine-art en blanco y negro con silueta de caballo.",
+        body_markdown: `
+# Framework REAISEMP
+
+*   **R(Render):** Identidad intacta, expresión calma introspectiva.
+*   **E(Entorno):** Paisaje natural abierto, pasto salvaje.
+*   **A(Acción):** Sentado banco minimalista, riendas mano, caballo detrás.
+*   **I(Iluminación):** Natural alto contraste, cielo sobreexpuesto.
+*   **S(Sensación):** Introspección, quietud, fuerza.
+*   **E(Estilo):** Editorial fine-art B&W, texturas naturales.
+*   **M(Composición):** Plano medio, ángulo bajo neutral.
+*   **P(Post):** B&W alto contraste, look formato medio.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "Monochrome Fine-Art Editorial — Grounded Presence",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Persona con rasgos faciales reales y definidos, identidad intacta y reconocible.",
+                    "expresion": "Calma, introspectiva, mirada baja y contenida.",
+                    "instruccion_critica": "No cambiar el rostro bajo ninguna circunstancia.",
+                    "coherencia": "Proporciones realistas, sin estilización ni alteración facial."
+                },
+                "E_Entorno": {
+                    "fondo": "Paisaje natural abierto con terreno irregular y pasto salvaje.",
+                    "ambientacion": "Espacio exterior crudo y minimalista.",
+                    "elementos_clave": "Cielo brillante y sobreexpuesto generando amplio espacio negativo."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentado bajo sobre un banco metálico minimalista.",
+                    "lenguaje_corporal": "Piernas extendidas y separadas hacia adelante, postura relajada y enraizada.",
+                    "accion": "Una mano descansando entre las rodillas sosteniendo riendas de cuero delgadas.",
+                    "postura_superior": "Hombros ligeramente caídos, cabeza inclinada hacia abajo."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación natural de alto contraste.",
+                    "caracteristicas": "Cielo sobreexpuesto creando silueta marcada, negros profundos y luces suaves."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Introspección, quietud, fuerza contenida.",
+                    "tono": "Atemporal, cinematográfico, contemplativo."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Editorial de moda fine-art en blanco y negro.",
+                    "vestuario": "Ropa oscura oversized en capas, pantalones wide-leg, botas de cuero, gafas de sol oscuras.",
+                    "elementos_simbolicos": "Caballo negro fuerte de pie detrás del sujeto, alineado de forma protectora y parcialmente superpuesto a la silueta.",
+                    "texturas": "Acabado mate, superficies naturales y textiles densos.",
+                    "nivel_realismo": "Fotorrealista artístico."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio.",
+                    "angulo": "Ángulo neutro ligeramente bajo.",
+                    "encuadre": "Composición equilibrada con superposición visual entre sujeto y caballo, amplio espacio negativo en el cielo."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Blanco y negro de alto contraste.",
+                    "contraste": "Alto, con negros profundos y highlights suaves.",
+                    "acabado": "Look de película de formato medio, grano sutil, textura mate.",
+                    "estilo_final": "Editorial de moda monocromática, fine-art, cinematográfica y atemporal."
+                }
+            }
+        }, null, 2),
+        category: "Fashion",
+        level: "advanced",
+        featured_image_url: "/images/prompts/monochrome-fine-art-editorial.jpg",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [{ id: "t-art", name: "Fine Art", slug: "fine-art" }, { id: "t-bw", name: "B&W", slug: "black-white" }],
+        customization_guide: "# Editorial Fine Art\nSustituye el caballo por otro elemento simbólico si lo deseas, pero mantén la iluminación de alto contraste.",
+        reference_image_guide: "Una foto con gafas de sol y actitud seria encajará perfectamente."
+    },
+
     ...EXTRA_MOCK_PROMPTS as ContentItem[],
 
 
