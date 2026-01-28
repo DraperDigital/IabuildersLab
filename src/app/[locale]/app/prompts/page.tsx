@@ -1,5 +1,7 @@
 import { getPublicPrompts } from "@/lib/mock-data";
 import { SystemCard } from "@/components/system-card";
+import { Search } from "lucide-react";
+import { Input } from "@/components/ui/input";
 export default async function AppPromptsPage() {
     const prompts = await getPublicPrompts();
 
