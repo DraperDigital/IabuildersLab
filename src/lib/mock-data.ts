@@ -2730,7 +2730,6 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         title: "Authentic Smartphone Selfie — Wide Angle Car Interior (1:1 Reference Lock)",
         slug: "authentic-smartphone-selfie",
         summary: "Selfie auténtico con smartphone y lente gran angular en interior de auto.",
-        featured_image_url: "/images/prompts/authentic-smartphone-selfie.jpg",
         body_markdown: `
 # Framework REAISEMP
 
