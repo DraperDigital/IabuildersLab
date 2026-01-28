@@ -6,15 +6,19 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { PublicHeader } from "@/components/public-header";
+import { Pagination } from "@/components/ui/pagination";
 
 export default async function PromptsPage({ searchParams }: { searchParams: Promise<{ [key: string]: string | string[] | undefined }> }) {
     const resolvedParams = await searchParams;
     const category = typeof resolvedParams.category === 'string' ? resolvedParams.category : undefined;
     const tag = typeof resolvedParams.tag === 'string' ? resolvedParams.tag : undefined;
     const search = typeof resolvedParams.search === 'string' ? resolvedParams.search : undefined;
+    const pageParam = typeof resolvedParams.page === 'string' ? parseInt(resolvedParams.page) : 1;
+    const page = isNaN(pageParam) || pageParam < 1 ? 1 : pageParam;
+    const limit = 12;
 
     const [
-        { data: prompts },
+        { data: prompts, totalPages },
         { data: categoriesData },
         { data: tagsData }
     ] = await Promise.all([
@@ -24,6 +28,8 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
             category,
             tag,
             search,
+            page,
+            limit,
             excludeCategories: ['Marketing y publicidad', 'Reseñas de productos', 'Marketing de Facebook']
         }),
         getDistinctCategories(),
@@ -71,6 +77,13 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
                                 </div>
                             )}
                         </div>
+
+                        <Pagination
+                            currentPage={page}
+                            totalPages={totalPages || 1}
+                            baseUrl="/prompts"
+                            searchParams={resolvedParams as Record<string, string | undefined>}
+                        />
                     </div>
 
                     {/* Sidebar (Right Column) */}

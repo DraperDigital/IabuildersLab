@@ -33,6 +33,7 @@ export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps
                 } else {
                     params.delete('search');
                 }
+                params.delete('page'); // Reset pagination on search
                 router.push(`${pathname}?${params.toString()}`);
             }
         }, 500);
@@ -84,6 +85,7 @@ export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps
                         } else {
                             newParams.set('category', cat.toLowerCase());
                         }
+                        newParams.delete('page'); // Reset pagination on category change
 
                         return (
                             <Link href={`${pathname}?${newParams.toString()}`} key={cat}>
@@ -114,6 +116,7 @@ export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps
                         } else {
                             newParams.set('tag', tag.slug);
                         }
+                        newParams.delete('page'); // Reset pagination on tag change
 
                         return (
                             <Link

@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 interface PromptDisplayProps {
     promptText: string;
     isLocked: boolean;
+    hideAspectRatio?: boolean;
 }
 
 const ASPECT_RATIOS = [
@@ -19,7 +20,7 @@ const ASPECT_RATIOS = [
     { label: "Portrait (Feed)", value: "4:5", description: "IG Feed", instruction: "--ar 4:5" },
 ];
 
-export function PromptDisplay({ promptText, isLocked }: PromptDisplayProps) {
+export function PromptDisplay({ promptText, isLocked, hideAspectRatio = false }: PromptDisplayProps) {
     const [selectedRatio, setSelectedRatio] = useState(ASPECT_RATIOS[0]);
     const [copied, setCopied] = useState(false);
 
@@ -33,7 +34,8 @@ export function PromptDisplay({ promptText, isLocked }: PromptDisplayProps) {
     }
 
     // Calculate the final text to display/copy
-    const finalText = selectedRatio.instruction
+    // If aspect ratio is hidden, ignore the instruction even if selected (though default is empty)
+    const finalText = (!hideAspectRatio && selectedRatio.instruction)
         ? `${displayedText} ${selectedRatio.instruction}`
         : displayedText;
 
@@ -58,30 +60,32 @@ export function PromptDisplay({ promptText, isLocked }: PromptDisplayProps) {
             </div>
 
             {/* Aspect Ratio Selector */}
-            <div className="mb-6 bg-slate-900/40 p-4 rounded-xl border border-slate-800/60">
-                <p className="text-sm text-slate-400 mb-3 flex items-center gap-2">
-                    <span className="bg-indigo-500/20 text-indigo-300 p-1 rounded-full"><Info size={14} /></span>
-                    Selecciona el formato para adaptar el prompt a tu plataforma objetivo:
-                </p>
-                <div className="flex flex-wrap gap-2">
-                    {ASPECT_RATIOS.map((ratio) => (
-                        <button
-                            key={ratio.value || "default"}
-                            onClick={() => setSelectedRatio(ratio)}
-                            className={cn(
-                                "px-3 py-1.5 text-xs font-medium rounded-lg transition-all border",
-                                selectedRatio.value === ratio.value
-                                    ? "bg-purple-500/20 border-purple-500 text-purple-300 shadow-[0_0_10px_rgba(168,85,247,0.2)]"
-                                    : "bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700 hover:text-white"
-                            )}
-                            title={ratio.description}
-                        >
-                            <span className="block mb-0.5">{ratio.label}</span>
-                            {ratio.value && <span className="text-[10px] opacity-60 block font-mono">{ratio.instruction}</span>}
-                        </button>
-                    ))}
+            {!hideAspectRatio && (
+                <div className="mb-6 bg-slate-900/40 p-4 rounded-xl border border-slate-800/60">
+                    <p className="text-sm text-slate-400 mb-3 flex items-center gap-2">
+                        <span className="bg-indigo-500/20 text-indigo-300 p-1 rounded-full"><Info size={14} /></span>
+                        Selecciona el formato para adaptar el prompt a tu plataforma objetivo:
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                        {ASPECT_RATIOS.map((ratio) => (
+                            <button
+                                key={ratio.value || "default"}
+                                onClick={() => setSelectedRatio(ratio)}
+                                className={cn(
+                                    "px-3 py-1.5 text-xs font-medium rounded-lg transition-all border",
+                                    selectedRatio.value === ratio.value
+                                        ? "bg-purple-500/20 border-purple-500 text-purple-300 shadow-[0_0_10px_rgba(168,85,247,0.2)]"
+                                        : "bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700 hover:text-white"
+                                )}
+                                title={ratio.description}
+                            >
+                                <span className="block mb-0.5">{ratio.label}</span>
+                                {ratio.value && <span className="text-[10px] opacity-60 block font-mono">{ratio.instruction}</span>}
+                            </button>
+                        ))}
+                    </div>
                 </div>
-            </div>
+            )}
 
             <div className="relative group">
                 {isLocked ? (
@@ -104,8 +108,14 @@ export function PromptDisplay({ promptText, isLocked }: PromptDisplayProps) {
                         <div className="flex items-center justify-between bg-slate-800/50 px-4 py-2 border-b border-indigo-500/20">
                             <div className="text-xs text-indigo-300/70 font-mono flex items-center gap-2">
                                 <span className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
-                                {selectedRatio.description}
-                                {selectedRatio.instruction && <span className="opacity-50">({selectedRatio.instruction})</span>}
+                                {!hideAspectRatio ? (
+                                    <>
+                                        {selectedRatio.description}
+                                        {selectedRatio.instruction && <span className="opacity-50">({selectedRatio.instruction})</span>}
+                                    </>
+                                ) : (
+                                    <span>Raw Text</span>
+                                )}
                             </div>
                             <Button
                                 variant="ghost"
