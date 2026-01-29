@@ -23,7 +23,11 @@ const getMockMetrics = () => {
 
 const getMockRecentContent = (limit: number) => {
     return ALL_MOCK_CONTENT
-        .sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime())
+        .sort((a, b) => {
+            const timeDiff = new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime();
+            if (timeDiff !== 0) return timeDiff;
+            return a.id.localeCompare(b.id);
+        })
         .slice(0, limit)
         .map(item => ({
             id: item.id,
@@ -104,6 +108,7 @@ export async function getRecentContent(limit = 5): Promise<{ data: any; error?: 
             .from('content_items')
             .select('id, title, type, status:is_published, updated_at, level')
             .order('updated_at', { ascending: false })
+            .order('id', { ascending: true })
             .limit(limit);
 
         if (error) {

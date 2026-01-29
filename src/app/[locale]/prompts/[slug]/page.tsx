@@ -40,12 +40,19 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
 
     const promptIndex = MOCK_PROMPTS.findIndex(p => p.slug === slug);
     const prompt = MOCK_PROMPTS[promptIndex];
-    const prevPrompt = promptIndex > 0 ? MOCK_PROMPTS[promptIndex - 1] : null;
-    const nextPrompt = promptIndex < MOCK_PROMPTS.length - 1 ? MOCK_PROMPTS[promptIndex + 1] : null;
 
     if (!prompt) {
         notFound();
     }
+
+    const isImagePrompt = isJsonString(prompt.prompt_text);
+
+    // Filter prompts to only include those of the same type (Image vs Text)
+    const filteredPrompts = MOCK_PROMPTS.filter(p => isJsonString(p.prompt_text) === isImagePrompt);
+    const filteredIndex = filteredPrompts.findIndex(p => p.slug === slug);
+
+    const prevPrompt = filteredIndex > 0 ? filteredPrompts[filteredIndex - 1] : null;
+    const nextPrompt = filteredIndex < filteredPrompts.length - 1 ? filteredPrompts[filteredIndex + 1] : null;
 
     // Mock Access Logic (To be replaced with real auth check later)
     // For now, let's assume 'access' (Free) logic is: You see it if you are here (simulating logged in for demo) 
@@ -70,7 +77,7 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
         dateModified: prompt.updated_at,
     };
 
-    const isImagePrompt = isJsonString(prompt.prompt_text);
+
 
     return (
         <div className="flex min-h-screen flex-col bg-slate-950">

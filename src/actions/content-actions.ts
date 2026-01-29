@@ -119,7 +119,12 @@ export async function listContent(filters?: { type?: string; status?: string; se
         let content = applyMockFilters(ALL_MOCK_CONTENT, filters);
 
         // Sort by updated_at desc
-        content.sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime());
+        // Sort by updated_at desc, then by title asc
+        content.sort((a, b) => {
+            const timeDiff = new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime();
+            if (timeDiff !== 0) return timeDiff;
+            return a.id.localeCompare(b.id);
+        });
 
         const totalCount = content.length;
 
@@ -149,6 +154,7 @@ export async function listContent(filters?: { type?: string; status?: string; se
             .from('content')
             .select('*, tags:content_tags(tag:tags(*))', { count: 'exact' })
             .order('updated_at', { ascending: false })
+            .order('id', { ascending: true })
             .range(from, to);
 
         if (filters?.type && filters.type !== 'all') {

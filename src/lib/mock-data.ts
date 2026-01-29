@@ -3083,7 +3083,7 @@ const transformMockItem = (item: any): ContentItemWithTags => ({
 export let ALL_MOCK_CONTENT: ContentItemWithTags[] = [
     ...MOCK_SYSTEMS.map(transformMockItem),
     ...MOCK_PROMPTS.map(transformMockItem),
-    ...EXTRA_MOCK_PROMPTS.map(transformMockItem),
+
     ...MOCK_AUTOMATIONS.map(transformMockItem)
 ];
 
@@ -3102,13 +3102,32 @@ export const deleteMockItem = (id: string) => {
 };
 
 // Mutable store for tags
-export let MOCK_TAGS = [
-    { id: 't-port', name: 'Portrait', slug: 'portrait' },
-    { id: 't-cine', name: 'Cinematic', slug: 'cinematic' },
-    { id: 't-bw', name: 'B&W', slug: 'black-white' },
-    { id: 't-cyb', name: 'Cyberpunk', slug: 'cyberpunk' },
-    { id: 't-neon', name: 'Neon', slug: 'neon' }
-];
+// Helper to extract unique tags from content
+const getInitialMockTags = () => {
+    const tagsMap = new Map();
+    // Add default tags
+    [
+        { id: 't-port', name: 'Portrait', slug: 'portrait' },
+        { id: 't-cine', name: 'Cinematic', slug: 'cinematic' },
+        { id: 't-bw', name: 'B&W', slug: 'black-white' },
+        { id: 't-cyb', name: 'Cyberpunk', slug: 'cyberpunk' },
+        { id: 't-neon', name: 'Neon', slug: 'neon' }
+    ].forEach(t => tagsMap.set(t.slug, t));
+
+    // Add tags from content
+    ALL_MOCK_CONTENT.forEach(item => {
+        item.tags?.forEach((tag: any) => {
+            if (tag && tag.slug && !tagsMap.has(tag.slug)) {
+                tagsMap.set(tag.slug, tag);
+            }
+        });
+    });
+
+    return Array.from(tagsMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+};
+
+// Mutable store for tags
+export let MOCK_TAGS = getInitialMockTags();
 
 export const addMockTag = (name: string, slug: string) => {
     const newTag = { id: `mock - tag - ${Date.now()}`, name, slug };

@@ -349,52 +349,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-82",
-        "type": "prompt",
-        "title": "Signature City Weather Forecast",
-        "slug": "nano-banana-case-82",
-        "summary": "",
-        "body_markdown": "Show a clear 45-degree bird’s-eye view of an isometric miniature city scene featuring Shanghai’s iconic buildings, such as the Oriental Pearl Tower and the Bund. The weather effect—cloudy—blends softly into the city, interacting gently with the architecture. Use physically based rendering (PBR) and realistic lighting. Solid color background, crisp and clean. Centered composition to highlight the precision and detail of the 3D model. Display “Shanghai Cloudy 20°C” and a cloudy weather icon at the top of the image.",
-        "prompt_text": "Show a clear 45-degree bird’s-eye view of an isometric miniature city scene featuring Shanghai’s iconic buildings, such as the Oriental Pearl Tower and the Bund. The weather effect—cloudy—blends softly into the city, interacting gently with the architecture. Use physically based rendering (PBR) and realistic lighting. Solid color background, crisp and clean. Centered composition to highlight the precision and detail of the 3D model. Display “Shanghai Cloudy 20°C” and a cloudy weather icon at the top of the image.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
-    {
-        "id": "nano-81",
-        "type": "prompt",
-        "title": "3D Translucent Glass Transformation",
-        "slug": "nano-banana-case-81",
-        "summary": "",
-        "body_markdown": "A soft, 3D translucent glass of the attached image with a frosty matte finish and detailed texture, original colors, centered on a light gray background, floats gently in space, soft shadows, natural lighting",
-        "prompt_text": "A soft, 3D translucent glass of the attached image with a frosty matte finish and detailed texture, original colors, centered on a light gray background, floats gently in space, soft shadows, natural lighting",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-80",
         "type": "prompt",
@@ -613,29 +568,7 @@ export const EXTRA_MOCK_PROMPTS = [
         ]
     },
 
-    {
-        "id": "nano-75",
-        "type": "prompt",
-        "title": "Social Media Frame Integration",
-        "slug": "nano-banana-case-75",
-        "summary": "",
-        "body_markdown": "Create a stylized 3D chibi character based on the attached photo, accurately preserving the subject’s facial features and clothing details. The character is making a finger heart with the left hand (with a red heart element above the fingers) and playfully sitting on the edge of a giant Instagram frame, with both legs hanging outside the frame. The top of the frame displays the username “Beauty,” and various social media icons (like, comment, share) float around the scene.",
-        "prompt_text": "Create a stylized 3D chibi character based on the attached photo, accurately preserving the subject’s facial features and clothing details. The character is making a finger heart with the left hand (with a red heart element above the fingers) and playfully sitting on the edge of a giant Instagram frame, with both legs hanging outside the frame. The top of the frame displays the username “Beauty,” and various social media icons (like, comment, share) float around the scene.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-74",
         "type": "prompt",
@@ -659,29 +592,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-73",
-        "type": "prompt",
-        "title": "Cute Chibi Keychain",
-        "slug": "nano-banana-case-73",
-        "summary": "",
-        "body_markdown": "A close-up photo of a cute, colorful keychain held by person's hand. The keychain features a chibi-style of the [attached image ]. The keychain is made of soft rubber with bold black outlines and attached to a small silver keyring, neutral background",
-        "prompt_text": "A close-up photo of a cute, colorful keychain held by person's hand. The keychain features a chibi-style of the [attached image ]. The keychain is made of soft rubber with bold black outlines and attached to a small silver keyring, neutral background",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-72",
         "type": "prompt",
@@ -774,29 +685,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-68",
-        "type": "prompt",
-        "title": "Futuristic Logo Trading Card",
-        "slug": "nano-banana-case-68",
-        "summary": "",
-        "body_markdown": "{\n\"prompt\": \"A futuristic trading card with a dark, moody neon aesthetic and soft sci-fi lighting. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}, with no additional text or label, illuminated with a smooth gradient of {{colors}}, but not overly bright. The reflections on the card surface should be subtle, with a slight glossy finish catching ambient light. The background is a dark carbon fiber texture or deep gradient with soft ambient glows bleeding into the edges. Add subtle light rays streaming down diagonally from the top, giving the scene a soft cinematic glow. Apply light motion blur to the edges and reflections to give the scene a sense of depth and energy, as if it's part of a high-end tech animation still. Below the card, include realistic floor reflections that mirror the neon edges and logo—slightly diffused for a grounded, futuristic look. Text elements are minimal and softly lit: top-left shows '{{ticker}}', top-right has a stylized signature, and the bottom displays '{{company_name}}' with a serial number '{{card_number}}', a revenue badge reading '{{revenue}}', and the year '{{year}}'. Typography should have a faint glow with slight blurring, and all elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card.\",\n\"style\": {\n\"lighting\": \"Neon glow, soft reflections\",\n\"font\": \"Modern sans-serif, clean and minimal\",\n\"layout\": \"Centered, structured like a digital collectible card\",\n\"materials\": \"Glass, holographic plastic, glowing metal edges\"\n},\n\"parameters\": {\n\"logo\": \"Tesla logo\",\n\"ticker\": \"TSLA\",\n\"company_name\": \"Tesla Inc.\",\n\"card_number\": \"#0006\",\n\"revenue\": \"$96.8B\",\n\"year\": \"2025\",\n\"colors\": [\n\"red\",\n\"white\",\n\"dark gray\"\n]\n},\n\"medium\": \"3D render, high-resolution digital art\",\n\"size\": \"1080px by 1080px\"\n}",
-        "prompt_text": "{\n\"prompt\": \"A futuristic trading card with a dark, moody neon aesthetic and soft sci-fi lighting. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}, with no additional text or label, illuminated with a smooth gradient of {{colors}}, but not overly bright. The reflections on the card surface should be subtle, with a slight glossy finish catching ambient light. The background is a dark carbon fiber texture or deep gradient with soft ambient glows bleeding into the edges. Add subtle light rays streaming down diagonally from the top, giving the scene a soft cinematic glow. Apply light motion blur to the edges and reflections to give the scene a sense of depth and energy, as if it's part of a high-end tech animation still. Below the card, include realistic floor reflections that mirror the neon edges and logo—slightly diffused for a grounded, futuristic look. Text elements are minimal and softly lit: top-left shows '{{ticker}}', top-right has a stylized signature, and the bottom displays '{{company_name}}' with a serial number '{{card_number}}', a revenue badge reading '{{revenue}}', and the year '{{year}}'. Typography should have a faint glow with slight blurring, and all elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card.\",\n\"style\": {\n\"lighting\": \"Neon glow, soft reflections\",\n\"font\": \"Modern sans-serif, clean and minimal\",\n\"layout\": \"Centered, structured like a digital collectible card\",\n\"materials\": \"Glass, holographic plastic, glowing metal edges\"\n},\n\"parameters\": {\n\"logo\": \"Tesla logo\",\n\"ticker\": \"TSLA\",\n\"company_name\": \"Tesla Inc.\",\n\"card_number\": \"#0006\",\n\"revenue\": \"$96.8B\",\n\"year\": \"2025\",\n\"colors\": [\n\"red\",\n\"white\",\n\"dark gray\"\n]\n},\n\"medium\": \"3D render, high-resolution digital art\",\n\"size\": \"1080px by 1080px\"\n}",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-67",
         "type": "prompt",
@@ -981,29 +870,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-59",
-        "type": "prompt",
-        "title": "Colorful Vector Art Poster",
-        "slug": "nano-banana-case-59",
-        "summary": "",
-        "body_markdown": "Barcelona Spain colourful summer vector art poster with big \"BARCELONA\" title at the top and smaller \"SPAIN\" title under",
-        "prompt_text": "Barcelona Spain colourful summer vector art poster with big \"BARCELONA\" title at the top and smaller \"SPAIN\" title under",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-58",
         "type": "prompt",
@@ -1030,18 +897,67 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-57",
         "type": "prompt",
-        "title": "8-Bit Pixel Icon",
+        "title": "Pixel Art Burger — 8-Bit Icon",
         "slug": "nano-banana-case-57",
-        "summary": "",
-        "body_markdown": "Create a minimalist 8-bit pixel logo of [🍔], centered on a pure white background. Use a limited retro color palette with pixelated detailing, sharp edges, and clean blocky forms. The logo should be simple, iconic, and clearly recognizable in pixel art style — inspired by classic arcade game aesthetics.",
-        "prompt_text": "Create a minimalist 8-bit pixel logo of [🍔], centered on a pure white background. Use a limited retro color palette with pixelated detailing, sharp edges, and clean blocky forms. The logo should be simple, iconic, and clearly recognizable in pixel art style — inspired by classic arcade game aesthetics.",
+        "summary": "Icono de hamburguesa pixel art estilo 8-bit clásico.",
+        "body_markdown": `
+# Framework REAISEMP (Object)
+
+*   **R (Render):** Icono pixel art 8-bit de hamburguesa. Lineart negro grueso, colores planos vibrantes.
+*   **E (Entorno):** Fondo blanco puro minimalista.
+*   **A (Acción):** Objeto estático centrado.
+*   **I (Iluminación):** Plana, sin sombras complejas (estilo sprite).
+*   **S (Sensación):** Retro, nostálgico, arcade, apetitoso.
+*   **E (Estilo):** Pixel art clásico, estética de videojuego retro.
+*   **M (Composición):** Icono cuadrado centrado.
+*   **P (Post):** Upscaling nítido (nearest neighbor) para mantener bordes duros.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Pixel Art Burger — 8-Bit Icon",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Icono pixel art de una hamburguesa clásica con queso.",
+                    "estilo_pixel": "8-bit o 16-bit, píxeles visibles y definidos.",
+                    "detalles_objeto": "Pan dorado con semillas de sésamo, carne marrón, queso amarillo derretido, lechuga verde y tomate rojo.",
+                    "contornos": "Borde negro de 1 pixel de grosor (outline) para definición clara."
+                },
+                "E_Entorno": {
+                    "fondo": "Blanco puro (#FFFFFF).",
+                    "contexto": "Sprite aislado tipo asset de videojuego o icono de UI."
+                },
+                "A_Accion_Presentacion": {
+                    "presentacion": "Vista frontal o ligeramente isométrica.",
+                    "estado": "Estático, listo para ser consumido (metafóricamente)."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación plana (flat shading) o sombreado básico de píxeles.",
+                    "caracteristicas": "Colores sólidos sin degradados suaves."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Divertido, retro, arcade.",
+                    "estetica": "Nostalgia de videojuegos clásicos."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Pixel Art genuino.",
+                    "paleta_colores": "Colores saturados y limitados (paleta retro)."
+                },
+                "M_Composicion_Camara": {
+                    "encuadre": "Centrado perfecto con espacio negativo alrededor.",
+                    "ratio": "Cuadrado (1:1)."
+                },
+                "P_Postproduccion": {
+                    "nitidez": "Bordes duros (no anti-aliasing)."
+                }
+            }
+        }, null, 2),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/pixel-art-burger.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
+        "updated_at": new Date().toISOString(),
         "tags": [
             {
                 "id": "t-nano",
@@ -1099,18 +1015,80 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-54",
         "type": "prompt",
-        "title": "Extremely Ordinary iPhone Selfie",
+        "title": "Selfie casual nocturna ultra ordinaria — Snapshot accidental",
         "slug": "nano-banana-case-54",
-        "summary": "",
-        "body_markdown": "Please draw an extremely ordinary and unremarkable iPhone selfie, with no clear subject or sense of composition — just like a random snapshot taken casually. The photo should include slight motion blur, with uneven lighting caused by sunlight or indoor lights resulting in mild overexposure. The angle is awkward, the composition is messy, and the overall aesthetic is deliberately plain — as if it was accidentally taken while pulling the phone out of a pocket.\nThe subjects are Eason Chan and Nicholas Tse, taken at night, next to the Hong Kong Convention and Exhibition Centre, by Victoria Harbour in Hong Kong.",
-        "prompt_text": "Please draw an extremely ordinary and unremarkable iPhone selfie, with no clear subject or sense of composition — just like a random snapshot taken casually. The photo should include slight motion blur, with uneven lighting caused by sunlight or indoor lights resulting in mild overexposure. The angle is awkward, the composition is messy, and the overall aesthetic is deliberately plain — as if it was accidentally taken while pulling the phone out of a pocket.\nThe subjects are Eason Chan and Nicholas Tse, taken at night, next to the Hong Kong Convention and Exhibition Centre, by Victoria Harbour in Hong Kong.",
-        "category": "Generative AI",
+        "summary": "Selfie nocturna casual y accidental en Hong Kong.",
+        "body_markdown": `
+# Framework REAISEMP (Human)
+
+*   **R (Render):** Dos hombres adultos (Eason Chan, Nicholas Tse). Identidad casual, sin glam.
+*   **E (Entorno):** Noche, HK Convention Centre. Luces urbanas desenfocadas.
+*   **A (Acción):** Selfie accidental. Ángulo incómodo.
+*   **I (Iluminación):** Desigual smartphone. Flash o luz inconsistente.
+*   **S (Sensación):** Cotidiano, sin dramatismo. Imperfecto y realista.
+*   **E (Estilo):** Selfie iPhone ordinaria. Motion blur, composición desordenada.
+*   **M (Composición):** Messy framing. Ángulo torcido. Smartphone depth of field.
+*   **P (Post):** Colores crudos. Contraste bajo. Acabado auténtico accidental.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Selfie casual nocturna ultra ordinaria — Snapshot accidental",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujetos": "Dos hombres adultos (Eason Chan y Nicholas Tse) presentes en la selfie.",
+                    "identidad": "Rasgos reconocibles preservados, pero capturados de forma casual y sin intención estética.",
+                    "expresion": "Natural, espontánea, sin pose marcada.",
+                    "detalle": "No hay énfasis glam; apariencia cotidiana y normal."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Noche junto al Hong Kong Convention and Exhibition Centre, Victoria Harbour, Hong Kong.",
+                    "fondo": "Luces urbanas nocturnas desenfocadas, ambiente real de calle.",
+                    "contexto": "Escena turística casual sin composición cuidada."
+                },
+                "A_Accion_Postura": {
+                    "accion": "Selfie tomada de forma accidental o improvisada.",
+                    "pose": "Ángulo incómodo, encuadre torpe, sin intención fotográfica.",
+                    "lenguaje_corporal": "Momento espontáneo como snapshot de bolsillo."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación desigual típica de smartphone.",
+                    "caracteristicas": "Exposición irregular con leves zonas sobreexpuestas por luces artificiales o faroles.",
+                    "efecto": "Flash o luz ambiental nocturna inconsistente."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Completamente cotidiano, sin dramatismo.",
+                    "tono": "Foto casual, imperfecta, realista, accidental."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Selfie iPhone extremadamente ordinaria.",
+                    "imperfecciones": [
+                        "Motion blur ligero",
+                        "Composición desordenada",
+                        "Ángulo awkward",
+                        "Estética plain y sin intención artística"
+                    ],
+                    "calidad": "Snapshot realista, no editorial, no cinematográfico."
+                },
+                "M_Composicion_Camara": {
+                    "encuadre": "Messy framing, sin sujeto central claro.",
+                    "angulo": "Torcido, espontáneo, como al sacar el móvil del bolsillo.",
+                    "profundidad_de_campo": "Smartphone natural, fondo borroso por movimiento."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Ninguno o mínimo: colores crudos de teléfono.",
+                    "contraste": "Bajo, típico de captura casual.",
+                    "efectos": "Nada estilizado, acabado auténtico y accidental.",
+                    "acabado_final": "Selfie nocturna común y sin composición intencional."
+                }
+            }
+        }, null, 2),
+        "category": "Photography",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/hong-kong-night-selfie.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
+        "updated_at": new Date().toISOString(),
         "tags": [
             {
                 "id": "t-nano",
@@ -1168,18 +1146,75 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-51",
         "type": "prompt",
-        "title": "Passport Entry Stamp",
+        "title": "Passport Entry Stamp — Welcome to Guanajuato",
         "slug": "nano-banana-case-51",
-        "summary": "",
-        "body_markdown": "Create a realistic passport page with an entry stamp for [{City}, {Country}]. The stamp should say \"Welcome to {City}\" in bold English, designed in a round or oval shape with decorative borders. Include the word \"ARRIVAL\" and a fictional date like \"15 APR 2025\" Incorporate a subtle silhouette of {Main Landmark} as a background detail within the stamp. Use deep blue or red ink with light smudges for added realism. The stamp should appear slightly angled, as if hand-pressed. The passport page should show visible paper texture and security patterns.",
-        "prompt_text": "Create a realistic passport page with an entry stamp for [{City}, {Country}]. The stamp should say \"Welcome to {City}\" in bold English, designed in a round or oval shape with decorative borders. Include the word \"ARRIVAL\" and a fictional date like \"15 APR 2025\" Incorporate a subtle silhouette of {Main Landmark} as a background detail within the stamp. Use deep blue or red ink with light smudges for added realism. The stamp should appear slightly angled, as if hand-pressed. The passport page should show visible paper texture and security patterns.",
+        "summary": "Sello de pasaporte realista 'Welcome to Guanajuato' con silueta arquitectónica.",
+        "body_markdown": `
+# Framework REAISEMP (Object)
+
+*   **R (Render):** Sello de tinta azul en papel de pasaporte texturizado.
+*   **E (Entorno):** Página de pasaporte con patrones de seguridad sutiles.
+*   **A (Acción):** Sellado manual en ángulo ligero (imperfecto).
+*   **I (Iluminación):** Plana, escáner o fotografía macro suave.
+*   **S (Sensación):** Oficial, viaje, llegada, auténtico.
+*   **E (Estilo):** Fotorrealismo macro de documento oficial.
+*   **M (Composición):** Sello ovalado/ornamental centrado. Texto 'One-way' legible.
+*   **P (Post):** Textura de papel, absorción de tinta, smudges ligeros.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Passport Entry Stamp — Welcome to Guanajuato",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Sello de entrada en pasaporte realista para Guanajuato, México.",
+                    "detalles_sello": {
+                        "texto_principal": "WELCOME TO GUANAJUATO",
+                        "texto_secundario": "ARRIVAL",
+                        "fecha": "15 APR 2025",
+                        "diseño": "Forma ovalada con bordes decorativos ornamentales.",
+                        "icono": "Silueta sutil de la Basílica de Guanajuato o arquitectura colonial al fondo."
+                    },
+                    "tinta": {
+                        "color": "Azul profundo o violeta de seguridad.",
+                        "comportamiento": "Ligeros borrones (smudges) y absorción irregular en el papel."
+                    }
+                },
+                "E_Entorno": {
+                    "superficie": "Papel de pasaporte auténtico con fibras visibles y textura mate.",
+                    "fondo": "Patrones de seguridad (guilloche) tenues en el fondo de la página."
+                },
+                "A_Accion_Presentacion": {
+                    "estado": "Estático, recién estampado.",
+                    "angulo": "Ligeramente inclinado/rotado para simular estampado manual humano."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz difusa y uniforme (tipo escáner o luz natural suave).",
+                    "sombras": "Mínimas, solo para resaltar la textura del papel."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Oficial, viaje internacional, descubrimiento.",
+                    "estetica": "Documental realista."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía macro o escaneo de alta resolución.",
+                    "nivel_de_detalle": "Micro-detalles en la tinta y fibras del papel."
+                },
+                "M_Composicion_Camara": {
+                    "encuadre": "Close-up centrado en el sello.",
+                    "enfoque": "Nítido en todo el sello."
+                },
+                "P_Postproduccion": {
+                    "efectos": "Simulación de imperfecciones de tinta y textura de papel para máximo realismo."
+                }
+            }
+        }, null, 2),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/passport-entry-stamp.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
+        "updated_at": new Date().toISOString(),
         "tags": [
             {
                 "id": "t-nano",
@@ -1191,18 +1226,101 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-50",
         "type": "prompt",
-        "title": "Physical Destruction Effect Card (Lara Croft)",
+        "title": "Trading Card Burst Scene — Lara Croft Archaeological Adventure",
         "slug": "nano-banana-case-50",
-        "summary": "",
-        "body_markdown": "An ultra-photorealistic, cinematic-style illustration depicting Lara Croft dynamically bursting through the frame of an “Archaeological Adventure” trading card. She is caught mid-jump or swinging on a rope, wearing her iconic adventurer outfit and possibly firing dual pistols. The muzzle flashes help shatter the card’s ancient stone-carved border, creating a visible dimensional rupture with energy cracks and spatial distortions, scattering dust and debris outward.\n\nHer body lunges forward with powerful momentum, breaking through the card’s flat plane, emphasizing strong motion depth. Inside the card (the background) is a depiction of dense jungle ruins or a trap-filled ancient tomb. The shattered card fragments mix with crumbling stone, flying vines, broken ancient coins, and spent shell casings.\n\nThe title “Archaeological Adventure” and the name “Lara Croft” (accompanied by a stylized artifact icon) remain visible on the remaining cracked and weathered parts of the card. The scene is lit with adventurous, dynamic lighting that emphasizes her agility and the perilous environment.",
-        "prompt_text": "An ultra-photorealistic, cinematic-style illustration depicting Lara Croft dynamically bursting through the frame of an “Archaeological Adventure” trading card. She is caught mid-jump or swinging on a rope, wearing her iconic adventurer outfit and possibly firing dual pistols. The muzzle flashes help shatter the card’s ancient stone-carved border, creating a visible dimensional rupture with energy cracks and spatial distortions, scattering dust and debris outward.\n\nHer body lunges forward with powerful momentum, breaking through the card’s flat plane, emphasizing strong motion depth. Inside the card (the background) is a depiction of dense jungle ruins or a trap-filled ancient tomb. The shattered card fragments mix with crumbling stone, flying vines, broken ancient coins, and spent shell casings.\n\nThe title “Archaeological Adventure” and the name “Lara Croft” (accompanied by a stylized artifact icon) remain visible on the remaining cracked and weathered parts of the card. The scene is lit with adventurous, dynamic lighting that emphasizes her agility and the perilous environment.",
-        "category": "Generative AI",
+        "summary": "Ilustración de trading card donde Lara Croft rompe el marco hacia el exterior.",
+        "body_markdown": `
+# Framework REAISEMP (Object)
+
+*   **R (Render):** Lara Croft saltando/balanceándose. Ruptura marco carta.
+*   **E (Entorno):** Dentro: Ruinas selváticas. Fuera: Escombros, fragmentos carta.
+*   **A (Acción):** Movimiento agresivo hacia adelante. Pop-out 3D.
+*   **I (Iluminación):** Aventurera, dinámica. Contrastes fuertes.
+*   **S (Sensación):** Épica, peligro, energía explosiva.
+*   **E (Estilo):** Trading card illustration ultra-realista. Dimensional rupture.
+*   **M (Composición):** Carta coleccionable, personaje saliendo marco. Título visible.
+*   **P (Post):** Cracks energéticos, distorsión, partículas, motion blur.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Trading Card Burst Scene — Lara Croft Archaeological Adventure",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Ilustración ultra-fotorrealista estilo cinematográfico de una carta coleccionable donde Lara Croft rompe el marco hacia el exterior.",
+                    "elemento_central": {
+                        "personaje": "Lara Croft",
+                        "accion": "Saltando o balanceándose con cuerda, irrumpiendo fuera del plano de la carta",
+                        "outfit": "Aventurera icónica, posible uso de pistolas duales"
+                    },
+                    "efecto_dimensional": "Ruptura visible del borde de la carta con grietas energéticas, distorsión espacial y fragmentos expulsados"
+                },
+                "E_Entorno": {
+                    "dentro_de_la_carta": {
+                        "escena": "Ruinas selváticas densas o tumba antigua llena de trampas",
+                        "elementos": ["Piedra antigua", "Vegetación", "Ambiente arqueológico peligroso"]
+                    },
+                    "fuera_de_la_carta": {
+                        "elementos_expulsados": [
+                            "Fragmentos de la carta",
+                            "Polvo y escombros",
+                            "Vides volando",
+                            "Monedas antiguas rotas",
+                            "Casquillos usados"
+                        ]
+                    }
+                },
+                "A_Accion_Presentacion": {
+                    "dinamica": "Movimiento agresivo hacia adelante, con profundidad extrema tipo 3D pop-out.",
+                    "impacto": "El borde tallado en piedra se rompe por la energía y el disparo.",
+                    "muzzle_flash": "Destellos de disparo ayudan a fracturar el marco y expulsar partículas"
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación aventurera y dinámica cinematográfica.",
+                    "caracteristicas": "Contrastes fuertes, highlights sobre Lara, sombras dramáticas en ruinas.",
+                    "efecto": "Énfasis en agilidad, peligro y acción"
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Aventura épica, peligro arqueológico, energía explosiva.",
+                    "tono": "Heroico, intenso, cinematic action card"
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Trading card illustration ultra-realista con efecto dimensional ruptured frame.",
+                    "texturas": {
+                        "marco": "Borde tallado en piedra antigua agrietada",
+                        "fragmentos": "Polvo, piedra, energía, distorsión",
+                        "fondo": "Selva o tumba con atmósfera arqueológica"
+                    },
+                    "detalles": "Alta definición en debris, grietas energéticas, motion depth"
+                },
+                "M_Composicion_Camara": {
+                    "layout": "Carta coleccionable con personaje saliendo del marco hacia la cámara.",
+                    "profundidad": "Perspectiva extrema tipo pop-out 3D",
+                    "texto_visible": {
+                        "titulo": "Archaeological Adventure",
+                        "nombre": "Lara Croft",
+                        "icono": "Artefacto estilizado junto al nombre"
+                    },
+                    "encuadre": "Carta parcialmente destruida pero texto aún legible"
+                },
+                "P_Postproduccion": {
+                    "efectos": [
+                        "Cracks energéticos",
+                        "Distorsión espacial",
+                        "Partículas y polvo volumétrico",
+                        "Motion blur sutil en debris"
+                    ],
+                    "acabado": "Ultra-cinematic, alto rango dinámico, acción épica tipo póster",
+                    "nitidez": "Máxima nitidez en personaje y borde fracturado"
+                }
+            }
+        }, null, 2),
+        "category": "3D Design",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/trading-card-lara-croft.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
+        "updated_at": new Date().toISOString(),
         "tags": [
             {
                 "id": "t-nano",
@@ -1214,18 +1332,80 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-49",
         "type": "prompt",
-        "title": "Fashion Magazine Cover Style",
+        "title": "Portada editorial — Mujer en qipao rosa con mariposas",
         "slug": "nano-banana-case-49",
-        "summary": "",
-        "body_markdown": "A beautiful woman wearing a pink qipao, adorned with delicate floral accessories on her head and colorful blossoms woven into her hair. Around her neck is an elegant white lace collar. One of her hands gently holds several large butterflies. The overall photography style features high-definition detail and texture, resembling a fashion magazine cover. The word “FASHION DESIGN” is placed at the top center of the image. The background is a minimalist light gray, designed to highlight the subject.",
-        "prompt_text": "A beautiful woman wearing a pink qipao, adorned with delicate floral accessories on her head and colorful blossoms woven into her hair. Around her neck is an elegant white lace collar. One of her hands gently holds several large butterflies. The overall photography style features high-definition detail and texture, resembling a fashion magazine cover. The word “FASHION DESIGN” is placed at the top center of the image. The background is a minimalist light gray, designed to highlight the subject.",
-        "category": "Generative AI",
+        "summary": "Portada de revista fashion editorial con mujer en qipao y mariposas.",
+        "body_markdown": `
+# Framework REAISEMP (Human)
+
+*   **R (Render):** Mujer hermosa, estética fashion. Qipao rosa, encaje blanco. Mariposas.
+*   **E (Entorno):** Fondo gris minimalista. Estudio limpio.
+*   **A (Acción):** Pose refinada, mano sosteniendo mariposas delicadamente.
+*   **I (Iluminación):** Estudio suave y envolvente. Sombras sutiles.
+*   **S (Sensación):** Elegancia, delicadeza, fantasía suave.
+*   **E (Estilo):** Fotografía editorial hiperrealista. Alta moda.
+*   **M (Composición):** Portada centrada. Texto "FASHION DESIGN" superior.
+*   **P (Post):** Paleta suave elegante. Alta nitidez en detalles.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Portada editorial — Mujer en qipao rosa con mariposas",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer hermosa con estética elegante tipo fashion magazine.",
+                    "vestimenta": {
+                        "outfit": "Qipao rosa tradicional y estilizado.",
+                        "cuello": "Cuello blanco de encaje delicado."
+                    },
+                    "accesorios": {
+                        "cabeza": "Accesorios florales finos y blossoms coloridos tejidos en el cabello."
+                    },
+                    "detalle_manos": "Una mano sostiene suavemente varias mariposas grandes.",
+                    "detalle_piel": "Textura de piel realista con acabado editorial de alta definición."
+                },
+                "E_Entorno": {
+                    "fondo": "Gris claro minimalista.",
+                    "escena": "Estudio limpio sin elementos distractores.",
+                    "objetivo": "Destacar completamente al sujeto como portada."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura suave y refinada, estilo portada de moda.",
+                    "gesto": "Mano levantada delicadamente sosteniendo mariposas.",
+                    "actitud": "Elegante, serena, fashion-forward."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación de estudio suave y envolvente.",
+                    "caracteristicas": "Luz clara que resalta textura del qipao, flores y mariposas.",
+                    "sombras": "Sutiles, sin dureza, look editorial."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Elegancia, delicadeza, fantasía suave.",
+                    "tono": "Fashion magazine cover con estética refinada."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía editorial hiperrealista de alta moda.",
+                    "calidad": "Alta definición, detalle en tela, accesorios y mariposas.",
+                    "componente_texto": "Diseño tipo portada contemporánea."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Retrato centrado estilo portada.",
+                    "encuadre": "Sujeto dominante en el frame con espacio superior para tipografía.",
+                    "texto_superior": "FASHION DESIGN"
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Paleta suave y elegante con contraste moderado.",
+                    "nitidez": "Alta nitidez en rostro, flores, encaje y mariposas.",
+                    "acabado_final": "Portada limpia, premium, lista para revista."
+                }
+            }
+        }, null, 2),
+        "category": "Fashion",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/fashion-design-cover.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
+        "updated_at": new Date().toISOString(),
         "tags": [
             {
                 "id": "t-nano",
@@ -1234,29 +1414,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-48",
-        "type": "prompt",
-        "title": "Voxel Style 3D Icon Conversion",
-        "slug": "nano-banana-case-48",
-        "summary": "",
-        "body_markdown": "Take the icon on the right and transform it into a voxel 3d icon like the icons in the left image. Octane render. 8k.",
-        "prompt_text": "Take the icon on the right and transform it into a voxel 3d icon like the icons in the left image. Octane render. 8k.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-47",
         "type": "prompt",
@@ -1280,29 +1438,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-46",
-        "type": "prompt",
-        "title": "Happy Capsule Creation",
-        "slug": "nano-banana-case-46",
-        "summary": "",
-        "body_markdown": "Title (large text): Fast-Acting Happiness Capsule\nA capsule pill with a green top in Starbucks green and a transparent bottom, printed with the Starbucks logo. Inside the capsule are numerous coffee beans.\nDescription (small text): Take when feeling sad or down. Three times a day, two capsules per dose.\nBuy button: Same color as the capsule.\nBelow the button, display the price: $9.\nPlease follow medical advice and purchase as needed.",
-        "prompt_text": "Title (large text): Fast-Acting Happiness Capsule\nA capsule pill with a green top in Starbucks green and a transparent bottom, printed with the Starbucks logo. Inside the capsule are numerous coffee beans.\nDescription (small text): Take when feeling sad or down. Three times a day, two capsules per dose.\nBuy button: Same color as the capsule.\nBelow the button, display the price: $9.\nPlease follow medical advice and purchase as needed.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-45",
         "type": "prompt",
@@ -1418,52 +1554,8 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-43",
-        "type": "prompt",
-        "title": "Cute Chibi Matryoshka Dolls (Girl with a Pearl Earring)",
-        "slug": "nano-banana-case-43",
-        "summary": "",
-        "body_markdown": "Transform the person in the image into a set of cute chibi-style Russian nesting dolls (🪆), with a total of five dolls arranged from largest to smallest. Place them on an elegant wooden table. Horizontal aspect ratio: 3:2.",
-        "prompt_text": "Transform the person in the image into a set of cute chibi-style Russian nesting dolls (🪆), with a total of five dolls arranged from largest to smallest. Place them on an elegant wooden table. Horizontal aspect ratio: 3:2.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
-    {
-        "id": "nano-42",
-        "type": "prompt",
-        "title": "3D Q-version Couple Snow Globe",
-        "slug": "nano-banana-case-42",
-        "summary": "",
-        "body_markdown": "Transform the person in the attached image into a snow globe scene.\nOverall environment: The snow globe is placed on a tabletop by the window, with a blurred, warm-toned background. Sunlight passes through the globe, casting golden sparkles that gently illuminate the surrounding darkness.\nInside the globe: The characters are in a cute chibi-style 3D design, gazing at each other with eyes full of love.",
-        "prompt_text": "Transform the person in the attached image into a snow globe scene.\nOverall environment: The snow globe is placed on a tabletop by the window, with a blurred, warm-toned background. Sunlight passes through the globe, casting golden sparkles that gently illuminate the surrounding darkness.\nInside the globe: The characters are in a cute chibi-style 3D design, gazing at each other with eyes full of love.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.815Z",
-        "updated_at": "2026-01-23T05:34:12.815Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
+
     {
         "id": "nano-41",
         "type": "prompt",
@@ -1909,29 +2001,7 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-25",
-        "type": "prompt",
-        "title": "Ilustración 3D Minimalista",
-        "slug": "nano-banana-case-25",
-        "summary": "",
-        "body_markdown": "Generate a toilet with the following JSON profile:\n{\n\"art_style_profile\": {\n\"style_name\": \"Minimalist 3D Illustration\",\n\"visual_elements\": {\n\"shape_language\": \"Rounded edges, smooth and soft forms with simplified geometry\",\n\"colors\": {\n\"primary_palette\": [\"Soft beige, light gray, warm orange\"],\n\"accent_colors\": [\"Warm orange for focal elements\"],\n\"shading\": \"Soft gradients with smooth transitions, avoiding harsh shadows or highlights\"\n},\n\"lighting\": {\n\"type\": \"Soft, diffused lighting\",\n\"source_direction\": \"Above and slightly to the right\",\n\"shadow_style\": \"Subtle and diffused, no sharp or high-contrast shadows\"\n},\n\"materials\": {\n\"surface_texture\": \"Matte, smooth surfaces with subtle shading\",\n\"reflectivity\": \"Low to none, avoiding glossiness\"\n},\n\"composition\": {\n\"object_presentation\": \"Single, central object displayed in isolation with ample negative space\",\n\"perspective\": \"Slightly angled, giving a three-dimensional feel without extreme depth\",\n\"background\": \"Solid, muted color that complements the object without distraction\"\n},\n\"typography\": {\n\"font_style\": \"Minimalistic, sans-serif\",\n\"text_placement\": \"Bottom-left corner with small, subtle text\",\n\"color\": \"Gray, low-contrast against the background\"\n},\n\"rendering_style\": {\n\"technique\": \"3D render with simplified, low-poly aesthetics\",\n\"detail_level\": \"Medium detail, focusing on form and color over texture or intricacy\"\n}\n},\n\"purpose\": \"To create clean, aesthetically pleasing visuals that emphasize simplicity, approachability, and modernity.\"\n}\n}",
-        "prompt_text": "Generate a toilet with the following JSON profile:\n{\n\"art_style_profile\": {\n\"style_name\": \"Minimalist 3D Illustration\",\n\"visual_elements\": {\n\"shape_language\": \"Rounded edges, smooth and soft forms with simplified geometry\",\n\"colors\": {\n\"primary_palette\": [\"Soft beige, light gray, warm orange\"],\n\"accent_colors\": [\"Warm orange for focal elements\"],\n\"shading\": \"Soft gradients with smooth transitions, avoiding harsh shadows or highlights\"\n},\n\"lighting\": {\n\"type\": \"Soft, diffused lighting\",\n\"source_direction\": \"Above and slightly to the right\",\n\"shadow_style\": \"Subtle and diffused, no sharp or high-contrast shadows\"\n},\n\"materials\": {\n\"surface_texture\": \"Matte, smooth surfaces with subtle shading\",\n\"reflectivity\": \"Low to none, avoiding glossiness\"\n},\n\"composition\": {\n\"object_presentation\": \"Single, central object displayed in isolation with ample negative space\",\n\"perspective\": \"Slightly angled, giving a three-dimensional feel without extreme depth\",\n\"background\": \"Solid, muted color that complements the object without distraction\"\n},\n\"typography\": {\n\"font_style\": \"Minimalistic, sans-serif\",\n\"text_placement\": \"Bottom-left corner with small, subtle text\",\n\"color\": \"Gray, low-contrast against the background\"\n},\n\"rendering_style\": {\n\"technique\": \"3D render with simplified, low-poly aesthetics\",\n\"detail_level\": \"Medium detail, focusing on form and color over texture or intricacy\"\n}\n},\n\"purpose\": \"To create clean, aesthetically pleasing visuals that emphasize simplicity, approachability, and modernity.\"\n}\n}",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "nano-24",
         "type": "prompt",
@@ -2058,18 +2128,85 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-20",
         "type": "prompt",
-        "title": "Figura de Acción y Persona Real",
+        "title": "Desk Scene Contrast — Anime Figure + Real Person Pose Match",
         "slug": "nano-banana-case-20",
-        "summary": "",
-        "body_markdown": "In a casual, everyday style as if shot on a mobile phone, an anime figure of [Jackie Chan] is placed on a desk, striking an exaggerated and cool pose, fully equipped. Simultaneously, the corresponding real-life person also appears in the frame, striking a similar pose to the figure, creating an interesting visual contrast with the figure and the real person in the same frame. The overall composition is harmonious and natural, delivering a warm and vibrant, true-to-life visual experience.",
-        "prompt_text": "In a casual, everyday style as if shot on a mobile phone, an anime figure of [Jackie Chan] is placed on a desk, striking an exaggerated and cool pose, fully equipped. Simultaneously, the corresponding real-life person also appears in the frame, striking a similar pose to the figure, creating an interesting visual contrast with the figure and the real person in the same frame. The overall composition is harmonious and natural, delivering a warm and vibrant, true-to-life visual experience.",
+        "summary": "Escena casual de contraste entre figura anime y persona real.",
+        "body_markdown": `
+# Framework REAISEMP (Object)
+
+*   **R (Render):** Figura anime vs Persona Real. Figura estilo Jackie Chan completamente equipada. Persona real imitando pose exacta.
+*   **E (Entorno):** Escritorio cotidiano, interior casual, foto de móvil.
+*   **A (Acción):** Poses paralelas exageradas y dinámicas. Interacción visual divertida.
+*   **I (Iluminación):** Ambiental cálida, imperfecta, sombras suaves (smartphone style).
+*   **S (Sensación):** Cálido, divertido, auténtico.
+*   **E (Estilo):** Snapshot casual true-to-life. Contraste escala juguete vs humana.
+*   **M (Composición):** Plano medio balanceado.
+*   **P (Post):** Color grading natural y cálido.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Desk Scene Contrast — Anime Figure + Real Person Pose Match",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Escena casual tipo móvil donde una figura anime coleccionable aparece sobre un escritorio junto a una persona real replicando su pose.",
+                    "figura": {
+                        "tipo": "Figura estilo anime (inspirada en Jackie Chan)",
+                        "pose": "Exagerada, cool y dinámica",
+                        "detalle": "Completamente equipada como figura de acción"
+                    },
+                    "persona_real": {
+                        "presencia": "Aparece en el mismo encuadre",
+                        "accion": "Imita la pose exacta de la figura para contraste visual",
+                        "efecto": "Relación divertida entre miniatura y humano"
+                    }
+                },
+                "E_Entorno": {
+                    "escena": "Escritorio cotidiano en un ambiente real",
+                    "fondo": "Interior casual sin look de estudio",
+                    "contexto": "Fotografía espontánea como snapshot de móvil"
+                },
+                "A_Accion_Presentacion": {
+                    "dinamica": "Figura y persona ejecutan poses paralelas en el mismo frame",
+                    "interaccion": "Contraste visual divertido entre toy scale y escala humana",
+                    "composicion": "Natural y armoniosa, sin parecer montada artificialmente"
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz ambiental cotidiana tipo smartphone",
+                    "caracteristicas": "Iluminación cálida, imperfecta, realista",
+                    "sombras": "Suaves e irregulares como en una escena doméstica"
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Cálido, vibrante, divertido, auténtico",
+                    "tono": "Everyday life + playful visual contrast"
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía casual de móvil con estética true-to-life",
+                    "detalle": {
+                        "figura": "Look anime coleccionable con pose exagerada",
+                        "persona": "Realismo natural, postura similar",
+                        "contraste": "Toy vs real person en un mismo momento"
+                    },
+                    "acabado": "Harmonioso y orgánico, no editorial"
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio mostrando escritorio, figura y persona",
+                    "angulo": "Smartphone casual ligeramente imperfecto",
+                    "encuadre": "Balanceado para que ambos sujetos sean visibles"
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Natural y cálido, sin filtros agresivos",
+                    "nitidez": "Detalle suficiente en figura y persona, estilo snapshot real",
+                    "acabado_final": "Escena auténtica y encantadora con contraste juguetón"
+                }
+            }
+        }, null, 2),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/desk-scene-contrast.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
+        "updated_at": new Date().toISOString(),
         "tags": [
             {
                 "id": "t-nano",
@@ -2081,18 +2218,70 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-19",
         "type": "prompt",
-        "title": "Diorama de País en Caja de Juguetes",
+        "title": "Mexico in a Box — Miniature Diorama",
         "slug": "nano-banana-case-19",
-        "summary": "",
-        "body_markdown": "An ultra-realistic top-down photograph of a 3D-printed diorama inside a beige cardboard box, with the lid being held open by two human hands. The interior of the box reveals a miniature landscape of [COUNTRY NAME], featuring iconic landmarks, terrain, buildings, rivers, vegetation, and crowds of tiny, detailed human figures. The diorama is filled with vibrant, geographically appropriate elements, all crafted in a tactile, toy-like style using matte 3D-printed textures with visible layer lines. At the top, the inside of the box lid displays the phrase “[COUNTRY NAME]” in large, colorful, raised plastic letters—each letter in a different bright color. The lighting is warm and cinematic, highlighting the textures and shadows to evoke a sense of realism and charm, as if the viewer is opening a magical miniature version of the nation",
-        "prompt_text": "An ultra-realistic top-down photograph of a 3D-printed diorama inside a beige cardboard box, with the lid being held open by two human hands. The interior of the box reveals a miniature landscape of [COUNTRY NAME], featuring iconic landmarks, terrain, buildings, rivers, vegetation, and crowds of tiny, detailed human figures. The diorama is filled with vibrant, geographically appropriate elements, all crafted in a tactile, toy-like style using matte 3D-printed textures with visible layer lines. At the top, the inside of the box lid displays the phrase “[COUNTRY NAME]” in large, colorful, raised plastic letters—each letter in a different bright color. The lighting is warm and cinematic, highlighting the textures and shadows to evoke a sense of realism and charm, as if the viewer is opening a magical miniature version of the nation",
+        "summary": "Diorama realista de México dentro de una caja de cartón.",
+        "body_markdown": `
+# Framework REAISEMP (Object)
+
+*   **R (Render):** Diorama 3D-printed dentro de caja de cartón. Textura matte con layer lines visibles, estilo juguete táctil.
+*   **E (Entorno):** Interior de caja de cartón beige, manos humanas sosteniendo la tapa.
+*   **A (Acción):** Vista top-down revelando el paisaje miniatura.
+*   **I (Iluminación):** Cálida y cinematográfica, resaltando texturas y sombras realistas.
+*   **S (Sensación):** Mágico, encantador, realismo miniatura.
+*   **E (Estilo):** Fotografía ultra-realista de maqueta física estilo juguete.
+*   **M (Composición):** Paisaje de México con landmarks (pirámides, edificios coloniales), vegetación y multitudes. Texto "MÉXICO" en letras plásticas de colores en la tapa.
+*   **P (Post):** Enfoque nítido en el diorama, profundidad de campo natural.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Mexico in a Box — Miniature Diorama",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "tipo_objeto": "Diorama impreso en 3D dentro de una caja de cartón.",
+                    "materiales": {
+                        "terreno": "Textura mate con líneas de impresión visibles (layer lines) para efecto táctil de juguete.",
+                        "letras": "Plástico brillante de colores vivos (raised plastic letters).",
+                        "caja": "Cartón corrugado beige realista."
+                    },
+                    "contenido": "Paisaje miniatura de México: pirámides, edificios coloniales, ríos, vegetación y multitudes de figuras humanas diminutas."
+                },
+                "E_Entorno": {
+                    "contenedor": "Caja de cartón beige estándar sostenida por manos humanas reales.",
+                    "texto_tapa": "Frase 'MÉXICO' en el interior de la tapa, cada letra de un color brillante diferente."
+                },
+                "A_Accion_Presentacion": {
+                    "accion": "Manos abriendo la caja para revelar el mundo mágico interior.",
+                    "perspectiva": "Top-down shot (vista cenital) clara y detallada."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Cinematográfica cálida (Golden Hour).",
+                    "efecto": "Sombras suaves que dan volumen a las miniaturas y realismo a la escena."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Encantador, nostálgico, mágico.",
+                    "estetica": "Toy-like realism, artesanía digital de alta calidad."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía ultra-realista de objeto físico (tilt-shift feel sin desenfoque excesivo).",
+                    "colores": "Vibrantes y geográficamente apropiados (tonos tierra, verdes vivos, arquitectura colorida)."
+                },
+                "M_Composicion_Camara": {
+                    "encuadre": "Centrado en el contenido de la caja.",
+                    "enfoque": "Nitidez total en el diorama, ligero desenfoque en las manos/fondo."
+                },
+                "P_Postproduccion": {
+                    "acabado": "Aspecto físico tangible, no render digital liso."
+                }
+            }
+        }, null, 2),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/mexico-box-diorama.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
+        "updated_at": new Date().toISOString(),
         "tags": [
             {
                 "id": "t-nano",
@@ -2102,115 +2291,98 @@ export const EXTRA_MOCK_PROMPTS = [
         ]
     },
 
-    {
-        "id": "nano-17",
-        "type": "prompt",
-        "title": "Pantalla de Arranque Retro CRT",
-        "slug": "nano-banana-case-17",
-        "summary": "",
-        "body_markdown": "Retro CRT computer boot screen that resolves into ASCII-art of [shape or logo]",
-        "prompt_text": "Retro CRT computer boot screen that resolves into ASCII-art of [shape or logo]",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
 
-    {
-        "id": "nano-13",
-        "type": "prompt",
-        "title": "Foto a Estilo 3D Versión Q",
-        "slug": "nano-banana-case-13",
-        "summary": "",
-        "body_markdown": "Transform the characters in the scene into 3D chibi-style figures, while keeping the original scene layout and their clothing exactly the same.",
-        "prompt_text": "Transform the characters in the scene into 3D chibi-style figures, while keeping the original scene layout and their clothing exactly the same.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
-    {
-        "id": "nano-12",
-        "type": "prompt",
-        "title": "Figura 3D de Pareja en Joyero",
-        "slug": "nano-banana-case-12",
-        "summary": "",
-        "body_markdown": "Create a finely crafted, adorably charming 3D-rendered collectible figure based on the subjects in the photo, displayed inside a pastel-toned, warm and romantic presentation box. The box is designed in a soft cream color with gentle gold accents, resembling an elegant portable jewelry case.\n\nWhen opened, the box reveals a heartwarming romantic scene: two chibi-style characters gazing sweetly at each other. The lid is engraved with the words “FOREVER TOGETHER,” surrounded by delicate star and heart motifs.\n\nInside the box stands the female from the photo, holding a small bouquet of white flowers. Beside her is her partner, the male from the photo. Both characters have large, expressive, sparkling eyes and soft, warm smiles that radiate affection and charm.\n\nBehind them is a round window, through which a sunny skyline of a traditional Chinese town can be seen, along with gently drifting clouds. The interior is softly lit with warm ambient lighting, and petals float in the background to enhance the atmosphere.\n\nThe overall color scheme of both the display box and the characters is elegant and harmonious, creating a luxurious and dreamlike miniature keepsake.\n\nAspect ratio: 9:16",
-        "prompt_text": "Create a finely crafted, adorably charming 3D-rendered collectible figure based on the subjects in the photo, displayed inside a pastel-toned, warm and romantic presentation box. The box is designed in a soft cream color with gentle gold accents, resembling an elegant portable jewelry case.\n\nWhen opened, the box reveals a heartwarming romantic scene: two chibi-style characters gazing sweetly at each other. The lid is engraved with the words “FOREVER TOGETHER,” surrounded by delicate star and heart motifs.\n\nInside the box stands the female from the photo, holding a small bouquet of white flowers. Beside her is her partner, the male from the photo. Both characters have large, expressive, sparkling eyes and soft, warm smiles that radiate affection and charm.\n\nBehind them is a round window, through which a sunny skyline of a traditional Chinese town can be seen, along with gently drifting clouds. The interior is softly lit with warm ambient lighting, and petals float in the background to enhance the atmosphere.\n\nThe overall color scheme of both the display box and the characters is elegant and harmonious, creating a luxurious and dreamlike miniature keepsake.\n\nAspect ratio: 9:16",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
 
-    {
-        "id": "nano-10",
-        "type": "prompt",
-        "title": "Generación de Caricatura Satírica",
-        "slug": "nano-banana-case-10",
-        "summary": "",
-        "body_markdown": "An illustration in satirical comic style, rendered in a vintage American comic aesthetic. The background features a multi-tiered shelf stocked entirely with identical red baseball caps. The caps have a bold slogan on the front: “MAKE AMERICA GREAT AGAIN,” while a white side tag on each reads “MADE IN CHINA.” The composition uses a close-up perspective focusing on one specific red cap.\nAt the bottom of the image, a price label is shown: the original price “$50.00” is crossed out with a thick black X and replaced with “$77.00.” The overall color palette uses nostalgic ochre and deep red tones, with shading that mimics the textured print style of 1990s retro comics.\nThe composition is exaggerated and satirical, carrying a strong critique of political consumerism.",
-        "prompt_text": "An illustration in satirical comic style, rendered in a vintage American comic aesthetic. The background features a multi-tiered shelf stocked entirely with identical red baseball caps. The caps have a bold slogan on the front: “MAKE AMERICA GREAT AGAIN,” while a white side tag on each reads “MADE IN CHINA.” The composition uses a close-up perspective focusing on one specific red cap.\nAt the bottom of the image, a price label is shown: the original price “$50.00” is crossed out with a thick black X and replaced with “$77.00.” The overall color palette uses nostalgic ochre and deep red tones, with shading that mimics the textured print style of 1990s retro comics.\nThe composition is exaggerated and satirical, carrying a strong critique of political consumerism.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
+
+
     {
         "id": "nano-9",
         "type": "prompt",
-        "title": "Póster Futurista Minimalista",
+        "title": "Poster futurista minimalista — Metaball Coca-Cola Bottle",
         "slug": "nano-banana-case-9",
-        "summary": "",
-        "body_markdown": "A vertical (3:4) 4K-resolution minimalist futurist exhibition poster with an ultra-light cool gray background (#f4f4f4).\n\nAt the center of the poster is a fluid 3D metaball shaped like a classic Coca-Cola bottle in full form, rendered in frosted glass with delicate grainy noise.\nThe fluid gradient transitions from Coca-Cola Red (#E41C23) to Pearl White (#FFFFFF), giving it a silky glass-like appearance.\n\nHigh-position softbox lighting casts long, soft colored shadows and a subtle halo.\n\nThe fluid overlaps with the text: letters obscured by the frosted glass appear with a gentle Gaussian blur.\n•The main title, the classic red “Coca-Cola” logo, is centered and partially obscured by the fluid. The covered letters are slightly blurred through the frosted glass.\n•The subtitle, in bold all-caps modern sans-serif pure black font, reads: “TASTE THE FEELING”, placed below the main title. It is also partially overlapped by the fluid and blurred in those areas, while the rest remains sharp.\n\nThe overall layout is clean with generous whitespace, balanced composition, sharp focus, and HDR high dynamic range.",
-        "prompt_text": "A vertical (3:4) 4K-resolution minimalist futurist exhibition poster with an ultra-light cool gray background (#f4f4f4).\n\nAt the center of the poster is a fluid 3D metaball shaped like a classic Coca-Cola bottle in full form, rendered in frosted glass with delicate grainy noise.\nThe fluid gradient transitions from Coca-Cola Red (#E41C23) to Pearl White (#FFFFFF), giving it a silky glass-like appearance.\n\nHigh-position softbox lighting casts long, soft colored shadows and a subtle halo.\n\nThe fluid overlaps with the text: letters obscured by the frosted glass appear with a gentle Gaussian blur.\n•The main title, the classic red “Coca-Cola” logo, is centered and partially obscured by the fluid. The covered letters are slightly blurred through the frosted glass.\n•The subtitle, in bold all-caps modern sans-serif pure black font, reads: “TASTE THE FEELING”, placed below the main title. It is also partially overlapped by the fluid and blurred in those areas, while the rest remains sharp.\n\nThe overall layout is clean with generous whitespace, balanced composition, sharp focus, and HDR high dynamic range.",
+        "summary": "Poster minimalista futurista de una botella de Coca-Cola estilo metaball.",
+        "body_markdown": `
+# Framework REAISEMP (Object)
+
+*   **R (Render):** Metaball fluido 3D, botella Coca-Cola. Vidrio esmerilado, rojo a blanco.
+*   **E (Entorno):** Fondo gris ultra claro. Galería futurista minimalista.
+*   **A (Acción):** Objeto centrado. Fluido sobre texto con transparencia.
+*   **I (Iluminación):** Softbox alto. Sombras suaves coloreadas. Halo sutil.
+*   **S (Sensación):** Futurista, limpio, premium. Minimalismo elegante.
+*   **E (Estilo):** Poster minimalista futurista. Efecto vidrio esmerilado.
+*   **M (Composición):** Vertical 3:4 4K. Espacio negativo generoso.
+*   **P (Post):** HDR alto. Nitidez extrema. Blur gaussiano en letras cubiertas.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Poster futurista minimalista — Metaball Coca-Cola Bottle",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Objeto central: metaball fluido 3D con forma completa de botella clásica de Coca-Cola.",
+                    "material": "Vidrio esmerilado (frosted glass) con ruido granulado delicado.",
+                    "gradiente_color": {
+                        "inicio": "Coca-Cola Red (#E41C23)",
+                        "fin": "Pearl White (#FFFFFF)",
+                        "apariencia": "Transición sedosa tipo vidrio líquido."
+                    },
+                    "nivel_detalle": "Render ultra limpio, futurista, alta definición."
+                },
+                "E_Entorno": {
+                    "fondo": "Gris frío ultra claro (#f4f4f4).",
+                    "escena": "Poster de exhibición minimalista con espacio negativo amplio.",
+                    "contexto": "Diseño de galería futurista, sin objetos adicionales."
+                },
+                "A_Accion_Presentacion": {
+                    "presentacion": "Objeto centrado, dominante en el póster.",
+                    "interaccion_visual": "El fluido se superpone parcialmente al texto, creando efecto de transparencia esmerilada."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Softbox alto, luz suave de estudio.",
+                    "caracteristicas": "Sombras largas, suaves y ligeramente coloreadas.",
+                    "efectos": "Halo sutil alrededor del objeto, iluminación premium de exhibición."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Futurista, limpio, premium.",
+                    "tono": "Minimalismo elegante con sensación de lujo moderno."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Poster minimalista futurista con objeto 3D de vidrio líquido.",
+                    "tipografia": {
+                        "titulo_principal": {
+                            "texto": "Coca-Cola",
+                            "estilo": "Logo clásico rojo centrado",
+                            "efecto": "Parcialmente cubierto por el vidrio con blur gaussiano suave en letras ocultas."
+                        },
+                        "subtitulo": {
+                            "texto": "TASTE THE FEELING",
+                            "fuente": "Sans-serif moderna, bold, all-caps",
+                            "color": "Negro puro",
+                            "efecto": "También parcialmente superpuesto y difuminado en las zonas cubiertas."
+                        }
+                    },
+                    "efecto_vidrio": "Las letras detrás del frosted glass aparecen suavemente borrosas."
+                },
+                "M_Composicion_Camara": {
+                    "formato": "Vertical 3:4 en resolución 4K.",
+                    "encuadre": "Composición centrada, balanceada, con whitespace generoso.",
+                    "enfoque": "Sharp focus general con sensación HDR."
+                },
+                "P_Postproduccion": {
+                    "dynamic_range": "HDR alto, rango dinámico elevado.",
+                    "nitidez": "Extrema nitidez en tipografía no cubierta y bordes del objeto.",
+                    "blur": "Gaussian blur suave aplicado solo en letras detrás del vidrio.",
+                    "acabado_final": "Poster limpio, premium, listo para exposición contemporánea."
+                }
+            }
+        }, null, 2),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/metaball-coca-cola.jpg",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
+        "updated_at": new Date().toISOString(),
         "tags": [
             {
                 "id": "t-nano",
@@ -2222,18 +2394,96 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "nano-8",
         "type": "prompt",
-        "title": "Figura Coleccionable de Lego",
+        "title": "LEGO Collectible Glass Cube — Avatar + Companion Animal Diorama",
         "slug": "nano-banana-case-8",
-        "summary": "",
-        "body_markdown": "Generate a vertically-oriented image based on my uploaded photo, using the following prompt:\nClassic LEGO minifigure style in a miniature scene — an animal stands beside me. The color palette of the animal should match mine.\nPlease design the animal based on your understanding of me. You may choose any creature — real, surreal, or fantastical — that you feel best reflects my personality.\nThe entire scene is set within a transparent glass cube, with a minimalist interior design.\nThe base of the miniature is matte black with silver accents, following a clean and modern aesthetic.\nOn the base, there is an elegantly engraved nameplate in a refined serif font, displaying the name of the animal.\nThe lower part of the base subtly incorporates finely etched biological classification details, similar to a natural history museum display.\nThe overall composition should resemble a high-end collectible artwork: meticulously crafted, curated in style, and lit with refined lighting.\nBalance is key to the layout. The background should feature a smooth gradient transition from dark to light tones, selected to match the dominant color theme.",
-        "prompt_text": "Generate a vertically-oriented image based on my uploaded photo, using the following prompt:\nClassic LEGO minifigure style in a miniature scene — an animal stands beside me. The color palette of the animal should match mine.\nPlease design the animal based on your understanding of me. You may choose any creature — real, surreal, or fantastical — that you feel best reflects my personality.\nThe entire scene is set within a transparent glass cube, with a minimalist interior design.\nThe base of the miniature is matte black with silver accents, following a clean and modern aesthetic.\nOn the base, there is an elegantly engraved nameplate in a refined serif font, displaying the name of the animal.\nThe lower part of the base subtly incorporates finely etched biological classification details, similar to a natural history museum display.\nThe overall composition should resemble a high-end collectible artwork: meticulously crafted, curated in style, and lit with refined lighting.\nBalance is key to the layout. The background should feature a smooth gradient transition from dark to light tones, selected to match the dominant color theme.",
+        "summary": "Mini escena coleccionable LEGO en cubo de vidrio premium.",
+        "body_markdown": `
+# Framework REAISEMP (Object)
+
+*   **R (Render):** Mini escena coleccionable LEGO. Avatar personalizado + animal compañero.
+*   **E (Entorno):** Cubo de vidrio transparente minimalista, base negra mate con acentos plateados.
+*   **A (Acción):** Avatar y animal posando juntos, presencia simbólica y calmada.
+*   **I (Iluminación):** Refinada, luz de estudio suave, highlights elegantes en vidrio.
+*   **S (Sensación):** Curado, artístico, elegante, minimalista, museográfico.
+*   **E (Estilo):** Diorama LEGO realista, acabado premium de materiales.
+*   **M (Composición):** Vertical, cubo centrado, espacio negativo limpio.
+*   **P (Post):** Paleta coordinada, contraste suave, nitidez alta en grabados y texturas.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "LEGO Collectible Glass Cube — Avatar + Companion Animal Diorama",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Mini escena coleccionable estilo LEGO minifigure basada en la foto del usuario, dentro de un cubo de vidrio premium.",
+                    "avatar": {
+                        "estilo": "LEGO minifigure clásico",
+                        "origen": "Basado en la foto cargada",
+                        "identidad": "Mantener rasgos reconocibles adaptados a estética LEGO",
+                        "escala": "Miniatura tipo diorama"
+                    },
+                    "animal_companion": {
+                        "concepto": "Criatura diseñada según la personalidad percibida del usuario",
+                        "tipo": "Puede ser real, surreal o fantástica",
+                        "paleta": "Los colores del animal deben armonizar con los colores dominantes del avatar",
+                        "nombre": "Debe asignarse un nombre elegante para placa"
+                    }
+                },
+                "E_Entorno": {
+                    "estructura": "Cubo transparente de vidrio como vitrina principal",
+                    "interior": "Diseño minimalista, limpio, tipo galería",
+                    "base": {
+                        "material": "Negro mate",
+                        "detalles": "Acentos plateados modernos"
+                    },
+                    "fondo_exterior": "Gradiente suave de oscuro a claro acorde al tema cromático"
+                },
+                "A_Accion_Presentacion": {
+                    "staging": "El avatar LEGO está acompañado por el animal a su lado dentro del cubo",
+                    "interaccion": "Compañero simbólico, presencia calmada y curada",
+                    "display": "Presentación como obra de museo / collectible de lujo"
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación refinada estilo producto premium",
+                    "caracteristicas": "Luz suave, controlada, con highlights elegantes sobre vidrio y figuras",
+                    "efecto": "Look de galería de colección de alta gama"
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Curado, artístico, elegante, minimalista",
+                    "tono": "High-end collectible artwork con esencia museográfica"
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Diorama LEGO dentro de vitrina moderna",
+                    "materiales": {
+                        "cubo": "Vidrio transparente limpio",
+                        "figuras": "Acabado plástico LEGO realista",
+                        "base": "Negro mate con grabado fino"
+                    },
+                    "tipografia": {
+                        "placa_nombre": "Serif refinado con el nombre del animal",
+                        "clasificacion": "Texto biológico grabado estilo museo de historia natural"
+                    },
+                    "detalle": "Meticuloso, artesanal, premium"
+                },
+                "M_Composicion_Camara": {
+                    "formato": "Vertical (orientación tipo collectible showcase)",
+                    "encuadre": "Cubo centrado con balance perfecto y espacio negativo limpio",
+                    "layout": "Avatar + animal claramente visibles, placa legible en la base"
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Paleta elegante coordinada con el animal y el avatar",
+                    "contraste": "Suave, premium",
+                    "acabado_final": "Imagen lista como pieza de arte coleccionable curada",
+                    "nitidez": "Alta definición en grabados, vidrio, figura y detalles miniatura"
+                }
+            }
+        }, null, 2),
         "category": "Generative AI",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
+        "featured_image_url": "/images/prompts/lego-collectible-glass-cube.png",
         "paywall_level": "free_preview",
         "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
+        "updated_at": new Date().toISOString(),
         "tags": [
             {
                 "id": "t-nano",
@@ -2242,88 +2492,78 @@ export const EXTRA_MOCK_PROMPTS = [
             }
         ]
     },
-    {
-        "id": "nano-7",
-        "type": "prompt",
-        "title": "Diseño de Habitación Personalizada",
-        "slug": "nano-banana-case-7",
-        "summary": "",
-        "body_markdown": "Design a cozy bedroom in a cute 3D style with C4D-quality rendering, presented in an isometric view. The room includes a bed, bookshelf, sofa, green plants, a computer desk, and a computer setup. A framed painting hangs on the wall. Outside the window, a nighttime cityscape is visible with glowing buildings and a dark sky. All furniture and objects should have a soft, rounded, stylized design to match the cute 3D aesthetic. Lighting should be warm and inviting, creating a comfortable nighttime indoor atmosphere.",
-        "prompt_text": "Design a cozy bedroom in a cute 3D style with C4D-quality rendering, presented in an isometric view. The room includes a bed, bookshelf, sofa, green plants, a computer desk, and a computer setup. A framed painting hangs on the wall. Outside the window, a nighttime cityscape is visible with glowing buildings and a dark sky. All furniture and objects should have a soft, rounded, stylized design to match the cute 3D aesthetic. Lighting should be warm and inviting, creating a comfortable nighttime indoor atmosphere.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
-    {
-        "id": "nano-6",
-        "type": "prompt",
-        "title": "Personaje Cruzando un Portal",
-        "slug": "nano-banana-case-6",
-        "summary": "",
-        "body_markdown": "A 3D chibi-style version of the person in the photo is stepping through a glowing portal, reaching out and holding the viewer’s hand. As the character pulls the viewer forward, they turn back with a dynamic glance, inviting the viewer into their world.\nBehind the portal is the viewer’s real-life environment: a typical programmer’s study with a desk, monitor, and laptop, rendered in realistic detail. Inside the portal lies the character’s 3D chibi world, inspired by the photo, with a cool blue color scheme that sharply contrasts with the real-world surroundings.\nThe portal itself is a perfectly elliptical frame glowing with mysterious blue and purple light, positioned at the center of the image as a gateway between the two worlds.\nThe scene is captured from a third-person perspective, clearly showing the viewer’s hand being pulled into the character’s world. Use a 2:3 aspect ratio.",
-        "prompt_text": "A 3D chibi-style version of the person in the photo is stepping through a glowing portal, reaching out and holding the viewer’s hand. As the character pulls the viewer forward, they turn back with a dynamic glance, inviting the viewer into their world.\nBehind the portal is the viewer’s real-life environment: a typical programmer’s study with a desk, monitor, and laptop, rendered in realistic detail. Inside the portal lies the character’s 3D chibi world, inspired by the photo, with a cool blue color scheme that sharply contrasts with the real-world surroundings.\nThe portal itself is a perfectly elliptical frame glowing with mysterious blue and purple light, positioned at the center of the image as a gateway between the two worlds.\nThe scene is captured from a third-person perspective, clearly showing the viewer’s hand being pulled into the character’s world. Use a 2:3 aspect ratio.",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
-    {
-        "id": "nano-5",
-        "type": "prompt",
-        "title": "Estilo Ghibli",
-        "slug": "nano-banana-case-5",
-        "summary": "",
-        "body_markdown": "Redraw this photo in Ghibli style",
-        "prompt_text": "Redraw this photo in Ghibli style",
-        "category": "Generative AI",
-        "level": "intermediate",
-        "is_published": true,
-        "is_featured": false,
-        "paywall_level": "free_preview",
-        "created_at": "2026-01-23T05:34:12.816Z",
-        "updated_at": "2026-01-23T05:34:12.816Z",
-        "tags": [
-            {
-                "id": "t-nano",
-                "name": "Nano Banana",
-                "slug": "nano-banana"
-            }
-        ]
-    },
+
     {
         "id": "ext-pg-454-1",
         "type": "prompt",
-        "title": "Elegance Redefined: A Portrait of Confidence",
+        "title": "Retrato sofisticado — Mujer en traje navy con presencia elegante",
         "slug": "elegance-redefined-confidence",
-        "summary": "Sophisticated woman in a navy suit, representing confidence.",
-        "body_markdown": "In a serene setting, a poised woman embodies sophistication in a tailored navy suit. Her serious gaze and warm surroundings create a powerful narrative of confidence and elegance.",
-        "prompt_text": "In a serene setting, a poised woman embodies sophistication in a tailored navy suit. Her serious gaze and warm surroundings create a powerful narrative of confidence and elegance.",
+        "summary": "Retrato editorial sofisticado de mujer en traje navy.",
+        "body_markdown": `
+# Framework REAISEMP (Human)
+
+*   **R (Render):** Mujer elegante, traje navy entallado. Textura piel realista.
+*   **E (Entorno):** Ambiente sereno, cálido y refinado.
+*   **A (Postura):** Firme, centrada, mirada segura. Actitud de liderazgo.
+*   **I (Iluminación):** Suave, cálida, envolvente. Sombras sutiles.
+*   **S (Sensación):** Confianza, poder tranquilo, sofisticación.
+*   **E (Estilo):** Retrato editorial cinematográfico high-end.
+*   **M (Composición):** Plano medio/retrato. Eye-level, centrado.
+*   **P (Post):** Tonos cálidos, contraste suave, nitidez alta.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Retrato sofisticado — Mujer en traje navy con presencia elegante",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer elegante y poised con apariencia sofisticada.",
+                    "vestimenta": {
+                        "outfit": "Traje entallado color navy (azul marino).",
+                        "estilo": "Formal, profesional, de alta elegancia."
+                    },
+                    "expresion": "Mirada seria e intensa, transmitiendo seguridad.",
+                    "detalle_piel": "Textura realista y natural, acabado editorial."
+                },
+                "E_Entorno": {
+                    "escena": "Ambiente sereno con surroundings cálidos y refinados.",
+                    "fondo": "Contexto suave que complementa la elegancia del sujeto.",
+                    "objetivo": "Resaltar la figura y su narrativa de poder."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura firme, centrada y segura.",
+                    "lenguaje_corporal": "Elegancia contenida, actitud de liderazgo.",
+                    "mirada": "Directa o ligeramente desviada con intención narrativa."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación suave y cálida.",
+                    "caracteristicas": "Luz envolvente que define el traje y los contornos faciales.",
+                    "sombras": "Sutiles, contribuyendo a una atmósfera premium."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Confianza, poder tranquilo, sofisticación.",
+                    "tono": "Narrativa elegante y profesional con fuerza interior."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato editorial cinematográfico de alta gama.",
+                    "acabado": "Elegante, limpio, moderno.",
+                    "detalle": "Énfasis en texturas del traje y presencia del sujeto."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio o retrato profesional.",
+                    "angulo": "Eye-level neutral para autoridad y cercanía.",
+                    "encuadre": "Composición centrada y balanceada."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos cálidos balanceados con contraste suave.",
+                    "nitidez": "Alta nitidez en rostro y traje.",
+                    "acabado_final": "Retrato contemporáneo que transmite elegancia y poder."
+                }
+            }
+        }, null, 2),
         "category": "Portrait",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
-        "featured_image_url": "https://files.promptgather.io/5dc1772966c5d247396c534966ff1754_thumb_1762912200839.jpg",
+        "featured_image_url": "/images/prompts/elegance-redefined-confidence.png",
         "paywall_level": "free_preview",
         "created_at": new Date().toISOString(),
         "updated_at": new Date().toISOString(),
@@ -2332,16 +2572,74 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         "id": "ext-pg-454-2",
         "type": "prompt",
-        "title": "Whispers of Elegance: A Floral Dreamscape",
+        "title": "Retrato chiaroscuro — Belleza rubia platino con couture floral",
         "slug": "whispers-elegance-floral-dreamscape",
-        "summary": "Platinum-blonde beauty in floral couture.",
-        "body_markdown": "A captivating portrait unfolds as a platinum-blonde beauty, adorned in floral couture, evokes delicate emotions. Petals hover gracefully, enhancing the chiaroscuro ambiance.",
-        "prompt_text": "A captivating portrait unfolds as a platinum-blonde beauty, adorned in floral couture, evokes delicate emotions. Petals hover gracefully, enhancing the chiaroscuro ambiance.",
+        "summary": "Retrato editorial chiaroscuro de belleza rubia con couture floral.",
+        "body_markdown": `
+# Framework REAISEMP (Human)
+
+*   **R (Render):** Belleza rubia platino impactante. Couture floral delicada. Piel ultra-realista.
+*   **E (Entorno):** Fondo oscuro minimalista, pétalos flotando.
+*   **A (Postura):** Serena, delicada. Mirada emocional y sensible.
+*   **I (Iluminación):** Chiaroscuro dramático, contraste fuerte, luz direccional.
+*   **S (Sensación):** Delicado, emocional, etéreo, poético.
+*   **E (Estilo):** Retrato editorial cinematográfico de alta costura.
+*   **M (Composición):** Close-up/Plano medio. Centrado con elementos flotantes.
+*   **P (Post):** Tonos cinematográficos, contraste suave en piel, nitidez 8K.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Retrato chiaroscuro — Belleza rubia platino con couture floral",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer de belleza impactante con cabello rubio platino.",
+                    "identidad_visual": "Rostro elegante y emocional, estética de alta costura.",
+                    "vestimenta": {
+                        "outfit": "Couture floral delicada, diseño artístico y refinado."
+                    },
+                    "detalle_piel": "Textura de piel natural, ultra-realista.",
+                    "calidad": "Ultra-realistic 8K portrait rendering con fidelidad extrema."
+                },
+                "E_Entorno": {
+                    "fondo": "Minimalista y oscuro, diseñado para enfatizar el claroscuro.",
+                    "elementos": "Pétalos flotando suavemente alrededor del sujeto.",
+                    "escena": "Ambiente de estudio artístico con atmósfera emocional."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura serena, delicada, estilo editorial de alta moda.",
+                    "expresion": "Emoción suave y contemplativa, mirada cargada de sensibilidad.",
+                    "dinamica": "Pétalos suspendidos agregan movimiento poético."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación dramática estilo chiaroscuro.",
+                    "caracteristicas": "Contraste fuerte entre luces suaves y sombras profundas.",
+                    "efecto": "Rostro esculpido por luz direccional, atmósfera cinematográfica."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Delicado, emocional, etéreo.",
+                    "tono": "Alta moda poética con tensión visual suave."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato editorial cinematográfico de alta costura.",
+                    "detalle": "Couture floral, pétalos flotantes, atmósfera oscura elegante.",
+                    "calidad": "Ultra-realismo 8K con acabados premium tipo revista."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Retrato close-up a plano medio editorial.",
+                    "angulo": "Eye-level ligeramente estilizado.",
+                    "encuadre": "Sujeto centrado con espacio para elementos flotantes."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos cinematográficos con contraste suave en piel.",
+                    "nitidez": "Alta definición en rostro, flores, pétalos y tela.",
+                    "acabado_final": "Ultra-realistic 8K fashion portrait con mood chiaroscuro refinado."
+                }
+            }
+        }, null, 2),
         "category": "Portrait",
         "level": "intermediate",
         "is_published": true,
         "is_featured": false,
-        "featured_image_url": "https://files.promptgather.io/15e50a7f246b63291d051bd3e396850b_thumb_1762912197130.jpg",
+        "featured_image_url": "/images/prompts/whispers-elegance-floral-dreamscape.png",
         "paywall_level": "free_preview",
         "created_at": new Date().toISOString(),
         "updated_at": new Date().toISOString(),
@@ -2974,5 +3272,1434 @@ export const EXTRA_MOCK_PROMPTS = [
         "created_at": new Date().toISOString(),
         "updated_at": new Date().toISOString(),
         "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-winter", "name": "Winter", "slug": "winter" }]
+    },
+    {
+        "id": "fashion-fullbody-macbook-pro",
+        "type": "prompt",
+        "title": "Retrato Fashion de Cuerpo Completo con MacBook Pro - Femenino",
+        "slug": "fashion-fullbody-macbook-pro",
+        "summary": "Retrato fashion de cuerpo completo con MacBook Pro, estilo editorial minimalista.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Rostro natural con maquillaje suave, expresión neutra profesional. Cabello rojo suelto.
+*   **E (Entorno):** Fondo neutro apagado estilo marketing, ambientación minimalista.
+*   **A (Acción):** De pie manipulando un MacBook Pro, gestualidad natural y profesional.
+*   **I (Iluminación):** Studio soft light, sombras mínimas.
+*   **S (Sensación):** Productividad, modernidad, tono marketing clean.
+*   **E (Estilo):** Editorial minimalista, paleta neutra elegante.
+*   **M (Composicion):** Full body, ángulo neutral, modelo centrada.
+*   **P (Post):** Tonos suaves, claridad alta.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Retrato Fashion de Cuerpo Completo con MacBook Pro - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Rostro natural con maquillaje suave.",
+                    "expresion": "Neutra profesional.",
+                    "cabello": "Rojo, suelto.",
+                    "coherencia": "Medidas corporales exactas según prompt original."
+                },
+                "E_Entorno": {
+                    "fondo": "Neutro apagado estilo marketing.",
+                    "ambientacion": "Minimalista."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie manipulando un MacBook Pro.",
+                    "gestualidad": "Natural y profesional."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Studio soft light.",
+                    "caracteristicas": "Sombras mínimas."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Productividad, modernidad.",
+                    "tono": "Marketing clean."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Editorial minimalista.",
+                    "color": "Paleta neutra elegante."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Full body.",
+                    "angulo": "Neutral.",
+                    "encuadre": "Modelo centrada."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos suaves.",
+                    "claridad": "Alta."
+                }
+            }
+        }, null, 2),
+        "category": "Fashion",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/fashion-macbook-pro.png",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-fashion", "name": "Fashion", "slug": "fashion" }, { "id": "t-tech", "name": "Tech", "slug": "tech" }]
+    },
+    {
+        "id": "couture-couple-bw",
+        "type": "prompt",
+        "title": "Retrato B&W de Pareja de Alta Costura (Espalda con Espalda) - Femenino",
+        "slug": "couture-couple-bw",
+        "summary": "Retrato B&W de pareja de alta costura, espalda con espalda, estilo editorial.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Expresión intensa y elegante, seria, editorial. Cabello con ondas largas estilizadas. Estilo con blazer negro y crop top.
+*   **E (Entorno):** Telón gris claro minimalista, ambientación moda de estudio en B&W.
+*   **A (Acción):** Espalda con espalda junto al hombre, mirada directa intensa a cámara.
+*   **I (Iluminación):** Luz controlada suave, contraste elegante B&W.
+*   **S (Sensación):** Fuerza, elegancia, sofisticación, tono editorial clásico.
+*   **E (Estilo):** Monocromo elegante, blancos puros, negros profundos, textura alta definición fashion.
+*   **M (Composición):** Mitad de cuerpo, altura de ojos, ambos sujetos centrados y simétricos.
+*   **P (Post):** B&W de alto contraste, claridad alta y precisa.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Retrato B&W de Pareja de Alta Costura (Espalda con Espalda) - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Expresión intensa y elegante.",
+                    "expresion": "Seria, editorial.",
+                    "cabello": "Ondas largas estilizadas.",
+                    "estilo": "Blazer negro con crop top."
+                },
+                "E_Entorno": {
+                    "fondo": "Telón gris claro minimalista.",
+                    "ambientacion": "Moda de estudio en B&W."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Espalda con espalda junto al hombre.",
+                    "mirada": "Directa intensa a cámara."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz controlada suave.",
+                    "caracteristicas": "Contraste elegante B&W."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Fuerza, elegancia, sofisticación.",
+                    "tono": "Editorial clásico."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Monocromo elegante.",
+                    "color": "Blancos puros, negros profundos.",
+                    "textura": "Alta definición fashion."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Mitad de cuerpo.",
+                    "angulo": "Altura de ojos.",
+                    "encuadre": "Ambos sujetos centrados y simétricos."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "B&W de alto contraste.",
+                    "claridad": "Alta y precisa."
+                }
+            }
+        }, null, 2),
+        "category": "Fashion",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/couture-couple-bw.png",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-fashion", "name": "Fashion", "slug": "fashion" }, { "id": "t-bw", "name": "B&W", "slug": "black-white" }]
+    },
+    {
+        "id": "intimate-couple-modern",
+        "type": "prompt",
+        "title": "Retrato Íntimo de Pareja en Sala Moderna - Femenino",
+        "slug": "intimate-couple-modern",
+        "summary": "Retrato íntimo de pareja en sala moderna, cálido y elegante.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Perfil delicado, mirada suave, expresión cálida y afectuosa. Cabello largo con ondas suaves. Top y falda negros.
+*   **E (Entorno):** Sala moderna desenfocada con tonos beige, ambientación elegante y cálida.
+*   **A (Acción):** De pie al lado del hombre, mano en su cintura. Mirada hacia cámara.
+*   **I (Iluminación):** Luz difusa desde la izquierda, sombras delicadas y cálidas.
+*   **S (Sensación):** Conexión emocional, tono retrato cálido editorial.
+*   **E (Estilo):** Lifestyle cálido y moderno, paleta beige, negro, marrón suave.
+*   **M (Composición):** Plano medio, ángulo altura de ojos.
+*   **P (Post):** Color grading cálido elegante, claridad alta y suave.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Retrato Íntimo de Pareja en Sala Moderna - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Perfil delicado, mirada suave.",
+                    "expresion": "Cálida, afectuosa.",
+                    "cabello": "Largo con ondas suaves.",
+                    "indumentaria": "Top y falda negros."
+                },
+                "E_Entorno": {
+                    "fondo": "Sala moderna desenfocada con tonos beige.",
+                    "ambientacion": "Elegante y cálida."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie al lado del hombre, mano en su cintura.",
+                    "mirada": "Hacia cámara."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz difusa desde la izquierda.",
+                    "caracteristicas": "Sombras delicadas y cálidas."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Conexión emocional.",
+                    "tono": "Retrato cálido editorial."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Lifestyle cálido y moderno.",
+                    "color": "Paleta cálida: beige, negro, marrón suave."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Medio.",
+                    "angulo": "Altura de ojos."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Cálido elegante.",
+                    "claridad": "Alta y suave."
+                }
+            }
+        }, null, 2),
+        "category": "Lifestyle",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/intimate-couple-modern.png",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-lifestyle", "name": "Lifestyle", "slug": "lifestyle" }]
+    },
+    {
+        "id": "christmas-gift-neon",
+        "type": "prompt",
+        "title": "Retrato Navideño con Caja de Regalo y Letrero Neón - Femenino",
+        "slug": "christmas-gift-neon",
+        "summary": "Retrato navideño alegre con caja de regalo gigante y letrero neón.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Sonrisa amplia, maquillaje navideño suave. Cabello rubio largo, suelto. Minivestido rojo brillante.
+*   **E (Entorno):** Árboles navideños con luces cálidas. Letrero 'Merry Christmas' en neón blanco.
+*   **A (Acción):** Sentada dentro de una caja roja gigante. Manos abiertas, postura alegre.
+*   **I (Iluminación):** Luz cálida festiva, bokeh navideño brillante.
+*   **S (Sensación):** Alegría festiva, tono comercial navideño.
+*   **E (Estilo):** Fotografía publicitaria navideña, rojos, verdes, dorados, brillo suave y cálido.
+*   **M (Composición):** Medium shot, ligero picado desde arriba.
+*   **P (Post):** Calidez navideña, claridad alta, bokeh expandido.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Retrato Navideño con Caja de Regalo y Letrero Neón - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Sonrisa amplia, maquillaje navideño suave.",
+                    "cabello": "Rubio largo, suelto.",
+                    "indumentaria": "Minivestido rojo brillante."
+                },
+                "E_Entorno": {
+                    "fondo": "Árboles navideños con luces cálidas.",
+                    "elementos": "Letrero 'Merry Christmas' en neón blanco."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada dentro de una caja roja gigante.",
+                    "gestualidad": "Manos abiertas, postura alegre."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz cálida festiva.",
+                    "caracteristicas": "Bokeh navideño brillante."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Alegría festiva.",
+                    "tono": "Comercial navideño."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía publicitaria navideña.",
+                    "color": "Rojos, verdes, dorados.",
+                    "textura": "Brillo suave y cálido."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Medium shot.",
+                    "angulo": "Ligero picado desde arriba."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Calidez navideña.",
+                    "claridad": "Alta.",
+                    "efectos": "Bokeh expandido."
+                }
+            }
+        }, null, 2),
+        "category": "Holiday",
+        "level": "beginner",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/christmas-gift-neon.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-holiday", "name": "Holiday", "slug": "holiday" }, { "id": "t-neon", "name": "Neon", "slug": "neon" }]
+    },
+    {
+        "id": "christmas-intimate-warm",
+        "type": "prompt",
+        "title": "Retrato Íntimo y Cálido Navideño - Femenino",
+        "slug": "christmas-intimate-warm",
+        "summary": "Retrato navideño íntimo y cálido con iluminación tenue.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Mirada pensativa, maquillaje suave. Cabello rubio largo natural. Suéter rojo navideño.
+*   **E (Entorno):** Árbol navideño oscuro con bokeh dorado. Ambientación cálida e íntima.
+*   **A (Acción):** Manos cerca del rostro en gesto contemplativo. Mirada hacia arriba.
+*   **I (Iluminación):** Luz cálida tenue, sombras suaves e íntimas.
+*   **S (Sensación):** Nostalgia y calidez emocional, tono íntimo navideño.
+*   **E (Estilo):** Retrato navideño tipo editorial, rojos profundos y dorados oscuros.
+*   **M (Composición):** Medium close-up, ángulo neutral.
+*   **P (Post):** Color grading cálido profundo, claridad moderada para efecto suave.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Retrato Íntimo y Cálido Navideño - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Mirada pensativa, maquillaje suave.",
+                    "cabello": "Rubio largo natural.",
+                    "indumentaria": "Suéter rojo navideño."
+                },
+                "E_Entorno": {
+                    "fondo": "Árbol navideño oscuro con bokeh dorado.",
+                    "ambientacion": "Cálida e íntima."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Manos cerca del rostro en gesto contemplativo.",
+                    "mirada": "Hacia arriba."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz cálida tenue.",
+                    "caracteristicas": "Sombras suaves e íntimas."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Nostalgia y calidez emocional.",
+                    "tono": "Íntimo navideño."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato navideño tipo editorial.",
+                    "color": "Rojos profundos y dorados oscuros."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Medium close-up.",
+                    "angulo": "Neutral."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Cálido profundo.",
+                    "claridad": "Moderada para efecto suave."
+                }
+            }
+        }, null, 2),
+        "category": "Holiday",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/christmas-intimate-warm.png",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-holiday", "name": "Holiday", "slug": "holiday" }, { "id": "t-warm", "name": "Warm", "slug": "warm" }]
+    },
+    {
+        "id": "gym-selfie-casual",
+        "type": "prompt",
+        "title": "Selfie Casual en Gimnasio con Estilo de Teléfono - Femenino",
+        "slug": "gym-selfie-casual",
+        "summary": "Selfie casual en gimnasio con estilo de teléfono, natural y espontáneo.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Natural, sin retoque. Cabello peinado casual, expresión espontánea. Outfit deportivo girly en negro y rosa.
+*   **E (Entorno):** Gimnasio real, ligeramente desordenado. Ambientación casual auténtica.
+*   **A (Acción):** Selfie frente al espejo, gestualidad teléfono en mano.
+*   **I (Iluminación):** Luz natural suave, sin iluminación profesional.
+*   **S (Sensación):** Naturalidad y espontaneidad, tono realista no profesional.
+*   **E (Estilo):** Foto de móvil real, colores neutros sin estilización, textura suave típica de cámara de baja calidad.
+*   **M (Composición):** Selfie close-up / medio, ángulo vertical espejo, encuadre centrado y casual.
+*   **P (Post):** Edición mínima, contraste natural, nitidez moderada/baja.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Selfie Casual en Gimnasio con Estilo de Teléfono - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Natural, sin retoque.",
+                    "cabello": "Peinado casual.",
+                    "expresion": "Espontánea.",
+                    "indumentaria": "Outfit deportivo girly en negro y rosa."
+                },
+                "E_Entorno": {
+                    "fondo": "Gimnasio real, ligeramente desordenado.",
+                    "ambientacion": "Casual auténtica."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Selfie frente al espejo.",
+                    "gestualidad": "Teléfono en mano."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz natural suave.",
+                    "caracteristicas": "Sin iluminación profesional."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Naturalidad y espontaneidad.",
+                    "tono": "Realista no profesional."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Foto de móvil real.",
+                    "color": "Neutros, sin estilización.",
+                    "textura": "Suavidad típica de cámara de baja calidad."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Selfie close-up / medio.",
+                    "angulo": "Vertical espejo.",
+                    "encuadre": "Centrado y casual."
+                },
+                "P_Postproduccion": {
+                    "edicion": "Mínima.",
+                    "contraste": "Natural.",
+                    "nitidez": "Moderada/baja."
+                }
+            }
+        }, null, 2),
+        "category": "Lifestyle",
+        "level": "beginner",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/gym-selfie-casual.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-lifestyle", "name": "Lifestyle", "slug": "lifestyle" }, { "id": "t-gym", "name": "Gym", "slug": "gym" }, { "id": "t-selfie", "name": "Selfie", "slug": "selfie" }]
+    },
+    {
+        "id": "jennifers-body-style",
+        "type": "prompt",
+        "title": "Escena Estilo Jennifer’s Body en Sofá de Terciopelo - Femenino",
+        "slug": "jennifers-body-style",
+        "summary": "Escena estilo Jennifer's Body en sofá de terciopelo, rebelde y oscura.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Expresiva y traviesa, lengua afuera en pose divertida. Peinado suelto de fiesta. Baby tee corta y mini falda baja.
+*   **E (Entorno):** Sala oscura con luces neón y velas. Ambientación oscura, mística y cinematográfica.
+*   **A (Acción):** Sentada junto a otra chica en el sofá. Interacción divertida con el encendedor.
+*   **I (Iluminación):** Luz de velas + neón, reflejos cálidos en rostros.
+*   **S (Sensación):** Risa, energía rebelde, tono oscuro juvenil.
+*   **E (Estilo):** Cine oscuro 50mm f/1.4 realista, neón rosa, amarillo cálido, alta nitidez nocturna.
+*   **M (Composición):** Plano medio, altura de ojos, enfoque en rostros y llama.
+*   **P (Post):** Color grading oscuro-neón vibrante, claridad alta, glow del fuego.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Escena Estilo Jennifer’s Body en Sofá de Terciopelo - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Expresiva y traviesa.",
+                    "cabello": "Peinado suelto de fiesta.",
+                    "indumentaria": "Baby tee corta y mini falda baja.",
+                    "expresion": "Lengua afuera en pose divertida."
+                },
+                "E_Entorno": {
+                    "fondo": "Sala oscura con luces neón y velas.",
+                    "ambientacion": "Oscura, mística y cinematográfica."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada junto a otra chica en el sofá.",
+                    "gestualidad": "Interacción divertida con el encendedor."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz de velas + neón.",
+                    "caracteristicas": "Reflejos cálidos en rostros."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Risa, energía rebelde.",
+                    "tono": "Oscuro juvenil."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Cine oscuro 50mm f/1.4 realista.",
+                    "color": "Neón rosa, amarillo cálido.",
+                    "textura": "Alta nitidez nocturna."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Medio.",
+                    "angulo": "Altura de ojos.",
+                    "enfoque": "Rostros y llama."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Oscuro-neón vibrante.",
+                    "claridad": "Alta.",
+                    "efectos": "Glow del fuego."
+                }
+            }
+        }, null, 2),
+        "category": "Cinematic",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/jennifers-body-style.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-cinematic", "name": "Cinematic", "slug": "cinematic" }, { "id": "t-neon", "name": "Neon", "slug": "neon" }]
+    },
+    {
+        "id": "neon-horror-drive-thru",
+        "type": "prompt",
+        "title": "Selfie en Auto Rosa con Estética Neon Horror - Femenino",
+        "slug": "neon-horror-drive-thru",
+        "summary": "Selfie casual en un drive-thru de terror con estética neón vibrante.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Risa espontánea, expresión alegre. Cabello suelto natural. Cropped hoodie y mini falda.
+*   **E (Entorno):** Drive-thru de terror con neón multicolor. Michael Myers al fondo.
+*   **A (Acción):** Selfie frontal inclinada, sosteniendo una papa frita.
+*   **I (Iluminación):** Neón exterior filtrado, reflejos multicolores.
+*   **S (Sensación):** Juego, humor, vibra Gen Z.
+*   **E (Estilo):** Realismo iPhone nocturno, colores rosa, azul, púrpura.
+*   **M (Composición):** Selfie close-up, ángulo ligeramente alto.
+*   **P (Post):** Neón saturado, ruido ligero.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Selfie en Auto Rosa con Estética Neon Horror - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Risa espontánea, expresión alegre.",
+                    "cabello": "Suelto, natural.",
+                    "indumentaria": "Cropped hoodie y mini falda casual."
+                },
+                "E_Entorno": {
+                    "fondo": "Drive-thru de terror con neón multicolor.",
+                    "elementos": "Michael Myers sosteniendo malteada."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Selfie frontal inclinada.",
+                    "gestualidad": "Sosteniendo una papa frita y diciendo 'cheese'."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Neón exterior filtrado al auto.",
+                    "caracteristicas": "Reflejos multicolores."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Juego, humor, vibra Gen Z.",
+                    "tono": "Casual con toque slasher cómico."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Realismo estilo iPhone nocturno.",
+                    "color": "Rosa, azul, púrpura."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Selfie close-up.",
+                    "angulo": "Ligeramente alto.",
+                    "encuadre": "Casual y espontáneo."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Neón saturado.",
+                    "claridad": "Media acorde a móvil.",
+                    "ruido": "Ligero."
+                }
+            }
+        }, null, 2),
+        "category": "Cinematic",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/neon-horror-drive-thru.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-cinematic", "name": "Cinematic", "slug": "cinematic" }, { "id": "t-neon", "name": "Neon", "slug": "neon" }, { "id": "t-horror", "name": "Horror", "slug": "horror" }]
+    },
+    {
+        "id": "gritty-bathroom-freddy",
+        "type": "prompt",
+        "title": "Selfie Gritty en Baño de Gasolinera 90s con Freddy Krueger - Femenino",
+        "slug": "gritty-bathroom-freddy",
+        "summary": "Selfie gritty en baño de gasolinera estilo 90s con Freddy Krueger.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Expresión despreocupada haciendo burbuja de chicle. Top rojo halter, mini falda y medias de red.
+*   **E (Entorno):** Baño sucio estilo 90s, azulejos viejos. Freddy Krueger en puerta del cubículo.
+*   **A (Acción):** Frente al espejo, formando burbuja de chicle.
+*   **I (Iluminación):** Fluorescente parpadeante, sombras duras y tonos verdosos.
+*   **S (Sensación):** Tensión mezclada con humor irreverente, gritty horror 90s.
+*   **E (Estilo):** Calidad baja y ruda, desaturado y sucio, ruido marcado.
+*   **M (Composición):** Selfie en espejo, frontal.
+*   **P (Post):** Tonos verdes fríos, claridad baja, ruido alto.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Selfie Gritty en Baño de Gasolinera 90s con Freddy Krueger - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Expresión despreocupada haciendo burbuja de chicle.",
+                    "cabello": "Despeinado casual.",
+                    "indumentaria": "Top rojo halter, mini falda y medias de red."
+                },
+                "E_Entorno": {
+                    "fondo": "Baño sucio estilo 90s, azulejos viejos.",
+                    "elementos": "Freddy Krueger en puerta del cubículo."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Frente al espejo.",
+                    "gestualidad": "Formando burbuja de chicle."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Fluorescente parpadeante.",
+                    "caracteristicas": "Sombras duras y tonos verdosos."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Tensión mezclada con humor irreverente.",
+                    "tono": "Gritty horror 90s."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Calidad baja y ruda.",
+                    "color": "Desaturado y sucio.",
+                    "textura": "Ruido marcado."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Selfie en espejo.",
+                    "angulo": "Frontal.",
+                    "encuadre": "Ajustado al centro."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos verdes fríos.",
+                    "claridad": "Baja.",
+                    "ruido": "Alto."
+                }
+            }
+        }, null, 2),
+        "category": "Cinematic",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/gritty-bathroom-freddy.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-cinematic", "name": "Cinematic", "slug": "cinematic" }, { "id": "t-horror", "name": "Horror", "slug": "horror" }, { "id": "t-90s", "name": "90s", "slug": "90s" }]
+    },
+    {
+        "id": "night-parking-jason",
+        "type": "prompt",
+        "title": "Selfie Nocturna en Estacionamiento con Jason Voorhees - Femenino",
+        "slug": "night-parking-jason",
+        "summary": "Selfie nocturna casual en estacionamiento con Jason Voorhees.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Expresión natural relajada. Cabello rubio liso largo. Hoodie negro corto, mini falda roja, calcetas altas.
+*   **E (Entorno):** Estacionamiento con luces y trick-or-treaters. Jason sosteniendo calabaza pequeña.
+*   **A (Acción):** Selfie elevada ligeramente, posición casual de noche.
+*   **I (Iluminación):** Luz ambiental nocturna de estacionamiento, sombras suaves, colores urbanos.
+*   **S (Sensación):** Casualidad nocturna, Halloween urbano realista.
+*   **E (Estilo):** Estética iPhone nocturna, colores fríos con acentos cálidos.
+*   **M (Composición):** Selfie medio, ángulo ligeramente alto, encuadre desenfadado.
+*   **P (Post):** Color grading urban night, claridad media-baja, ruido moderado.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Selfie Nocturna en Estacionamiento con Jason Voorhees - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Expresión natural relajada.",
+                    "cabello": "Rubio liso largo.",
+                    "indumentaria": "Hoodie negro corto, mini falda roja, calcetas altas."
+                },
+                "E_Entorno": {
+                    "fondo": "Estacionamiento con luces y trick-or-treaters.",
+                    "elementos": "Jason sosteniendo calabaza pequeña."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Selfie elevada ligeramente.",
+                    "gestualidad": "Posición casual de noche."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz ambiental nocturna de estacionamiento.",
+                    "caracteristicas": "Sombras suaves, colores urbanos."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Casualidad nocturna.",
+                    "tono": "Halloween urbano realista."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Estética iPhone nocturna.",
+                    "color": "Colores fríos con acentos cálidos."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Selfie medio.",
+                    "angulo": "Ligeramente alto.",
+                    "encuadre": "Desenfadado."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Urban night.",
+                    "claridad": "Media-baja.",
+                    "ruido": "Moderado."
+                }
+            }
+        }, null, 2),
+        "category": "Cinematic",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/night-parking-jason.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-cinematic", "name": "Cinematic", "slug": "cinematic" }, { "id": "t-horror", "name": "Horror", "slug": "horror" }, { "id": "t-halloween", "name": "Halloween", "slug": "halloween" }]
+    },
+    {
+        "id": "fashion-geometric-sweater",
+        "type": "prompt",
+        "title": "Fashion Editorial con Suéter Geométrico - Femenino",
+        "slug": "fashion-geometric-sweater",
+        "summary": "Editorial de moda con suéter geométrico y fondo naranja vibrante.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Rasgos femeninos definidos, expresión seria elegante. Melena larga o bob estilizado. Gafas redondas negro-dorado. Suéter geométrico con cuello naranja grueso.
+*   **E (Entorno):** Fondo naranja sólido vibrante, ambientación moda editorial moderna.
+*   **A (Acción):** Mirada hacia el lado con postura segura, cuello y hombros relajados.
+*   **I (Iluminación):** Luz de estudio brillante, sombras suaves, piel muy definida.
+*   **S (Sensación):** Confianza y estilo, moda futurista minimalista.
+*   **E (Estilo):** High-fashion editorial, paleta vibrante naranja/azul/rojo, ropa con textura clara.
+*   **M (Composición):** Retrato medio, ángulo altura de ojos.
+*   **P (Post):** Saturación moderada y contrastes fuertes, claridad alta.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Fashion Editorial con Suéter Geométrico - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Rasgos femeninos definidos, expresión seria elegante.",
+                    "cabello": "Melena larga o bob estilizado.",
+                    "accesorios": "Gafas redondas negro-dorado.",
+                    "indumentaria": "Suéter geométrico con cuello naranja grueso."
+                },
+                "E_Entorno": {
+                    "fondo": "Naranja sólido vibrante.",
+                    "ambientacion": "Moda editorial moderna."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Mirada hacia el lado con postura segura.",
+                    "gestualidad": "Cuello y hombros relajados."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz de estudio brillante.",
+                    "caracteristicas": "Sombras suaves, piel muy definida."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Confianza y estilo.",
+                    "tono": "Moda futurista minimalista."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "High-fashion editorial.",
+                    "color": "Paleta vibrante naranja/azul/rojo.",
+                    "textura": "Ropa con textura clara."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Retrato medio.",
+                    "angulo": "Altura de ojos."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Saturación moderada y contrastes fuertes.",
+                    "claridad": "Alta."
+                }
+            }
+        }, null, 2),
+        "category": "Fashion",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/fashion-geometric-sweater.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-fashion", "name": "Fashion", "slug": "fashion" }, { "id": "t-editorial", "name": "Editorial", "slug": "editorial" }]
+    },
+    {
+        "id": "fashion-christmas-sweater",
+        "type": "prompt",
+        "title": "Retrato Femenino con Suéter Navideño y Gafas Oscuras - Femenino",
+        "slug": "fashion-christmas-sweater",
+        "summary": "Editorial navideño de moda con suéter y gafas oscuras.",
+        "body_markdown": `
+# Framework REAISEMP
+
+*   **R (Render):** Expresión seria y elegante. Cabello rubio largo o castaño. Suéter navideño rojo/blanco/verde. Gafas oscuras redondas.
+*   **E (Entorno):** Fondo rojo profundo con luces de navidad borrosas. Ambientación Studio Christmas editorial.
+*   **A (Acción):** De pie mirando al lado, postura calmada.
+*   **I (Iluminación):** Luz cálida suave, enfatiza textura del suéter.
+*   **S (Sensación):** Elegancia festiva, editorial navideño serio.
+*   **E (Estilo):** Alta moda navideña, rojos profundos y verdes suaves.
+*   **M (Composición):** Medium shot, ángulo frontal leve.
+*   **P (Post):** Color grading navideño cálido, claridad alta.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Retrato Femenino con Suéter Navideño y Gafas Oscuras - Femenino",
+            "framework_REAISEMP": {
+                "R_Render_del_Avatar": {
+                    "descripcion_facial": "Expresión seria y elegante.",
+                    "cabello": "Rubio largo o castaño.",
+                    "indumentaria": "Suéter navideño rojo/blanco/verde.",
+                    "accesorios": "Gafas oscuras redondas."
+                },
+                "E_Entorno": {
+                    "fondo": "Rojo profundo con luces de navidad borrosas.",
+                    "ambientacion": "Studio Christmas editorial."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie mirando al lado.",
+                    "gestualidad": "Postura calmada."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz cálida suave.",
+                    "caracteristicas": "Enfatiza textura del suéter."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Elegancia festiva.",
+                    "tono": "Editorial navideño serio."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Alta moda navideña.",
+                    "color": "Rojos profundos y verdes suaves."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Medium shot.",
+                    "angulo": "Frontal leve."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Navideño cálido.",
+                    "claridad": "Alta."
+                }
+            }
+        }, null, 2),
+        "category": "Fashion",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/fashion-christmas-sweater.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-fashion", "name": "Fashion", "slug": "fashion" }, { "id": "t-holiday", "name": "Holiday", "slug": "holiday" }, { "id": "t-sunglasses", "name": "Sunglasses", "slug": "sunglasses" }]
+    },
+    {
+        "id": "professional-studio-profile",
+        "type": "prompt",
+        "title": "Professional Studio Profile Photo — Business Casual Portrait",
+        "slug": "professional-studio-profile",
+        "summary": "Retrato profesional de estudio business casual.",
+        "body_markdown": `
+# Framework REAISEMP (Human)
+
+*   **R (Render):** Identidad y rasgos clave mantenidos. Sonrisa cálida, profesional. Piel natural. Cabello detallado.
+*   **E (Entorno):** Fondo sólido neutro de estudio #141414.
+*   **A (Acción):** Plano chest-up, espacio negativo superior. Postura abierta y accesible.
+*   **I (Iluminación):** Studio soft light, envolvente y cálida. Catchlight sutil.
+*   **S (Sensación):** Confianza, calidez profesional, cercanía.
+*   **E (Estilo):** Retrato corporate high-end. Cardigan charcoal sobre blusa blanca.
+*   **M (Composición):** Ángulo ligeramente alto. Lente 85mm f/1.8. Poca profundidad de campo.
+*   **P (Post):** Detalle nítido. Color grading cinemático limpio.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Professional Studio Profile Photo — Business Casual Portrait",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Mantener exactamente la estructura facial, identidad y rasgos clave de la persona en la imagen de entrada.",
+                    "expresion": "Sonrisa cálida, acogedora y profesional.",
+                    "mirada": "Contacto visual directo a la cámara.",
+                    "piel_y_detalle": "Textura de piel natural y realista, sin suavizado excesivo.",
+                    "cabello": "Detalles visibles en hebras individuales, apariencia natural."
+                },
+                "E_Entorno": {
+                    "fondo": "Fondo sólido neutro de estudio en color #141414.",
+                    "escena": "Fotografía de estudio profesional, sin elementos distractores."
+                },
+                "A_Accion_Postura": {
+                    "encuadre": "Plano desde el pecho hacia arriba (chest-up).",
+                    "composicion": "Espacio negativo amplio sobre la cabeza, sin recortar el cabello.",
+                    "postura": "Actitud abierta, accesible y confiable."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación de estudio suave, brillante y difusa.",
+                    "caracteristicas": "Luz envolvente que ilumina el rostro con calidez.",
+                    "detalle": "Catchlight sutil en los ojos.",
+                    "sombras": "Sombras mínimas y suaves para un look airy."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "emocion": "Confianza, calidez profesional, cercanía.",
+                    "tono": "Reliable, approachable, contemporary corporate portrait."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato profesional high-end estilo LinkedIn / corporate studio.",
+                    "vestimenta": {
+                        "outfit": "Cardigan business casual en charcoal sobre blusa blanca."
+                    },
+                    "calidad": "Alta resolución, acabado pulido y moderno."
+                },
+                "M_Composicion_Camara": {
+                    "angulo": "Toma ligeramente desde un ángulo alto.",
+                    "lente": "85mm f/1.8",
+                    "profundidad_de_campo": "Muy poca profundidad, foco exquisito en los ojos.",
+                    "bokeh": "Fondo suavemente desenfocado, bokeh elegante."
+                },
+                "P_Postproduccion": {
+                    "nitidez": "Detalle nítido en tela, ojos, cabello y piel.",
+                    "color_grading": "Cinemático limpio con calidez sutil y tonos balanceados.",
+                    "acabado_final": "Imagen contemporánea, profesional y lista para perfil corporativo."
+                }
+            }
+        }, null, 2),
+        "category": "Professional",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/professional-studio-profile.png",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-professional", "name": "Professional", "slug": "professional" }, { "id": "t-portrait", "name": "Portrait", "slug": "portrait" }, { "id": "t-business", "name": "Business", "slug": "business" }]
+    },
+    {
+        "id": "editorial-3x3-grid",
+        "type": "prompt",
+        "title": "Editorial 3x3 Grid — Intimate Minimalist Portrait Series",
+        "slug": "editorial-3x3-grid",
+        "summary": "Serie de retratos editoriales íntimos y minimalistas en formato grid 3x3.",
+        "body_markdown": `
+# Framework REAISEMP (Human)
+
+*   **R (Render):** Identidad 100% igual a referencia. Vestimenta minimalista (navy/marfil). Piel realista. Cabello natural expresivo.
+*   **E (Entorno):** Estudio limpio minimalista beige suave. Sin distracciones.
+*   **A (Acción):** Grid 3x3 con 9 tomas distintas (ojos, manos, perfiles, etc.). Ángulos tight headshots.
+*   **I (Iluminación):** Gran luz difusa frontal-derecha. Reflector fill. Rim sutil. Sombras suaves.
+*   **S (Sensación):** Íntimo, introspectivo, minimalista. Quietud emocional.
+*   **E (Estilo):** Fotografía editorial minimalista high-end. Muted grade. Un panel B&W. Grano sutil.
+*   **M (Composición):** Grid 3x3 alineado. Lentes 35mm/50mm/85mm. DOF delgada.
+*   **P (Post):** Tonos apagados beige studio clean. Contraste suave. Grano cinemático.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Editorial 3x3 Grid — Intimate Minimalist Portrait Series",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "El personaje debe coincidir con la referencia al 100%, preservando rostro, estructura facial y rasgos clave.",
+                    "vestimenta": {
+                        "top": "Camisa ligera azul navy oscuro",
+                        "bottom": "Pantalones marfil",
+                        "detalle": "Descalzo para simplicidad cruda"
+                    },
+                    "detalle_piel": "Textura realista y natural, sin suavizado excesivo.",
+                    "cabello": "Cabello con caída natural, usado como elemento expresivo en algunos encuadres."
+                },
+                "E_Entorno": {
+                    "escena": "Estudio limpio minimalista en tono beige suave.",
+                    "fondo": "Uniforme y sin objetos distractores.",
+                    "props": "Tela o cortina usada sutilmente como marco editorial."
+                },
+                "A_Accion_Postura": {
+                    "formato": "Grid editorial 3x3 con 9 tomas distintas.",
+                    "paneles": {
+                        "shot_1": "Extreme close-up de labios y pómulo, mano borrosa cubriendo parcialmente (85mm f/1.8).",
+                        "shot_2": "Crop ajustado de ojos mirando al lente, reflejo de tira de luz visible (85mm f/2.0).",
+                        "shot_3": "Retrato close en blanco y negro, mentón apoyado en el puño (50mm f/2.2).",
+                        "shot_4": "Over-shoulder con cortina borrosa en primer plano enmarcando medio rostro (85mm f/2.0).",
+                        "shot_5": "Muy frontal con manos superpuestas sobre el rostro, streak de luz cruzando ojos (50mm f/2.5).",
+                        "shot_6": "Retrato angulado con cabello cayendo sobre los ojos, fondo soft-focus (85mm f/2.2).",
+                        "shot_7": "Crop de manos tocando mandíbula, ojos fuera de encuadre (50mm f/3.2).",
+                        "shot_8": "Half-body sentado de lado sobre cubo bajo, cabeza girada lejos, foreground borroso (35mm f/4.5).",
+                        "shot_9": "Close-up intenso de perfil con gota tipo lágrima, slice de luz cinematográfica (85mm f/1.9)."
+                    },
+                    "variacion": "Ángulos mayormente tight headshots con ligeros high/low tilts manteniendo coherencia editorial."
+                },
+                "I_Iluminacion": {
+                    "key_light": "Gran luz difusa principal desde frente-derecha.",
+                    "fill": "Reflector plateado a la izquierda.",
+                    "rim_light": "Rim sutil desde arriba para separación.",
+                    "sombras": "Suaves, delicadas, con contraste tonal controlado."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Íntimo, introspectivo, minimalista.",
+                    "tono": "Editorial character-led con delicadeza emocional y quietud."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía editorial minimalista de alto nivel.",
+                    "acabado": "Muted grade profesional con contraste suave.",
+                    "blanco_y_negro": "Un panel incluido como acento artístico.",
+                    "textura": "Grano cinematográfico sutil."
+                },
+                "M_Composicion_Camara": {
+                    "layout": "Grid 3x3 perfectamente alineado.",
+                    "lentes": [
+                        "35mm",
+                        "50mm",
+                        "85mm"
+                    ],
+                    "profundidad_de_campo": "DOF extremadamente delgada en close-ups clave.",
+                    "captura": "RAW profesional, enfoque preciso en ojos y detalles faciales."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos apagados, beige studio clean, estética contemporánea.",
+                    "contraste": "Suave y controlado.",
+                    "grain": "Cinematic subtle grain añadido.",
+                    "acabado_final": "Serie editorial coherente, emotiva y minimalista lista para revista."
+                }
+            }
+        }, null, 2),
+        "category": "Photography",
+        "level": "advanced",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/editorial-3x3-grid.png",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-editorial", "name": "Editorial", "slug": "editorial" }, { "id": "t-grid", "name": "Grid", "slug": "grid" }, { "id": "t-portrait", "name": "Portrait", "slug": "portrait" }]
+    },
+    {
+        "id": "early-2000s-paparazzi",
+        "type": "prompt",
+        "title": "Early 2000s Paparazzi Night Shot — Raw Flash Street Portrait",
+        "slug": "early-2000s-paparazzi",
+        "summary": "Retrato callejero nocturno estilo paparazzi de los 2000s con flash duro.",
+        "body_markdown": `
+# Framework REAISEMP (Human)
+
+*   **R (Render):** Identidad 100% fiel. Mirada fría, distante. Streetwear oversized neutro. Piel textura cruda.
+*   **E (Entorno):** Calle urbana nocturna. Teléfono público. Fondo luces desenfocadas.
+*   **A (Acción):** En teléfono público, girando hacia cámara. Mano cubriendo parcialmente. Defensivo.
+*   **I (Iluminación):** Flash duro directo (paparazzi). Sombras duras.
+*   **S (Sensación):** Raw, espontáneo, misterioso. Energía Y2K.
+*   **E (Estilo):** Paparazzi 2000s. Lo-fi realista, grainy. Timestamp digital rojo.
+*   **M (Composición):** Plano medio/close-up espontáneo. Ángulo snapshot inclinado.
+*   **P (Post):** Tonos nocturnos, flash frío. Alto contraste. Grano digital.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Early 2000s Paparazzi Night Shot — Raw Flash Street Portrait",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Mantener el rostro 100% fiel a la imagen de referencia, sin alterar estructura facial ni rasgos clave.",
+                    "expresion": "Mirada fría, distante, emocionalmente desconectada.",
+                    "estilismo": {
+                        "ropa": "Streetwear relajado: pantalones wide-leg y top oversized liso en tonos neutros.",
+                        "accesorios": "Gafas negras simples."
+                    },
+                    "detalle_piel": "Textura realista y cruda, sin embellecimiento artificial."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Calle urbana nocturna.",
+                    "elemento_clave": "Teléfono público, con el sujeto tocando el auricular.",
+                    "fondo": "Luces de autos desenfocadas y ambiente urbano borroso."
+                },
+                "A_Accion_Postura": {
+                    "accion": "El sujeto está en un teléfono público, girando hacia la cámara.",
+                    "pose": "Una mano sobre el receptor del teléfono, cuerpo parcialmente rotado.",
+                    "lenguaje_corporal": "Defensivo, distante, espontáneo tipo paparazzi."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Flash duro directo de cámara (paparazzi).",
+                    "caracteristicas": "Iluminación agresiva, sombras duras, estética cruda nocturna.",
+                    "efecto": "Alta intensidad en el rostro con caída rápida hacia el fondo."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Raw, espontáneo, misterioso, distante.",
+                    "tono": "Energía paparazzi early 2000s, nocturna, urbana."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía paparazzi de principios de los 2000s.",
+                    "calidad": "Lo-fi realista, ligeramente grainy, imperfecta.",
+                    "detalle_temporal": "Incluye timestamp digital rojo clásico en la imagen."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio a close-up espontáneo.",
+                    "angulo": "Captura frontal ligeramente inclinada como snapshot.",
+                    "profundidad_de_campo": "Fondo desenfocado por movimiento y baja luz nocturna."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos nocturnos urbanos con flash frío/blanco.",
+                    "contraste": "Alto por el flash.",
+                    "textura": "Grano sutil tipo cámara digital antigua.",
+                    "overlay": "Timestamp rojo digital estilo early 2000s.",
+                    "acabado_final": "Auténtico paparazzi snapshot, crudo y nostálgico."
+                }
+            }
+        }, null, 2),
+        "category": "Photography",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/early-2000s-paparazzi.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-photography", "name": "Photography", "slug": "photography" }, { "id": "t-y2k", "name": "Y2K", "slug": "y2k" }, { "id": "t-paparazzi", "name": "Paparazzi", "slug": "paparazzi" }]
+    },
+    {
+        "id": "gaming-cinema-scene",
+        "type": "prompt",
+        "title": "Escena de cine con personajes de videojuegos",
+        "slug": "gaming-cinema-scene",
+        "summary": "Escena cinematográfica hiperrealista en cine con personajes de videojuegos.",
+        "body_markdown": `
+# Framework REAISEMP (Human)
+
+*   **R (Render):** Identidad fiel. Expresión feliz/emocionada. Piel hiperrealista.
+*   **E (Entorno):** Cine oscuro, luces bajas. Múltiples personajes de videojuegos (Mario, DK, Goku, Kratos).
+*   **A (Acción):** Sentado/de pie reaccionando con alegría. Interacción natural con personajes.
+*   **I (Iluminación):** Cinematográfica oscura. Luz de pantalla. Sombras suaves.
+*   **S (Sensación):** Divertido, nostálgico, épico. Energía geek.
+*   **E (Estilo):** Hiperrealista cinematográfico. Crossover gamer. Alta definición.
+*   **M (Composición):** Plano medio. Eye-level. Fondo semidesenfocado.
+*   **P (Post):** Dark cinematic, tonos cálidos, ligero glow.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Escena de cine con personajes de videojuegos",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "El hombre debe conservar exactamente el rostro y rasgos faciales de la foto proporcionada.",
+                    "expresion": "Feliz, emocionado, disfrutando el momento.",
+                    "detalle_piel": "Textura realista, estilo cinematográfico hiperrealista.",
+                    "cabello_y_apariencia": "Mantener peinado y estructura original sin modificaciones."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Interior de un cine oscuro.",
+                    "ambientacion": "Sala cinematográfica con luces bajas y atmósfera envolvente.",
+                    "elementos_secundarios": "Presencia de múltiples personajes icónicos de videojuegos alrededor del sujeto."
+                },
+                "A_Accion_Postura": {
+                    "accion": "El sujeto está sentado o de pie dentro del cine, reaccionando con alegría.",
+                    "lenguaje_corporal": "Relajado y contento, como en una experiencia fanboy/fangame.",
+                    "interaccion": "Los personajes (Mario, Donkey Kong, Goku, Kratos, etc.) llenan el espacio como parte de la escena."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación cinematográfica de cine oscuro.",
+                    "caracteristicas": "Luz tenue proveniente de la pantalla o luces ambientales.",
+                    "efecto": "Sombras suaves con reflejos en el rostro para dramatismo y calidez."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Divertido, nostálgico, emocionante.",
+                    "tono": "Cinemático, fan-service épico, lleno de energía geek."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Shot hiperrealista cinematográfico.",
+                    "detalle": "Alta definición en rostro y personajes secundarios.",
+                    "composicion": "Escena rica en elementos visuales sin perder el foco en el sujeto principal.",
+                    "universo": "Crossover visual de cultura gamer."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio del sujeto con entorno amplio visible.",
+                    "angulo": "Eye-level estilo escena de película.",
+                    "profundidad_de_campo": "Fondo parcialmente desenfocado pero personajes reconocibles."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Cinemático oscuro con tonos cálidos y contrastes suaves.",
+                    "efectos": "Ligero glow de pantalla, atmósfera envolvente.",
+                    "acabado_final": "Escena épica y emocional lista como still de película."
+                }
+            }
+        }, null, 2),
+        "category": "Cinematic",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/gaming-cinema-scene.png",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-cinematic", "name": "Cinematic", "slug": "cinematic" }, { "id": "t-gaming", "name": "Gaming", "slug": "gaming" }, { "id": "t-fanart", "name": "FanArt", "slug": "fanart" }]
+    },
+    {
+        "id": "mrbeast-halloween-thumbnail",
+        "type": "prompt",
+        "title": "Miniatura estilo MrBeast con tema Halloween y expresión de sorpresa",
+        "slug": "mrbeast-halloween-thumbnail",
+        "summary": "Miniatura de YouTube estilo MrBeast con temática de Halloween.",
+        "body_markdown": `
+# Framework REAISEMP (Human)
+
+*   **R (Render):** Identidad exacta. Sorpresa extrema estilo MrBeast. Rasgos exagerados limpios.
+*   **E (Entorno):** Halloween. Calabazas brillantes, fantasmas, casa embrujada. Colores naranja/púrpura.
+*   **A (Acción):** Rostro centrado mirando a cámara. Expresión viral abierta.
+*   **I (Iluminación):** Iluminación intensa de thumbnail. Luz frontal brillante. Alto contraste.
+*   **S (Sensación):** Divertido, spooky, energético. Sensacionalista.
+*   **E (Estilo):** Miniatura ultra-realista 8K. Estética marketing viral.
+*   **M (Composición):** Horizontal 16:9. Close-up centrado.
+*   **P (Post):** Saturación alta, nitidez extrema. Glow ligero.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Miniatura estilo MrBeast con tema Halloween y expresión de sorpresa",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Mantener exactamente el mismo rostro y peinado masculino de la imagen de referencia.",
+                    "expresion": "Sorpresa extrema, energía alta, mirada expresiva estilo YouTube thumbnail.",
+                    "detalle_facial": "Rasgos exageradamente claros pero sin deformar identidad.",
+                    "estilo": "Facialidad limpia, nítida, altamente reconocible."
+                },
+                "E_Entorno": {
+                    "tema": "Halloween",
+                    "elementos_fondo": [
+                        "Calabazas brillantes",
+                        "Fantasmas caricaturescos",
+                        "Casa embrujada",
+                        "Efectos spooky decorativos"
+                    ],
+                    "paleta": "Colores dominantes naranja y púrpura con alto contraste.",
+                    "contexto": "Fondo dinámico pero subordinado al rostro."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Rostro centrado mirando directamente a cámara.",
+                    "lenguaje_corporal": "Expresión abierta, dramática y exagerada típica de MrBeast.",
+                    "actitud": "Entusiasta, impactante, viral."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación intensa de thumbnail estilo MrBeast.",
+                    "caracteristicas": "Luz brillante frontal con sombras mínimas.",
+                    "efecto": "Alto contraste para que el rostro resalte inmediatamente."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Divertido, spooky, energético.",
+                    "tono": "Sensacionalista, entretenido, Halloween pop."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Miniatura YouTube ultra-realista estilo MrBeast.",
+                    "calidad": "8K, hiperdefinición, colores saturados.",
+                    "estetica": "Marketing viral, alto impacto visual.",
+                    "detalles": "Elementos Halloween con look limpio y moderno."
+                },
+                "M_Composicion_Camara": {
+                    "formato": "YouTube thumbnail horizontal 16:9.",
+                    "encuadre": "Close-up del rostro ocupando gran parte del frame.",
+                    "composicion": "Sujeto centrado con fondo temático dinámico."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Saturación alta y contraste fuerte estilo thumbnail viral.",
+                    "nitidez": "Extrema nitidez en ojos y expresión.",
+                    "efectos": "Glow ligero, elementos Halloween resaltados.",
+                    "acabado_final": "Thumbnail moderno, llamativo, listo para viralidad."
+                }
+            }
+        }, null, 2),
+        "category": "Marketing",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/mrbeast-halloween-thumbnail.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-marketing", "name": "Marketing", "slug": "marketing" }, { "id": "t-youtube", "name": "YouTube", "slug": "youtube" }, { "id": "t-halloween", "name": "Halloween", "slug": "halloween" }]
+    },
+    {
+        "id": "nano-12",
+        "type": "prompt",
+        "title": "Romantic Collectible Box — Forever Together Chibi Keepsake",
+        "slug": "nano-banana-case-12",
+        "summary": "Figura coleccionable 3D estilo chibi de pareja en caja romántica.",
+        "body_markdown": `
+# Framework REAISEMP (Object)
+
+*   **R (Render):** Figura chibi 3D. Pareja romántica. Ojos expresivos. Ramo flores blancas.
+*   **E (Entorno):** Caja joyero romántica. Ventana skyline pueblo chino. Nubes, pétalos.
+*   **A (Acción):** Caja abierta. Pareja mirándose dulcemente. Energía enamorada.
+*   **I (Iluminación):** Ambiental cálida suave. Glow delicado.
+*   **S (Sensación):** Romántico, cálido, nostálgico, adorable. Keepsake de lujo.
+*   **E (Estilo):** Collectible chibi 3D premium. Estética pastel. Detalles dorados.
+*   **M (Composición):** Vertical 9:16. Plano medio producto. Caja foco central.
+*   **P (Post):** Tonos cálidos pastel. Contraste bajo-medio. Nitidez decorativa.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Romantic Collectible Box — Forever Together Chibi Keepsake",
+            "framework_REAISEMP_Object": {
+                "R_Render_del_Objeto": {
+                    "descripcion_principal": "Figura coleccionable 3D estilo chibi basada en los sujetos de la foto, presentada dentro de una caja romántica tipo joyero portátil.",
+                    "figuras": {
+                        "estilo": "Chibi 3D adorable con ojos grandes y expresivos",
+                        "identidad": "Mantener rasgos reconocibles de la pareja original",
+                        "personajes": [
+                            {
+                                "rol": "Female subject",
+                                "detalle": "Sostiene un pequeño ramo de flores blancas"
+                            },
+                            {
+                                "rol": "Male partner",
+                                "detalle": "A su lado, mirando con ternura"
+                            }
+                        ],
+                        "expresion": "Sonrisas cálidas, mirada afectuosa, energía romántica"
+                    },
+                    "caja_presentacion": {
+                        "tipo": "Box coleccionable estilo estuche de joyería",
+                        "color": "Crema pastel con acentos dorados suaves",
+                        "grabado_tapa": "Texto: 'FOREVER TOGETHER' con motivos de estrellas y corazones"
+                    }
+                },
+                "E_Entorno": {
+                    "interior_box_scene": {
+                        "fondo": "Ventana redonda mostrando un skyline soleado de un pueblo tradicional chino",
+                        "elementos": [
+                            "Nubes flotando suavemente",
+                            "Pétalos suspendidos en el aire"
+                        ]
+                    },
+                    "ambientacion": "Mini escena romántica cálida dentro de la caja",
+                    "color_scheme": "Paleta armoniosa, elegante y pastel"
+                },
+                "A_Accion_Presentacion": {
+                    "presentacion": "Caja abierta revelando una escena romántica en miniatura",
+                    "pose": "Los dos personajes chibi se miran dulcemente",
+                    "interaccion": "Energía de pareja enamorada, momento de recuerdo"
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación ambiental cálida y suave",
+                    "caracteristicas": "Luz difusa romántica dentro del estuche",
+                    "efecto": "Glow delicado que refuerza el tono de lujo y ensueño"
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Romántico, cálido, nostálgico, adorable",
+                    "tono": "Mini keepsake de lujo, sueño poético y afectuoso"
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Collectible chibi 3D premium con estética romántica pastel",
+                    "materiales": {
+                        "figuras": "Acabado suave tipo figura coleccionable",
+                        "caja": "Textura elegante con detalles dorados delicados"
+                    },
+                    "detalles": "Alta definición en ojos brillantes, flores, grabados y decoraciones internas"
+                },
+                "M_Composicion_Camara": {
+                    "formato": "Vertical 9:16",
+                    "plano": "Plano medio de producto con caja abierta y escena interior visible",
+                    "encuadre": "Caja como foco central, personajes claramente destacados"
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos cálidos pastel con acabado premium",
+                    "contraste": "Bajo-medio para suavidad romántica",
+                    "acabado_final": "Miniatura de lujo soñadora lista para merchandising o regalo digital",
+                    "nitidez": "Alta definición en caja, personajes y detalles decorativos"
+                }
+            }
+        }, null, 2),
+        "category": "3D Design",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/romantic-collectible-box.png",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [{ "id": "t-imported", "name": "Imported", "slug": "imported" }, { "id": "t-3d", "name": "3D", "slug": "3d" }, { "id": "t-chibi", "name": "Chibi", "slug": "chibi" }, { "id": "t-romance", "name": "Romance", "slug": "romance" }]
+    },
+    {
+        "id": "nano-flash-2000s",
+        "type": "prompt",
+        "title": "Early 2000s Flash Selfie — Cozy Sweater Floor Portrait",
+        "slug": "early-2000s-flash-selfie",
+        "summary": "Selfie cozy Y2K con flash duro, sweater tejido y ambiente hogareño.",
+        "body_markdown": `
+# Framework REAISEMP (Human)
+
+*   **R (Render):** Mujer joven, rubia, sweater chunky off-shoulder. Piel realista con flash.
+*   **E (Entorno):** Sala cozy de noche, chimenea encendida, alfombra faux fur.
+*   **A (Postura):** Selfie high-angle desde el piso. Piernas recogidas. Cámara digital visible.
+*   **I (Iluminación):** Flash duro frontal (2000s style) + calidez de fuego de fondo.
+*   **S (Sensación):** Íntimo, nostálgico, relajado, auténtico.
+*   **E (Estilo):** Snapshot digital Y2K, influencers tempranos.
+*   **M (Composición):** Vertical 4:5, encuadre cerrado high-angle.
+*   **P (Post):** Contraste medio-alto, look digital vintage, glow cálido + flash frío.
+        `,
+        "prompt_text": JSON.stringify({
+            "title": "Early 2000s Flash Selfie — Cozy Sweater Floor Portrait",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Preservar exactamente el rostro original (preserve_original = true).",
+                    "sujeto": "Mujer joven (early–mid 20s) tomando una selfie desde un ángulo alto.",
+                    "expresion": "Mirada suave y ligeramente alluring, cabeza inclinada sutilmente hacia la derecha.",
+                    "cabello": {
+                        "color": "Rubio",
+                        "estilo": "Largo, voluminoso, ondas sueltas, raya lateral"
+                    },
+                    "maquillaje": {
+                        "cejas": "Definidas",
+                        "ojos": "Winged eyeliner",
+                        "labios": "Gloss nude natural",
+                        "piel": "Bronceado suave con textura realista"
+                    },
+                    "vestimenta": {
+                        "outfit": "Vestido tipo sweater chunky cable-knit color crema",
+                        "detalles": "Off-shoulder exponiendo hombros y clavícula, mangas oversized, tejido grueso visible"
+                    },
+                    "calidad": "Ultra-realistic 8K portrait rendering con detalle extremo en piel y textiles."
+                },
+                "E_Entorno": {
+                    "escena": "Sala acogedora de noche, estilo lifestyle influencer.",
+                    "elementos_visibles": [
+                        "Chimenea con llamas naranjas intensas a la izquierda",
+                        "Repisa blanca (mantelpiece)",
+                        "Ventana oscura o puerta de vidrio",
+                        "Sillón beige al fondo",
+                        "Piso de madera oscura",
+                        "Alfombra blanca tipo faux fur"
+                    ],
+                    "atmósfera": "Invierno íntimo, relajado, cozy evening vibe."
+                },
+                "A_Accion_Postura": {
+                    "accion": "Selfie casual sentada en el piso.",
+                    "pose": "Piernas recogidas hacia un lado, cuerpo ligeramente encorvado dentro del sweater.",
+                    "dispositivo": "Cámara compacta digital o smartphone sostenido a brazo extendido con reflejo de flash visible.",
+                    "lenguaje_corporal": "Íntimo, natural, espontáneo."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Estética digital early 2000s con flash duro.",
+                    "fuentes": [
+                        "Flash directo de cámara (harsh shadows)",
+                        "Luz ambiental cálida proveniente del fuego"
+                    ],
+                    "efecto": "Contraste fuerte entre piel iluminada por flash y fondo cálido tenue."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Cozy, íntimo, relajado, ligeramente seductor pero natural.",
+                    "tono": "Lifestyle nostálgico con vibra Y2K digital snapshot."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Selfie hiperrealista tipo cámara digital 2000s.",
+                    "textura": "On-camera flash, sombras duras, piel real, knit sweater detallado.",
+                    "acabado": "Influencer realism con sensación auténtica, no editorial pulido.",
+                    "calidad": "Ultra-realistic 8K con grano sutil de cámara antigua."
+                },
+                "M_Composicion_Camara": {
+                    "angulo": "High-angle looking downward.",
+                    "shot_type": "Close medium shot desde arriba, framing ligeramente off-center.",
+                    "aspect_ratio": "Vertical 4:5",
+                    "enfoque": "Nitidez en rostro, ojos y textura del sweater, fondo más suave."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Mezcla de flash frío con glow cálido de chimenea.",
+                    "contraste": "Medio-alto por estética snapshot digital.",
+                    "detalles": "Preservar textura real de piel, flash reflection y sombras auténticas.",
+                    "acabado_final": "Ultra-realistic 8K cozy Y2K harsh-flash selfie con vibra íntima."
+                }
+            }
+        }, null, 2),
+        "category": "Photography",
+        "level": "intermediate",
+        "is_published": true,
+        "is_featured": false,
+        "featured_image_url": "/images/prompts/early-2000s-flash-selfie.jpg",
+        "paywall_level": "free_preview",
+        "created_at": new Date().toISOString(),
+        "updated_at": new Date().toISOString(),
+        "tags": [
+            { "id": "t-nano", "name": "Nano Banana", "slug": "nano-banana" },
+            { "id": "t-y2k", "name": "Y2K", "slug": "y2k" },
+            { "id": "t-flash", "name": "Flash Photography", "slug": "flash-photography" }
+        ]
     }
+
 ];
