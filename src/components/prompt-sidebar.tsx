@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search, X, Star } from "lucide-react";
-import { Link } from "@/i18n/routing";
+import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import { Tag } from "@/types/content";
@@ -102,37 +102,38 @@ export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps
                 </div>
             </div>
 
-            <div className="mb-8">
-                <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider mb-4">Popular Tags</h3>
-                <div className="flex flex-wrap gap-2">
-                    {tags.length === 0 && <p className="text-xs text-slate-500">No tags found</p>}
-                    {tags.map((tag) => {
-                        const isActive = currentTag === tag.slug;
+            {tags.length > 0 && (
+                <div className="mb-8">
+                    <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider mb-4">Popular Tags</h3>
+                    <div className="flex flex-wrap gap-2">
+                        {tags.map((tag) => {
+                            const isActive = currentTag === tag.slug;
 
-                        // Build new params preserving others
-                        const newParams = new URLSearchParams(searchParams.toString());
-                        if (isActive) {
-                            newParams.delete('tag');
-                        } else {
-                            newParams.set('tag', tag.slug);
-                        }
-                        newParams.delete('page'); // Reset pagination on tag change
+                            // Build new params preserving others
+                            const newParams = new URLSearchParams(searchParams.toString());
+                            if (isActive) {
+                                newParams.delete('tag');
+                            } else {
+                                newParams.set('tag', tag.slug);
+                            }
+                            newParams.delete('page'); // Reset pagination on tag change
 
-                        return (
-                            <Link
-                                href={`${pathname}?${newParams.toString()}`}
-                                key={tag.id}
-                                className={`px-3 py-1 rounded-full border text-xs transition-all ${isActive
-                                    ? 'bg-purple-600/30 border-purple-500 text-white shadow-[0_0_10px_rgba(168,85,247,0.3)]'
-                                    : 'bg-slate-800 border-slate-700 text-slate-300 hover:border-purple-500 hover:text-purple-300'
-                                    }`}
-                            >
-                                #{tag.name}
-                            </Link>
-                        );
-                    })}
+                            return (
+                                <Link
+                                    href={`${pathname}?${newParams.toString()}`}
+                                    key={tag.id}
+                                    className={`px-3 py-1 rounded-full border text-xs transition-all ${isActive
+                                        ? 'bg-purple-600/30 border-purple-500 text-white shadow-[0_0_10px_rgba(168,85,247,0.3)]'
+                                        : 'bg-slate-800 border-slate-700 text-slate-300 hover:border-purple-500 hover:text-purple-300'
+                                        }`}
+                                >
+                                    #{tag.name}
+                                </Link>
+                            );
+                        })}
+                    </div>
                 </div>
-            </div>
+            )}
 
             <div className="p-4 rounded-lg bg-gradient-to-br from-purple-900/50 to-slate-900 border border-purple-500/30">
                 <div className="flex items-center gap-2 text-purple-300 mb-2">

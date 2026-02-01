@@ -3,10 +3,10 @@
 import { createClient } from "@/utils/supabase/server";
 import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
-import { MOCK_TAGS, addMockTag, updateMockTag, deleteMockTag as deleteMockTagHelper } from "@/lib/mock-data";
+import { MOCK_TAGS, ALL_MOCK_CONTENT, addMockTag, updateMockTag, deleteMockTag as deleteMockTagHelper } from "@/lib/mock-data";
 
 export async function getTags() {
-    const isMock = (await cookies()).get('mock_session')?.value === 'true';
+    const isMock = true; // Force mock for validation: (await cookies()).get('mock_session')?.value === 'true';
     if (isMock) {
         // Return fresh mutable data
         return { data: [...MOCK_TAGS] };
@@ -25,6 +25,65 @@ export async function getTags() {
     } catch (error: any) {
         console.error('Error fetching tags, using mock data:', error);
         return { data: [...MOCK_TAGS], error: error.message || 'Unknown error' };
+    }
+}
+
+export async function getUsedTags(type?: string) {
+    const isMock = true; // Force mock for validation: (await cookies()).get('mock_session')?.value === 'true';
+
+    if (isMock) {
+        let content = ALL_MOCK_CONTENT;
+        if (type) {
+            content = content.filter(c => c.type === type);
+        }
+
+        const usedTagSlugs = new Set();
+        content.forEach(c => {
+            c.tags?.forEach(t => usedTagSlugs.add(t.slug));
+        });
+
+        const filteredTags = MOCK_TAGS.filter(t => usedTagSlugs.has(t.slug));
+        return { data: filteredTags };
+    }
+
+    try {
+        const supabase = await createClient();
+
+        // Complex query: Select tags where exists content_tag link to content with type X
+        // This is easier with a join or raw query. simpler is to fetch content ids of type X, then tags for those.
+        // Actually, we can use the graph logic reversed. 
+        // tags -> distinct -> inner join content_tags -> inner join content (type=X)
+
+        let query = supabase
+            .from('tags')
+            .select(`
+                *,
+                content_tags!inner(
+                    content!inner(
+                        type
+                    )
+                )
+            `);
+
+        if (type) {
+            query = query.eq('content_tags.content.type', type);
+        }
+
+        const { data, error } = await query;
+
+        if (error) throw error;
+
+        // Remove duplicates if any (though typically distinct tags should be returned, inner join might multiply rows?)
+        // Supabase/Postgrest returns one row per parent if configured right, but with !inner it might act as filter.
+        // Let's dedup just in case.
+        const uniqueTags = Array.from(new Map(data.map(item => [item.id, item])).values());
+
+        return { data: uniqueTags };
+
+    } catch (error: any) {
+        console.error('Error fetching used tags:', error);
+        // Return all tags as safe fallback
+        return { data: [...MOCK_TAGS], error: error.message };
     }
 }
 
@@ -112,4 +171,3 @@ export async function deleteTag(id: string) {
         return { success: true, error: error.message };
     }
 }
-

@@ -3,7 +3,7 @@ import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Lock, ArrowLeft, Copy, Check, Info, ChevronLeft, ChevronRight } from "lucide-react";
-import { MOCK_PROMPTS } from "@/lib/mock-data";
+import { ALL_MOCK_CONTENT } from "@/lib/mock-data";
 import { PromptSidebar } from "@/components/prompt-sidebar";
 import { PublicHeader } from "@/components/public-header";
 import { PromptDisplay } from "@/components/prompt-display";
@@ -13,7 +13,7 @@ import { AvatarCourseCTA } from "@/components/avatar-course-cta";
 import { CustomizationGuide } from "@/components/customization-guide";
 import { Sparkles } from "lucide-react";
 import { getDistinctCategories } from "@/actions/content-actions";
-import { getTags } from "@/actions/tags";
+import { getUsedTags } from "@/actions/tags";
 import { TextPromptView } from "@/components/text-prompt-view";
 
 function isJsonString(str: string | undefined | null) {
@@ -35,20 +35,24 @@ interface PromptDetailPageProps {
 
 export default async function PromptDetailPage({ params }: PromptDetailPageProps) {
     const { slug } = await params;
-    const categories = await getDistinctCategories();
-    const tags = await getTags();
 
-    const promptIndex = MOCK_PROMPTS.findIndex(p => p.slug === slug);
-    const prompt = MOCK_PROMPTS[promptIndex];
+    const promptIndex = ALL_MOCK_CONTENT.findIndex(p => p.slug === slug);
+    const prompt = ALL_MOCK_CONTENT[promptIndex];
 
     if (!prompt) {
         notFound();
     }
 
-    const isImagePrompt = isJsonString(prompt.prompt_text);
+    // Fetch context-aware categories and tags
+    const [categories, tags] = await Promise.all([
+        getDistinctCategories(prompt.type),
+        prompt.type === 'text_prompt' ? Promise.resolve({ data: [] }) : getUsedTags(prompt.type)
+    ]);
+
+    const isImagePrompt = prompt.type === 'prompt';
 
     // Filter prompts to only include those of the same type (Image vs Text)
-    const filteredPrompts = MOCK_PROMPTS.filter(p => isJsonString(p.prompt_text) === isImagePrompt);
+    const filteredPrompts = ALL_MOCK_CONTENT.filter(p => p.type === prompt.type);
     const filteredIndex = filteredPrompts.findIndex(p => p.slug === slug);
 
     const prevPrompt = filteredIndex > 0 ? filteredPrompts[filteredIndex - 1] : null;

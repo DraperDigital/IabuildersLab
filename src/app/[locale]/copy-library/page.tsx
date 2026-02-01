@@ -17,13 +17,13 @@ export default async function CopyLibraryPage({ searchParams }: { searchParams: 
         { data: categoriesData }
     ] = await Promise.all([
         listContent({
-            type: 'prompt',
+            type: 'text_prompt',
             status: 'published',
             category,
             search,
             limit: 100 // Load more for list view
         }),
-        getDistinctCategories()
+        getDistinctCategories('text_prompt')
     ]);
 
     // Define relevant categories for Copy Library if not provided by DB yet

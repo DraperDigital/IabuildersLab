@@ -1,5 +1,5 @@
 import { listContent, getDistinctCategories } from "@/actions/content-actions";
-import { getTags } from "@/actions/tags";
+import { getUsedTags } from "@/actions/tags";
 import { PromptCard } from "@/components/prompt-card";
 import { PromptSidebar } from "@/components/prompt-sidebar";
 import { getTranslations } from "next-intl/server";
@@ -30,10 +30,10 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
             search,
             page,
             limit,
-            excludeCategories: ['Marketing y publicidad', 'Reseñas de productos', 'Marketing de Facebook']
+
         }),
-        getDistinctCategories(),
-        getTags()
+        getDistinctCategories('prompt'),
+        getUsedTags('prompt')
     ]);
 
     const categories = categoriesData || [];

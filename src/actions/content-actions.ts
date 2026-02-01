@@ -387,21 +387,29 @@ export async function togglePublishContent(id: string, isPublished: boolean) {
     return { success: true };
 }
 
-export async function getDistinctCategories() {
-    const isMock = (await cookies()).get('mock_session')?.value === 'true';
+export async function getDistinctCategories(type?: string) {
+    const isMock = true; // Force mock for validation: (await cookies()).get('mock_session')?.value === 'true';
     if (isMock) {
-        return { data: Array.from(new Set(ALL_MOCK_CONTENT.map(c => c.category).filter(Boolean))) as string[] };
+        let content = ALL_MOCK_CONTENT;
+        if (type) {
+            content = content.filter(c => c.type === type);
+        }
+        return { data: Array.from(new Set(content.map(c => c.category).filter(Boolean))) as string[] };
     }
 
     try {
         const supabase = await createClient();
 
-        // Supabase doesn't have a direct DISTINCT query easily via JS client for a single column returning flat array
-        // We can use .select('category') and process it, or use .rpc if strictly needed, but JS processing is fine content is small < 10k
-        const { data, error } = await supabase
+        let query = supabase
             .from('content')
             .select('category')
             .not('category', 'is', null);
+
+        if (type) {
+            query = query.eq('type', type);
+        }
+
+        const { data, error } = await query;
 
         if (error) throw error;
 

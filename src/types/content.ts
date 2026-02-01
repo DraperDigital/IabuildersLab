@@ -1,4 +1,4 @@
-export type ContentType = 'system' | 'prompt' | 'automation' | 'asset';
+export type ContentType = 'system' | 'prompt' | 'automation' | 'asset' | 'text_prompt';
 export type ContentLevel = 'beginner' | 'intermediate' | 'advanced';
 export type PaywallLevel = 'free_preview' | 'access' | 'plus' | 'pro';
 export type UserRole = 'member' | 'admin';

@@ -1,4 +1,3293 @@
 export const EXTRA_MOCK_PROMPTS = [
+    {
+        id: "fantasy-2",
+        type: "prompt",
+        title: "Pink Glow Ball Immersion Portrait — Magenta Saturated Editorial Fantasy",
+        slug: "pink-glow-ball-immersion",
+        summary: "Ultra-realistic 8K pink immersion fashion portrait con atmósfera juguetona surreal.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos.
+- **Preservación total:** No cambiar ni editar el rostro bajo ninguna circunstancia.
+- **Sujeto:** Persona sumergida entre esferas translúcidas rosas con estética fashion surreal.
+- **Expresión:** Confident and composed, mirada editorial directa.
+- **Detalle facial:**
+  - Piel: Smooth natural skin con pecas visibles en nariz y mejillas
+  - Cejas: Bold eyebrows definidas
+  - Ojos: Winged eyeliner + pink glitter eyeshadow
+  - Labios: Hot pink lipstick vibrante
+  - Makeup: Subtle enhancements manteniendo naturalidad
+- **Cabello:**
+  - Estilo: Soft waves elegantes
+  - Instrucción: Preservar textura y tono exactos de la referencia
+- **Calidad:** Ultra-realistic 8K editorial surreal portrait rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Escena:** Submerged environment lleno de bolas translúcidas luminosas.
+- **Paleta:** Baby pink, fuchsia pink, hot pink, magenta, blush pink, rose pink, cotton candy pink.
+- **Atmósfera:** Playful, vivid, saturated, surreal fashion backdrop.
+
+## A: Acción / Postura
+- **Pose:** Cuerpo colocado diagonalmente a través del frame.
+  - Head: Tilted ligeramente hacia un lado
+  - Left arm: Brazo izquierdo doblado hacia arriba, mano cerca de la cabeza
+  - Right arm: Brazo derecho extendido hacia cámara sosteniendo una esfera rosa
+- **Lenguaje corporal:** Composición dinámica pero elegante, editorial controlada.
+
+## I: Iluminación
+- **Tipo:** Bright evenly distributed lighting.
+- **Características:**
+  - Iluminación uniforme high-key
+  - Glow intenso en bolas translúcidas
+  - Sin sombras duras
+- **Efecto:** Ambiente vívido, colorido, juguetón, altamente saturado.
+
+## S: Sensación / Atmósfera
+- **Mood:** Playful, dreamy, confident, vibrant.
+- **Tono:** Surreal fashion portrait con energía pop y estética editorial.
+
+## E: Estilo Visual
+- **Estilo general:** Photorealistic saturated surreal fashion portrait.
+- **Detalles:**
+  - Bolas translúcidas glowing en múltiples tonos rosa
+  - Makeup pink glitter editorial
+  - Textura realista en piel y pecas
+- **Acabado:** High-fashion pop surreal aesthetic, magazine-ready.
+- **Calidad:** Ultra-realistic 8K con color vibrante y detalle extremo.
+
+## M: Composición / Cámara
+- **Composición:** Simétrica, rostro perfectamente centrado como punto focal.
+- **Plano:** Close-up a medium close framing dentro del mar de esferas rosas.
+- **Enfoque:** Sharp focus en ojos expresivos y rostro; fondo lleno de bokeh glossy spheres.
+- **Ángulo:** Neutral frontal con ligera diagonal corporal para dinamismo.
+
+## P: Postproducción
+- **Color grading:** Pink-magenta saturated palette intensa y alegre.
+- **Contraste:** Moderado-clean para look pop editorial.
+- **Nitidez:** Alta definición en piel, pecas, labios y textura translúcida de esferas.
+- **Acabado final:** Ultra-realistic 8K pink immersion fashion portrait con atmósfera juguetona surreal.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Pink Glow Ball Immersion Portrait — Magenta Saturated Editorial Fantasy",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos.",
+                    "preservacion_total": "No cambiar ni editar el rostro bajo ninguna circunstancia.",
+                    "sujeto": "Persona sumergida entre esferas translúcidas rosas con estética fashion surreal.",
+                    "expresion": "Confident and composed, mirada editorial directa.",
+                    "detalle_facial": {
+                        "piel": "Smooth natural skin con pecas visibles en nariz y mejillas",
+                        "cejas": "Bold eyebrows definidas",
+                        "ojos": "Winged eyeliner + pink glitter eyeshadow",
+                        "labios": "Hot pink lipstick vibrante",
+                        "makeup": "Subtle enhancements manteniendo naturalidad"
+                    },
+                    "cabello": {
+                        "estilo": "Soft waves elegantes",
+                        "instruccion": "Preservar textura y tono exactos de la referencia"
+                    },
+                    "calidad": "Ultra-realistic 8K editorial surreal portrait rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "escena": "Submerged environment lleno de bolas translúcidas luminosas.",
+                    "paleta": [
+                        "baby pink",
+                        "fuchsia pink",
+                        "hot pink",
+                        "magenta",
+                        "blush pink",
+                        "rose pink",
+                        "cotton candy pink"
+                    ],
+                    "atmósfera": "Playful, vivid, saturated, surreal fashion backdrop."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Cuerpo colocado diagonalmente a través del frame.",
+                    "detalle_pose": {
+                        "head": "Head tilted ligeramente hacia un lado",
+                        "left_arm": "Brazo izquierdo doblado hacia arriba, mano cerca de la cabeza",
+                        "right_arm": "Brazo derecho extendido hacia cámara sosteniendo una esfera rosa"
+                    },
+                    "lenguaje_corporal": "Composición dinámica pero elegante, editorial controlada."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Bright evenly distributed lighting.",
+                    "caracteristicas": [
+                        "Iluminación uniforme high-key",
+                        "Glow intenso en bolas translúcidas",
+                        "Sin sombras duras"
+                    ],
+                    "efecto": "Ambiente vívido, colorido, juguetón, altamente saturado."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Playful, dreamy, confident, vibrant.",
+                    "tono": "Surreal fashion portrait con energía pop y estética editorial."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Photorealistic saturated surreal fashion portrait.",
+                    "detalles": [
+                        "Bolas translúcidas glowing en múltiples tonos rosa",
+                        "Makeup pink glitter editorial",
+                        "Textura realista en piel y pecas"
+                    ],
+                    "acabado": "High-fashion pop surreal aesthetic, magazine-ready.",
+                    "calidad": "Ultra-realistic 8K con color vibrante y detalle extremo."
+                },
+                "M_Composicion_Camara": {
+                    "composicion": "Simétrica, rostro perfectamente centrado como punto focal.",
+                    "plano": "Close-up a medium close framing dentro del mar de esferas rosas.",
+                    "enfoque": "Sharp focus en ojos expresivos y rostro; fondo lleno de bokeh glossy spheres.",
+                    "angulo": "Neutral frontal con ligera diagonal corporal para dinamismo."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Pink-magenta saturated palette intensa y alegre.",
+                    "contraste": "Moderado-clean para look pop editorial.",
+                    "nitidez": "Alta definición en piel, pecas, labios y textura translúcida de esferas.",
+                    "acabado_final": "Ultra-realistic 8K pink immersion fashion portrait con atmósfera juguetona surreal."
+                }
+            }
+        }, null, 2),
+        category: "Fantasy",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/pink-glow-ball-immersion.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-fantasy", name: "Fantasy", slug: "fantasy" },
+            { id: "t-pop", name: "Pop Art", slug: "pop-art" },
+            { id: "t-vibrant", name: "Vibrant", slug: "vibrant" }
+        ]
+    },
+    {
+        id: "editorial-10",
+        type: "prompt",
+        title: "Cyberpunk Noir 3-Frame Portrait Sequence — Green Neon Street Aesthetic",
+        slug: "cyberpunk-noir-sequence",
+        summary: "Ultra-realistic 8K cyberpunk noir triptych sequence con identidad preservada y estilo neon dark.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado y tono de piel exactamente idénticos.
+- **Preservación total:** No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Persona en una secuencia editorial cyberpunk noir urbana.
+- **Expresión base:** Introspectiva, intensa, underground mood.
+- **Calidad:** Ultra-realistic 8K cinematic multi-frame portrait rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Escena:** Urban street cyberpunk environment nocturno con estética underground hip-hop.
+- **Background:** Neon-lit streets con LEDs verdes y blur de movimiento.
+- **Atmósfera:** Dark, grainy, moody, raw handheld street noir.
+
+## A: Acción / Postura
+- **Estructura:** Secuencia en tres frames verticales (Top / Middle / Bottom).
+  - **Frame 1 (Top):** Close-up, Hoodie + Stüssy beanie + silver glasses, Introspective gaze, Green neon glow + motion blur streaks.
+  - **Frame 2 (Middle):** Low-angle medium shot, Sporty windbreaker + headband + sunglasses, Rebellious gesture flipping the middle finger, Neon LEDs verdes intensos.
+  - **Frame 3 (Bottom):** Side-profile close-up, Bucket hat + round goggles, Cigarette with glowing ember, Rostro medio oculto en sombras noir.
+
+## I: Iluminación
+- **Tipo:** Green neon dominant lighting con noir contrast.
+- **Características:**
+  - Glow verde intenso como color principal
+  - High ISO gritty realism
+  - Sombras profundas con slices de luz cinematográfica
+- **Efecto:** Cyberpunk underground editorial mood.
+
+## S: Sensación / Atmósfera
+- **Mood:** Rebelde, oscuro, introspectivo, callejero.
+- **Tono:** Hip-hop underground + noir cyberpunk cinematic sequence.
+
+## E: Estilo Visual
+- **Estilo general:** Dark cyberpunk noir portrait sequence, gritty street fashion editorial.
+- **Detalles:**
+  - Film grain heavy
+  - Motion blur neon streaks
+  - Raw handheld camera feel
+  - Shallow depth of field
+- **Acabado:** Moody, high-contrast, underground aesthetic.
+- **Calidad:** Ultra-realistic 8K con texturas crudas y cinematográficas.
+
+## M: Composición / Cámara
+- **Layout:** Three-frame vertical sequence (top/middle/bottom).
+- **Enfoque:** Sharp facial identity preserved in all frames.
+- **Lentes:** Close-ups + medium shot con DOF shallow.
+- **Encuadre:** Cada frame variado pero coherente en estética neon noir.
+
+## P: Postproducción
+- **Color grading:** Dominante verde neón + negros profundos noir.
+- **Contraste:** Alto para estética underground.
+- **Textura:** Grano fuerte + high ISO film look.
+- **Acabado final:** Ultra-realistic 8K cyberpunk noir triptych sequence con identidad preservada.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Cyberpunk Noir 3-Frame Portrait Sequence — Green Neon Street Aesthetic",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado y tono de piel exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Persona en una secuencia editorial cyberpunk noir urbana.",
+                    "expresion_base": "Introspectiva, intensa, underground mood.",
+                    "calidad": "Ultra-realistic 8K cinematic multi-frame portrait rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "escena": "Urban street cyberpunk environment nocturno con estética underground hip-hop.",
+                    "background": "Neon-lit streets con LEDs verdes y blur de movimiento.",
+                    "atmósfera": "Dark, grainy, moody, raw handheld street noir."
+                },
+                "A_Accion_Postura": {
+                    "estructura": "Secuencia en tres frames verticales (Top / Middle / Bottom).",
+                    "frame_1_top": {
+                        "shot": "Close-up",
+                        "outfit": "Hoodie + Stüssy beanie + silver glasses",
+                        "expresion": "Introspective gaze",
+                        "efecto": "Green neon glow + motion blur streaks"
+                    },
+                    "frame_2_middle": {
+                        "shot": "Low-angle medium shot",
+                        "outfit": "Sporty windbreaker + headband + sunglasses",
+                        "gesto": "Rebellious gesture flipping the middle finger",
+                        "background": "Neon LEDs verdes intensos"
+                    },
+                    "frame_3_bottom": {
+                        "shot": "Side-profile close-up",
+                        "outfit": "Bucket hat + round goggles",
+                        "accion": "Cigarette with glowing ember (opcional: safe version sin humo)",
+                        "luz": "Rostro medio oculto en sombras noir"
+                    }
+                },
+                "I_Iluminacion": {
+                    "tipo": "Green neon dominant lighting con noir contrast.",
+                    "caracteristicas": [
+                        "Glow verde intenso como color principal",
+                        "High ISO gritty realism",
+                        "Sombras profundas con slices de luz cinematográfica"
+                    ],
+                    "efecto": "Cyberpunk underground editorial mood."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Rebelde, oscuro, introspectivo, callejero.",
+                    "tono": "Hip-hop underground + noir cyberpunk cinematic sequence."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Dark cyberpunk noir portrait sequence, gritty street fashion editorial.",
+                    "detalles": [
+                        "Film grain heavy",
+                        "Motion blur neon streaks",
+                        "Raw handheld camera feel",
+                        "Shallow depth of field"
+                    ],
+                    "acabado": "Moody, high-contrast, underground aesthetic.",
+                    "calidad": "Ultra-realistic 8K con texturas crudas y cinematográficas."
+                },
+                "M_Composicion_Camara": {
+                    "layout": "Three-frame vertical sequence (top/middle/bottom).",
+                    "enfoque": "Sharp facial identity preserved in all frames.",
+                    "lentes": "Close-ups + medium shot con DOF shallow.",
+                    "encuadre": "Cada frame variado pero coherente en estética neon noir."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Dominante verde neón + negros profundos noir.",
+                    "contraste": "Alto para estética underground.",
+                    "textura": "Grano fuerte + high ISO film look.",
+                    "acabado_final": "Ultra-realistic 8K cyberpunk noir triptych sequence con identidad preservada."
+                }
+            }
+        }, null, 2),
+        category: "Editorial",
+        level: "expert",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/cyberpunk-noir-sequence.jpg",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-editorial", name: "Editorial", slug: "editorial" },
+            { id: "t-cyberpunk", name: "Cyberpunk", slug: "cyberpunk" },
+            { id: "t-noir", name: "Noir", slug: "noir" }
+        ]
+    },
+    {
+        id: "lifestyle-7",
+        type: "prompt",
+        title: "Overhead Cozy Sofa Portrait — Morning Sunbeam Basement Scene",
+        slug: "overhead-cozy-sofa",
+        summary: "Ultra-realistic 8K overhead sofa portrait con atmósfera tranquila y cinematográfica.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rostro, peinado, tono de piel y todos los rasgos físicos exactamente idénticos.
+- **Preservación total:** No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Persona recostada en un ambiente cozy e íntimo, retrato lifestyle cinematográfico.
+- **Expresión:** Sleepy gaze, calmada, relajada.
+- **Vestimenta:**
+  - Outfit: Comfortable sweater casual
+- **Accesorios:**
+  - Headphones: Audífonos puestos mientras descansa
+- **Detalle piel:** Textura natural realista en piel, cabello y ropa.
+- **Calidad:** Ultra-realistic 8K overhead lifestyle portrait rendering con detalle extremo.
+
+## E: Entorno
+- **Ubicación:** Basement corner cozy con silla tipo sofá.
+- **Props narrativos:**
+  - Open magazine sobre el regazo
+  - Libros apilados al lado del sujeto
+- **Atmósfera:** Interior cálido, íntimo, silencioso, morning calm.
+
+## A: Acción / Postura
+- **Pose:** Acostado/a en la silla sofá, brazos detrás de la cabeza.
+- **Lenguaje corporal:** Relajación total, momento de descanso.
+- **Detalle:** Revista abierta en el regazo, libros acompañando la escena.
+
+## I: Iluminación
+- **Tipo:** Morning cinematic sunbeam.
+- **Fuente:** Rayo de sol entrando desde una ventana en el techo.
+- **Características:**
+  - Soft natural shadows sobre piel y ropa
+  - Iluminación cálida de mañana
+  - Contraste suave cinematográfico
+- **Efecto:** Texturas realistas resaltadas con luz natural delicada.
+
+## S: Sensación / Atmósfera
+- **Mood:** Cozy, sleepy, introspectivo, tranquilo.
+- **Tono:** Cinematic morning calm con vibe hogareña.
+
+## E: Estilo Visual
+- **Estilo general:** Overhead cinematic lifestyle photography ultra realista.
+- **Detalles:**
+  - Textura de piel y cabello realista
+  - Tela del sweater definida
+  - Props cotidianos (magazine + books)
+  - Sunbeam cinematográfico suave
+- **Acabado:** Natural, cálido, sin sobreprocesado.
+- **Calidad:** Ultra-realistic 8K con detalle premium en entorno y sujeto.
+
+## M: Composición / Cámara
+- **Aspect Ratio:** 4:5
+- **Ángulo:** Overhead top-down cinematic shot.
+- **Plano:** Full-body recostado en chair-sofa, composición íntima.
+- **Encuadre:** Sujeto centrado con props alrededor para storytelling visual.
+- **Enfoque:** Sharp focus en rostro y cuerpo; fondo suave pero detallado.
+
+## P: Postproducción
+- **Color grading:** Warm morning tones con mood cinematográfico suave.
+- **Contraste:** Moderado-natural para mantener autenticidad cozy.
+- **Nitidez:** Alta definición en piel, textiles, magazine y libros.
+- **Acabado final:** Ultra-realistic 8K overhead sofa portrait con atmósfera tranquila y cinematográfica.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Overhead Cozy Sofa Portrait — Morning Sunbeam Basement Scene",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Mantener rostro, peinado, tono de piel y todos los rasgos físicos exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Persona recostada en un ambiente cozy e íntimo, retrato lifestyle cinematográfico.",
+                    "expresion": "Sleepy gaze, calmada, relajada.",
+                    "vestimenta": {
+                        "outfit": "Comfortable sweater casual"
+                    },
+                    "accesorios": {
+                        "headphones": "Audífonos puestos mientras descansa"
+                    },
+                    "detalle_piel": "Textura natural realista en piel, cabello y ropa.",
+                    "calidad": "Ultra-realistic 8K overhead lifestyle portrait rendering con detalle extremo."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Basement corner cozy con silla tipo sofá.",
+                    "props_narrativos": [
+                        "Open magazine sobre el regazo",
+                        "Libros apilados al lado del sujeto"
+                    ],
+                    "atmósfera": "Interior cálido, íntimo, silencioso, morning calm."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Acostado/a en la silla sofá, brazos detrás de la cabeza.",
+                    "lenguaje_corporal": "Relajación total, momento de descanso.",
+                    "detalle": "Revista abierta en el regazo, libros acompañando la escena."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Morning cinematic sunbeam.",
+                    "fuente": "Rayo de sol entrando desde una ventana en el techo.",
+                    "caracteristicas": [
+                        "Soft natural shadows sobre piel y ropa",
+                        "Iluminación cálida de mañana",
+                        "Contraste suave cinematográfico"
+                    ],
+                    "efecto": "Texturas realistas resaltadas con luz natural delicada."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Cozy, sleepy, introspectivo, tranquilo.",
+                    "tono": "Cinematic morning calm con vibe hogareña."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Overhead cinematic lifestyle photography ultra realista.",
+                    "detalles": [
+                        "Textura de piel y cabello realista",
+                        "Tela del sweater definida",
+                        "Props cotidianos (magazine + books)",
+                        "Sunbeam cinematográfico suave"
+                    ],
+                    "acabado": "Natural, cálido, sin sobreprocesado.",
+                    "calidad": "Ultra-realistic 8K con detalle premium en entorno y sujeto."
+                },
+                "M_Composicion_Camara": {
+                    "aspect_ratio": "4:5",
+                    "angulo": "Overhead top-down cinematic shot.",
+                    "plano": "Full-body recostado en chair-sofa, composición íntima.",
+                    "encuadre": "Sujeto centrado con props alrededor para storytelling visual.",
+                    "enfoque": "Sharp focus en rostro y cuerpo; fondo suave pero detallado."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Warm morning tones con mood cinematográfico suave.",
+                    "contraste": "Moderado-natural para mantener autenticidad cozy.",
+                    "nitidez": "Alta definición en piel, textiles, magazine y libros.",
+                    "acabado_final": "Ultra-realistic 8K overhead sofa portrait con atmósfera tranquila y cinematográfica."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/overhead-cozy-sofa.jpg",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" },
+            { id: "t-home", name: "Home", slug: "home" },
+            { id: "t-cozy", name: "Cozy", slug: "cozy" }
+        ]
+    },
+    {
+        id: "fashion-3",
+        type: "prompt",
+        title: "Fragile Tape Couture Portrait — Yellow Avant-Garde Editorial Concept",
+        slug: "fragile-tape-couture",
+        summary: "Ultra-realistic 8K fragile tape couture portrait con estética editorial conceptual premium.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión, tipo corporal y todos los rasgos físicos exactamente idénticos.
+- **Preservación total:** No cambiar ni editar ningún aspecto físico bajo ninguna circunstancia.
+- **Sujeto:** Persona glamorosa en sesión editorial conceptual de alta moda.
+- **Piel:** Soft dewy glow natural bajo luz profesional.
+- **Outfit:**
+  - Concepto: Avant-garde couture hecho completamente de cinta amarilla con texto 'FRAGILE'
+  - Top: Structured strapless top formado con caution tape
+  - Bottom: High-waisted shorts estilo modern sando set
+- **Estilo:** Fashion magazine conceptual, chic y moderno.
+- **Calidad:** Ultra-realistic 8K high-fashion portrait rendering con detalle extremo.
+
+## E: Entorno
+- **Fondo:** Minimalist pastel studio wall limpio, sin objetos adicionales.
+- **Escena:** Set editorial conceptual con paleta suave para resaltar el amarillo vibrante.
+- **Elemento artístico:**
+  - Foreground: Una tira diagonal de 'FRAGILE' tape cruzando el primer plano como composición visual.
+
+## A: Acción / Postura
+- **Pose:** De pie, fuerte y statuesque, postura alta y elegante.
+- **Posición:** Apoyada suavemente contra una pared pastel limpia.
+- **Brazos:** Relajados a los lados.
+- **Expresión:** Mirada sutilmente segura, calmada, self-assured editorial.
+
+## I: Iluminación
+- **Tipo:** Soft studio lighting editorial-grade, flattering y profesional.
+- **Características:**
+  - Sombras suaves cinematográficas
+  - Glow natural en piel
+  - Textura definida en cinta amarilla
+- **Efecto:** Look high-fashion limpio y conceptual.
+
+## S: Sensación / Atmósfera
+- **Mood:** Confident, avant-garde, chic, editorial.
+- **Tono:** Conceptual fashion portrait con presencia moderna y artística.
+
+## E: Estilo Visual
+- **Estilo general:** Photorealistic fashion magazine editorial con couture surreal.
+- **Detalles:**
+  - Cinta FRAGILE como material de outfit estructurado
+  - Foreground diagonal tape stripe para composición artística
+  - Fondo pastel minimalista como contraste suave
+- **Acabado:** High-fashion conceptual, Vogue-level modern styling.
+- **Calidad:** Ultra-realistic 8K ultra-high detail editorial aesthetic.
+
+## M: Composición / Cámara
+- **Plano:** Full-body o three-quarter fashion portrait mostrando outfit completo.
+- **Ángulo:** Eye-level neutral para postura statuesque.
+- **Encuadre:** Sujeto centrado con foreground diagonal tape como elemento dinámico.
+- **Enfoque:** Sharp focus en rostro y outfit; background limpio con depth suave.
+
+## P: Postproducción
+- **Color grading:** Pastel minimal background + amarillo brillante dominante.
+- **Contraste:** Moderado-clean para look fashion magazine.
+- **Nitidez:** Alta definición en piel, cinta, textura y contornos faciales.
+- **Acabado final:** Ultra-realistic 8K fragile tape couture portrait con estética editorial conceptual premium.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Fragile Tape Couture Portrait — Yellow Avant-Garde Editorial Concept",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión, tipo corporal y todos los rasgos físicos exactamente idénticos.",
+                    "preservacion_total": "No cambiar ni editar ningún aspecto físico bajo ninguna circunstancia.",
+                    "sujeto": "Persona glamorosa en sesión editorial conceptual de alta moda.",
+                    "piel": "Soft dewy glow natural bajo luz profesional.",
+                    "outfit": {
+                        "concepto": "Avant-garde couture hecho completamente de cinta amarilla con texto 'FRAGILE'",
+                        "top": "Structured strapless top formado con caution tape",
+                        "bottom": "High-waisted shorts estilo modern sando set"
+                    },
+                    "estilo": "Fashion magazine conceptual, chic y moderno.",
+                    "calidad": "Ultra-realistic 8K high-fashion portrait rendering con detalle extremo."
+                },
+                "E_Entorno": {
+                    "fondo": "Minimalist pastel studio wall limpio, sin objetos adicionales.",
+                    "escena": "Set editorial conceptual con paleta suave para resaltar el amarillo vibrante.",
+                    "elemento_artistico": {
+                        "foreground": "Una tira diagonal de 'FRAGILE' tape cruzando el primer plano como composición visual"
+                    }
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie, fuerte y statuesque, postura alta y elegante.",
+                    "posicion": "Apoyada suavemente contra una pared pastel limpia.",
+                    "brazos": "Relajados a los lados.",
+                    "expresion": "Mirada sutilmente segura, calmada, self-assured editorial."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Soft studio lighting editorial-grade, flattering y profesional.",
+                    "caracteristicas": [
+                        "Sombras suaves cinematográficas",
+                        "Glow natural en piel",
+                        "Textura definida en cinta amarilla"
+                    ],
+                    "efecto": "Look high-fashion limpio y conceptual."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Confident, avant-garde, chic, editorial.",
+                    "tono": "Conceptual fashion portrait con presencia moderna y artística."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Photorealistic fashion magazine editorial con couture surreal.",
+                    "detalles": [
+                        "Cinta FRAGILE como material de outfit estructurado",
+                        "Foreground diagonal tape stripe para composición artística",
+                        "Fondo pastel minimalista como contraste suave"
+                    ],
+                    "acabado": "High-fashion conceptual, Vogue-level modern styling.",
+                    "calidad": "Ultra-realistic 8K ultra-high detail editorial aesthetic."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Full-body o three-quarter fashion portrait mostrando outfit completo.",
+                    "angulo": "Eye-level neutral para postura statuesque.",
+                    "encuadre": "Sujeto centrado con foreground diagonal tape como elemento dinámico.",
+                    "enfoque": "Sharp focus en rostro y outfit; background limpio con depth suave."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Pastel minimal background + amarillo brillante dominante.",
+                    "contraste": "Moderado-clean para look fashion magazine.",
+                    "nitidez": "Alta definición en piel, cinta, textura y contornos faciales.",
+                    "acabado_final": "Ultra-realistic 8K fragile tape couture portrait con estética editorial conceptual premium."
+                }
+            }
+        }, null, 2),
+        category: "Fashion",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/fragile-tape-couture.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-fashion", name: "Fashion", slug: "fashion" },
+            { id: "t-concept", name: "Concept", slug: "concept" },
+            { id: "t-avantgarde", name: "Avant-Garde", slug: "avant-garde" }
+        ]
+    },
+    {
+        id: "editorial-9",
+        type: "prompt",
+        title: "Dual Split-Light Profile Portrait — Gold Top Light + Neon Blue Jaw Glow",
+        slug: "dual-split-light-portrait",
+        summary: "Ultra-realistic 8K split-light profile portrait con mood etéreo editorial y contraste gold/blue.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos a la referencia.
+- **Preservación total:** No cambiar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.
+- **Detalle facial:**
+  - Naturalidad: Preservar todos los detalles naturales: arrugas, microexpresiones, textura real de piel.
+  - Realismo: Skin textured para realismo máximo, sin smoothing artificial.
+- **Sujeto:** Retrato de perfil contemplativo, high-fashion y etéreo.
+- **Expresión:** Pensativa, mirando hacia arriba y alejándose de la cámara.
+- **Calidad:** Ultra-realistic 8K close-up portrait rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Fondo:** Dark minimalist background sin elementos distractores.
+- **Escena:** Estudio editorial moody con atmósfera etérea.
+- **Objetivo:** Aislar el rostro como punto emocional central.
+
+## A: Acción / Postura
+- **Pose:** Profile close-up, rostro ligeramente inclinado hacia arriba.
+- **Mirada:** Ojos dirigidos upward y away del lente.
+- **Lenguaje corporal:** Quietud introspectiva, elegancia escultórica.
+
+## I: Iluminación
+- **Tipo:** Dramatic split-lighting dual-tone cinematográfico.
+- **Esquema:**
+  - Gold light: Vibrant glowing gold light iluminando la parte superior del rostro.
+  - Neon blue light: Cool neon blue glow suave en mandíbula y cuello.
+- **Efecto:**
+  - Contraste fuerte cálido vs frío
+  - Contornos faciales esculpidos con precisión
+  - Mood high-fashion nocturno
+
+## S: Sensación / Atmósfera
+- **Mood:** Moody, ethereal, contemplativo.
+- **Tono:** High-fashion editorial con aura misteriosa y elegante.
+
+## E: Estilo Visual
+- **Estilo general:** Photorealistic cinematic studio portrait con iluminación dual.
+- **Detalles:**
+  - Glow dorado intenso arriba
+  - Neón azul frío en mandíbula
+  - Textura realista de piel y detalle ocular
+- **Acabado:** Editorial premium, moderno, elegante, surreal-light.
+- **Calidad:** Ultra-realistic 8K con estética Vogue-level.
+
+## M: Composición / Cámara
+- **Plano:** Close-up profile portrait.
+- **Enfoque:** Sharp focus extremo en el ojo como ancla emocional.
+- **Profundidad de campo:** Shallow DOF cinematográfico, fondo completamente suave.
+- **Encuadre:** Perfil dominante con espacio negativo oscuro alrededor.
+
+## P: Postproducción
+- **Color grading:** Dual-tone gold + neon blue con contraste cinematográfico limpio.
+- **Nitidez:** Máxima definición en ojo, piel, contornos faciales.
+- **Contraste:** High-fashion dramatic, deep blacks controlados.
+- **Acabado final:** Ultra-realistic 8K split-light profile portrait con mood etéreo editorial.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Dual Split-Light Profile Portrait — Gold Top Light + Neon Blue Jaw Glow",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos a la referencia.",
+                    "preservacion_total": "No cambiar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.",
+                    "detalle_facial": {
+                        "naturalidad": "Preservar todos los detalles naturales: arrugas, microexpresiones, textura real de piel.",
+                        "realismo": "Skin textured para realismo máximo, sin smoothing artificial."
+                    },
+                    "sujeto": "Retrato de perfil contemplativo, high-fashion y etéreo.",
+                    "expresion": "Pensativa, mirando hacia arriba y alejándose de la cámara.",
+                    "calidad": "Ultra-realistic 8K close-up portrait rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "fondo": "Dark minimalist background sin elementos distractores.",
+                    "escena": "Estudio editorial moody con atmósfera etérea.",
+                    "objetivo": "Aislar el rostro como punto emocional central."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Profile close-up, rostro ligeramente inclinado hacia arriba.",
+                    "mirada": "Ojos dirigidos upward y away del lente.",
+                    "lenguaje_corporal": "Quietud introspectiva, elegancia escultórica."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Dramatic split-lighting dual-tone cinematográfico.",
+                    "esquema": {
+                        "gold_light": "Vibrant glowing gold light iluminando la parte superior del rostro.",
+                        "neon_blue_light": "Cool neon blue glow suave en mandíbula y cuello."
+                    },
+                    "efecto": [
+                        "Contraste fuerte cálido vs frío",
+                        "Contornos faciales esculpidos con precisión",
+                        "Mood high-fashion nocturno"
+                    ]
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Moody, ethereal, contemplativo.",
+                    "tono": "High-fashion editorial con aura misteriosa y elegante."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Photorealistic cinematic studio portrait con iluminación dual.",
+                    "detalles": [
+                        "Glow dorado intenso arriba",
+                        "Neón azul frío en mandíbula",
+                        "Textura realista de piel y detalle ocular"
+                    ],
+                    "acabado": "Editorial premium, moderno, elegante, surreal-light.",
+                    "calidad": "Ultra-realistic 8K con estética Vogue-level."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Close-up profile portrait.",
+                    "enfoque": "Sharp focus extremo en el ojo como ancla emocional.",
+                    "profundidad_de_campo": "Shallow DOF cinematográfico, fondo completamente suave.",
+                    "encuadre": "Perfil dominante con espacio negativo oscuro alrededor."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Dual-tone gold + neon blue con contraste cinematográfico limpio.",
+                    "nitidez": "Máxima definición en ojo, piel, contornos faciales.",
+                    "contraste": "High-fashion dramatic, deep blacks controlados.",
+                    "acabado_final": "Ultra-realistic 8K split-light profile portrait con mood etéreo editorial."
+                }
+            }
+        }, null, 2),
+        category: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/dual-split-light-portrait.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-editorial", name: "Editorial", slug: "editorial" },
+            { id: "t-lighting", name: "Lighting", slug: "lighting" },
+            { id: "t-creative", name: "Creative", slug: "creative" }
+        ]
+    },
+    {
+        id: "fantasy-1",
+        type: "prompt",
+        title: "Cloud Fantasy Ethereal Portrait — Soft Blue Purple Heavenly Mood",
+        slug: "cloud-fantasy-portrait",
+        summary: "Ultra-realistic 8K cloud fantasy portrait con mood celestial sereno y fidelidad absoluta.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, color, longitud, textura, tono de piel, tipo corporal, tattoos y expresión exactamente idénticos.
+- **Preservación total:** No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Fidelidad absoluta:**
+  - Rostro 100% idéntico
+  - Cabello idéntico en color, longitud, textura y estilo
+  - Expresión idéntica
+  - Tatuajes preservados exactamente
+  - Proporciones corporales sin cambios
+- **Sujeto:** Retrato etéreo y celestial, identidad completamente bloqueada.
+- **Cabello lock:**
+  - Instrucción: Cabello debe coincidir exactamente con la referencia.
+  - Detalle: Ondulado largo con sutiles braids enmarcando el rostro (solo si existen en referencia).
+- **Accesorios:**
+  - Necklace: Delicado collar dorado
+  - Bracelet: Pulsera dorada elegante
+- **Styling safe:** Tasteful fantasy portrait, no explicit nudity, shoulders softly obscured by clouds.
+- **Calidad:** Ultra-realistic 8K fantasy editorial portrait rendering con detalle extremo.
+
+## E: Entorno
+- **Escena:** Cama whimsical de nubes fluffy blancas y púrpura claro.
+- **Elementos:**
+  - Soft cloud texture envolviendo parcialmente al sujeto
+  - Celestial dreamy atmosphere
+- **Fondo:** Smooth gradient background en tonos azul suave y púrpura pastel.
+- **Objetivo:** Crear sensación heavenly y otherworldly elegante.
+
+## A: Acción / Postura
+- **Pose:** Emergiendo suavemente desde las nubes, composición íntima.
+- **Mirada:** Mirando hacia arriba y ligeramente de lado.
+- **Expresión:** Serena, contemplativa, calmada.
+- **Lenguaje corporal:** Quietud celestial, fragilidad elegante.
+
+## I: Iluminación
+- **Tipo:** Soft diffused studio lighting.
+- **Características:**
+  - Luz envolvente sin sombras duras
+  - Highlights suaves sobre piel y cabello
+  - Glow natural sobre nubes
+- **Efecto:** Resalta rasgos faciales con naturalidad y pureza.
+
+## S: Sensación / Atmósfera
+- **Mood:** Heavenly, dreamy, serene, otherworldly.
+- **Tono:** Fantasy editorial con calma emocional y poesía visual.
+
+## E: Estilo Visual
+- **Estilo general:** Magical realism fantasy portrait con estética editorial elegante.
+- **Detalles:**
+  - Textura fluffy ultra realista en nubes
+  - Degradados pastel suaves en background
+  - Joyas doradas delicadas como acentos premium
+- **Paleta:** Blanco + lila claro + azul pastel + dorado suave.
+- **Calidad:** Ultra-realistic 8K con acabado celestial de lujo.
+
+## M: Composición / Cámara
+- **Plano:** Close-up a medium close portrait emergiendo de clouds.
+- **Encuadre:** Rostro dominante centrado, nubes enmarcando hombros.
+- **Enfoque:** Tack-sharp en ojos y piel; nubes suaves con depth controlado.
+- **Profundidad de campo:** Shallow DOF cinematográfico dreamy.
+
+## P: Postproducción
+- **Color grading:** Pastel heavenly tones con glow suave.
+- **Contraste:** Bajo-moderado para mantener delicadeza etérea.
+- **Nitidez:** Alta definición en rostro, cabello y tattoos preservados.
+- **Acabado final:** Ultra-realistic 8K cloud fantasy portrait con mood celestial sereno y fidelidad absoluta.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Cloud Fantasy Ethereal Portrait — Soft Blue Purple Heavenly Mood",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, color, longitud, textura, tono de piel, tipo corporal, tattoos y expresión exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "fidelidad_absoluta": [
+                        "Rostro 100% idéntico",
+                        "Cabello idéntico en color, longitud, textura y estilo",
+                        "Expresión idéntica",
+                        "Tatuajes preservados exactamente",
+                        "Proporciones corporales sin cambios"
+                    ],
+                    "sujeto": "Retrato etéreo y celestial, identidad completamente bloqueada.",
+                    "cabello_lock": {
+                        "instruccion": "Cabello debe coincidir exactamente con la referencia.",
+                        "detalle": "Ondulado largo con sutiles braids enmarcando el rostro (solo si existen en referencia)."
+                    },
+                    "accesorios": {
+                        "necklace": "Delicado collar dorado",
+                        "bracelet": "Pulsera dorada elegante"
+                    },
+                    "styling_safe": "Tasteful fantasy portrait, no explicit nudity, shoulders softly obscured by clouds.",
+                    "calidad": "Ultra-realistic 8K fantasy editorial portrait rendering con detalle extremo."
+                },
+                "E_Entorno": {
+                    "escena": "Cama whimsical de nubes fluffy blancas y púrpura claro.",
+                    "elementos": [
+                        "Soft cloud texture envolviendo parcialmente al sujeto",
+                        "Celestial dreamy atmosphere"
+                    ],
+                    "fondo": "Smooth gradient background en tonos azul suave y púrpura pastel.",
+                    "objetivo": "Crear sensación heavenly y otherworldly elegante."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Emergiendo suavemente desde las nubes, composición íntima.",
+                    "mirada": "Mirando hacia arriba y ligeramente de lado.",
+                    "expresion": "Serena, contemplativa, calmada.",
+                    "lenguaje_corporal": "Quietud celestial, fragilidad elegante."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Soft diffused studio lighting.",
+                    "caracteristicas": [
+                        "Luz envolvente sin sombras duras",
+                        "Highlights suaves sobre piel y cabello",
+                        "Glow natural sobre nubes"
+                    ],
+                    "efecto": "Resalta rasgos faciales con naturalidad y pureza."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Heavenly, dreamy, serene, otherworldly.",
+                    "tono": "Fantasy editorial con calma emocional y poesía visual."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Magical realism fantasy portrait con estética editorial elegante.",
+                    "detalles": [
+                        "Textura fluffy ultra realista en nubes",
+                        "Degradados pastel suaves en background",
+                        "Joyas doradas delicadas como acentos premium"
+                    ],
+                    "paleta": "Blanco + lila claro + azul pastel + dorado suave.",
+                    "calidad": "Ultra-realistic 8K con acabado celestial de lujo."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Close-up a medium close portrait emergiendo de clouds.",
+                    "encuadre": "Rostro dominante centrado, nubes enmarcando hombros.",
+                    "enfoque": "Tack-sharp en ojos y piel; nubes suaves con depth controlado.",
+                    "profundidad_de_campo": "Shallow DOF cinematográfico dreamy."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Pastel heavenly tones con glow suave.",
+                    "contraste": "Bajo-moderado para mantener delicadeza etérea.",
+                    "nitidez": "Alta definición en rostro, cabello y tattoos preservados.",
+                    "acabado_final": "Ultra-realistic 8K cloud fantasy portrait con mood celestial sereno y fidelidad absoluta."
+                }
+            }
+        }, null, 2),
+        category: "Fantasy",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/cloud-fantasy-portrait.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-fantasy", name: "Fantasy", slug: "fantasy" },
+            { id: "t-ethereal", name: "Ethereal", slug: "ethereal" },
+            { id: "t-pastel", name: "Pastel", slug: "pastel" }
+        ]
+    },
+    {
+        id: "fashion-2",
+        type: "prompt",
+        title: "Violet Monochrome Diva Portrait — Lavender Fur Y2K Glam Editorial",
+        slug: "violet-monochrome-diva",
+        summary: "Ultra-realistic 8K violet diva portrait con estética editorial glam de lujo.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rostro, cabello, tono de piel y todos los rasgos físicos exactamente idénticos.
+- **Preservación total:** No alterar ni editar ningún aspecto físico bajo ninguna circunstancia.
+- **Fidelidad reforzada:**
+  - No cambiar el rostro
+  - No cambiar el tono de piel
+  - No cambiar la estructura facial
+  - No cambiar ningún rasgo corporal
+- **Cabello lock:**
+  - Instrucción: Usar el cabello exactamente como en la referencia.
+  - Restricción: No cambiar color, longitud, textura ni estilo bajo ninguna circunstancia.
+- **Sujeto:** Mujer glamorosa estilo diva editorial.
+- **Makeup:**
+  - Ojos: Shimmering lavender eyeshadow
+  - Delineado: Bold winged eyeliner
+  - Labios: Glossy peach lips
+  - Piel: Luminous dewy skin con acabado beauty premium
+- **Accesorios:**
+  - Aretes: Oversized silver hoop earrings
+  - Uñas: Long decorated nails con metallic rings
+- **Vestimenta:**
+  - Outfit: Lavender faux fur coat lujoso drapeado sobre los hombros
+  - Armonía: Monochrome harmony con el fondo violeta
+- **Calidad:** Ultra-realistic 8K beauty fashion portrait rendering con detalle extremo.
+
+## E: Entorno
+- **Fondo:** Bold violet solid background, limpio y saturado.
+- **Escena:** Estudio minimalista sin props adicionales.
+- **Objetivo:** Enfatizar estética monochrome glam y presencia editorial.
+
+## A: Acción / Postura
+- **Pose:** Postura glamorosa, elegante, con presencia de portada.
+- **Expresión:** Segura, confiada, diva moderna.
+- **Lenguaje corporal:** Calma poderosa, estilo editorial sofisticado.
+
+## I: Iluminación
+- **Tipo:** Clean studio lighting estilo beauty editorial.
+- **Características:**
+  - Iluminación uniforme resaltando maquillaje
+  - Highlights suaves sobre piel dewy
+  - Textura definida en fur coat y accesorios
+- **Efecto:** Glow premium tipo portada de revista.
+
+## S: Sensación / Atmósfera
+- **Mood:** Elegante, confiada, stylish, luxury diva.
+- **Tono:** Editorial magazine cover aesthetic con vibra Y2K glam.
+
+## E: Estilo Visual
+- **Estilo general:** High-fashion beauty editorial portrait con acabado glossy.
+- **Styling Vibes:**
+  - Y2K glam
+  - Modern diva
+  - Monochrome fashion luxury
+  - Cover-ready magazine aesthetic
+- **Detalles:**
+  - Background violeta saturado
+  - Lavender fur coat luxe
+  - Makeup shimmer ultra definido
+  - Accesorios silver bold
+- **Calidad:** Ultra-realistic 8K Vogue-level beauty portrait.
+
+## M: Composición / Cámara
+- **Plano:** Close-up beauty portrait tipo portada.
+- **Ángulo:** Eye-level directo para impacto editorial.
+- **Encuadre:** Rostro y hombros dominantes, fur coat enmarcando composición.
+- **Enfoque:** Tack-sharp en ojos, labios glossy, piel dewy y accesorios.
+
+## P: Postproducción
+- **Color grading:** Monochrome violet-lavender luxury palette con gloss refinado.
+- **Nitidez:** Alta definición en piel, maquillaje, uñas y textura del fur.
+- **Contraste:** Moderado-clean para look beauty magazine.
+- **Acabado final:** Ultra-realistic 8K violet diva portrait con estética editorial glam de lujo.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Violet Monochrome Diva Portrait — Lavender Fur Y2K Glam Editorial",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Mantener rostro, cabello, tono de piel y todos los rasgos físicos exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar ningún aspecto físico bajo ninguna circunstancia.",
+                    "fidelidad_reforzada": [
+                        "No cambiar el rostro",
+                        "No cambiar el tono de piel",
+                        "No cambiar la estructura facial",
+                        "No cambiar ningún rasgo corporal"
+                    ],
+                    "cabello_lock": {
+                        "instruccion": "Usar el cabello exactamente como en la referencia.",
+                        "restriccion": "No cambiar color, longitud, textura ni estilo bajo ninguna circunstancia."
+                    },
+                    "sujeto": "Mujer glamorosa estilo diva editorial.",
+                    "makeup": {
+                        "ojos": "Shimmering lavender eyeshadow",
+                        "delineado": "Bold winged eyeliner",
+                        "labios": "Glossy peach lips",
+                        "piel": "Luminous dewy skin con acabado beauty premium"
+                    },
+                    "accesorios": {
+                        "aretes": "Oversized silver hoop earrings",
+                        "uñas": "Long decorated nails con metallic rings"
+                    },
+                    "vestimenta": {
+                        "outfit": "Lavender faux fur coat lujoso drapeado sobre los hombros",
+                        "armonía": "Monochrome harmony con el fondo violeta"
+                    },
+                    "calidad": "Ultra-realistic 8K beauty fashion portrait rendering con detalle extremo."
+                },
+                "E_Entorno": {
+                    "fondo": "Bold violet solid background, limpio y saturado.",
+                    "escena": "Estudio minimalista sin props adicionales.",
+                    "objetivo": "Enfatizar estética monochrome glam y presencia editorial."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura glamorosa, elegante, con presencia de portada.",
+                    "expresion": "Segura, confiada, diva moderna.",
+                    "lenguaje_corporal": "Calma poderosa, estilo editorial sofisticado."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Clean studio lighting estilo beauty editorial.",
+                    "caracteristicas": [
+                        "Iluminación uniforme resaltando maquillaje",
+                        "Highlights suaves sobre piel dewy",
+                        "Textura definida en fur coat y accesorios"
+                    ],
+                    "efecto": "Glow premium tipo portada de revista."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Elegante, confiada, stylish, luxury diva.",
+                    "tono": "Editorial magazine cover aesthetic con vibra Y2K glam."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "High-fashion beauty editorial portrait con acabado glossy.",
+                    "styling_vibes": [
+                        "Y2K glam",
+                        "Modern diva",
+                        "Monochrome fashion luxury",
+                        "Cover-ready magazine aesthetic"
+                    ],
+                    "detalles": [
+                        "Background violeta saturado",
+                        "Lavender fur coat luxe",
+                        "Makeup shimmer ultra definido",
+                        "Accesorios silver bold"
+                    ],
+                    "calidad": "Ultra-realistic 8K Vogue-level beauty portrait."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Close-up beauty portrait tipo portada.",
+                    "angulo": "Eye-level directo para impacto editorial.",
+                    "encuadre": "Rostro y hombros dominantes, fur coat enmarcando composición.",
+                    "enfoque": "Tack-sharp en ojos, labios glossy, piel dewy y accesorios."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Monochrome violet-lavender luxury palette con gloss refinado.",
+                    "nitidez": "Alta definición en piel, maquillaje, uñas y textura del fur.",
+                    "contraste": "Moderado-clean para look beauty magazine.",
+                    "acabado_final": "Ultra-realistic 8K violet diva portrait con estética editorial glam de lujo."
+                }
+            }
+        }, null, 2),
+        category: "Fashion",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/violet-monochrome-diva.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-fashion", name: "Fashion", slug: "fashion" },
+            { id: "t-studio", name: "Studio", slug: "studio" },
+            { id: "t-beauty", name: "Beauty", slug: "beauty" }
+        ]
+    },
+    {
+        id: "fashion-1",
+        type: "prompt",
+        title: "Modern Chair Studio Portrait — Black Coat + Denim Shorts Editorial",
+        slug: "modern-chair-studio-portrait",
+        summary: "Ultra-realistic 8K modern studio chair portrait con estética fashion minimal premium.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos. No alterar ni embellecer el rostro.
+- **Preservación total:** No modificar cara, proporciones, textura de piel ni expresión bajo ninguna circunstancia.
+- **Sujeto:** Mujer en retrato de estudio high-fashion editorial.
+- **Vestimenta:**
+  - Outerwear: Abrigo negro elegante
+  - Bottom: Shorts de mezclilla (denim shorts)
+- **Detalle piel:** Textura realista natural, sin filtros artificiales.
+- **Cabello:** Conservar exactamente el hairstyle original de la referencia.
+- **Calidad:** Ultra-realistic 8K studio fashion portrait rendering con máxima fidelidad.
+
+## E: Entorno
+- **Escena:** Estudio minimalista moderno con líneas limpias.
+- **Fondo:** Neutral studio background sin props adicionales.
+- **Paleta:** Colores neutros suaves para resaltar al sujeto y la ropa.
+
+## A: Acción / Postura
+- **Pose:** Sentada sobre una silla moderna única.
+- **Lenguaje corporal:** Natural, elegante, enfatizando postura y poise.
+- **Actitud:** Sofisticada, calmada, editorial.
+
+## I: Iluminación
+- **Tipo:** Soft diffused high-key studio lighting.
+- **Características:**
+  - Sombras suaves cinematográficas
+  - Luz envolvente que esculpe rostro y cuerpo sutilmente
+- **Efecto:** Look limpio y profesional sin dramatismo excesivo.
+
+## S: Sensación / Atmósfera
+- **Mood:** Sleek, moderno, elegante, editorial.
+- **Tono:** High-fashion minimal studio portrait con estética atemporal.
+
+## E: Estilo Visual
+- **Estilo general:** Fotografía editorial moderna de alta moda.
+- **Detalles:**
+  - Texturas realistas en abrigo y denim
+  - Piel y cabello con detalle extremo
+  - Composición dinámica pero limpia
+- **Acabado:** Professional studio fashion aesthetic, sleek and modern.
+- **Calidad:** Ultra-realistic 8K con acabado premium Vogue-style.
+
+## M: Composición / Cámara
+- **Plano:** Plano medio a tres cuartos mostrando silla y outfit completo.
+- **Ángulo:** Eye-level neutral con composición editorial dinámica.
+- **Encuadre:** Sujeto centrado o ligeramente desplazado para tensión visual moderna.
+- **Enfoque:** Tack-sharp focus en rostro, ropa y postura; fondo suave y limpio.
+
+## P: Postproducción
+- **Color grading:** Neutro cálido y elegante, sin saturación agresiva.
+- **Contraste:** Suave-moderado para un look high-key editorial.
+- **Nitidez:** Alta definición en piel, tela, cabello y bordes del chair design.
+- **Acabado final:** Ultra-realistic 8K modern studio chair portrait con estética fashion minimal premium.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Modern Chair Studio Portrait — Black Coat + Denim Shorts Editorial",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos. No alterar ni embellecer el rostro.",
+                    "preservacion_total": "No modificar cara, proporciones, textura de piel ni expresión bajo ninguna circunstancia.",
+                    "sujeto": "Mujer en retrato de estudio high-fashion editorial.",
+                    "vestimenta": {
+                        "outerwear": "Abrigo negro elegante",
+                        "bottom": "Shorts de mezclilla (denim shorts)"
+                    },
+                    "detalle_piel": "Textura realista natural, sin filtros artificiales.",
+                    "cabello": "Conservar exactamente el hairstyle original de la referencia.",
+                    "calidad": "Ultra-realistic 8K studio fashion portrait rendering con máxima fidelidad."
+                },
+                "E_Entorno": {
+                    "escena": "Estudio minimalista moderno con líneas limpias.",
+                    "fondo": "Neutral studio background sin props adicionales.",
+                    "paleta": "Colores neutros suaves para resaltar al sujeto y la ropa."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada sobre una silla moderna única.",
+                    "lenguaje_corporal": "Natural, elegante, enfatizando postura y poise.",
+                    "actitud": "Sofisticada, calmada, editorial."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Soft diffused high-key studio lighting.",
+                    "caracteristicas": [
+                        "Sombras suaves cinematográficas",
+                        "Luz envolvente que esculpe rostro y cuerpo sutilmente"
+                    ],
+                    "efecto": "Look limpio y profesional sin dramatismo excesivo."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Sleek, moderno, elegante, editorial.",
+                    "tono": "High-fashion minimal studio portrait con estética atemporal."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía editorial moderna de alta moda.",
+                    "detalles": [
+                        "Texturas realistas en abrigo y denim",
+                        "Piel y cabello con detalle extremo",
+                        "Composición dinámica pero limpia"
+                    ],
+                    "acabado": "Professional studio fashion aesthetic, sleek and modern.",
+                    "calidad": "Ultra-realistic 8K con acabado premium Vogue-style."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio a tres cuartos mostrando silla y outfit completo.",
+                    "angulo": "Eye-level neutral con composición editorial dinámica.",
+                    "encuadre": "Sujeto centrado o ligeramente desplazado para tensión visual moderna.",
+                    "enfoque": "Tack-sharp focus en rostro, ropa y postura; fondo suave y limpio."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Neutro cálido y elegante, sin saturación agresiva.",
+                    "contraste": "Suave-moderado para un look high-key editorial.",
+                    "nitidez": "Alta definición en piel, tela, cabello y bordes del chair design.",
+                    "acabado_final": "Ultra-realistic 8K modern studio chair portrait con estética fashion minimal premium."
+                }
+            }
+        }, null, 2),
+        category: "Fashion",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/modern-chair-studio-portrait.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-fashion", name: "Fashion", slug: "fashion" },
+            { id: "t-studio", name: "Studio", slug: "studio" },
+            { id: "t-minimal", name: "Minimal", slug: "minimal" }
+        ]
+    },
+    {
+        id: "lifestyle-6",
+        type: "prompt",
+        title: "Tropical Juice Selfie Portrait — Playful Summer Fashion + Fluffy Dog",
+        slug: "tropical-juice-selfie",
+        summary: "Ultra-realistic 8K tropical juice selfie portrait con mood veraniego playful.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado y tono de piel exactamente idénticos. Identidad bloqueada.
+- **Preservación total:** No alterar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Joven mujer de cabello largo rojizo liso, estilo natural suelto.
+- **Vestimenta:**
+  - Top: Black brasiere editorial (summer fashion minimal look)
+- **Expresión:** Casual, relajada, ligeramente juguetona.
+- **Makeup:** Natural soft makeup, resaltando piel clara sin exageración.
+- **Detalle facial:** Textura realista de piel con fidelidad absoluta.
+- **Calidad:** Ultra-realistic 8K photorealistic lifestyle portrait rendering.
+
+## E: Entorno
+- **Escena:** Exterior tropical tipo vacaciones de verano.
+- **Background:**
+  - Estructuras de pabellón de madera
+  - Árboles verdes frondosos
+  - Vista parcial de palmera
+  - Cielo azul brillante
+- **Atmósfera:** Relaxed summer vacation vibe, cálido y alegre.
+
+## A: Acción / Postura
+- **Pose:** Selfie desde un ángulo frontal ligeramente bajo.
+- **Acción principal:**
+  - Objeto: Vaso plástico grande de jugo de naranja fresco
+  - Detalle: Popote/pajilla rosa
+  - Interacción: Acercándolo a los labios como si fuera a beber
+- **Elemento secundario:**
+  - Animal: Perro blanco fluffy al lado del sujeto
+  - Expresión: Boca abierta, lengua afuera, alegre y vivaz
+- **Lenguaje corporal:** Espontáneo, lifestyle, cute y natural.
+
+## I: Iluminación
+- **Tipo:** Luz natural diurna suave.
+- **Características:** Warm gentle daylight con sombras ligeras.
+- **Efecto:** Resalta piel, cabello y ambiente tropical sin dureza.
+
+## S: Sensación / Atmósfera
+- **Mood:** Playful, relajado, veraniego, alegre.
+- **Tono:** Cinematic summer fashion selfie con ternura por el perro.
+
+## E: Estilo Visual
+- **Estilo general:** Ultra photorealistic cinematic lifestyle fashion portrait.
+- **Detalles:**
+  - Textura realista en piel y cabello
+  - Juguito naranja vibrante con pajilla rosa
+  - Perro fluffy con expresión alegre
+  - Naturaleza tropical en background
+- **Paleta:** Azules del cielo + verdes tropicales + naranja brillante + neutros elegantes.
+- **Calidad:** Ultra-realistic 8K high-detail summer editorial aesthetic.
+
+## M: Composición / Cámara
+- **Aspect Ratio:** 9:16 vertical
+- **Plano:** Upper-body selfie framing con rostro dominante.
+- **Ángulo:** Slightly low front angle para vibe espontánea.
+- **Enfoque:** Sharp focus en rostro, vaso y perro; fondo tropical suavemente desenfocado.
+
+## P: Postproducción
+- **Color grading:** Natural warm summer tones con look cinematográfico suave.
+- **Contraste:** Moderado, sin sobreprocesado.
+- **Nitidez:** Alta definición en rostro, cabello, bebida y textura del perro.
+- **Acabado final:** Ultra-realistic 8K tropical juice selfie portrait con mood veraniego playful.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Tropical Juice Selfie Portrait — Playful Summer Fashion + Fluffy Dog",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado y tono de piel exactamente idénticos. Identidad bloqueada.",
+                    "preservacion_total": "No alterar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Joven mujer de cabello largo rojizo liso, estilo natural suelto.",
+                    "vestimenta": {
+                        "top": "Black brasiere editorial (summer fashion minimal look)"
+                    },
+                    "expresion": "Casual, relajada, ligeramente juguetona.",
+                    "makeup": "Natural soft makeup, resaltando piel clara sin exageración.",
+                    "detalle_facial": "Textura realista de piel con fidelidad absoluta.",
+                    "calidad": "Ultra-realistic 8K photorealistic lifestyle portrait rendering."
+                },
+                "E_Entorno": {
+                    "escena": "Exterior tropical tipo vacaciones de verano.",
+                    "background": [
+                        "Estructuras de pabellón de madera",
+                        "Árboles verdes frondosos",
+                        "Vista parcial de palmera",
+                        "Cielo azul brillante"
+                    ],
+                    "atmósfera": "Relaxed summer vacation vibe, cálido y alegre."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Selfie desde un ángulo frontal ligeramente bajo.",
+                    "accion_principal": {
+                        "objeto": "Vaso plástico grande de jugo de naranja fresco",
+                        "detalle": "Popote/pajilla rosa",
+                        "interaccion": "Acercándolo a los labios como si fuera a beber"
+                    },
+                    "elemento_secundario": {
+                        "animal": "Perro blanco fluffy al lado del sujeto",
+                        "expresion": "Boca abierta, lengua afuera, alegre y vivaz"
+                    },
+                    "lenguaje_corporal": "Espontáneo, lifestyle, cute y natural."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz natural diurna suave.",
+                    "caracteristicas": "Warm gentle daylight con sombras ligeras.",
+                    "efecto": "Resalta piel, cabello y ambiente tropical sin dureza."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Playful, relajado, veraniego, alegre.",
+                    "tono": "Cinematic summer fashion selfie con ternura por el perro."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Ultra photorealistic cinematic lifestyle fashion portrait.",
+                    "detalles": [
+                        "Textura realista en piel y cabello",
+                        "Juguito naranja vibrante con pajilla rosa",
+                        "Perro fluffy con expresión alegre",
+                        "Naturaleza tropical en background"
+                    ],
+                    "paleta": "Azules del cielo + verdes tropicales + naranja brillante + neutros elegantes.",
+                    "calidad": "Ultra-realistic 8K high-detail summer editorial aesthetic."
+                },
+                "M_Composicion_Camara": {
+                    "aspect_ratio": "9:16 vertical",
+                    "plano": "Upper-body selfie framing con rostro dominante.",
+                    "angulo": "Slightly low front angle para vibe espontánea.",
+                    "enfoque": "Sharp focus en rostro, vaso y perro; fondo tropical suavemente desenfocado."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Natural warm summer tones con look cinematográfico suave.",
+                    "contraste": "Moderado, sin sobreprocesado.",
+                    "nitidez": "Alta definición en rostro, cabello, bebida y textura del perro.",
+                    "acabado_final": "Ultra-realistic 8K tropical juice selfie portrait con mood veraniego playful."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/tropical-juice-selfie.jpg",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" },
+            { id: "t-summer", name: "Summer", slug: "summer" },
+            { id: "t-selfie", name: "Selfie", slug: "selfie" }
+        ]
+    },
+    {
+        id: "lifestyle-5",
+        type: "prompt",
+        title: "Night Pool Polaroid Portrait — Wet Hair Cinematic Film Mood",
+        slug: "night-pool-polaroid-portrait",
+        summary: "Ultra-realistic 8K authentic night pool Polaroid portrait con mood íntimo y delicado.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos a la referencia.
+- **Preservación total:** No alterar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Retrato íntimo estilo Polaroid en piscina nocturna.
+- **Detalle facial:**
+  - Piel: Textura natural con pecas sutiles visibles
+  - Labios: Glossy lips delicados
+  - Cabello: Mojado, con gotas de agua reflejando la luz
+- **Vestimenta:**
+  - Outfit: Black bikini editorial (swimwear minimal)
+  - Contexto: Parcialmente sumergida en el agua
+- **Calidad:** Ultra-realistic 8K cinematic film portrait rendering con detalle extremo en piel y gotas.
+
+## E: Entorno
+- **Escena:** Piscina local durante la noche.
+- **Atmósfera:** Dreamy, nostálgica, íntima, cinematográfica.
+- **Agua:** Superficie oscura con reflejos suaves, sujeto parcialmente inmerso.
+
+## A: Acción / Postura
+- **Pose:** Postura tranquila dentro del agua, enfoque total en rostro y emoción.
+- **Lenguaje corporal:** Serena, contemplativa, momento suspendido en el tiempo.
+- **Detalle:** Gotas de agua en rostro y cabello glisten naturalmente.
+
+## I: Iluminación
+- **Tipo:** Soft cinematic lighting nocturna.
+- **Características:**
+  - Highlights suaves sobre gotas de agua
+  - Sombras delicadas sin dureza
+  - Mood íntimo tipo película analógica
+- **Efecto:** Resalta textura de piel y atmósfera nostálgica.
+
+## S: Sensación / Atmósfera
+- **Mood:** Nostálgico, delicado, auténtico, dreamy.
+- **Tono:** Polaroid night-swim cinematic moment.
+
+## E: Estilo Visual
+- **Estilo general:** Polaroid-style authentic analog film portrait.
+- **Paleta:** Muted brown tones con color grading cálido tenue.
+- **Texturas:**
+  - Subtle film grain
+  - Agua realista
+  - Piel húmeda con brillo natural
+- **Acabado:** Zero over-processing, look auténtico y suave.
+- **Calidad:** Ultra-realistic 8K con estética film nostalgia.
+
+## M: Composición / Cámara
+- **Formato:** Aspect ratio 3:6 (vertical Polaroid framing).
+- **Lente:** 85mm lens look
+- **Apertura:** f/1.4 para detalle facial sharp + fondo suave
+- **Plano:** Close-up a medium close portrait emergiendo del agua.
+- **Enfoque:** Tack-sharp en ojos y rostro, agua suavemente desenfocada.
+
+## P: Postproducción
+- **Film look:** Analog Polaroid grain, nostalgic softness.
+- **Color grading:** Muted brown cinematic tones.
+- **Contraste:** Suave, evitando over-sharpening o HDR.
+- **Acabado final:** Ultra-realistic 8K authentic night pool Polaroid portrait con mood íntimo y delicado.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Night Pool Polaroid Portrait — Wet Hair Cinematic Film Mood",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos a la referencia.",
+                    "preservacion_total": "No alterar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Retrato íntimo estilo Polaroid en piscina nocturna.",
+                    "detalle_facial": {
+                        "piel": "Textura natural con pecas sutiles visibles",
+                        "labios": "Glossy lips delicados",
+                        "cabello": "Mojado, con gotas de agua reflejando la luz"
+                    },
+                    "vestimenta": {
+                        "outfit": "Black bikini editorial (swimwear minimal)",
+                        "contexto": "Parcialmente sumergida en el agua"
+                    },
+                    "calidad": "Ultra-realistic 8K cinematic film portrait rendering con detalle extremo en piel y gotas."
+                },
+                "E_Entorno": {
+                    "escena": "Piscina local durante la noche.",
+                    "atmósfera": "Dreamy, nostálgica, íntima, cinematográfica.",
+                    "agua": "Superficie oscura con reflejos suaves, sujeto parcialmente inmerso."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura tranquila dentro del agua, enfoque total en rostro y emoción.",
+                    "lenguaje_corporal": "Serena, contemplativa, momento suspendido en el tiempo.",
+                    "detalle": "Gotas de agua en rostro y cabello glisten naturalmente."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Soft cinematic lighting nocturna.",
+                    "caracteristicas": [
+                        "Highlights suaves sobre gotas de agua",
+                        "Sombras delicadas sin dureza",
+                        "Mood íntimo tipo película analógica"
+                    ],
+                    "efecto": "Resalta textura de piel y atmósfera nostálgica."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Nostálgico, delicado, auténtico, dreamy.",
+                    "tono": "Polaroid night-swim cinematic moment."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Polaroid-style authentic analog film portrait.",
+                    "paleta": "Muted brown tones con color grading cálido tenue.",
+                    "texturas": [
+                        "Subtle film grain",
+                        "Agua realista",
+                        "Piel húmeda con brillo natural"
+                    ],
+                    "acabado": "Zero over-processing, look auténtico y suave.",
+                    "calidad": "Ultra-realistic 8K con estética film nostalgia."
+                },
+                "M_Composicion_Camara": {
+                    "formato": "Aspect ratio 3:6 (vertical Polaroid framing).",
+                    "lente": "85mm lens look",
+                    "apertura": "f/1.4 para detalle facial sharp + fondo suave",
+                    "plano": "Close-up a medium close portrait emergiendo del agua.",
+                    "enfoque": "Tack-sharp en ojos y rostro, agua suavemente desenfocada."
+                },
+                "P_Postproduccion": {
+                    "film_look": "Analog Polaroid grain, nostalgic softness.",
+                    "color_grading": "Muted brown cinematic tones.",
+                    "contraste": "Suave, evitando over-sharpening o HDR.",
+                    "acabado_final": "Ultra-realistic 8K authentic night pool Polaroid portrait con mood íntimo y delicado."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/night-pool-polaroid-portrait.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" },
+            { id: "t-film", name: "Film", slug: "film" },
+            { id: "t-polaroid", name: "Polaroid", slug: "polaroid" }
+        ]
+    },
+    {
+        id: "editorial-8",
+        type: "prompt",
+        title: "Butterfly Couture Surreal Portrait — High-Fashion Magical Realism",
+        slug: "butterfly-couture-portrait",
+        summary: "Ultra-realistic 8K surreal butterfly couture portrait con emoción editorial atemporal.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos. No alterar ni embellecer el rostro.
+- **Preservación total:** No modificar cara, proporciones, textura de piel ni expresión bajo ninguna circunstancia.
+- **Sujeto:** Mujer de presencia impactante vestida en alta costura surrealista.
+- **Detalle piel:** Piel porcelana con textura realista natural, macro-detail.
+- **Vestimenta:**
+  - Outfit: Avant-garde couture gown cubierta con cientos de mariposas rosas delicadas
+  - Detalle: Cada ala brilla como encaje frágil, estética etérea y elegante
+- **Elemento fantástico:** Una cascada de mariposas luminosas emerge desde la parte posterior de su cabeza.
+- **Calidad:** Ultra-realistic 8K hyper-detailed high-fashion portrait rendering.
+
+## E: Entorno
+- **Fondo:** Negro profundo, velvety black sin elementos distractores.
+- **Escena:** Espacio vacío tipo estudio oscuro para amplificar contraste y fantasía.
+- **Objetivo:** Resaltar la luminosidad de piel, mariposas y couture.
+
+## A: Acción / Postura
+- **Pose:** Postura dramática, cuello arqueado con elegancia escultórica.
+- **Detalle:** Cabeza inclinada hacia atrás, labios ligeramente entreabiertos en emoción intensa.
+- **Lenguaje corporal:** Transcendencia emocional, fragilidad y poder en equilibrio.
+
+## I: Iluminación
+- **Tipo:** Cinematic moody lighting con sombras painterly.
+- **Características:**
+  - Sombras profundas que esculpen el rostro
+  - Highlights suaves sobre piel y alas de mariposa
+  - Contraste alto con fondo negro
+- **Efecto:** Look editorial de fantasía con textura ultra definida.
+
+## S: Sensación / Atmósfera
+- **Mood:** Otherworldly, encantador, emocionalmente intenso.
+- **Tono:** High-fashion fantasy con profundidad poética y misterio.
+
+## E: Estilo Visual
+- **Estilo general:** Magical realism meets couture editorial photography.
+- **Detalles:**
+  - Mariposas rosas como encaje vivo
+  - Couture etérea envolviendo al sujeto
+  - Fondo negro amplificando luminosidad
+- **Acabado:** Timeless, surreal, Vogue-level fantasy portrait.
+- **Calidad:** Ultra-realistic 8K con detalle extremo en alas, tela y piel.
+
+## M: Composición / Cámara
+- **Plano:** Close-up a medium close-up para revelar macro detalles.
+- **Enfoque:** Tack-sharp en rostro, piel y textura de mariposas.
+- **Encuadre:** Sujeto dominante centrado, mariposas ascendiendo hacia espacio negativo superior.
+- **Profundidad de campo:** Shallow DOF cinematográfico con aislamiento elegante.
+
+## P: Postproducción
+- **Color grading:** Contraste fuerte negro + rosa suave luminoso.
+- **Nitidez:** Máxima definición en piel, alas y couture shimmer.
+- **Contraste:** High-fashion dramatic, deep shadows limpias.
+- **Acabado final:** Ultra-realistic 8K surreal butterfly couture portrait con emoción editorial atemporal.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Butterfly Couture Surreal Portrait — High-Fashion Magical Realism",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos. No alterar ni embellecer el rostro.",
+                    "preservacion_total": "No modificar cara, proporciones, textura de piel ni expresión bajo ninguna circunstancia.",
+                    "sujeto": "Mujer de presencia impactante vestida en alta costura surrealista.",
+                    "detalle_piel": "Piel porcelana con textura realista natural, macro-detail.",
+                    "vestimenta": {
+                        "outfit": "Avant-garde couture gown cubierta con cientos de mariposas rosas delicadas",
+                        "detalle": "Cada ala brilla como encaje frágil, estética etérea y elegante"
+                    },
+                    "elemento_fantastico": "Una cascada de mariposas luminosas emerge desde la parte posterior de su cabeza.",
+                    "calidad": "Ultra-realistic 8K hyper-detailed high-fashion portrait rendering."
+                },
+                "E_Entorno": {
+                    "fondo": "Negro profundo, velvety black sin elementos distractores.",
+                    "escena": "Espacio vacío tipo estudio oscuro para amplificar contraste y fantasía.",
+                    "objetivo": "Resaltar la luminosidad de piel, mariposas y couture."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura dramática, cuello arqueado con elegancia escultórica.",
+                    "detalle": "Cabeza inclinada hacia atrás, labios ligeramente entreabiertos en emoción intensa.",
+                    "lenguaje_corporal": "Transcendencia emocional, fragilidad y poder en equilibrio."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Cinematic moody lighting con sombras painterly.",
+                    "caracteristicas": [
+                        "Sombras profundas que esculpen el rostro",
+                        "Highlights suaves sobre piel y alas de mariposa",
+                        "Contraste alto con fondo negro"
+                    ],
+                    "efecto": "Look editorial de fantasía con textura ultra definida."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Otherworldly, encantador, emocionalmente intenso.",
+                    "tono": "High-fashion fantasy con profundidad poética y misterio."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Magical realism meets couture editorial photography.",
+                    "detalles": [
+                        "Mariposas rosas como encaje vivo",
+                        "Couture etérea envolviendo al sujeto",
+                        "Fondo negro amplificando luminosidad"
+                    ],
+                    "acabado": "Timeless, surreal, Vogue-level fantasy portrait.",
+                    "calidad": "Ultra-realistic 8K con detalle extremo en alas, tela y piel."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Close-up a medium close-up para revelar macro detalles.",
+                    "enfoque": "Tack-sharp en rostro, piel y textura de mariposas.",
+                    "encuadre": "Sujeto dominante centrado, mariposas ascendiendo hacia espacio negativo superior.",
+                    "profundidad_de_campo": "Shallow DOF cinematográfico con aislamiento elegante."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Contraste fuerte negro + rosa suave luminoso.",
+                    "nitidez": "Máxima definición en piel, alas y couture shimmer.",
+                    "contraste": "High-fashion dramatic, deep shadows limpias.",
+                    "acabado_final": "Ultra-realistic 8K surreal butterfly couture portrait con emoción editorial atemporal."
+                }
+            }
+        }, null, 2),
+        category: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/butterfly-couture-portrait.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-editorial", name: "Editorial", slug: "editorial" },
+            { id: "t-surreal", name: "Surreal", slug: "surreal" },
+            { id: "t-fantasy", name: "Fantasy", slug: "fantasy" }
+        ]
+    },
+    {
+        id: "lifestyle-4",
+        type: "prompt",
+        title: "Pastel Cyber Gamergirl Portrait — Neon Cozy Keyboard Scene",
+        slug: "pastel-cyber-gamergirl",
+        summary: "Ultra-realistic 8K pastel cyber gamergirl portrait con mood cálido, íntimo y editorial.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la foto subida como identidad principal. Mantener estructura facial, tono de piel, peinado y expresión exactamente idénticos a la referencia.
+- **Preservación total:** No cambiar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Chica de cabello largo con dos ponytails, estética cute editorial.
+- **Expresión:** Brillante, adorable, ligeramente juguetona, mirada directa a cámara.
+- **Cabello:**
+  - Estilo: Dos coletas (twin ponytails)
+  - Detalle: Cabello largo con acabado suave y realista
+- **Vestimenta:**
+  - Top: Crochet top colorido
+  - Sleeves: Mangas tejidas a juego con textura multi-knit visible
+- **Detalle material:** Texturas textiles hiperrealistas en crochet y capas tejidas.
+- **Calidad:** Ultra-realistic 8K lifestyle editorial portrait rendering.
+
+## E: Entorno
+- **Escena:** Habitación acogedora con estética pastel cyberpunk.
+- **Decoración:**
+  - Luces neón suaves en púrpura y rosa pastel
+  - Posters decorativos
+  - Fairy lights y detalles elegantes
+  - Decoraciones fluffy y lujosas
+- **Atmósfera:** Warm, vintage, dreamy, gamergirl vibe con sutil soledad latente.
+- **Props principales:**
+  - Objeto: Teclado mecánico pastel pink
+  - Acabado: Plástico glossy con reflejos suaves
+
+## A: Acción / Postura
+- **Pose:** Recostada suavemente sobre el teclado mecánico.
+- **Detalle:** Cabeza apoyada gentilmente sobre la manga tejida.
+- **Mirada:** Directa hacia cámara, conexión íntima y cercana.
+- **Lenguaje corporal:** Relajado, cute, cozy, ligeramente nostálgico.
+
+## I: Iluminación
+- **Tipo:** Neon soft glow lighting en tonos pastel.
+- **Fuentes:**
+  - Luces púrpura suaves
+  - Luces rosa pastel cálidas
+  - Iluminación ambiental tenue distribuida por la habitación
+- **Efecto:** Highlights delicados sobre piel, tejido crochet y superficie glossy del teclado.
+
+## S: Sensación / Atmósfera
+- **Mood:** Dreamy, cozy, cute, ligeramente melancólico.
+- **Tono:** Pastel cyberpunk editorial con calidez emocional.
+
+## E: Estilo Visual
+- **Estilo general:** Creative dreamy editorial photography, pastel cyberpunk gamergirl aesthetic.
+- **Detalles:**
+  - Textura crochet ultra definida
+  - Glow neón suave envolvente
+  - Decoración fluffy y lujosa
+  - Teclado glossy como prop central
+- **Acabado:** Smooth, premium, soft cyber-vintage mood.
+- **Calidad:** Ultra-realistic 8K con detalle extremo en piel, tela y luces.
+
+## M: Composición / Cámara
+- **Plano:** Plano medio íntimo con sujeto + teclado visible en foreground.
+- **Ángulo:** Eye-level cercano, sensación de habitación personal.
+- **Encuadre:** Sujeto dominante con luces neón como marco ambiental.
+- **Enfoque:** Sharp focus en rostro y expresión; fondo suave con bokeh neón pastel.
+
+## P: Postproducción
+- **Color grading:** Paleta pastel cyberpunk con glow cálido y dreamy softness.
+- **Contraste:** Suave, sin dureza, ambiente nostálgico.
+- **Nitidez:** Alta definición en rostro, tejido crochet y teclado glossy.
+- **Acabado final:** Ultra-realistic 8K pastel cyber gamergirl portrait con mood cálido, íntimo y editorial.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Pastel Cyber Gamergirl Portrait — Neon Cozy Keyboard Scene",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la foto subida como identidad principal. Mantener estructura facial, tono de piel, peinado y expresión exactamente idénticos a la referencia.",
+                    "preservacion_total": "No cambiar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Chica de cabello largo con dos ponytails, estética cute editorial.",
+                    "expresion": "Brillante, adorable, ligeramente juguetona, mirada directa a cámara.",
+                    "cabello": {
+                        "estilo": "Dos coletas (twin ponytails)",
+                        "detalle": "Cabello largo con acabado suave y realista"
+                    },
+                    "vestimenta": {
+                        "top": "Crochet top colorido",
+                        "sleeves": "Mangas tejidas a juego con textura multi-knit visible"
+                    },
+                    "detalle_material": "Texturas textiles hiperrealistas en crochet y capas tejidas.",
+                    "calidad": "Ultra-realistic 8K lifestyle editorial portrait rendering."
+                },
+                "E_Entorno": {
+                    "escena": "Habitación acogedora con estética pastel cyberpunk.",
+                    "decoracion": [
+                        "Luces neón suaves en púrpura y rosa pastel",
+                        "Posters decorativos",
+                        "Fairy lights y detalles elegantes",
+                        "Decoraciones fluffy y lujosas"
+                    ],
+                    "atmósfera": "Warm, vintage, dreamy, gamergirl vibe con sutil soledad latente.",
+                    "props_principales": {
+                        "objeto": "Teclado mecánico pastel pink",
+                        "acabado": "Plástico glossy con reflejos suaves"
+                    }
+                },
+                "A_Accion_Postura": {
+                    "pose": "Recostada suavemente sobre el teclado mecánico.",
+                    "detalle": "Cabeza apoyada gentilmente sobre la manga tejida.",
+                    "mirada": "Directa hacia cámara, conexión íntima y cercana.",
+                    "lenguaje_corporal": "Relajado, cute, cozy, ligeramente nostálgico."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Neon soft glow lighting en tonos pastel.",
+                    "fuentes": [
+                        "Luces púrpura suaves",
+                        "Luces rosa pastel cálidas",
+                        "Iluminación ambiental tenue distribuida por la habitación"
+                    ],
+                    "efecto": "Highlights delicados sobre piel, tejido crochet y superficie glossy del teclado."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Dreamy, cozy, cute, ligeramente melancólico.",
+                    "tono": "Pastel cyberpunk editorial con calidez emocional."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Creative dreamy editorial photography, pastel cyberpunk gamergirl aesthetic.",
+                    "detalles": [
+                        "Textura crochet ultra definida",
+                        "Glow neón suave envolvente",
+                        "Decoración fluffy y lujosa",
+                        "Teclado glossy como prop central"
+                    ],
+                    "acabado": "Smooth, premium, soft cyber-vintage mood.",
+                    "calidad": "Ultra-realistic 8K con detalle extremo en piel, tela y luces."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio íntimo con sujeto + teclado visible en foreground.",
+                    "angulo": "Eye-level cercano, sensación de habitación personal.",
+                    "encuadre": "Sujeto dominante con luces neón como marco ambiental.",
+                    "enfoque": "Sharp focus en rostro y expresión; fondo suave con bokeh neón pastel."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Paleta pastel cyberpunk con glow cálido y dreamy softness.",
+                    "contraste": "Suave, sin dureza, ambiente nostálgico.",
+                    "nitidez": "Alta definición en rostro, tejido crochet y teclado glossy.",
+                    "acabado_final": "Ultra-realistic 8K pastel cyber gamergirl portrait con mood cálido, íntimo y editorial."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/pastel-cyber-gamergirl.jpg",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" },
+            { id: "t-cyberpunk", name: "Cyberpunk", slug: "cyberpunk" },
+            { id: "t-pastel", name: "Pastel", slug: "pastel" }
+        ]
+    },
+    {
+        id: "editorial-7",
+        type: "prompt",
+        title: "Black Cinematic Poster — Neon Sign 'YOUR NAME HERE'",
+        slug: "black-cinematic-neon-poster",
+        summary: "Ultra-realistic 8K striking black poster portrait con neón personalizado.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la foto subida como identidad principal. Mantener estructura facial, forma corporal, silueta, peinado, tono de piel y textura exactamente idénticos a la referencia.
+- **Preservación total:** No alterar ni editar ningún rasgo físico de la persona.
+- **Sujeto:** Persona centrada en el frame, presencia fuerte y confiada.
+- **Postura:** De pie, segura, dominante, estilo póster editorial.
+- **Detalle piel:** Textura realista natural con máxima fidelidad.
+- **Calidad:** Ultra-realistic 8K cinematic poster portrait rendering.
+
+## E: Entorno
+- **Fondo:** Negro profundo absoluto, sin elementos distractores.
+- **Escena:** Estética minimalista tipo póster cinematográfico.
+- **Atmósfera:** Bold, intensa, high-contrast, visualmente impactante.
+
+## A: Acción / Postura
+- **Pose:** Standing confidently, centered composition.
+- **Acción:** Sujeto sostiene en la mano izquierda un letrero neón flotante.
+- **Prop principal:**
+  - Objeto: Neon white floating sign
+  - Texto: "Megan"
+  - Estilo tipografía: Cursiva artística elegante
+  - Función: Foco principal de la composición
+
+## I: Iluminación
+- **Tipo:** Iluminación dramática cinematográfica de alto contraste.
+- **Características:**
+  - Deep shadows limpias
+  - Highlights marcados en contornos faciales y ropa
+  - Glow fuerte proveniente del neón blanco
+- **Efecto:** Énfasis en textura, profundidad y presencia escultórica.
+
+## S: Sensación / Atmósfera
+- **Mood:** Intenso, cinematográfico, striking y cautivador.
+- **Tono:** Poster editorial de alto impacto visual.
+
+## E: Estilo Visual
+- **Estilo general:** Large-format ultra-realistic cinematic editorial poster.
+- **Detalles:**
+  - Negro profundo + iluminación dramática
+  - Neón blanco como elemento gráfico dominante
+  - Textura hiperrealista en piel y silueta
+- **Calidad:** Ultra-realistic 8K con acabado premium tipo movie poster.
+
+## M: Composición / Cámara
+- **Layout:** Composición centrada tipo póster.
+- **Plano:** Full-body o tres cuartos según diseño de cartel.
+- **Enfoque:** Sharp focus en rostro y neón; fondo negro limpio.
+- **Jerarquía visual:** Sujeto + letrero neón como anclas principales.
+
+## P: Postproducción
+- **Color grading:** Contraste extremo con negro profundo y glow blanco intenso.
+- **Nitidez:** Alta nitidez en rostro, textura corporal y lettering neón.
+- **Efecto final:** Poster cinematic hyper-real con profundidad editorial.
+- **Acabado final:** Ultra-realistic 8K striking black poster portrait con neón personalizado.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Black Cinematic Poster — Neon Sign 'YOUR NAME HERE'",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la foto subida como identidad principal. Mantener estructura facial, forma corporal, silueta, peinado, tono de piel y textura exactamente idénticos a la referencia.",
+                    "preservacion_total": "No alterar ni editar ningún rasgo físico de la persona.",
+                    "sujeto": "Persona centrada en el frame, presencia fuerte y confiada.",
+                    "postura": "De pie, segura, dominante, estilo póster editorial.",
+                    "detalle_piel": "Textura realista natural con máxima fidelidad.",
+                    "calidad": "Ultra-realistic 8K cinematic poster portrait rendering."
+                },
+                "E_Entorno": {
+                    "fondo": "Negro profundo absoluto, sin elementos distractores.",
+                    "escena": "Estética minimalista tipo póster cinematográfico.",
+                    "atmósfera": "Bold, intensa, high-contrast, visualmente impactante."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Standing confidently, centered composition.",
+                    "accion": "Sujeto sostiene en la mano izquierda un letrero neón flotante.",
+                    "prop_principal": {
+                        "objeto": "Neon white floating sign",
+                        "texto": "Megan",
+                        "estilo_tipografia": "Cursiva artística elegante",
+                        "funcion": "Foco principal de la composición"
+                    }
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación dramática cinematográfica de alto contraste.",
+                    "caracteristicas": [
+                        "Deep shadows limpias",
+                        "Highlights marcados en contornos faciales y ropa",
+                        "Glow fuerte proveniente del neón blanco"
+                    ],
+                    "efecto": "Énfasis en textura, profundidad y presencia escultórica."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Intenso, cinematográfico, striking y cautivador.",
+                    "tono": "Poster editorial de alto impacto visual."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Large-format ultra-realistic cinematic editorial poster.",
+                    "detalles": [
+                        "Negro profundo + iluminación dramática",
+                        "Neón blanco como elemento gráfico dominante",
+                        "Textura hiperrealista en piel y silueta"
+                    ],
+                    "calidad": "Ultra-realistic 8K con acabado premium tipo movie poster."
+                },
+                "M_Composicion_Camara": {
+                    "layout": "Composición centrada tipo póster.",
+                    "plano": "Full-body o tres cuartos según diseño de cartel.",
+                    "enfoque": "Sharp focus en rostro y neón; fondo negro limpio.",
+                    "jerarquia_visual": "Sujeto + letrero neón como anclas principales."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Contraste extremo con negro profundo y glow blanco intenso.",
+                    "nitidez": "Alta nitidez en rostro, textura corporal y lettering neón.",
+                    "efecto_final": "Poster cinematic hyper-real con profundidad editorial.",
+                    "acabado_final": "Ultra-realistic 8K striking black poster portrait con neón personalizado."
+                }
+            }
+        }, null, 2),
+        category: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/black-cinematic-neon-poster.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-editorial", name: "Editorial", slug: "editorial" },
+            { id: "t-dark", name: "Dark", slug: "dark" },
+            { id: "t-neon", name: "Neon", slug: "neon" }
+        ]
+    },
+    {
+        id: "urban-1",
+        type: "prompt",
+        title: "Subway Motion Blur Portrait — Still Subject, Yellow Train Streak",
+        slug: "subway-motion-blur-portrait",
+        summary: "Ultra-realistic 8K cinematic subway portrait con energía urbana y emoción contenida.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.
+- **Preservación total:** No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Persona de presencia elegante y segura en un retrato urbano cinematográfico.
+- **Vestimenta:**
+  - Outfit: Abrigo largo negro elegante
+  - Estilo: Minimalista, sofisticado, timeless
+- **Expresión:** Mirada directa y confiada hacia la cámara, ancla emocional fuerte.
+- **Detalle piel:** Textura realista natural, enfoque nítido en rostro.
+- **Calidad:** Ultra-realistic 8K cinematic portrait rendering con máxima fidelidad facial.
+
+## E: Entorno
+- **Ubicación:** Andén subterráneo de metro con atmósfera íntima y tenue.
+- **Fondo:**
+  - Elemento dinámico: Tren amarillo vibrante pasando rápidamente detrás del sujeto.
+  - Efecto: Streak de motion blur brillante que contrasta con el sujeto inmóvil.
+- **Arquitectura:** Techo arqueado con azulejos iluminados suavemente por luces de estación.
+
+## A: Acción / Postura
+- **Pose:** El sujeto permanece perfectamente quieto en medio del movimiento urbano.
+- **Lenguaje corporal:** Calma absoluta, elegancia contenida.
+- **Contraste visual:** Sujeto congelado vs energía del tren en movimiento.
+
+## I: Iluminación
+- **Tipo:** Iluminación cálida y atmosférica de estación subterránea.
+- **Características:** Soft glows sobre el rostro y reflejos en el techo arqueado.
+- **Técnica:**
+  - Slow shutter: Velocidad de obturación lenta para motion blur del tren.
+  - Freeze subject: Rostro y cuerpo del sujeto completamente nítidos.
+- **Efecto:** Mood urbano dramático con contraste entre quietud y velocidad.
+
+## S: Sensación / Atmósfera
+- **Mood:** Íntimo, cinematográfico, urbano, misterioso.
+- **Tono:** Momento fugaz de calma en medio de la energía de la ciudad.
+
+## E: Estilo Visual
+- **Estilo general:** Fotografía hiperrealista cinematográfica tipo editorial urbano.
+- **Detalles:**
+  - Motion blur dinámico del tren amarillo
+  - Rostro tack-sharp como punto emocional central
+  - Textura real en abrigo negro y entorno subterráneo
+- **Calidad:** Ultra-realistic 8K con estética film-like premium.
+
+## M: Composición / Cámara
+- **Plano:** Plano medio centrado en el sujeto de pie en el andén.
+- **Encuadre:** Sujeto como ancla central, tren como streak horizontal detrás.
+- **Enfoque:** Nitidez extrema en ojos y rostro, fondo dinámico desenfocado por movimiento.
+- **Perspectiva:** Cinemática y profunda, con arquitectura del metro aportando contexto.
+
+## P: Postproducción
+- **Color grading:** Tonos cálidos atmosféricos con contraste fuerte entre negro y amarillo.
+- **Contraste:** Medio-alto para dramatismo editorial.
+- **Nitidez:** Máxima nitidez en rostro y abrigo; blur limpio en el tren.
+- **Acabado final:** Ultra-realistic 8K cinematic subway portrait con energía urbana y emoción contenida.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Subway Motion Blur Portrait — Still Subject, Yellow Train Streak",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.",
+                    "preservacion_total": "No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Persona de presencia elegante y segura en un retrato urbano cinematográfico.",
+                    "vestimenta": {
+                        "outfit": "Abrigo largo negro elegante",
+                        "estilo": "Minimalista, sofisticado, timeless"
+                    },
+                    "expresion": "Mirada directa y confiada hacia la cámara, ancla emocional fuerte.",
+                    "detalle_piel": "Textura realista natural, enfoque nítido en rostro.",
+                    "calidad": "Ultra-realistic 8K cinematic portrait rendering con máxima fidelidad facial."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Andén subterráneo de metro con atmósfera íntima y tenue.",
+                    "fondo": {
+                        "elemento_dinamico": "Tren amarillo vibrante pasando rápidamente detrás del sujeto",
+                        "efecto": "Streak de motion blur brillante que contrasta con el sujeto inmóvil"
+                    },
+                    "arquitectura": "Techo arqueado con azulejos iluminados suavemente por luces de estación."
+                },
+                "A_Accion_Postura": {
+                    "pose": "El sujeto permanece perfectamente quieto en medio del movimiento urbano.",
+                    "lenguaje_corporal": "Calma absoluta, elegancia contenida.",
+                    "contraste_visual": "Sujeto congelado vs energía del tren en movimiento."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación cálida y atmosférica de estación subterránea.",
+                    "caracteristicas": "Soft glows sobre el rostro y reflejos en el techo arqueado.",
+                    "tecnica": {
+                        "slow_shutter": "Velocidad de obturación lenta para motion blur del tren",
+                        "freeze_subject": "Rostro y cuerpo del sujeto completamente nítidos"
+                    },
+                    "efecto": "Mood urbano dramático con contraste entre quietud y velocidad."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Íntimo, cinematográfico, urbano, misterioso.",
+                    "tono": "Momento fugaz de calma en medio de la energía de la ciudad."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía hiperrealista cinematográfica tipo editorial urbano.",
+                    "detalles": [
+                        "Motion blur dinámico del tren amarillo",
+                        "Rostro tack-sharp como punto emocional central",
+                        "Textura real en abrigo negro y entorno subterráneo"
+                    ],
+                    "calidad": "Ultra-realistic 8K con estética film-like premium."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio centrado en el sujeto de pie en el andén.",
+                    "encuadre": "Sujeto como ancla central, tren como streak horizontal detrás.",
+                    "enfoque": "Nitidez extrema en ojos y rostro, fondo dinámico desenfocado por movimiento.",
+                    "perspectiva": "Cinemática y profunda, con arquitectura del metro aportando contexto."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos cálidos atmosféricos con contraste fuerte entre negro y amarillo.",
+                    "contraste": "Medio-alto para dramatismo editorial.",
+                    "nitidez": "Máxima nitidez en rostro y abrigo; blur limpio en el tren.",
+                    "acabado_final": "Ultra-realistic 8K cinematic subway portrait con energía urbana y emoción contenida."
+                }
+            }
+        }, null, 2),
+        category: "Photography",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/subway-motion-blur-portrait.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-urban", name: "Urban", slug: "urban" },
+            { id: "t-cinematic", name: "Cinematic", slug: "cinematic" },
+            { id: "t-long-exposure", name: "Long Exposure", slug: "long-exposure" }
+        ]
+    },
+    {
+        id: "editorial-6",
+        type: "prompt",
+        title: "Futuristic Editorial — Metallic Pink Shapes + Typography 'MEGAN'",
+        slug: "futuristic-editorial-megan",
+        summary: "Ultra-realistic 8K futuristic fashion editorial portrait con tipografía integrada.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.
+- **Preservación total:** No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Persona estilizada en un retrato fashion futurista.
+- **Vestimenta:**
+  - Top: Sudadera negra minimalista
+  - Bottom: Falda plisada pastel roja
+  - Footwear: Botas blancas altas hasta la rodilla
+- **Detalle piel:** Textura realista natural con enfoque editorial premium.
+- **Calidad:** Ultra-realistic 8K hyper-detailed fashion portrait rendering.
+
+## E: Entorno
+- **Fondo:** Estudio con tonos rosa apagado (muted pink studio backdrop).
+- **Escena:** Minimalista, futurista y editorial, sin props físicos adicionales.
+- **Elementos extra:**
+  - Formas 3D líquidas metálicas color rosa brillante envolviendo al sujeto.
+  - Tipografía gigante minimalista en el fondo.
+
+## A: Acción / Postura
+- **Pose:** Sentado elegantemente con postura relajada.
+- **Detalle:** Cabeza ligeramente inclinada hacia arriba, gesto editorial suave.
+- **Lenguaje corporal:** Calma, sofisticación, presencia futurista.
+
+## I: Iluminación
+- **Tipo:** Soft cinematic glow de estudio.
+- **Características:** Luz envolvente que resalta piel y textura de telas.
+- **Efecto:** Highlights suaves sobre formas metálicas líquidas y botas blancas.
+
+## S: Sensación / Atmósfera
+- **Mood:** Editorial futurista, sofisticado, elegante.
+- **Tono:** Fashion-forward con vibra surreal moderna.
+
+## E: Estilo Visual
+- **Estilo general:** Fashion editorial × futurismo con elementos 3D glossy.
+- **Detalles:**
+  - Texturas textiles nítidas
+  - Formas metálicas líquidas rosa envolventes
+  - Background rosa suave y limpio
+- **Tipografía:**
+  - Texto: "MEGAN"
+  - Estilo: Bold modern typography grande atravesando el fondo
+  - Función: Elemento gráfico minimalista de portada editorial
+- **Calidad:** Ultra-realistic 8K high-detail Vogue-style futuristic aesthetic.
+
+## M: Composición / Cámara
+- **Plano:** Plano medio a tres cuartos mostrando outfit completo sentado.
+- **Ángulo:** Eye-level ligeramente estilizado hacia arriba.
+- **Encuadre:** Sujeto centrado con formas 3D y tipografía integradas detrás.
+- **Profundidad de campo:** Shallow DOF suave para look premium.
+
+## P: Postproducción
+- **Color grading:** Paleta rosa pastel + negros elegantes + highlights metálicos.
+- **Nitidez:** Alta definición en rostro, botas, pliegues de falda y objetos glossy.
+- **Contraste:** Medio cinematográfico con glow suave.
+- **Acabado final:** Ultra-realistic 8K futuristic fashion editorial portrait con tipografía integrada.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Futuristic Editorial — Metallic Pink Shapes + Typography 'MEGAN'",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.",
+                    "preservacion_total": "No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Persona estilizada en un retrato fashion futurista.",
+                    "vestimenta": {
+                        "top": "Sudadera negra minimalista",
+                        "bottom": "Falda plisada pastel roja",
+                        "footwear": "Botas blancas altas hasta la rodilla"
+                    },
+                    "detalle_piel": "Textura realista natural con enfoque editorial premium.",
+                    "calidad": "Ultra-realistic 8K hyper-detailed fashion portrait rendering."
+                },
+                "E_Entorno": {
+                    "fondo": "Estudio con tonos rosa apagado (muted pink studio backdrop).",
+                    "escena": "Minimalista, futurista y editorial, sin props físicos adicionales.",
+                    "elementos_extra": [
+                        "Formas 3D líquidas metálicas color rosa brillante envolviendo al sujeto",
+                        "Tipografía gigante minimalista en el fondo"
+                    ]
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentado elegantemente con postura relajada.",
+                    "detalle": "Cabeza ligeramente inclinada hacia arriba, gesto editorial suave.",
+                    "lenguaje_corporal": "Calma, sofisticación, presencia futurista."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Soft cinematic glow de estudio.",
+                    "caracteristicas": "Luz envolvente que resalta piel y textura de telas.",
+                    "efecto": "Highlights suaves sobre formas metálicas líquidas y botas blancas."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Editorial futurista, sofisticado, elegante.",
+                    "tono": "Fashion-forward con vibra surreal moderna."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fashion editorial × futurismo con elementos 3D glossy.",
+                    "detalles": [
+                        "Texturas textiles nítidas",
+                        "Formas metálicas líquidas rosa envolventes",
+                        "Background rosa suave y limpio"
+                    ],
+                    "tipografia": {
+                        "texto": "MEGAN",
+                        "estilo": "Bold modern typography grande atravesando el fondo",
+                        "funcion": "Elemento gráfico minimalista de portada editorial"
+                    },
+                    "calidad": "Ultra-realistic 8K high-detail Vogue-style futuristic aesthetic."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio a tres cuartos mostrando outfit completo sentado.",
+                    "angulo": "Eye-level ligeramente estilizado hacia arriba.",
+                    "encuadre": "Sujeto centrado con formas 3D y tipografía integradas detrás.",
+                    "profundidad_de_campo": "Shallow DOF suave para look premium."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Paleta rosa pastel + negros elegantes + highlights metálicos.",
+                    "nitidez": "Alta definición en rostro, botas, pliegues de falda y objetos glossy.",
+                    "contraste": "Medio cinematográfico con glow suave.",
+                    "acabado_final": "Ultra-realistic 8K futuristic fashion editorial portrait con tipografía integrada."
+                }
+            }
+        }, null, 2),
+        category: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/futuristic-editorial-megan.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-editorial", name: "Editorial", slug: "editorial" },
+            { id: "t-futuristic", name: "Futuristic", slug: "futuristic" },
+            { id: "t-pink", name: "Pink", slug: "pink" }
+        ]
+    },
+    {
+        id: "editorial-5",
+        type: "prompt",
+        title: "Crimson Dominance Portrait — Low Angle Cinematic Editorial",
+        slug: "crimson-dominance-portrait",
+        summary: "Ultra-realistic 8K crimson editorial portrait con presencia escultórica.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.
+- **Preservación total:** No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Retrato de presencia dominante y escultórica.
+- **Vestuario:** Wardrobe oscuro y elegante que contraste con el fondo rojo.
+- **Detalle piel:** Piel luminosa con textura natural realista.
+- **Calidad:** Ultra-realistic 8K portrait rendering con máxima fidelidad facial.
+
+## E: Entorno
+- **Fondo:** Crimson red profundo, saturado e intenso.
+- **Escena:** Estudio editorial minimalista sin props ni elementos extra.
+- **Objetivo:** Crear contraste visual fuerte entre sujeto y fondo.
+
+## A: Acción / Postura
+- **Pose:** Postura firme y calmada, presencia dominante.
+- **Mirada:** Directa o ligeramente hacia abajo, reforzando autoridad.
+- **Lenguaje corporal:** Elegancia escultórica, actitud editorial.
+
+## I: Iluminación
+- **Tipo:** Stark cinematic lighting con contraste intenso.
+- **Características:** Sombras profundas, highlights marcados sobre rostro y cuello.
+- **Efecto:** Esculpe mandíbula y cuello, enfatizando elegancia dramática.
+
+## S: Sensación / Atmósfera
+- **Mood:** Dominante, elegante, misterioso.
+- **Tono:** Editorial cinematográfico de alto impacto visual.
+
+## E: Estilo Visual
+- **Estilo general:** Retrato editorial hiperrealista con estética bold y contrastada.
+- **Detalle:** High-detail fashion portrait, sombras limpias, fondo rojo saturado.
+- **Calidad:** Ultra-realistic 8K con acabado premium Vogue-style.
+
+## M: Composición / Cámara
+- **Formato:** Vertical 1080×1920 (9:16).
+- **Ángulo:** Slightly low upward-facing angle para dramatizar mandíbula y cuello.
+- **Plano:** Close-up o plano medio corto centrado en rostro y estructura.
+- **Encuadre:** Composición limpia, sujeto dominante sobre fondo rojo.
+
+## P: Postproducción
+- **Color grading:** Rojos intensos con contraste cinematográfico fuerte.
+- **Nitidez:** Extrema nitidez en rostro, piel y contornos faciales.
+- **Contraste:** Alto, con deep shadows controladas.
+- **Acabado final:** Ultra-realistic 8K crimson editorial portrait con presencia escultórica.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Crimson Dominance Portrait — Low Angle Cinematic Editorial",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.",
+                    "preservacion_total": "No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Retrato de presencia dominante y escultórica.",
+                    "vestuario": "Wardrobe oscuro y elegante que contraste con el fondo rojo.",
+                    "detalle_piel": "Piel luminosa con textura natural realista.",
+                    "calidad": "Ultra-realistic 8K portrait rendering con máxima fidelidad facial."
+                },
+                "E_Entorno": {
+                    "fondo": "Crimson red profundo, saturado e intenso.",
+                    "escena": "Estudio editorial minimalista sin props ni elementos extra.",
+                    "objetivo": "Crear contraste visual fuerte entre sujeto y fondo."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura firme y calmada, presencia dominante.",
+                    "mirada": "Directa o ligeramente hacia abajo, reforzando autoridad.",
+                    "lenguaje_corporal": "Elegancia escultórica, actitud editorial."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Stark cinematic lighting con contraste intenso.",
+                    "caracteristicas": "Sombras profundas, highlights marcados sobre rostro y cuello.",
+                    "efecto": "Esculpe mandíbula y cuello, enfatizando elegancia dramática."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Dominante, elegante, misterioso.",
+                    "tono": "Editorial cinematográfico de alto impacto visual."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato editorial hiperrealista con estética bold y contrastada.",
+                    "detalle": "High-detail fashion portrait, sombras limpias, fondo rojo saturado.",
+                    "calidad": "Ultra-realistic 8K con acabado premium Vogue-style."
+                },
+                "M_Composicion_Camara": {
+                    "formato": "Vertical 1080×1920 (9:16).",
+                    "angulo": "Slightly low upward-facing angle para dramatizar mandíbula y cuello.",
+                    "plano": "Close-up o plano medio corto centrado en rostro y estructura.",
+                    "encuadre": "Composición limpia, sujeto dominante sobre fondo rojo."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Rojos intensos con contraste cinematográfico fuerte.",
+                    "nitidez": "Extrema nitidez en rostro, piel y contornos faciales.",
+                    "contraste": "Alto, con deep shadows controladas.",
+                    "acabado_final": "Ultra-realistic 8K crimson editorial portrait con presencia escultórica."
+                }
+            }
+        }, null, 2),
+        category: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/crimson-dominance-portrait.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-editorial", name: "Editorial", slug: "editorial" },
+            { id: "t-red", name: "Crimson", slug: "crimson" },
+            { id: "t-moody", name: "Moody", slug: "moody" }
+        ]
+    },
+    {
+        id: "lifestyle-2",
+        type: "prompt",
+        title: "Snowy Mountain Swimsuit — Bold Winter Contrast",
+        slug: "snowy-mountain-swimsuit",
+        summary: "High-contrast winter luxury portrait: olive bikini in snow with fur hat.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Mantener rasgos faciales originales, maquillaje high-fashion impecable.
+- **Cabello:** Castaño oscuro, largo y ondulado, parcialmente extendido sobre la nieve.
+- **Vestimenta:**
+  - Bikini Top: Verde oliva, corte minimalista, tela mate.
+  - Bikini Bottom: Verde oliva, ajuste high-fashion.
+  - Accesorio: Gorro Ushanka de piel blanca oversized y lujosa.
+- **Piel:** Textura ultra-detallada, tono uniforme.
+
+## E: Entorno
+- **Ubicación:** Resort de montaña de lujo nevado.
+- **Superficie:** Nieve pura suave con impresiones sutiles y montículos naturales.
+- **Atmósfera:** Lujo invernal, contraste estacional audaz.
+
+## A: Acción / Postura
+- **Pose:** Recostada relajada en la nieve, una pierna extendida hacia la cámara para profundidad.
+- **Expresión:** Calma, confiada, mirada sutilmente seductora y directa.
+- **Estilo:** Actitud de influencer high-end.
+
+## I: Iluminación
+- **Tipo:** Luz natural difusa de día nublado.
+- **Calidad:** Suave, sin sombras duras, favorecedora para piel y texturas.
+
+## S: Sensación / Atmósfera
+- **Mood:** Audaz, confiado, "Cold styling, hot look".
+- **Contraste:** Frío del entorno vs. calidez del sujeto.
+
+## E: Estilo Visual
+- **Estética:** Retrato modo smartphone high-end, editorial de influencer.
+- **Texturas:** Contraste entre piel suave, tela mate del bikini y fibras del gorro de piel.
+- **Calidad:** Photorealistic 8K, enfoque ultra-nítido.
+
+## M: Composición / Cámara
+- **Ángulo:** Top-down (vista desde arriba) mirando directamente al sujeto.
+- **Encuadre:** Cuerpo completo con distorsión de perspectiva por la pierna extendida.
+- **Aspect Ratio:** Vertical 4:5.
+
+## P: Postproducción
+- **Nitidez:** Máxima definición en texturas de nieve y piel.
+- **Color:** Paleta dominada por blanco nieve y verde oliva.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Snowy Mountain Swimsuit — Bold Winter Contrast",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Mantener rasgos faciales originales, maquillaje high-fashion impecable.",
+                    "cabello": "Castaño oscuro, largo y ondulado, parcialmente extendido sobre la nieve.",
+                    "vestimenta": {
+                        "bikini": "Set verde oliva minimalista, tela mate.",
+                        "accesorio": "Gorro Ushanka de piel blanca oversized."
+                    },
+                    "piel": "Textura ultra-detallada, tono uniforme."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Resort de montaña de lujo nevado.",
+                    "superficie": "Nieve pura suave con impresiones sutiles.",
+                    "atmosfera": "Lujo invernal, contraste estacional audaz."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Recostada relajada, pierna extendida hacia cámara (foreshortening).",
+                    "expresion": "Calma, confiada, mirada sutilmente seductora.",
+                    "estilo": "Influencer high-end aesthetic."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz natural difusa de día nublado.",
+                    "calidad": "Suave y envolvente."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Audaz, confiado, contraste frío/calor.",
+                    "vibe": "High fashion editorial winter."
+                },
+                "E_visual_EstiloVisual": {
+                    "estetica": "Retrato smartphone high-end.",
+                    "texturas": "Piel suave vs Nieve vs Piel sintética del gorro.",
+                    "calidad": "Photorealistic 8K."
+                },
+                "M_Composicion_Camara": {
+                    "angulo": "Top-down, vista superior directa.",
+                    "encuadre": "Cuerpo completo con profundidad.",
+                    "aspecto": "4:5 Vertical."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/snowy-mountain-swimsuit.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" },
+            { id: "t-winter", name: "Winter", slug: "winter" },
+            { id: "t-fashion", name: "Fashion", slug: "fashion" }
+        ]
+    },
+    {
+        id: "lifestyle-1",
+        type: "prompt",
+        title: "Denim Backpack Garden Portrait — Pink Roses Sunny Daylight",
+        slug: "denim-backpack-garden-portrait",
+        summary: "Ultra-realistic 8K outdoor floral portrait con luz soleada y atmósfera fresca.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.
+- **Preservación total:** No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Ángulo sujeto:** Visto desde atrás y ligeramente de lado, pero con el rostro visible mirando hacia arriba hacia la cámara.
+- **Expresión:** Natural, suave, contemplativa.
+- **Vestimenta:**
+  - Jacket: Chaqueta denim azul loose-fit
+  - Accesorio: Mochila clara (off-white o cream) sobre un solo hombro
+- **Detalle piel:** Textura de piel realista, preservada al 100%.
+- **Calidad:** Ultra-realistic 8K portrait rendering con máxima fidelidad en rostro, cabello y textiles.
+
+## E: Entorno
+- **Escena:** Exterior rodeado de naturaleza exuberante.
+- **Fondo:**
+  - Follaje verde intenso
+  - Racimos abundantes de rosas rosas brillantes en plena floración
+- **Atmósfera:** Jardín vibrante, fresco, lleno de vida y color.
+
+## A: Acción / Postura
+- **Pose:** Sujeto de espaldas con giro parcial hacia la cámara.
+- **Mirada:** Mirando hacia arriba en dirección al lente.
+- **Lenguaje corporal:** Casual, lifestyle auténtico, momento natural.
+
+## I: Iluminación
+- **Tipo:** Luz natural brillante de día soleado.
+- **Características:** Iluminación limpia y cálida con highlights suaves.
+- **Efecto:** Resalta denim, piel, flores y colores vibrantes.
+
+## S: Sensación / Atmósfera
+- **Mood:** Optimista, fresco, sereno, natural.
+- **Tono:** Lifestyle cinematográfico con energía floral suave.
+
+## E: Estilo Visual
+- **Estilo general:** Retrato hiperrealista cinematográfico exterior.
+- **Texturas:**
+  - Denim detallado
+  - Rosas rosas con pétalos definidos
+  - Vegetación verde con profundidad natural
+- **Paleta:** Verde intenso + rosa brillante + neutros suaves en mochila.
+- **Calidad:** Ultra-realistic 8K con acabado premium natural.
+
+## M: Composición / Cámara
+- **Plano:** Plano medio mostrando espalda, mochila y rostro girado hacia cámara.
+- **Ángulo:** Ligeramente elevado, reforzando la mirada upward.
+- **Encuadre:** Sujeto centrado, flores actuando como marco natural.
+- **Enfoque:** Sharp focus en rostro y jacket, fondo suavemente desenfocado.
+
+## P: Postproducción
+- **Color grading:** Vibrante natural con contraste cinematográfico suave.
+- **Nitidez:** Alta definición en piel, denim y pétalos.
+- **Acabado final:** Ultra-realistic 8K outdoor floral portrait con luz soleada y atmósfera fresca.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Denim Backpack Garden Portrait — Pink Roses Sunny Daylight",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.",
+                    "preservacion_total": "No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "angulo_sujeto": "Visto desde atrás y ligeramente de lado, pero con el rostro visible mirando hacia arriba hacia la cámara.",
+                    "expresion": "Natural, suave, contemplativa.",
+                    "vestimenta": {
+                        "jacket": "Chaqueta denim azul loose-fit",
+                        "accesorio": "Mochila clara (off-white o cream) sobre un solo hombro"
+                    },
+                    "detalle_piel": "Textura de piel realista, preservada al 100%.",
+                    "calidad": "Ultra-realistic 8K portrait rendering con máxima fidelidad en rostro, cabello y textiles."
+                },
+                "E_Entorno": {
+                    "escena": "Exterior rodeado de naturaleza exuberante.",
+                    "fondo": [
+                        "Follaje verde intenso",
+                        "Racimos abundantes de rosas rosas brillantes en plena floración"
+                    ],
+                    "atmósfera": "Jardín vibrante, fresco, lleno de vida y color."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sujeto de espaldas con giro parcial hacia la cámara.",
+                    "mirada": "Mirando hacia arriba en dirección al lente.",
+                    "lenguaje_corporal": "Casual, lifestyle auténtico, momento natural."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz natural brillante de día soleado.",
+                    "caracteristicas": "Iluminación limpia y cálida con highlights suaves.",
+                    "efecto": "Resalta denim, piel, flores y colores vibrantes."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Optimista, fresco, sereno, natural.",
+                    "tono": "Lifestyle cinematográfico con energía floral suave."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato hiperrealista cinematográfico exterior.",
+                    "texturas": [
+                        "Denim detallado",
+                        "Rosas rosas con pétalos definidos",
+                        "Vegetación verde con profundidad natural"
+                    ],
+                    "paleta": "Verde intenso + rosa brillante + neutros suaves en mochila.",
+                    "calidad": "Ultra-realistic 8K con acabado premium natural."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio mostrando espalda, mochila y rostro girado hacia cámara.",
+                    "angulo": "Ligeramente elevado, reforzando la mirada upward.",
+                    "encuadre": "Sujeto centrado, flores actuando como marco natural.",
+                    "enfoque": "Sharp focus en rostro y jacket, fondo suavemente desenfocado."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Vibrante natural con contraste cinematográfico suave.",
+                    "nitidez": "Alta definición en piel, denim y pétalos.",
+                    "acabado_final": "Ultra-realistic 8K outdoor floral portrait con luz soleada y atmósfera fresca."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/denim-backpack-garden-portrait.jpg",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" },
+            { id: "t-floral", name: "Floral", slug: "floral" },
+            { id: "t-outdoor", name: "Outdoor", slug: "outdoor" }
+        ]
+    },
+    {
+        id: "editorial-4",
+        type: "prompt",
+        title: "Denim Rose Wall Portrait — Golden Circle Shadow Mood",
+        slug: "denim-rose-wall-portrait",
+        summary: "Ultra-realistic 8K moody wall portrait con rosa blanca y sombra dorada misteriosa.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos.
+- **Preservación total:** No cambiar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Expresión:** Gloomy, seria, ligeramente triste e introspectiva.
+- **Vestimenta:**
+  - Jacket: Chaqueta de mezclilla (denim jacket)
+  - Bottom: Falda larga denim tipo cargo
+- **Prop principal:**
+  - Objeto: Una sola rosa blanca
+  - Interacción: Sostenida con ambas manos al frente, gesto delicado y simbólico
+- **Calidad:** Ultra-realistic 8K portrait rendering con textura extrema en piel, denim y flor.
+
+## E: Entorno
+- **Escena:** Persona sentada contra una pared lisa, fondo completamente limpio.
+- **Fondo:** Minimalista, sin elementos adicionales.
+- **Elemento luz:** Círculo de luz solar dorada proyectado en la pared detrás del sujeto.
+
+## A: Acción / Postura
+- **Pose:** Sentado contra la pared, mirando hacia el frente.
+- **Lenguaje corporal:** Quietud emocional, vulnerabilidad contenida.
+- **Acción:** Sosteniendo la rosa blanca como foco narrativo.
+
+## I: Iluminación
+- **Tipo:** Iluminación cinematográfica dramática con luz cálida direccional.
+- **Fuente:** Haz circular de sunlight dorado creando contraste fuerte.
+- **Efecto clave:** Sombra marcada del rostro proyectada claramente en la pared.
+- **Sombras:** Deep shadows limpias y definidas para atmósfera misteriosa.
+
+## S: Sensación / Atmósfera
+- **Mood:** Moody, misterioso, melancólico.
+- **Tono:** Cinemático, simbólico, íntimo y emocional.
+
+## E: Estilo Visual
+- **Estilo general:** Retrato editorial cinematográfico minimalista con dramatismo de luz.
+- **Texturas:**
+  - Denim altamente detallado
+  - Rosa blanca delicada
+  - Sombra fuerte proyectada en pared
+- **Paleta:** Azules denim + blanco puro + dorado cálido en luz de fondo.
+- **Calidad:** Ultra-realistic 8K con mood oscuro premium.
+
+## M: Composición / Cámara
+- **Formato:** Vertical 9:16
+- **Plano:** Plano medio mostrando postura completa sentada + rosa visible.
+- **Encuadre:** Sujeto centrado con círculo de luz como elemento compositivo detrás.
+- **Enfoque:** Sharp focus en rostro, manos y flor; fondo limpio con sombra definida.
+
+## P: Postproducción
+- **Color grading:** Contraste cinematográfico con dorados cálidos y tonos fríos en denim.
+- **Nitidez:** Alta definición en piel, tela y pétalos.
+- **Contraste:** Alto para enfatizar sombras y dramatismo.
+- **Acabado final:** Ultra-realistic 8K moody wall portrait con rosa blanca y sombra dorada misteriosa.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Denim Rose Wall Portrait — Golden Circle Shadow Mood",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos.",
+                    "preservacion_total": "No cambiar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "expresion": "Gloomy, seria, ligeramente triste e introspectiva.",
+                    "vestimenta": {
+                        "jacket": "Chaqueta de mezclilla (denim jacket)",
+                        "bottom": "Falda larga denim tipo cargo"
+                    },
+                    "prop_principal": {
+                        "objeto": "Una sola rosa blanca",
+                        "interaccion": "Sostenida con ambas manos al frente, gesto delicado y simbólico"
+                    },
+                    "calidad": "Ultra-realistic 8K portrait rendering con textura extrema en piel, denim y flor."
+                },
+                "E_Entorno": {
+                    "escena": "Persona sentada contra una pared lisa, fondo completamente limpio.",
+                    "fondo": "Minimalista, sin elementos adicionales.",
+                    "elemento_luz": "Círculo de luz solar dorada proyectado en la pared detrás del sujeto."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentado contra la pared, mirando hacia el frente.",
+                    "lenguaje_corporal": "Quietud emocional, vulnerabilidad contenida.",
+                    "accion": "Sosteniendo la rosa blanca como foco narrativo."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación cinematográfica dramática con luz cálida direccional.",
+                    "fuente": "Haz circular de sunlight dorado creando contraste fuerte.",
+                    "efecto_clave": "Sombra marcada del rostro proyectada claramente en la pared.",
+                    "sombras": "Deep shadows limpias y definidas para atmósfera misteriosa."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Moody, misterioso, melancólico.",
+                    "tono": "Cinemático, simbólico, íntimo y emocional."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato editorial cinematográfico minimalista con dramatismo de luz.",
+                    "texturas": [
+                        "Denim altamente detallado",
+                        "Rosa blanca delicada",
+                        "Sombra fuerte proyectada en pared"
+                    ],
+                    "paleta": "Azules denim + blanco puro + dorado cálido en luz de fondo.",
+                    "calidad": "Ultra-realistic 8K con mood oscuro premium."
+                },
+                "M_Composicion_Camara": {
+                    "formato": "Vertical 9:16",
+                    "plano": "Plano medio mostrando postura completa sentada + rosa visible.",
+                    "encuadre": "Sujeto centrado con círculo de luz como elemento compositivo detrás.",
+                    "enfoque": "Sharp focus en rostro, manos y flor; fondo limpio con sombra definida."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Contraste cinematográfico con dorados cálidos y tonos fríos en denim.",
+                    "nitidez": "Alta definición en piel, tela y pétalos.",
+                    "contraste": "Alto para enfatizar sombras y dramatismo.",
+                    "acabado_final": "Ultra-realistic 8K moody wall portrait con rosa blanca y sombra dorada misteriosa."
+                }
+            }
+        }, null, 2),
+        category: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/denim-rose-wall-portrait.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-editorial", name: "Editorial", slug: "editorial" },
+            { id: "t-moody", name: "Moody", slug: "moody" },
+            { id: "t-shadow", name: "Shadow", slug: "shadow" }
+        ]
+    },
+    {
+        id: "editorial-3",
+        type: "prompt",
+        title: "Minimalist Black & White Chair Portrait — Raw Timeless Mood",
+        slug: "minimalist-bw-chair-portrait",
+        summary: "Ultra-realistic 8K timeless monochrome portrait con vibra editorial minimal.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos.
+- **Preservación total:** No cambiar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Persona con presencia calmada, estilo natural y sin adornos.
+- **Cabello:** Corto, oscuro, enmarcando el rostro de manera orgánica.
+- **Expresión:** Serena, introspectiva, casi pensativa.
+- **Vestimenta:**
+  - Top: Camiseta negra sleeveless simple
+  - Jeans: Denim loose-fit casual
+  - Pies: Descalzo, look raw y auténtico
+- **Calidad:** Ultra-realistic 8K black-and-white portrait rendering con detalle extremo.
+
+## E: Entorno
+- **Escena:** Estudio minimalista con fondo completamente liso.
+- **Props:** Silla simple moderna sin elementos adicionales.
+- **Atmósfera:** Espacio limpio diseñado para enfatizar al sujeto.
+
+## A: Acción / Postura
+- **Pose:** Sentado en una silla minimalista en postura relajada.
+- **Detalle:** Pies descalzos recogidos, una pierna cruzada suavemente sobre la otra.
+- **Mirada:** Directa hacia cámara, conexión íntima.
+- **Lenguaje corporal:** Natural, effortless, sin pose exagerada.
+
+## I: Iluminación
+- **Tipo:** Luz de estudio suave y envolvente.
+- **Características:** Sombras delicadas, iluminación uniforme que resalta contornos faciales.
+- **Efecto:** Mood íntimo, sin dramatismo extremo.
+
+## S: Sensación / Atmósfera
+- **Mood:** Raw, moderno, íntimo, atemporal.
+- **Tono:** Understated elegance, effortless timeless portrait.
+
+## E: Estilo Visual
+- **Estilo general:** Retrato editorial minimalista en blanco y negro.
+- **Acabado:** Unembellished, auténtico, con textura real de piel.
+- **Paleta:** Monocromática con contraste suave.
+- **Calidad:** Ultra-realistic 8K fine-art fashion portrait.
+
+## M: Composición / Cámara
+- **Plano:** Plano medio mostrando postura completa sobre la silla.
+- **Ángulo:** Eye-level neutral, moderno y directo.
+- **Enfoque:** Nitidez en rostro y expresión, fondo limpio suavemente desenfocado.
+
+## P: Postproducción
+- **Conversión:** Blanco y negro con separación tonal fina.
+- **Contraste:** Suave pero definido, deep blacks controlados.
+- **Textura:** Grano cinematográfico sutil opcional para mood analógico.
+- **Acabado final:** Ultra-realistic 8K timeless monochrome portrait con vibra editorial minimal.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Minimalist Black & White Chair Portrait — Raw Timeless Mood",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos.",
+                    "preservacion_total": "No cambiar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Persona con presencia calmada, estilo natural y sin adornos.",
+                    "cabello": "Corto, oscuro, enmarcando el rostro de manera orgánica.",
+                    "expresion": "Serena, introspectiva, casi pensativa.",
+                    "vestimenta": {
+                        "top": "Camiseta negra sleeveless simple",
+                        "jeans": "Denim loose-fit casual",
+                        "pies": "Descalzo, look raw y auténtico"
+                    },
+                    "calidad": "Ultra-realistic 8K black-and-white portrait rendering con detalle extremo."
+                },
+                "E_Entorno": {
+                    "escena": "Estudio minimalista con fondo completamente liso.",
+                    "props": "Silla simple moderna sin elementos adicionales.",
+                    "atmósfera": "Espacio limpio diseñado para enfatizar al sujeto."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentado en una silla minimalista en postura relajada.",
+                    "detalle": "Pies descalzos recogidos, una pierna cruzada suavemente sobre la otra.",
+                    "mirada": "Directa hacia cámara, conexión íntima.",
+                    "lenguaje_corporal": "Natural, effortless, sin pose exagerada."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz de estudio suave y envolvente.",
+                    "caracteristicas": "Sombras delicadas, iluminación uniforme que resalta contornos faciales.",
+                    "efecto": "Mood íntimo, sin dramatismo extremo."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Raw, moderno, íntimo, atemporal.",
+                    "tono": "Understated elegance, effortless timeless portrait."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato editorial minimalista en blanco y negro.",
+                    "acabado": "Unembellished, auténtico, con textura real de piel.",
+                    "paleta": "Monocromática con contraste suave.",
+                    "calidad": "Ultra-realistic 8K fine-art fashion portrait."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio mostrando postura completa sobre la silla.",
+                    "angulo": "Eye-level neutral, moderno y directo.",
+                    "enfoque": "Nitidez en rostro y expresión, fondo limpio suavemente desenfocado."
+                },
+                "P_Postproduccion": {
+                    "conversion": "Blanco y negro con separación tonal fina.",
+                    "contraste": "Suave pero definido, deep blacks controlados.",
+                    "textura": "Grano cinematográfico sutil opcional para mood analógico.",
+                    "acabado_final": "Ultra-realistic 8K timeless monochrome portrait con vibra editorial minimal."
+                }
+            }
+        }, null, 2),
+        category: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/minimalist-bw-chair-portrait.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-editorial", name: "Editorial", slug: "editorial" },
+            { id: "t-bw", name: "Black & White", slug: "black-white" },
+            { id: "t-minimal", name: "Minimal", slug: "minimal" }
+        ]
+    },
+    {
+        id: "editorial-2",
+        type: "prompt",
+        title: "Orange Rim-Light Editorial — Shadowed Vogue Studio Portrait",
+        slug: "orange-rim-light-editorial-vogue",
+        summary: "Ultra-realistic 8K Vogue-style orange glow studio portrait con misterio y elegancia.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.
+- **Preservación total:** No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Persona estilizada con presencia editorial de alta moda.
+- **Vestimenta:**
+  - Outfit: Ensemble de diseñador minimalista y high-end
+  - Jacket: Chaqueta slim-fit de corte afilado con acabado mate
+  - Detalle: Sin camisa debajo
+  - Cuello: Turtleneck chic complementario
+- **Detalle piel:** Textura realista natural sin suavizado artificial.
+- **Calidad:** Ultra-realistic 8K editorial portrait con claridad extrema.
+
+## E: Entorno
+- **Escena:** Estudio indoor cutting-edge, minimalista y moderno.
+- **Fondo:** Seamless background completamente naranja, iluminado desde luces ocultas.
+- **Props:** Sin objetos visibles, entorno limpio tipo Vogue studio.
+
+## A: Acción / Postura
+- **Pose:** Postura firme y sofisticada, estilo editorial high-fashion.
+- **Expresión:** Calma, elegante, dominante.
+- **Detalle visual:** El rostro parcialmente cubierto por sombra suave, revelando solo parte de la expresión.
+
+## I: Iluminación
+- **Tipo:** Iluminación editorial cinematográfica con rim light.
+- **Fuentes:**
+  - Glow naranja intenso del fondo
+  - Rim lighting lateral que define el perfil
+  - Sombras profundas limpias cubriendo parcialmente el rostro
+- **Efecto:** Contornos esculpidos, atmósfera moderna y dramática.
+
+## S: Sensación / Atmósfera
+- **Mood:** Cool, editorial, misterioso, sofisticado.
+- **Tono:** Vogue-style luxury minimalism con tensión visual.
+
+## E: Estilo Visual
+- **Estilo general:** Fotografía editorial hiperrealista de alta moda.
+- **Acabado:** Gradientes cinematográficos, sombras profundas, aura moderna.
+- **Paleta:** Naranja intenso + tonos oscuros mate para contraste elegante.
+- **Calidad:** Ultra-realistic 8K con estética premium.
+
+## M: Composición / Cámara
+- **Lente:** 85mm portrait lens effect
+- **Profundidad de campo:** Shallow DOF con fondo suave y sujeto dominante.
+- **Plano:** Plano medio a close-up editorial.
+- **Ángulo:** Eye-level con composición limpia centrada.
+- **Enfoque:** Sharp focus en rostro visible, perfil iluminado y textura del jacket.
+
+## P: Postproducción
+- **Color grading:** Naranja cinematográfico intenso con contraste editorial frío.
+- **Contraste:** Alto, con deep shadows limpias.
+- **Nitidez:** UHD clarity extrema en piel, tela mate y rim light.
+- **Acabado final:** Ultra-realistic 8K Vogue-style orange glow studio portrait con misterio y elegancia.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Orange Rim-Light Editorial — Shadowed Vogue Studio Portrait",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.",
+                    "preservacion_total": "No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Persona estilizada con presencia editorial de alta moda.",
+                    "vestimenta": {
+                        "outfit": "Ensemble de diseñador minimalista y high-end",
+                        "jacket": "Chaqueta slim-fit de corte afilado con acabado mate",
+                        "detalle": "Sin camisa debajo",
+                        "cuello": "Turtleneck chic complementario"
+                    },
+                    "detalle_piel": "Textura realista natural sin suavizado artificial.",
+                    "calidad": "Ultra-realistic 8K editorial portrait con claridad extrema."
+                },
+                "E_Entorno": {
+                    "escena": "Estudio indoor cutting-edge, minimalista y moderno.",
+                    "fondo": "Seamless background completamente naranja, iluminado desde luces ocultas.",
+                    "props": "Sin objetos visibles, entorno limpio tipo Vogue studio."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura firme y sofisticada, estilo editorial high-fashion.",
+                    "expresion": "Calma, elegante, dominante.",
+                    "detalle_visual": "El rostro parcialmente cubierto por sombra suave, revelando solo parte de la expresión."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación editorial cinematográfica con rim light.",
+                    "fuentes": [
+                        "Glow naranja intenso del fondo",
+                        "Rim lighting lateral que define el perfil",
+                        "Sombras profundas limpias cubriendo parcialmente el rostro"
+                    ],
+                    "efecto": "Contornos esculpidos, atmósfera moderna y dramática."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Cool, editorial, misterioso, sofisticado.",
+                    "tono": "Vogue-style luxury minimalism con tensión visual."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía editorial hiperrealista de alta moda.",
+                    "acabado": "Gradientes cinematográficos, sombras profundas, aura moderna.",
+                    "paleta": "Naranja intenso + tonos oscuros mate para contraste elegante.",
+                    "calidad": "Ultra-realistic 8K con estética premium."
+                },
+                "M_Composicion_Camara": {
+                    "lente": "85mm portrait lens effect",
+                    "profundidad_de_campo": "Shallow DOF con fondo suave y sujeto dominante.",
+                    "plano": "Plano medio a close-up editorial.",
+                    "angulo": "Eye-level con composición limpia centrada.",
+                    "enfoque": "Sharp focus en rostro visible, perfil iluminado y textura del jacket."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Naranja cinematográfico intenso con contraste editorial frío.",
+                    "contraste": "Alto, con deep shadows limpias.",
+                    "nitidez": "UHD clarity extrema en piel, tela mate y rim light.",
+                    "acabado_final": "Ultra-realistic 8K Vogue-style orange glow studio portrait con misterio y elegancia."
+                }
+            }
+        }, null, 2),
+        category: "Fashion",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/orange-rim-light-editorial.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-fashion", name: "Fashion", slug: "fashion" },
+            { id: "t-editorial", name: "Editorial", slug: "editorial" },
+            { id: "t-studio", name: "Studio", slug: "studio" }
+        ]
+    },
+    {
+        id: "editorial-1",
+        type: "prompt",
+        title: "Elevator Neon Editorial — Black Suit Mysterious Portrait",
+        slug: "elevator-neon-editorial-black-suit",
+        summary: "Ultra-realistic 8K neon elevator fashion portrait con mood misterioso.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** El sujeto debe ser exactamente idéntico a la imagen de referencia: rostro, cabello, tono de piel, tipo de cuerpo y todos los rasgos físicos sin ninguna modificación.
+- **Preservación total:** No alterar cara, proporciones, peinado ni características corporales.
+- **Vestimenta:**
+  - Outfit: Total black look
+  - Blazer: Oversized blazer negro
+  - Pantalones: Pantalones largos negros
+  - Accesorios: Sunglasses oscuros, Vaso de café take-away en la mano
+- **Detalle piel:** Textura realista natural, sin suavizado artificial.
+- **Calidad:** Ultra-realistic 8K portrait rendering con máxima fidelidad.
+
+## E: Entorno
+- **Ubicación:** Elevador moderno con paredes metálicas reflectantes.
+- **Materiales:** Metal pulido con reflejos visibles y highlights suaves.
+- **Escena:** Interior cerrado, minimalista, urbano, elegante.
+
+## A: Acción / Postura
+- **Pose:** Postura relajada y editorial, actitud cool y dominante.
+- **Lenguaje corporal:** Elegante, edgy, misterioso.
+- **Acción:** Sosteniendo el vaso de café como detalle lifestyle sofisticado.
+
+## I: Iluminación
+- **Tipo:** Luz neón tenue desde el techo del elevador.
+- **Características:** Sombras sutiles con highlights reflejados en paredes metálicas.
+- **Efecto:** Contraste suave que crea atmósfera cinematográfica moderna.
+
+## S: Sensación / Atmósfera
+- **Mood:** Elegante, edgy, misterioso.
+- **Tono:** Fashion editorial urbano con sensación nocturna futurista.
+
+## E: Estilo Visual
+- **Estilo general:** Retrato editorial de alta moda en escenario urbano minimalista.
+- **Acabado:** Cinemático, moderno, sleek.
+- **Detalle:** Texturas metálicas + outfit negro + estética de lujo oscuro.
+- **Calidad:** Ultra-realistic 8K con enfoque premium.
+
+## M: Composición / Cámara
+- **Plano:** Plano medio o retrato de cuerpo parcial dentro del elevador.
+- **Ángulo:** Eye-level para presencia dominante.
+- **Encuadre:** Sujeto centrado, reflejos metálicos aportan profundidad.
+- **Enfoque:** Sharp focus en rostro, gafas y vaso de café.
+
+## P: Postproducción
+- **Color grading:** Tonos fríos con contraste elegante tipo editorial.
+- **Contraste:** Medio-alto para resaltar metal y outfit negro.
+- **Nitidez:** Alta definición en piel, tela y reflejos.
+- **Acabado final:** Ultra-realistic 8K neon elevator fashion portrait con mood misterioso.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Elevator Neon Editorial — Black Suit Mysterious Portrait",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "El sujeto debe ser exactamente idéntico a la imagen de referencia: rostro, cabello, tono de piel, tipo de cuerpo y todos los rasgos físicos sin ninguna modificación.",
+                    "preservacion_total": "No alterar cara, proporciones, peinado ni características corporales.",
+                    "vestimenta": {
+                        "outfit": "Total black look",
+                        "blazer": "Oversized blazer negro",
+                        "pantalones": "Pantalones largos negros",
+                        "accesorios": [
+                            "Sunglasses oscuros",
+                            "Vaso de café take-away en la mano"
+                        ]
+                    },
+                    "detalle_piel": "Textura realista natural, sin suavizado artificial.",
+                    "calidad": "Ultra-realistic 8K portrait rendering con máxima fidelidad."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Elevador moderno con paredes metálicas reflectantes.",
+                    "materiales": "Metal pulido con reflejos visibles y highlights suaves.",
+                    "escena": "Interior cerrado, minimalista, urbano, elegante."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Postura relajada y editorial, actitud cool y dominante.",
+                    "lenguaje_corporal": "Elegante, edgy, misterioso.",
+                    "accion": "Sosteniendo el vaso de café como detalle lifestyle sofisticado."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz neón tenue desde el techo del elevador.",
+                    "caracteristicas": "Sombras sutiles con highlights reflejados en paredes metálicas.",
+                    "efecto": "Contraste suave que crea atmósfera cinematográfica moderna."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Elegante, edgy, misterioso.",
+                    "tono": "Fashion editorial urbano con sensación nocturna futurista."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato editorial de alta moda en escenario urbano minimalista.",
+                    "acabado": "Cinemático, moderno, sleek.",
+                    "detalle": "Texturas metálicas + outfit negro + estética de lujo oscuro.",
+                    "calidad": "Ultra-realistic 8K con enfoque premium."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio o retrato de cuerpo parcial dentro del elevador.",
+                    "angulo": "Eye-level para presencia dominante.",
+                    "encuadre": "Sujeto centrado, reflejos metálicos aportan profundidad.",
+                    "enfoque": "Sharp focus en rostro, gafas y vaso de café."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos fríos con contraste elegante tipo editorial.",
+                    "contraste": "Medio-alto para resaltar metal y outfit negro.",
+                    "nitidez": "Alta definición en piel, tela y reflejos.",
+                    "acabado_final": "Ultra-realistic 8K neon elevator fashion portrait con mood misterioso."
+                }
+            }
+        }, null, 2),
+        category: "Fashion",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/elevator-neon-editorial.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-fashion", name: "Fashion", slug: "fashion" },
+            { id: "t-neon", name: "Neon", slug: "neon" },
+            { id: "t-editorial", name: "Editorial", slug: "editorial" }
+        ]
+    },
+    {
+        id: "surreal-1",
+        type: "prompt",
+        title: "Floating Jump Above Mirror Water — Surreal Freedom Portrait",
+        slug: "floating-jump-mirror-water-surreal",
+        summary: "Ultra-realistic 8K floating surreal cinematic portrait con sensación de libertad.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** La persona debe ser exactamente idéntica a la imagen de referencia: rostro, cabello, tono de piel y todos los rasgos físicos sin ninguna alteración.
+- **Preservación total:** No cambiar cara, peinado, proporciones ni características corporales.
+- **Vestimenta:**
+  - Pantalones blancos
+  - Camisa blanca abierta, estilo ligero y limpio
+- **Detalle piel:** Textura natural y realista, sin embellecimiento artificial.
+- **Calidad:** Ultra-realistic 8K portrait rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Escena:** Superficie de agua completamente calma y reflectante, actuando como espejo.
+- **Efecto espejo:** El agua refleja el cuerpo completo, el cielo y las nubes.
+- **Fondo:** Cielo abierto infinito lleno de nubes blancas esponjosas.
+- **Atmósfera:** Surreal, mágica, onírica, sensación de libertad.
+
+## A: Acción / Postura
+- **Acción:** El sujeto está saltando elegantemente sobre el agua, como si flotara.
+- **Pose:** Movimiento grácil y liviano, sensación de ingravidez.
+- **Pies:** Descalzo, tocando suavemente el agua con los dedos.
+- **Detalle interacción:** Ondas circulares (ripples) se expanden desde el contacto con el agua.
+
+## I: Iluminación
+- **Tipo:** Luz natural brillante de día.
+- **Características:** Claridad alta, iluminación cinematográfica limpia.
+- **Efecto:** Resalta contornos corporales y pureza del entorno reflejado.
+
+## S: Sensación / Atmósfera
+- **Mood:** Libertad, ligereza, espiritualidad visual.
+- **Tono:** Dreamy cinematic surrealism con calma absoluta.
+
+## E: Estilo Visual
+- **Estilo general:** Fotografía hiperrealista cinematográfica surreal.
+- **Texturas:**
+  - Agua espejo ultra limpia
+  - Reflejo perfecto cuerpo+cielo
+  - Ondas suaves circulares
+  - Nubes definidas y luminosas
+- **Calidad:** Ultra-realistic 8K, sharp clarity, magical realism.
+
+## M: Composición / Cámara
+- **Plano:** Cuerpo completo mostrando salto y reflejo completo.
+- **Encuadre:** Sujeto centrado con simetría entre cielo y espejo de agua.
+- **Profundidad:** Espacio infinito horizontal con horizonte mínimo o inexistente.
+
+## P: Postproducción
+- **Color grading:** Tonos blancos y azules suaves, look limpio celestial.
+- **Contraste:** Suave pero con alta claridad en reflejos.
+- **Nitidez:** Máxima nitidez en rostro, ropa blanca, ondas y nubes.
+- **Acabado final:** Ultra-realistic 8K floating surreal cinematic portrait con sensación de libertad.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Floating Jump Above Mirror Water — Surreal Freedom Portrait",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "La persona debe ser exactamente idéntica a la imagen de referencia: rostro, cabello, tono de piel y todos los rasgos físicos sin ninguna alteración.",
+                    "preservacion_total": "No cambiar cara, peinado, proporciones ni características corporales.",
+                    "vestimenta": {
+                        "pantalon": "Pantalones blancos",
+                        "camisa": "Camisa blanca abierta, estilo ligero y limpio"
+                    },
+                    "detalle_piel": "Textura natural y realista, sin embellecimiento artificial.",
+                    "calidad": "Ultra-realistic 8K portrait rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "escena": "Superficie de agua completamente calma y reflectante, actuando como espejo.",
+                    "efecto_espejo": "El agua refleja el cuerpo completo, el cielo y las nubes.",
+                    "fondo": "Cielo abierto infinito lleno de nubes blancas esponjosas.",
+                    "atmósfera": "Surreal, mágica, onírica, sensación de libertad."
+                },
+                "A_Accion_Postura": {
+                    "accion": "El sujeto está saltando elegantemente sobre el agua, como si flotara.",
+                    "pose": "Movimiento grácil y liviano, sensación de ingravidez.",
+                    "pies": "Descalzo, tocando suavemente el agua con los dedos.",
+                    "detalle_interaccion": "Ondas circulares (ripples) se expanden desde el contacto con el agua."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz natural brillante de día.",
+                    "caracteristicas": "Claridad alta, iluminación cinematográfica limpia.",
+                    "efecto": "Resalta contornos corporales y pureza del entorno reflejado."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Libertad, ligereza, espiritualidad visual.",
+                    "tono": "Dreamy cinematic surrealism con calma absoluta."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía hiperrealista cinematográfica surreal.",
+                    "texturas": [
+                        "Agua espejo ultra limpia",
+                        "Reflejo perfecto cuerpo+cielo",
+                        "Ondas suaves circulares",
+                        "Nubes definidas y luminosas"
+                    ],
+                    "calidad": "Ultra-realistic 8K, sharp clarity, magical realism."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Cuerpo completo mostrando salto y reflejo completo.",
+                    "encuadre": "Sujeto centrado con simetría entre cielo y espejo de agua.",
+                    "profundidad": "Espacio infinito horizontal con horizonte mínimo o inexistente."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos blancos y azules suaves, look limpio celestial.",
+                    "contraste": "Suave pero con alta claridad en reflejos.",
+                    "nitidez": "Máxima nitidez en rostro, ropa blanca, ondas y nubes.",
+                    "acabado_final": "Ultra-realistic 8K floating surreal cinematic portrait con sensación de libertad."
+                }
+            }
+        }, null, 2),
+        category: "Surreal",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/floating-jump-mirror-water-surreal.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-surreal", name: "Surreal", slug: "surreal" },
+            { id: "t-freedom", name: "Freedom", slug: "freedom" },
+            { id: "t-mirror", name: "Mirror Water", slug: "mirror-water" }
+        ]
+    },
 
     {
         "id": "nano-91",
