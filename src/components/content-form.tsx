@@ -44,7 +44,7 @@ const contentFormSchema = z.object({
     slug: z.string().min(2, {
         message: "Slug is required.",
     }),
-    type: z.enum(["system", "prompt", "automation", "asset"]),
+    type: z.enum(["system", "prompt", "automation", "asset", "text_prompt"]),
     summary: z.string().optional(),
     body_markdown: z.string().optional(),
     category: z.string().optional(),
@@ -216,6 +216,7 @@ export function ContentForm({ initialData }: ContentFormProps) {
                                         <SelectItem value="system">System</SelectItem>
                                         <SelectItem value="prompt">Prompt</SelectItem>
                                         <SelectItem value="automation">Automation</SelectItem>
+                                        <SelectItem value="text_prompt">Text Prompt</SelectItem>
                                     </SelectContent>
                                 </Select>
                                 <FormMessage />
