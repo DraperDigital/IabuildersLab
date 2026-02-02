@@ -8313,6 +8313,363 @@ export const EXTRA_MOCK_PROMPTS = [
             { "id": "t-y2k", "name": "Y2K", "slug": "y2k" },
             { "id": "t-flash", "name": "Flash Photography", "slug": "flash-photography" }
         ]
-    }
+    },
+    {
+        id: "lifestyle-7",
+        type: "prompt",
+        title: "Cat-Ears Mirror Selfie — Pink Brocade Outfit + Playful Tongue Expression",
+        slug: "cat-ears-mirror-selfie",
+        summary: "Ultra-realistic 8K photorealistic mirror selfie con outfit rosa y cat ears.",
+        body_markdown: `
+# Framework REAISEMP
 
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos.
+- **Preservación total:** No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Joven mujer en mirror selfie con estética cute-fashion.
+- **Cabello:**
+  - Color: Blonde
+  - Estilo: Long wavy hair natural
+- **Accesorio cabeza:** White fluffy cat ears headband
+- **Outfit:**
+  - Top: Pink brocade corset-style garment con lacing frontal y trim decorativo
+  - Bottom: Pink gingham mini skirt con ruffles y lace blanca
+  - Socks: White thigh-high socks con pink stripes
+  - Choker: Pink collar choker con small silver bell
+  - Jewelry: Stud earrings, Delicate gold bracelet
+- **Expresión:** Playful, tongue slightly sticking out, gaze up-left.
+- **Detalle piel:** Textura realista natural con skin detail definido.
+- **Calidad:** Ultra-realistic 8K photorealistic mirror selfie rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Ubicación:** Modern apartment interior flooded with daylight.
+- **Background elements:**
+  - Floor-to-ceiling windows with cityscape view
+  - Grey wood plank flooring
+  - Grey tiled wall section
+  - Large brown teddy bear
+  - White upholstered armchair
+  - Wooden side table
+- **Foreground detail:** Hanging green artificial ivy framing the scene.
+- **Atmósfera:** Bright, playful, cozy lifestyle setting.
+
+## A: Acción / Postura
+- **Pose:** Standing mirror selfie holding a white iPhone in right hand.
+- **Lenguaje corporal:** Cute, spontaneous, playful fashion pose.
+- **Detalle:**
+  - Head: Slight tilt with playful tongue expression
+  - Gaze: Directed upward and to the left
+
+## I: Iluminación
+- **Tipo:** Bright natural daylight from large windows.
+- **Características:**
+  - Realistic daylight spread across skin and outfit
+  - Soft cinematic shadows on interior surfaces
+  - Organic blending with apartment lighting
+- **Efecto:** Clean modern daylight selfie realism.
+
+## S: Sensación / Atmósfera
+- **Mood:** Playful, cute, bright, youthful.
+- **Tono:** Mirror selfie lifestyle con cosplay-inspired fashion charm.
+
+## E: Estilo Visual
+- **Estilo general:** Ultra-photorealistic cinematic mirror selfie aesthetic.
+- **Detalles:**
+  - High-detail fabrics: brocade + gingham + lace trim
+  - Natural daylight realism
+  - Interior props enhancing cozy atmosphere
+  - Cute overlay typography for social vibe
+- **Acabado:** Photorealistic editorial lifestyle with playful character.
+- **Calidad:** Ultra-realistic 8K high-detail mirror selfie rendering.
+
+## M: Composición / Cámara
+- **Plano:** Full-body to three-quarter mirror selfie framing.
+- **Ángulo:** Mirror perspective natural handheld phone pose.
+- **Encuadre:** Subject dominant with apartment props balanced around.
+- **Enfoque:** Sharp focus on face, outfit textures, and phone; background softly clear but not distracting.
+- **Aspect Ratio:** Vertical social media framing (9:16 implied).
+
+## P: Postproducción
+- **Color grading:** Soft warm-pink fashion palette with clean daylight tones.
+- **Contraste:** Moderate-natural, avoiding overprocessing.
+- **Nitidez:** Alta definición en rostro, textiles, lace trim y props.
+- **Acabado final:** Ultra-realistic 8K cute cat-ears mirror selfie portrait con ambiente bright lifestyle.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Cat-Ears Mirror Selfie — Pink Brocade Outfit + Playful Tongue Expression",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Joven mujer en mirror selfie con estética cute-fashion.",
+                    "cabello": {
+                        "color": "Blonde",
+                        "estilo": "Long wavy hair natural"
+                    },
+                    "accesorio_cabeza": "White fluffy cat ears headband",
+                    "outfit": {
+                        "top": "Pink brocade corset-style garment con lacing frontal y trim decorativo",
+                        "bottom": "Pink gingham mini skirt con ruffles y lace blanca",
+                        "socks": "White thigh-high socks con pink stripes",
+                        "choker": "Pink collar choker con small silver bell",
+                        "jewelry": [
+                            "Stud earrings",
+                            "Delicate gold bracelet"
+                        ]
+                    },
+                    "expresion": "Playful, tongue slightly sticking out, gaze up-left.",
+                    "detalle_piel": "Textura realista natural con skin detail definido.",
+                    "calidad": "Ultra-realistic 8K photorealistic mirror selfie rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Modern apartment interior flooded with daylight.",
+                    "background_elements": [
+                        "Floor-to-ceiling windows with cityscape view",
+                        "Grey wood plank flooring",
+                        "Grey tiled wall section",
+                        "Large brown teddy bear",
+                        "White upholstered armchair",
+                        "Wooden side table"
+                    ],
+                    "foreground_detail": "Hanging green artificial ivy framing the scene",
+                    "atmósfera": "Bright, playful, cozy lifestyle setting."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Standing mirror selfie holding a white iPhone in right hand.",
+                    "lenguaje_corporal": "Cute, spontaneous, playful fashion pose.",
+                    "detalle": {
+                        "head": "Slight tilt with playful tongue expression",
+                        "gaze": "Directed upward and to the left"
+                    }
+                },
+                "I_Iluminacion": {
+                    "tipo": "Bright natural daylight from large windows.",
+                    "caracteristicas": [
+                        "Realistic daylight spread across skin and outfit",
+                        "Soft cinematic shadows on interior surfaces",
+                        "Organic blending with apartment lighting"
+                    ],
+                    "efecto": "Clean modern daylight selfie realism."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Playful, cute, bright, youthful.",
+                    "tono": "Mirror selfie lifestyle con cosplay-inspired fashion charm."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Ultra-photorealistic cinematic mirror selfie aesthetic.",
+                    "detalles": [
+                        "High-detail fabrics: brocade + gingham + lace trim",
+                        "Natural daylight realism",
+                        "Interior props enhancing cozy atmosphere",
+                        "Cute overlay typography for social vibe"
+                    ],
+                    "acabado": "Photorealistic editorial lifestyle with playful character.",
+                    "calidad": "Ultra-realistic 8K high-detail mirror selfie rendering."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Full-body to three-quarter mirror selfie framing.",
+                    "angulo": "Mirror perspective natural handheld phone pose.",
+                    "encuadre": "Subject dominant with apartment props balanced around.",
+                    "enfoque": "Sharp focus on face, outfit textures, and phone; background softly clear but not distracting.",
+                    "aspect_ratio": "Vertical social media framing (9:16 implied)."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Soft warm-pink fashion palette with clean daylight tones.",
+                    "contraste": "Moderate-natural, avoiding overprocessing.",
+                    "nitidez": "Alta definición en rostro, textiles, lace trim y props.",
+                    "acabado_final": "Ultra-realistic 8K cute cat-ears mirror selfie portrait con ambiente bright lifestyle."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: false,
+        featured_image_url: "/images/prompts/cat-ears-mirror-selfie.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-selfie", name: "Selfie", slug: "selfie" },
+            { id: "t-cosplay", name: "Cosplay", slug: "cosplay" },
+            { id: "t-cute", name: "Cute", slug: "cute" }
+        ]
+    },
+    {
+        id: "lifestyle-8",
+        type: "prompt",
+        title: "Gym Locker Room Mirror Selfie — Athletic Sportswear Editorial Realism",
+        slug: "gym-locker-room-selfie",
+        summary: "Ultra-realistic 8K gym lifestyle mirror selfie con sportswear gris y aesthetic fitness.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel, proporciones corporales y expresión exactamente idénticos.
+- **Preservación total:** No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Mujer atlética joven en selfie de espejo estilo gym lifestyle.
+- **Cabello:**
+  - Color: Blonde con raíces ligeramente más oscuras
+  - Estilo: Long straight hair con wispy curtain bangs
+- **Detalle facial:** Preservar textura natural de piel y expresión original.
+- **Tattoos:** Mantener tatuaje visible en antebrazo izquierdo exactamente igual.
+- **Outfit:**
+  - Top: Light heather grey ribbed sports bra con spaghetti straps y plunging neckline
+  - Bottom: High-waisted tight leggings en light grey snakeskin / animal print
+- **Accesorios:**
+  - Nails: Burgundy nail polish
+  - Rings: Multiple silver rings
+  - Wristbands: Black and green wristbands
+- **Calidad:** Ultra-realistic 8K photorealistic gym mirror selfie rendering con detalle extremo.
+
+## E: Entorno
+- **Ubicación:** Gym locker room / changing area interior.
+- **Background elements:**
+  - Metal coat rack con black puffer jacket
+  - Gym bag con texto invertido 'FITNESS'
+  - White textured plaster walls
+  - Dark bench
+  - Beige tiled flooring
+- **Atmósfera:** Realista, cotidiana, lifestyle fitness aesthetic.
+
+## A: Acción / Postura
+- **Pose:** Standing mirror selfie con hip popped creando una silueta en S-curve.
+- **Mano derecha:**
+  - Acción: Sosteniendo white iPhone
+  - Detalle: MagSafe ring + hanging grey lanyard
+- **Mano izquierda:** Resting gently near midriff mostrando uñas, rings y wristbands.
+- **Lenguaje corporal:** Athletic, confident, natural gym candid vibe.
+
+## I: Iluminación
+- **Tipo:** Soft indoor ambient lighting con diffused overhead quality.
+- **Características:**
+  - Sombras suaves naturales
+  - Highlights orgánicos en cabello rubio
+  - Blend realista con el ambiente del locker room
+- **Efecto:** Cinematic gym realism sin harsh shadows.
+
+## S: Sensación / Atmósfera
+- **Mood:** Confident, sporty, candid lifestyle.
+- **Tono:** Fitness editorial mirror selfie con autenticidad moderna.
+
+## E: Estilo Visual
+- **Estilo general:** Ultra-photorealistic cinematic gym lifestyle portrait.
+- **Detalles:**
+  - Textura ribbed sportswear definida
+  - Animal-print leggings realistic fabric detail
+  - Skin texture natural con enfoque editorial
+  - Locker room props para realismo contextual
+- **Acabado:** Modern athletic influencer-style realism con calidad premium.
+- **Calidad:** Ultra-realistic 8K high-detail selfie aesthetic.
+
+## M: Composición / Cámara
+- **Plano:** Three-quarter to full-body mirror selfie framing.
+- **Ángulo:** Natural mirror perspective con iPhone visible.
+- **Encuadre:** Sujeto dominante centrado con background gym contextual balanceado.
+- **Enfoque:** Sharp focus en rostro y outfit; background ligeramente softer pero legible.
+- **Aspect Ratio:** Vertical social framing (9:16 implied).
+
+## P: Postproducción
+- **Color grading:** Neutral cool gym tones con acabado realista moderno.
+- **Contraste:** Moderado-natural para autenticidad fitness.
+- **Nitidez:** Alta definición en piel, cabello, leggings texture y accesorios.
+- **Acabado final:** Ultra-realistic 8K gym locker mirror selfie con mood sporty editorial y fidelidad absoluta.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Gym Locker Room Mirror Selfie — Athletic Sportswear Editorial Realism",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel, proporciones corporales y expresión exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Mujer atlética joven en selfie de espejo estilo gym lifestyle.",
+                    "cabello": {
+                        "color": "Blonde con raíces ligeramente más oscuras",
+                        "estilo": "Long straight hair con wispy curtain bangs"
+                    },
+                    "detalle_facial": "Preservar textura natural de piel y expresión original.",
+                    "tattoos": "Mantener tatuaje visible en antebrazo izquierdo exactamente igual.",
+                    "outfit": {
+                        "top": "Light heather grey ribbed sports bra con spaghetti straps y plunging neckline",
+                        "bottom": "High-waisted tight leggings en light grey snakeskin / animal print"
+                    },
+                    "accesorios": {
+                        "nails": "Burgundy nail polish",
+                        "rings": "Multiple silver rings",
+                        "wristbands": "Black and green wristbands"
+                    },
+                    "calidad": "Ultra-realistic 8K photorealistic gym mirror selfie rendering con detalle extremo."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Gym locker room / changing area interior.",
+                    "background_elements": [
+                        "Metal coat rack con black puffer jacket",
+                        "Gym bag con texto invertido 'FITNESS'",
+                        "White textured plaster walls",
+                        "Dark bench",
+                        "Beige tiled flooring"
+                    ],
+                    "atmósfera": "Realista, cotidiana, lifestyle fitness aesthetic."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Standing mirror selfie con hip popped creando una silueta en S-curve.",
+                    "mano_derecha": {
+                        "accion": "Sosteniendo white iPhone",
+                        "detalle": "MagSafe ring + hanging grey lanyard"
+                    },
+                    "mano_izquierda": "Resting gently near midriff mostrando uñas, rings y wristbands.",
+                    "lenguaje_corporal": "Athletic, confident, natural gym candid vibe."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Soft indoor ambient lighting con diffused overhead quality.",
+                    "caracteristicas": [
+                        "Sombras suaves naturales",
+                        "Highlights orgánicos en cabello rubio",
+                        "Blend realista con el ambiente del locker room"
+                    ],
+                    "efecto": "Cinematic gym realism sin harsh shadows."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Confident, sporty, candid lifestyle.",
+                    "tono": "Fitness editorial mirror selfie con autenticidad moderna."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Ultra-photorealistic cinematic gym lifestyle portrait.",
+                    "detalles": [
+                        "Textura ribbed sportswear definida",
+                        "Animal-print leggings realistic fabric detail",
+                        "Skin texture natural con enfoque editorial",
+                        "Locker room props para realismo contextual"
+                    ],
+                    "acabado": "Modern athletic influencer-style realism con calidad premium.",
+                    "calidad": "Ultra-realistic 8K high-detail selfie aesthetic."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Three-quarter to full-body mirror selfie framing.",
+                    "angulo": "Natural mirror perspective con iPhone visible.",
+                    "encuadre": "Sujeto dominante centrado con background gym contextual balanceado.",
+                    "enfoque": "Sharp focus en rostro y outfit; background ligeramente softer pero legible.",
+                    "aspect_ratio": "Vertical social framing (9:16 implied)."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Neutral cool gym tones con acabado realista moderno.",
+                    "contraste": "Moderado-natural para autenticidad fitness.",
+                    "nitidez": "Alta definición en piel, cabello, leggings texture y accesorios.",
+                    "acabado_final": "Ultra-realistic 8K gym locker mirror selfie con mood sporty editorial y fidelidad absoluta."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: false,
+        featured_image_url: "/images/prompts/gym-locker-room-selfie.png",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-selfie", name: "Selfie", slug: "selfie" },
+            { id: "t-fitness", name: "Fitness", slug: "fitness" },
+            { id: "t-gym", name: "Gym", slug: "gym" }
+        ]
+    }
 ];
