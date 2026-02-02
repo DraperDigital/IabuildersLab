@@ -1982,7 +1982,7 @@ Para un look más otoñal, cambia el E_Entorno a "Césped con hojas secas en ton
         paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
-        tags: [{ id: "t-art", name: "Artistic", slug: "artistic" }, { id: "t-water", name: "Water", slug: "water" }],
+        tags: [{ id: "t-artistic", name: "Artistic", slug: "artistic" }, { id: "t-water", name: "Water", slug: "water" }],
         customization_guide: `# Fantasía Acuática
 Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con cascada de neón" y ajusta los colores en E_visual a "Púrpuras y Turquesas".`,
         reference_image_guide: `Sube una foto tuya con el cabello suelto. La IA simulará el efecto de cabello mojado y las gotas de agua sobre tu piel.`
@@ -2781,7 +2781,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
-        tags: [{ id: "t-art", name: "Fine Art", slug: "fine-art" }, { id: "t-bw", name: "B&W", slug: "black-white" }],
+        tags: [{ id: "t-fine-art", name: "Fine Art", slug: "fine-art" }, { id: "t-bw", name: "B&W", slug: "black-white" }],
         customization_guide: "# Editorial Fine Art\nSustituye el caballo por otro elemento simbólico si lo deseas, pero mantén la iluminación de alto contraste.",
         reference_image_guide: "Una foto con gafas de sol y actitud seria encajará perfectamente."
     },

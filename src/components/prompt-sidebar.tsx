@@ -1,11 +1,18 @@
-'use client';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Search, X, Star } from "lucide-react";
+import { Search, X, Star, Filter } from "lucide-react";
 import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import { Tag } from "@/types/content";
+import {
+    Sheet,
+    SheetContent,
+    SheetDescription,
+    SheetHeader,
+    SheetTitle,
+    SheetTrigger,
+} from "@/components/ui/sheet";
 
 interface PromptSidebarProps {
     categories: string[];
@@ -13,6 +20,64 @@ interface PromptSidebarProps {
 }
 
 export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps) {
+    const [isOpen, setIsOpen] = useState(false);
+
+    // Close sheet when resizing to desktop
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth >= 1024) {
+                setIsOpen(false);
+            }
+        };
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    return (
+        <>
+            {/* Mobile Trigger */}
+            <div className="lg:hidden w-full mb-6">
+                <Sheet open={isOpen} onOpenChange={setIsOpen}>
+                    <SheetTrigger asChild>
+                        <Button variant="outline" className="w-full justify-between border-purple-500/30 bg-slate-900/50 backdrop-blur-sm text-slate-300 hover:text-white hover:bg-purple-900/20">
+                            <span className="flex items-center gap-2">
+                                <Filter className="h-4 w-4 text-purple-400" />
+                                Filters & Search
+                            </span>
+                            <Search className="h-4 w-4 opacity-50" />
+                        </Button>
+                    </SheetTrigger>
+                    <SheetContent side="left" className="w-[300px] border-r-slate-800 bg-slate-950 p-6 overflow-y-auto">
+                        <SheetHeader className="mb-6">
+                            <SheetTitle className="text-white">Filter Prompts</SheetTitle>
+                            <SheetDescription className="text-slate-400">
+                                Search and filter prompts by category or tag.
+                            </SheetDescription>
+                        </SheetHeader>
+                        <SidebarContent
+                            categories={categories}
+                            tags={tags}
+                            onNavigate={() => setIsOpen(false)}
+                        />
+                    </SheetContent>
+                </Sheet>
+            </div>
+
+            {/* Desktop Sidebar */}
+            <div className="hidden lg:block rounded-xl border border-purple-500/20 bg-slate-900/50 p-6 backdrop-blur-sm sticky top-24">
+                <SidebarContent categories={categories} tags={tags} />
+            </div>
+        </>
+    );
+}
+
+interface SidebarContentProps {
+    categories: string[];
+    tags: Tag[];
+    onNavigate?: () => void;
+}
+
+function SidebarContent({ categories, tags, onNavigate }: SidebarContentProps) {
     const router = useRouter();
     const pathname = usePathname();
     const searchParams = useSearchParams();
@@ -44,12 +109,13 @@ export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps
     const handleClearFilters = () => {
         setSearchTerm('');
         router.push(pathname);
+        if (onNavigate) onNavigate();
     };
 
     const hasFilters = currentCategory || currentTag || currentSearch;
 
     return (
-        <div className="rounded-xl border border-purple-500/20 bg-slate-900/50 p-6 backdrop-blur-sm sticky top-24">
+        <>
             <div className="mb-8">
                 <div className="flex items-center justify-between mb-4">
                     <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider">Search Prompts</h3>
@@ -88,7 +154,7 @@ export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps
                         newParams.delete('page'); // Reset pagination on category change
 
                         return (
-                            <Link href={`${pathname}?${newParams.toString()}`} key={cat}>
+                            <Link href={`${pathname}?${newParams.toString()}`} key={cat} onClick={onNavigate}>
                                 <Button
                                     variant="ghost"
                                     className={`w-full justify-start h-9 mb-1 ${isActive ? 'bg-purple-600/20 text-white' : 'text-slate-300 hover:text-white hover:bg-white/5'}`}
@@ -122,6 +188,7 @@ export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps
                                 <Link
                                     href={`${pathname}?${newParams.toString()}`}
                                     key={tag.id}
+                                    onClick={onNavigate}
                                     className={`px-3 py-1 rounded-full border text-xs transition-all ${isActive
                                         ? 'bg-purple-600/30 border-purple-500 text-white shadow-[0_0_10px_rgba(168,85,247,0.3)]'
                                         : 'bg-slate-800 border-slate-700 text-slate-300 hover:border-purple-500 hover:text-purple-300'
@@ -141,10 +208,10 @@ export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps
                     <span className="font-bold text-sm">Become a Pro</span>
                 </div>
                 <p className="text-xs text-slate-300 mb-4">Get access to extensive commercial prompts and master guides.</p>
-                <Link href="/pricing" className="block">
+                <Link href="/pricing" className="block" onClick={onNavigate}>
                     <Button size="sm" className="w-full bg-purple-600 hover:bg-purple-500">Upgrade</Button>
                 </Link>
             </div>
-        </div>
+        </>
     );
 }

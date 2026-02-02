@@ -1,5 +1,329 @@
 export const EXTRA_MOCK_PROMPTS = [
     {
+        id: "lifestyle-9",
+        type: "prompt",
+        title: "Luxury Bedtime iPhone Selfie — Phone Glow + Warm Lamp Glass-Skin Mood",
+        slug: "luxury-bedtime-selfie",
+        summary: "Ultra-realistic 8K luxury bedtime iPhone selfie portrait con atmósfera cozy editorial.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Preservar estructura facial, peinado, tono de piel y expresión exactamente idénticos.
+- **Preservación total:** No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Retrato bedtime selfie estilo modelo off-duty en ambiente de lujo.
+- **Edad aparente:** Early 30s aesthetic
+- **Cabello:**
+  - Color: Dark chocolate
+  - Estilo: Loose voluminous waves, natural bedside texture
+- **Expresión:** Soft sleepy expression with slight smile.
+- **Detalle piel:**
+  - Glass-skin: Visible pores + moisturizer sheen natural
+  - Realismo: Skin texture altamente definida sin smoothing artificial
+- **Outfit:**
+  - Top: Champagne silk pajama camisole
+  - Detalle: Lace trim + thin straps elegante
+- **Accesorio:**
+  - Sleep mask: Matching satin sleep mask pushed onto forehead
+- **Calidad:** Ultra-realistic 8K iPhone-style lifestyle portrait rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Ubicación:** Luxury bedroom minimalista.
+- **Elementos:**
+  - High thread count cream bedding
+  - Fluffy down pillows
+  - Warm dim bedside lamp in background
+- **Atmósfera:** Cozy, intimate, high-end bedtime lifestyle.
+
+## A: Acción / Postura
+- **Pose:** Lying in bed taking a candid iPhone selfie.
+- **Detalle:** Head resting naturally in pillows, off-duty relaxed posture.
+- **Expresión:** Sleepy softness + subtle smile.
+- **Ojos:** Phone screen reflection visible in the eyes.
+
+## I: Iluminación
+- **Tipo:** Mixed lighting for organic blending (cool phone glow + warm lamp).
+- **Fuentes:**
+  - Phone screen softbox: Cool soft light centered on face, simulating iPhone screen glow
+  - Bedside lamp: Warm dim ambient lamp light in background for contrast
+- **Efecto:**
+  - Glass-skin highlight on cheeks and forehead
+  - Soft cinematic contrast cool vs warm
+  - Natural seamless blending with bedroom mood
+
+## S: Sensación / Atmósfera
+- **Mood:** Intimate, cozy, luxurious, sleepy elegance.
+- **Tono:** High-fashion model off-duty bedtime selfie vibe.
+
+## E: Estilo Visual
+- **Estilo general:** Ultra-photorealistic cinematic iPhone candid portrait.
+- **Detalles:**
+  - Cream luxury bedding textures
+  - Silk camisole sheen + lace detail
+  - Phone glow reflection in eyes
+  - Warm lamp bokeh background
+- **Acabado:** Organic blending, natural smartphone realism with editorial polish.
+- **Calidad:** Ultra-realistic 8K high-detail bedtime lifestyle aesthetic.
+
+## M: Composición / Cámara
+- **Camera Style:** iPhone 15 Pro Max selfie look
+- **Plano:** Close-up to medium close framing in bed.
+- **Ángulo:** Natural handheld selfie perspective.
+- **Enfoque:** Sharp focus en rostro y ojos, background softly blurred.
+- **Profundidad de campo:** Shallow DOF para vibe premium.
+
+## P: Postproducción
+- **Color grading:** Cool facial glow + warm bedside lamp contrast, cinematic soft tones.
+- **Contraste:** Suave-moderado, sin HDR exagerado.
+- **Nitidez:** Alta definición en piel, seda, ojos y bedding texture.
+- **Acabado final:** Ultra-realistic 8K luxury bedtime iPhone selfie portrait con atmósfera cozy editorial.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Luxury Bedtime iPhone Selfie — Phone Glow + Warm Lamp Glass-Skin Mood",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Preservar estructura facial, peinado, tono de piel y expresión exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Retrato bedtime selfie estilo modelo off-duty en ambiente de lujo.",
+                    "edad_aparente": "Early 30s aesthetic",
+                    "cabello": {
+                        "color": "Dark chocolate",
+                        "estilo": "Loose voluminous waves, natural bedside texture"
+                    },
+                    "expresion": "Soft sleepy expression with slight smile.",
+                    "detalle_piel": {
+                        "glass_skin": "Visible pores + moisturizer sheen natural",
+                        "realismo": "Skin texture altamente definida sin smoothing artificial"
+                    },
+                    "outfit": {
+                        "top": "Champagne silk pajama camisole",
+                        "detalle": "Lace trim + thin straps elegante"
+                    },
+                    "accesorio": {
+                        "sleep_mask": "Matching satin sleep mask pushed onto forehead"
+                    },
+                    "calidad": "Ultra-realistic 8K iPhone-style lifestyle portrait rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Luxury bedroom minimalista.",
+                    "elementos": [
+                        "High thread count cream bedding",
+                        "Fluffy down pillows",
+                        "Warm dim bedside lamp in background"
+                    ],
+                    "atmósfera": "Cozy, intimate, high-end bedtime lifestyle."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Lying in bed taking a candid iPhone selfie.",
+                    "detalle": "Head resting naturally in pillows, off-duty relaxed posture.",
+                    "expresion": "Sleepy softness + subtle smile.",
+                    "ojos": "Phone screen reflection visible in the eyes."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Mixed lighting for organic blending (cool phone glow + warm lamp).",
+                    "fuentes": {
+                        "phone_screen_softbox": "Cool soft light centered on face, simulating iPhone screen glow",
+                        "bedside_lamp": "Warm dim ambient lamp light in background for contrast"
+                    },
+                    "efecto": [
+                        "Glass-skin highlight on cheeks and forehead",
+                        "Soft cinematic contrast cool vs warm",
+                        "Natural seamless blending with bedroom mood"
+                    ]
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Intimate, cozy, luxurious, sleepy elegance.",
+                    "tono": "High-fashion model off-duty bedtime selfie vibe."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Ultra-photorealistic cinematic iPhone candid portrait.",
+                    "detalles": [
+                        "Cream luxury bedding textures",
+                        "Silk camisole sheen + lace detail",
+                        "Phone glow reflection in eyes",
+                        "Warm lamp bokeh background"
+                    ],
+                    "acabado": "Organic blending, natural smartphone realism with editorial polish.",
+                    "calidad": "Ultra-realistic 8K high-detail bedtime lifestyle aesthetic."
+                },
+                "M_Composicion_Camara": {
+                    "camera_style": "iPhone 15 Pro Max selfie look",
+                    "plano": "Close-up to medium close framing in bed.",
+                    "angulo": "Natural handheld selfie perspective.",
+                    "enfoque": "Sharp focus en rostro y ojos, background softly blurred.",
+                    "profundidad_de_campo": "Shallow DOF para vibe premium."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Cool facial glow + warm bedside lamp contrast, cinematic soft tones.",
+                    "contraste": "Suave-moderado, sin HDR exagerado.",
+                    "nitidez": "Alta definición en piel, seda, ojos y bedding texture.",
+                    "acabado_final": "Ultra-realistic 8K luxury bedtime iPhone selfie portrait con atmósfera cozy editorial."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/luxury-bedtime-selfie.png",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" },
+            { id: "t-selfie", name: "Selfie", slug: "selfie" },
+            { id: "t-luxury", name: "Luxury", slug: "luxury" }
+        ]
+    },
+    {
+        id: "lifestyle-8",
+        type: "prompt",
+        title: "Playful Golden Hour Wind Selfie — Tongue-Out Candid Close-Up",
+        slug: "playful-golden-hour-selfie",
+        summary: "Ultra-realistic 8K golden-hour candid wind selfie con mood espontáneo y cinematográfico.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Preservar estructura facial, tono de piel, peinado, expresión y rasgos físicos exactamente idénticos.
+- **Preservación total:** No alterar ni editar el rostro bajo ninguna circunstancia.
+- **Sujeto:** Joven mujer capturada en un selfie dinámico y espontáneo.
+- **Cabello:**
+  - Color: Light brown
+  - Estilo: Largo, liso, con mechones sueltos
+  - Detalle: Cabello moviéndose con el viento, strands catching the light
+- **Expresión:** Playful, candid, head slightly tilted, sticking tongue out.
+- **Detalle piel:** Textura natural realista, énfasis en skin detail y eye clarity.
+- **Calidad:** Ultra-realistic 8K cinematic selfie portrait rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Escena:** Outdoor golden hour setting con fondo suave desenfocado.
+- **Background:** Sunlit soft-focus environment, cálido y natural.
+- **Atmósfera:** Ligera, veraniega, espontánea, auténtica.
+
+## A: Acción / Postura
+- **Pose:** Close-up selfie angle dinámico.
+- **Detalle:**
+  - Head: Head slightly tilted
+  - Expresión: Tongue-out playful candid moment
+- **Lenguaje corporal:** Espontáneo, youthful, divertido.
+
+## I: Iluminación
+- **Tipo:** Warm natural golden hour lighting.
+- **Características:**
+  - Soft flattering illumination sobre el rostro
+  - Sombras suaves unificadas con el ambiente
+  - Highlights cálidos sobre mechones de cabello
+- **Efecto:** Cinematic glow natural con integración orgánica.
+
+## S: Sensación / Atmósfera
+- **Mood:** Playful, candid, warm, youthful.
+- **Tono:** Golden-hour lifestyle selfie con energía espontánea.
+
+## E: Estilo Visual
+- **Estilo general:** Photorealistic cinematic outdoor selfie portrait.
+- **Detalles:**
+  - Cabello al viento con luz cálida
+  - Textura de piel ultra definida
+  - Bokeh suave de fondo
+  - Natural candid expression
+- **Acabado:** Organic blending, seamless high-fashion lifestyle realism.
+- **Calidad:** Ultra-realistic 8K con estética natural premium.
+
+## M: Composición / Cámara
+- **Plano:** Dynamic close-up selfie framing.
+- **Ángulo:** Selfie perspective con ligera inclinación natural.
+- **Enfoque:** Sharp focus en ojos y rostro; background completamente suave.
+- **Profundidad de campo:** Shallow DOF cinematográfico.
+
+## P: Postproducción
+- **Color grading:** Warm golden tones naturales, sin saturación excesiva.
+- **Contraste:** Suave-moderado para mantener look auténtico.
+- **Nitidez:** Alta definición en piel, cabello y ojos.
+- **Acabado final:** Ultra-realistic 8K golden-hour candid wind selfie con mood espontáneo y cinematográfico.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Playful Golden Hour Wind Selfie — Tongue-Out Candid Close-Up",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Preservar estructura facial, tono de piel, peinado, expresión y rasgos físicos exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar el rostro bajo ninguna circunstancia.",
+                    "sujeto": "Joven mujer capturada en un selfie dinámico y espontáneo.",
+                    "cabello": {
+                        "color": "Light brown",
+                        "estilo": "Largo, liso, con mechones sueltos",
+                        "detalle": "Cabello moviéndose con el viento, strands catching the light"
+                    },
+                    "expresion": "Playful, candid, head slightly tilted, sticking tongue out.",
+                    "detalle_piel": "Textura natural realista, énfasis en skin detail y eye clarity.",
+                    "calidad": "Ultra-realistic 8K cinematic selfie portrait rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "escena": "Outdoor golden hour setting con fondo suave desenfocado.",
+                    "background": "Sunlit soft-focus environment, cálido y natural.",
+                    "atmósfera": "Ligera, veraniega, espontánea, auténtica."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Close-up selfie angle dinámico.",
+                    "detalle": {
+                        "head": "Head slightly tilted",
+                        "expresion": "Tongue-out playful candid moment"
+                    },
+                    "lenguaje_corporal": "Espontáneo, youthful, divertido."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Warm natural golden hour lighting.",
+                    "caracteristicas": [
+                        "Soft flattering illumination sobre el rostro",
+                        "Sombras suaves unificadas con el ambiente",
+                        "Highlights cálidos sobre mechones de cabello"
+                    ],
+                    "efecto": "Cinematic glow natural con integración orgánica."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Playful, candid, warm, youthful.",
+                    "tono": "Golden-hour lifestyle selfie con energía espontánea."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Photorealistic cinematic outdoor selfie portrait.",
+                    "detalles": [
+                        "Cabello al viento con luz cálida",
+                        "Textura de piel ultra definida",
+                        "Bokeh suave de fondo",
+                        "Natural candid expression"
+                    ],
+                    "acabado": "Organic blending, seamless high-fashion lifestyle realism.",
+                    "calidad": "Ultra-realistic 8K con estética natural premium."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Dynamic close-up selfie framing.",
+                    "angulo": "Selfie perspective con ligera inclinación natural.",
+                    "enfoque": "Sharp focus en ojos y rostro; background completamente suave.",
+                    "profundidad_de_campo": "Shallow DOF cinematográfico."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Warm golden tones naturales, sin saturación excesiva.",
+                    "contraste": "Suave-moderado para mantener look auténtico.",
+                    "nitidez": "Alta definición en piel, cabello y ojos.",
+                    "acabado_final": "Ultra-realistic 8K golden-hour candid wind selfie con mood espontáneo y cinematográfico."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "beginner",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/playful-golden-hour-selfie.jpg",
+        paywall_level: "pro",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" },
+            { id: "t-selfie", name: "Selfie", slug: "selfie" },
+            { id: "t-goldenhour", name: "Golden Hour", slug: "golden-hour" }
+        ]
+    },
+    {
         id: "fantasy-2",
         type: "prompt",
         title: "Pink Glow Ball Immersion Portrait — Magenta Saturated Editorial Fantasy",
