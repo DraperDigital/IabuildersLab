@@ -8671,5 +8671,610 @@ export const EXTRA_MOCK_PROMPTS = [
             { id: "t-fitness", name: "Fitness", slug: "fitness" },
             { id: "t-gym", name: "Gym", slug: "gym" }
         ]
+    },
+    {
+        id: "editorial-9",
+        type: "prompt",
+        title: "6-Frame Gen-Z VHS Collage — Pink Sunglasses + Camcorder REC Overlay",
+        slug: "gen-z-vhs-collage",
+        summary: "Ultra-realistic 8K Gen-Z camcorder collage portrait con estética editorial VHS futurista.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Preservar rasgos faciales, identidad y expresión exactamente idénticos.
+- **Preservación total:** No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Retrato editorial futurista dreamy con estética Gen-Z.
+- **Accesorios:**
+  - Sunglasses: Pink round-lens sunglasses
+  - Earrings: Pearl earrings
+- **Detalle piel:** Textura realista natural en rostro, sin smoothing artificial.
+- **Calidad:** Ultra-realistic 8K fashion portrait rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Fondo:** Neutral light gray studio background limpio.
+- **Escena:** Estudio minimalista sin props físicos adicionales.
+- **Atmósfera:** Dreamy, ethereal, futuristic Gen-Z vibe.
+
+## A: Acción / Postura
+- **Estructura:** Collage cinematográfico de seis retratos distintos.
+- **Variaciones:**
+  - Shots: Close-up portraits, Medium shots
+  - Expresión: Fashion editorial calm, slightly ethereal
+  - Movimiento: Slight motion blur en algunos frames para efecto dreamy
+- **Lenguaje corporal:** Editorial moderno, suave y futurista.
+
+## I: Iluminación
+- **Tipo:** Clean studio lighting con sombras suaves.
+- **Características:**
+  - Iluminación uniforme profesional
+  - Soft shadows controladas
+  - Glow sutil para atmósfera etérea
+- **Efecto:** Look fashion editorial limpio con acabado cinematográfico.
+
+## S: Sensación / Atmósfera
+- **Mood:** Gen-Z futuristic, dreamy, ethereal, retro-tech.
+- **Tono:** Fashion collage con nostalgia VHS moderna.
+
+## E: Estilo Visual
+- **Estilo general:** Photorealistic editorial collage con textura VHS retro.
+- **Detalles:**
+  - Retro VHS grain and texture overlay
+  - Digital camcorder interface en cada frame
+  - Slight motion blur para dreamy softness
+- **Overlay UI:**
+  - Elementos: Battery icon, Red 'REC' text, Unique white timer values per frame
+  - Función: Simular grabación camcorder estética Y2K futurista
+- **Calidad:** Ultra-realistic 8K con acabado fashion + VHS dream.
+
+## M: Composición / Cámara
+- **Layout:** Six distinct portrait frames arranged as cinematic collage grid.
+- **Encuadre:** Mix de close-up y medium shots para variedad editorial.
+- **Enfoque:** Sharp focus en identidad facial en cada frame; blur solo como efecto estilístico leve.
+- **Profundidad de campo:** Shallow DOF suave para look premium.
+
+## P: Postproducción
+- **Color grading:** Neutral studio tones con vibe retro-dream futurista.
+- **Textura:** Subtle VHS grain + camcorder UI overlays.
+- **Contraste:** Soft-moderate para mantener delicadeza etérea.
+- **Nitidez:** Alta definición en rostro, gafas, perlas y detalles de recording UI.
+- **Acabado final:** Ultra-realistic 8K Gen-Z camcorder collage portrait con estética editorial VHS futurista.
+`,
+        prompt_text: JSON.stringify({
+            "title": "6-Frame Gen-Z VHS Collage — Pink Sunglasses + Camcorder REC Overlay",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Preservar rasgos faciales, identidad y expresión exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Retrato editorial futurista dreamy con estética Gen-Z.",
+                    "accesorios": {
+                        "sunglasses": "Pink round-lens sunglasses",
+                        "earrings": "Pearl earrings"
+                    },
+                    "detalle_piel": "Textura realista natural en rostro, sin smoothing artificial.",
+                    "calidad": "Ultra-realistic 8K fashion portrait rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "fondo": "Neutral light gray studio background limpio.",
+                    "escena": "Estudio minimalista sin props físicos adicionales.",
+                    "atmósfera": "Dreamy, ethereal, futuristic Gen-Z vibe."
+                },
+                "A_Accion_Postura": {
+                    "estructura": "Collage cinematográfico de seis retratos distintos.",
+                    "variaciones": {
+                        "shots": [
+                            "Close-up portraits",
+                            "Medium shots"
+                        ],
+                        "expresion": "Fashion editorial calm, slightly ethereal",
+                        "movimiento": "Slight motion blur en algunos frames para efecto dreamy"
+                    },
+                    "lenguaje_corporal": "Editorial moderno, suave y futurista."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Clean studio lighting con sombras suaves.",
+                    "caracteristicas": [
+                        "Iluminación uniforme profesional",
+                        "Soft shadows controladas",
+                        "Glow sutil para atmósfera etérea"
+                    ],
+                    "efecto": "Look fashion editorial limpio con acabado cinematográfico."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Gen-Z futuristic, dreamy, ethereal, retro-tech.",
+                    "tono": "Fashion collage con nostalgia VHS moderna."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Photorealistic editorial collage con textura VHS retro.",
+                    "detalles": [
+                        "Retro VHS grain and texture overlay",
+                        "Digital camcorder interface en cada frame",
+                        "Slight motion blur para dreamy softness"
+                    ],
+                    "overlay_UI": {
+                        "elementos": [
+                            "Battery icon",
+                            "Red 'REC' text",
+                            "Unique white timer values per frame"
+                        ],
+                        "funcion": "Simular grabación camcorder estética Y2K futurista"
+                    },
+                    "calidad": "Ultra-realistic 8K con acabado fashion + VHS dream."
+                },
+                "M_Composicion_Camara": {
+                    "layout": "Six distinct portrait frames arranged as cinematic collage grid.",
+                    "encuadre": "Mix de close-up y medium shots para variedad editorial.",
+                    "enfoque": "Sharp focus en identidad facial en cada frame; blur solo como efecto estilístico leve.",
+                    "profundidad_de_campo": "Shallow DOF suave para look premium."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Neutral studio tones con vibe retro-dream futurista.",
+                    "textura": "Subtle VHS grain + camcorder UI overlays.",
+                    "contraste": "Soft-moderate para mantener delicadeza etérea.",
+                    "nitidez": "Alta definición en rostro, gafas, perlas y detalles de recording UI.",
+                    "acabado_final": "Ultra-realistic 8K Gen-Z camcorder collage portrait con estética editorial VHS futurista."
+                }
+            }
+        }, null, 2),
+        category: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: false,
+        featured_image_url: "/images/prompts/gen-z-vhs-collage.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-collage", name: "Collage", slug: "collage" },
+            { id: "t-vhs", name: "VHS", slug: "vhs" },
+            { id: "t-editorial", name: "Editorial", slug: "editorial" }
+        ]
+    },
+    {
+        id: "fashion-2",
+        type: "prompt",
+        title: "Black-and-White Hoodie Editorial Portrait — Seated Introspective Studio Pose",
+        slug: "bw-hoodie-portrait",
+        summary: "Ultra-realistic 8K monochrome hoodie portrait con atmósfera introspectiva de estudio.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen de referencia como identidad principal. Preservar estructura facial, rasgos, tono de piel, peinado y expresión exactamente idénticos.
+- **Preservación total:** No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Retrato editorial en blanco y negro con pose contemplativa.
+- **Outfit:**
+  - Prenda: Oversized washed-fabric hoodie
+  - Detalle: Textura realista, folds naturales y apariencia auténtica de tela lavada
+- **Expresión:** Introspectiva, calmada, emocionalmente contenida.
+- **Calidad:** Ultra-realistic 8K monochrome studio portrait rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Fondo:** Clean seamless white studio backdrop.
+- **Escena:** Minimalista, sin objetos ni props adicionales.
+- **Objetivo:** Aislar al sujeto como foco emocional principal.
+
+## A: Acción / Postura
+- **Pose:** Sentada, inclinada hacia adelante con elbows on knees.
+- **Manos:**
+  - Posicion: Hands clasped
+  - Detalle: One thumb gently touching the forehead
+- **Lenguaje corporal:** Contemplativo, introspectivo, editorial fashion calm.
+
+## I: Iluminación
+- **Tipo:** Soft directional studio lighting.
+- **Características:**
+  - Luz suave pero con dirección definida
+  - Sombras delicadas que esculpen el rostro
+  - Iluminación premium high-end editorial
+- **Efecto:** Contraste elegante en blanco y negro con mood íntimo.
+
+## S: Sensación / Atmósfera
+- **Mood:** Introspective, calm, timeless, editorial.
+- **Tono:** High-end fashion portrait con emoción silenciosa.
+
+## E: Estilo Visual
+- **Estilo general:** Ultra-realistic black-and-white studio fashion editorial.
+- **Detalles:**
+  - Monochrome tonal separation rica
+  - Textura auténtica en hoodie fabric
+  - Sombras suaves direccionales en fondo blanco
+- **Acabado:** Timeless, minimal, cinematic fashion portrait.
+- **Calidad:** Ultra-realistic 8K con look fine-art editorial.
+
+## M: Composición / Cámara
+- **Plano:** Medium portrait framing, seated forward pose.
+- **Ángulo:** Eye-level ligeramente cercano para intensidad emocional.
+- **Encuadre:** Sujeto centrado, fondo blanco limpio como espacio negativo.
+- **Enfoque:** Sharp focus en rostro y manos; hoodie folds claramente definidos.
+- **Profundidad de campo:** Shallow DOF suave para acabado premium.
+
+## P: Postproducción
+- **Color grading:** Black-and-white conversion con contrastes finos y suaves midtones.
+- **Nitidez:** Alta definición en piel, textura de tela y expresión facial.
+- **Contraste:** Moderado-high editorial sin perder suavidad.
+- **Acabado final:** Ultra-realistic 8K monochrome hoodie portrait con atmósfera introspectiva de estudio.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Black-and-White Hoodie Editorial Portrait — Seated Introspective Studio Pose",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen de referencia como identidad principal. Preservar estructura facial, rasgos, tono de piel, peinado y expresión exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Retrato editorial en blanco y negro con pose contemplativa.",
+                    "outfit": {
+                        "prenda": "Oversized washed-fabric hoodie",
+                        "detalle": "Textura realista, folds naturales y apariencia auténtica de tela lavada"
+                    },
+                    "expresion": "Introspectiva, calmada, emocionalmente contenida.",
+                    "calidad": "Ultra-realistic 8K monochrome studio portrait rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "fondo": "Clean seamless white studio backdrop.",
+                    "escena": "Minimalista, sin objetos ni props adicionales.",
+                    "objetivo": "Aislar al sujeto como foco emocional principal."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada, inclinada hacia adelante con elbows on knees.",
+                    "manos": {
+                        "posicion": "Hands clasped",
+                        "detalle": "One thumb gently touching the forehead"
+                    },
+                    "lenguaje_corporal": "Contemplativo, introspectivo, editorial fashion calm."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Soft directional studio lighting.",
+                    "caracteristicas": [
+                        "Luz suave pero con dirección definida",
+                        "Sombras delicadas que esculpen el rostro",
+                        "Iluminación premium high-end editorial"
+                    ],
+                    "efecto": "Contraste elegante en blanco y negro con mood íntimo."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Introspective, calm, timeless, editorial.",
+                    "tono": "High-end fashion portrait con emoción silenciosa."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Ultra-realistic black-and-white studio fashion editorial.",
+                    "detalles": [
+                        "Monochrome tonal separation rica",
+                        "Textura auténtica en hoodie fabric",
+                        "Sombras suaves direccionales en fondo blanco"
+                    ],
+                    "acabado": "Timeless, minimal, cinematic fashion portrait.",
+                    "calidad": "Ultra-realistic 8K con look fine-art editorial."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Medium portrait framing, seated forward pose.",
+                    "angulo": "Eye-level ligeramente cercano para intensidad emocional.",
+                    "encuadre": "Sujeto centrado, fondo blanco limpio como espacio negativo.",
+                    "enfoque": "Sharp focus en rostro y manos; hoodie folds claramente definidos.",
+                    "profundidad_de_campo": "Shallow DOF suave para acabado premium."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Black-and-white conversion con contrastes finos y suaves midtones.",
+                    "nitidez": "Alta definición en piel, textura de tela y expresión facial.",
+                    "contraste": "Moderado-high editorial sin perder suavidad.",
+                    "acabado_final": "Ultra-realistic 8K monochrome hoodie portrait con atmósfera introspectiva de estudio."
+                }
+            }
+        }, null, 2),
+        category: "Fashion",
+        level: "advanced",
+        is_published: true,
+        is_featured: false,
+        featured_image_url: "/images/prompts/bw-hoodie-portrait.png",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-fashion", name: "Fashion", slug: "fashion" },
+            { id: "t-bnw", name: "Black & White", slug: "black-white" },
+            { id: "t-editorial", name: "Editorial", slug: "editorial" },
+            { id: "t-studio", name: "Studio", slug: "studio" }
+        ]
+    },
+    {
+        id: "lifestyle-9",
+        type: "prompt",
+        title: "Poolside Fashion Editorial Portrait — Colorful Bikini + Butterfly Tattoo",
+        slug: "poolside-fashion-portrait",
+        summary: "Ultra-realistic 8K poolside fashion editorial portrait con atmósfera limpia y comercial.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar la imagen adjunta como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y rasgos físicos exactamente idénticos.
+- **Preservación total:** No alterar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.
+- **Sujeto:** Retrato lifestyle editorial en ambiente de piscina.
+- **Detalle corporal:** Proporciones naturales, look saludable y atlético, sin exageraciones anatómicas.
+- **Tattoo:** Tiny butterfly tattoo visible en la espalda.
+- **Outfit:**
+  - Tipo: Colorful patterned bikini (high-fashion swimwear styling)
+  - Descripción: Diseño moderno con colores vibrantes y ajuste elegante, estilo editorial.
+- **Expresión:** Sonrisa natural, mood relajado y veraniego.
+- **Calidad:** Ultra-realistic 8K swimwear fashion portrait rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Ubicación:** Pool setting exterior con atmósfera luminosa.
+- **Background:** Agua azul desenfocada y entorno minimalista veraniego.
+- **Atmósfera:** Resort lifestyle, clean, bright, editorial.
+
+## A: Acción / Postura
+- **Pose:** Medium shot ligeramente inclinado (canted angle) para dinamismo visual.
+- **Lenguaje corporal:** Relajado, confident, casual poolside vibe.
+
+## I: Iluminación
+- **Tipo:** Natural daylight pool lighting.
+- **Características:**
+  - Highlights suaves sobre piel y agua
+  - Sombras naturales balanceadas
+  - Look cinematográfico veraniego
+- **Efecto:** Look cinematográfico veraniego.
+
+## S: Sensación / Atmósfera
+- **Mood:** Fresh, confident, summery, fashion editorial.
+- **Tono:** Lifestyle resort aesthetic con elegancia moderna.
+
+## E: Estilo Visual
+- **Estilo general:** Photorealistic swimwear editorial portrait.
+- **Detalles:**
+  - Textura realista de piel
+  - Colores vibrantes del bikini
+  - Tatuaje mariposa como detalle distintivo
+  - Pool bokeh background
+- **Calidad:** Ultra-realistic 8K clean fashion photography look.
+
+## M: Composición / Cámara
+- **Plano:** Medium shot landscape framing.
+- **Ángulo:** Slight canted angle para estética editorial.
+- **Enfoque:** Sharp focus en rostro y tattoo detail; fondo suavemente desenfocado.
+- **Profundidad de campo:** Shallow DOF cinematográfico.
+
+## P: Postproducción
+- **Color grading:** Warm summer tones con contraste suave.
+- **Nitidez:** Alta definición en piel, bikini fabric y tattoo detail.
+- **Acabado final:** Ultra-realistic 8K poolside fashion editorial portrait con atmósfera limpia y comercial.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Poolside Fashion Editorial Portrait — Colorful Bikini + Butterfly Tattoo",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar la imagen adjunta como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y rasgos físicos exactamente idénticos.",
+                    "preservacion_total": "No alterar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.",
+                    "sujeto": "Retrato lifestyle editorial en ambiente de piscina.",
+                    "detalle_corporal": "Proporciones naturales, look saludable y atlético, sin exageraciones anatómicas.",
+                    "tattoo": "Tiny butterfly tattoo visible en la espalda.",
+                    "outfit": {
+                        "tipo": "Colorful patterned bikini (high-fashion swimwear styling)",
+                        "descripcion": "Diseño moderno con colores vibrantes y ajuste elegante, estilo editorial."
+                    },
+                    "expresion": "Sonrisa natural, mood relajado y veraniego.",
+                    "calidad": "Ultra-realistic 8K swimwear fashion portrait rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Pool setting exterior con atmósfera luminosa.",
+                    "background": "Agua azul desenfocada y entorno minimalista veraniego.",
+                    "atmósfera": "Resort lifestyle, clean, bright, editorial."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Medium shot ligeramente inclinado (canted angle) para dinamismo visual.",
+                    "lenguaje_corporal": "Relajado, confident, casual poolside vibe."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Natural daylight pool lighting.",
+                    "caracteristicas": [
+                        "Highlights suaves sobre piel y agua",
+                        "Sombras naturales balanceadas",
+                        "Look cinematográfico veraniego"
+                    ]
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Fresh, confident, summery, fashion editorial.",
+                    "tono": "Lifestyle resort aesthetic con elegancia moderna."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Photorealistic swimwear editorial portrait.",
+                    "detalles": [
+                        "Textura realista de piel",
+                        "Colores vibrantes del bikini",
+                        "Tatuaje mariposa como detalle distintivo",
+                        "Pool bokeh background"
+                    ],
+                    "calidad": "Ultra-realistic 8K clean fashion photography look."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Medium shot landscape framing.",
+                    "angulo": "Slight canted angle para estética editorial.",
+                    "enfoque": "Sharp focus en rostro y tattoo detail; fondo suavemente desenfocado.",
+                    "profundidad_de_campo": "Shallow DOF cinematográfico."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Warm summer tones con contraste suave.",
+                    "nitidez": "Alta definición en piel, bikini fabric y tattoo detail.",
+                    "acabado_final": "Ultra-realistic 8K poolside fashion editorial portrait con atmósfera limpia y comercial."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: false,
+        featured_image_url: "/images/prompts/poolside-fashion-portrait.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-summer", name: "Summer", slug: "summer" },
+            { id: "t-swimwear", name: "Swimwear", slug: "swimwear" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ]
+    },
+    {
+        id: "lifestyle-10",
+        type: "prompt",
+        title: "Intimate Dressing Chair Portrait — Kodak Film Camera + Warm Nostalgic 35mm Mood (8K)",
+        slug: "intimate-dressing-chair",
+        summary: "Ultra-realistic 8K intimate editorial portrait with warm nostalgic film atmosphere.",
+        body_markdown: `
+# Framework REAISEMP
+
+## R: Render del Avatar
+- **Identidad:** Usar el modelo de referencia como identidad principal. Mantener ojos, contorno facial, cejas, nariz y boca 100% idénticos. No editar el rostro.
+- **Preservación total:** No alterar ni modificar ningún rasgo facial o físico bajo ninguna circunstancia. Identidad bloqueada.
+- **Sujeto:** Retrato íntimo lifestyle editorial en ambiente privado y cálido.
+- **Pose base:** Full body sitting on a dressing chair, arms wrapped around knees.
+- **Outfit:**
+  - Top: Long white shirt oversize
+  - Bottom: Shorts minimalistas
+  - Socks: White lace long socks
+- **Prop:**
+  - Camera: Retro-style Kodak film camera held close to the face
+- **Detalle piel:** Textura auténtica, natural, sin suavizado artificial.
+- **Calidad:** Ultra-realistic 8K intimate portrait rendering con fidelidad absoluta.
+
+## E: Entorno
+- **Ubicación:** Interior cálido tipo dressing room o espacio privado.
+- **Escena:** Lifestyle editorial con atmósfera íntima, tranquila y nostálgica.
+- **Background:**
+  - Golden brown gradient backdrop suave
+  - No elementos distractores, ambiente minimalista
+- **Atmósfera:** Private warm editorial moment, nostalgic film mood.
+
+## A: Acción / Postura
+- **Pose:** Sentado en una silla de vestidor con ambas rodillas recogidas.
+- **Detalle:**
+  - Ambos brazos rodeando las rodillas
+  - Cámara Kodak sostenida cerca del rostro como gesto íntimo
+- **Lenguaje corporal:** Warm, introspective, private, emotionally close.
+
+## I: Iluminación
+- **Tipo:** Warm ambient light with cinematic movie tone.
+- **Características:**
+  - Luz cálida envolvente
+  - Sombras suaves delicadas
+  - Highlights sutiles sobre piel y tela blanca
+  - Atmosfera nostálgica tipo cine
+- **Efecto:** Golden intimate lighting with soft warmth.
+
+## S: Sensación / Atmósfera
+- **Mood:** Nostalgic, warm, private, intimate editorial lifestyle.
+- **Tono:** Soft emotional closeness with cinematic calm.
+
+## E: Estilo Visual
+- **Estilo general:** Hyper-realistic lifestyle portrait with 35mm film aesthetic.
+- **Detalles:**
+  - Soft focus cinematic intimacy
+  - Delicate film grain texture
+  - Golden brown nostalgic palette
+  - Editorial warm private atmosphere
+- **Acabado:** Analog-inspired movie lifestyle realism.
+- **Calidad:** Ultra-realistic 8K with subtle 35mm grain finish.
+
+## M: Composición / Cámara
+- **Plano:** Full body portrait seated on dressing chair.
+- **Ángulo:** Eye-level intimate framing, close enough to feel personal.
+- **Encuadre:** Subject centered, arms and camera forming emotional focal triangle.
+- **Profundidad de campo:** Soft shallow DOF with nostalgic softness.
+- **Enfoque:** Sharpest focus on eyes and facial features, softer on background.
+
+## P: Postproducción
+- **Color grading:** Warm golden-brown movie-grade tones.
+- **Contraste:** Soft low contrast for nostalgic intimacy.
+- **Nitidez:** Ultra detail in facial texture, lace socks, Kodak camera surface.
+- **Film efecto:** Delicate 35mm grain added for authenticity.
+- **Acabado final:** Ultra-realistic 8K intimate editorial portrait with warm nostalgic film atmosphere and absolute face fidelity.
+`,
+        prompt_text: JSON.stringify({
+            "title": "Intimate Dressing Chair Portrait — Kodak Film Camera + Warm Nostalgic 35mm Mood (8K)",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "identidad": "Usar el modelo de referencia como identidad principal. Mantener ojos, contorno facial, cejas, nariz y boca 100% idénticos. No editar el rostro.",
+                    "preservacion_total": "No alterar ni modificar ningún rasgo facial o físico bajo ninguna circunstancia. Identidad bloqueada.",
+                    "sujeto": "Retrato íntimo lifestyle editorial en ambiente privado y cálido.",
+                    "pose_base": "Full body sitting on a dressing chair, arms wrapped around knees.",
+                    "outfit": {
+                        "top": "Long white shirt oversize",
+                        "bottom": "Shorts minimalistas",
+                        "socks": "White lace long socks"
+                    },
+                    "prop": {
+                        "camera": "Retro-style Kodak film camera held close to the face"
+                    },
+                    "detalle_piel": "Textura auténtica, natural, sin suavizado artificial.",
+                    "calidad": "Ultra-realistic 8K intimate portrait rendering con fidelidad absoluta."
+                },
+                "E_Entorno": {
+                    "ubicacion": "Interior cálido tipo dressing room o espacio privado.",
+                    "escena": "Lifestyle editorial con atmósfera íntima, tranquila y nostálgica.",
+                    "background": [
+                        "Golden brown gradient backdrop suave",
+                        "No elementos distractores, ambiente minimalista"
+                    ],
+                    "atmósfera": "Private warm editorial moment, nostalgic film mood."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentado en una silla de vestidor con ambas rodillas recogidas.",
+                    "detalle": [
+                        "Ambos brazos rodeando las rodillas",
+                        "Cámara Kodak sostenida cerca del rostro como gesto íntimo"
+                    ],
+                    "lenguaje_corporal": "Warm, introspective, private, emotionally close."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Warm ambient light with cinematic movie tone.",
+                    "caracteristicas": [
+                        "Luz cálida envolvente",
+                        "Sombras suaves delicadas",
+                        "Highlights sutiles sobre piel y tela blanca",
+                        "Atmosfera nostálgica tipo cine"
+                    ],
+                    "efecto": "Golden intimate lighting with soft warmth."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Nostalgic, warm, private, intimate editorial lifestyle.",
+                    "tono": "Soft emotional closeness with cinematic calm."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Hyper-realistic lifestyle portrait with 35mm film aesthetic.",
+                    "detalles": [
+                        "Soft focus cinematic intimacy",
+                        "Delicate film grain texture",
+                        "Golden brown nostalgic palette",
+                        "Editorial warm private atmosphere"
+                    ],
+                    "acabado": "Analog-inspired movie lifestyle realism.",
+                    "calidad": "Ultra-realistic 8K with subtle 35mm grain finish."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Full body portrait seated on dressing chair.",
+                    "angulo": "Eye-level intimate framing, close enough to feel personal.",
+                    "encuadre": "Subject centered, arms and camera forming emotional focal triangle.",
+                    "profundidad_de_campo": "Soft shallow DOF with nostalgic softness.",
+                    "enfoque": "Sharpest focus on eyes and facial features, softer on background."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Warm golden-brown movie-grade tones.",
+                    "contraste": "Soft low contrast for nostalgic intimacy.",
+                    "nitidez": "Ultra detail in facial texture, lace socks, Kodak camera surface.",
+                    "film_effect": "Delicate 35mm grain added for authenticity.",
+                    "acabado_final": "Ultra-realistic 8K intimate editorial portrait with warm nostalgic film atmosphere and absolute face fidelity."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: false,
+        featured_image_url: "/images/prompts/intimate-dressing-chair.png",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-film", name: "Film Photography", slug: "film-photography" },
+            { id: "t-intimate", name: "Intimate", slug: "intimate" },
+            { id: "t-indoor", name: "Indoor", slug: "indoor" }
+        ]
     }
 ];

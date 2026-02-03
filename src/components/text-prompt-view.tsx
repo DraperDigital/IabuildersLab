@@ -5,6 +5,7 @@ import { ContentItem } from "@/types/content";
 import { PromptSidebar } from "@/components/prompt-sidebar";
 import { PromptDisplay } from "@/components/prompt-display";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 interface TextPromptViewProps {
     prompt: ContentItem;
@@ -70,11 +71,16 @@ export function TextPromptView({ prompt, prevPrompt, nextPrompt, categories, tag
                 {/* Featured Image (if available) - Added for simple text prompts that have images */}
                 {prompt.featured_image_url && (
                     <div className="mb-10 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 aspect-video relative group">
-                        <img
-                            src={prompt.featured_image_url}
-                            alt={prompt.title}
-                            className="w-full h-full object-cover"
-                        />
+                        <div className="relative w-full h-full">
+                            <Image
+                                src={prompt.featured_image_url}
+                                alt={prompt.title}
+                                fill
+                                className="object-cover"
+                                sizes="(max-width: 1200px) 100vw, 1200px"
+                                priority
+                            />
+                        </div>
                     </div>
                 )}
 
