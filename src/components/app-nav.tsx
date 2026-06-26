@@ -2,6 +2,7 @@
 
 import { Link, usePathname } from "@/i18n/routing"
 import { cn } from "@/lib/utils"
+import { useTranslations } from "next-intl"
 import {
     LayoutDashboard,
     Layers,
@@ -14,18 +15,19 @@ import {
 } from "lucide-react"
 
 const navItems = [
-    { href: "/app", label: "Dashboard", icon: LayoutDashboard },
-    { href: "/app/systems", label: "Systems", icon: Layers },
-    { href: "/app/prompts", label: "Prompts", icon: Terminal },
-    { href: "/app/automations", label: "Automations", icon: Workflow },
-    { href: "/app/assets", label: "Assets", icon: FileText },
-    { href: "/app/favorites", label: "Favorites", icon: Star },
-    { href: "/app/updates", label: "Updates", icon: Bell },
-    { href: "/app/account", label: "Account", icon: User },
+    { href: "/app", key: "dashboard", icon: LayoutDashboard },
+    { href: "/app/systems", key: "systems", icon: Layers },
+    { href: "/app/prompts", key: "prompts", icon: Terminal },
+    { href: "/app/automations", key: "automations", icon: Workflow },
+    { href: "/app/assets", key: "assets", icon: FileText },
+    { href: "/app/favorites", key: "favorites", icon: Star },
+    { href: "/app/updates", key: "updates", icon: Bell },
+    { href: "/app/account", key: "account", icon: User },
 ]
 
 export function AppNav({ className }: { className?: string }) {
     const pathname = usePathname()
+    const t = useTranslations('AppNav')
 
     return (
         <nav className={cn("grid items-start gap-2 p-4 text-sm font-medium", className)}>
@@ -41,7 +43,7 @@ export function AppNav({ className }: { className?: string }) {
                         )}
                     >
                         <Icon className="h-4 w-4" />
-                        {item.label}
+                        {t(item.key as any)}
                     </Link>
                 )
             })}

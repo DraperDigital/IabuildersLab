@@ -15,6 +15,7 @@ import { Sparkles } from "lucide-react";
 import { getDistinctCategories } from "@/actions/content-actions";
 import { getUsedTags } from "@/actions/tags";
 import { TextPromptView } from "@/components/text-prompt-view";
+import { getTranslations } from "next-intl/server";
 
 function isJsonString(str: string | undefined | null) {
     if (!str) return false;
@@ -35,6 +36,7 @@ interface PromptDetailPageProps {
 
 export default async function PromptDetailPage({ params }: PromptDetailPageProps) {
     const { slug } = await params;
+    const t = await getTranslations('Prompts');
 
     const promptIndex = ALL_MOCK_CONTENT.findIndex(p => p.slug === slug);
     const prompt = ALL_MOCK_CONTENT[promptIndex];
@@ -110,7 +112,7 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
                             <div className="flex items-center justify-between mb-6">
                                 <Link href="/prompts" className="inline-flex items-center gap-2 text-slate-400 hover:text-white transition-colors">
                                     <ArrowLeft className="h-4 w-4" />
-                                    Back to Library
+                                    {t('backToLibrary')}
                                 </Link>
 
                                 <div className="flex items-center gap-3">

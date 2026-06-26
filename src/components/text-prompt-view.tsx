@@ -6,6 +6,7 @@ import { PromptSidebar } from "@/components/prompt-sidebar";
 import { PromptDisplay } from "@/components/prompt-display";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface TextPromptViewProps {
     prompt: ContentItem;
@@ -17,6 +18,8 @@ interface TextPromptViewProps {
 }
 
 export function TextPromptView({ prompt, prevPrompt, nextPrompt, categories, tags, isLocked }: TextPromptViewProps) {
+    const t = useTranslations('Prompts');
+
     return (
         <div className="flex flex-col lg:flex-row gap-12">
             {/* Left Column: Content */}
@@ -25,7 +28,7 @@ export function TextPromptView({ prompt, prevPrompt, nextPrompt, categories, tag
                 <div className="flex items-center justify-between mb-8">
                     <Link href="/prompts" className="inline-flex items-center gap-2 text-slate-400 hover:text-white transition-colors">
                         <ArrowLeft className="h-4 w-4" />
-                        Back to Library
+                        {t('backToLibrary')}
                     </Link>
 
                     <div className="flex items-center gap-3">

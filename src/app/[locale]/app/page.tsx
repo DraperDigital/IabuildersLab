@@ -2,54 +2,57 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Terminal, Workflow, Star } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
-export default function AppDashboardPage() {
+export default async function AppDashboardPage() {
+    const t = await getTranslations('AppDashboard');
+
     return (
         <div className="space-y-8">
             <div>
-                <h1 className="text-3xl font-bold">Welcome back!</h1>
-                <p className="text-muted-foreground">Here's what's new in your workspace.</p>
+                <h1 className="text-3xl font-bold">{t('welcome')}</h1>
+                <p className="text-muted-foreground">{t('subtitle')}</p>
             </div>
 
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
                 <Card>
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                        <CardTitle className="text-sm font-medium">Systems</CardTitle>
+                        <CardTitle className="text-sm font-medium">{t('systems')}</CardTitle>
                         <BookOpen className="h-4 w-4 text-muted-foreground" />
                     </CardHeader>
                     <CardContent>
                         <div className="text-2xl font-bold">78</div>
-                        <p className="text-xs text-muted-foreground">Unlocked content</p>
+                        <p className="text-xs text-muted-foreground">{t('unlockedContent')}</p>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                        <CardTitle className="text-sm font-medium">Prompts</CardTitle>
+                        <CardTitle className="text-sm font-medium">{t('prompts')}</CardTitle>
                         <Terminal className="h-4 w-4 text-muted-foreground" />
                     </CardHeader>
                     <CardContent>
                         <div className="text-2xl font-bold">124</div>
-                        <p className="text-xs text-muted-foreground">Available templates</p>
+                        <p className="text-xs text-muted-foreground">{t('availableTemplates')}</p>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                        <CardTitle className="text-sm font-medium">Automations</CardTitle>
+                        <CardTitle className="text-sm font-medium">{t('automations')}</CardTitle>
                         <Workflow className="h-4 w-4 text-muted-foreground" />
                     </CardHeader>
                     <CardContent>
                         <div className="text-2xl font-bold">42</div>
-                        <p className="text-xs text-muted-foreground">Ready blueprints</p>
+                        <p className="text-xs text-muted-foreground">{t('readyBlueprints')}</p>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                        <CardTitle className="text-sm font-medium">Favorites</CardTitle>
+                        <CardTitle className="text-sm font-medium">{t('favorites')}</CardTitle>
                         <Star className="h-4 w-4 text-muted-foreground" />
                     </CardHeader>
                     <CardContent>
                         <div className="text-2xl font-bold">12</div>
-                        <p className="text-xs text-muted-foreground">Saved items</p>
+                        <p className="text-xs text-muted-foreground">{t('savedItems')}</p>
                     </CardContent>
                 </Card>
             </div>
@@ -57,7 +60,7 @@ export default function AppDashboardPage() {
             <div className="grid gap-6 md:grid-cols-2">
                 <Card>
                     <CardHeader>
-                        <CardTitle>Recent Activity</CardTitle>
+                        <CardTitle>{t('recentActivity')}</CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-4">
                         <div className="flex items-start gap-4">
@@ -65,8 +68,8 @@ export default function AppDashboardPage() {
                                 <BookOpen className="h-4 w-4 text-primary" />
                             </div>
                             <div className="flex-1">
-                                <p className="text-sm font-medium">AI Research System</p>
-                                <p className="text-xs text-muted-foreground">Viewed 2 hours ago</p>
+                                <p className="text-sm font-medium">{t('aiResearchSystem')}</p>
+                                <p className="text-xs text-muted-foreground">{t('viewedHoursAgo', { count: 2 })}</p>
                             </div>
                         </div>
                         <div className="flex items-start gap-4">
@@ -74,8 +77,8 @@ export default function AppDashboardPage() {
                                 <Terminal className="h-4 w-4 text-primary" />
                             </div>
                             <div className="flex-1">
-                                <p className="text-sm font-medium">SEO Content Generator</p>
-                                <p className="text-xs text-muted-foreground">Saved yesterday</p>
+                                <p className="text-sm font-medium">{t('seoGenerator')}</p>
+                                <p className="text-xs text-muted-foreground">{t('savedYesterday')}</p>
                             </div>
                         </div>
                     </CardContent>
@@ -83,25 +86,25 @@ export default function AppDashboardPage() {
 
                 <Card>
                     <CardHeader>
-                        <CardTitle>Quick Actions</CardTitle>
+                        <CardTitle>{t('quickActions')}</CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-3">
                         <Link href="/app/systems">
                             <Button variant="outline" className="w-full justify-start">
                                 <BookOpen className="mr-2 h-4 w-4" />
-                                Browse Systems
+                                {t('browseSystems')}
                             </Button>
                         </Link>
                         <Link href="/app/prompts">
                             <Button variant="outline" className="w-full justify-start">
                                 <Terminal className="mr-2 h-4 w-4" />
-                                Explore Prompts
+                                {t('explorePrompts')}
                             </Button>
                         </Link>
                         <Link href="/app/automations">
                             <Button variant="outline" className="w-full justify-start">
                                 <Workflow className="mr-2 h-4 w-4" />
-                                View Automations
+                                {t('viewAutomations')}
                             </Button>
                         </Link>
                     </CardContent>

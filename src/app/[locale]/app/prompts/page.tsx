@@ -2,6 +2,7 @@ import { listContent } from "@/actions/content-actions";
 import { getTags } from "@/actions/tags";
 import { SystemCard } from "@/components/system-card";
 import { ContentFilters } from "@/components/app/content-filters";
+import { getTranslations } from "next-intl/server";
 
 interface AppPromptsPageProps {
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
@@ -25,12 +26,13 @@ export default async function AppPromptsPage(props: AppPromptsPageProps) {
 
     const prompts = promptsResult.data || [];
     const tags = tagsResult.data || [];
+    const t = await getTranslations('Prompts');
 
     return (
         <div className="space-y-6">
             <div>
-                <h1 className="text-3xl font-bold">Prompts Library</h1>
-                <p className="text-muted-foreground">Your complete collection of AI prompts.</p>
+                <h1 className="text-3xl font-bold">{t('libraryTitle')}</h1>
+                <p className="text-muted-foreground">{t('librarySubtitle')}</p>
             </div>
 
             <ContentFilters tags={tags} />
@@ -42,7 +44,7 @@ export default async function AppPromptsPage(props: AppPromptsPageProps) {
                     ))
                 ) : (
                     <div className="col-span-full text-center py-12 text-muted-foreground">
-                        No prompts found matching your criteria.
+                        {t('noFound')}
                     </div>
                 )}
             </div>

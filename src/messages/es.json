@@ -4,7 +4,14 @@
         "subtitle": "Una biblioteca privada de sistemas de IA, frameworks de prompts y blueprints de automatización.",
         "getAccess": "Obtener Acceso",
         "browseSystems": "Explorar Sistemas",
-        "login": "Iniciar Sesión"
+        "login": "Iniciar Sesión",
+        "aiPowered": "Repositorio Impulsado por IA",
+        "systemsTitle": "78+ Sistemas",
+        "systemsDesc": "Flujos de trabajo listos para producción",
+        "promptsTitle": "100+ Prompts",
+        "promptsDesc": "Plantillas de prompts probadas en batalla",
+        "automationsTitle": "50+ Automatizaciones",
+        "automationsDesc": "Blueprints de automatización copiar-pegar"
     },
     "Systems": {
         "title": "Repositorio de Sistemas",
@@ -14,7 +21,10 @@
         "viewDetails": "Ver Detalles",
         "back": "Volver a Sistemas",
         "locked": "Este sistema está bloqueado",
-        "lockedDesc": "Desbloquea este sistema y más de 50 otros con un plan workspace."
+        "lockedDesc": "Desbloquea este sistema y más de 50 otros con un plan workspace.",
+        "libraryTitle": "Biblioteca de Sistemas",
+        "librarySubtitle": "Tu colección completa de sistemas de IA.",
+        "searchPlaceholder": "Buscar sistemas..."
     },
     "Login": {
         "title": "Bienvenido de nuevo",
@@ -38,7 +48,13 @@
         "title": "Biblioteca de Prompts",
         "subtitle": "Prompts de alto impacto para ChatGPT, Claude y Gemini.",
         "readPrompt": "Obtener Prompt",
-        "viewDetails": "Ver Detalles"
+        "viewDetails": "Ver Detalles",
+        "backToLibrary": "Volver a la Biblioteca",
+        "libraryTitle": "Biblioteca de Prompts",
+        "librarySubtitle": "Tu colección completa de prompts de IA.",
+        "searchPlaceholder": "Buscar prompts...",
+        "all": "Todos",
+        "noFound": "No se encontraron prompts que coincidan con tu búsqueda."
     },
     "CopyLibrary": {
         "title": "Copy Library",
@@ -52,7 +68,10 @@
         "title": "Blueprints de Automatización",
         "subtitle": "Flujos de trabajo copiar-pegar para Zapier, Make y n8n.",
         "readAutomation": "Obtener Blueprint",
-        "viewDetails": "Ver Detalles"
+        "viewDetails": "Ver Detalles",
+        "libraryTitle": "Blueprints de Automatización",
+        "librarySubtitle": "Tu colección completa de flujos de trabajo de automatización.",
+        "searchPlaceholder": "Buscar automatizaciones..."
     },
     "Common": {
         "brand": "IA Builders Lab",
@@ -205,7 +224,8 @@
         "legal": "Legal",
         "privacy": "Política de Privacidad",
         "terms": "Términos de Servicio",
-        "rights": "Todos los derechos reservados."
+        "rights": "Todos los derechos reservados.",
+        "tagline": "Empoderando a los creadores con flujos de trabajo, prompts y sistemas impulsados por IA para la próxima generación de constructores."
     },
     "Privacy": {
         "title": "Política de Privacidad",
@@ -240,5 +260,85 @@
         "promptsDesc": "Domina el arte de crear prompts con nuestras guías completas y mejores prácticas.",
         "tutorialsTitle": "Tutoriales",
         "tutorialsDesc": "Tutoriales en video paso a paso y guías para casos de uso avanzados."
+    },
+    "Header": {
+        "systems": "Sistemas",
+        "prompts": "Prompts",
+        "copyLibrary": "Biblioteca de Copy",
+        "automations": "Automatizaciones",
+        "pricing": "Precios",
+        "dashboard": "Dashboard",
+        "login": "Iniciar Sesión",
+        "signOut": "Cerrar Sesión",
+        "menu": "Menú",
+        "search": "Buscar...",
+        "admin": "Administrador"
+    },
+    "AppNav": {
+        "dashboard": "Dashboard",
+        "systems": "Sistemas",
+        "prompts": "Prompts",
+        "automations": "Automatizaciones",
+        "assets": "Activos",
+        "favorites": "Favoritos",
+        "updates": "Actualizaciones",
+        "account": "Cuenta"
+    },
+    "AppDashboard": {
+        "welcome": "¡Bienvenido de nuevo!",
+        "subtitle": "Esto es lo nuevo en tu espacio de trabajo.",
+        "systems": "Sistemas",
+        "unlockedContent": "Contenido desbloqueado",
+        "prompts": "Prompts",
+        "availableTemplates": "Plantillas disponibles",
+        "automations": "Automatizaciones",
+        "readyBlueprints": "Blueprints listos",
+        "favorites": "Favoritos",
+        "savedItems": "Elementos guardados",
+        "recentActivity": "Actividad Reciente",
+        "quickActions": "Acciones Rápidas",
+        "browseSystems": "Explorar Sistemas",
+        "explorePrompts": "Explorar Prompts",
+        "viewAutomations": "Ver Automatizaciones",
+        "aiResearchSystem": "Sistema de Investigación IA",
+        "viewedHoursAgo": "Visto hace {count} horas",
+        "seoGenerator": "Generador de Contenido SEO",
+        "savedYesterday": "Guardado ayer"
+    },
+    "AppAssets": {
+        "title": "Activos y Recursos",
+        "subtitle": "Plantillas, guías y recursos descargables.",
+        "comingSoon": "Próximamente",
+        "comingSoonDesc": "Estamos preparando plantillas exclusivas, hojas de trucos y paquetes de recursos para ti."
+    },
+    "AppFavorites": {
+        "title": "Favoritos",
+        "subtitle": "Tu contenido guardado y favorito.",
+        "noFavorites": "Aún no hay favoritos",
+        "noFavoritesDesc": "Comienza a guardar tus sistemas, prompts y automatizaciones favoritas para acceder a ellos rápidamente."
+    },
+    "AppUpdates": {
+        "title": "Actualizaciones y Anuncios",
+        "subtitle": "Mantente al día con nuevos contenidos y características.",
+        "new": "nuevo",
+        "update": "actualización"
+    },
+    "AppAccount": {
+        "title": "Configuración de la Cuenta",
+        "subtitle": "Administra tu perfil y suscripción.",
+        "profileTitle": "Información del Perfil",
+        "profileDesc": "Actualiza tus datos personales.",
+        "fullName": "Nombre Completo",
+        "email": "Correo Electrónico",
+        "saveChanges": "Guardar Cambios",
+        "subscriptionTitle": "Suscripción",
+        "subscriptionDesc": "Administra tu facturación y plan.",
+        "currentPlan": "Plan Actual",
+        "active": "Activo",
+        "changePlan": "Cambiar Plan",
+        "cancelSubscription": "Cancelar Suscripción",
+        "dangerZone": "Zona de Peligro",
+        "dangerZoneDesc": "Acciones irreversibles de la cuenta.",
+        "deleteAccount": "Eliminar Cuenta"
     }
 }

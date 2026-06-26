@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Search, X } from "lucide-react";
 import { useDebouncedCallback } from "use-debounce";
 import { Tag } from "@/types/content";
+import { useTranslations } from "next-intl";
 
 interface ContentFiltersProps {
     tags: Tag[];
@@ -16,6 +17,7 @@ export function ContentFilters({ tags }: ContentFiltersProps) {
     const router = useRouter();
     const pathname = usePathname();
     const searchParams = useSearchParams();
+    const t = useTranslations('Prompts');
 
     const currentTag = searchParams.get('tag');
     const currentSearch = searchParams.get('search') || '';
@@ -56,7 +58,7 @@ export function ContentFilters({ tags }: ContentFiltersProps) {
                 <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
                 <Input
                     type="text"
-                    placeholder="Search prompts..."
+                    placeholder={t('searchPlaceholder')}
                     className="pl-8"
                     defaultValue={currentSearch}
                     onChange={(e) => handleSearch(e.target.value)}
@@ -69,7 +71,7 @@ export function ContentFilters({ tags }: ContentFiltersProps) {
                         variant={currentTag === null ? "default" : "secondary"}
                         className="cursor-pointer hover:opacity-80 transition-opacity"
                     >
-                        All
+                        {t('all')}
                     </Badge>
                 </Link>
                 {tags.map((tag) => (

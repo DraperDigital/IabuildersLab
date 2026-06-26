@@ -1,37 +1,40 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Bell } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { getTranslations } from "next-intl/server";
 
 const MOCK_UPDATES = [
     {
         id: "1",
-        title: "New AI Sales System Added",
-        description: "Check out our latest system for automating sales workflows with AI agents.",
+        title: "Nuevo Sistema de Ventas con IA Añadido",
+        description: "Conoce nuestro último sistema para automatizar flujos de trabajo de ventas con agentes de IA.",
         date: "2024-05-15",
         type: "new"
     },
     {
         id: "2",
-        title: "Prompt Library Updated",
-        description: "30+ new prompts added for content creation and SEO.",
+        title: "Biblioteca de Prompts Actualizada",
+        description: "Más de 30 nuevos prompts añadidos para creación de contenido y SEO.",
         date: "2024-05-12",
         type: "update"
     },
     {
         id: "3",
-        title: "Automation Blueprint: CRM Integration",
-        description: "New Make.com blueprint for syncing customer data across tools.",
+        title: "Blueprint de Automatización: Integración con CRM",
+        description: "Nuevo blueprint de Make.com para sincronizar datos de clientes entre herramientas.",
         date: "2024-05-10",
         type: "new"
     }
 ];
 
-export default function AppUpdatesPage() {
+export default async function AppUpdatesPage() {
+    const t = await getTranslations('AppUpdates');
+
     return (
         <div className="space-y-6">
             <div>
-                <h1 className="text-3xl font-bold">Updates & Announcements</h1>
-                <p className="text-muted-foreground">Stay up to date with new content and features.</p>
+                <h1 className="text-3xl font-bold">{t('title')}</h1>
+                <p className="text-muted-foreground">{t('subtitle')}</p>
             </div>
 
             <div className="space-y-4">
@@ -49,7 +52,7 @@ export default function AppUpdatesPage() {
                                     </div>
                                 </div>
                                 <Badge variant={update.type === "new" ? "default" : "secondary"}>
-                                    {update.type}
+                                    {t(update.type as any)}
                                 </Badge>
                             </div>
                         </CardHeader>

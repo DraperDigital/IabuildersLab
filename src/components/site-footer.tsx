@@ -1,5 +1,5 @@
 import { Link } from "@/i18n/routing";
-import { Sparkles, Facebook, Instagram } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export function SiteFooter() {
@@ -10,12 +10,11 @@ export function SiteFooter() {
             <div className="container mx-auto px-4 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
                     <div className="md:col-span-1">
-                        <Link href="/" className="font-bold text-xl text-white flex items-center gap-2 mb-4">
-                            <Sparkles className="h-6 w-6 text-purple-400" />
-                            IA Builders Lab
+                        <Link href="/" className="mb-4 block w-fit">
+                            <img src="/logo-horizontal.png" alt="IA Builders Lab" className="h-8 object-contain" />
                         </Link>
                         <p className="text-sm text-purple-200/80 leading-relaxed">
-                            Empowering creators with AI-driven workflows, prompts, and systems for the next generation of builders.
+                            {t('tagline')}
                         </p>
                     </div>
 

@@ -37,7 +37,7 @@ export default async function LandingPage() {
         <div className="flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center text-center">
           <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-purple-500/10 px-4 py-2 border border-purple-500/30">
             <Zap className="h-4 w-4 text-purple-400" />
-            <span className="text-sm font-medium text-purple-300">AI-Powered Repository</span>
+            <span className="text-sm font-medium text-purple-300">{t('aiPowered')}</span>
           </div>
 
           <h1 className="text-5xl font-bold tracking-tight sm:text-7xl mb-6 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
@@ -69,24 +69,24 @@ export default async function LandingPage() {
               <div className="rounded-full bg-purple-500/20 w-12 h-12 flex items-center justify-center mb-4 mx-auto">
                 <Code2 className="h-6 w-6 text-purple-400" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">78+ Systems</h3>
-              <p className="text-sm text-purple-300">Production-ready AI workflows</p>
+              <h3 className="text-lg font-semibold text-white mb-2">{t('systemsTitle')}</h3>
+              <p className="text-sm text-purple-300">{t('systemsDesc')}</p>
             </div>
 
             <div className="glass-effect rounded-xl p-6 border border-purple-500/30 hover:border-purple-500/60 transition-all hover:scale-105">
               <div className="rounded-full bg-blue-500/20 w-12 h-12 flex items-center justify-center mb-4 mx-auto">
                 <Sparkles className="h-6 w-6 text-blue-400" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">100+ Prompts</h3>
-              <p className="text-sm text-purple-300">Battle-tested prompt templates</p>
+              <h3 className="text-lg font-semibold text-white mb-2">{t('promptsTitle')}</h3>
+              <p className="text-sm text-purple-300">{t('promptsDesc')}</p>
             </div>
 
             <div className="glass-effect rounded-xl p-6 border border-purple-500/30 hover:border-purple-500/60 transition-all hover:scale-105">
               <div className="rounded-full bg-pink-500/20 w-12 h-12 flex items-center justify-center mb-4 mx-auto">
                 <Zap className="h-6 w-6 text-pink-400" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">50+ Automations</h3>
-              <p className="text-sm text-purple-300">Copy-paste workflow blueprints</p>
+              <h3 className="text-lg font-semibold text-white mb-2">{t('automationsTitle')}</h3>
+              <p className="text-sm text-purple-300">{t('automationsDesc')}</p>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function AppLayout({
         <div className="flex h-screen overflow-hidden">
             <aside className="hidden h-full w-64 md:flex flex-col border-r">
                 <div className="flex h-16 items-center border-b px-6">
-                    <span className="font-bold text-lg">IA Builders</span>
+                    <img src="/logo-horizontal.png" alt="IA Builders" className="h-8 object-contain" />
                 </div>
                 <AppNav className="flex-1" />
             </aside>

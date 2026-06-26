@@ -1,12 +1,15 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { FileText } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
-export default function AppAssetsPage() {
+export default async function AppAssetsPage() {
+    const t = await getTranslations('AppAssets');
+
     return (
         <div className="space-y-6">
             <div>
-                <h1 className="text-3xl font-bold">Assets & Resources</h1>
-                <p className="text-muted-foreground">Downloadable templates, guides, and resources.</p>
+                <h1 className="text-3xl font-bold">{t('title')}</h1>
+                <p className="text-muted-foreground">{t('subtitle')}</p>
             </div>
 
             <div className="flex items-center justify-center min-h-[400px]">
@@ -15,11 +18,11 @@ export default function AppAssetsPage() {
                         <div className="mx-auto rounded-full bg-muted p-4 w-fit mb-4">
                             <FileText className="h-8 w-8 text-muted-foreground" />
                         </div>
-                        <CardTitle>Coming Soon</CardTitle>
+                        <CardTitle>{t('comingSoon')}</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <p className="text-muted-foreground">
-                            We're preparing exclusive templates, cheat sheets, and resource packs for you.
+                            {t('comingSoonDesc')}
                         </p>
                     </CardContent>
                 </Card>

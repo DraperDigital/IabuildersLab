@@ -4,7 +4,14 @@
         "subtitle": "A private library of AI systems, prompt frameworks, and automation blueprints.",
         "getAccess": "Get Access",
         "browseSystems": "Browse Systems",
-        "login": "Login"
+        "login": "Login",
+        "aiPowered": "AI-Powered Repository",
+        "systemsTitle": "78+ Systems",
+        "systemsDesc": "Production-ready AI workflows",
+        "promptsTitle": "100+ Prompts",
+        "promptsDesc": "Battle-tested prompt templates",
+        "automationsTitle": "50+ Automations",
+        "automationsDesc": "Copy-paste workflow blueprints"
     },
     "Systems": {
         "title": "Systems Repository",
@@ -14,7 +21,10 @@
         "viewDetails": "View Details",
         "back": "Back to Systems",
         "locked": "This system is locked",
-        "lockedDesc": "Unlock this research system and 50+ others with a workspace plan."
+        "lockedDesc": "Unlock this research system and 50+ others with a workspace plan.",
+        "libraryTitle": "Systems Library",
+        "librarySubtitle": "Your complete collection of AI systems.",
+        "searchPlaceholder": "Search systems..."
     },
     "Login": {
         "title": "Welcome back",
@@ -38,13 +48,22 @@
         "title": "Prompt Library",
         "subtitle": "High-impact prompts for ChatGPT, Claude, and Gemini.",
         "readPrompt": "Get Prompt",
-        "viewDetails": "View Details"
+        "viewDetails": "View Details",
+        "backToLibrary": "Back to Library",
+        "libraryTitle": "Prompts Library",
+        "librarySubtitle": "Your complete collection of AI prompts.",
+        "searchPlaceholder": "Search prompts...",
+        "all": "All",
+        "noFound": "No prompts found matching your criteria."
     },
     "Automations": {
         "title": "Automation Blueprints",
         "subtitle": "Copy-paste workflows for Zapier, Make, and n8n.",
         "readAutomation": "Get Blueprint",
-        "viewDetails": "View Details"
+        "viewDetails": "View Details",
+        "libraryTitle": "Automation Blueprints",
+        "librarySubtitle": "Your complete collection of automation workflows.",
+        "searchPlaceholder": "Search automations..."
     },
     "Common": {
         "brand": "IA Builders Lab",
@@ -196,7 +215,8 @@
         "legal": "Legal",
         "privacy": "Privacy Policy",
         "terms": "Terms of Service",
-        "rights": "All rights reserved."
+        "rights": "All rights reserved.",
+        "tagline": "Empowering creators with AI-driven workflows, prompts, and systems for the next generation of builders."
     },
     "Privacy": {
         "title": "Privacy Policy",
@@ -231,5 +251,85 @@
         "promptsDesc": "Master the art of prompting with our comprehensive guides and best practices.",
         "tutorialsTitle": "Tutorials",
         "tutorialsDesc": "Step-by-step video tutorials and walkthroughs for advanced use cases."
+    },
+    "Header": {
+        "systems": "Systems",
+        "prompts": "Prompts",
+        "copyLibrary": "Copy Library",
+        "automations": "Automations",
+        "pricing": "Pricing",
+        "dashboard": "Dashboard",
+        "login": "Login",
+        "signOut": "Sign Out",
+        "menu": "Menu",
+        "search": "Search...",
+        "admin": "Admin"
+    },
+    "AppNav": {
+        "dashboard": "Dashboard",
+        "systems": "Systems",
+        "prompts": "Prompts",
+        "automations": "Automations",
+        "assets": "Assets",
+        "favorites": "Favorites",
+        "updates": "Updates",
+        "account": "Account"
+    },
+    "AppDashboard": {
+        "welcome": "Welcome back!",
+        "subtitle": "Here's what's new in your workspace.",
+        "systems": "Systems",
+        "unlockedContent": "Unlocked content",
+        "prompts": "Prompts",
+        "availableTemplates": "Available templates",
+        "automations": "Automations",
+        "readyBlueprints": "Ready blueprints",
+        "favorites": "Favorites",
+        "savedItems": "Saved items",
+        "recentActivity": "Recent Activity",
+        "quickActions": "Quick Actions",
+        "browseSystems": "Browse Systems",
+        "explorePrompts": "Explore Prompts",
+        "viewAutomations": "View Automations",
+        "aiResearchSystem": "AI Research System",
+        "viewedHoursAgo": "Viewed {count} hours ago",
+        "seoGenerator": "SEO Content Generator",
+        "savedYesterday": "Saved yesterday"
+    },
+    "AppAssets": {
+        "title": "Assets & Resources",
+        "subtitle": "Downloadable templates, guides, and resources.",
+        "comingSoon": "Coming Soon",
+        "comingSoonDesc": "We're preparing exclusive templates, cheat sheets, and resource packs for you."
+    },
+    "AppFavorites": {
+        "title": "Favorites",
+        "subtitle": "Your saved and bookmarked content.",
+        "noFavorites": "No favorites yet",
+        "noFavoritesDesc": "Start saving your favorite systems, prompts, and automations to access them quickly."
+    },
+    "AppUpdates": {
+        "title": "Updates & Announcements",
+        "subtitle": "Stay up to date with new content and features.",
+        "new": "new",
+        "update": "update"
+    },
+    "AppAccount": {
+        "title": "Account Settings",
+        "subtitle": "Manage your profile and subscription.",
+        "profileTitle": "Profile Information",
+        "profileDesc": "Update your personal details.",
+        "fullName": "Full Name",
+        "email": "Email",
+        "saveChanges": "Save Changes",
+        "subscriptionTitle": "Subscription",
+        "subscriptionDesc": "Manage your billing and plan.",
+        "currentPlan": "Current Plan",
+        "active": "Active",
+        "changePlan": "Change Plan",
+        "cancelSubscription": "Cancel Subscription",
+        "dangerZone": "Danger Zone",
+        "dangerZoneDesc": "Irreversible account actions.",
+        "deleteAccount": "Delete Account"
     }
 }
