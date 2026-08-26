@@ -9276,5 +9276,363 @@ export const EXTRA_MOCK_PROMPTS = [
             { id: "t-intimate", name: "Intimate", slug: "intimate" },
             { id: "t-indoor", name: "Indoor", slug: "indoor" }
         ]
+    },
+    {
+        id: "lifestyle-chrome-pink-supercar",
+        type: "prompt",
+        title: "Chrome Pink Supercar Selfie — Casual Instagram Main Character Mood",
+        slug: "chrome-pink-supercar-selfie",
+        summary: "Prompt ultra-realista que coloca a tu avatar posando junto a un BMW i8 en un llamativo color cromo rosa espejo con estilo streetwear de lujo.",
+        body_markdown: `
+# Framework REAISEMP
+
+*   **R(Render):** Mujer joven (early 20s), cabello rubio platino fluyendo bajo gorra negra. Estructura facial bonita, ojos enfocados en pantalla del móvil.
+*   **E(Entorno):** Calle urbana moderna, edificios de cristal, pavimento adoquinado elegante.
+*   **A(Acción):** Posando con un brazo levantado tomando una selfie a un ángulo alto, apoyada ligeramente sobre la puerta del conductor de un BMW i8.
+*   **I(Iluminación):** Luz natural de día, reflejos en el cromo del vehículo.
+*   **S(Sensación):** Flex casual de lujo, vibra main character e Instagram-perfect.
+*   **E(Estilo):** Foto urbana candid de estilo de vida de alta definición.
+*   **M(Composición):** Plano medio-completo vertical, ella en el centro con el vehículo cromo rosa como co-estrella.
+*   **P(Post):** Paleta de colores súper contrastada y vibrante (Amarillo + Blanco + Rosa Cromo).
+        `,
+        prompt_text: JSON.stringify({
+            "title": "Chrome Pink Supercar Selfie — Casual Instagram Main Character Mood",
+            "framework_REAISEMP": {
+                "subject": {
+                    "description": "Young woman taking selfie next to chrome pink BMW i8, casual main character energy",
+                    "setting_rules": "street scene, luxury car, urban modern backdrop",
+                    "age": "early 20s",
+                    "expression": {
+                        "eyes": "focused on phone screen, taking selfie, casual confidence",
+                        "mouth": "relaxed, soft, natural",
+                        "brows": "relaxed, effortless",
+                        "overall": "unbothered, 'just casually next to a pink supercar' energy"
+                    },
+                    "hair": {
+                        "color": "platinum blonde",
+                        "style": "loose, flowing from under cap",
+                        "details": "messy-pretty, some pieces falling forward, effortless waves",
+                        "length": "medium-long, past shoulders"
+                    },
+                    "body": {
+                        "frame": "petite, slim, toned",
+                        "waist": "tiny, fully exposed midriff",
+                        "legs": "toned, athletic, fully visible",
+                        "stance": "casual lean against car, weight shifted"
+                    },
+                    "pose": {
+                        "position": "standing next to driver door of car, leaning slightly against it",
+                        "upper_body": {
+                            "action": "one arm UP holding phone for selfie",
+                            "phone_angle": "high, classic selfie position",
+                            "other_arm": "relaxed at side"
+                        },
+                        "lower_body": {
+                            "stance": "one leg straight, one slightly crossed or bent",
+                            "weight": "casual lean, hip near car",
+                            "energy": "relaxed but aware of angles"
+                        },
+                        "overall": "the 'caught me with this random supercar' pose that's definitely not random"
+                    },
+                    "clothing": {
+                        "top": {
+                            "type": "ultra cropped baby tee",
+                            "color": "bright YELLOW, sunshine yellow",
+                            "graphic": "small star or cute graphic on chest (or BANANA logo)",
+                            "fit": {
+                                "length": "EXTREME crop - ends just below chest, full stomach exposed",
+                                "tightness": "fitted, hugging curves",
+                                "sleeves": "short sleeves, casual"
+                            },
+                            "effect": "entire midriff visible from just under chest to shorts"
+                        },
+                        "bottom": {
+                            "type": "ultra mini athletic shorts",
+                            "color": "WHITE, clean bright white",
+                            "fit": {
+                                "style": "tight fitted athletic shorts",
+                                "length": "very short, upper thigh",
+                                "waist": "high-waisted, sits at natural waist",
+                                "effect": "shows full leg length, hugs curves"
+                            },
+                            "material": "stretchy athletic fabric, smooth"
+                        },
+                        "shoes": {
+                            "type": "white sneakers",
+                            "style": "clean, casual, athletic vibe",
+                            "effect": "completes sporty-cute look"
+                        }
+                    },
+                    "face": {
+                        "features": "pretty, big eyes, small nose, soft lips",
+                        "makeup": "natural, minimal, fresh-faced",
+                        "expression": "focused on selfie, casual pretty"
+                    }
+                },
+                "accessories": {
+                    "headwear": {
+                        "type": "baseball cap",
+                        "color": "BLACK",
+                        "style": "worn forward, classic",
+                        "logo": "small patch or logo visible",
+                        "effect": "sporty edge, hair flowing from underneath"
+                    },
+                    "headphones": {
+                        "type": "over-ear headphones",
+                        "color": "WHITE",
+                        "position": "around neck, not on ears",
+                        "style": "chunky, modern, like Beats or similar",
+                        "effect": "adds to casual 'just vibing' energy"
+                    },
+                    "device": {
+                        "type": "iPhone",
+                        "position": "held up high for selfie",
+                        "case": "dark case visible"
+                    }
+                },
+                "the_car": {
+                    "make": "BMW i8",
+                    "wrap": "CHROME PINK / rose gold mirror finish",
+                    "effect": {
+                        "reflection": "mirror chrome reflecting everything around",
+                        "color": "pink/rose gold, flashy, attention-grabbing",
+                        "energy": "luxury, flex, main character vehicle"
+                    },
+                    "position": "parked on street, she's standing next to driver side",
+                    "wheels": "black rims with pink accents matching wrap",
+                    "presence": "the car is a CO-STAR, not just background"
+                },
+                "environment": {
+                    "location": "modern urban area, upscale shopping district or hotel entrance",
+                    "ground": "cobblestone or nice pavement",
+                    "backdrop": {
+                        "buildings": "modern glass buildings, upscale retail",
+                        "elements": "architectural feature visible (sculptural element)",
+                        "other_cars": "normal cars parked nearby for contrast",
+                        "vibe": "wealthy area, nice neighborhood"
+                    },
+                    "time": "daytime, good natural light",
+                    "atmosphere": "urban luxury, casual wealth"
+                },
+                "photography": {
+                    "style": "candid-looking but obviously posed, lifestyle shot",
+                    "angle": "shot from front-side, capturing her full body + car",
+                    "quality": "high quality, could be iPhone or camera",
+                    "framing": "her centered, car visible behind/beside, environment context",
+                    "lighting": "natural daylight, flattering"
+                },
+                "color_story": {
+                    "her": {
+                        "top": "bright YELLOW",
+                        "shorts": "clean WHITE",
+                        "cap": "BLACK",
+                        "headphones": "WHITE",
+                        "shoes": "WHITE",
+                        "hair": "platinum BLONDE"
+                    },
+                    "car": "chrome PINK / rose gold",
+                    "overall": "yellow + white + pink chrome = eye-catching, vibrant, instagram-perfect"
+                },
+                "the_vibe": {
+                    "energy": "casual luxury, 'this is just my tuesday'",
+                    "mood": "unbothered, main character, casual flex",
+                    "contrast": "sporty casual outfit + absurd luxury car",
+                    "story": "she either owns this car or saw it and had to take a pic - either way she belongs next to it",
+                    "social_media": "this is THE instagram photo",
+                    "caption_energy": "'running errands' or '🩷' or no caption needed"
+                },
+                "critical_elements": {
+                    "outfit_combo": "yellow crop + white shorts = sporty cute, maximum skin",
+                    "midriff": "fully exposed, tiny waist on display",
+                    "cap_headphones": "the combo that says 'casual but styled'",
+                    "car_color": "chrome pink/rose gold = the main prop",
+                    "selfie_action": "caught in the act of taking the pic",
+                    "energy": "effortless but everything is intentional"
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/chrome-pink-supercar-selfie.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-urban", name: "Urban", slug: "urban" },
+            { id: "t-luxury", name: "Luxury", slug: "luxury" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Selfie con Supercar\nSustituye la descripción del avatar o la marca de la gorra si prefieres usar otra prenda. Ajusta el color del envoltorio del coche cambiando `CHROME PINK / rose gold` por otro tono (ej. `CHROME EMERALD GREEN`).",
+        reference_image_guide: "Usa una foto donde tu sujeto esté mirando directamente a la cámara para mantener la mirada fija en el teléfono del selfie de manera coherente."
+    },
+    {
+        id: "lifestyle-cozy-y2k-winter-selfie",
+        type: "prompt",
+        title: "REAISEMP_Human — Cozy Y2K Winter Selfie",
+        slug: "cozy-y2k-winter-selfie",
+        summary: "Prompt ultra-realista de retrato lifestyle en plano picado con estética Y2K, flash de cámara retro y ambiente acogedor de noche invernal junto a la chimenea.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven de piel clara bronceada, cabello rubio largo y voluminoso. Eyeliner alado y vestido sweater de punto crema oversized off-shoulder.
+*   **E(Entorno):** Salón acogedor de noche invernal. Chimenea de gas con llamas naranjas, alfombra blanca mullida de pelo sintético y suelo de madera oscura.
+*   **A(Acción / Postura):** Sentada en el suelo con piernas recogidas de lado, tomando una selfie con el brazo extendido desde arriba.
+*   **I(Iluminación):** Flash frontal directo (sombras duras de cámara antigua) combinado con la luz cálida de la chimenea.
+*   **S(Sensación / Atmósfera):** Cozy, íntimo, nostálgico, estética Y2K de influencer de noche de invierno.
+*   **E(Estilo Visual):** Fotografía lifestyle ultra realista, estética de cámara digital clásica (principios de los 2000), ligeramente imperfecta.
+*   **M(Composición / Cámara):** Plano medio picado (high-angle shot), encuadre casual y formato vertical 4:5.
+*   **P(Postproducción):** Tonos cálidos y desaturados, nitidez natural de piel y tejido de punto sin filtros artificiales.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Cozy Y2K Winter Selfie",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer joven de piel clara bronceada, apariencia natural y fotográfica.",
+                    "cabello": "Largo, rubio, voluminoso, con ondas sueltas y raya lateral.",
+                    "rostro": "Ojos color avellana, cejas definidas, eyeliner ligeramente alado, labios nude glossy y contouring suave.",
+                    "expresion": "Mirada suave y cautivadora, cabeza ligeramente inclinada hacia la derecha.",
+                    "vestimenta": "Vestido sweater de punto grueso color crema, oversized, con cuello off-shoulder mostrando hombros y clavículas, mangas largas y textura de trenzado pronunciada."
+                },
+                "E_Entorno": {
+                    "escena": "Salón acogedor con iluminación tenue durante una noche de invierno.",
+                    "fondo": "Chimenea de gas con llamas naranjas intensas a la izquierda, repisa blanca, ventana o puerta de cristal oscura y sillón beige en la esquina superior derecha.",
+                    "suelo": "Madera oscura parcialmente cubierta por una alfombra mullida de pelo sintético blanco."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada en el suelo con las piernas flexionadas y recogidas hacia un lado.",
+                    "accion": "Selfie tomada con un brazo extendido hacia la cámara.",
+                    "lenguaje_corporal": "Postura relajada, espontánea e íntima.",
+                    "angulo": "Plano en picado pronunciado mirando hacia la modelo."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Flash directo de cámara combinado con luz ambiental cálida de la chimenea.",
+                    "caracteristicas": "Flash frontal intenso con sombras marcadas detrás del sujeto y brillo cálido procedente del fuego.",
+                    "sombras": "Sombras duras pero naturales, características de una fotografía digital antigua."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Acogedor, íntimo, relajado y ligeramente nostálgico.",
+                    "tono": "Lifestyle de influencer con estética Y2K y vibra de noche invernal."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía lifestyle ultra realista con estética de cámara digital de principios de los 2000.",
+                    "acabado": "Natural, espontáneo y ligeramente imperfecto.",
+                    "paleta": "Neutros cálidos, crema, naranja del fuego y sombras marrón oscuro."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Selfie en plano medio desde una perspectiva elevada.",
+                    "angulo": "High-angle shot mirando hacia abajo.",
+                    "encuadre": "Composición casual, ligeramente imperfecta, con la modelo como punto focal.",
+                    "formato": "Vertical 4:5."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos cálidos y ligeramente desaturados con contraste propio de cámaras digitales antiguas.",
+                    "nitidez": "Detalle natural de piel, cabello y tejido de punto, sin apariencia artificial.",
+                    "acabado_final": "Realismo fotográfico, flash visible, estética Y2K auténtica y sensación de fotografía personal espontánea."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/cozy-y2k-winter-selfie.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-y2k", name: "Y2K", slug: "y2k" },
+            { id: "t-indoor", name: "Indoor", slug: "indoor" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Selfie Cozy Winter\nSustituye la descripción física del avatar (cabello, ojos, tono de piel) por la tuya. Ajusta la prenda (ej. cambia 'Vestido sweater de punto grueso color crema' por 'Polerón de lana negro') para renovar el outfit.",
+        reference_image_guide: "Usa una foto donde tu rostro se vea de frente o ligeramente perfilado de modo que el flash retro resalte tu mirada."
+    },
+    {
+        id: "lifestyle-electric-blue-mirror-selfie",
+        type: "prompt",
+        title: "REAISEMP_Human — Mirror Selfie Azul Eléctrico",
+        slug: "electric-blue-mirror-selfie",
+        summary: "Prompt ultra-realista de mirror selfie de cuerpo completo en un entorno interior minimalista y luminoso, destacando el vestido azul eléctrico brillante.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer adulta sentada en el suelo frente a un gran espejo. Coleta rubia alta con mechones sueltos, vestido mini ajustado azul brillante y calcetines blancos altos de estilo deportivo.
+*   **E(Entorno):** Habitación interior minimalista con paredes blancas, molduras decorativas y suelo de madera clara.
+*   **A(Acción / Postura):** Sentada en el suelo, mano derecha sosteniendo el móvil con funda plateada y flash activo apuntando al espejo. Mano izquierda levantando ligeramente el cabello, mirada hacia el reflejo.
+*   **I(Iluminación):** Iluminación interior brillante y flash directo del smartphone visible en el espejo con reflejos y destellos naturales.
+*   **S(Sensación / Atmósfera):** Moderno, limpio, seguro y juvenil. Vibe de contenido espontáneo de redes sociales.
+*   **E(Estilo Visual):** Fotografía mirror selfie de smartphone nítida y fotorrealista, textura natural de piel, vestido y madera.
+*   **M(Composición / Cámara):** Composición frontal de cuerpo completo reflejada en el espejo, con la modelo centrada.
+*   **P(Postproducción):** Tonos y colores limpios destacando el azul brillante y el fondo blanco con profundidad de campo natural.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Mirror Selfie Azul Eléctrico",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer adulta sentada en el suelo frente a un gran espejo, capturando una selfie de cuerpo completo.",
+                    "cabello": "Rubio, recogido en una coleta alta con mechones sueltos enmarcando el rostro.",
+                    "rostro": "Maquillaje glam, eyeliner winged y labios mate en tono mauve/rosa.",
+                    "expresion": "Neutral, segura y natural.",
+                    "vestimenta": "Vestido mini ajustado color azul brillante, combinado con calcetines blancos altos hasta media pantorrilla con detalle tipo swoosh negro."
+                },
+                "E_Entorno": {
+                    "escena": "Habitación interior minimalista y luminosa.",
+                    "fondo": "Paredes blancas con molduras decorativas y suelo de madera clara.",
+                    "elementos": [
+                        "Gran espejo de cuerpo completo apoyado en el suelo",
+                        "Superficie limpia y minimalista",
+                        "Detalles arquitectónicos blancos"
+                    ]
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada en el suelo frente al espejo con las piernas posicionadas naturalmente.",
+                    "accion": "La mano derecha sostiene el smartphone para realizar la selfie; la izquierda levanta el cabello o descansa cerca de la cabeza.",
+                    "lenguaje_corporal": "Relajado, seguro y espontáneo.",
+                    "mirada": "Dirigida hacia el reflejo del espejo."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación interior brillante combinada con flash directo del smartphone.",
+                    "caracteristicas": "Flash visible en el espejo, creando reflejos naturales y pequeñas variaciones de exposición.",
+                    "sombras": "Suaves, con sombras ligeramente marcadas alrededor del sujeto."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Moderno, limpio, juvenil y seguro.",
+                    "tono": "Lifestyle de influencer con estética casual y espontánea."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía mirror selfie ultra realista.",
+                    "acabado": "Natural, nítido y ligeramente imperfecto como contenido auténtico de redes sociales.",
+                    "detalle": "Textura real de piel, cabello, tejido del vestido y madera."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano de cuerpo completo sentado.",
+                    "angulo": "Perspectiva frontal mediante espejo.",
+                    "encuadre": "Modelo centrada y completamente visible dentro del espejo.",
+                    "dispositivo": "Smartphone con funda plateada/blanca y flash activo."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Colores limpios y naturales, destacando el azul brillante del vestido y los tonos blancos del entorno.",
+                    "nitidez": "Alta nitidez con profundidad de campo natural.",
+                    "acabado_final": "Fotografía realista de smartphone, sin apariencia de render 3D ni piel artificial."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/electric-blue-mirror-selfie.png",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-mirror", name: "Mirror Selfie", slug: "mirror-selfie" },
+            { id: "t-indoor", name: "Indoor", slug: "indoor" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Mirror Selfie\nModifica el color del vestido cambiando 'color azul brillante' por tu tono preferido (ej. 'color verde oliva'). Puedes sustituir los calcetines deportivos altos por zapatos de tacón o tenis casuales para cambiar el estilo de vestir.",
+        reference_image_guide: "Usa una foto de retrato clara donde la pose de tu cuerpo y manos sea similar para asegurar que el mapeo del rostro y los hombros encajen perfectamente en el espejo."
     }
 ];
