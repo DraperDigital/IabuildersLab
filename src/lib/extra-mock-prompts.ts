@@ -10032,5 +10032,104 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Balcón Nocturno\nEdita el texto frontal 'WANGHAF' por la palabra que quieras en tu sudadera. Puedes modificar el color del pantalón deportivo gris a otro tono o sustituir la gorra por el pelo libre.",
         reference_image_guide: "Usa una foto donde tu rostro esté perfilado de tres cuartos mirando ligeramente hacia arriba para encajar bien con la dirección de la mirada."
+    },
+    {
+        id: "lifestyle-paris-night-seine",
+        type: "prompt",
+        title: "REAISEMP_Human — Paris Night Portrait by the Seine",
+        slug: "paris-night-seine",
+        summary: "Prompt ultra-realista de retrato nocturno de viaje en París junto al río Sena. El avatar posa elegante con blazer negro frente a la Torre Eiffel iluminada.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven rubia, cabello largo y ondulado cayendo sobre los hombros, blazer negro con escote en V pronunciado, collar dorado y pendientes de aro.
+*   **E(Entorno):** Orilla del río Sena en París durante la noche. Torre Eiffel iluminada en tonos dorados al fondo, agua reflejando las luces doradas, barandilla metálica en primer plano.
+*   **A(Acción / Postura):** De pie, apoyada ligeramente sobre la barandilla de metal con una mano relajada. Postura elegante, mirada pensativa dirigida hacia arriba y a la izquierda.
+*   **I(Iluminación):** Mezcla de luz ambiental nocturna (dorada artificial de la Torre Eiffel) y flash directo frontal para iluminar a la mujer. Contraste alto con fondo y cielo oscuro.
+*   **S(Sensación / Atmósfera):** Romántica, glamurosa, cinematográfica y serena.
+*   **E(Estilo Visual):** Retrato nocturno de viaje ultra realista con texturas definidas en cabello, blazer negro y metal de la barandilla.
+*   **M(Composición / Cámara):** Plano medio vertical (9:16) con composición asimétrica (ella a la derecha, la Torre Eiffel dominando la parte izquierda), ángulo a nivel de ojos y fondo desenfocado.
+*   **P(Postproducción):** Tonos dorados cálidos y negros profundos con alta definición en el sujeto principal sin filtros de estudio exagerados.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Paris Night Portrait by the Seine",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer joven adulta de cabello rubio largo y ondulado, capturada en un retrato nocturno elegante y contemplativo.",
+                    "cabello": "Largo, rubio y ondulado, cayendo naturalmente sobre los hombros.",
+                    "rostro": "Piel con textura natural, expresión serena y mirada pensativa.",
+                    "expresion": "Pensive, calm and slightly melancholic.",
+                    "vestimenta": "Blazer negro elegante con escote profundo en V.",
+                    "accesorios": "Collar dorado y pendientes de aro."
+                },
+                "E_Entorno": {
+                    "escena": "Orilla del río Sena en París durante la noche.",
+                    "fondo": "Torre Eiffel iluminada en tonos dorados, agua del Sena reflejando las luces, embarcaciones desenfocadas y luces urbanas lejanas.",
+                    "elementos": [
+                        "Barandilla metálica en primer plano",
+                        "Barcos sobre el Sena",
+                        "Puente distante",
+                        "Luces de la ciudad",
+                        "Cielo nocturno oscuro con ligeros rastros luminosos"
+                    ],
+                    "atmosfera": "Glamurosa, romántica, serena y cinematográfica."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie, apoyándose ligeramente sobre la barandilla.",
+                    "accion": "Una mano descansa parcialmente sobre la barandilla mientras mantiene una postura relajada.",
+                    "lenguaje_corporal": "Elegante, contenida y contemplativa.",
+                    "mirada": "Dirigida hacia arriba y hacia la izquierda, alejándose de la cámara."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Combinación de iluminación ambiental nocturna y flash directo.",
+                    "fuente_principal": "Iluminación dorada artificial de la Torre Eiffel.",
+                    "fuente_secundaria": "Flash directo de cámara.",
+                    "caracteristicas": "El flash ilumina claramente a la mujer mientras las luces doradas de París y sus reflejos permanecen visibles en el fondo.",
+                    "sombras": "Suaves sobre rostro y ropa, con zonas oscuras profundas en el entorno.",
+                    "contraste": "Alto contraste entre sujeto iluminado, cielo nocturno y reflejos dorados."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Glamuroso, pensativo, sereno y nocturno.",
+                    "tono": "Retrato de viaje sofisticado con estética de influencer y sensación cinematográfica."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía nocturna de retrato y travel photography ultra realista.",
+                    "acabado": "Realista, elegante y ligeramente dramático.",
+                    "texturas": "Cabello fluido, piel natural, metal de la barandilla, agua reflectante y estructura iluminada de la Torre Eiffel.",
+                    "paleta": "Dorado intenso, negro profundo, beige cálido, piel cálida y gris metálico."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio vertical.",
+                    "angulo": "Eye-level.",
+                    "encuadre": "La mujer ocupa la zona inferior centro-derecha mientras la Torre Eiffel domina el centro-superior izquierdo.",
+                    "profundidad_de_campo": "Reducida, manteniendo sujeto y barandilla definidos con el fondo ligeramente desenfocado.",
+                    "camara": "Smartphone premium.",
+                    "optica": "Gran angular moderado, aproximadamente 26mm equivalente.",
+                    "aspect_ratio": "9:16 vertical",
+                    "ajustes": "Apertura aproximada f/1.8, velocidad suficiente para congelar el flash y sensibilidad moderadamente alta."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos dorados cálidos contrastados con negros profundos y cielo nocturno.",
+                    "saturacion": "Rica pero natural.",
+                    "nitidez": "Alta nitidez sobre la mujer y la barandilla, con suavidad progresiva en el fondo.",
+                    "acabado_final": "Retrato nocturno realista y lujoso, sin multitudes, lluvia, luz diurna, ojos rojos, blanco y negro ni texto visible."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/paris-night-seine.png",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-travel", name: "Travel", slug: "travel" },
+            { id: "t-night", name: "Night Photography", slug: "night-photography" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Retrato en París\nModifica el blazer negro por un vestido de cóctel elegante para cambiar la formalidad de la foto. Puedes cambiar la localización sustituyendo la Torre Eiffel por otro monumento famoso del mundo.",
+        reference_image_guide: "Usa una foto donde tu rostro mire ligeramente de perfil hacia arriba para que encaje perfectamente con la pose contemplativa junto al río Sena."
     }
 ];
