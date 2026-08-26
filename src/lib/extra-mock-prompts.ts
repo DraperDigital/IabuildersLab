@@ -9833,5 +9833,104 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Viaje en Jet Privado\nReemplaza los rasgos de la modelo para ajustarlos a tu avatar. Modifica los accesorios del jet cambiando 'mochila de diseñador' por otra prenda o elemento (ej. 'una copa de champaña en la mesa lateral').",
         reference_image_guide: "Usa una foto donde tu rostro y hombros miren al frente con expresión relajada o segura para que coincida perfectamente con la perspectiva a nivel de ojos dentro de la cabina."
+    },
+    {
+        id: "lifestyle-candid-flash-bedroom-night",
+        type: "prompt",
+        title: "REAISEMP_Human — Candid Flash Bedroom Night",
+        slug: "candid-flash-bedroom-night",
+        summary: "Prompt ultra-realista de fotografía candid nocturna con flash directo de smartphone. El avatar posa sentada en la cama de su dormitorio recogiéndose el pelo.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven sentada en la cama, cabello rubio recogido con ambas manos, body negro de manga larga, jeans azul claro y collar con cruz pequeña.
+*   **E(Entorno):** Dormitorio de noche. Cama grande con edredón beige, estructura de canopy metálica negra, ventana amplia con vistas a las luces de la ciudad y cortinas beige.
+*   **A(Acción / Postura):** Torso orientado levemente a la izquierda, ambos brazos elevados para atar/ajustar el cabello, mirada contemplativa hacia la izquierda fuera de cámara.
+*   **I(Iluminación):** Flash directo y frontal de smartphone con destello de alta intensidad, creando sombras nítidas detrás y reflejos brillantes en frente y piel.
+*   **S(Sensación / Atmósfera):** Íntima, casual, cruda, doméstica y espontánea.
+*   **E(Estilo Visual):** Fotografía de smartphone de noche (candid flash photography), grano fino y texturas reales de algodón, mezclilla y sábanas.
+*   **M(Composición / Cámara):** Plano medio vertical (9:16), ángulo levemente contrapicado, sujeto centrado y profundidad de campo reducida con fondo de dormitorio suave.
+*   **P(Postproducción):** Tonos y temperatura cálida del flash directo con saturación natural y contraste definido.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Candid Flash Bedroom Night",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer joven adulta sentada sobre la cama, capturada en un momento íntimo y espontáneo.",
+                    "cabello": "Rubio, recogido hacia atrás mientras ajusta o ata el cabello con ambas manos.",
+                    "rostro": "Piel clara y natural con reflejos intensos del flash, maquillaje mínimo.",
+                    "expresion": "Neutral y ligeramente contemplativa, mirando hacia la izquierda.",
+                    "vestimenta": {
+                        "top": "Body negro de manga larga con escote scoop-neck.",
+                        "bottom": "Jeans azul claro ligeramente desgastados."
+                    },
+                    "accesorios": "Pequeño collar dorado con cruz y pendientes de aro discretos."
+                },
+                "E_Entorno": {
+                    "escena": "Dormitorio durante la noche.",
+                    "fondo": "Cama grande con edredón y almohadas beige, estructura metálica tipo canopy, ventana amplia con cortinas beige y luces de la ciudad visibles en el exterior.",
+                    "elementos": [
+                        "Radiador debajo de la ventana",
+                        "Planta en maceta en una esquina",
+                        "Estructura metálica de cuatro postes"
+                    ],
+                    "atmosfera": "Íntima, doméstica y ligeramente nocturna."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada sobre la cama con el torso ligeramente orientado hacia la izquierda.",
+                    "accion": "Ambos brazos elevados mientras las manos recogen y ajustan el cabello hacia atrás.",
+                    "lenguaje_corporal": "Relajado, natural y ligeramente posado.",
+                    "mirada": "Dirigida hacia la izquierda, fuera de cámara."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Flash directo de smartphone.",
+                    "direccion": "Frontal.",
+                    "intensidad": "Alta.",
+                    "caracteristicas": "Flash intenso con highlights marcados sobre frente, piel y parte superior del torso.",
+                    "sombras": "Sombras nítidas y definidas proyectadas detrás del sujeto.",
+                    "ambiente": "Ligero spill del flash mezclado con iluminación ambiental tenue del dormitorio."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Casual, relajado, íntimo y ligeramente contemplativo.",
+                    "tono": "Instantánea nocturna cruda y auténtica de redes sociales."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía candid de smartphone con estética de flash directo.",
+                    "acabado": "Raw, espontáneo y realista, evitando apariencia editorial excesivamente pulida.",
+                    "texturas": "Textura natural de piel, denim, tejido del body y ropa de cama.",
+                    "paleta": "Negro, azul grisáceo, beige cálido, blanco y pequeños acentos dorados."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio.",
+                    "angulo": "Ligeramente contrapicado.",
+                    "encuadre": "Sujeto centrado con el rostro situado en el tercio superior.",
+                    "profundidad_de_campo": "Reducida, con el fondo ligeramente desenfocado.",
+                    "camara": "Smartphone con flash activado.",
+                    "optica": "Gran angular moderado sin distorsión evidente.",
+                    "velocidad": "Rápida, congelando el movimiento.",
+                    "aspect_ratio": "9:16 vertical"
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonalidad cálida producida por el flash, saturación media y contraste natural.",
+                    "nitidez": "Enfoque nítido sobre la mujer y textura realista de piel.",
+                    "acabado_final": "Fotografía nocturna auténtica, sin texto, otras personas, luz diurna, maquillaje pesado, ropa estampada ni distorsión extrema de gran angular."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/candid-flash-bedroom-night.png",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-indoor", name: "Indoor", slug: "indoor" },
+            { id: "t-night", name: "Night Photography", slug: "night-photography" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Flash Nocturno en Dormitorio\nModifica el top de manga larga negro por otro color (ej. 'blanco' o 'rojo oscuro') para jugar con el contraste del flash. Puedes adaptar el fondo de la ventana para reflejar otra localización de fondo en la ciudad.",
+        reference_image_guide: "Usa una foto tomada con flash frontal directo a tu avatar, preferiblemente levantando los brazos para simular la pose de atarse el pelo de manera fluida."
     }
 ];
