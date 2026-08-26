@@ -3,12 +3,60 @@ import { notFound } from "next/navigation";
 import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Lock, ArrowLeft, Download, Calendar } from "lucide-react";
+import { Lock, ArrowLeft, Calendar } from "lucide-react";
 import ReactMarkdown from "react-markdown";
+import { DownloadButton } from "@/components/download-button";
+import { CopyButton } from "@/components/copy-button";
+import { PublicHeader } from "@/components/public-header";
 
 interface PageProps {
     params: Promise<{ slug: string }>;
 }
+
+const levelTranslations: Record<string, string> = {
+    beginner: "Principiante",
+    intermediate: "Intermedio",
+    advanced: "Avanzado"
+};
+
+const categoryTranslations: Record<string, string> = {
+    "Market Research": "Investigación de Mercado",
+    "CRM & Operations": "CRM y Operaciones",
+    "Paid Ads": "Anuncios de Pago",
+    "Content Creation": "Creación de Contenido",
+    "Tools": "Herramientas",
+    "Development Web / UI": "Desarrollo Web / UI",
+    "Research & Content Creation": "Investigación / Creación de Contenido",
+    "Infrastructure & Local Environment": "Infraestructura / Entorno Local",
+    "Infrastructure & Growth Automation": "Infraestructura / Growth Automation"
+};
+
+const markdownComponents = {
+    h1: ({ children }: any) => <h1 className="text-3xl font-extrabold text-white mb-6 border-b border-purple-500/20 pb-3">{children}</h1>,
+    h2: ({ children }: any) => <h2 className="text-2xl font-bold text-purple-300 mt-10 mb-4 pb-1 border-b border-purple-500/10 flex items-center gap-2">{children}</h2>,
+    h3: ({ children }: any) => <h3 className="text-xl font-bold text-white mt-8 mb-3 text-purple-100">{children}</h3>,
+    p: ({ children }: any) => <p className="text-purple-100/90 leading-relaxed mb-4 text-base">{children}</p>,
+    ul: ({ children }: any) => <ul className="list-disc pl-6 space-y-2 mb-6 text-purple-200">{children}</ul>,
+    ol: ({ children }: any) => <ol className="list-decimal pl-6 space-y-2 mb-6 text-purple-200">{children}</ol>,
+    li: ({ children }: any) => <li className="text-purple-100/90 leading-relaxed">{children}</li>,
+    strong: ({ children }: any) => <strong className="text-purple-300 font-semibold">{children}</strong>,
+    hr: () => <hr className="my-8 border-purple-500/10" />,
+    code: ({ className, children, ...props }: any) => {
+        const isBlock = className?.includes("language-") || String(children).includes("\n");
+        return isBlock ? (
+            <div className="relative my-6 group">
+                <pre className="bg-slate-950/80 border border-purple-500/30 rounded-xl p-5 overflow-x-auto text-purple-200 font-mono text-sm leading-relaxed shadow-[inset_0_0_20px_rgba(0,0,0,0.6)]">
+                    <code>{children}</code>
+                </pre>
+                <CopyButton text={String(children).trim()} />
+            </div>
+        ) : (
+            <code className="bg-slate-950 text-purple-300 px-1.5 py-0.5 rounded font-mono text-sm border border-purple-500/20" {...props}>
+                {children}
+            </code>
+        );
+    }
+};
 
 export default async function SystemDetailPage({ params }: PageProps) {
     const { slug } = await params;
@@ -18,7 +66,8 @@ export default async function SystemDetailPage({ params }: PageProps) {
         notFound();
     }
 
-    const isLocked = system.paywall_level !== "free_preview";
+    // Temporalmente desactivado para permitir acceso sin login/suscripción
+    const isLocked = false; 
 
     const levelColors: Record<string, string> = {
         beginner: "bg-emerald-600 text-white border-emerald-400",
@@ -26,31 +75,35 @@ export default async function SystemDetailPage({ params }: PageProps) {
         advanced: "bg-rose-600 text-white border-rose-400"
     };
 
-    return (
-        <div className="flex min-h-screen flex-col bg-gradient-to-br from-slate-950 via-purple-950/50 to-slate-950">
-            {/* Header */}
-            <header className="border-b border-purple-500/20 backdrop-blur-sm bg-slate-950/50 sticky top-0 z-50">
-                <div className="container mx-auto px-4">
-                    <div className="flex h-16 items-center">
-                        <Link href="/systems" className="flex items-center text-sm text-purple-200 hover:text-white transition-colors gap-2">
-                            <ArrowLeft className="w-4 h-4" />
-                            Back to Systems
-                        </Link>
-                    </div>
-                </div>
-            </header>
+    const translatedLevel = levelTranslations[system.level || 'beginner'] || system.level;
+    const translatedCategory = categoryTranslations[system.category || ''] || system.category;
 
-            <main className="container mx-auto py-10 px-4 max-w-6xl">
+    return (
+        <div className="flex min-h-screen flex-col bg-gradient-to-br from-slate-950 via-purple-950/50 to-slate-950 relative overflow-hidden">
+            {/* Grid pattern overlay */}
+            <div className="absolute inset-0 grid-pattern opacity-25 pointer-events-none"></div>
+
+            <PublicHeader />
+
+            <main className="container mx-auto py-10 px-4 max-w-6xl relative z-10">
+                {/* Back Link */}
+                <div className="mb-6">
+                    <Link href="/systems" className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-400 transition-colors">
+                        <ArrowLeft className="w-4 h-4" />
+                        Volver a Sistemas
+                    </Link>
+                </div>
+
                 {/* Header Section */}
                 <div className="space-y-4 mb-10">
                     <div className="flex items-center gap-2 flex-wrap">
-                        <Badge className="bg-purple-600 text-white font-semibold">{system.category}</Badge>
+                        <Badge className="bg-purple-600 text-white font-semibold">{translatedCategory}</Badge>
                         <Badge variant="outline" className={`${levelColors[system.level || 'beginner']} border font-semibold text-xs`}>
-                            {system.level || 'beginner'}
+                            {translatedLevel}
                         </Badge>
                         {isLocked && (
                             <Badge className="bg-rose-600 text-white flex items-center gap-1 font-semibold">
-                                <Lock className="w-3 h-3" /> {system.paywall_level} Plan
+                                <Lock className="w-3 h-3" /> Plan {system.paywall_level}
                             </Badge>
                         )}
                     </div>
@@ -71,22 +124,22 @@ export default async function SystemDetailPage({ params }: PageProps) {
                                     <Lock className="w-10 h-10 text-purple-400" />
                                 </div>
                                 <div>
-                                    <h3 className="text-3xl font-bold text-white mb-3">This System is Locked</h3>
+                                    <h3 className="text-3xl font-bold text-white mb-3">Este sistema está bloqueado</h3>
                                     <p className="text-purple-200 text-lg max-w-md mx-auto">
-                                        Unlock this research system and 50+ others with a workspace plan.
+                                        Desbloquea este sistema de investigación y más de 50 otros con un plan de espacio de trabajo.
                                     </p>
                                 </div>
                                 <Button size="lg" asChild className="tech-gradient glow-effect font-semibold px-8">
-                                    <Link href="/pricing">Get Access</Link>
+                                    <Link href="/pricing">Obtener Acceso</Link>
                                 </Button>
                                 <p className="text-sm text-purple-300">
-                                    Already a member? <Link href="/login" className="underline hover:text-white transition-colors">Log in</Link>
+                                    ¿Ya eres miembro? <Link href="/login" className="underline hover:text-white transition-colors">Iniciar Sesión</Link>
                                 </p>
                             </div>
                         ) : (
                             <div className="prose prose-lg prose-invert max-w-none">
                                 <div className="bg-slate-900/30 backdrop-blur-sm rounded-xl p-8 border border-purple-500/20 text-purple-50">
-                                    <ReactMarkdown>{system.body_markdown || ''}</ReactMarkdown>
+                                    <ReactMarkdown components={markdownComponents}>{system.body_markdown || ''}</ReactMarkdown>
                                 </div>
                             </div>
                         )}
@@ -95,20 +148,20 @@ export default async function SystemDetailPage({ params }: PageProps) {
                     {/* Sidebar */}
                     <div className="space-y-6">
                         <div className="border-2 border-purple-500/30 rounded-xl p-6 bg-slate-900/50 backdrop-blur-sm glass-effect sticky top-24">
-                            <h3 className="font-bold text-lg mb-4 text-white">System Details</h3>
+                            <h3 className="font-bold text-lg mb-4 text-white">Detalles del Sistema</h3>
                             <ul className="space-y-3 text-sm">
                                 <li className="flex justify-between py-3 border-b border-purple-500/20">
-                                    <span className="text-purple-300">Level</span>
-                                    <span className="font-semibold capitalize text-white">{system.level || 'beginner'}</span>
+                                    <span className="text-purple-300">Nivel</span>
+                                    <span className="font-semibold capitalize text-white">{translatedLevel}</span>
                                 </li>
                                 <li className="flex justify-between py-3 border-b border-purple-500/20">
-                                    <span className="text-purple-300">Category</span>
-                                    <span className="font-semibold text-white">{system.category}</span>
+                                    <span className="text-purple-300">Categoría</span>
+                                    <span className="font-semibold text-white">{translatedCategory}</span>
                                 </li>
                                 <li className="flex justify-between py-3">
                                     <span className="text-purple-300 flex items-center gap-1">
                                         <Calendar className="w-3 h-3" />
-                                        Updated
+                                        Actualizado
                                     </span>
                                     <span className="font-semibold text-white">
                                         {new Date(system.updated_at).toLocaleDateString()}
@@ -118,10 +171,11 @@ export default async function SystemDetailPage({ params }: PageProps) {
 
                             {!isLocked && (
                                 <div className="mt-6">
-                                    <Button className="w-full tech-gradient glow-effect gap-2 font-semibold">
-                                        <Download className="w-4 h-4" />
-                                        Download Assets
-                                    </Button>
+                                    <DownloadButton 
+                                        title={system.title} 
+                                        content={system.body_markdown || ''} 
+                                        label="Descargar Recursos" 
+                                    />
                                 </div>
                             )}
                         </div>

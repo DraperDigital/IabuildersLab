@@ -125,10 +125,7 @@
     @apply bg-background text-foreground;
   }
 
-  /* Tech styling additions */
-  .tech-gradient {
-    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
-  }
+
 
   .glass-effect {
     background: rgba(255, 255, 255, 0.05);
@@ -216,4 +213,10 @@
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
+}
+
+/* Custom Utilities with high specificity */
+.tech-gradient {
+  background: linear-gradient(135deg, #7c3aed 0%, #2563eb 100%) !important;
+  border: none !important;
 }

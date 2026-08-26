@@ -15,7 +15,8 @@ interface SystemCardProps {
 
 export function SystemCard({ system }: SystemCardProps) {
     const [showPaywall, setShowPaywall] = useState(false);
-    const isLocked = system.paywall_level !== "free_preview";
+    // Temporalmente desactivado para permitir acceso sin login/suscripción
+    const isLocked = false; // Original: system.paywall_level !== "free_preview";
     const t = useTranslations('Systems');
     const common = useTranslations('Common');
 

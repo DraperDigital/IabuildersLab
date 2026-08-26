@@ -103,7 +103,7 @@ export default function PricingPage() {
                         return (
                             <Card
                                 key={plan.name}
-                                className={`relative overflow-hidden transition-all hover:scale-105 border-purple-500/30 hover:border-purple-500/60 glass-effect ${plan.featured ? 'ring-2 ring-purple-500 scale-105' : ''
+                                className={`relative overflow-hidden transition-all hover:scale-105 border-purple-500/30 hover:border-purple-500/60 bg-slate-950/40 backdrop-blur-md ${plan.featured ? 'ring-2 ring-purple-500 scale-105' : ''
                                     }`}
                             >
                                 {plan.featured && (
@@ -116,15 +116,15 @@ export default function PricingPage() {
 
                                 <CardHeader className="relative z-10">
                                     <div className={`rounded-full w-12 h-12 bg-gradient-to-r ${plan.gradient} p-0.5 mb-4`}>
-                                        <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
-                                            <Icon className="h-6 w-6 text-purple-600" />
+                                        <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center">
+                                            <Icon className="h-6 w-6 text-purple-400" />
                                         </div>
                                     </div>
-                                    <CardTitle className="text-2xl text-slate-900 font-bold">{plan.name}</CardTitle>
-                                    <CardDescription className="text-slate-600 text-base">{plan.description}</CardDescription>
+                                    <CardTitle className="text-2xl text-white font-bold">{plan.name}</CardTitle>
+                                    <CardDescription className="text-purple-300 text-base">{plan.description}</CardDescription>
                                     <div className="mt-4">
-                                        <span className="text-4xl font-bold text-slate-900">{plan.price}</span>
-                                        <span className="text-slate-600 text-lg">/{plan.period}</span>
+                                        <span className="text-4xl font-bold text-white">{plan.price}</span>
+                                        <span className="text-purple-300 text-lg">/{plan.period}</span>
                                     </div>
                                 </CardHeader>
 
@@ -132,8 +132,8 @@ export default function PricingPage() {
                                     <ul className="space-y-3">
                                         {plan.features.map((feature) => (
                                             <li key={feature} className="flex items-start gap-2">
-                                                <Check className="h-5 w-5 text-purple-600 flex-shrink-0 mt-0.5" />
-                                                <span className="text-sm text-slate-700 font-medium">{feature}</span>
+                                                <Check className="h-5 w-5 text-purple-400 flex-shrink-0 mt-0.5" />
+                                                <span className="text-sm text-purple-200 font-medium">{feature}</span>
                                             </li>
                                         ))}
                                     </ul>

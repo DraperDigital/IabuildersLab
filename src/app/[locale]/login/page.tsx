@@ -72,10 +72,7 @@ export default function LoginPage() {
                                     SOCIAL<span className="text-[#0026FF]">CONVERSION</span>PACK
                                 </div>
                             ) : (
-                                <>
-                                    <Sparkles className="h-6 w-6 text-purple-400" />
-                                    IA Builders Lab
-                                </>
+                                <img src="/logo-horizontal.png" alt="IA Builders" className="h-6 object-contain" />
                             )}
                         </Link>
                     </div>
@@ -83,9 +80,9 @@ export default function LoginPage() {
             </header>
 
             <div className="relative z-10 flex flex-1 items-center justify-center px-4 py-12">
-                <Card className={`w-full max-w-md glass-effect border-purple-500/30 transition-all duration-500 ${isSocial
+                <Card className={`w-full max-w-md bg-slate-950/80 backdrop-blur-md border-purple-500/30 transition-all duration-500 ${isSocial
                         ? 'border-[#0026FF]/40 bg-black/40 shadow-[0_0_30px_rgba(0,38,255,0.1)]'
-                        : 'border-purple-500/30'
+                        : 'border-purple-500/30 shadow-[0_0_50px_rgba(168,85,247,0.15)]'
                     }`}>
                     <CardHeader className="space-y-1">
                         <CardTitle className="text-2xl font-bold text-white">

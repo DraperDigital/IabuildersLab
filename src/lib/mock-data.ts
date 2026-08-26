@@ -2,7 +2,582 @@ import { ContentItem } from "@/types/content";
 import { EXTRA_MOCK_PROMPTS } from "@/lib/extra-mock-prompts";
 import { COPY_LIBRARY_PROMPTS } from "@/lib/copy-library-data";
 
-export const MOCK_SYSTEMS: ContentItem[] = [];
+export const MOCK_SYSTEMS: ContentItem[] = [
+    {
+        id: "sys-comp-research",
+        type: "system",
+        title: "Competitor Research Machine in Claude",
+        slug: "competitor-research-machine-claude",
+        summary: "Sistema autónomo para monitorizar, analizar y reportar los movimientos de la competencia utilizando Claude.",
+        body_markdown: `
+# Competitor Research Machine
+Este sistema permite montar un agente de investigación autónomo en Claude para analizar los movimientos de la competencia.
+
+## Configuración del Agente
+1. **Model:** Claude 3.5 Sonnet
+2. **Context:** Historial de campañas de la competencia.
+3. **Instrucciones:** Analizar de forma recurrente las ofertas, creativos y ángulos de venta de los competidores clave.
+
+## Ejecución
+Ejecuta la máquina para recopilar reportes semanales listos para tu equipo de marketing.
+        `,
+        category: "Market Research",
+        system_type: "research",
+        process_state: "build",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude", "Market Research", "Competitors", "Agents"] as any
+    },
+    {
+        id: "sys-crm-claude",
+        type: "system",
+        title: "Run Your Entire CRM With Claude",
+        slug: "run-crm-with-claude",
+        summary: "Arquitectura y flujo de trabajo para delegar la gestión, clasificación y seguimiento de clientes en tu CRM usando Claude.",
+        body_markdown: `
+# AI CRM Management System
+Delega la gestión de tu pipeline en Claude. Clasificación de leads, actualización de estados y redactado de recordatorios de forma 100% autónoma.
+
+## Flujo
+- **Entrada:** Webhooks de nuevos leads o interacciones.
+- **Procesamiento:** Claude evalúa la intención y actualiza los campos.
+- **Acción:** Actualización del CRM mediante API.
+        `,
+        category: "CRM & Operations",
+        system_type: "operations",
+        process_state: "build",
+        level: "advanced",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "access",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude", "CRM", "Sales", "Operations"] as any
+    },
+    {
+        id: "sys-connect-ad-account",
+        type: "system",
+        title: "Connect Claude to Your Ad Account",
+        slug: "connect-claude-to-ad-account",
+        summary: "Sistema de integración segura para permitir que Claude lea métricas y configure campañas directamente en tu cuenta publicitaria.",
+        body_markdown: `
+# Ad Account Agent Integration
+Integra de forma segura Claude con la API de Facebook o Google Ads para realizar auditorías, sugerir presupuestos y redactar nuevos copys de anuncios basados en rendimiento en vivo.
+        `,
+        category: "Paid Ads",
+        system_type: "sales",
+        process_state: "build",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "pro",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude", "Meta Ads", "API Integration", "Media Buying"] as any
+    },
+    {
+        id: "sys-6-agent-content",
+        type: "system",
+        title: "The 6-Agent AI Content Team Blueprint",
+        slug: "6-agent-content-team-blueprint",
+        summary: "Estructura completa para coordinar un equipo automatizado de 6 agentes autónomos enfocados en creación, edición y distribución de contenido B2B.",
+        body_markdown: `
+# The 6-Agent AI Content Team Blueprint
+Estructura completa para coordinar un equipo automatizado de 6 agentes autónomos enfocados en creación, edición y distribución de contenido B2B.
+
+El mayor error al implementar IA en la creación de contenido es usar un solo modelo para investigar, idear y redactar. El resultado es contenido genérico que no convierte. Este blueprint resuelve ese problema mediante la fricción arquitectónica: 6 agentes especializados que operan de manera secuencial. Ningún agente puede iniciar su trabajo sin el output validado del agente anterior.
+
+Este sistema está diseñado para integrarse con entornos de desarrollo como Hermes Agent y orquestarse mediante flujos de n8n, asegurando que el contenido alimente directamente el CRM.
+
+## Arquitectura del Sistema (Flujo de Trabajo)
+El equipo opera bajo un protocolo de traspaso estricto. A continuación, el rol exacto y el prompt de sistema de cada agente.
+
+### Agente 1: El Investigador de Tendencias (Trend Hunter)
+**Fase Operativa:** Diagnosticar
+
+**Rol:** Escanear y identificar los ángulos y temas más calientes del mercado en base a analíticas duras y transcripciones de videos virales. No adivina; lee métricas extraídas vía scripts.
+
+**Prompt del Agente:**
+\`\`\`text
+Eres el Investigador de Tendencias. Analiza la siguiente transcripción de video y las métricas de retención proporcionadas. Extrae los 3 pilares clave del mensaje y explica matemáticamente por qué este tema está generando tracción. Tu salida debe ser un reporte estructurado de datos, no ideas creativas.
+\`\`\`
+
+### Agente 2: El Estratega de Adquisición (Acquisition Strategist)
+**Fase Operativa:** Rediseñar
+
+**Rol:** Leer el reporte del Investigador y definir la directiva semanal. Determina qué formatos usar (carruseles panorámicos, videos cortos) y alinea el Llamado a la Acción (CTA) con los cuellos de botella actuales del pipeline en el CRM.
+
+**Prompt del Agente:**
+\`\`\`text
+Eres el Estratega de Adquisición. Lee el reporte de tendencias. Define el mix de contenido de esta semana. Tu objetivo es nutrir el CRM. Selecciona el formato adecuado y define un CTA específico basado en dónde necesitamos inyectar prospectos en nuestro embudo. Cita un dato del reporte para justificar cada decisión.
+\`\`\`
+
+### Agente 3: El Arquitecto de Ganchos (Hook Architect)
+**Fase Operativa:** Arquitectar
+
+**Rol:** Tomar la directiva estratégica y escribir 5 variaciones de ganchos de alta retención para los primeros 3 segundos o el primer slide del carrusel.
+
+**Prompt del Agente:**
+\`\`\`text
+Eres el Arquitecto de Ganchos. Utilizando la directiva estratégica, escribe 5 ganchos usando los frameworks: Curiosidad Abierta, Negación del Mito, y Consecuencia Inmediata. Cada gancho debe estar diseñado para capturar la atención de perfiles B2B.
+\`\`\`
+
+### Agente 4: El Redactor Creativo (Script Writer)
+**Fase Operativa:** Programar
+
+**Rol:** Escribir el cuerpo del guion o el copy del carrusel manteniendo un tono conversacional dinámico. Aplica estrictamente el framework "Insights over Value".
+
+**Prompt del Agente:**
+\`\`\`text
+Eres el Redactor Creativo. Redacta el contenido completo basado en el Gancho seleccionado. Usa frases cortas, lenguaje conversacional y añade el CTA definido por el Estratega. Prioriza entregar 'Insights' (cambios de perspectiva) sobre simple 'Valor' (información mercantilizada).
+\`\`\`
+
+### Agente 5: El Director Visual (Creative Director)
+**Fase Operativa:** Encender
+
+**Rol:** Generar las indicaciones visuales, cambios de plano, efectos de sonido o prompts estructurados para generación de imágenes. Aplica el método "Trojan Horse" para el diseño de carruseles (vender la solución técnica empaquetada en educación visual).
+
+**Prompt del Agente:**
+\`\`\`text
+Eres el Director Visual. Genera las indicaciones visuales precisas para acompañar el texto del Redactor Creativo. Detalla la progresión visual utilizando el método del Caballo de Troya: educa en la superficie, pero estructura la narrativa visual para evidenciar la necesidad de nuestra infraestructura de sistemas.
+\`\`\`
+
+### Agente 6: El Auditor de Embudos (Funnel Auditor)
+**Fase Operativa:** Refinar
+
+**Rol:** Supervisa la integridad del sistema. Verifica que los enlaces del contenido apunten correctamente al CRM y audita el flujo de conversión en los DMs una vez publicado.
+
+**Prompt del Agente:**
+\`\`\`text
+Eres el Auditor de Embudos. Revisa el paquete final de contenido. Confirma que el CTA esté integrado y audita el estado del pipeline. Documenta cualquier fricción en el proceso de esta semana para refinar los prompts de los agentes en el próximo ciclo.
+\`\`\`
+
+## ⚙️ Stack de Implementación Recomendado
+Para que este equipo opere de forma verdaderamente autónoma, sugerimos la siguiente infraestructura técnica:
+
+*   **Orquestación:** n8n para transferir automáticamente el output de un agente al input del siguiente mediante webhooks.
+*   **Entorno de Agentes:** Hermes Agent configurado en un VPS o entorno local para manejar las periciones de los LLMs.
+*   **Gestión de Conocimiento:** Todos los outputs intermedios (reportes, guiones) deben enviarse a una bóveda local de Obsidian (sincronizada vía Syncthing) para llevar un registro inmutable del proceso creativo.
+        `,
+        category: "Content Creation",
+        system_type: "content",
+        process_state: "build",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "pro",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude", "Content", "Agents", "Workflows"] as any
+    },
+    {
+        id: "sys-anti-ai-web-design",
+        type: "system",
+        title: "The Anti-AI Web Design Blueprint",
+        slug: "anti-ai-web-design-blueprint",
+        summary: "Estructura y prompts de restricciones negativas para obligar a Claude a diseñar interfaces web premium, eliminando el aspecto genérico de IA mediante bucles de auto-crítica visual.",
+        body_markdown: `
+# The Anti-AI Web Design Blueprint
+Estructura y prompts de restricciones negativas para obligar a Claude a diseñar interfaces web premium, eliminando el aspecto genérico de IA mediante bucles de auto-crítica visual.
+
+Todos los sitios construidos con IA tienden a verse exactamente iguales: el mismo gradiente morado, las mismas tarjetas anidadas, la misma fuente Inter y la misma cuadrícula de tres columnas. Esto no ocurre porque el modelo no sepa diseñar, sino por la regresión a la media: la IA recurre al promedio de todo el código (Bootstrap/Tailwind por defecto) con el que fue entrenada.
+
+Este blueprint resuelve el problema dándole a Claude dos cosas: un vocabulario de diseño estricto (restricciones negativas) y ojos (un bucle de captura de pantalla) para que audite su propio trabajo en el servidor local antes de mostrártelo.
+
+## Arquitectura del Sistema (Flujo de Trabajo)
+El flujo de trabajo se ejecuta directamente en Cursor o Claude Code, operando sobre un entorno React/Tailwind.
+
+### 1. Diagnosticar (Extracción de Lenguaje)
+**Fase Operativa:** Diagnosticar
+**Rol:** Extraer el ADN visual de un sitio web de referencia (competencia o inspiración) sin copiar el código.
+
+**Prompt de Ejecución:**
+\`\`\`text
+Analiza esta URL: [URL]. Extrae la escala tipográfica exacta, la jerarquía de colores, el ritmo de espaciado y los patrones de los componentes. No me des el código, dame el documento de especificaciones de diseño en lenguaje sencillo.
+\`\`\`
+
+### 2. Rediseñar (El Bloqueo de Paleta)
+**Fase Operativa:** Rediseñar
+**Rol:** Obligar al modelo a usar un sistema de diseño estructurado en lugar de colores arbitrarios.
+
+**Prompt de Ejecución:**
+\`\`\`text
+Configura el archivo tailwind.config.ts. Define los tokens de color exactos (ej. brand-primary, surface-dark). A partir de este momento, tienes estrictamente prohibido usar colores arbitrarios o hex codes (como bg-[#4F46E5]) directamente en el markup de los componentes. Solo puedes usar las variables nombradas.
+\`\`\`
+
+### 3. Arquitectar & Programar (El Prompt Maestro)
+**Fase Operativa:** Arquitectar & Programar
+**Rol:** Detonar la construcción del código fusionando la solicitud de negocio con las Restricciones Negativas.
+
+**Prompt de Ejecución:**
+\`\`\`text
+Construye una landing page para [Ej: una agencia de automatización B2B].
+
+Audiencia: [Ej: Dueños de negocios tradicionales perdiendo dinero por procesos manuales].
+Vibra/Tono: [Ej: Minimalista, premium, técnico pero accesible. Cero estilo "startup colorida"].
+Secciones: [Ej: Hero, Cómo funciona, Resultados, Precios, FAQ].
+
+REGLAS ESTRICTAS DE DISEÑO:
+- Cero gradientes morados, azules o violetas.
+- Prohibido el patrón de tarjetas dentro de tarjetas (genera profundidad sin jerarquía).
+- Prohibido usar Inter o Roboto. Usa fuentes con carácter (ej. Satoshi o instrument serif).
+- Prohibida la cuadrícula de características de 3 columnas (es el diseño genérico por defecto).
+- El espaciado debe ser asimétrico: ajustado entre elementos relacionados, muy generoso entre secciones.
+\`\`\`
+
+### 4. Encender (El Bucle de Visión)
+**Fase Operativa:** Encender
+**Rol:** Cerrar el ciclo. El modelo debe mirar el localhost, evaluar su diseño contra las reglas y corregirlo autónomamente.
+
+**Prompt de Ejecución:**
+\`\`\`text
+Ejecuta el servidor de desarrollo. Ábrelo en el navegador integrado, toma una captura de pantalla de la renderización actual y compárala con las Reglas Estrictas de Diseño. Dime exactamente qué proporciones, espaciados o colores están fallando visualmente. No me muestres el resultado hasta que hayas aplicado las correcciones en el código.
+\`\`\`
+
+### 5. Refinar (Auditoría Final)
+**Fase Operativa:** Refinar
+**Rol:** Ajuste de responsividad y control de daños en el CSS.
+
+**Prompt de Ejecución:**
+\`\`\`text
+Toma una nueva captura de pantalla simulando un viewport móvil (ancho 390px). Corrige cualquier elemento que rompa el padding global. Además, asegúrate de no haber sobreescrito las directivas base de Tailwind en el index.css global.
+\`\`\`
+
+## ⚙️ Stack de Implementación Recomendado
+Para que este equipo opere de forma verdaderamente autónoma, sugerimos la siguiente infraestructura técnica:
+
+*   **Entorno de Desarrollo:** Cursor (con Composer y capacidades de visión activadas) o Claude Code en terminal local.
+*   **Frameworks:** Vite, React, TypeScript y Tailwind CSS.
+*   **Validación:** Herramientas de captura integradas del LLM o Puppeteer para automatizar el screenshot del localhost.
+        `,
+        category: "Development Web / UI",
+        system_type: "content",
+        process_state: "build",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "pro",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude", "UI", "UX", "Web Design", "Tailwind"] as any
+    },
+    {
+        id: "sys-daily-research-team",
+        type: "system",
+        title: "The AI Research Team That Scripts Your Content Daily",
+        slug: "ai-research-team-daily-scripts",
+        summary: "Despliega cuatro investigadores de IA que extraen datos de tu nicho durante la noche y te entregan 10 temas en tendencia junto con los guiones exactos para grabar, todo antes de que despiertes.",
+        body_markdown: `
+# The AI Research Team That Scripts Your Content Daily
+Despliega cuatro investigadores de IA que extraen datos de tu nicho durante la noche y te entregan 10 temas en tendencia junto con los guiones exactos para grabar, todo antes de que despiertes.
+
+Pasar horas haciendo doomscrolling en X, Reddit o GitHub para buscar ideas de contenido no es escalable. Este sistema automatiza la fase de investigación (el cuello de botella más grande de la creación de contenido) mediante un solo comando en Claude Code conectado a Apify.
+
+El sistema ejecuta 4 roles internos en secuencia: raspa el internet, filtra la basura sin engagement, sintetiza los ganadores y redacta 3 ideas de contenido basadas en tus formatos probados.
+
+## Arquitectura del Sistema (Método D.R.A.P.E.R.™)
+A diferencia del equipo de 6 agentes (que utiliza múltiples habilidades separadas), este equipo de investigación opera bajo una sola habilidad automatizada que ejecuta fases secuenciales.
+
+### 1. Diagnosticar & Rediseñar (El Prompt Maestro)
+**Rol:** Crear la habilidad en tu entorno local.
+
+**Ejecución:** Abre Claude Code (o tu terminal de Hermes Agent) y ejecuta el siguiente comando para crear la habilidad \`daily-research\`:
+
+\`\`\`text
+Crea una habilidad llamada daily-research usando exactamente estas instrucciones:
+
+# Daily Research — 4 investigadores, 1 comando
+
+Nicho: [EJ: Infraestructura comercial B2B, automatización de embudos y desarrollo web para agencias].
+
+Ejecuta estas cuatro fases en orden, cada una como su propia tarea:
+
+## Investigador 1 — El Scraper
+Busca en X, Reddit, GitHub Trending y Google News (usa actores de Apify) todo lo publicado sobre el nicho en las últimas 24 horas. Recolecta 150–250 elementos. Para cada uno extrae: título, enlace, métricas de engagement (likes / upvotes / estrellas / comentarios) y cuándo fue publicado.
+
+## Investigador 2 — El Filtro
+Descarta cualquier cosa que no haya obtenido engagement real para su plataforma. Una tendencia sin interacción no es tendencia. Quédate solo con el Top 40.
+
+## Investigador 3 — El Sintetizador
+Convierte a los sobrevivientes en un reporte titulado "Investigación Diaria de Contenido — [fecha de hoy]" con una sección de "Top 10 Temas en Tendencia": cada entrada lleva un título en negrita, un resumen de dos líneas, el enlace de origen y el "recibo" de engagement. Añade una tabla de "Top Repositorios de GitHub" si aplica.
+
+## Investigador 4 — El Guionista
+Lee el Top 10 y elige los 3 más fuertes para contenido corto/carruseles. Para cada uno escribe: un gancho de una línea, un esquema de 5 puntos y una línea explicando por qué funcionará (citando los datos del Sintetizador).
+
+Guardado: Guarda el reporte terminado como research-[fecha].md directamente en mi ruta local de Obsidian: [RUTA_A_TU_VAULT/01_Inbox/Research].
+\`\`\`
+
+### 2. Arquitectar (La Primera Ejecución)
+**Rol:** Validar que la conexión con Apify y la extracción de datos funcionen correctamente.
+
+**Comando:** En tu terminal, ejecuta:
+\`\`\`bash
+Ejecuta daily-research para mi nicho.
+\`\`\`
+
+**Auditoría:** La fase de scraping tomará unos minutos. Verifica el archivo Markdown generado en Obsidian. Si un tema no tiene números de engagement al lado, ordénale a Claude que repita la fase de filtrado (el sistema no sirve sin datos duros).
+
+### 3. Programar (Inyección de Formatos Probados)
+**Rol:** Calibrar al Investigador 4 (El Guionista) para que deje de perseguir tendencias genéricas y las adapte a tu estilo de conversión.
+
+**Acción:** Toma los 3 posts o carruseles que mejor rendimiento hayan tenido en tus cuentas. Edita el prompt de la habilidad y añade esta regla al Investigador 4:
+
+\`\`\`text
+El Investigador 4 debe adaptar las ideas exclusivamente a estos formatos que ya han funcionado en mi cuenta: [Pega aquí la estructura de tus posts ganadores].
+\`\`\`
+
+### 4. Encender (Automatización del Cron)
+**Rol:** Configurar el sistema para que corra mientras duermes.
+
+**Comando:**
+\`\`\`bash
+Programa daily-research para que se ejecute todas las mañanas a las 6:00 AM.
+\`\`\`
+
+*(Nota Técnica: Si estás orquestando todo tu ecosistema con n8n, puedes crear un workflow cron que dispare este script localmente cada mañana mediante un nodo de ejecución de comandos).*
+
+### 5. Refinar (Resolución de Problemas)
+- **Errores 401 de Apify:** La conexión caducó. Reconecta la API key de Apify en los conectores de Claude.
+- **Resultados muy pobres:** Las palabras clave de tu nicho son demasiado estrechas. Expande el espectro (ej. si usas "n8n automation", añade "zapier alternatives", "B2B workflows").
+- **Límites de tasa en X (Twitter):** Si la API de X bloquea la extracción, instruye a la habilidad temporalmente para que solo raspe Reddit, GitHub y Google News.
+
+## ⚙️ Stack de Implementación Recomendado
+Para que este equipo opere de forma verdaderamente autónoma, sugerimos la siguiente infraestructura técnica:
+
+*   **Motor de IA:** Claude Code (instalado localmente o en VPS).
+*   **Extracción de Datos:** Apify (cuenta gratuita vinculada a Claude a través de Settings → Connectors).
+*   **Gestor de Conocimiento:** Obsidian con Syncthing (para recibir los reportes automatizados de las 6:00 AM directamente en tu bóveda sincronizada).
+*   **Orquestación Avanzada:** n8n (Opcional, para programar el trigger de ejecución sin depender del programador interno de Claude Code).
+        `,
+        category: "Research & Content Creation",
+        system_type: "content",
+        process_state: "build",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude", "Apify", "Scraping", "Obsidian"] as any
+    },
+    {
+        id: "sys-claude-code-setup",
+        type: "system",
+        title: "The Claude Code Setup Blueprint",
+        slug: "claude-code-setup-blueprint",
+        summary: "Guía de instalación y configuración cero-fricción para desplegar Claude directamente en tu terminal. La infraestructura base para conectar herramientas, bases de datos y agentes autónomos.",
+        body_markdown: `
+# The Claude Code Setup Blueprint
+Guía de instalación y configuración cero-fricción para desplegar Claude directamente en tu terminal. La infraestructura base para conectar herramientas, bases de datos y agentes autónomos.
+
+Claude Code no es un chat en el navegador; es la capa de infraestructura a la que se conectan todos los demás sistemas de este repositorio (MCPs, Skills, automatizaciones). Al ejecutar Claude directamente desde tu terminal, le otorgas acceso nativo a tu sistema de archivos y la capacidad de ejecutar comandos, escribir código y leer repositorios completos de forma autónoma.
+
+Este proceso toma aproximadamente 10 minutos y solo necesitas hacerlo una vez para desbloquear todo el potencial del desarrollo multi-agente.
+
+## Arquitectura de Implementación (Método D.R.A.P.E.R.™)
+No necesitas ser desarrollador para instalar esto. Sigue estas fases de ejecución desde tu terminal (en Mac busca "Terminal", en Windows usa "PowerShell").
+
+### 1. Diagnosticar (Verificación de Entorno)
+**Rol:** Asegurar que tu sistema tiene el motor de ejecución necesario.
+
+**Acción:** Descarga e instala la versión LTS de [Node.js](https://nodejs.org/).
+
+**Auditoría:** Abre tu terminal y ejecuta el siguiente comando para confirmar que se instaló correctamente:
+\`\`\`bash
+node -v
+\`\`\`
+*(Debe devolverte un número de versión. Si no aparece, reinicia la terminal).*
+
+### 2. Rediseñar (Despliegue del Core)
+**Rol:** Instalar la interfaz de línea de comandos de Anthropic.
+
+**Acción:**
+- En Mac / Linux / Entornos VPS: Pega esto en tu terminal y presiona Enter:
+  \`\`\`bash
+  curl -fsSL https://claude.ai/install.sh | bash
+  \`\`\`
+- En Windows (o si prefieres usar NPM en cualquier OS):
+  \`\`\`bash
+  npm install -g @anthropic-ai/claude-code
+  \`\`\`
+
+### 3. Arquitectar (Autenticación Segura)
+**Rol:** Vincular la terminal con tu cuenta de Anthropic para habilitar el consumo de tokens de la API.
+
+**Acción:** Ejecuta el comando de inicio en tu terminal:
+\`\`\`bash
+claude
+\`\`\`
+Esto abrirá automáticamente una ventana en tu navegador web. Aprueba el inicio de sesión y regresa a la terminal. Ya estás dentro del entorno interactivo.
+
+### 4. Programar & Encender (El Primer Comando)
+**Rol:** Validar la capacidad de lectura de archivos y estado del sistema.
+
+**Acción:** Dentro de la interfaz de Claude Code (verás que el prompt cambia), ejecuta el comando de diagnóstico interno:
+\`\`\`bash
+/status
+\`\`\`
+
+**Prueba de Fuego:** Pídele a Claude que audite su propio entorno. Escribe: "Haz un resumen de todos los archivos que hay en esta carpeta y dime qué lenguajes detectas".
+
+### 5. Refinar (Resolución de Problemas Comunes)
+Si encuentras fricción, audita lo siguiente:
+- **Error claude: command not found:** La instalación no se agregó al PATH de tu sistema operativo. Cierra la terminal por completo, abre una nueva y vuelve a intentarlo. Si persiste, vuelve a ejecutar el comando de instalación.
+- **Error node: command not found:** Node.js no se instaló correctamente o no está en tu PATH. Reinstala la versión LTS y reinicia tu computadora.
+- **El login se queda colgado:** Asegúrate de completar el flujo en el navegador hasta que veas el mensaje de "Aprobado" antes de volver a mirar la terminal.
+
+## ⚙️ Siguientes Pasos (El Ecosistema IA Builders Lab)
+Una vez que tengas este entorno activo, tu terminal está lista para integrar el stack operativo. A partir de aquí puedes:
+*   **Conectar Bases de Datos:** Usar servidores MCP para que Claude lea y escriba directamente en tu instancia de Supabase o PostgreSQL.
+*   **Ejecutar Skills:** Desplegar el Daily Research Team o los 6 Agentes de contenido directamente en este entorno.
+*   **Integrar Automatizaciones:** Activar webhooks locales para conectar los outputs de Claude con tus flujos de n8n.
+        `,
+        category: "Infrastructure & Local Environment",
+        system_type: "other",
+        process_state: "build",
+        level: "beginner",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "free_preview",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude Code", "CLI", "NodeJS", "Setup"] as any
+    },
+    {
+        id: "sys-autonomous-marketing-framework",
+        type: "system",
+        title: "The Autonomous Marketing Agent Framework",
+        slug: "autonomous-marketing-agent-framework",
+        summary: "Despliega más de 40 habilidades (skills) especializadas de marketing directamente en Claude Code. Convierte tu terminal en un equipo autónomo de Growth Engineering, SEO, Copywriting y Revenue Operations.",
+        body_markdown: `
+# The Autonomous Marketing Agent Framework
+Despliega más de 40 habilidades (skills) especializadas de marketing directamente en Claude Code. Convierte tu terminal en un equipo autónomo de Growth Engineering, SEO, Copywriting y Revenue Operations.
+
+Cuando le pides a una IA que "mejore tus conversiones" o "escriba un correo frío", el modelo usa su conocimiento general y produce resultados mediocres. Los Skills son archivos Markdown que inyectan frameworks de trabajo, dependencias y las mejores prácticas de la industria directamente en el "cerebro" local de tu agente.
+
+Esta biblioteca contiene más de 40 habilidades interconectadas. La magia radica en la arquitectura de dependencias: la habilidad de redacción publicitaria (copywriting) cruzará referencias automáticamente con la habilidad de optimización de conversiones (cro) y leerá tu documento base de producto antes de generar una sola palabra.
+
+## Detalles Adicionales
+*   **Repositorio Oficial:** [github.com/coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+
+---
+
+## Arquitectura de Implementación (Método D.R.A.P.E.R.™)
+
+### 1. Diagnosticar (Instalación del Ecosistema)
+**Rol:** Inyectar la biblioteca de habilidades en tu entorno local de agentes.
+
+**Acción:** Abre tu terminal (donde ya tienes configurado Claude Code) y ejecuta el instalador CLI universal:
+\`\`\`bash
+# Instalar la suite completa de habilidades
+npx skills add coreyhaines31/marketingskills
+\`\`\`
+*(Nota: Si quieres instalarlas desde la interfaz de Claude Code, usa el comando interno: /plugin marketplace add coreyhaines31/marketingskills).*
+
+### 2. Rediseñar (El Contexto Fundacional)
+**Rol:** Configurar el "Cerebro Central". Todas las habilidades de este repositorio dependen de un archivo maestro llamado product-marketing.md.
+
+**Acción:** Crea un archivo product-marketing.md en tu directorio .agents/ (o .claude/). Aquí debes volcar toda la información de tu oferta. Define claramente tu nicho B2B, el problema que resuelven tus sistemas de adquisición de clientes, la estructura de tu CRM y el perfil de tu prospecto ideal.
+
+**Regla Estricta:** Ninguna habilidad (desde seo-audit hasta cold-email) operará correctamente si este archivo fundacional está vacío o es genérico.
+
+### 3. Arquitectar (Mapeo de Flujos B2B)
+**Rol:** Seleccionar los módulos específicos que nutrirán el embudo comercial.
+
+**Selección Estratégica:** Aunque hay decenas de habilidades, para la construcción de infraestructuras comerciales autónomas te enfocarás en esta secuencia:
+- \`/cro\`: Para optimizar la retención en los formularios y landing pages.
+- \`/cold-email\`: Para redactar secuencias de prospección B2B que obtengan respuestas.
+- \`/sales-enablement\`: Para generar documentos de manejo de objeciones y guiones de venta.
+- \`/revops\`: Para delegar el enrutamiento y la gestión del ciclo de vida del lead hacia el pipeline.
+
+### 4. Programar (Invocación Directa)
+**Rol:** Detonar las habilidades dentro de tu flujo de trabajo.
+
+**Ejecución:** No necesitas prompts complejos. Inicia Claude Code en la carpeta de tu proyecto web y simplemente invoca la habilidad con la instrucción de negocio.
+\`\`\`bash
+# Ejemplos de ejecución
+/cro Analiza el código de esta landing page (index.tsx) y reestructura el formulario para minimizar la fricción en la captura de leads empresariales.
+/cold-email Utiliza nuestra propuesta de servicios B2B para crear una secuencia de 3 correos dirigida a directores de operaciones.
+\`\`\`
+
+### 5. Encender (Interconexión Autónoma)
+**Rol:** Permitir que los agentes consulten dependencias.
+
+**Dinámica:** Cuando le pidas a Claude que genere un plan de crecimiento, verás en la terminal cómo el agente lee de forma autónoma product-marketing.md, luego abre marketing-ideas.md, consulta marketing-psychology.md y finalmente te entrega un resultado hiper-personalizado. Déjalo operar el bucle completo.
+
+### 6. Refinar (Sincronización y Actualizaciones)
+**Rol:** Mantener la biblioteca de habilidades actualizada con las últimas iteraciones (recientemente migradas a la v2.0).
+
+**Acción:** Si utilizas múltiples entornos (como Cursor para código y Claude Code para orquestación), usa SkillKit para instalar y mantener actualizadas las habilidades transversalmente:
+\`\`\`bash
+npx skillkit install coreyhaines31/marketingskills
+\`\`\`
+
+## ⚙️ Stack de Integración Recomendado y Recursos
+Esta biblioteca transforma a Claude Code de un asistente de programación a un Director de Marketing (CMO) técnico. Funciona a la perfección junto con:
+
+*   **Entornos de Código:** Cursor o Windsurf (cualquier agente que soporte la especificación de Agent Skills).
+*   **Automatización de Datos:** Si utilizas servidores MCP, estas habilidades de marketing utilizarán tus métricas reales para optimizar los embudos sin intervención humana.
+*   **Recursos Oficiales:** [Repositorio en GitHub (Instrucciones completas y actualizaciones)](https://github.com/coreyhaines31/marketingskills)
+        `,
+        category: "Infrastructure & Growth Automation",
+        system_type: "other",
+        process_state: "build",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "pro",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude Code", "Marketing Skills", "Growth", "Setup"] as any
+    },
+    {
+        id: "sys-meta-ads-mcp",
+        type: "system",
+        title: "Meta Just Dropped an Ads MCP",
+        slug: "meta-ads-mcp-integration",
+        summary: "Guía paso a paso para implementar el servidor MCP oficial de Meta y controlar tus campañas usando comandos de IA.",
+        body_markdown: `
+# Meta Ads Model Context Protocol (MCP) Setup
+Aprende a instalar el servidor MCP oficial de Meta para dotar a tu instancia de Claude de herramientas nativas para consultar rendimiento publicitario y lanzar campañas.
+        `,
+        category: "Paid Ads",
+        system_type: "sales",
+        process_state: "build",
+        level: "intermediate",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "free_preview",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["MCP", "Meta Ads", "Claude Code", "Setup"] as any
+    },
+    {
+        id: "sys-open-source-tools",
+        type: "system",
+        title: "Open-Source Claude Tools Worth Installing",
+        slug: "open-source-claude-tools-installing",
+        summary: "Recopilación de herramientas y dependencias de código abierto indispensables para ampliar las habilidades nativas de Claude.",
+        body_markdown: `
+# Open Source Claude Tools
+Amplía las habilidades de tu terminal con herramientas como servidores de sistema de archivos avanzados, conectores a bases de datos y scripts de scrapeo optimizados para el uso diario.
+        `,
+        category: "Tools",
+        system_type: "operations",
+        process_state: "build",
+        level: "beginner",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "free_preview",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude", "Open Source", "Tools", "Setup"] as any
+    }
+];
 
 export async function getPublicSystems() {
     // Simulate network delay
@@ -16,6 +591,112 @@ export async function getSystemBySlug(slug: string) {
 }
 
 export const MOCK_PROMPTS: ContentItem[] = [
+    {
+        id: "pr-5-secret-commands",
+        type: "prompt",
+        title: "5 Secret Claude Code Commands",
+        slug: "5-secret-claude-code-commands",
+        summary: "Comandos ocultos y técnicas avanzadas de prompting para exprimir al máximo Claude Code en terminal.",
+        body_markdown: `
+# 5 Secret Claude Code Commands
+Domina la terminal con Claude Code utilizando estos 5 comandos avanzados y flujos poco conocidos:
+
+1. **\`--compact\`**: Ejecuta comandos ahorrando espacio en pantalla.
+2. **\`--danger-zone\`**: Habilita modificaciones de archivos del sistema.
+3. **Instrucciones en una línea:** Utiliza pipes para procesar logs directamente.
+4. **Context Pinning:** Fija archivos clave en el contexto de tu sesión de chat.
+5. **Auto-commit Hooks:** Flujo integrado para que Claude cree los mensajes de git de manera semántica.
+        `,
+        prompt_text: "Comandos y atajos recomendados:\n- agy-customizations\n- init --template\n- config set autoCommit true",
+        category: "Claude Code",
+        level: "intermediate",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "free_preview",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude Code", "Terminal", "Prompts", "Secrets"] as any
+    },
+    {
+        id: "pr-hormozi-coach",
+        type: "prompt",
+        title: "Alex Hormozi Business Coach",
+        slug: "alex-hormozi-business-coach",
+        summary: "Prompt altamente estructurado para que la IA actúe como un mentor experto en ofertas irresistibles ($100M Offers).",
+        body_markdown: `
+# Alex Hormozi Business Coach
+Utiliza este prompt estructurado para auditar tu modelo de negocio, diseñar tu oferta irresistible y optimizar tus embudos bajo la metodología de Alex Hormozi.
+        `,
+        prompt_text: "Actúa como Alex Hormozi. Analiza mi oferta actual: [DESCRIPCIÓN DE TU OFERTA] aplicando la Ecuación del Valor de $100M...",
+        category: "Business Coaching",
+        level: "beginner",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Alex Hormozi", "Offers", "Coaching", "Prompts"] as any
+    },
+    {
+        id: "pr-600-lead-list",
+        type: "prompt",
+        title: "The $600 Lead List",
+        slug: "the-600-dollar-lead-list",
+        summary: "Secuencia de prompts optimizada para extraer, limpiar y filtrar listas de leads B2B de altísima conversión.",
+        body_markdown: `
+# The $600 Lead List Prompt Sequence
+Consigue listas de leads cualificados de forma gratuita usando este prompt estructurado para analizar perfiles profesionales y enriquecer datos.
+        `,
+        prompt_text: "Eres un analista B2B experto. Tu tarea es extraer y estructurar una lista de leads a partir del siguiente bloque de datos raw: [DATOS RAW]...",
+        category: "Lead Generation",
+        level: "intermediate",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "access",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Leads", "B2B", "Sales", "Prompts"] as any
+    },
+    {
+        id: "pr-websites-not-ai",
+        type: "prompt",
+        title: "Build Websites Claude Didn't Make Look Like AI",
+        slug: "build-websites-claude-not-look-ai",
+        summary: "Instrucciones de diseño frontend para forzar a Claude a escribir interfaces modernas, UI premium y evitar estilos genéricos.",
+        body_markdown: `
+# Non-AI Website Design Prompt
+Evita que tus sitios web generados por Claude se vean genéricos. Utiliza este sistema de diseño frontend que impone reglas estrictas de espaciado, colores y micro-interacciones.
+        `,
+        prompt_text: "Quiero que construyas una interfaz moderna con Tailwind CSS. Aplica estas reglas estrictas de diseño: usa grid asimétrico, sombras suaves, fuentes sofisticadas y evita layouts típicos de héroe centrado...",
+        category: "Frontend Development",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "pro",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude", "Web design", "Frontend", "Tailwind"] as any
+    },
+    {
+        id: "pr-0-humanizer",
+        type: "prompt",
+        title: "The 0% Humanizer",
+        slug: "the-0-percent-humanizer",
+        summary: "Prompt avanzado para pulir textos generados por IA, removiendo patrones sintácticos comunes y logrando un tono de escritura natural.",
+        body_markdown: `
+# The 0% AI Humanizer Prompt
+Remueve la huella sintáctica de la IA de cualquier texto. Este prompt detecta y elimina palabras sobreutilizadas (como 'crucial', 'entonces', 'adentrémonos') y reestructura las oraciones para simular redacción humana experta.
+        `,
+        prompt_text: "Reescribe el siguiente texto para eliminar patrones robóticos. Usa oraciones de longitud variada, elimina transiciones artificiales y adopta un tono conversacional natural: [TEXTO]...",
+        category: "Copywriting",
+        level: "intermediate",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "access",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Humanizer", "Copywriting", "SEO", "Claude"] as any
+    },
 
 
     // Prompts from PromptGather.io
@@ -2796,7 +3477,70 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 
 ];
 
-export const MOCK_AUTOMATIONS: ContentItem[] = [];
+export const MOCK_AUTOMATIONS: ContentItem[] = [
+    {
+        id: "aut-manychat-dm",
+        type: "automation",
+        title: "Build Your ManyChat DM Flows With Claude",
+        slug: "build-manychat-dm-flows-claude",
+        summary: "Integración para conectar y nutrir leads a través de mensajes directos combinando automatización de ManyChat y el cerebro de Claude.",
+        body_markdown: `
+# ManyChat + Claude Integration Blueprint
+Conecta tus flujos de automatización de Instagram/Facebook Direct Message con Claude para responder de forma inteligente y humana sin perder el control del funnel.
+
+## Requisitos
+- Cuenta Pro de ManyChat.
+- API Key de Anthropic (Claude).
+- Plataforma de integración como Make.com o n8n.
+        `,
+        category: "Chat Automation",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["ManyChat", "Claude", "DM Automation", "n8n"] as any
+    },
+    {
+        id: "aut-remotion-videos",
+        type: "automation",
+        title: "Create Videos in Claude Code with Remotion",
+        slug: "create-videos-claude-code-remotion",
+        summary: "Configuración automatizada para renderizar y exportar videos personalizados en lote usando Claude Code y Remotion.",
+        body_markdown: `
+# Remotion Video Rendering Automation
+Automatiza la edición y renderizado de videos dinámicos a través de código. Claude redacta los elementos dinámicos y Remotion compila los archivos mp4 de forma programática.
+        `,
+        category: "Video Automation",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "pro",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude Code", "Remotion", "Video", "Automation"] as any
+    },
+    {
+        id: "aut-ugc-ads",
+        type: "automation",
+        title: "Make UGC Ads With Claude + Arcads",
+        slug: "make-ugc-ads-claude-arcads",
+        summary: "Automatización en lote para generar guiones y avatares UGC hiperrealistas integrando Claude y la plataforma Arcads.",
+        body_markdown: `
+# UGC Video Ad Automation Setup
+Combina la creatividad de Claude para escribir ganchos de alta retención (hooks) con Arcads para generar avatares UGC realistas en lote. Escala tu producción de anuncios x10.
+        `,
+        category: "Ads Automation",
+        level: "intermediate",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "access",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: ["Claude", "Arcads", "UGC", "Ads", "Automation"] as any
+    }
+];
 
 
 export async function getPublicPrompts() {
