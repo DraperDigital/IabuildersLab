@@ -10131,5 +10131,107 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Retrato en París\nModifica el blazer negro por un vestido de cóctel elegante para cambiar la formalidad de la foto. Puedes cambiar la localización sustituyendo la Torre Eiffel por otro monumento famoso del mundo.",
         reference_image_guide: "Usa una foto donde tu rostro mire ligeramente de perfil hacia arriba para que encaje perfectamente con la pose contemplativa junto al río Sena."
+    },
+    {
+        id: "lifestyle-urban-luxury-daylight",
+        type: "prompt",
+        title: "REAISEMP_Human — Urban Luxury Daylight Portrait",
+        slug: "urban-luxury-daylight",
+        summary: "Prompt ultra-realista de retrato chic urbano con luz de día natural en plaza comercial elegante. El avatar posa sonriente sentada sobre un banco de mármol gris con bolso de diseñador.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven de silueta curvilínea, cabello rubio castaño ondulado muy largo sobre el hombro, blusa wrap verde oliva, pantalón negro de tiro alto y manicura roja.
+*   **E(Entorno):** Plaza exterior moderna con banco de mármol gris claro, boutique de lujo al fondo con vitrinas y transeúntes desenfocados.
+*   **A(Acción / Postura):** Sentada de lado en el banco de mármol, cuerpo ligeramente inclinado hacia el frente, mirada directa y alegre a la cámara con una mano descansando en su hombro. Bolso negro con cadena dorada en el banco.
+*   **I(Iluminación):** Luz natural diurna brillante, iluminación lateral y frontal suave y favorecedora sin sombras duras.
+*   **S(Sensación / Atmósfera):** Elegante, alegre, glamurosa, urbana y lifestyle sofisticado.
+*   **E(Estilo Visual):** Retrato urbano chic altamente realista con grano analógico sutil y definición clara de piel, cabello ondulado, mármol y cuero.
+*   **M(Composición / Cámara):** Plano medio-largo vertical (4:5), ángulo ligeramente contrapicado, objetivo de retrato 50mm–85mm con apertura f/2.0–f/3.5 logrando un bokeh suave.
+*   **P(Postproducción):** Tonos cálidos y luminosos con saturación realista y contraste moderado. Sin marcas de agua, textos ni imperfecciones 3D.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Urban Luxury Daylight Portrait",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer joven adulta de figura curvilínea, apariencia sofisticada y presencia natural.",
+                    "cabello": "Muy largo, grueso y ondulado, cayendo sobre hombro y pecho.",
+                    "rostro": "Piel clara, luminosa y saludable; cejas oscuras arqueadas, eyeliner negro, sombras neutras, pestañas largas y labios rosados con gloss.",
+                    "expresion": "Sonrisa amplia, radiante y cautivadora.",
+                    "vestimenta": {
+                        "top": "Blusa verde oliva tipo wrap con escote V, mangas 3/4 ligeramente recogidas y tejido fluido.",
+                        "bottom": "Pantalón negro de cintura alta, ajustado y con textura vertical sutil."
+                    },
+                    "accesorios": "Pendientes largos dorados, pulsera delicada con detalles verdes, reloj plateado con esfera blanca y manicura roja."
+                },
+                "E_Entorno": {
+                    "escena": "Zona urbana exterior elegante durante un día soleado.",
+                    "fondo": "Plaza o acera moderna con banco amplio de mármol gris claro y fachada de boutique de lujo detrás.",
+                    "elementos": [
+                        "Banco de mármol gris claro",
+                        "Vitrinas de cristal",
+                        "Estructuras metálicas y toldos",
+                        "Columnas arquitectónicas",
+                        "Personas pasando desenfocadas"
+                    ],
+                    "atmosfera": "Urban elegance, daytime glamour, sofisticación lifestyle."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada de lado sobre el banco, con el torso ligeramente inclinado hacia delante.",
+                    "accion": "Una mano descansa suavemente sobre el hombro mientras mantiene una postura relajada.",
+                    "lenguaje_corporal": "Elegante, segura y natural.",
+                    "mirada": "Directa hacia la cámara.",
+                    "prop": "Bolso negro de cuero con cadena dorada y medallón dorado decorativo apoyado sobre el banco junto a ella."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz natural diurna brillante.",
+                    "direccion": "Lateral y ligeramente frontal.",
+                    "caracteristicas": "Luz suave y favorecedora, posiblemente reflejada por superficies urbanas.",
+                    "sombras": "Muy suaves, evitando sombras duras sobre rostro y cuerpo.",
+                    "efecto": "Realza el brillo natural de la piel, cabello y colores de la ropa."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Elegante, alegre, sofisticado y seguro.",
+                    "tono": "Retrato urbano premium con sensación espontánea y lifestyle."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato urbano chic y fotorealista.",
+                    "acabado": "Limpio, natural y sofisticado, sin apariencia excesivamente retocada.",
+                    "texturas": "Piel realista, cabello ondulado, tejido fluido, cuero, mármol y metal.",
+                    "paleta": "Verde oliva, negro, gris mármol, dorado y tonos naturales de piel."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio-largo.",
+                    "angulo": "Ligeramente contrapicado.",
+                    "encuadre": "Sujeto claramente separado del fondo urbano.",
+                    "camara": "Cámara full-frame.",
+                    "optica": "Objetivo de retrato 50mm–85mm.",
+                    "apertura": "f/2.0–f/3.5.",
+                    "profundidad_de_campo": "Bokeh suave, manteniendo rostro, ropa y accesorios nítidos.",
+                    "aspect_ratio": "4:5 vertical"
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Color natural con tonos cálidos y luminosos.",
+                    "contraste": "Moderado y elegante.",
+                    "nitidez": "Alta definición en rostro y sujeto, fondo suavemente desenfocado.",
+                    "acabado_final": "Fotografía editorial lifestyle realista, sin texto, sin deformaciones y sin apariencia de render 3D."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/urban-luxury-daylight.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-urban", name: "Urban", slug: "urban" },
+            { id: "t-outdoor", name: "Outdoor", slug: "outdoor" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Retrato Urbano de Día\nModifica la blusa wrap verde oliva por otra prenda y color de tu elección (ej. 'camisa de lino blanca'). Puedes sustituir el bolso negro con cadena dorada por otro accesorio como unas gafas de sol.",
+        reference_image_guide: "Usa una foto donde tu rostro tenga una sonrisa radiante y mire directamente a la cámara para asegurar una coherencia perfecta con la expresión alegre del prompt."
     }
 ];
