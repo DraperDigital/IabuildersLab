@@ -9634,5 +9634,107 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Mirror Selfie\nModifica el color del vestido cambiando 'color azul brillante' por tu tono preferido (ej. 'color verde oliva'). Puedes sustituir los calcetines deportivos altos por zapatos de tacón o tenis casuales para cambiar el estilo de vestir.",
         reference_image_guide: "Usa una foto de retrato clara donde la pose de tu cuerpo y manos sea similar para asegurar que el mapeo del rostro y los hombros encajen perfectamente en el espejo."
+    },
+    {
+        id: "lifestyle-puppy-cuddle-selfie",
+        type: "prompt",
+        title: "REAISEMP_Human — Selfie cariñosa con cachorro",
+        slug: "puppy-cuddle-selfie",
+        summary: "Prompt ultra-realista de primer plano vertical lifestyle capturando una selfie espontánea de tu avatar abrazando de manera cariñosa a un esponjoso cachorro goldendoodle.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven de piel cálida bronceada, cabello largo rubio recogido en moño alto desenfadado, aros dorados finos y tank top acanalado negro.
+*   **E(Entorno):** Dormitorio luminoso y ordenado. Paredes blancas, puerta panelada azul marino, cómoda blanca y ventana amplia.
+*   **A(Acción / Postura):** Sostiene cariñosamente a un cachorro dorado contra el pecho con ambas manos, cabeza inclinada y mirando de frente a la cámara con sonrisa suave.
+*   **I(Iluminación):** Luz natural lateral procedente de la ventana a la derecha, suave y difusa.
+*   **S(Sensación / Atmósfera):** Cálida, afectuosa, feliz, natural y familiar.
+*   **E(Estilo Visual):** Fotografía lifestyle candid ultra realista tipo selfie de smartphone (iPhone). Texturas de algodón y pelaje muy definidas.
+*   **M(Composición / Cámara):** Primer plano vertical (4:5) con la modelo y el cachorro centrados, ángulo de cámara levemente picado y fondo desenfocado.
+*   **P(Postproducción):** Tonos cálidos y naturales, saturación realista, nitidez alta en texturas y sin marcas de agua ni texto.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Selfie cariñosa con cachorro",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer joven adulta de piel cálida bronceada, apariencia natural y sonrisa suave.",
+                    "cabello": "Recogido en un moño alto y desenfadado, con mechones sueltos enmarcando el rostro.",
+                    "rostro": "Maquillaje natural, piel realista, sonrisa delicada y mirada directa a cámara.",
+                    "vestimenta": "Tank top negro de tejido acanalado.",
+                    "accesorios": "Pequeños aros dorados, collar fino dorado y dos anillos en la mano izquierda."
+                },
+                "E_Entorno": {
+                    "escena": "Dormitorio luminoso y acogedor.",
+                    "fondo": "Paredes blancas, puerta panelada azul marino a la izquierda, cómoda blanca con tiradores negros, cama blanca con almohadas y ventana con marco blanco a la derecha.",
+                    "atmosfera": "Limpia, doméstica, cálida y natural, con muy poco desorden."
+                },
+                "A_Accion_Postura": {
+                    "pose": "La mujer sostiene al cachorro cerca del pecho con ambas manos y mantiene la cabeza ligeramente inclinada.",
+                    "accion": "Abraza al cachorro mientras mira y sonríe suavemente a la cámara.",
+                    "acompanante": "Cachorro pequeño tipo Goldendoodle o mezcla de caniche, de pelaje dorado claro, rizado y esponjoso, mirando hacia delante.",
+                    "lenguaje_corporal": "Cariñoso, relajado y espontáneo."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz natural diurna procedente de la ventana.",
+                    "direccion": "Iluminación lateral desde la derecha.",
+                    "caracteristicas": "Luz suave, difusa y favorecedora con reflejos delicados sobre piel, cabello y pelaje.",
+                    "sombras": "Suaves y mínimas."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Cálido, afectuoso, casual y feliz.",
+                    "tono": "Lifestyle auténtico y espontáneo."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía lifestyle candid ultra realista.",
+                    "acabado": "Aspecto natural de smartphone, sin apariencia de estudio.",
+                    "texturas": "Pelaje rizado y suave, textura natural de piel y tejido de algodón del tank top.",
+                    "paleta": "Tonos cálidos y naturales: beige, negro, blanco y dorado, con azul marino como acento."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Primer plano vertical.",
+                    "angulo": "Ligeramente elevado, mirando hacia abajo.",
+                    "encuadre": "Mujer y cachorro centrados, ambos claramente visibles.",
+                    "profundidad": "Profundidad de campo reducida con fondo ligeramente desenfocado.",
+                    "camara": "Smartphone estilo iPhone con lente gran angular.",
+                    "aspect_ratio": "4:5 vertical"
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Color cálido y natural, saturación realista y contraste moderado.",
+                    "nitidez": "Enfoque preciso en rostro y cachorro, conservando textura auténtica.",
+                    "acabado_final": "Fotografía espontánea de alta calidad con profundidad natural y sin texto visible.",
+                    "negative_prompts": [
+                        "blurry",
+                        "dark",
+                        "low quality",
+                        "artificial lighting",
+                        "sad expression",
+                        "different clothing",
+                        "different dog breed",
+                        "deformed anatomy",
+                        "extra limbs",
+                        "plastic skin",
+                        "cartoon",
+                        "3d render",
+                        "watermark",
+                        "text"
+                    ]
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/puppy-cuddle-selfie.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-puppy", name: "Puppy", slug: "puppy" },
+            { id: "t-indoor", name: "Indoor", slug: "indoor" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Selfie con Cachorro\nSustituye los rasgos faciales y de vestimenta del avatar por los tuyos. Si prefieres otra raza de perro, edita 'Goldendoodle' por el nombre de la raza que desees (ej. 'Pug' o 'Golden Retriever').",
+        reference_image_guide: "Usa una foto donde tu expresión sea alegre y relajada, preferiblemente con la cabeza un poco inclinada para que coincida de forma natural con la pose de abrazo."
     }
 ];
