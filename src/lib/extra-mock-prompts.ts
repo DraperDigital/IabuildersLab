@@ -10430,5 +10430,101 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Selfie Dominical Relajado\nSustituye la descripción del pelo y ropa por la tuya. Puedes alterar la funda de stickers y el diseño de la cama de fondo modificando la descripción en los campos correspondientes de entorno.",
         reference_image_guide: "Usa una foto donde estés sentada en el suelo apoyándote hacia atrás de manera lateral para que el render conserve la inclinación corporal exacta."
+    },
+    {
+        id: "lifestyle-vintage-slip-bathroom-vanity",
+        type: "prompt",
+        title: "REAISEMP_Human — Vintage Slip Bathroom Vanity",
+        slug: "vintage-slip-bathroom-vanity",
+        summary: "Prompt ultra-realista de fotografía mirror selfie analógica de 35mm. El avatar posa sentada en el mostrador del baño vistiendo un vestido de seda vintage.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven de figura esbelta, cabello recogido suelto y desordenado con mechones finos, vestido slip vintage de seda con bordes de encaje claro.
+*   **E(Entorno):** Baño residencial compacto. Espejo de vanity con manchas de agua, mostrador desordenado con cosméticos, brochas y productos de aseo personal.
+*   **A(Acción / Postura):** Sentada sobre el mostrador del baño, inclinándose hacia el espejo con piernas relajadas de lado, mirada dirigida al reflejo del espejo.
+*   **I(Iluminación):** Flash frontal directo y duro con sombras marcadas y highlights especulares, combinado con luz de tungsteno ambiental tenue y cálida de fondo.
+*   **S(Sensación / Atmósfera):** Cool, íntimo, crudo, privado y nocturno.
+*   **E(Estilo Visual):** Fotografía mirror selfie con estética analógica de point-and-shoot de 35mm con grano visible y viñeteado natural.
+*   **M(Composición / Cámara):** Plano thighs-up vertical (4:5) desde el reflejo del espejo a nivel de los ojos (eye-level), con objetos desenfocados en primer plano para aportar profundidad.
+*   **P(Postproducción):** Negros ligeramente lavados, sombras verdosas y rojos saturados de forma moderada. Enfoque nítido pero suave característico de película vintage.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Vintage Slip Bathroom Vanity",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer adulta joven, principios de los 20, figura esbelta y apariencia natural.",
+                    "cabello": "Recogido suelto y ligeramente desordenado, con mechones enmarcando el rostro.",
+                    "rostro": "Piel realista con textura visible, sin retoque excesivo.",
+                    "expresion": "Mirada distante y cool, labios ligeramente entreabiertos.",
+                    "vestimenta": "Vestido slip vintage de seda con delicados bordes de encaje."
+                },
+                "E_Entorno": {
+                    "escena": "Baño residencial compacto con azulejos y espejo sobre el vanity.",
+                    "elementos": [
+                        "Cosméticos",
+                        "Brochas",
+                        "Productos de baño",
+                        "Mostrador ligeramente desordenado",
+                        "Espejo con manchas de agua y pequeñas marcas"
+                    ],
+                    "atmosfera": "Momento privado, íntimo y nocturno, con imperfecciones cotidianas."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada casualmente sobre el mostrador, inclinándose ligeramente hacia el espejo.",
+                    "piernas": "Relajadas o cruzadas naturalmente.",
+                    "lenguaje_corporal": "Relajado, espontáneo y sin apariencia de pose profesional.",
+                    "mirada": "Dirigida al reflejo o hacia la cámara."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Flash directo de cámara combinado con tungsteno ambiental.",
+                    "principal": "Flash frontal duro con sombras marcadas y highlights especulares.",
+                    "ambiental": "Luz tungsteno tenue y cálida.",
+                    "contraste": "Alto, con caída pronunciada de luz.",
+                    "temperatura": "5500K flash + 3200K ambiente."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Cool, íntimo, crudo y nocturno.",
+                    "tono": "Snapshot privado capturado espontáneamente."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Mirror photograph con estética raw flash y emulación analógica.",
+                    "acabado": "35mm vintage, grano visible, imperfecciones naturales y textura auténtica.",
+                    "color_grading": "Negros ligeramente levantados, sombras verdosas y rojos moderadamente saturados."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Thighs-up, sujeto sentado sobre el vanity.",
+                    "angulo": "Eye-level hacia el reflejo.",
+                    "encuadre": "Reflejo centrado con objetos del mostrador en primer plano para profundidad.",
+                    "camara": "Point-and-shoot con estética 35mm.",
+                    "optica": "35mm gran angular con ligera distorsión.",
+                    "apertura": "f/5.6–f/8.",
+                    "velocidad": "1/60s.",
+                    "iso": 800,
+                    "aspect_ratio": "4:5 vertical"
+                },
+                "P_Postproduccion": {
+                    "nitidez": "Moderada con suavidad natural del flash.",
+                    "grano": "Film grain auténtico.",
+                    "vignette": "Caída natural del flash hacia los bordes.",
+                    "acabado_final": "Fotografía hiperrealista y espontánea, sin iluminación de estudio, softbox, render 3D, ilustración, piel aerografiada, estética LED ni apariencia excesivamente pulida."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/vintage-slip-bathroom-vanity.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-mirror", name: "Mirror Selfie", slug: "mirror-selfie" },
+            { id: "t-indoor", name: "Indoor", slug: "indoor" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Retrato Vintage en Baño\nModifica el tipo de vestido o color del encaje de seda para renovar tu outfit. Puedes agregar o quitar elementos del mostrador del baño ajustando la descripción en los detalles del entorno.",
+        reference_image_guide: "Usa una foto donde aparezcas sentada sobre un mostrador o mesa inclinándote levemente al espejo de modo que la pose sea consistente."
     }
 ];
