@@ -7,6 +7,14 @@ const withNextIntl = createNextIntlPlugin(
 
 const nextConfig: NextConfig = {
   devIndicators: false,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'files.promptgather.io',
+      },
+    ],
+  },
 };
 
 export default withNextIntl(nextConfig);
