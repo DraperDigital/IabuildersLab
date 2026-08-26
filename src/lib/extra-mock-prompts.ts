@@ -10694,5 +10694,124 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Selfie con Gato\nModifica el color del gato (ej. cambia 'gato negro' por 'gato siamés'). Puedes retirar el flequillo o el piercing de septum editando las especificaciones del avatar.",
         reference_image_guide: "Usa una foto donde tu rostro y mejilla toquen el objeto o mascota de la toma original para mantener la coherencia espacial y de la mano sosteniendo el pelaje."
+    },
+    {
+        id: "lifestyle-nyc-night-bridge",
+        type: "prompt",
+        title: "REAISEMP_Human — NYC Night Bridge",
+        slug: "nyc-night-bridge",
+        summary: "Prompt de retrato nocturno ultra-realista frente al Manhattan Bridge y el skyline iluminado de Nueva York, con chaqueta oversized de cuero y brisa de río Sena.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Persona de cabello oscuro suelto y natural con mechones movidos por la brisa, chaqueta de cuero negro oversized y falda oscura. Identidad facial bloqueada.
+*   **E(Entorno):** Orilla del río en Nueva York de noche junto a una barandilla metálica desgastada. Manhattan Bridge y skyline iluminado al fondo con luna creciente en cielo oscuro.
+*   **A(Acción / Postura):** De pie junto a la barandilla con hombros orientados hacia la cámara, cabeza ligeramente inclinada hacia atrás y brisa moviendo cabello y ropa.
+*   **I(Iluminación):** Luz nocturna natural de farolas de la ciudad y del puente, con reflejos dorados y azules fríos sobre el agua y chaqueta de cuero.
+*   **S(Sensación / Atmósfera):** Contemplativa, elegante, urbana y cinematográfica.
+*   **E(Estilo Visual):** Fotografía nocturna con estética de iPhone, texturas de metal desgastado, agua en movimiento y cuero muy detalladas.
+*   **M(Composición / Cámara):** Retrato medio-largo vertical (9:16) con sujeto nítido a nivel de los ojos y fondo del puente perfectamente reconocible.
+*   **P(Postproducción):** Contraste nocturno natural entre tonos cálidos y fríos, sin distorsión artificial y fidelidad total a la referencia.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — NYC Night Bridge",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Persona adulta basada estrictamente en la imagen de referencia.",
+                    "identidad": "Preservar exactamente los rasgos faciales, proporciones, estructura del rostro y detalles únicos de la persona de referencia.",
+                    "cabello": "Cabello oscuro, suelto y natural, con mechones movidos por la brisa y algunos cursando el rostro.",
+                    "expresion": "Serena, segura y ligeramente contemplativa.",
+                    "vestimenta": {
+                        "top": "Chaqueta oversized de cuero negro.",
+                        "details": "Mangas arrugadas, pliegues pesados y naturales, líneas de desgaste sutiles y reflejos irregulares de las luces nocturnas.",
+                        "bottom": "Falda oscura con movimiento ligero provocado por el viento."
+                    }
+                },
+                "E_Entorno": {
+                    "escena": "Riverside nocturno en Nueva York junto a una barandilla frente al agua.",
+                    "fondo": "Manhattan Bridge y skyline de Manhattan iluminado.",
+                    "elementos": [
+                        "Agua con pequeñas ondas",
+                        "Reflejos blancos, dorados y azul frío",
+                        "Edificios con ventanas iluminadas",
+                        "Puente con cables iluminados",
+                        "Barandilla metálica desgastada",
+                        "Pequeñas marcas, arañazos y zonas de óxido",
+                        "Luna creciente en cielo oscuro"
+                    ],
+                    "atmosfera": "Nocturna, urbana, cinematográfica y ligeramente brumosa."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie junto a la barandilla, postura relajada pero deliberadamente compuesta.",
+                    "cuerpo": "Hombros ligeramente orientados hacia la cámara.",
+                    "cabeza": "Inclinada suavemente hacia atrás.",
+                    "movimiento": "Brisa ligera del río moviendo el cabello y el borde de la falda."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación nocturna ambiental natural de ciudad.",
+                    "fuentes": [
+                        "Farolas",
+                        "Luces del Manhattan Bridge",
+                        "Ventanas de edificios",
+                        "Reflejos sobre el agua"
+                    ],
+                    "caracteristicas": "Highlights irregulares sobre el cuero, halos suaves alrededor de las luces y sombras profundas pero naturales.",
+                    "temperatura": "Mezcla de tonos cálidos dorados y azules fríos."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Elegante, urbano, contemplativo y cinematográfico.",
+                    "tono": "Retrato nocturno auténtico capturado espontáneamente frente al skyline."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía nocturna hiperrealista con estética auténtica de iPhone.",
+                    "texturas": "Cuero con desgaste realista, metal rayado, agua en movimiento, ladrillo, vidrio y concreto.",
+                    "ambiente": "Haze ligero sobre el río y pequeñas imperfecciones ópticas naturales.",
+                    "acabado": "Sin apariencia de estudio ni CGI; realismo fotográfico de smartphone."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Retrato medio a medio-largo.",
+                    "angulo": "Eye-level ligeramente orientado hacia la figura.",
+                    "encuadre": "Sujeto en primer plano con Manhattan Bridge y skyline claramente reconocibles detrás.",
+                    "profundidad": "Sujeto nítido, skyline definido y agua con profundidad atmosférica natural.",
+                    "aspect_ratio": "9:16 vertical",
+                    "camara": "iPhone aesthetic, handheld, natural night photography."
+                },
+                "P_Postproduccion": {
+                    "nitidez": "Alta en rostro, chaqueta y elementos cercanos.",
+                    "color": "Contraste natural entre luces ámbar, blanco urbano y azul frío.",
+                    "acabado_final": "Ultra fotorealista, con reflejos y movimiento naturales, preservando estrictamente la identidad facial de la referencia.",
+                    "negative_prompt": [
+                        "altered face",
+                        "different identity",
+                        "plastic skin",
+                        "CGI",
+                        "3D render",
+                        "artificial skyline",
+                        "overprocessed HDR",
+                        "excessive blur",
+                        "distorted anatomy",
+                        "extra limbs",
+                        "daylight",
+                        "studio lighting",
+                        "fake reflections"
+                    ]
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/nyc-night-bridge.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-urban", name: "Urban", slug: "urban" },
+            { id: "t-night", name: "Night Photography", slug: "night-photography" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Retrato en Puente de Nueva York\nModifica la chaqueta de cuero por otra prenda similar (ej. cambia 'Chaqueta oversized de cuero negro' por 'Gabardina clásica beige'). Puedes adaptar el skyline de fondo si deseas simular otra ciudad.",
+        reference_image_guide: "Usa una foto donde tu rostro y cabello tengan movimiento sutil causado por brisa artificial o natural para coincidir con el dinamismo del prompt."
     }
 ];
