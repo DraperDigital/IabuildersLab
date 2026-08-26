@@ -649,12 +649,68 @@ Esta biblioteca transforma a Claude Code de un asistente de programación a un D
         type: "system",
         title: "Open-Source Claude Tools Worth Installing",
         slug: "open-source-claude-tools-installing",
-        summary: "Recopilación de herramientas y dependencias de código abierto indispensables para ampliar las habilidades nativas de Claude.",
+        summary: "Recopilación de herramientas y dependencias de código abierto indispensables para ampliar las habilidades nativas de Claude: enrutamiento de modelos, visión de video, memoria a largo plazo y agentes preconfigurados.",
         body_markdown: `
-# Open Source Claude Tools
-Amplía las habilidades de tu terminal con herramientas como servidores de sistema de archivos avanzados, conectores a bases de datos y scripts de scrapeo optimizados para el uso diario.
+# Open-Source Claude Tools Worth Installing
+Recopilación de herramientas y dependencias de código abierto indispensables para ampliar las habilidades nativas de Claude: enrutamiento de modelos, visión de video, memoria a largo plazo y agentes preconfigurados.
+
+Las mejores herramientas para Claude en este momento no provienen de Anthropic; residen en GitHub, construidas por la comunidad de código abierto. Si dependes únicamente de las funciones nativas, estás quemando créditos de API innecesariamente y limitando la memoria de tus agentes.
+
+Este repositorio documenta las integraciones probadas que dotan a tu entorno local de visión real de video, clonación de voz, memoria de red (Knowledge Graph) y mitigación de límites de cuota.
+
+---
+
+## 🛠️ El Arsenal de Herramientas Open-Source
+Añade estas herramientas a tu entorno para desbloquear capacidades avanzadas:
+
+### 1. OmniRoute (Enrutador de Modelos)
+*   **Repositorio:** [github.com/diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
+*   **Función:** Un solo endpoint para más de 268 proveedores y 500+ modelos (Claude, DeepSeek, GPT, etc.).
+*   **Caso de Uso Comercial:** Es consciente de las cuotas. Si alcanzas el límite en un proveedor, salta automáticamente al siguiente en lugar de colgarse a mitad de la tarea. Además, comprime el contexto, reduciendo el consumo de tokens entre un 15% y un 95%.
+
+### 2. claude-video (Visión Artificial Continua)
+*   **Repositorio:** [github.com/bradautomates/claude-video](https://github.com/bradautomates/claude-video)
+*   **Función:** Le da ojos a Claude. Ejecutas \`/watch\` con un enlace y el sistema descarga el video, extrae los fotogramas clave y transcribe el audio.
+*   **Caso de Uso Comercial:** Inteligencia competitiva pura. Apúntalo a un Reel que está superando a los tuyos y pregúntale por qué funcionó. Analiza el ritmo, el gancho y la estructura visual real, no solo un texto transcrito. *(Requiere \`yt-dlp\` y \`ffmpeg\` instalados).*
+
+### 3. Scroll World (Desarrollo 3D)
+*   **Repositorio:** [github.com/oso95/scroll-world](https://github.com/oso95/scroll-world)
+*   **Función:** Una habilidad (skill) que transforma una marca en un mundo 3D navegable (sitios web cinemáticos impulsados por el scroll).
+*   **Caso de Uso Comercial:** Entregable de alto valor para clientes de agencias o páginas de lanzamiento de productos de primer nivel.
+
+### 4. voicebox (Estudio de Voz Local)
+*   **Repositorio:** [github.com/jamiepine/voicebox](https://github.com/jamiepine/voicebox)
+*   **Función:** Clonación de voz y dictado ejecutado 100% en tu máquina. La alternativa directa a ElevenLabs sin suscripciones y sin enviar tus datos biométricos a servidores de terceros.
+*   **⚠️ Advertencia de Seguridad:** Existen cuentas falsas clonando este nombre con archivos ejecutables maliciosos. Usa exclusivamente el enlace provisto a la cuenta de \`jamiepine\`.
+
+### 5. cognee (Memoria de Agentes)
+*   **Repositorio:** [github.com/topoteretes/cognee](https://github.com/topoteretes/cognee)
+*   **Función:** Memoria open-source para agentes. Un grafo de conocimiento (knowledge graph) auto-alojado que otorga retención a largo plazo entre diferentes sesiones.
+*   **Caso de Uso Comercial:** Evita que el agente CRM o el redactor de contenido tengan "amnesia" cada vez que cierras la terminal.
+
+### 6. agency-agents (Especialistas Preconfigurados)
+*   **Repositorio:** [github.com/msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
+*   **Función:** Más de 220 personalidades de agentes especializados para Claude Code (desarrolladores front-end, community managers, verificadores de hechos), cada uno con procesos y entregables definidos.
+
+---
+
+## 🛡️ Protocolo de Seguridad Open-Source (Método D.R.A.P.E.R.™)
+El código abierto es una ventaja competitiva masiva, hasta que alguien clona un proyecto popular e inserta malware. Antes de integrar cualquier herramienta nueva a tu entorno de terminal, ejecuta esta auditoría de seguridad:
+
+### 1. Diagnosticar (Verificación de Identidad)
+*   **Revisa el Propietario, no solo el nombre:** Los nombres de los repositorios se pueden duplicar. \`jamiepine/voicebox\` es la herramienta real; \`UnUsuarioX/Voicebox-2026\` es una trampa.
+*   **Audita la Edad de la Cuenta:** Si el repositorio fue creado hace 3 días por una cuenta vacía, ignóralo inmediatamente.
+
+### 2. Rediseñar & Arquitectar (Inspección del Código)
+*   **Lee los archivos reales:** Estás en GitHub. Haz clic en el código. Si está ofuscado o no puedes deducir lógicamente qué hace, no lo instales en el mismo entorno donde tienes tus tokens de API.
+
+### 3. Programar (Compilación Local)
+*   **Cero Ejecutables Misteriosos:** Nunca ejecutes un archivo \`.exe\` proveniente de un repositorio de GitHub para herramientas de IA. Los proyectos open-source reales te proporcionan el código fuente y las instrucciones de construcción (\`npm install\`, \`pip install\`, o un build step claro).
+
+### 4. Encender & Refinar (Señales de Vida)
+*   **Audita la fecha del último push:** Los proyectos activos reciben actualizaciones constantes (especialmente cuando herramientas dependientes como \`yt-dlp\` cambian debido a actualizaciones de las plataformas de video). Si el repositorio lleva un año inactivo, considera que está muerto.
         `,
-        category: "Tools",
+        category: "Infrastructure & Open Source",
         system_type: "operations",
         process_state: "build",
         level: "beginner",
