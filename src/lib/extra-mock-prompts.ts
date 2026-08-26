@@ -9736,5 +9736,102 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Selfie con Cachorro\nSustituye los rasgos faciales y de vestimenta del avatar por los tuyos. Si prefieres otra raza de perro, edita 'Goldendoodle' por el nombre de la raza que desees (ej. 'Pug' o 'Golden Retriever').",
         reference_image_guide: "Usa una foto donde tu expresión sea alegre y relajada, preferiblemente con la cabeza un poco inclinada para que coincida de forma natural con la pose de abrazo."
+    },
+    {
+        id: "lifestyle-private-jet-luxury-travel",
+        type: "prompt",
+        title: "REAISEMP_Human — Luxury Travel Private Jet",
+        slug: "private-jet-luxury-travel",
+        summary: "Prompt ultra-realista de retrato lifestyle en jet privado. El avatar posa relajado en asientos de cuero gris junto a la ventanilla con luz natural brillante.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven de piel bronceada, cabello largo castaño con reflejos rubios ondulados, manicura degradada rosa y blanca, tank top blanco y pantalones negros.
+*   **E(Entorno):** Cabina interior de jet privado de lujo. Asientos de cuero gris, paneles blancos, ventanilla con luz intensa y mochila de diseñador al lado.
+*   **A(Acción / Postura):** Sentada de medio lado, la mano izquierda toca sutilmente el cabello y la mano derecha descansa en la rodilla. Joyería plateada fina y mochila visible.
+*   **I(Iluminación):** Luz natural diurna difusa desde la derecha entrando por la ventanilla, ligera sobreexposición natural en el cristal de la ventana.
+*   **S(Sensación / Atmósfera):** Relajado, casual, sofisticado y de alto standing.
+*   **E(Estilo Visual):** Fotografía de viajes lifestyle candid ultra realista, grano fotográfico sutil y texturas de cuero, metal y algodón muy detalladas.
+*   **M(Composición / Cámara):** Plano medio asimétrico (9:16 vertical), ángulo a la altura de los ojos (eye-level) con fondo suavemente desenfocado.
+*   **P(Postproducción):** Colores neutros cálidos y naturales, contraste nítido y sin apariencia artificial de render 3D.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Luxury Travel Private Jet",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer joven adulta de apariencia natural, piel bronceada y presencia relajada.",
+                    "cabello": "Largo, castaño con reflejos rubios, ondulado y cayendo naturalmente sobre los hombros.",
+                    "rostro": "Cejas definidas, labios carnosos y mirada directa a cámara, expresión neutra y segura.",
+                    "piel": "Complexión bronceada con textura natural y acabado realista.",
+                    "manicura": "Uñas largas y puntiagudas con manicura degradada rosa y blanco."
+                },
+                "E_Entorno": {
+                    "escena": "Interior de un jet privado de alta gama.",
+                    "fondo": "Asientos de cuero gris, paneles interiores blancos, ventanilla del avión con luz intensa y detalles de cabina.",
+                    "elementos": [
+                        "Hebilla del cinturón de seguridad",
+                        "Asiento opuesto desenfocado",
+                        "Ventana del avión",
+                        "Mochila de diseñador junto a la mujer"
+                    ],
+                    "atmosfera": "Exclusiva, limpia y sofisticada."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada en el asiento del avión con el cuerpo ligeramente orientado hacia la izquierda.",
+                    "accion": "La mano izquierda toca el cabello cerca de la parte superior de la cabeza mientras la mano derecha descansa sobre la rodilla con los dedos relajados.",
+                    "lenguaje_corporal": "Casual, relajado y seguro.",
+                    "accesorios": "Collar de cadena plateada, varios brazaletes plateados, anillo dorado, pendientes de aro y mochila de diseñador"
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz natural diurna entrando por la ventanilla.",
+                    "direccion": "Desde la derecha.",
+                    "caracteristicas": "Luz suave y difusa con delicados reflejos sobre cabello, brazo, piel y superficies de cuero.",
+                    "exposicion": "Correctamente expuesta con una ligera sobreexposición natural alrededor de la ventana.",
+                    "sombras": "Suaves, creadas por el cuerpo y los asientos para aportar profundidad."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Relajado, casual y lujoso.",
+                    "tono": "Momento cotidiano de viaje exclusivo, capturado de forma espontánea."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía lifestyle candid ultra realista.",
+                    "acabado": "Natural, ligeramente cinematográfico, con grano fotográfico sutil.",
+                    "texturas": "Piel y cabello naturales, cuero suave, tejido acanalado, joyería reflectante y cristal de la ventana.",
+                    "paleta": "Blanco, negro, gris y marrón cálido con tonos beige naturales."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio ligeramente amplio.",
+                    "angulo": "Eye-level.",
+                    "encuadre": "Composición asimétrica, con la mujer y la ventana dominando el lado derecho.",
+                    "foco": "Rostro y parte superior del cuerpo perfectamente enfocados.",
+                    "profundidad_de_campo": "Reducida, con el interior del avión suavemente desenfocado.",
+                    "aspect_ratio": "9:16 vertical",
+                    "camara": "Smartphone premium o cámara DSLR.",
+                    "optica": "35mm–50mm equivalente.",
+                    "ajustes": "ISO 200, f/2.8, 1/250s."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos cálidos y neutros, ligeramente apagados y naturales.",
+                    "contraste": "Contraste definido entre el top blanco, la ventana luminosa y los pantalones negros.",
+                    "nitidez": "Alta nitidez en sujeto con fondo más suave.",
+                    "acabado_final": "Fotografía de viaje de lujo auténtica, sin texto, gráficos ni apariencia de render 3D."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/private-jet-luxury-travel.png",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-travel", name: "Travel", slug: "travel" },
+            { id: "t-luxury", name: "Luxury", slug: "luxury" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Viaje en Jet Privado\nReemplaza los rasgos de la modelo para ajustarlos a tu avatar. Modifica los accesorios del jet cambiando 'mochila de diseñador' por otra prenda o elemento (ej. 'una copa de champaña en la mesa lateral').",
+        reference_image_guide: "Usa una foto donde tu rostro y hombros miren al frente con expresión relajada o segura para que coincida perfectamente con la perspectiva a nivel de ojos dentro de la cabina."
     }
 ];
