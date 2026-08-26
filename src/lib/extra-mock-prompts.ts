@@ -10813,5 +10813,112 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Retrato en Puente de Nueva York\nModifica la chaqueta de cuero por otra prenda similar (ej. cambia 'Chaqueta oversized de cuero negro' por 'Gabardina clásica beige'). Puedes adaptar el skyline de fondo si deseas simular otra ciudad.",
         reference_image_guide: "Usa una foto donde tu rostro y cabello tengan movimiento sutil causado por brisa artificial o natural para coincidir con el dinamismo del prompt."
+    },
+    {
+        id: "lifestyle-steamy-bathroom-selfie",
+        type: "prompt",
+        title: "REAISEMP_Human — Steamy Bathroom Selfie",
+        slug: "steamy-bathroom-selfie",
+        summary: "Prompt ultra-realista de primer plano (close-up) selfie de smartphone dentro de un baño lleno de vapor. El avatar posa frente a espejo empañado con cabello mojado gris plateado y top de bikini blanco.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven, cabello gris plateado mojado y despeinado con mechones en la cara, mejillas sonrojadas, labios entreabiertos, top triangular de bikini blanco húmedo y collar dorado. Identidad facial bloqueada.
+*   **E(Entorno):** Baño contemporáneo lleno de vapor. Ducha de vidrio con condensación y gotas de agua, espejo con salpicaduras y reflejos luminosos difusos de fondo.
+*   **A(Acción / Postura):** De pie frente al espejo, un brazo elevado sobre la cabeza sosteniendo el móvil para tomar un selfie de primer plano. Gotas de agua visibles en cuello, hombros y torso.
+*   **I(Iluminación):** Luz cinematográfica cálida-fría, con un halo dorado difuso cruzando el vapor del baño y sombras frías envolviendo la cabina de ducha.
+*   **S(Sensación / Atmósfera):** Íntima, cinemática, sofisticada y de estética de fotograma de película de alta calidad.
+*   **E(Estilo Visual):** Selfie de smartphone ultra cinematográfico y fotorealista, con definición extrema de piel húmeda, poros, gotas y cristales empañados.
+*   **M(Composición / Cámara):** Plano close-up vertical (3:4), encuadre estrecho y centrado en rostro y hombros con bokeh suave de luces de fondo.
+*   **P(Postproducción):** Contraste suave, colores ricos pero naturales (contraste Hollywood cálido/frío) y preservación estricta de rasgos faciales.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Steamy Bathroom Selfie",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer adulta joven basada estrictamente en la imagen de referencia.",
+                    "identidad": "Preservar al 100% la estructura facial, proporciones, rasgos únicos, textura de piel y expresión de la referencia.",
+                    "cabello": "Gris plateado, mojado, naturally despeinado, con mechones adheridos suavemente al rostro.",
+                    "rostro": "Piel húmeda y realista, mejillas intensamente sonrojadas, labios ligeramente entreabiertos y mirada íntima hacia la cámara.",
+                    "vestimenta": "Top triangular blanco de bikini, húmedo y ajustado, con reflejos naturales de humedad.",
+                    "accesorios": "Delicado collar dorado con pequeño colgante."
+                },
+                "E_Entorno": {
+                    "escena": "Baño contemporáneo lleno de vapor.",
+                    "elementos": [
+                        "Puerta de ducha de vidrio empañada",
+                        "Condensación y gotas sobre el cristal",
+                        "Espejo con pequeñas salpicaduras de agua",
+                        "Reflejos luminosos desenfocados"
+                    ],
+                    "atmosfera": "Íntima, cinematográfica, cálida y envolvente."
+                },
+                "A_Accion_Postura": {
+                    "pose": "De pie frente al espejo, tomando un selfie cercano.",
+                    "brazos": "Un brazo elevado por encima de la cabeza.",
+                    "lenguaje_corporal": "Relajado, elegante y natural.",
+                    "mirada": "Directamente hacia la cámara del teléfono.",
+                    "detalles": "Gotas de agua visibles sobre cuello, hombros y torso."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación cinematográfica cálida-fría.",
+                    "fuente": "Luz dorada difusa atravesando el vapor.",
+                    "caracteristicas": "Highlights cálidos sobre la piel y sombras frías envolviendo la ducha.",
+                    "efecto": "Contraste Hollywood suave, profundidad atmosférica y reflejos naturales sobre humedad."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Cinemático, íntimo, sofisticado y emocional.",
+                    "tono": "Momento privado capturado con estética de película."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Selfie fotorealista ultra cinematográfico.",
+                    "texturas": "Poros visibles, piel húmeda, gotas de agua, cabello mojado, condensación y cristal realistas.",
+                    "profundidad": "Bokeh suave en las luces del fondo.",
+                    "acabado": "Natural, inmersivo y de alta fidelidad."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Close-up selfie, rostro y parte superior del torso.",
+                    "angulo": "Perspectiva de smartphone a corta distancia.",
+                    "encuadre": "Sujeto dominante en el encuadre, con el baño desenfocado alrededor.",
+                    "aspect_ratio": "3:4 vertical",
+                    "estilo_camara": "Smartphone selfie cinematográfico."
+                },
+                "P_Postproduccion": {
+                    "realismo": "Fotorealismo extremo.",
+                    "face_restore": true,
+                    "face_reference_strength": 1.0,
+                    "negative_prompt": [
+                        "cartoon",
+                        "painting",
+                        "illustration",
+                        "low quality",
+                        "distortion",
+                        "blurry",
+                        "unnatural skin texture",
+                        "dry skin",
+                        "extra limbs",
+                        "bad anatomy",
+                        "flat lighting",
+                        "CGI appearance",
+                        "plastic skin"
+                    ]
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/steamy-bathroom-selfie.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-swimwear", name: "Swimwear", slug: "swimwear" },
+            { id: "t-indoor", name: "Indoor", slug: "indoor" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Selfie en Baño Vaporoso\nModifica el color del bikini (ej. cambia 'bikini blanco' por 'bikini negro o rojo'). Puedes alterar el tono de cabello a otro color manteniendo el acabado húmedo.",
+        reference_image_guide: "Usa una foto donde levantes un brazo por detrás de la cabeza y mantengas una expresión íntima para asegurar que la superposición anatómica sea totalmente fluida."
     }
 ];
