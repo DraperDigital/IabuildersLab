@@ -10333,5 +10333,102 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Esquí Alpino\nModifica el color de la chaqueta rosa y verde por los colores de tu propia equipación. Puedes cambiar la expresión facial o sustituir las gafas reflectantes por unas gafas normales de esquí.",
         reference_image_guide: "Usa una foto donde mantengas tu peinado recogido en moño y los brazos extendidos para simular perfectamente el agarre a dos manos del smartphone al tomar la foto."
+    },
+    {
+        id: "lifestyle-lazy-sunday-mirror-selfie",
+        type: "prompt",
+        title: "REAISEMP_Human — Lazy Sunday Mirror Selfie",
+        slug: "lazy-sunday-mirror-selfie",
+        summary: "Prompt ultra-realista de mirror selfie de cuerpo completo reflejado en espejo dorado. El avatar posa sentada en el suelo del dormitorio con tank top acanalado blanco y shorts grises jaspeados.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven de complexión atlética, cabello rubio platino recogido en messy low bun con mechones sueltos, tank top blanco cropped de algodón ribbed y shorts grises jaspeados, descalza.
+*   **E(Entorno):** Dormitorio acogedor de mañana tranquila. Espejo de cuerpo completo con marco dorado, suelo de madera, cama sin hacer con sábanas grises y habitación ligeramente desordenada.
+*   **A(Acción / Postura):** Sentada en el suelo de madera apoyando el torso hacia atrás en la mano izquierda, tomando un mirror selfie con el móvil en la mano derecha, mirada hacia la pantalla.
+*   **I(Iluminación):** Luz natural lateral de ventana matutina suave y cálida, con un ligero resplandor dorado.
+*   **S(Sensación / Atmósfera):** Cozy, íntimo, relajado, cotidiano, vibra de lazy Sunday y soft girl aesthetic.
+*   **E(Estilo Visual):** Mirror selfie de smartphone realista e imperfecto, texturas de algodón, madera y ropa de cama muy naturales.
+*   **M(Composición / Cámara):** Reflejo frontal de cuerpo completo en espejo, modelo centrada y dormitorio visible alrededor, formato vertical 4:5.
+*   **P(Postproducción):** Tonos cremas, grises y dorados con alta definición en el sujeto principal sin filtros de estudio. Funda transparente con stickers visible en el iPhone.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Lazy Sunday Mirror Selfie",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer joven adulta de complexión delgada, atlética y tonificada.",
+                    "cabello": "Rubio platino muy claro, recogido en un messy low bun con mechones sueltos enmarcando el rostro.",
+                    "piel": "Clara y natural, con textura realista.",
+                    "expresion": "Mirada suave hacia el teléfono, relajada, con una ligera sonrisa.",
+                    "vestimenta": {
+                        "top": "Tank top blanco de algodón ribbed, cropped, cuello alto tipo racer-back y ajuste ceñido.",
+                        "bottom": "Shorts de algodón gris jaspeado, cortos, holgados y con cintura elástica.",
+                        "pies": "Descalza."
+                    },
+                    "accesorio": "iPhone con funda transparente y stickers visibles."
+                },
+                "E_Entorno": {
+                    "escena": "Dormitorio acogedor durante una mañana tranquila.",
+                    "fondo": "Espejo de cuerpo completo con marco dorado, suelo de madera y paredes color crema.",
+                    "elementos": [
+                        "Cama sin hacer con ropa de cama gris",
+                        "Ropa esparcida casualmente por el suelo",
+                        "Habitación ligeramente desordenada",
+                        "Detalles cotidianos de un espacio habitado"
+                    ],
+                    "atmosfera": "Íntima, acogedora, espontánea y auténtica, con energía de lazy Sunday."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sentada sobre el suelo de madera frente al espejo, apoyándose hacia atrás sobre la mano izquierda.",
+                    "accion": "Tomando un mirror selfie con el smartphone.",
+                    "piernas": "Pierna izquierda flexionada hacia arriba y pierna derecha doblada debajo del cuerpo.",
+                    "lenguaje_corporal": "Relajado, cómodo y completamente natural.",
+                    "mirada": "Hacia el teléfono, ligeramente hacia abajo."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz natural de mañana.",
+                    "direccion": "Luz lateral procedente de una ventana.",
+                    "calidad": "Suave y cálida, con un ligero resplandor dorado.",
+                    "sombras": "Naturales y delicadas, conservando profundidad sin aspecto de iluminación de estudio."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Cozy, íntimo, relajado y espontáneo.",
+                    "tono": "Soft girl aesthetic, auténtico y cotidiano."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Mirror selfie candid de smartphone, hiperrealista.",
+                    "acabado": "Natural, ligeramente imperfecto y propio de una fotografía personal.",
+                    "texturas": "Piel realista, algodón ribbed, tejido de los shorts, madera y ropa de cama.",
+                    "color_grading": "Tonos crema, gris, blanco y dorado cálido con contraste suave."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Reflejo de cuerpo completo.",
+                    "angulo": "Perspectiva de selfie frente al espejo.",
+                    "encuadre": "La mujer ocupa la mayor parte del reflejo mientras el dormitorio permanece visible alrededor.",
+                    "foco": "Sujeto nítido dentro del espejo.",
+                    "camara": "Smartphone.",
+                    "aspect_ratio": "4:5 vertical"
+                },
+                "P_Postproduccion": {
+                    "nitidez": "Alta en sujeto, cabello, ropa y teléfono.",
+                    "acabado_final": "Fotografía UGC hiperrealista y espontánea, conservando pequeñas imperfecciones del entorno, sin apariencia de estudio, piel plástica, render 3D, texto añadido ni elementos artificiales."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/lazy-sunday-mirror-selfie.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-mirror", name: "Mirror Selfie", slug: "mirror-selfie" },
+            { id: "t-indoor", name: "Indoor", slug: "indoor" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Selfie Dominical Relajado\nSustituye la descripción del pelo y ropa por la tuya. Puedes alterar la funda de stickers y el diseño de la cama de fondo modificando la descripción en los campos correspondientes de entorno.",
+        reference_image_guide: "Usa una foto donde estés sentada en el suelo apoyándote hacia atrás de manera lateral para que el render conserve la inclinación corporal exacta."
     }
 ];
