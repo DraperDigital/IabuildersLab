@@ -8,20 +8,58 @@ export const MOCK_SYSTEMS: ContentItem[] = [
         type: "system",
         title: "Competitor Research Machine in Claude",
         slug: "competitor-research-machine-claude",
-        summary: "Sistema autónomo para monitorizar, analizar y reportar los movimientos de la competencia utilizando Claude.",
+        summary: "Sistema autónomo para monitorizar, analizar y extraer los modelos matemáticos detrás del contenido más exitoso de tu competencia, utilizando Claude y servidores MCP.",
         body_markdown: `
-# Competitor Research Machine
-Este sistema permite montar un agente de investigación autónomo en Claude para analizar los movimientos de la competencia.
+# Competitor Research Machine in Claude
+Sistema autónomo para monitorizar, analizar y extraer los modelos matemáticos detrás del contenido más exitoso de tu competencia, utilizando Claude y servidores MCP.
 
-## Configuración del Agente
-1. **Model:** Claude 3.5 Sonnet
-2. **Context:** Historial de campañas de la competencia.
-3. **Instrucciones:** Analizar de forma recurrente las ofertas, creativos y ángulos de venta de los competidores clave.
+Cazar ideas de contenido manualmente es ineficiente y sesgado. Este sistema conecta a Claude directamente a un orquestador de analíticas para observar a tu competencia de forma invisible. En lugar de copiar videos, el agente identifica anomalías (piezas que superaron el promedio del canal por 3x o más), disecciona el guion y te entrega el gancho estructurado como una plantilla reutilizable para tu propia infraestructura B2B.
 
-## Ejecución
-Ejecuta la máquina para recopilar reportes semanales listos para tu equipo de marketing.
+## Detalles Adicionales
+*   **Requisito:** Cuenta en [Sandcastles.ai](https://app.sandcastles.ai/)
+
+---
+
+## Arquitectura de Implementación (Método D.R.A.P.E.R.™)
+
+### 1. Diagnosticar (La Lista de Vigilancia)
+**Rol:** Definir a los competidores o referentes de la industria que el sistema auditará.
+
+**Acción:** Regístrate en Sandcastles (herramienta de pago que rastrea el rendimiento de creadores).
+
+**Estrategia:** Agrega a tu lista de vigilancia únicamente a competidores directos o cuentas aspiracionales relevantes. Quince competidores bien seleccionados generan mejor inteligencia que cincuenta cuentas aleatorias. Todo el sistema leerá los datos desde este panel.
+
+### 2. Rediseñar (La Conexión MCP)
+**Rol:** Otorgar a Claude la capacidad de ver datos de Instagram, TikTok y YouTube sin navegar por la web.
+
+**Acción:** Abre tu terminal y ejecuta este comando para instalar el puente (Model Context Protocol):
+\`\`\`bash
+claude mcp add --transport http sandcastles https://mcp.sandcastles.ai/
+\`\`\`
+
+### 3. Arquitectar & Programar (El Motor de Extracción)
+**Rol:** Detonar la búsqueda de anomalías y la ingeniería inversa de los guiones ganadores.
+
+**Prompt de Ejecución:** Con el MCP conectado, abre Claude Code y ejecuta el siguiente comando:
+\`\`\`text
+Extrae mi lista de vigilancia de Sandcastles. Para cada creador, encuentra los videos de los últimos 7 días que hayan superado su propio promedio de vistas por 3x o más. Para cada ganador entrégame:
+1. La línea de apertura exacta, palabra por palabra.
+2. Ese mismo gancho reescrito como una plantilla reutilizable de "rellenar los espacios".
+3. La categoría del gancho, el formato visual, el tema y la idea central.
+Al final, resume qué tipos de ganchos y formatos están ganando tracción en toda la lista.
+\`\`\`
+
+### 4. Encender (El Valor de la Plantilla)
+**Rol:** Aplicar la inteligencia extraída a tu propio contenido.
+
+**El Truco:** El valor real de este sistema no es saber que el gancho fue "10 códigos secretos para ChatGPT". El valor es la plantilla matemática que Claude te entrega: \`"[Número] códigos secretos para [Herramienta], el número uno es [Código]"\`. Usa estas plantillas vacías para rellenarlas con tu propio conocimiento operativo.
+
+### 5. Refinar (Solución de Problemas)
+- **Timeouts del Servidor:** Si Claude se queda colgado, es normal. Limita el análisis a bloques de 5 creadores a la vez para no saturar el límite de peticiones de la API.
+- **Competidores Vacíos:** Si un competidor regresa sin datos, significa que ningún contenido superó su promedio por 3x esta semana. Es una respuesta real, no un error del código.
+- **Auditoría Propia:** Ejecuta el mismo prompt exacto, pero usando tus propias cuentas. Reemplaza la pregunta de "qué está haciendo mi competencia" por datos duros de "dónde me están superando".
         `,
-        category: "Market Research",
+        category: "Market Research & Content",
         system_type: "research",
         process_state: "build",
         level: "intermediate",
@@ -63,12 +101,83 @@ Delega la gestión de tu pipeline en Claude. Clasificación de leads, actualizac
         type: "system",
         title: "Connect Claude to Your Ad Account",
         slug: "connect-claude-to-ad-account",
-        summary: "Sistema de integración segura para permitir que Claude lea métricas y configure campañas directamente en tu cuenta publicitaria.",
+        summary: "La configuración completa de 10 minutos para conectar Claude Code a tu cuenta de Meta Ads. Extrae métricas, pausa campañas perdedoras y escala las ganadoras directamente desde la terminal.",
         body_markdown: `
-# Ad Account Agent Integration
-Integra de forma segura Claude con la API de Facebook o Google Ads para realizar auditorías, sugerir presupuestos y redactar nuevos copys de anuncios basados en rendimiento en vivo.
+# Connect Claude to Your Ad Account
+La configuración completa de 10 minutos para conectar Claude Code a tu cuenta de Meta Ads. Extrae métricas, pausa campañas perdedoras y escala las ganadoras directamente desde la terminal.
+
+Este sistema es particularmente poderoso porque te permite sacar la gestión de anuncios de la interfaz visual de Meta (que es lenta y propensa a distracciones) y llevarla a tu terminal. Al integrarlo de esta manera, Claude puede auditar el gasto de las campañas que alimentan tus sistemas de adquisición B2B y cruzar esa información directamente con el rendimiento de tus embudos.
+
+Entrar a Meta Ads Manager toma tiempo, clics y paciencia. Este protocolo salta la interfaz visual y conecta a Claude directamente a la API de Marketing de Meta.
+
+Al finalizar esta configuración, tu agente podrá leer tus campañas, analizar el ROAS (Retorno de Inversión), calcular el CPA (Costo por Adquisición) y ejecutar acciones sobre tu presupuesto con una simple instrucción en texto.
+
+---
+
+## Arquitectura de Implementación (Método D.R.A.P.E.R.™)
+Para que esto funcione necesitas una cuenta de Facebook con acceso a la cuenta publicitaria y Claude Code ya instalado en tu entorno local.
+
+### 1. Diagnosticar (Creación de la App en Meta)
+**Rol:** Habilitar un canal de comunicación oficial entre tu entorno local y los servidores de Meta.
+
+**Acción:**
+1. Ve a [developers.facebook.com](https://developers.facebook.com/) e inicia sesión.
+2. Haz clic en **My Apps** → **Create App**.
+3. En "¿Qué quieres que haga tu app?", selecciona **Other**, luego elige el tipo de app **Business** y presiona **Next**.
+4. Nómbrala (ej. "Claude Ads Automation"), añade tu correo y haz clic en **Create app**.
+
+**Auditoría:** En el Dashboard de tu nueva app, busca **Marketing API** en la lista de productos y haz clic en **Set Up**. Esto autoriza el acceso a los datos publicitarios.
+
+### 2. Rediseñar (Generación de Permisos)
+**Rol:** Crear la llave criptográfica (Token) que Claude usará para entrar a tu cuenta.
+
+**Acción:**
+1. Ve a **Tools** → **Graph API Explorer** en la navegación superior.
+2. En el panel derecho, selecciona tu app en el menú desplegable.
+3. Haz clic en **Add Permissions** y marca estrictamente estas tres casillas:
+   - \`ads_read\`
+   - \`ads_management\`
+   - \`business_management\`
+4. Haz clic en **Generate Access Token**, aprueba la ventana emergente y copia el token. *(Nota: Este token expirará en 1 hora, en la Fase 4 lo haremos permanente).*
+
+### 3. Arquitectar (El Enlace con Claude)
+**Rol:** Conectar la terminal al ID de tu cuenta publicitaria.
+
+**Acción:**
+1. Abre tu Meta Ads Manager. Tu ID de cuenta es el número junto a tu nombre (ej. 1234567890). Para la API, siempre debe llevar el prefijo \`act_\` (ej. \`act_1234567890\`).
+2. Abre Claude Code y pega el siguiente prompt maestro (reemplazando los datos):
+
+\`\`\`text
+Quiero que gestiones mis Meta Ads. Utiliza la Meta Marketing API (Graph API) con este access token: <TU_TOKEN> y esta cuenta publicitaria: act_<TU_ID>. Configúralo y luego confirma que funciona listando mis campañas activas junto con su gasto actual.
+\`\`\`
+
+### 4. Programar (Infraestructura Permanente)
+**Rol:** Evitar que el sistema se desconecte cada hora.
+
+**Acción Recomendada:**
+1. En tus **Business Settings** de Meta, ve a **System Users** y crea un usuario de sistema.
+2. Asígnale tu cuenta publicitaria y genera un token que nunca expire (**Never Expires**).
+3. Entrégale ese nuevo token definitivo a Claude Code.
+
+### 5. Encender (Comandos de Optimización)
+**Rol:** Ejecutar la gestión de pauta conversacional.
+
+**Ejecución:** Ya estás conectado. Ahora puedes inyectar directivas directamente en la terminal para gestionar el tráfico hacia tus embudos B2B. Prueba con comandos como:
+- \`"Lista mis campañas con su gasto, ROAS y CPA de los últimos 7 días."\`
+- \`"¿Cuáles 3 creativos tienen el mejor ROAS esta semana?"\`
+- \`"Pausa todos los conjuntos de anuncios que tengan un CPA superior a $40 USD."\`
+- \`"Escala el presupuesto de la campaña principal en un 20%."\`
+
+### 6. Refinar (Resolución de Problemas)
+- **"(#200) Permissions error":** Te falta el permiso \`ads_management\`. Repite la Fase 2 y asegúrate de marcar la casilla.
+- **"Unsupported get request / invalid account":** Verifica que tu ID de cuenta publicitaria tenga el prefijo \`act_\` en el prompt.
+- **"Session/token expired":** Tu token caducó. Genera el token de larga duración de la Fase 4.
+- **App estancada en modo Desarrollo:** Es normal y funciona perfectamente siempre que solo gestiones tus propias cuentas publicitarias.
+
+> [!IMPORTANT]
+> **Regla de Oro:** Mantén tu token en privado absoluto; quien lo tenga posee control total sobre tu presupuesto publicitario.
         `,
-        category: "Paid Ads",
+        category: "Paid Ads & Acquisition",
         system_type: "sales",
         process_state: "build",
         level: "advanced",
@@ -534,27 +643,6 @@ Esta biblioteca transforma a Claude Code de un asistente de programación a un D
         created_at: "2026-08-25T11:20:00.000Z",
         updated_at: "2026-08-25T11:20:00.000Z",
         tags: ["Claude Code", "Marketing Skills", "Growth", "Setup"] as any
-    },
-    {
-        id: "sys-meta-ads-mcp",
-        type: "system",
-        title: "Meta Just Dropped an Ads MCP",
-        slug: "meta-ads-mcp-integration",
-        summary: "Guía paso a paso para implementar el servidor MCP oficial de Meta y controlar tus campañas usando comandos de IA.",
-        body_markdown: `
-# Meta Ads Model Context Protocol (MCP) Setup
-Aprende a instalar el servidor MCP oficial de Meta para dotar a tu instancia de Claude de herramientas nativas para consultar rendimiento publicitario y lanzar campañas.
-        `,
-        category: "Paid Ads",
-        system_type: "sales",
-        process_state: "build",
-        level: "intermediate",
-        is_published: true,
-        is_featured: false,
-        paywall_level: "free_preview",
-        created_at: "2026-08-25T11:20:00.000Z",
-        updated_at: "2026-08-25T11:20:00.000Z",
-        tags: ["MCP", "Meta Ads", "Claude Code", "Setup"] as any
     },
     {
         id: "sys-open-source-tools",

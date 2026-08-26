@@ -28,7 +28,9 @@ const categoryTranslations: Record<string, string> = {
     "Development Web / UI": "Desarrollo Web / UI",
     "Research & Content Creation": "Investigación / Creación de Contenido",
     "Infrastructure & Local Environment": "Infraestructura / Entorno Local",
-    "Infrastructure & Growth Automation": "Infraestructura / Growth Automation"
+    "Infrastructure & Growth Automation": "Infraestructura / Growth Automation",
+    "Market Research & Content": "Investigación de Mercado / Contenido",
+    "Paid Ads & Acquisition": "Automatización de Pauta / Adquisición"
 };
 
 const markdownComponents = {
