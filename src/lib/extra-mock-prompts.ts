@@ -10609,5 +10609,90 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Retrato en Sofá\nModifica el color del abrigo o bodysuit (ej. cambia 'Bodysuit blanco' por 'Bodysuit negro satinado'). Puedes adaptar la composición reclinada en el sofá ajustando los parámetros de pose.",
         reference_image_guide: "Usa una foto donde estés reclinada en un sofá para mantener la coherencia anatómica perfecta y la inclinación natural de la cabeza."
+    },
+    {
+        id: "lifestyle-grunge-egirl-black-cat",
+        type: "prompt",
+        title: "REAISEMP_Human — Grunge E-girl Black Cat",
+        slug: "grunge-egirl-black-cat",
+        summary: "Prompt de primer plano ultra-realista con estética soft-grunge/e-girl. El avatar posa para un selfie sosteniendo de forma cariñosa a un gato negro junto a su rostro.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven de estilo e-girl / soft-grunge, cabello rubio liso a los hombros con flequillo completo, pecas y rubor rosado, delineado de ojos winged negro, septum y collar plateado de daga alada con ojo.
+*   **E(Entorno):** Interior doméstico sencillo con pared lisa de tono beige/crema.
+*   **A(Acción / Postura):** De pie o sentada en primer plano de selfie, sosteniendo un gato negro mejilla con mejilla mientras apoya su mano suavemente sobre el pecho del gato.
+*   **I(Iluminación):** Luz artificial tenue y cálida de lámpara ambiental, logrando sombras suaves pero definidas en el rostro y contraste de piel pálida con elementos oscuros.
+*   **S(Sensación / Atmósfera):** Cozy, íntima, melancólica y alternativa.
+*   **E(Estilo Visual):** Selfie de primer plano (close-up) de smartphone con texturas muy claras de pecas, cabello liso y pelo del gato.
+*   **M(Composición / Cámara):** Formato vertical 4:5, encuadre cerrado sobre rostro y gato a nivel de ojos con fondo sutilmente difuminado.
+*   **P(Postproducción):** Contraste medio-alto muy natural sin filtros robóticos ni piel plástica de render.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Grunge E-girl Black Cat",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer adulta joven, aproximadamente de 20 años, apariencia alternativa soft-grunge/e-girl.",
+                    "cabello": "Rubio, hasta los hombros, liso y con flequillo completo cubriendo la frente.",
+                    "rostro": "Piel clara y pálida con pecas visibles sobre nariz y mejillas, rubor rosado natural.",
+                    "ojos": "Marrón intenso, delineado negro tipo winged eyeliner y máscara.",
+                    "expresion": "Mirada suave y neutral directamente hacia la cámara.",
+                    "vestimenta": "Tank top blanco acanalado sin mangas.",
+                    "accesorios": "Cadena plateada con colgante de daga/espada alada y motivo de ojo; piercing septum circular y pequeño stud plateado en la nariz."
+                },
+                "E_Entorno": {
+                    "escena": "Interior doméstico sencillo.",
+                    "fondo": "Pared lisa beige o crema.",
+                    "atmosfera": "Acogedora, íntima y ligeramente melancólica."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Selfie close-up, sosteniendo suavemente un gato negro junto al rostro.",
+                    "interaccion": "El gato permanece mejilla con mejilla, mientras una mano sostiene delicadamente su pecho/cuello.",
+                    "lenguaje_corporal": "Natural, cercano y relajado."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz artificial cálida y tenue.",
+                    "fuente": "Lámpara ambiental.",
+                    "caracteristicas": "Sombras suaves, highlights discretos y contraste marcado entre piel clara y elementos oscuros.",
+                    "temperatura": "Cálida."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Soft grunge, íntimo, alternativo y cozy.",
+                    "tono": "Selfie personal y espontáneo."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato selfie fotorealista con estética soft-grunge/e-girl.",
+                    "contraste": "Alto contraste entre piel pálida, cabello rubio y gato negro.",
+                    "texturas": "Pecas, piel natural, cabello liso y pelaje suave del gato claramente definidos."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Close-up selfie de rostro y gato.",
+                    "angulo": "Frontal, ligeramente a nivel de los ojos.",
+                    "foco": "Rostro y gato nítidos, fondo ligeramente desenfocado.",
+                    "aspect_ratio": "4:5 vertical",
+                    "camara": "Smartphone selfie aesthetic."
+                },
+                "P_Postproduccion": {
+                    "nitidez": "Alta en rostro, ojos y pelaje.",
+                    "color_grading": "Cálido, ligeramente contrastado, sin sobresaturación.",
+                    "acabado_final": "Fotografía realista, natural y ligeramente imperfecta, sin piel plástica, CGI, ilustración, anatomía deformada, ojos artificiales ni apariencia excesivamente retocada."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/grunge-egirl-black-cat.png",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-egirl", name: "E-Girl", slug: "e-girl" },
+            { id: "t-pets", name: "Pets", slug: "pets" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Selfie con Gato\nModifica el color del gato (ej. cambia 'gato negro' por 'gato siamés'). Puedes retirar el flequillo o el piercing de septum editando las especificaciones del avatar.",
+        reference_image_guide: "Usa una foto donde tu rostro y mejilla toquen el objeto o mascota de la toma original para mantener la coherencia espacial y de la mano sosteniendo el pelaje."
     }
 ];
