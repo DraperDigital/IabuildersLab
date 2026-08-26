@@ -9932,5 +9932,105 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Flash Nocturno en Dormitorio\nModifica el top de manga larga negro por otro color (ej. 'blanco' o 'rojo oscuro') para jugar con el contraste del flash. Puedes adaptar el fondo de la ventana para reflejar otra localización de fondo en la ciudad.",
         reference_image_guide: "Usa una foto tomada con flash frontal directo a tu avatar, preferiblemente levantando los brazos para simular la pose de atarse el pelo de manera fluida."
+    },
+    {
+        id: "lifestyle-candid-porch-night",
+        type: "prompt",
+        title: "REAISEMP_Human — Candid Porch Night",
+        slug: "candid-porch-night",
+        summary: "Prompt ultra-realista de fotografía candid nocturna en balcón o porche residencial. El avatar posa sentada con sudadera negra con el texto WANGHAF y gorra negra hacia atrás.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Persona rubia sentada de forma relajada, cabello largo saliendo bajo gorra de béisbol negra hacia atrás, sudadera con capucha negra con el texto WANGHAF y pantalones grises.
+*   **E(Entorno):** Porche residencial de noche. Ventana con persianas, barandilla de madera blanca, macetas con plantas verdes, silla y mesa de metal blanca con un vaso de papel.
+*   **A(Acción / Postura):** Sentada en la silla metálica, mirando ligeramente hacia arriba de forma expectante, mientras otra persona (parcialmente visible) acerca un cigarrillo a su boca.
+*   **I(Iluminación):** Flash directo de cámara con fuerte intensidad frontal y caída de iluminación rápida hacia el fondo oscuro del porche.
+*   **S(Sensación / Atmósfera):** Relajada, casual, íntima, de instantánea entre amigos.
+*   **E(Estilo Visual):** Fotografía de estilo de vida candid nocturna con flash, grano analógico sutil y texturas de algodón, madera y hojas verdes muy naturales.
+*   **M(Composición / Cámara):** Plano medio vertical (9:16), perspectiva a nivel de los ojos (eye-level) con enfoque nítido sobre el sujeto principal.
+*   **P(Postproducción):** Contraste fuerte producido por el flash directo, colores y tonos nocturnos naturales. Texto WANGHAF perfectamente legible en la sudadera.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Candid Porch Night",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Persona joven adulta sentada de forma relajada en un porche residencial durante la noche.",
+                    "cabello": "Largo y rubio, parcialmente oculto bajo una gorra.",
+                    "headwear": "Gorra de béisbol negra colocada hacia atrás.",
+                    "vestimenta": {
+                        "top": "Sudadera negra con el texto WANGHAF claramente visible en la parte frontal.",
+                        "bottom": "Pantalones deportivos grises."
+                    },
+                    "expresion": "Boca ligeramente abierta, expresión neutral y expectante.",
+                    "mirada": "Ligeramente elevada hacia la persona que está frente a ella."
+                },
+                "E_Entorno": {
+                    "escena": "Porche o balcón residencial exterior durante la noche.",
+                    "fondo": "Ventana con persianas, barandilla del porche y vegetación doméstica.",
+                    "elementos": [
+                        "Silla metálica blanca",
+                        "Mesa pequeña metálica blanca",
+                        "Vaso de papel sobre la mesa",
+                        "Plantas en macetas",
+                        "Ventana con persianas",
+                        "Barandilla del porche"
+                    ],
+                    "atmosfera": "Casual, cotidiana y espontánea."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Persona sentada en una silla metálica blanca.",
+                    "accion": "Otra persona, visible únicamente parcialmente, acerca un cigarrillo hacia la boca de la persona sentada.",
+                    "lenguaje_corporal": "Relajado y natural, como una instantánea espontánea entre amigos.",
+                    "interaccion": "La persona sentada mira ligeramente hacia arriba en dirección a quien ofrece el cigarrillo."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Flash directo de cámara.",
+                    "fuente": "Flash frontal con poca luz ambiental.",
+                    "direccion": "Frontal.",
+                    "caracteristicas": "Iluminación intensa sobre el sujeto y objetos cercanos, con caída rápida de luz hacia el fondo.",
+                    "sombras": "Sombras definidas y naturales proyectadas detrás de los objetos."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Casual, candid and ligeramente nocturno.",
+                    "tono": "Fotografía espontánea de redes sociales, sin apariencia de sesión profesional."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Fotografía lifestyle candid con flash directo.",
+                    "acabado": "Raw, espontáneo, ligeramente imperfecto y ultra realista.",
+                    "texturas": "Tela de la sudadera, algodón del pantalón, metal pintado, plantas y superficies exteriores.",
+                    "paleta": "Negro, gris, blanco y tonos verdes oscuros con iluminación cálida del flash."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Plano medio.",
+                    "angulo": "Eye-level.",
+                    "encuadre": "Sujeto principal centrado, con parte de la segunda persona entrando naturalmente en el encuadre.",
+                    "orientacion": "Vertical.",
+                    "aspect_ratio": "9:16 vertical",
+                    "profundidad_de_campo": "Moderada, manteniendo al sujeto nítido y el fondo ligeramente suave."
+                },
+                "P_Postproduccion": {
+                    "color_grading": "Tonos nocturnos naturales con contraste producido por el flash.",
+                    "nitidez": "Alta nitidez en rostro, ropa y objetos cercanos.",
+                    "texto": "Mantener exactamente el texto WANGHAF en la parte frontal de la sudadera, perfectamente legible y sin caracteres adicionales.",
+                    "acabado_final": "Fotografía nocturna auténtica, sin estética de estudio, sin texto adicional ni apariencia de render."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/candid-porch-night.png",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-outdoor", name: "Outdoor", slug: "outdoor" },
+            { id: "t-night", name: "Night Photography", slug: "night-photography" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Balcón Nocturno\nEdita el texto frontal 'WANGHAF' por la palabra que quieras en tu sudadera. Puedes modificar el color del pantalón deportivo gris a otro tono o sustituir la gorra por el pelo libre.",
+        reference_image_guide: "Usa una foto donde tu rostro esté perfilado de tres cuartos mirando ligeramente hacia arriba para encajar bien con la dirección de la mirada."
     }
 ];
