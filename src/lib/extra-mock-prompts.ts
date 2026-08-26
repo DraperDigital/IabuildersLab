@@ -10233,5 +10233,105 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Retrato Urbano de Día\nModifica la blusa wrap verde oliva por otra prenda y color de tu elección (ej. 'camisa de lino blanca'). Puedes sustituir el bolso negro con cadena dorada por otro accesorio como unas gafas de sol.",
         reference_image_guide: "Usa una foto donde tu rostro tenga una sonrisa radiante y mire directamente a la cámara para asegurar una coherencia perfecta con la expresión alegre del prompt."
+    },
+    {
+        id: "lifestyle-alpine-ski-selfie",
+        type: "prompt",
+        title: "REAISEMP_Human — Alpine Ski Selfie",
+        slug: "alpine-ski-selfie",
+        summary: "Prompt ultra-realista de selfie de medio cuerpo durante un día de esquí en los Alpes. El avatar posa frente a un chalet tradicional con montañas nevadas de fondo.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer joven de apariencia y cabello natural recogido en messy bun, chaqueta de esquí rosa y verde con pantalones a juego y gafas de nieve reflectantes.
+*   **E(Entorno):** Exterior de un chalet alpino tradicional de madera con nieve fresca y montañas nevadas en el fondo.
+*   **A(Acción / Postura):** Sosteniendo el smartphone con el brazo extendido para tomar una selfie casual, mirada directa al objetivo.
+*   **I(Iluminación):** Luz natural diurna fría e intensa, típica de invierno, con reflejos sobre nieve y ropa técnica.
+*   **S(Sensación / Atmósfera):** Aventura invernal, fresca, elegante y sofisticada.
+*   **E(Estilo Visual):** Selfie smartphone ultra fotorealista, texturas de nieve, tela técnica y poros de piel muy definidos.
+*   **M(Composición / Cámara):** Plano medio de selfie (9:16 vertical), ángulo sutilmente por encima de los ojos con profundidad de campo natural.
+*   **P(Postproducción):** Tonos fríos y contrastes limpios, manteniendo alta nitidez en rostro y sin distorsión extrema.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Alpine Ski Selfie",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer joven adulta tomando un selfie casual durante un día de esquí.",
+                    "face_identity": "Usar la imagen de referencia como identidad facial principal; preservar estructura, proporciones, textura de piel, lunares, marcas y rasgos distintivos.",
+                    "cabello": "Mismo color que la referencia, recogido en un messy bun con mechones sueltos alrededor del rostro.",
+                    "rostro": "Textura de piel auténtica, poros visibles y apariencia natural.",
+                    "expresion": "Natural, relajada y espontánea.",
+                    "mirada": "Directamente hacia la cámara.",
+                    "vestimenta": {
+                        "outfit": "Chaqueta de esquí rosa y verde con pantalones de esquí a juego.",
+                        "estilo": "Moda alpina moderna y funcional."
+                    },
+                    "accesorios": "Gafas de nieve grandes y reflectantes, eyeliner negro."
+                },
+                "E_Entorno": {
+                    "escena": "Exterior de un chalet alpino durante un día despejado de invierno.",
+                    "fondo": "Casa de arquitectura tradicional de madera, terreno cubierto de nieve y montañas alpinas visibles al fondo.",
+                    "elementos": [
+                        "Nieve fresca en el suelo",
+                        "Fachada de madera",
+                        "Arquitectura tipo chalet",
+                        "Montañas nevadas"
+                    ],
+                    "atmosfera": "Aventura invernal, fresca, natural y sofisticada."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Sosteniendo el smartphone con el brazo extendido para realizar un selfie.",
+                    "accion": "Selfie casual estilo Instagram.",
+                    "lenguaje_corporal": "Relajado y espontáneo.",
+                    "mirada": "Directa al objetivo."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Luz natural diurna intensa.",
+                    "calidad": "Luz fría, limpia y nítida característica de un día de invierno.",
+                    "sombras": "Suaves pero definidas.",
+                    "efecto": "Reflejos naturales sobre nieve, gafas y prendas técnicas."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Fresco, aventurero, casual y elegante.",
+                    "tono": "Instagram lifestyle auténtico durante unas vacaciones de esquí."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Selfie smartphone ultra fotorealista.",
+                    "acabado": "Natural, espontáneo y sin apariencia de render.",
+                    "texturas": "Poros visibles, cabello natural, tejido técnico de la ropa y textura realista de la nieve.",
+                    "color_grading": "Tonos fríos, limpios y naturales."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Selfie de medio cuerpo.",
+                    "angulo": "Ligeramente por encima del nivel de los ojos.",
+                    "encuadre": "Composición casual, con el rostro como punto focal y el paisaje alpino claramente reconocible.",
+                    "camara": "Cámara frontal de smartphone.",
+                    "profundidad_de_campo": "Natural, sin desenfoque artificial excesivo.",
+                    "aspect_ratio": "9:16 vertical"
+                },
+                "P_Postproduccion": {
+                    "identidad": "Bloqueo estricto de identidad facial respecto a la referencia.",
+                    "nitidez": "Alta nitidez en rostro, cabello, ropa y gafas.",
+                    "detalle_piel": "Poros y textura natural visibles, sin efecto plástico.",
+                    "ruido": "Mínimo pero conservando apariencia fotográfica auténtica.",
+                    "acabado_final": "Ultra fotorealista, limpio y natural, sin texto, deformaciones, piel artificial ni elementos generados innecesarios."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/alpine-ski-selfie.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-sports", name: "Sports", slug: "sports" },
+            { id: "t-outdoor", name: "Outdoor", slug: "outdoor" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Esquí Alpino\nModifica el color de la chaqueta rosa y verde por los colores de tu propia equipación. Puedes cambiar la expresión facial o sustituir las gafas reflectantes por unas gafas normales de esquí.",
+        reference_image_guide: "Usa una foto donde mantengas tu peinado recogido en moño y los brazos extendidos para simular perfectamente el agarre a dos manos del smartphone al tomar la foto."
     }
 ];
