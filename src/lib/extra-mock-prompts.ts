@@ -10526,5 +10526,88 @@ export const EXTRA_MOCK_PROMPTS = [
         ],
         customization_guide: "# Personalización de Retrato Vintage en Baño\nModifica el tipo de vestido o color del encaje de seda para renovar tu outfit. Puedes agregar o quitar elementos del mostrador del baño ajustando la descripción en los detalles del entorno.",
         reference_image_guide: "Usa una foto donde aparezcas sentada sobre un mostrador o mesa inclinándote levemente al espejo de modo que la pose sea consistente."
+    },
+    {
+        id: "lifestyle-luxury-sofa-editorial",
+        type: "prompt",
+        title: "REAISEMP_Human — Luxury Sofa Editorial",
+        slug: "luxury-sofa-editorial",
+        summary: "Prompt ultra-realista de retrato editorial cinematográfico. El avatar posa reclinada sobre un sofá beige con bodysuit blanco, abrigo voluminoso de pelo sintético y tacones nude.",
+        body_markdown: `
+# Framework REAISEMP_Human
+
+*   **R(Render del Avatar):** Mujer adulta, expresión calmada y seductora con media sonrisa natural, bodysuit blanco ajustado sin tirantes, medias marfil translúcidas, abrigo voluminoso de piel sintética sobre hombros y tacones nude.
+*   **E(Entorno):** Interior moderno en tonos beige minimalistas. Sofá beige grande y elementos decorativos neutros y discretos.
+*   **A(Acción / Postura):** Reclinada sobre el sofá, cuerpo girado de lado, una pierna flexionada y la otra extendida al frente. Mano izquierda colocada casualmente cerca de la cabeza y mano derecha relajada al lado.
+*   **I(Iluminación):** Iluminación interior cálida y difusa con un halo dorado (warm golden undertone), highlights y resplandor suave sobre piel y prendas.
+*   **S(Sensación / Atmósfera):** Elegancia, glamour discreto, confianza tranquila y lujo silencioso.
+*   **E(Estilo Visual):** Retrato editorial de moda sofisticado y fotorealista, texturas de piel sintética, medias y cuero de tacones de alta credibilidad física.
+*   **M(Composición / Cámara):** Retrato horizontal (aspecto 3.4:1) a nivel de ojos, composición equilibrada favoreciendo la silueta y profundidad de campo suave.
+*   **P(Postproducción):** Tonos crema, beige y blanco contrastados, alta nitidez sin modificar la identidad facial del sujeto respecto a la referencia original.
+        `,
+        prompt_text: JSON.stringify({
+            "title": "REAISEMP_Human — Luxury Sofa Editorial",
+            "framework_REAISEMP_Human": {
+                "R_Render_del_Avatar": {
+                    "sujeto": "Mujer adulta cuya identidad facial debe mantenerse exactamente igual a la imagen de referencia.",
+                    "rostro": "Preservar estructura facial, proporciones y rasgos originales; maquillaje suave con énfasis sutil en ojos y labios.",
+                    "expresion": "Calmada y seductora, con media sonrisa natural.",
+                    "piel": "Textura realista, proporciones naturales y detalles de piel visibles."
+                },
+                "E_Entorno": {
+                    "escena": "Interior moderno en tonos beige con decoración minimalista.",
+                    "fondo": "Sofá beige y elementos decorativos neutros y discretos.",
+                    "atmosfera": "Lujo suave, elegante y cinematográfico."
+                },
+                "A_Accion_Postura": {
+                    "pose": "Reclinada sobre un sofá beige, cuerpo ligeramente girado hacia un lado.",
+                    "piernas": "Una pierna flexionada y la otra extendida hacia delante.",
+                    "brazos": "Un brazo relajado junto al cuerpo y el otro colocado casualmente cerca de la cabeza.",
+                    "lenguaje_corporal": "Relajado, seguro y sofisticado."
+                },
+                "I_Iluminacion": {
+                    "tipo": "Iluminación interior cálida y difusa.",
+                    "temperatura": "Warm golden undertone.",
+                    "caracteristicas": "Mantener exactamente la dirección, intensidad, calidad y comportamiento de la luz presentes en la referencia.",
+                    "efecto": "Glow suave y highlights naturales sobre piel, cabello, tejido y superficies."
+                },
+                "S_Sensacion_Atmosfera": {
+                    "mood": "Elegancia, glamour discreto y confianza tranquila.",
+                    "tono": "Editorial cinematográfico de lujo suave."
+                },
+                "E_visual_EstiloVisual": {
+                    "estilo_general": "Retrato editorial sofisticado y fotorealista.",
+                    "acabado": "Natural, elegante y cinematográfico, evitando apariencia artificial.",
+                    "paleta": "Beige, crema, blanco y tonos cálidos neutros."
+                },
+                "M_Composicion_Camara": {
+                    "plano": "Retrato horizontal mostrando cuerpo y entorno suficiente para contextualizar la pose.",
+                    "encuadre": "Composición equilibrada, favoreciendo la silueta sin exageraciones.",
+                    "aspect_ratio": "3.4:1",
+                    "referencia": "Usar la imagen subida como referencia principal de identidad y composición."
+                },
+                "P_Postproduccion": {
+                    "vestuario": "Bodysuit blanco ajustado sin tirantes, medias translúcidas color marfil, abrigo voluminoso de textura tipo piel sintética sobre los hombros y tacones nude.",
+                    "accesorios": "Joyería mínima y manicura clara.",
+                    "acabado_final": "Ultra realista, piel natural, tejidos físicamente creíbles y sin modificar la identidad facial.",
+                    "restricciones": "No reemplazar el rostro, no alterar identidad, no cambiar la iluminación de referencia, no piel plástica, no anatomía deformada, no apariencia CGI."
+                }
+            }
+        }, null, 2),
+        category: "Lifestyle",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        featured_image_url: "/images/prompts/luxury-sofa-editorial.jpg",
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-indoor", name: "Indoor", slug: "indoor" },
+            { id: "t-fashion", name: "Fashion", slug: "fashion" },
+            { id: "t-lifestyle", name: "Lifestyle", slug: "lifestyle" }
+        ],
+        customization_guide: "# Personalización de Retrato en Sofá\nModifica el color del abrigo o bodysuit (ej. cambia 'Bodysuit blanco' por 'Bodysuit negro satinado'). Puedes adaptar la composición reclinada en el sofá ajustando los parámetros de pose.",
+        reference_image_guide: "Usa una foto donde estés reclinada en un sofá para mantener la coherencia anatómica perfecta y la inclinación natural de la cabeza."
     }
 ];
