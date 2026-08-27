@@ -87,8 +87,16 @@ export async function getContent(id: string) {
 }
 
 // Helper to apply filters to mock/in-memory data
-function applyMockFilters(content: ContentItem[], filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; excludeCategories?: string[] }) {
+function applyMockFilters(content: ContentItem[], filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; excludeCategories?: string[]; isSop?: boolean }) {
     let result = [...content];
+
+    if (filters?.isSop !== undefined) {
+        if (filters.isSop) {
+            result = result.filter(c => c.id.startsWith('sop-'));
+        } else {
+            result = result.filter(c => !c.id.startsWith('sop-'));
+        }
+    }
 
     if (filters?.type && filters.type !== 'all') {
         result = result.filter(c => c.type === filters.type);
@@ -110,7 +118,7 @@ function applyMockFilters(content: ContentItem[], filters?: { type?: string; sta
     return result;
 }
 
-export async function listContent(filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; page?: number; limit?: number; excludeCategories?: string[] }) {
+export async function listContent(filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; page?: number; limit?: number; excludeCategories?: string[]; isSop?: boolean }) {
     const isMock = true; // Force mock for validation: (await cookies()).get('mock_session')?.value === 'true';
 
     // Explicit mock check
