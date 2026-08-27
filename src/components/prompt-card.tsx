@@ -22,7 +22,7 @@ export function PromptCard({ prompt }: PromptCardProps) {
         advanced: "bg-rose-600 text-white border-rose-400"
     };
 
-    if (!prompt.featured_image_url) {
+    if (prompt.id.startsWith('sop-')) {
         return (
             <Card className="group h-full flex flex-col transition-all hover:scale-105 border-purple-500/30 hover:border-purple-500/60 glass-effect overflow-hidden relative bg-slate-900 min-h-[260px]">
                 {/* Gradient overlay on hover */}
