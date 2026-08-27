@@ -736,6 +736,48 @@ export async function getSystemBySlug(slug: string) {
 
 export const MOCK_PROMPTS: ContentItem[] = [
     {
+        id: "sop-discovery-calls",
+        type: "prompt",
+        title: "SOP: Guion Dinámico para Llamadas de Descubrimiento",
+        slug: "sop-guion-dinamico-para-llamadas-de-descubrimiento",
+        summary: "Un marco de trabajo para dirigir llamadas de venta B2B sin presión. Ayuda a diagnosticar la situación del prospecto y realizar una transición fluida hacia el cierre, posicionándote como un asesor, no como un vendedor.",
+        body_markdown: `# SOP: Guion Dinámico para Llamadas de Descubrimiento\n\n## D.R.A.P.E.R.™ System Integration\n\n> **D - Diagnosticar:** Revisa el perfil del prospecto en LinkedIn o su formulario de entrada antes de la llamada.\n\n> **R - Rediseñar:** Adapta mentalmente el tono; el objetivo de esta llamada no es vender, es calificar si el prospecto tiene el problema que tu infraestructura puede resolver.\n\n> **A - Arquitectar & Programar (El Prompt Maestro):** Inyecta la siguiente instrucción en Claude:\n>\n> \`\`\`\n> Eres un coach de ventas que ayuda a proveedores de servicios B2B a dirigir llamadas de descubrimiento que convierten sin presión. Escribe un guion de llamada de descubrimiento que pueda usar como guía. Debe incluir:\n> Una apertura que establezca la agenda y haga sentir cómodo al prospecto.\n> 8 preguntas que me ayuden a entender su situación, metas, obstáculos y presupuesto sin que se sienta como un interrogatorio policial.\n> Una transición hacia el pitch que se sienta natural.\n> Una estructura para presentar mi oferta vinculándola directamente a lo que me acaban de decir.\n> Un cierre que pida la venta claramente sin ser agresivo.\n> Incluye notas sobre qué debo escuchar activamente en sus respuestas para calibrar si son un buen cliente.\n> [Inserta el tipo de servicio que ofreces y el perfil de tu cliente]\n> \`\`\`\n\n> **P - Encender:** Imprime o mantén este documento abierto en tu segunda pantalla durante tus llamadas por Zoom/Meet.\n\n> **R - Refinar:** Graba tus llamadas (con permiso) y audita las objeciones que no pudiste superar para inyectarlas de vuelta al prompt en la siguiente iteración.`,
+        prompt_text: `Eres un coach de ventas que ayuda a proveedores de servicios B2B a dirigir llamadas de descubrimiento que convierten sin presión. Escribe un guion de llamada de descubrimiento que pueda usar como guía. Debe incluir:\nUna apertura que establezca la agenda y haga sentir cómodo al prospecto.\n8 preguntas que me ayuden a entender su situación, metas, obstáculos y presupuesto sin que se sienta como un interrogatorio policial.\nUna transición hacia el pitch que se sienta natural.\nUna estructura para presentar mi oferta vinculándola directamente a lo que me acaban de decir.\nUn cierre que pida la venta claramente sin ser agresivo.\nIncluye notas sobre qué debo escuchar activamente en sus respuestas para calibrar si son un buen cliente.\n[Inserta el tipo de servicio que ofreces y el perfil de tu cliente]`,
+        category: "Ventas y Calificación",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "free_preview",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: [
+            { id: "t-sop", name: "SOP", slug: "sop" },
+            { id: "t-sales", name: "Sales", slug: "sales" },
+            { id: "t-discovery", name: "Discovery", slug: "discovery" }
+        ]
+    },
+    {
+        id: "sop-commercial-proposals",
+        type: "prompt",
+        title: "SOP: Generador de Propuestas Comerciales de Alto Impacto",
+        slug: "sop-generador-de-propuestas-comerciales-de-alto-impacto",
+        summary: "Sistema para redactar propuestas de servicios y consultoría que eliminan la fricción. Traduce el lenguaje técnico en valor comercial y establece límites claros de alcance (scope).",
+        body_markdown: `# SOP: Generador de Propuestas Comerciales de Alto Impacto\n\n## D.R.A.P.E.R.™ System Integration\n\n> **D - Diagnosticar:** Reúne las notas tomadas durante la llamada de descubrimiento (situación actual del cliente, métricas de éxito y presupuesto discutido).\n\n> **R - Rediseñar:** Estructura la solución en fases lógicas de implementación para reducir el riesgo percibido por el cliente.\n\n> **A - Arquitectar & Programar (El Prompt Maestro):** Inyecta la siguiente instrucción en Claude:\n>\n> \`\`\`\n> Eres un consultor de negocios que escribe propuestas que ganan clientes empresariales. Escribe una plantilla de propuesta para mi negocio de servicios. Incluye estas secciones:\n> Un breve resumen de la situación del cliente tal como la entiendo (con un marcador para personalización).\n> El problema específico que resolveremos juntos.\n> Mi enfoque recomendado dividido en fases operativas.\n> Lo que está incluido y (muy importante) lo que NO está incluido.\n> Cronograma.\n> Inversión (precio).\n> Qué sucede inmediatamente después de que digan que sí.\n> Un breve párrafo de cierre que les recuerde por qué vale la pena avanzar.\n> Escríbelo en un tono profesional, directivo pero cálido.\n> [Inserta los datos de tu servicio y notas de la reunión]\n> \`\`\`\n\n> **P - Encender:** Exporta el texto a un documento PDF o plataforma de propuestas, cuidando que el diseño visual esté alineado a tus guías de marca.\n\n> **R - Refinar:** Si un cliente pide muchas modificaciones de alcance después de firmar, audita la sección de \"lo que NO está incluido\" de este sistema y hazla más robusta.`,
+        prompt_text: `Eres un consultor de negocios que escribe propuestas que ganan clientes empresariales. Escribe una plantilla de propuesta para mi negocio de servicios. Incluye estas secciones:\nUn breve resumen de la situación del cliente tal como la entiendo (con un marcador para personalización).\nEl problema específico que resolveremos juntos.\nMi enfoque recomendado dividido en fases operativas.\nLo que está incluido y (muy importante) lo que NO está incluido.\nCronograma.\nInversión (precio).\nQué sucede inmediatamente después de que digan que sí.\nUn breve párrafo de cierre que les recuerde por qué vale la pena avanzar.\nEscríbelo en un tono profesional, directivo pero cálido.\n[Inserta los datos de tu servicio y notas de la reunión]`,
+        category: "Operaciones y Cierre",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "free_preview",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: [
+            { id: "t-sop", name: "SOP", slug: "sop" },
+            { id: "t-operations", name: "Operations", slug: "operations" },
+            { id: "t-closing", name: "Closing", slug: "closing" }
+        ]
+    },
+    {
         id: "sop-brand-voice",
         type: "prompt",
         title: "SOP: Arquitectura de Voz de Marca B2B",

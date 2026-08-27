@@ -2,6 +2,27 @@ import { ContentItem } from "@/types/content";
 
 export const COPY_LIBRARY_PROMPTS: ContentItem[] = [
     {
+        id: "sop-sales-page",
+        type: "text_prompt",
+        title: "SOP: Arquitectura de Página de Ventas (High-Ticket)",
+        slug: "sop-arquitectura-de-pagina-de-ventas-high-ticket",
+        summary: "Un sistema de redacción de conversión estructurado para vender ofertas de servicios, consultoría o infraestructuras complejas, asegurando que el diseño de la página responda a objeciones antes de que el cliente las formule.",
+        body_markdown: `# SOP: Arquitectura de Página de Ventas (High-Ticket)\n\n## D.R.A.P.E.R.™ System Integration\n\n> **D - Diagnosticar:** Define claramente la oferta principal, el problema específico que resuelve (el dolor del cliente) y las 3 objeciones más comunes que escuchas en tus llamadas de venta.\n\n> **R - Rediseñar:** Extrae los testimonios, casos de éxito o métricas de garantía que respaldarán la promesa de la oferta.\n\n> **A - Arquitectar & Programar (El Prompt Maestro):** Inyecta la siguiente instrucción en Claude:\n>\n> \`\`\`\n> Eres un copywriter de conversión que escribe páginas de ventas para negocios de servicios y ofertas de alto valor. Escribe una página de ventas completa para la oferta que describiré a continuación. Estructúrala de la siguiente manera:\n> Un titular que hable directamente al problema principal.\n> Un subtítulo que introduzca el resultado.\n> Una sección que agite el problema con lenguaje específico y situaciones cotidianas.\n> Una sección que presente la oferta como la solución definitiva.\n> Un desglose técnico pero accesible de lo que está incluido.\n> Tres secciones de manejo de objeciones redactadas en formato FAQ.\n> Marcadores de posición para prueba social.\n> Sección de precios con un CTA claro y una sección de cierre que genere urgencia real.\n> [Inserta los datos de tu oferta, problema y objeciones aquí]\n> \`\`\`\n\n> **P - Encender:** Pasa el texto generado a tu constructor web (ej. el agente que utiliza el "Anti-AI Web Design Blueprint").\n\n> **R - Refinar:** Instala mapas de calor (ej. Hotjar) en la página publicada. Si los usuarios no llegan a la sección de precios, el titular o la sección de "agitación del problema" necesita más urgencia.`,
+        prompt_text: `Eres un copywriter de conversión que escribe páginas de ventas para negocios de servicios y ofertas de alto valor. Escribe una página de ventas completa para la oferta que describiré a continuación. Estructúrala de la siguiente manera:\nUn titular que hable directamente al problema principal.\nUn subtítulo que introduzca el resultado.\nUna sección que agite el problema con lenguaje específico y situaciones cotidianas.\nUna sección que presente la oferta como la solución definitiva.\nUn desglose técnico pero accesible de lo que está incluido.\nTres secciones de manejo de objeciones redactadas en formato FAQ.\nMarcadores de posición para prueba social.\nSección de precios con un CTA claro y una sección de cierre que genere urgencia real.\n[Inserta los datos de tu oferta, problema y objeciones aquí]`,
+        category: "Páginas de Ventas",
+        level: "intermediate",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "free_preview",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        tags: [
+            { id: "t-sop", name: "SOP", slug: "sop" },
+            { id: "t-sales", name: "Sales", slug: "sales" },
+            { id: "t-copywriting", name: "Copywriting", slug: "copywriting" }
+        ]
+    },
+    {
         id: "fb-1",
         type: "text_prompt",
         title: "Identificación de la audiencia a la que se dirige",
