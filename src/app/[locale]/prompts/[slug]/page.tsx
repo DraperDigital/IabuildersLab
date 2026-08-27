@@ -51,7 +51,7 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
         prompt.type === 'text_prompt' ? Promise.resolve({ data: [] }) : getUsedTags(prompt.type)
     ]);
 
-    const isImagePrompt = prompt.type === 'prompt';
+    const isImagePrompt = prompt.type === 'prompt' && !!prompt.featured_image_url;
 
     // Filter prompts to only include those of the same type (Image vs Text)
     const filteredPrompts = ALL_MOCK_CONTENT.filter(p => p.type === prompt.type);

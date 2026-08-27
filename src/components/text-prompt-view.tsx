@@ -7,6 +7,40 @@ import { PromptDisplay } from "@/components/prompt-display";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import ReactMarkdown from "react-markdown";
+import { CopyButton } from "@/components/copy-button";
+
+const markdownComponents = {
+    h1: ({ children }: any) => <h1 className="text-3xl font-extrabold text-white mb-6 border-b border-purple-500/20 pb-3">{children}</h1>,
+    h2: ({ children }: any) => <h2 className="text-2xl font-bold text-purple-300 mt-10 mb-4 pb-1 border-b border-purple-500/10 flex items-center gap-2">{children}</h2>,
+    h3: ({ children }: any) => <h3 className="text-xl font-bold text-white mt-8 mb-3 text-purple-100">{children}</h3>,
+    p: ({ children }: any) => <p className="text-purple-100/90 leading-relaxed mb-4 text-base">{children}</p>,
+    ul: ({ children }: any) => <ul className="list-disc pl-6 space-y-2 mb-6 text-purple-200">{children}</ul>,
+    ol: ({ children }: any) => <ol className="list-decimal pl-6 space-y-2 mb-6 text-purple-200">{children}</ol>,
+    li: ({ children }: any) => <li className="text-purple-100/90 leading-relaxed">{children}</li>,
+    strong: ({ children }: any) => <strong className="text-purple-300 font-semibold">{children}</strong>,
+    hr: () => <hr className="my-8 border-purple-500/10" />,
+    blockquote: ({ children }: any) => (
+        <blockquote className="border-l-4 border-purple-500 bg-purple-500/10 pl-5 py-4 pr-4 my-6 rounded-r italic text-purple-200 shadow-[0_0_15px_rgba(168,85,247,0.05)] border-t border-r border-b border-purple-500/10">
+            {children}
+        </blockquote>
+    ),
+    code: ({ className, children, ...props }: any) => {
+        const isBlock = className?.includes("language-") || String(children).includes("\n");
+        return isBlock ? (
+            <div className="relative my-6 group">
+                <pre className="bg-slate-950/80 border border-purple-500/30 rounded-xl p-5 overflow-x-auto text-purple-200 font-mono text-sm leading-relaxed shadow-[inset_0_0_20px_rgba(0,0,0,0.6)]">
+                    <code>{children}</code>
+                </pre>
+                <CopyButton text={String(children).trim()} />
+            </div>
+        ) : (
+            <code className="bg-slate-950 text-purple-300 px-1.5 py-0.5 rounded font-mono text-sm border border-purple-500/20" {...props}>
+                {children}
+            </code>
+        );
+    }
+};
 
 interface TextPromptViewProps {
     prompt: ContentItem;
@@ -102,10 +136,11 @@ export function TextPromptView({ prompt, prevPrompt, nextPrompt, categories, tag
 
                 {/* Body Content / Context (if different from prompt) */}
                 {prompt.body_markdown && prompt.body_markdown !== prompt.prompt_text && (
-                    <div className="prose prose-invert max-w-none mb-12 p-8 rounded-2xl bg-slate-900/50 border border-slate-800">
-                        <h3 className="text-xl font-semibold text-white mb-4">Context & Instructions</h3>
-                        <div className="text-slate-300 whitespace-pre-wrap leading-relaxed">
-                            {prompt.body_markdown}
+                    <div className="prose prose-lg prose-invert max-w-none mb-12">
+                        <div className="bg-slate-900/30 backdrop-blur-sm rounded-xl p-8 border border-purple-500/20 text-purple-50">
+                            <ReactMarkdown components={markdownComponents}>
+                                {prompt.body_markdown}
+                            </ReactMarkdown>
                         </div>
                     </div>
                 )}

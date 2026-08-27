@@ -735,6 +735,72 @@ export async function getSystemBySlug(slug: string) {
 }
 
 export const MOCK_PROMPTS: ContentItem[] = [
+    {
+        id: "sop-brand-voice",
+        type: "prompt",
+        title: "SOP: Arquitectura de Voz de Marca B2B",
+        slug: "sop-arquitectura-de-voz-de-marca-b2b",
+        summary: "Sistema para codificar la personalidad de una marca en un documento maestro, eliminando el tono robótico de la IA y permitiendo que cualquier agente o freelancer escriba contenido coherente desde el día uno.",
+        body_markdown: `# SOP: Arquitectura de Voz de Marca B2B\n\n## D.R.A.P.E.R.™ System Integration\n\n> **D - Diagnosticar:** Selecciona 2 o 3 ejemplos reales de contenido (textos, correos o posts) que capturen exactamente el tono, ritmo y nivel técnico que deseas para la marca.\n\n> **R - Rediseñar:** Define en un párrafo corto tu nicho B2B y el arquetipo de tu cliente ideal (ej. "Directores de operaciones frustrados con procesos manuales").\n\n> **A - Arquitectar & Programar (El Prompt Maestro):** Inyecta la siguiente instrucción en Claude:\n>\n> \`\`\`\n> Eres un estratega de marca con 15 años de experiencia construyendo guías de voz para marcas. Te describiré mi negocio, mi audiencia y compartiré 2-3 ejemplos de contenido que me gustan. Basado en eso, escribe una guía de voz de marca completa que incluya: adjetivos de tono con explicaciones, cómo sonamos vs. cómo nunca sonamos, 5 oraciones de ejemplo que demuestren la voz, y palabras o frases que siempre evitamos. Mantenlo lo suficientemente práctico para que un nuevo miembro del equipo (o un agente de IA) pueda leerlo y escribir en sintonía inmediatamente.\n> [Inserta tu descripción y ejemplos aquí]\n> \`\`\`\n\n> **P - Encender:** Guarda el resultado como \`Voice_Guide_[Marca].md\` en tu bóveda.\n\n> **R - Refinar:** Este archivo se convierte en el contexto obligatorio (dependencia) que todos los demás agentes de redacción deberán leer antes de operar.`,
+        prompt_text: `Eres un estratega de marca con 15 años de experiencia construyendo guías de voz para marcas. Te describiré mi negocio, mi audiencia y compartiré 2-3 ejemplos de contenido que me gustan. Basado en eso, escribe una guía de voz de marca completa que incluya: adjetivos de tono con explicaciones, cómo sonamos vs. cómo nunca sonamos, 5 oraciones de ejemplo que demuestren la voz, y palabras o frases que siempre evitamos. Mantenlo lo suficientemente práctico para que un nuevo miembro del equipo (o un agente de IA) pueda leerlo y escribir en sintonía inmediatamente.\n[Inserta tu descripción y ejemplos aquí]`,
+        category: "Marketing & Content",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "free_preview",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: [
+            { id: "t-sop", name: "SOP", slug: "sop" },
+            { id: "t-marketing", name: "Marketing", slug: "marketing" },
+            { id: "t-content", name: "Content", slug: "content" },
+            { id: "t-voice", name: "Voz de Marca", slug: "voz-de-marca" }
+        ]
+    },
+    {
+        id: "sop-content-matrix",
+        type: "prompt",
+        title: "SOP: Matriz de Contenido a 30 Días",
+        slug: "sop-matriz-de-contenido-a-30-dias",
+        summary: "Generador de arquitectura mensual para evitar la parálisis por análisis. Crea un mapa táctico con ganchos, pilares y formatos antes de redactar una sola palabra.",
+        body_markdown: `# SOP: Matriz de Contenido a 30 Días\n\n## D.R.A.P.E.R.™ System Integration\n\n> **D - Diagnosticar:** Define el objetivo principal del mes en tu CRM (ej. captar leads para una auditoría técnica o vender un sistema específico).\n\n> **R - Rediseñar:** Selecciona la red social principal donde reside tu audiencia objetivo (ej. LinkedIn).\n\n> **A - Arquitectar & Programar (El Prompt Maestro):** Inyecta la siguiente instrucción en Claude:\n>\n> \`\`\`\n> Eres un estratega de redes sociales que crea planes de contenido para marcas de servicios B2B. Crea un calendario de contenido de 30 días para [Plataforma] con una publicación por día. Cada publicación debe tener: un pilar de contenido (educar / entretener / vender / generar confianza), un gancho o línea de apertura, una breve descripción de la idea de la publicación, y un formato sugerido (carrusel, reel, imagen estática, texto largo). Mezcla los pilares de contenido para que ningún pilar se repita más de 3 días seguidos. Evita el contenido de relleno genérico; cada publicación debe tener una razón comercial para existir.\n> \`\`\`\n\n> **P - Encender:** Revisa la matriz generada. Este documento se convierte en el archivo de input (directiva) para el Agente Ideador y el Agente Guionista de tu equipo automatizado.\n\n> **R - Refinar:** Ajusta la proporción de los pilares si notas que la audiencia responde mejor a los insights técnicos que al contenido de "generación de confianza".`,
+        prompt_text: `Eres un estratega de redes sociales que crea planes de contenido para marcas de servicios B2B. Crea un calendario de contenido de 30 días para [Plataforma] con una publicación por día. Cada publicación debe tener: un pilar de contenido (educar / entretener / vender / generar confianza), un gancho o línea de apertura, una breve descripción de la idea de la publicación, y un formato sugerido (carrusel, reel, imagen estática, texto largo). Mezcla los pilares de contenido para que ningún pilar se repita más de 3 días seguidos. Evita el contenido de relleno genérico; cada publicación debe tener una razón comercial para existir.`,
+        category: "Marketing & Content",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "free_preview",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: [
+            { id: "t-sop", name: "SOP", slug: "sop" },
+            { id: "t-marketing", name: "Marketing", slug: "marketing" },
+            { id: "t-content", name: "Content", slug: "content" },
+            { id: "t-matrix", name: "Matriz de Contenido", slug: "matriz-de-contenido" }
+        ]
+    },
+    {
+        id: "sop-omnichannel-recycling",
+        type: "prompt",
+        title: "SOP: Máquina de Reciclaje Omnicanal",
+        slug: "sop-maquina-de-reciclaje-omnicanal",
+        summary: "Sistema de maximización de activos. Toma una pieza de contenido profundo y la fragmenta en formatos nativos para cada plataforma, alterando la estructura sin perder el mensaje central.",
+        body_markdown: `# SOP: Máquina de Reciclaje Omnicanal\n\n## D.R.A.P.E.R.™ System Integration\n\n> **D - Diagnosticar:** Selecciona un activo "ancla". Debe ser un contenido validado o de alto valor que ya tengas documentado.\n\n> **R - Rediseñar:** Identifica los canales de distribución activos en tu ecosistema (ej. LinkedIn, Instagram, Newsletter).\n\n> **A - Arquitectar & Programar (El Prompt Maestro):** Inyecta la siguiente instrucción en Claude:\n>\n> \`\`\`\n> Eres un estratega de contenido especializado en hacer que una sola pieza funcione en múltiples plataformas sin que se sienta copiada y pegada. Toma el contenido que te proporcionará y reprodúcelo en 6 formatos diferentes: un post de LinkedIn, un texto para Instagram, un guion de video corto (menos de 60 segundos), una introducción para newsletter, un abridor de hilo en Twitter/X, y la introducción de un artículo de blog. Cada versión debe sentirse nativa a su plataforma en tono y estructura. No te limites a acortar el original. Reescríbelo estratégicamente para cada contexto.\n> [Inserta el contenido original aquí]\n> \`\`\`\n\n> **P - Encender:** Pasa los textos generados a tu orquestador de redes sociales o al agente encargado de la publicación.\n\n> **R - Refinar:** Audita qué formato generó mejor retención. Si el guion de video corto retiene más del 50% de la audiencia, ajusta el prompt en el futuro para priorizar ese estilo de redacción narrativa.`,
+        prompt_text: `Eres un estratega de contenido especializado en hacer que una sola pieza funcione en múltiples plataformas sin que se sienta copiada y pegada. Toma el contenido que te proporcionará y reprodúcelo en 6 formatos diferentes: un post de LinkedIn, un texto para Instagram, un guion de video corto (menos de 60 segundos), una introducción para newsletter, un abridor de hilo en Twitter/X, y la introducción de un artículo de blog. Cada versión debe sentirse nativa a su plataforma en tono y estructura. No te limites a acortar el original. Reescríbelo estratégicamente para cada contexto.\n[Inserta el contenido original aquí]`,
+        category: "Marketing & Content",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "free_preview",
+        created_at: "2026-08-25T11:20:00.000Z",
+        updated_at: "2026-08-25T11:20:00.000Z",
+        tags: [
+            { id: "t-sop", name: "SOP", slug: "sop" },
+            { id: "t-marketing", name: "Marketing", slug: "marketing" },
+            { id: "t-content", name: "Content", slug: "content" },
+            { id: "t-omnichannel", name: "Omnicanal", slug: "omnicanal" }
+        ]
+    },
     // Prompts from PromptGather.io
     {
         id: "pg-1",
