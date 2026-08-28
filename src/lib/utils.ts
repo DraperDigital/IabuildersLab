@@ -17,7 +17,14 @@ export function isSopItem(item: any): boolean {
         "Ventas y Calificación",
         "Operaciones y Cierre",
         "Páginas de Ventas",
-        "Marketing de Facebook"
+        "Marketing de Facebook",
+        "Research",
+        "Content",
+        "Sales",
+        "Operations",
+        "Marketing",
+        "Market Research & Content",
+        "CRM & Operations"
     ];
 
     return (
@@ -27,6 +34,8 @@ export function isSopItem(item: any): boolean {
         titleLower.startsWith('sop ') ||
         titleLower.includes(' (sop)') ||
         item.type === 'text_prompt' ||
+        item.type === 'system' ||
+        item.type === 'automation' ||
         sopCategories.includes(categoryStr)
     );
 }
