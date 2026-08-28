@@ -46,7 +46,7 @@ export function SystemCard({ system }: SystemCardProps) {
 
     return (
         <>
-            <Card className="group h-full flex flex-col transition-all hover:scale-105 border-purple-500/30 hover:border-purple-500/60 glass-effect overflow-hidden relative">
+            <Card className="group h-full flex flex-col transition-all duration-500 ease-out hover:-translate-y-2 hover:rotate-1 border border-white/10 bg-slate-900/40 backdrop-blur-xl shadow-[0_20px_40px_rgba(0,0,0,0.4)] hover:shadow-[0_30px_60px_rgba(168,85,247,0.15)] overflow-hidden relative rounded-2xl">
                 {/* Gradient overlay on hover */}
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-500/0 via-purple-500/0 to-blue-500/0 group-hover:from-purple-500/10 group-hover:via-purple-500/5 group-hover:to-blue-500/10 transition-all duration-300"></div>
 

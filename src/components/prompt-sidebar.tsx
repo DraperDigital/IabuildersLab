@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Search, X, Star, Filter } from "lucide-react";
+import { Search, X, Star, Filter, Briefcase, Video, Signal, Zap } from "lucide-react";
 import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";
@@ -51,9 +51,9 @@ export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps
                     </SheetTrigger>
                     <SheetContent side="left" className="w-[300px] border-r-slate-800 bg-slate-950 p-6 overflow-y-auto">
                         <SheetHeader className="mb-6">
-                            <SheetTitle className="text-white">Filter Prompts</SheetTitle>
+                            <SheetTitle className="text-white">Filtros de Catálogo</SheetTitle>
                             <SheetDescription className="text-slate-400">
-                                Search and filter prompts by category or tag.
+                                Explora la arquitectura de información.
                             </SheetDescription>
                         </SheetHeader>
                         <SidebarContent
@@ -66,7 +66,7 @@ export function PromptSidebar({ categories = [], tags = [] }: PromptSidebarProps
             </div>
 
             {/* Desktop Sidebar */}
-            <div className="hidden lg:block rounded-xl border border-purple-500/20 bg-slate-900/50 p-6 backdrop-blur-sm sticky top-24">
+            <div className="hidden lg:block rounded-3xl border border-white/10 bg-slate-900/40 p-6 backdrop-blur-2xl shadow-[0_20px_40px_rgba(0,0,0,0.5)] hover:bg-slate-900/60 transition-colors duration-500 sticky top-24">
                 <SidebarContent categories={categories} tags={tags} />
             </div>
         </>
@@ -79,6 +79,17 @@ interface SidebarContentProps {
     onNavigate?: () => void;
 }
 
+const DOMAINS = [
+    { id: 'audiovisual', label: 'Audiovisual / Creativo', icon: Video },
+    { id: 'negocio', label: 'Negocio / Operación', icon: Briefcase }
+];
+
+const LEVELS = [
+    { id: 'principiante', label: 'Principiante', icon: Signal },
+    { id: 'intermedio', label: 'Intermedio', icon: Zap },
+    { id: 'avanzado', label: 'Avanzado', icon: Star }
+];
+
 function SidebarContent({ categories, tags, onNavigate }: SidebarContentProps) {
     const router = useRouter();
     const pathname = usePathname();
@@ -87,6 +98,8 @@ function SidebarContent({ categories, tags, onNavigate }: SidebarContentProps) {
     const currentCategory = searchParams.get('category');
     const currentTag = searchParams.get('tag');
     const currentSearch = searchParams.get('search') || '';
+    const currentDomain = searchParams.get('domain');
+    const currentLevel = searchParams.get('level');
 
     const [searchTerm, setSearchTerm] = useState(currentSearch);
 
@@ -114,16 +127,27 @@ function SidebarContent({ categories, tags, onNavigate }: SidebarContentProps) {
         if (onNavigate) onNavigate();
     };
 
-    const hasFilters = currentCategory || currentTag || currentSearch;
+    const hasFilters = currentCategory || currentTag || currentSearch || currentDomain || currentLevel;
+
+    const buildLink = (paramKey: string, value: string) => {
+        const newParams = new URLSearchParams(searchParams.toString());
+        if (searchParams.get(paramKey) === value) {
+            newParams.delete(paramKey);
+        } else {
+            newParams.set(paramKey, value);
+        }
+        newParams.delete('page');
+        return `${pathname}?${newParams.toString()}`;
+    };
 
     return (
-        <>
-            <div className="mb-8">
+        <div className="space-y-8">
+            <div>
                 <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider">Search Prompts</h3>
+                    <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider">Buscar</h3>
                     {hasFilters && (
                         <Button variant="ghost" size="sm" onClick={handleClearFilters} className="h-6 px-2 text-xs text-slate-400 hover:text-white">
-                            Clear <X className="ml-1 h-3 w-3" />
+                            Limpiar <X className="ml-1 h-3 w-3" />
                         </Button>
                     )}
                 </div>
@@ -133,35 +157,74 @@ function SidebarContent({ categories, tags, onNavigate }: SidebarContentProps) {
                     <Input
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
-                        placeholder="Keywords, style, model..."
+                        placeholder="Palabras clave..."
                         className="pl-9 bg-slate-950 border-purple-500/20 text-sm focus:border-purple-500 focus:ring-purple-500/20 text-white placeholder:text-slate-500"
                     />
                 </div>
             </div>
 
-            <div className="mb-8">
-                <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider mb-4">Categories</h3>
-                <div className="space-y-2">
+            {/* DOMINIO - FACETA TRANSVERSAL */}
+            <div>
+                <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider mb-4 flex items-center gap-2">
+                    <Filter className="w-4 h-4" /> Dominio
+                </h3>
+                <div className="grid gap-2">
+                    {DOMAINS.map((domain) => {
+                        const isActive = currentDomain === domain.id;
+                        const Icon = domain.icon;
+                        return (
+                            <Link href={buildLink('domain', domain.id)} key={domain.id} onClick={onNavigate}>
+                                <Button
+                                    variant="outline"
+                                    className={`w-full justify-start h-10 border ${isActive ? 'bg-purple-600/20 border-purple-500 text-white shadow-[0_0_8px_rgba(168,85,247,0.3)]' : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800 hover:text-white hover:border-slate-700'}`}
+                                >
+                                    <Icon className={`w-4 h-4 mr-2 ${isActive ? 'text-purple-400' : 'text-slate-500'}`} />
+                                    {domain.label}
+                                </Button>
+                            </Link>
+                        );
+                    })}
+                </div>
+            </div>
+
+            {/* NIVEL - FACETA TRANSVERSAL */}
+            <div>
+                <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider mb-4 flex items-center gap-2">
+                    <Signal className="w-4 h-4" /> Nivel
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                    {LEVELS.map((lvl) => {
+                        const isActive = currentLevel === lvl.id;
+                        return (
+                            <Link href={buildLink('level', lvl.id)} key={lvl.id} onClick={onNavigate} className="flex-1">
+                                <Button
+                                    variant="outline"
+                                    size="sm"
+                                    className={`w-full text-xs font-medium ${isActive ? 'bg-indigo-600/30 border-indigo-500 text-indigo-100 shadow-[0_0_8px_rgba(99,102,241,0.4)]' : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800 hover:text-slate-200'}`}
+                                >
+                                    {lvl.label}
+                                </Button>
+                            </Link>
+                        );
+                    })}
+                </div>
+            </div>
+
+            <hr className="border-slate-800" />
+
+            <div>
+                <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider mb-4">Categorías Clásicas</h3>
+                <div className="space-y-1">
                     {categories.length === 0 && <p className="text-xs text-slate-500">No categories found</p>}
                     {categories.map((cat) => {
                         const isActive = currentCategory?.toLowerCase() === cat.toLowerCase();
-
-                        // Build new params preserving others
-                        const newParams = new URLSearchParams(searchParams.toString());
-                        if (isActive) {
-                            newParams.delete('category');
-                        } else {
-                            newParams.set('category', cat.toLowerCase());
-                        }
-                        newParams.delete('page'); // Reset pagination on category change
-
                         return (
-                            <Link href={`${pathname}?${newParams.toString()}`} key={cat} onClick={onNavigate}>
+                            <Link href={buildLink('category', cat.toLowerCase())} key={cat} onClick={onNavigate}>
                                 <Button
                                     variant="ghost"
-                                    className={`w-full justify-start h-9 mb-1 ${isActive ? 'bg-purple-600/20 text-white' : 'text-slate-300 hover:text-white hover:bg-white/5'}`}
+                                    className={`w-full justify-start h-8 mb-1 px-2 text-sm ${isActive ? 'bg-purple-900/40 text-white font-medium' : 'text-slate-400 hover:text-white hover:bg-white/5'}`}
                                 >
-                                    <span className={`w-2 h-2 rounded-full mr-2 ${isActive ? 'bg-purple-400 shadow-[0_0_8px_rgba(192,132,252,0.6)]' : 'bg-purple-500 opacity-70'}`}></span>
+                                    <span className={`w-1.5 h-1.5 rounded-full mr-2 ${isActive ? 'bg-purple-400' : 'bg-slate-600'}`}></span>
                                     {cat}
                                 </Button>
                             </Link>
@@ -171,29 +234,19 @@ function SidebarContent({ categories, tags, onNavigate }: SidebarContentProps) {
             </div>
 
             {tags.length > 0 && (
-                <div className="mb-8">
-                    <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider mb-4">Popular Tags</h3>
+                <div>
+                    <h3 className="text-sm font-semibold text-purple-200 uppercase tracking-wider mb-4">Etiquetas Populares</h3>
                     <div className="flex flex-wrap gap-2">
                         {tags.map((tag) => {
                             const isActive = currentTag === tag.slug;
-
-                            // Build new params preserving others
-                            const newParams = new URLSearchParams(searchParams.toString());
-                            if (isActive) {
-                                newParams.delete('tag');
-                            } else {
-                                newParams.set('tag', tag.slug);
-                            }
-                            newParams.delete('page'); // Reset pagination on tag change
-
                             return (
                                 <Link
-                                    href={`${pathname}?${newParams.toString()}`}
+                                    href={buildLink('tag', tag.slug)}
                                     key={tag.id}
                                     onClick={onNavigate}
                                     className={`px-3 py-1 rounded-full border text-xs transition-all ${isActive
-                                        ? 'bg-purple-600/30 border-purple-500 text-white shadow-[0_0_10px_rgba(168,85,247,0.3)]'
-                                        : 'bg-slate-800 border-slate-700 text-slate-300 hover:border-purple-500 hover:text-purple-300'
+                                        ? 'bg-purple-600/30 border-purple-500 text-white'
+                                        : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-600 hover:text-slate-200'
                                         }`}
                                 >
                                     #{tag.name}
@@ -203,17 +256,6 @@ function SidebarContent({ categories, tags, onNavigate }: SidebarContentProps) {
                     </div>
                 </div>
             )}
-
-            <div className="p-4 rounded-lg bg-gradient-to-br from-purple-900/50 to-slate-900 border border-purple-500/30">
-                <div className="flex items-center gap-2 text-purple-300 mb-2">
-                    <Star className="h-4 w-4 fill-purple-300" />
-                    <span className="font-bold text-sm">Become a Pro</span>
-                </div>
-                <p className="text-xs text-slate-300 mb-4">Get access to extensive commercial prompts and master guides.</p>
-                <Link href="/pricing" className="block" onClick={onNavigate}>
-                    <Button size="sm" className="w-full bg-purple-600 hover:bg-purple-500">Upgrade</Button>
-                </Link>
-            </div>
-        </>
+        </div>
     );
 }
