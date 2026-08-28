@@ -12,7 +12,7 @@ import { ALL_MOCK_CONTENT, addMockItem, updateMockItem, deleteMockItem } from "@
 const MOCK_CONTENT = ALL_MOCK_CONTENT;
 
 export async function getContent(id: string) {
-    const isMock = true; // Force mock for validation: (await cookies()).get('mock_session')?.value === 'true';
+    const isMock = (await cookies()).get('mock_session')?.value === 'true';
     if (isMock) {
         console.log("Mock session detected (getContent), returning mock data");
         // Always read fresh from source
@@ -119,7 +119,7 @@ function applyMockFilters(content: ContentItem[], filters?: { type?: string; sta
 }
 
 export async function listContent(filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; page?: number; limit?: number; excludeCategories?: string[]; isSop?: boolean }) {
-    const isMock = true; // Force mock for validation: (await cookies()).get('mock_session')?.value === 'true';
+    const isMock = (await cookies()).get('mock_session')?.value === 'true';
 
     // Explicit mock check
     if (isMock) {
@@ -396,7 +396,7 @@ export async function togglePublishContent(id: string, isPublished: boolean) {
 }
 
 export async function getDistinctCategories(type?: string) {
-    const isMock = true; // Force mock for validation: (await cookies()).get('mock_session')?.value === 'true';
+    const isMock = (await cookies()).get('mock_session')?.value === 'true';
     if (isMock) {
         let content = ALL_MOCK_CONTENT;
         if (type) {

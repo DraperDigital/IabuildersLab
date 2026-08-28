@@ -58,10 +58,10 @@ export async function getDashboardMetrics(): Promise<{ data?: DashboardMetrics; 
             { count: automationCount }
         ] = await Promise.all([
             // Total content
-            supabase.from('content_items').select('*', { count: 'exact', head: true }),
+            supabase.from('content').select('*', { count: 'exact', head: true }),
 
             // Published content
-            supabase.from('content_items').select('*', { count: 'exact', head: true }).eq('is_published', true),
+            supabase.from('content').select('*', { count: 'exact', head: true }).eq('is_published', true),
 
             // Total users (profiles)
             supabase.from('profiles').select('*', { count: 'exact', head: true }),
@@ -70,9 +70,9 @@ export async function getDashboardMetrics(): Promise<{ data?: DashboardMetrics; 
             supabase.from('profiles').select('*', { count: 'exact', head: true }).not('plan', 'is', null),
 
             // Content by type
-            supabase.from('content_items').select('*', { count: 'exact', head: true }).eq('type', 'system'),
-            supabase.from('content_items').select('*', { count: 'exact', head: true }).eq('type', 'prompt'),
-            supabase.from('content_items').select('*', { count: 'exact', head: true }).eq('type', 'automation'),
+            supabase.from('content').select('*', { count: 'exact', head: true }).eq('type', 'system'),
+            supabase.from('content').select('*', { count: 'exact', head: true }).eq('type', 'prompt'),
+            supabase.from('content').select('*', { count: 'exact', head: true }).eq('type', 'automation'),
         ]);
 
         return {
@@ -105,7 +105,7 @@ export async function getRecentContent(limit = 5): Promise<{ data: any; error?: 
         const supabase = await createClient();
 
         const { data, error } = await supabase
-            .from('content_items')
+            .from('content')
             .select('id, title, type, status:is_published, updated_at, level')
             .order('updated_at', { ascending: false })
             .order('id', { ascending: true })
