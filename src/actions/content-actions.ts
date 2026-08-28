@@ -157,16 +157,13 @@ export async function listContent(filters?: { type?: string; status?: string; se
     try {
         const supabase = await createClient();
         const page = filters?.page || 1;
-        const limit = filters?.limit || 10;
-        const from = (page - 1) * limit;
-        const to = from + limit - 1;
+        const limit = filters?.limit || 12;
 
         let query = supabase
             .from('content')
-            .select('*, tags:content_tags(tag:tags(*))', { count: 'exact' })
+            .select('*, tags:content_tags(tag:tags(*))')
             .order('updated_at', { ascending: false })
-            .order('id', { ascending: true })
-            .range(from, to);
+            .order('id', { ascending: true });
 
         if (filters?.type && filters.type !== 'all') {
             query = query.eq('type', filters.type);
@@ -197,11 +194,11 @@ export async function listContent(filters?: { type?: string; status?: string; se
             query = query.eq('tags.tag.slug', filters.tag);
         }
 
-        const { data, count, error } = await query;
+        const { data, error } = await query;
 
         if (error) throw error;
 
-        // Post-query filtering (client side logic for arrays if needed, but we rely on query usually)
+        // Post-query filtering
         let content = data.map(item => ({
             ...item,
             tags: item.tags.map((t: any) => t.tag)
@@ -219,10 +216,16 @@ export async function listContent(filters?: { type?: string; status?: string; se
             }
         }
 
+        const totalCount = content.length;
+        const startIndex = (page - 1) * limit;
+        const endIndex = startIndex + limit;
+
+        const paginatedContent = content.slice(startIndex, endIndex);
+
         return {
-            data: content as ContentItem[],
-            count: count || 0,
-            totalPages: count ? Math.ceil(count / limit) : 0
+            data: paginatedContent as ContentItem[],
+            count: totalCount,
+            totalPages: Math.ceil(totalCount / limit)
         };
     } catch (error) {
         console.log("Supabase error (listContent), returning mock data as fallback");
