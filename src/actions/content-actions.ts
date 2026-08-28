@@ -7,6 +7,7 @@ import { cookies } from "next/headers";
 
 
 import { ALL_MOCK_CONTENT, addMockItem, updateMockItem, deleteMockItem } from "@/lib/mock-data";
+import { isSopItem } from "@/lib/utils";
 
 // Keep local MOCK_CONTENT reference alias for internal use if needed
 const MOCK_CONTENT = ALL_MOCK_CONTENT;
@@ -86,32 +87,7 @@ export async function getContent(id: string) {
     }
 }
 
-// Helper to apply filters to mock/in-memory data
-function isSopItem(item: any): boolean {
-    if (!item) return false;
-    const idStr = String(item.id || '').toLowerCase();
-    const slugStr = String(item.slug || '').toLowerCase();
-    const titleLower = String(item.title || '').toLowerCase();
-    const categoryStr = String(item.category || '');
 
-    const sopCategories = [
-        "Marketing & Content",
-        "Ventas y Calificación",
-        "Operaciones y Cierre",
-        "Páginas de Ventas",
-        "Marketing de Facebook"
-    ];
-
-    return (
-        idStr.startsWith('sop-') ||
-        slugStr.startsWith('sop-') ||
-        titleLower.startsWith('sop:') ||
-        titleLower.startsWith('sop ') ||
-        titleLower.includes(' (sop)') ||
-        item.type === 'text_prompt' ||
-        sopCategories.includes(categoryStr)
-    );
-}
 
 // Helper to apply filters to mock/in-memory data
 function applyMockFilters(content: ContentItem[], filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; excludeCategories?: string[]; isSop?: boolean }) {

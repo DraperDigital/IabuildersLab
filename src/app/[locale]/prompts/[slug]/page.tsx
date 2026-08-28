@@ -27,6 +27,8 @@ function isJsonString(str: string | undefined | null) {
     }
 }
 
+import { isSopItem } from "@/lib/utils";
+
 interface PromptDetailPageProps {
     params: Promise<{
         locale: string;
@@ -51,7 +53,7 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
         prompt.type === 'text_prompt' ? Promise.resolve({ data: [] }) : getUsedTags(prompt.type)
     ]);
 
-    const isImagePrompt = prompt.type === 'prompt' && !prompt.id.startsWith('sop-');
+    const isImagePrompt = !isSopItem(prompt);
 
     // Filter prompts to only include those of the same type (Image vs Text)
     const filteredPrompts = ALL_MOCK_CONTENT.filter(p => p.type === prompt.type);

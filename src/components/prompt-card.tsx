@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
+import { isSopItem } from "@/lib/utils";
 
 interface PromptCardProps {
     prompt: ContentItem;
@@ -22,7 +23,8 @@ export function PromptCard({ prompt }: PromptCardProps) {
         advanced: "bg-rose-600 text-white border-rose-400"
     };
 
-    if (prompt.id.startsWith('sop-')) {
+    if (isSopItem(prompt)) {
+        const isSystemSop = prompt.id.startsWith('sop-') || prompt.title.toLowerCase().startsWith('sop:');
         return (
             <Card className="group h-full flex flex-col transition-all hover:scale-105 border-purple-500/30 hover:border-purple-500/60 glass-effect overflow-hidden relative bg-slate-900 min-h-[260px]">
                 {/* Gradient overlay on hover */}
@@ -54,7 +56,7 @@ export function PromptCard({ prompt }: PromptCardProps) {
                 <CardFooter className="relative z-10 mt-auto">
                     <Link href={`/prompts/${prompt.slug}`} className="w-full">
                         <Button className="w-full tech-gradient group-hover:glow-effect transition-all cursor-pointer font-semibold">
-                            Leer Sistema
+                            {isSystemSop ? "Leer Sistema" : "Leer Prompt"}
                         </Button>
                     </Link>
                 </CardFooter>
