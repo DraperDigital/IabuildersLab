@@ -46,7 +46,7 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
     ]);
 
     // Filter categories dynamically based on tab
-    const sopCategories = ["Marketing & Content", "Ventas y Calificación", "Operaciones y Cierre"];
+    const sopCategories = ["Marketing & Content", "Ventas y Calificación", "Operaciones y Cierre", "Páginas de Ventas", "Marketing de Facebook"];
     const rawCategories = categoriesData || [];
     const categories = rawCategories.filter(cat => isSopTab ? sopCategories.includes(cat) : !sopCategories.includes(cat));
 

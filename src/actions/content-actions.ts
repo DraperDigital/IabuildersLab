@@ -89,8 +89,8 @@ export async function getContent(id: string) {
 // Helper to apply filters to mock/in-memory data
 function isSopItem(item: any): boolean {
     if (!item) return false;
-    const idStr = String(item.id || '');
-    const slugStr = String(item.slug || '');
+    const idStr = String(item.id || '').toLowerCase();
+    const slugStr = String(item.slug || '').toLowerCase();
     const titleLower = String(item.title || '').toLowerCase();
     const categoryStr = String(item.category || '');
 
@@ -107,9 +107,9 @@ function isSopItem(item: any): boolean {
         slugStr.startsWith('sop-') ||
         titleLower.startsWith('sop:') ||
         titleLower.startsWith('sop ') ||
+        titleLower.includes(' (sop)') ||
         item.type === 'text_prompt' ||
-        sopCategories.includes(categoryStr) ||
-        !item.featured_image_url
+        sopCategories.includes(categoryStr)
     );
 }
 
