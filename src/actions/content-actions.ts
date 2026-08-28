@@ -87,14 +87,41 @@ export async function getContent(id: string) {
 }
 
 // Helper to apply filters to mock/in-memory data
+export function isSopItem(item: any): boolean {
+    if (!item) return false;
+    const idStr = String(item.id || '');
+    const slugStr = String(item.slug || '');
+    const titleLower = String(item.title || '').toLowerCase();
+    const categoryStr = String(item.category || '');
+
+    const sopCategories = [
+        "Marketing & Content",
+        "Ventas y Calificación",
+        "Operaciones y Cierre",
+        "Páginas de Ventas",
+        "Marketing de Facebook"
+    ];
+
+    return (
+        idStr.startsWith('sop-') ||
+        slugStr.startsWith('sop-') ||
+        titleLower.startsWith('sop:') ||
+        titleLower.startsWith('sop ') ||
+        item.type === 'text_prompt' ||
+        sopCategories.includes(categoryStr) ||
+        !item.featured_image_url
+    );
+}
+
+// Helper to apply filters to mock/in-memory data
 function applyMockFilters(content: ContentItem[], filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; excludeCategories?: string[]; isSop?: boolean }) {
     let result = [...content];
 
     if (filters?.isSop !== undefined) {
         if (filters.isSop) {
-            result = result.filter(c => c.id.startsWith('sop-'));
+            result = result.filter(c => isSopItem(c));
         } else {
-            result = result.filter(c => !c.id.startsWith('sop-'));
+            result = result.filter(c => !isSopItem(c));
         }
     }
 
@@ -206,6 +233,14 @@ export async function listContent(filters?: { type?: string; status?: string; se
 
         if (filters?.tag) {
             content = content.filter((item: any) => item.tags.some((t: any) => t.slug === filters.tag));
+        }
+
+        if (filters?.isSop !== undefined) {
+            if (filters.isSop) {
+                content = content.filter((item: any) => isSopItem(item));
+            } else {
+                content = content.filter((item: any) => !isSopItem(item));
+            }
         }
 
         return {

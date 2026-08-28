@@ -26,7 +26,7 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
         { data: tagsData }
     ] = await Promise.all([
         listContent({
-            type: 'prompt',
+            type: isSopTab ? 'all' : 'prompt',
             status: 'published',
             category,
             tag,
@@ -36,7 +36,7 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
             isSop: isSopTab
         }),
         listContent({
-            type: 'prompt',
+            type: isSopTab ? 'all' : 'prompt',
             status: 'published',
             isSop: isSopTab,
             limit: 1000
