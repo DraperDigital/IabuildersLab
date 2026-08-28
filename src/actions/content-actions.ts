@@ -87,7 +87,7 @@ export async function getContent(id: string) {
 }
 
 // Helper to apply filters to mock/in-memory data
-export function isSopItem(item: any): boolean {
+function isSopItem(item: any): boolean {
     if (!item) return false;
     const idStr = String(item.id || '');
     const slugStr = String(item.slug || '');
