@@ -3,8 +3,8 @@ export type ContentLevel = 'beginner' | 'intermediate' | 'advanced';
 export type PaywallLevel = 'free_preview' | 'access' | 'plus' | 'pro';
 export type UserRole = 'member' | 'admin';
 export type SubscriptionPlan = 'access' | 'plus' | 'pro';
-export type SystemType = 'sales' | 'content' | 'operations' | 'research' | 'product' | 'other';
-export type ProcessState = 'build' | 'test' | 'document' | 'iterate';
+export type SystemType = 'sales' | 'content' | 'operations' | 'research' | 'product' | 'other' | (string & {});
+export type ProcessState = 'build' | 'test' | 'document' | 'iterate' | (string & {});
 
 export type Tag = {
     id: string;

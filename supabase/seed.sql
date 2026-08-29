@@ -17,6 +17,8 @@ INSERT INTO public.tags (id, name, slug) VALUES ('9ffafdbb-ef6a-4693-8a9d-3c1786
 INSERT INTO public.tags (id, name, slug) VALUES ('34f7e52b-c3b9-421c-8194-317539437e92', '90s', '90s') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('624edc5c-92d2-4dbc-88ca-b5fa9c45cb4e', 'Ads', 'ads') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('ae51ff61-6ca5-4aee-8c3e-3acd0ef608df', 'Agents', 'agents') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('191f8f65-5bf6-4fae-8250-03421671d10f', 'AI Infrastructure', 'ai-infrastructure') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('d13eb291-a2d0-48ea-8719-1864c37ec4ab', 'Anuncios', 'anuncios') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('490f42f6-27ee-4daa-82bf-692ff4217c90', 'API Integration', 'api-integration') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('2f86e631-724d-45a2-8b7e-d654167d630b', 'Apify', 'apify') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('29a098fb-6b07-4fde-80b0-3a006069c43f', 'Arcade', 'arcade') ON CONFLICT (slug) DO NOTHING;
@@ -26,17 +28,21 @@ INSERT INTO public.tags (id, name, slug) VALUES ('b6e1e1df-5bb3-4020-8c9f-985bb0
 INSERT INTO public.tags (id, name, slug) VALUES ('22f43233-21b3-46d0-8abe-2b5292a5e3ad', 'Automation', 'automation') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('65b9e768-56a5-4273-8b81-f8d28c497914', 'Avant-Garde', 'avant-garde') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('61a3c407-bef7-4162-820a-bfca8dbdd1fd', 'B&W', 'black-white') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('f7137bf7-c49d-4a8e-8c77-e78df466dbed', 'B2B', 'b2b') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('00adb4a6-b424-4745-84bd-4d697e34ac04', 'Beauty', 'beauty') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('839ae9e7-b490-4d4f-8d29-fcce365aa1f0', 'Blonde', 'blonde') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('26f26acd-2b41-4ff5-8b87-c11b85789d26', 'Branding', 'branding') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('a2120663-fc2d-4579-87ea-c94abf146a22', 'Bridal', 'bridal') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('8565d138-edcd-4651-8f31-56e4afe693aa', 'Business', 'business') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('4119e704-b41f-42c2-88e3-9ebb6eecede2', 'Chibi', 'chibi') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('044ad576-82ed-497e-8d81-e95675487f29', 'Cierre de Ventas', 'cierre-de-ventas') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('39b84df0-b2fc-4187-87ba-d6dd2b217bed', 'Cinematic', 'cinematic') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('135489c6-3e83-43a1-87c2-ded4aa421047', 'Claude', 'claude') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('a8560299-366c-48c0-890e-7d75ce7ea470', 'Claude Code', 'claude-code') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('d2198a49-6933-4c0d-8958-145c4526323b', 'CLI', 'cli') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('ce77fb6c-856b-4b9f-8842-0af2198ad9d4', 'Close-up', 'closeup') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('ee04bee5-d0db-4caa-88dd-2796b60ca5ec', 'Closing', 'closing') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('36b17a19-bbe7-485e-8d21-d84900ca77a2', 'Cold Email', 'cold-email') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('8951aa14-a722-492a-81ec-7f55e290a183', 'Collage', 'collage') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('77032e7b-fe62-487e-8813-c8d9e346b502', 'Competitors', 'competitors') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('38b6a8bc-3739-41f6-850f-fa1fd6ed23f2', 'Concept', 'concept') ON CONFLICT (slug) DO NOTHING;
@@ -60,9 +66,11 @@ INSERT INTO public.tags (id, name, slug) VALUES ('99822333-8240-4992-8c9e-284aac
 INSERT INTO public.tags (id, name, slug) VALUES ('7a499757-e8ee-4bc1-870f-0501c938bf60', 'Dreamy', 'dreamy') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('24be544a-e87d-4391-8d5e-b386a8cae31a', 'E-Girl', 'e-girl') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('d164f509-a838-43ac-8459-2c7dad280356', 'Editorial', 'editorial') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('adb1622e-2b1b-4315-804d-f383a1448993', 'Ejecutivos', 'ejecutivos') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('e996d2a2-f1bc-4dcc-8697-788aae049d71', 'Elegant', 'elegant') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('4b0df260-f2e8-4d55-8706-bb1a2192f6f1', 'Ethereal', 'ethereal') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('1118fd3b-4a65-4848-822b-dcdb710ebb33', 'Facebook', 'facebook') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('7da0f422-6c2e-46b1-8e1c-2068508344e1', 'Facebook Ads', 'facebook-ads') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('e223660d-3be5-4867-8665-1b1bf6864a7a', 'FanArt', 'fanart') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('28c9b38f-2f25-4ce6-86a9-f7bc21227203', 'Fantasy', 'fantasy') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('179bf2c6-0bb3-43a3-8654-673782bc8069', 'Fashion', 'fashion') ON CONFLICT (slug) DO NOTHING;
@@ -72,15 +80,20 @@ INSERT INTO public.tags (id, name, slug) VALUES ('192f3189-453a-4522-801c-7d96c2
 INSERT INTO public.tags (id, name, slug) VALUES ('e65aed91-4fab-4574-8f48-5d9390a5be00', 'Fitness', 'fitness') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('d59bbabd-307c-41ad-8539-f85e96ed30ca', 'Flash Photography', 'flash-photography') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('0b568b09-1fa1-42ca-8609-3e4ce6294e67', 'Floral', 'floral') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('1c683178-517d-457a-8527-9c6c289718f3', 'Fotografía', 'fotografía') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('549d1ac8-ef43-4e3a-8651-21b6aa47bb18', 'Freedom', 'freedom') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('efd6306e-5b6a-49bd-8ec6-632ba41bb27d', 'Futuristic', 'futuristic') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('6e4f151f-3670-4f67-8a36-02135c22915c', 'Gaming', 'gaming') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('c21ef249-6300-4dd5-8a3f-28f70f40978e', 'Glassmorphism', 'glassmorphism') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('f3380b2f-b68d-4186-8fd3-550998a46e81', 'Golden Hour', 'golden-hour') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('f17c8880-8ca9-42df-81a4-00d54d66bcb9', 'Grid', 'grid') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('694ec935-a876-4684-8d0c-6b8022458552', 'Growth', 'growth') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('c050d129-71ed-4ba7-8b8a-27de1def65fe', 'Guiones', 'guiones') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('41d8c9ef-d8ae-483d-87ec-9cf6792c0e74', 'Gym', 'gym') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('c2a6e71c-4977-4fa5-8413-af8c13ae3ba8', 'Halloween', 'halloween') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('afcf34a4-71d6-412e-8b63-575d2ee59764', 'Halo', 'halo') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('aba4effc-6065-44c3-8f11-617dc3114ff3', 'Hardware', 'hardware') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('6a91c87a-baeb-4fae-8c23-907536c9cdd1', 'High Ticket', 'high-ticket') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('62debbdf-d74f-4103-88e1-2327c1dd79f1', 'Holiday', 'holiday') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('0f5b7c3f-fb24-42d7-8543-e2194edc9602', 'Home', 'home') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('fef86d52-82e9-4fbd-8420-6a315ef0ad03', 'Horror', 'horror') ON CONFLICT (slug) DO NOTHING;
@@ -91,15 +104,19 @@ INSERT INTO public.tags (id, name, slug) VALUES ('39e6ba14-3546-45c6-8436-704222
 INSERT INTO public.tags (id, name, slug) VALUES ('630f4208-ab2d-4eb1-84d8-4cbe36c155b2', 'Lifestyle', 'lifestyle') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('470cbea3-705e-4662-8890-8e4b972f7ecb', 'Lighting', 'lighting') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('2cf60b2d-5678-464d-896d-07717f27d620', 'Long Exposure', 'long-exposure') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('a4b8d0e2-a04c-445c-80f6-a6fe34f5d6b2', 'Lujo', 'lujo') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('60514d83-4505-48ee-87c7-40d282bc13f9', 'Luxury', 'luxury') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('c7da402b-620d-4e6e-87d7-9079c61dfa27', 'ManyChat', 'manychat') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('9a12bf6f-2491-4a03-8f79-ce24426643f3', 'Market Research', 'market-research') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('6794068b-f704-46d3-8ee8-5f0c84b2ffad', 'Marketing', 'marketing') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('3715df9a-9b4c-4cf1-85fc-addad7f03bba', 'Marketing Skills', 'marketing-skills') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('4427ff03-effe-4519-8262-7911e87c3460', 'Masterclass', 'masterclass') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('3cee3919-96e2-4f87-8a12-9cab4d5c1274', 'Matriz de Contenido', 'matriz-de-contenido') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('e243029d-e4e7-41fe-8b2a-6bec8808f4be', 'Media Buying', 'media-buying') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('744ba3c0-a9c8-4b1b-88a0-af6e982a9823', 'Meta Ads', 'meta-ads') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('7d53481c-956d-4ed9-8963-b1d02e7e983f', 'Midjourney', 'midjourney') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('356ee647-71f8-4602-85be-d9139e09edec', 'Minimal', 'minimal') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('96fb9cf9-2092-40ac-86b3-320fec3cd019', 'Minimalista', 'minimalista') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('f1d11f80-ccff-4409-83b7-520e0c92da87', 'Mirror Selfie', 'mirror-selfie') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('4ac01170-ed90-4ced-8bef-a0de5b03e202', 'Mirror Water', 'mirror-water') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('99464f8a-cb41-4870-88fa-93727b359000', 'Moody', 'moody') ON CONFLICT (slug) DO NOTHING;
@@ -112,31 +129,40 @@ INSERT INTO public.tags (id, name, slug) VALUES ('35cda63b-9cc3-436e-8635-96383a
 INSERT INTO public.tags (id, name, slug) VALUES ('b5090154-1437-4778-8ce2-f27695430547', 'NodeJS', 'nodejs') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('ec694f99-cfb9-45c8-8773-16d8073dc205', 'Noir', 'noir') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('f045fbbb-064a-443d-85d0-8578561cf4b8', 'Obsidian', 'obsidian') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('18f01d16-011e-4479-88d6-b05a0b3d616a', 'Ofertas', 'ofertas') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('03dc1bb9-cf81-4eba-8942-51579cd0f5fe', 'Omnicanal', 'omnicanal') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('89628a8c-5093-4eb1-884e-b3caa87db979', 'Open Source', 'open-source') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('304e2dd5-b6fd-4c9a-82cf-5eb24b306259', 'Operations', 'operations') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('63636fb4-1990-4e4b-86aa-57e06467efd3', 'Outdoor', 'outdoor') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('a1c36205-cd84-4112-8530-d981e7a37724', 'Outreach', 'outreach') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('8c359586-d240-4165-8bbd-db9053f731ec', 'Paparazzi', 'paparazzi') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('6bea1a96-8ecc-4538-81d7-802322ec4336', 'Pastel', 'pastel') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('a4fb7cad-a409-40af-8d21-4add9d147036', 'Pets', 'pets') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('0c12b7c3-d97c-41d8-83fd-d9f94d7e1d0a', 'Photography', 'photography') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('71c0e984-340f-454a-863b-e4f9de5c9e6b', 'Pink', 'pink') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('33cd32a1-160b-4cc7-8943-61b417ae1df1', 'Pitches', 'pitches') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('f51b5ce1-b5f4-48ff-805f-714bf93f1daa', 'Polaroid', 'polaroid') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('872f0a0e-0193-44ce-8116-d5b07c00942b', 'Pop Art', 'pop-art') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('3a8d5248-3879-4712-8352-03076643a662', 'Portrait', 'portrait') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('f8e34eef-2319-428d-839c-d2a1b1c1a43e', 'Power', 'power') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('920d64fd-0c51-4402-8cc4-26310a501802', 'Producto', 'producto') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('f0edcde4-94ab-4cbb-8324-2ed5aeff4225', 'Professional', 'professional') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('b3c2183f-3da9-4673-896d-6e83fab00d8f', 'PromptGather', 'promptgather') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('4ea18b70-962c-466e-8ec5-fd54b115782a', 'Prospección', 'prospección') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('597d0932-6a36-4ec5-801b-f363602afddc', 'Puppy', 'puppy') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('b09a2ddd-9b88-4912-8ed1-9072aa0c7ce4', 'Red', 'red') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('28ab98e0-67b7-4f3f-8186-2206d9cb5f15', 'Rembrandt', 'rembrandt') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('dd420011-0dcb-421f-820b-60905f13d7da', 'Remotion', 'remotion') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('f72204c3-e8a5-40af-8946-298b63fc68b1', 'Retratos', 'retratos') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('74349942-442a-40fa-82d2-750bd22da89e', 'Retro', 'retro') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('88c53690-97af-4900-83fb-1d38652c8d2e', 'Romance', 'romance') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('916ce1fd-375e-4ac3-838b-50caf817cad2', 'Romantic', 'romantic') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('765ff5de-7eca-437b-8937-a0581329e261', 'SaaS', 'saas') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('c97d1262-59ee-46e5-8d5d-a76b3f13b48e', 'Sales', 'sales') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('0ee5ebbb-e34a-4294-8b26-78ae4453396e', 'Sci-Fi', 'sci-fi') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('8f52145b-d9ad-4ad4-8eec-3220757fe8fc', 'Scraping', 'scraping') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('51cd2e03-9be8-42d1-8d84-2a56f8077243', 'Selfie', 'selfie') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('da075503-7af3-4b87-8510-51204363e64b', 'Servers', 'servers') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('4b01fc96-68cc-4c2a-8111-8002239cd312', 'Setup', 'setup') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('b78afbc0-3986-4381-8aa5-51bf31877a08', 'Shadow', 'shadow') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('1a9c0f2a-531d-416d-8537-70c17cfc4ec8', 'SOP', 'sop') ON CONFLICT (slug) DO NOTHING;
@@ -153,15 +179,20 @@ INSERT INTO public.tags (id, name, slug) VALUES ('f9556543-df66-40a4-8254-fdf95a
 INSERT INTO public.tags (id, name, slug) VALUES ('3bdcbcf8-8e36-409c-89d4-b433347525a1', 'Travel', 'travel') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('1fcb7506-df10-45f3-831a-6ebcc639046e', 'UGC', 'ugc') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('ad8794d3-9a60-4fef-87a1-2acc7763376a', 'UI', 'ui') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('4a2fc157-9240-461a-8603-4397ecb46b33', 'UI/UX', 'ui/ux') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('575e4ebd-f06b-4993-8199-933aeaf56baa', 'Urban', 'urban') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('efd09422-b942-490c-8093-37971443a52e', 'UX', 'ux') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('57c16b10-fa80-4964-80fe-ac3eb040f8b5', 'Ventas', 'ventas') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('4270fc57-7856-4b16-81ab-370f3e654a81', 'VHS', 'vhs') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('e7e7135e-c9c4-460b-838d-c77e34f1fcb9', 'Vibrant', 'vibrant') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('e490492c-b837-4981-8514-6013481930ff', 'Video', 'video') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('aedce7d4-f776-4a27-8713-6a63166906a8', 'Video Marketing', 'video-marketing') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('885ab67c-af6d-405a-8ca1-a6f2f0cbcdf8', 'Voz de Marca', 'voz-de-marca') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('4a12e39d-2f12-4990-8f8b-eef0d79f83eb', 'VSL', 'vsl') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('8a825204-ae80-4bb3-8a48-7f029f852268', 'Warm', 'warm') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('a38533b6-c17e-4499-86ff-90e5d8fb4d3c', 'Water', 'water') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('17befd14-0c73-45f6-85f8-929e4f627d46', 'Web Design', 'web-design') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO public.tags (id, name, slug) VALUES ('275e6e11-97c3-46f6-80a3-c6a1e24ba222', 'Webinars', 'webinars') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('f9b86224-212f-4a88-8d45-c8a30140e485', 'Wet Look', 'wet-look') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('8a796d72-abff-4a35-8a51-a538bc4abdaa', 'Winter', 'winter') ON CONFLICT (slug) DO NOTHING;
 INSERT INTO public.tags (id, name, slug) VALUES ('6600ed84-69d2-4f99-8952-8979c19788c5', 'Workflows', 'workflows') ON CONFLICT (slug) DO NOTHING;
@@ -169,6 +200,322 @@ INSERT INTO public.tags (id, name, slug) VALUES ('dc09f376-c86b-4590-8cb3-43f2d3
 INSERT INTO public.tags (id, name, slug) VALUES ('50f2c7de-4f4f-4507-8ae8-b4b684982af8', 'YouTube', 'youtube') ON CONFLICT (slug) DO NOTHING;
 
 -- Seed Content Items & Content Tags
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('26316d35-5182-4315-813a-3c6cf5889941', 'system', 'SOP: Arquitectura de Ofertas Irresistibles y Bonos Apilables', 'sop-arquitectura-ofertas-irresistibles', 'Marco estratégico D.R.A.P.E.R. para transformar servicios y productos commodities en ofertas irresistibles de alto valor percibido con garantía, bonos estratégicos y estructura de precios.', '
+# SOP: Arquitectura de Ofertas Irresistibles y Bonos Apilables
+
+Marco estratégico para transformar productos commodities en ofertas irresistibles de alto valor percibido con garantía de inversión, bonos estratégicos y estructura de precios.
+
+---
+
+## 🛠️ Prompt Maestro de Ejecución
+
+```text
+Actúa como un Copywriter y Arquitecto de Ofertas Senior especializado en ofertas de alto valor (High-Ticket Offers).
+Tu objetivo es rediseñar una propuesta de valor commodity y transformarla en una "Oferta Irresistible" aplicando la Metodología D.R.A.P.E.R.
+
+DATOS DE ENTRADA:
+- Producto / Servicio: [INSERTAR PRODUCTO O SERVICIO]
+- Cliente Ideal (ICP): [INSERTAR CLIENTE IDEAL]
+- Precio Actual: [INSERTAR PRECIO]
+- Principal Dolor del Cliente: [INSERTAR DOLOR PRINCIPAL]
+
+ESTRUCTURA DE SALIDA REQUERIDA:
+
+1. DIAGNÓSTICO DEL VALOR PERCIBIDO
+- Define la Ecuación del Valor: (Resultado Soñado x Probabilidad Percibida de Éxito) / (Tiempo de Espera x Esfuerzo y Sacrificio).
+- Identifica 3 fricciones clave que frenan al cliente antes de comprar.
+
+2. REDISEÑO DE LA PROMESA MAESTRA (THE BIG PROMISE)
+- Escribe 3 titulares disruptivos con la fórmula: "[Resultado Deseado] en [Tiempo] sin [Mayor Miedo/Dolor]".
+
+3. APILAMIENTO DE BONOS ESTRATÉGICOS (BONUS STACK)
+- Diseña 3 bonos de alto valor percibido que resuelvan el "siguiente problema" del cliente al usar el producto principal.
+- Asigna un valor monetario ficticio razonable a cada bono.
+
+4. INGENIERÍA DE GARANTÍAS Y REDUCCIÓN DE RIESGO
+- Crea 2 opciones de garantías éticas (Garantía condicional basada en resultados vs Garantía incondicional de satisfacción).
+
+5. LLAMADA A LA ACCIÓN Y DISPARADORES DE URGENCIA ÉTICA
+- Redacta la sección de cierre de la oferta con un resumen del valor total ($ Total Value vs $ Real Price).
+```
+', 'Páginas de Ventas', 'copywriting', 'build', 'advanced', NULL, 'Actúa como un Copywriter y Arquitecto de Ofertas Senior especializado en ofertas de alto valor (High-Ticket Offers).
+Tu objetivo es rediseñar una propuesta de valor commodity y transformarla en una "Oferta Irresistible" aplicando la Metodología D.R.A.P.E.R.
+
+DATOS DE ENTRADA:
+- Producto / Servicio: [INSERTAR PRODUCTO O SERVICIO]
+- Cliente Ideal (ICP): [INSERTAR CLIENTE IDEAL]
+- Precio Actual: [INSERTAR PRECIO]
+- Principal Dolor del Cliente: [INSERTAR DOLOR PRINCIPAL]
+
+ESTRUCTURA DE SALIDA REQUERIDA:
+
+1. DIAGNÓSTICO DEL VALOR PERCIBIDO
+- Define la Ecuación del Valor: (Resultado Soñado x Probabilidad Percibida de Éxito) / (Tiempo de Espera x Esfuerzo y Sacrificio).
+- Identifica 3 fricciones clave que frenan al cliente antes de comprar.
+
+2. REDISEÑO DE LA PROMESA MAESTRA (THE BIG PROMISE)
+- Escribe 3 titulares disruptivos con la fórmula: "[Resultado Deseado] en [Tiempo] sin [Mayor Miedo/Dolor]".
+
+3. APILAMIENTO DE BONOS ESTRATÉGICOS (BONUS STACK)
+- Diseña 3 bonos de alto valor percibido que resuelvan el "siguiente problema" del cliente al usar el producto principal.
+- Asigna un valor monetario ficticio razonable a cada bono.
+
+4. INGENIERÍA DE GARANTÍAS Y REDUCCIÓN DE RIESGO
+- Crea 2 opciones de garantías éticas (Garantía condicional basada en resultados vs Garantía incondicional de satisfacción).
+
+5. LLAMADA A LA ACCIÓN Y DISPARADORES DE URGENCIA ÉTICA
+- Redacta la sección de cierre de la oferta con un resumen del valor total ($ Total Value vs $ Real Price).', NULL, NULL, TRUE, TRUE, 'access', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('26316d35-5182-4315-813a-3c6cf5889941', 'd870301f-5cd9-47a8-829d-e1099109185a') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('26316d35-5182-4315-813a-3c6cf5889941', '18f01d16-011e-4479-88d6-b05a0b3d616a') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('26316d35-5182-4315-813a-3c6cf5889941', '57c16b10-fa80-4964-80fe-ac3eb040f8b5') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('26316d35-5182-4315-813a-3c6cf5889941', '6a91c87a-baeb-4fae-8c23-907536c9cdd1') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('7e432609-be46-40bd-8024-5b9edd30456b', 'system', 'SOP: Guion para VSL de Alta Conversión (Video Sales Letter)', 'sop-guion-vsl-alta-conversion', 'Estructura paso a paso de 5 bloques para guiones VSL de 10 a 15 minutos: Hook de atención, historia de origen, mecanismo único, prueba social y oferta irresistible.', '
+# SOP: Guion para VSL de Alta Conversión (Video Sales Letter)
+
+Estructura paso a paso de 5 bloques para guiones VSL de 10 a 15 minutos: Hook de atención, historia de origen, mecanismo único, prueba social y oferta irresistible.
+
+---
+
+## 🛠️ Prompt Maestro de Ejecución
+
+```text
+Actúa como un Guionista de VSL (Video Sales Letter) de respuesta directa que ha generado millones de dólares en ventas digitales.
+Escribe la estructura completa y el guion narrativo para un VSL de 10 minutos enfocado en vender [PRODUCTO/SERVICIO].
+
+PARÁMETROS DEL PROYECTO:
+- Producto/Servicio: [INSERTAR PRODUCTO/SERVICIO]
+- Audiencia Objetivo: [INSERTAR AUDIENCIA]
+- Mecanismo Único de Solución: [INSERTAR MECANISMO ÚNICO O METODOLOGÍA]
+
+BLOQUES DEL GUION (PALABRA POR PALABRA):
+1. EL HOOK DE IMPACTO (Primeros 60 segundos): Retén la atención cuestionando un mito de la industria.
+2. LA HISTORIA DE ORIGEN Y EL PUNTO DE QUIEBRE (Minuto 1 a 4): Transición emocional del dolor al descubrimiento.
+3. REVELACIÓN DEL MECANISMO ÚNICO (Minuto 4 a 7): Explica por qué los métodos tradicionales fallan y por qué tu sistema es matemáticamente superior.
+4. PRESENTACIÓN DEL PRODUCTO Y PRUEBA SOCIAL (Minuto 7 a 10): Muestra testimonios y desglose de módulos/beneficios.
+5. LA LLAMADA A LA ACCIÓN FINAL (Minuto 10 a 12): Establece un ultimátum claro entre continuar igual o tomar acción hoy.
+```
+', 'Ventas y Calificación', 'sales', 'build', 'advanced', NULL, 'Actúa como un Guionista de VSL (Video Sales Letter) de respuesta directa que ha generado millones de dólares en ventas digitales.
+Escribe la estructura completa y el guion narrativo para un VSL de 10 minutos enfocado en vender [PRODUCTO/SERVICIO].
+
+PARÁMETROS DEL PROYECTO:
+- Producto/Servicio: [INSERTAR PRODUCTO/SERVICIO]
+- Audiencia Objetivo: [INSERTAR AUDIENCIA]
+- Mecanismo Único de Solución: [INSERTAR MECANISMO ÚNICO O METODOLOGÍA]
+
+BLOQUES DEL GUION (PALABRA POR PALABRA):
+1. EL HOOK DE IMPACTO (Primeros 60 segundos): Retén la atención cuestionando un mito de la industria.
+2. LA HISTORIA DE ORIGEN Y EL PUNTO DE QUIEBRE (Minuto 1 a 4): Transición emocional del dolor al descubrimiento.
+3. REVELACIÓN DEL MECANISMO ÚNICO (Minuto 4 a 7): Explica por qué los métodos tradicionales fallan y por qué tu sistema es matemáticamente superior.
+4. PRESENTACIÓN DEL PRODUCTO Y PRUEBA SOCIAL (Minuto 7 a 10): Muestra testimonios y desglose de módulos/beneficios.
+5. LA LLAMADA A LA ACCIÓN FINAL (Minuto 10 a 12): Establece un ultimátum claro entre continuar igual o tomar acción hoy.', NULL, NULL, TRUE, TRUE, 'access', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7e432609-be46-40bd-8024-5b9edd30456b', '4a12e39d-2f12-4990-8f8b-eef0d79f83eb') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7e432609-be46-40bd-8024-5b9edd30456b', 'c050d129-71ed-4ba7-8b8a-27de1def65fe') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7e432609-be46-40bd-8024-5b9edd30456b', 'aedce7d4-f776-4a27-8713-6a63166906a8') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7e432609-be46-40bd-8024-5b9edd30456b', '57c16b10-fa80-4964-80fe-ac3eb040f8b5') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('d0eccf40-f054-4b93-816b-b45fb9de4a17', 'system', 'SOP: Secuencia de Prospección Fría B2B por Email (Cold Outreach)', 'sop-secuencia-prospeccion-fria-b2b', 'Secuencia de 4 correos fríos para tomadores de decisiones (CEOs, CMOs, Directors) centrada en personalizar puntos de dolor, aportar valor sin vender y agendar llamadas.', '
+# SOP: Secuencia de Prospección Fría B2B por Email (Cold Outreach)
+
+Secuencia de 4 correos fríos para tomadores de decisiones (CEOs, CMOs, Directors) centrada en personalizar puntos de dolor, aportar valor sin vender y agendar llamadas.
+
+---
+
+## 🛠️ Prompt Maestro de Ejecución
+
+```text
+Escribe una secuencia de 4 correos de prospección fría B2B dirigidos a [CARGO DEL DECISOR, EJ: DIRECTOR DE MARKETING] en la industria de [INDUSTRIA].
+
+REGLAS DE COPYWRITING:
+- Cero lenguaje vendedor ni "espero que estés bien".
+- Máximo 75-100 palabras por correo.
+- Formato de texto plano profesional.
+
+SECUENCIA DE CORREOS:
+1. EMAIL 1 (El Hook de Observación): Menciona una observación específica del negocio del prospecto y sugiere un diagnóstico corto.
+2. EMAIL 2 (El Caso de Estudio de 3 Oraciones): Muestra cómo ayudaste a un cliente similar a lograr [RESULTADO] en [TIEMPO].
+3. EMAIL 3 (Aporte de Valor Gratuito): Entrega un recurso sin pedir nada a cambio (ej: "Grabé un video de 2 minutos analizando X").
+4. EMAIL 4 (El Breakup Email): Cierre cordial avisando que no volverás a insistir si no es el momento adecuado.
+```
+', 'Marketing & Content', 'outreach', 'build', 'intermediate', NULL, 'Escribe una secuencia de 4 correos de prospección fría B2B dirigidos a [CARGO DEL DECISOR, EJ: DIRECTOR DE MARKETING] en la industria de [INDUSTRIA].
+
+REGLAS DE COPYWRITING:
+- Cero lenguaje vendedor ni "espero que estés bien".
+- Máximo 75-100 palabras por correo.
+- Formato de texto plano profesional.
+
+SECUENCIA DE CORREOS:
+1. EMAIL 1 (El Hook de Observación): Menciona una observación específica del negocio del prospecto y sugiere un diagnóstico corto.
+2. EMAIL 2 (El Caso de Estudio de 3 Oraciones): Muestra cómo ayudaste a un cliente similar a lograr [RESULTADO] en [TIEMPO].
+3. EMAIL 3 (Aporte de Valor Gratuito): Entrega un recurso sin pedir nada a cambio (ej: "Grabé un video de 2 minutos analizando X").
+4. EMAIL 4 (El Breakup Email): Cierre cordial avisando que no volverás a insistir si no es el momento adecuado.', NULL, NULL, TRUE, FALSE, 'access', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d0eccf40-f054-4b93-816b-b45fb9de4a17', '36b17a19-bbe7-485e-8d21-d84900ca77a2') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d0eccf40-f054-4b93-816b-b45fb9de4a17', 'f7137bf7-c49d-4a8e-8c77-e78df466dbed') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d0eccf40-f054-4b93-816b-b45fb9de4a17', 'a1c36205-cd84-4112-8530-d981e7a37724') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d0eccf40-f054-4b93-816b-b45fb9de4a17', '4ea18b70-962c-466e-8ec5-fd54b115782a') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('dac03e94-f661-4e96-8424-7c795450d6d4', 'system', 'SOP: Matriz de Copywriting para Meta Ads (Hooks, Angles & Copy)', 'sop-matriz-copywriting-meta-ads', 'Generador de 5 ángulos de anuncios publicitarios (Historia, Contradicción, Estadísticas, Transformación, Pregunta Provocadora) con variaciones de titulares y descripciones.', '
+# SOP: Matriz de Copywriting para Meta Ads (Hooks, Angles & Copy)
+
+Generador de 5 ángulos de anuncios publicitarios (Historia, Contradicción, Estadísticas, Transformación, Pregunta Provocadora) con variaciones de titulares y descripciones.
+
+---
+
+## 🛠️ Prompt Maestro de Ejecución
+
+```text
+Actúa como un Media Buyer y Copywriter experto en Meta Ads (Facebook e Instagram Ads).
+Genera una matriz de 5 textos publicitarios para anunciar [PRODUCTO/SERVICIO].
+
+CADA ÁNGULO DEBE INCLUIR:
+1. ÁNGULO 1: La Contradicción ("Por qué todo lo que te dijeron sobre [TEMA] es mentira").
+2. ÁNGULO 2: La Historia Personal ("El día que estuvimos a punto de quebrar por...").
+3. ÁNGULO 3: El Dato Duro / Estadística ("El 84% de las empresas cometen este error...").
+4. ÁNGULO 4: El Caso de Éxito Directo ("Cómo [CLIENTE] logró [RESULTADO] en [TIEMPO]").
+5. ÁNGULO 5: La Pregunta Provocadora ("¿Sigues haciendo [MÉTODO VIEJO] en pleno 2026?").
+
+PARA CADA ÁNGULO ENTREGA:
+- Primary Text (Texto principal de 3 párrafos).
+- Headline (Titular corto y llamativo de menos de 5 palabras).
+- Description (Línea de soporte debajo del titular).
+```
+', 'Marketing & Content', 'ads', 'build', 'intermediate', NULL, 'Actúa como un Media Buyer y Copywriter experto en Meta Ads (Facebook e Instagram Ads).
+Genera una matriz de 5 textos publicitarios para anunciar [PRODUCTO/SERVICIO].
+
+CADA ÁNGULO DEBE INCLUIR:
+1. ÁNGULO 1: La Contradicción ("Por qué todo lo que te dijeron sobre [TEMA] es mentira").
+2. ÁNGULO 2: La Historia Personal ("El día que estubimos a punto de quebrar por...").
+3. ÁNGULO 3: El Dato Duro / Estadística ("El 84% de las empresas cometen este error...").
+4. ÁNGULO 4: El Caso de Éxito Directo ("Cómo [CLIENTE] logró [RESULTADO] en [TIEMPO]").
+5. ÁNGULO 5: La Pregunta Provocadora ("¿Sigues haciendo [MÉTODO VIEJO] en pleno 2026?").
+
+PARA CADA ÁNGULO ENTREGA:
+- Primary Text (Texto principal de 3 párrafos).
+- Headline (Titular corto y llamativo de menos de 5 palabras).
+- Description (Línea de soporte debajo del titular).', NULL, NULL, TRUE, FALSE, 'access', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('dac03e94-f661-4e96-8424-7c795450d6d4', '744ba3c0-a9c8-4b1b-88a0-af6e982a9823') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('dac03e94-f661-4e96-8424-7c795450d6d4', '7da0f422-6c2e-46b1-8e1c-2068508344e1') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('dac03e94-f661-4e96-8424-7c795450d6d4', 'd870301f-5cd9-47a8-829d-e1099109185a') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('dac03e94-f661-4e96-8424-7c795450d6d4', 'd13eb291-a2d0-48ea-8719-1864c37ec4ab') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('0f461e68-2197-4712-85d6-1e1b54f82739', 'system', 'SOP: Estructura de Cierre de Ventas para Webinars & Masterclasses', 'sop-estructura-cierre-webinars', 'Guion de transición de la fase educativa a la fase de venta en directo, manejo de objeciones en vivo, disparadores de urgencia y escasez ética.', '
+# SOP: Estructura de Cierre de Ventas para Webinars & Masterclasses
+
+Guion de transición de la fase educativa a la fase de venta en directo, manejo de objeciones en vivo, disparadores de urgencia y escasez ética.
+
+---
+
+## 🛠️ Prompt Maestro de Ejecución
+
+```text
+Genera la sección de cierre de ventas (The Pitch & Close) para una Masterclass o Webinar en vivo sobre [TEMA DEL WEBINAR].
+
+ESTRUCTURA DE TRANSICIÓN:
+1. PERMISO PARA VENDER: Redacta la frase exacta de transición ("Hemos cubierto el contenido educativo... ¿me dan permiso de tomar 10 minutos para mostrarles cómo implementar esto conmigo?").
+2. RECAPITULACIÓN DEL SISTEMA: Resume los 3 pilares enseñados en la clase.
+3. PRESENTACIÓN DEL PROGRAMA / OFERTA: Desglose de módulos y acompañamiento.
+4. MANEJO DE OBJECIONES EN VIVO:
+   - Objeción de Tiempo ("No tengo tiempo para esto").
+   - Objeción de Dinero ("No puedo gastar ahora").
+   - Objeción de Confianza ("¿Funcionará para mi nicho específico?").
+5. LLAMADA A LA ACCIÓN CON URGENCIA ÉTICA: Temporizador de bonos para los primeros 10 compradores.
+```
+', 'Operaciones y Cierre', 'closing', 'build', 'advanced', NULL, 'Genera la sección de cierre de ventas (The Pitch & Close) para una Masterclass o Webinar en vivo sobre [TEMA DEL WEBINAR].
+
+ESTRUCTURA DE TRANSICIÓN:
+1. PERMISO PARA VENDER: Redacta la frase exacta de transición ("Hemos cubierto el contenido educativo... ¿me dan permiso de tomar 10 minutos para mostrarles cómo implementar esto conmigo?").
+2. RECAPITULACIÓN DEL SISTEMA: Resume los 3 pilares enseñados en la clase.
+3. PRESENTACIÓN DEL PROGRAMA / OFERTA: Desglose de módulos y acompañamiento.
+4. MANEJO DE OBJECIONES EN VIVO:
+   - Objeción de Tiempo ("No tengo tiempo para esto").
+   - Objeción de Dinero ("No puedo gastar ahora").
+   - Objeción de Confianza ("¿Funcionará para mi nicho específico?").
+5. LLAMADA A LA ACCIÓN CON URGENCIA ÉTICA: Temporizador de bonos para los primeros 10 compradores.', NULL, NULL, TRUE, FALSE, 'access', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0f461e68-2197-4712-85d6-1e1b54f82739', '275e6e11-97c3-46f6-80a3-c6a1e24ba222') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0f461e68-2197-4712-85d6-1e1b54f82739', '044ad576-82ed-497e-8d81-e95675487f29') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0f461e68-2197-4712-85d6-1e1b54f82739', '4427ff03-effe-4519-8262-7911e87c3460') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0f461e68-2197-4712-85d6-1e1b54f82739', '33cd32a1-160b-4cc7-8943-61b417ae1df1') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('d748f0ac-9fac-4b97-862b-8f9ae29519fb', 'prompt', 'Cinematic Dark Elegance: Luxury Glass Perfume Bottle', 'luxury-perfume-dark-elegance', 'Fotografía de estudio de alta gama para perfumería y cosmética de lujo con iluminación dramática chiaroscuro, reflejos de agua en cristal obsidian y sombras suaves.', '
+# Cinematic Dark Elegance: Luxury Glass Perfume Bottle
+
+Prompt de fotografía comercial de lujo para marcas de perfumería, cosmética o productos premium.
+
+---
+
+## 🎨 Prompt Maestro
+
+```text
+Commercial studio photography of a luxury crystal perfume bottle on a reflective black obsidian stone table, dramatic chiaroscuro lighting, soft purple and gold light leaks, water droplets on glass, cinematic depth of field, 8k resolution, shot on Hasselblad H6D-100c --ar 4:5 --style raw --v 6.1
+```
+', 'Fotografía de Producto', 'Midjourney v6', 'Estudio', 'intermediate', 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=1000&auto=format&fit=crop', 'Commercial studio photography of a luxury crystal perfume bottle on a reflective black obsidian stone table, dramatic chiaroscuro lighting, soft purple and gold light leaks, water droplets on glass, cinematic depth of field, 8k resolution, shot on Hasselblad H6D-100c --ar 4:5 --style raw --v 6.1', NULL, NULL, TRUE, TRUE, 'access', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d748f0ac-9fac-4b97-862b-8f9ae29519fb', '7d53481c-956d-4ed9-8963-b1d02e7e983f') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d748f0ac-9fac-4b97-862b-8f9ae29519fb', '1c683178-517d-457a-8527-9c6c289718f3') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d748f0ac-9fac-4b97-862b-8f9ae29519fb', '920d64fd-0c51-4402-8cc4-26310a501802') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d748f0ac-9fac-4b97-862b-8f9ae29519fb', 'a4b8d0e2-a04c-445c-80f6-a6fe34f5d6b2') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('23336321-aec5-4c8d-8ae9-7c6fefcc567c', 'prompt', 'High-End Founder Editorial Portrait (85mm Lens)', 'high-end-founder-editorial-portrait', 'Retrato fotográfico de fundador/ejecutivo estilo revista Forbes, iluminación Rembrandt, profundidad de campo shallow f/1.4, tonos dorados y azabache.', '
+# High-End Founder Editorial Portrait (85mm Lens)
+
+Retrato fotográfico editorial para branding personal ejecutivo, fundadores y perfiles profesionales de alto impacto.
+
+---
+
+## 🎨 Prompt Maestro
+
+```text
+Editorial magazine portrait of a confident tech founder in a sleek dark tailored suit, high-end studio lighting, soft Rembrandt side light, subtle purple backlighting, shot on 85mm f/1.4 lens, crisp details, natural skin texture, Forbes magazine cover style --ar 4:5 --v 6.1
+```
+', 'Retratos & Branding', 'Flux 1.1', 'Editorial', 'advanced', 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop', 'Editorial magazine portrait of a confident tech founder in a sleek dark tailored suit, high-end studio lighting, soft Rembrandt side light, subtle purple backlighting, shot on 85mm f/1.4 lens, crisp details, natural skin texture, Forbes magazine cover style --ar 4:5 --v 6.1', NULL, NULL, TRUE, TRUE, 'access', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('23336321-aec5-4c8d-8ae9-7c6fefcc567c', 'f72204c3-e8a5-40af-8946-298b63fc68b1') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('23336321-aec5-4c8d-8ae9-7c6fefcc567c', '26f26acd-2b41-4ff5-8b87-c11b85789d26') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('23336321-aec5-4c8d-8ae9-7c6fefcc567c', '7d53481c-956d-4ed9-8963-b1d02e7e983f') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('23336321-aec5-4c8d-8ae9-7c6fefcc567c', 'adb1622e-2b1b-4315-804d-f383a1448993') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('a35b4ed7-af9f-47a4-8315-d9aecbd7a1c8', 'prompt', 'Isometric Floating 3D Dark Mode AI Analytics Dashboard', 'isometric-3d-dark-mode-analytics-dashboard', 'Render 3D en perspectiva isométrica de un panel analítico flotante en modo oscuro con paneles de cristal esmerilado (glassmorphism), gráficos de neón violeta y cian.', '
+# Isometric Floating 3D Dark Mode AI Analytics Dashboard
+
+Prompt para generar mockups UI/UX 3D y gráficos futuristas para landing pages y sitios de tecnología.
+
+---
+
+## 🎨 Prompt Maestro
+
+```text
+3D isometric render of a modern AI SaaS analytics dashboard UI floating in dark space, frosted glassmorphism cards, glowing violet and cyan neon charts, smooth rounded corners, Octane Render, 8k resolution, minimalist tech aesthetic --ar 4:5 --v 6.1
+```
+', 'Diseño UI/UX 3D', 'Midjourney v6', '3D Render', 'intermediate', 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop', '3D isometric render of a modern AI SaaS analytics dashboard UI floating in dark space, frosted glassmorphism cards, glowing violet and cyan neon charts, smooth rounded corners, Octane Render, 8k resolution, minimalist tech aesthetic --ar 4:5 --v 6.1', NULL, NULL, TRUE, FALSE, 'access', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a35b4ed7-af9f-47a4-8315-d9aecbd7a1c8', '4a2fc157-9240-461a-8603-4397ecb46b33') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a35b4ed7-af9f-47a4-8315-d9aecbd7a1c8', '9ffafdbb-ef6a-4693-8a9d-3c17860f1ce8') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a35b4ed7-af9f-47a4-8315-d9aecbd7a1c8', 'c21ef249-6300-4dd5-8a3f-28f70f40978e') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a35b4ed7-af9f-47a4-8315-d9aecbd7a1c8', '765ff5de-7eca-437b-8937-a0581329e261') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('275252fb-5633-418d-8f2b-5361c8e8fcdd', 'prompt', 'Minimalist Matte Black Mechanical Keyboard Studio Close-up', 'minimalist-matte-black-mechanical-keyboard', 'Fotografía macro de teclado mecánico negro mate con iluminación LED sutil violeta, textura suave al tacto y composición minimalista estilo Apple.', '
+# Minimalist Matte Black Mechanical Keyboard Studio Close-up
+
+Prompt macro de fotografía de hardware minimalista para fondos de pantalla y contenido de tecnología.
+
+---
+
+## 🎨 Prompt Maestro
+
+```text
+Minimalist studio macro photography of a matte black custom mechanical keyboard, subtle purple RGB backlight glowing between keycaps, dark slate desk surface, clean arrangement, shot on Sony A7IV 90mm macro lens --ar 4:5 --v 6.1
+```
+', 'Minimalismo Tech', 'Flux 1.1', 'Estudio', 'beginner', 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000&auto=format&fit=crop', 'Minimalist studio macro photography of a matte black custom mechanical keyboard, subtle purple RGB backlight glowing between keycaps, dark slate desk surface, clean arrangement, shot on Sony A7IV 90mm macro lens --ar 4:5 --v 6.1', NULL, NULL, TRUE, FALSE, 'access', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('275252fb-5633-418d-8f2b-5361c8e8fcdd', '1c683178-517d-457a-8527-9c6c289718f3') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('275252fb-5633-418d-8f2b-5361c8e8fcdd', 'ca4fe112-b77c-4c5f-868d-163de854f9dc') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('275252fb-5633-418d-8f2b-5361c8e8fcdd', '96fb9cf9-2092-40ac-86b3-320fec3cd019') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('275252fb-5633-418d-8f2b-5361c8e8fcdd', 'aba4effc-6065-44c3-8f11-617dc3114ff3') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('8f863c57-3501-4533-8a8b-120813074aa7', 'prompt', 'Next-Gen Quantum AI Server Infrastructure Core', 'next-gen-quantum-ai-server-core', 'Escena fotográfica fotorrealista de sala de servidores cuánticos enfriados por líquido, luz cibernética azul y violeta, perspectiva de túnel profundo.', '
+# Next-Gen Quantum AI Server Infrastructure Core
+
+Prompt cinemático para ilustrar infraestructura de servidores, Inteligencia Artificial y computación cuántica.
+
+---
+
+## 🎨 Prompt Maestro
+
+```text
+Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercomputer server hall, glowing neon purple and deep blue fiber optic cables, reflection on polished dark floor, vanishing point perspective, volumetric haze, 8k --ar 4:5 --v 6.1
+```
+', 'Cyberpunk & Sci-Fi', 'Midjourney v6', 'Sci-Fi', 'advanced', 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1000&auto=format&fit=crop', 'Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercomputer server hall, glowing neon purple and deep blue fiber optic cables, reflection on polished dark floor, vanishing point perspective, volumetric haze, 8k --ar 4:5 --v 6.1', NULL, NULL, TRUE, FALSE, 'access', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8f863c57-3501-4533-8a8b-120813074aa7', '23e74b4b-008a-4a0d-870b-f8297beba9c9') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8f863c57-3501-4533-8a8b-120813074aa7', '191f8f65-5bf6-4fae-8250-03421671d10f') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8f863c57-3501-4533-8a8b-120813074aa7', 'da075503-7af3-4b87-8510-51204363e64b') ON CONFLICT DO NOTHING;
+INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8f863c57-3501-4533-8a8b-120813074aa7', '0ee5ebbb-e34a-4294-8b26-78ae4453396e') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('34acb203-b375-4388-82e0-395eaff74a42', 'system', 'Competitor Research Machine in Claude', 'competitor-research-machine-claude', 'Sistema autónomo para monitorizar, analizar y extraer los modelos matemáticos detrás del contenido más exitoso de tu competencia, utilizando Claude y servidores MCP.', '
 # Competitor Research Machine in Claude
 Sistema autónomo para monitorizar, analizar y extraer los modelos matemáticos detrás del contenido más exitoso de tu competencia, utilizando Claude y servidores MCP.
@@ -968,7 +1315,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Estética Y2K y Glitchcore
-Sustituye [SUBJECT] por el personaje o modelo que desees. Ajusta los [COLOR] para cambiar la atmósfera de los neones.', 'Usa una foto de retrato clara para que la doble exposición y los efectos de glitch se apliquen sobre tus rasgos.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye [SUBJECT] por el personaje o modelo que desees. Ajusta los [COLOR] para cambiar la atmósfera de los neones.', 'Usa una foto de retrato clara para que la doble exposición y los efectos de glitch se apliquen sobre tus rasgos.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('b7601c48-ff4f-4252-80c2-01ac6e93ef44', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('b7601c48-ff4f-4252-80c2-01ac6e93ef44', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('6c6e2415-54d2-4cef-82de-7abcd5d48fa2', 'prompt', 'High-Fashion Editorial Portrait — Luxury Power Femininity', 'vogue-elegance-couture-glamour', 'Retrato editorial de lujo inspirado por Ana de Armas en un vestido de lentejuelas negro.', '
@@ -1034,7 +1381,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Editorial de Alta Costura
-Cambia el color del sofá o los accesorios (oro/plata) para adaptar el prompt a tu estilo de marca.', 'Sube una foto sentada en una pose de poder para que la IA capture tu identidad en este entorno de lujo.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Cambia el color del sofá o los accesorios (oro/plata) para adaptar el prompt a tu estilo de marca.', 'Sube una foto sentada en una pose de poder para que la IA capture tu identidad en este entorno de lujo.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('6c6e2415-54d2-4cef-82de-7abcd5d48fa2', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('6c6e2415-54d2-4cef-82de-7abcd5d48fa2', '60514d83-4505-48ee-87c7-40d282bc13f9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('7386cb0e-bd69-4ab1-863a-2ebace2683e6', 'prompt', 'Luxury Beach Club Portrait — Sunlit Daybed', 'glamour-shore-celebrity-vibes', 'Fotografía de estilo de vida en la playa con una joven en un vestido blanco chic.', '
@@ -1092,7 +1439,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Vacaciones de Lujo
-Cambia el color del vestido o el tono de piel para personalizar tu avatar de vacaciones.', 'Una foto tuya sonriendo bajo luz natural funcionará mejor para integrarte en este escenario soleado.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Cambia el color del vestido o el tono de piel para personalizar tu avatar de vacaciones.', 'Una foto tuya sonriendo bajo luz natural funcionará mejor para integrarte en este escenario soleado.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7386cb0e-bd69-4ab1-863a-2ebace2683e6', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7386cb0e-bd69-4ab1-863a-2ebace2683e6', '3bdcbcf8-8e36-409c-89d4-b433347525a1') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('d9f1f5df-7ab6-4b69-8350-d33249898f2a', 'prompt', 'Cinematic Lifestyle Portrait — Luxury Boss Girl', 'power-elegance-boss-girl', 'Retrato cinematográfico de una mujer poderosa en el asiento del conductor de un coche de lujo.', '
@@ -1153,7 +1500,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Marca Personal
-Este prompt es ideal para emprendedoras. Ajusta el color del interior del coche (negro/marrón) para variar el mood.', 'Usa una foto tuya de perfil o tres cuartos para que las gafas de sol se ajusten correctamente a tu rostro.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Este prompt es ideal para emprendedoras. Ajusta el color del interior del coche (negro/marrón) para variar el mood.', 'Usa una foto tuya de perfil o tres cuartos para que las gafas de sol se ajusten correctamente a tu rostro.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d9f1f5df-7ab6-4b69-8350-d33249898f2a', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d9f1f5df-7ab6-4b69-8350-d33249898f2a', '8565d138-edcd-4651-8f31-56e4afe693aa') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('ecf5c97a-0e2e-411b-8578-70d518fa0f83', 'prompt', 'Composite Transformation Portrait — Photo to Embroidered Artwork', 'stitches-reality-embroidery-art', 'Efecto visual que transforma una foto real en una obra de arte bordada con textura realista.', '
@@ -1211,7 +1558,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# De Foto a Arte
-Sustituye la descripción del hombre por la tuya. Este prompt es excelente para avatares artísticos únicos.', 'Sube tu foto de retrato (primer plano) para que la IA replique tus rasgos en el patrón de bordado.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye la descripción del hombre por la tuya. Este prompt es excelente para avatares artísticos únicos.', 'Sube tu foto de retrato (primer plano) para que la IA replique tus rasgos en el patrón de bordado.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('ecf5c97a-0e2e-411b-8578-70d518fa0f83', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('ecf5c97a-0e2e-411b-8578-70d518fa0f83', '8c0b06eb-8aa8-4cb0-8a95-fb02f709d414') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('d012d26c-1967-4c4c-8ae3-c101a8304d75', 'prompt', 'Cinematic Lifestyle Portrait — Dubai Waterfront Sunset', 'sunset-elegance-dubai-vistas', 'Captura de viaje de lujo con vistas al Burj Khalifa durante la hora dorada.', '
@@ -1270,7 +1617,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Viaje de Ensueño
-Cambia el destino a cualquier otra ciudad icónica manteniendo la iluminación de atardecer cinematográfico.', 'Sube una foto tuya de espaldas o de lado para que el ''body language'' se vea natural en la composición.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Cambia el destino a cualquier otra ciudad icónica manteniendo la iluminación de atardecer cinematográfico.', 'Sube una foto tuya de espaldas o de lado para que el ''body language'' se vea natural en la composición.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d012d26c-1967-4c4c-8ae3-c101a8304d75', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d012d26c-1967-4c4c-8ae3-c101a8304d75', '3bdcbcf8-8e36-409c-89d4-b433347525a1') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('a6a41769-fc4b-407c-83c9-ca128dfb17cd', 'prompt', 'Street Fashion Portrait — Futuristic Industrial', 'urban-edge-futuristic-street-fashion', 'Retrato adolescente con estética industrial, ángulos dramáticos y neones azules.', '
@@ -1327,7 +1674,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Estilo Cyberpunk
-Cambia ''blue light'' por ''magenta'' o ''electric green'' para un look aún más tecnológico.', 'Para este prompt es vital una pose en cuclillas o agachada para aprovechar la perspectiva del ángulo bajo.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Cambia ''blue light'' por ''magenta'' o ''electric green'' para un look aún más tecnológico.', 'Para este prompt es vital una pose en cuclillas o agachada para aprovechar la perspectiva del ángulo bajo.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a6a41769-fc4b-407c-83c9-ca128dfb17cd', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a6a41769-fc4b-407c-83c9-ca128dfb17cd', '575e4ebd-f06b-4993-8199-933aeaf56baa') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('95a8b360-a737-4c12-89df-2cd7a9010ab8', 'prompt', 'Japanese Cosplay Portrait — Neon Night Street', 'maid-moonlight-cosplay-moment', 'Estilo cosplay japonés con traje de maid clásico frente a máquinas expendedoras retroiluminadas.', '
@@ -1385,7 +1732,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Estética Anime Real
-Cambia el traje de maid por un uniforme escolar o gótico para variar la temática manteniendo el fondo de neón.', 'Funciona mejor con fotos de rostro ''doll-like'' y expresiones suaves.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Cambia el traje de maid por un uniforme escolar o gótico para variar la temática manteniendo el fondo de neón.', 'Funciona mejor con fotos de rostro ''doll-like'' y expresiones suaves.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('95a8b360-a737-4c12-89df-2cd7a9010ab8', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('95a8b360-a737-4c12-89df-2cd7a9010ab8', '00b3a0ce-6fad-4c3a-8d9d-1419593018ce') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('f98d47e2-7f66-47e0-8800-557e42d849a4', 'prompt', 'Dreamlike Analog Portrait — Ethereal Bedroom', 'ethereal-dreamscape-kpop-portrait', 'Fotografía de película analógica con estética Petra Collins, colores pastel y destellos arcoíris.', '
@@ -1442,7 +1789,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Estética Soft/Indie
-Este prompt es ideal para fotos con un toque nostálgico. Ajusta la cantidad de ''grain'' para un efecto más vintage.', 'Sube una foto con luz suave y expresión relajada para que la IA la funda con los colores pastel.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Este prompt es ideal para fotos con un toque nostálgico. Ajusta la cantidad de ''grain'' para un efecto más vintage.', 'Sube una foto con luz suave y expresión relajada para que la IA la funda con los colores pastel.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('f98d47e2-7f66-47e0-8800-557e42d849a4', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('f98d47e2-7f66-47e0-8800-557e42d849a4', '7a499757-e8ee-4bc1-870f-0501c938bf60') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('ba201eb8-36aa-453a-86b4-285573dbc237', 'prompt', 'Miniature Portrait — Smartphone Stage', 'miniature-portrait-smartphone-stage', 'Efecto de perspectiva forzada donde una modelo posa sobre la pantalla de un smartphone.', '
@@ -1500,7 +1847,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Efecto Miniatura
-Sustituye ''Anne Hathaway'' por cualquier otra celebridad o descripción de avatar. Asegúrate de mantener la descripción de la pantalla del smartphone para conservar el efecto de perspectiva.', 'Usa una foto tuya de cuerpo completo en una pose divertida sobre un fondo neutro para facilitar la composición de la IA.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye ''Anne Hathaway'' por cualquier otra celebridad o descripción de avatar. Asegúrate de mantener la descripción de la pantalla del smartphone para conservar el efecto de perspectiva.', 'Usa una foto tuya de cuerpo completo en una pose divertida sobre un fondo neutro para facilitar la composición de la IA.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('ba201eb8-36aa-453a-86b4-285573dbc237', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('ba201eb8-36aa-453a-86b4-285573dbc237', '6f448522-3e5e-41c9-8d36-a9e36331b356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('40ef9176-6f0a-477e-8ca8-e17f6f21e788', 'prompt', '3D Chibi Proposal — Enchanted Flower Arch', 'nano-banana-case-1', 'Estilo 3D Chibi/Pixar de una tierna propuesta de matrimonio en un jardín de rosas.', '
@@ -1558,7 +1905,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Magia Chibi
-Cambia los colores de la ropa o las flores para personalizar tu propia escena romántica. Este estilo es perfecto para tarjetas de felicitación.', 'No necesitas subir foto de referencia para este estilo, pero si lo haces, la IA intentará ''chibificar'' tus rasgos en los personajes.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Cambia los colores de la ropa o las flores para personalizar tu propia escena romántica. Este estilo es perfecto para tarjetas de felicitación.', 'No necesitas subir foto de referencia para este estilo, pero si lo haces, la IA intentará ''chibificar'' tus rasgos en los personajes.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('40ef9176-6f0a-477e-8ca8-e17f6f21e788', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('40ef9176-6f0a-477e-8ca8-e17f6f21e788', '4119e704-b41f-42c2-88e3-9ebb6eecede2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('40ef9176-6f0a-477e-8ca8-e17f6f21e788', '916ce1fd-375e-4ac3-838b-50caf817cad2') ON CONFLICT DO NOTHING;
@@ -1616,7 +1963,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Efecto Pop-Out
-Este prompt es ideal para crear invitaciones de boda o anuncios especiales con un toque mágico. Cambia la escena dentro del marco para adaptarlo a cualquier otro evento.', 'Si subes una foto tuya, la IA intentará poner un marco sobre ella y hacer que ''salgas'' de la foto.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Este prompt es ideal para crear invitaciones de boda o anuncios especiales con un toque mágico. Cambia la escena dentro del marco para adaptarlo a cualquier otro evento.', 'Si subes una foto tuya, la IA intentará poner un marco sobre ella y hacer que ''salgas'' de la foto.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e72bd3d4-e7e5-4446-86a1-f2a8ce7b8809', 'b3c2183f-3da9-4673-896d-6e83fab00d8f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e72bd3d4-e7e5-4446-86a1-f2a8ce7b8809', '4119e704-b41f-42c2-88e3-9ebb6eecede2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e72bd3d4-e7e5-4446-86a1-f2a8ce7b8809', '6f448522-3e5e-41c9-8d36-a9e36331b356') ON CONFLICT DO NOTHING;
@@ -1686,7 +2033,7 @@ Este prompt es ideal para retratos temáticos de alta fidelidad. Para adaptarlo 
 
 En tu generador preferido (Midjourney o InsightFace), carga tu foto como referencia visual de rostro.
 
-Copia el prompt REAISEMP de este caso y añade el parámetro de referencia (comando --cref en MJ) para que la IA aplique el maquillaje de Catrina sobre tus propios rasgos.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Copia el prompt REAISEMP de este caso y añade el parámetro de referencia (comando --cref en MJ) para que la IA aplique el maquillaje de Catrina sobre tus propios rasgos.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('8f52a562-5438-431b-8c64-7f76009f1489', 'prompt', 'Blanco y Negro con Silla Plegable', 'bw-silla-plegable-denim', 'Retrato minimalista B&W en silla plegable con outfit de denim.', '
 # Framework REAISEMP
 
@@ -1751,7 +2098,7 @@ Este prompt evoca un estilo minimalista y urbano. Aquí te explicamos cómo llev
 
 Usa esta imagen como ''Pose Reference'' o ''Image Prompt'' con un peso bajo(iw 0.5) para guiar la estructura pero permitir que la IA aplique la estética denim.
 
-Copia el prompt y verás cómo tu pose se transforma en este retrato minimalista de alta gama.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Copia el prompt y verás cómo tu pose se transforma en este retrato minimalista de alta gama.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8f52a562-5438-431b-8c64-7f76009f1489', '61a3c407-bef7-4162-820a-bfca8dbdd1fd') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8f52a562-5438-431b-8c64-7f76009f1489', 'b751ea3a-f9a4-40a6-87b2-c95cabb40eb5') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('ff41163c-57ea-4378-8801-dea44ff5429c', 'prompt', 'Retrato Técnico Rembrandt B&W', 'retrato-tecnico-rembrandt-bw', 'Retrato introspectivo con iluminación Rembrandt clásica y piel natural.', '
@@ -1810,7 +2157,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
 
 Usa el comando de referencia de personaje para que la IA detecte tus facciones y aplique el triángulo de luz característico.
 
-Asegúrate de que la referencia sea en alta resolución para que las texturas de piel sean tan naturales como en el ejemplo.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Asegúrate de que la referencia sea en alta resolución para que las texturas de piel sean tan naturales como en el ejemplo.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('ff41163c-57ea-4378-8801-dea44ff5429c', '28ab98e0-67b7-4f3f-8186-2206d9cb5f15') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('ff41163c-57ea-4378-8801-dea44ff5429c', '61a3c407-bef7-4162-820a-bfca8dbdd1fd') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('2b2b85e9-4f64-4894-83fa-3c05ead892b3', 'prompt', 'Close-up Pendiente Focal', 'closeup-pendiente-focal', 'Fotografía editorial enfocada en joyería y detalles de lujo.', '
@@ -1867,7 +2214,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
 
 Sube la imagen como referencia de estilo y estructura de producto.
 
-Aplica el prompt detallado y ajusta los parámetros de visualización para que el brillo metálico de tu producto resalte bajo el haz puntual de luz.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Aplica el prompt detallado y ajusta los parámetros de visualización para que el brillo metálico de tu producto resalte bajo el haz puntual de luz.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('2b2b85e9-4f64-4894-83fa-3c05ead892b3', '39e6ba14-3546-45c6-8436-7042224a2f83') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('2b2b85e9-4f64-4894-83fa-3c05ead892b3', 'ce77fb6c-856b-4b9f-8842-0af2198ad9d4') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('1206e79a-4817-46e9-8f5e-7762a8d19216', 'prompt', 'Retrato de Poder en Traje Negro', 'retrato-poder-traje-negro', 'Retrato editorial empoderado con traje negro en ambiente minimalista.', '
@@ -1929,7 +2276,7 @@ Este prompt proyecta poder. Úsalo para diferentes perfiles:
 * Ajusta A_Accion a "Brazos cruzados, mirada desafiante" para máxima fuerza, o "Mirando al horizonte, mano en barbilla" para un tono más visionario.
 
 # Ajuste de Color
-* Para marcas más dinámicas, cambia el P_Post a "Colores vibrantes saturados" o "Gradiente azul corporativo".', 'Sube una foto tuya con una expresión de confianza. La IA mantendrá tu identidad mientras aplica la iluminación y el estilo editorial del traje negro.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+* Para marcas más dinámicas, cambia el P_Post a "Colores vibrantes saturados" o "Gradiente azul corporativo".', 'Sube una foto tuya con una expresión de confianza. La IA mantendrá tu identidad mientras aplica la iluminación y el estilo editorial del traje negro.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1206e79a-4817-46e9-8f5e-7762a8d19216', 'f8e34eef-2319-428d-839c-d2a1b1c1a43e') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1206e79a-4817-46e9-8f5e-7762a8d19216', '221b2f13-388c-4c70-8cfa-0be8c8b8d1b9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('9d6d77f2-2b64-4690-8d75-21ca8e190a82', 'prompt', 'Retexturización de Vidrio Holográfico', 'nano-banana-case-93', 'Transforma cualquier objeto en una versión de vidrio con efectos iridiscentes y holográficos.', '
@@ -2014,7 +2361,7 @@ Retexturiza la imagen adjunta basándote en la siguiente estética JSON:
     "sharp_details": true
   }
 }', '# Retexturización Creativa
-Este sistema permite transformar cualquier objeto en vidrio. Cambia los "accent_colors" de ["blue", "green", "purple"] a tus colores de marca para una identidad visual única.', 'Adjunta la imagen del objeto que deseas retexturizar. El sistema Nano Banana respetará la forma original pero aplicará todas las propiedades físicas del vidrio holográfico.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Este sistema permite transformar cualquier objeto en vidrio. Cambia los "accent_colors" de ["blue", "green", "purple"] a tus colores de marca para una identidad visual única.', 'Adjunta la imagen del objeto que deseas retexturizar. El sistema Nano Banana respetará la forma original pero aplicará todas las propiedades físicas del vidrio holográfico.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9d6d77f2-2b64-4690-8d75-21ca8e190a82', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('d7e03f3b-2b11-4038-845b-b658b04f8a24', 'prompt', 'Figura de Anime Personalizada', 'nano-banana-case-96', 'Genera una foto de figura estilo anime colocada en un escritorio desde una perspectiva casual.', '
 Genera una foto de figura estilo anime colocada en un escritorio, presentada desde una perspectiva casual y cotidiana como si fuera tomada con un teléfono móvil.
@@ -2052,7 +2399,7 @@ Genera una foto de figura estilo anime colocada en un escritorio, presentada des
     "environment": "Office or desk setting"
   }
 }', '# Crea tu propia Figura
-Sustituye la descripción del personaje por la tuya. Puedes especificar "traje de samurái" o "ropa futurista" manteniendo el estilo de figura coleccionable.', 'Adjunta una foto de cuerpo completo de la persona que quieres convertir en figura. Asegúrate de que la ropa sea distintiva para que la IA la capture en el estilo anime.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye la descripción del personaje por la tuya. Puedes especificar "traje de samurái" o "ropa futurista" manteniendo el estilo de figura coleccionable.', 'Adjunta una foto de cuerpo completo de la persona que quieres convertir en figura. Asegúrate de que la ropa sea distintiva para que la IA la capture en el estilo anime.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.841Z', '2026-08-29T17:52:58.841Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d7e03f3b-2b11-4038-845b-b658b04f8a24', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('c59f7b34-70b7-4a31-80b7-e31e53f491b6', 'prompt', 'Bobblehead Generator from Selfie', 'nano-banana-case-95', 'Convierte cualquier selfie en un divertido bobblehead coleccionable sobre una estantería.', '
 Convierte esta foto en un bobblehead: agranda la cabeza ligeramente, mantén el rostro preciso y caricaturiza el cuerpo. [Colócalo en una estantería de libros].
@@ -2067,7 +2414,7 @@ Convierte esta foto en un bobblehead: agranda la cabeza ligeramente, mantén el 
     "setting": "Placed on a bookshelf"
   }
 }', '# Crea tu propio Bobblehead
-Cambia el entorno de "estantería de libros" por "tablero de coche" o "oficina moderna". También puedes ajustar el nivel de "caricaturización" del cuerpo.', 'Sube una selfie clara con buena iluminación. La IA detectará tus rasgos faciales para mantener la precisión en la cabeza del bobblehead mientras transforma el resto en una figura coleccionable.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Cambia el entorno de "estantería de libros" por "tablero de coche" o "oficina moderna". También puedes ajustar el nivel de "caricaturización" del cuerpo.', 'Sube una selfie clara con buena iluminación. La IA detectará tus rasgos faciales para mantener la precisión en la cabeza del bobblehead mientras transforma el resto en una figura coleccionable.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c59f7b34-70b7-4a31-80b7-e31e53f491b6', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('626ed395-b020-483d-8ab1-e04568828f62', 'prompt', 'Selfie de Animales en Monumentos', 'nano-banana-case-94', 'Selfie grupal de tres animales con expresiones realistas frente a monumentos icónicos.', '
 A close-up selfie of three [animal type] with different expressions in front of the iconic [landmark], taken at golden hour with cinematic lighting. 
@@ -2089,7 +2436,7 @@ A close-up selfie of three [animal type] with different expressions in front of 
   },
   "ratio": "1:1"
 }', '# Personaliza tu Selfie Animal
-Sustituye [animal type] por tus favoritos (ej: "golden retriever, tabby cat, and capybara"). Cambia [landmark] por cualquier lugar del mundo (ej: "Torre Eiffel", "Gran Muralla").', 'Este prompt no requiere imagen de referencia de rostro, pero puedes usar una foto de tu propia mascota para guiar el estilo de los animales usando pesos de imagen bajos.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye [animal type] por tus favoritos (ej: "golden retriever, tabby cat, and capybara"). Cambia [landmark] por cualquier lugar del mundo (ej: "Torre Eiffel", "Gran Muralla").', 'Este prompt no requiere imagen de referencia de rostro, pero puedes usar una foto de tu propia mascota para guiar el estilo de los animales usando pesos de imagen bajos.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('626ed395-b020-483d-8ab1-e04568828f62', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('f3cd82b5-8d2d-4d01-8b74-7cb69f29a51e', 'prompt', 'Anuncio Creativo: Objeto Real y Doodle', 'nano-banana-case-100', 'Anuncio minimalista y creativo con un objeto real integrado en un doodle.', '
 A minimalist and creative advertisement set on a clean white background.
@@ -2110,7 +2457,7 @@ A minimalist and creative advertisement set on a clean white background.
   },
   "description": "A real object integrated into a hand-drawn black ink doodle on a clean white background."
 }', '# Publicidad Ingeniosa
-Sustituye [Real Object] por tu producto. Juega con el [Doodle Concept] para crear una interacción divertida (ej: una hamburguesa real que es el sol en un dibujo de playa).', 'Sube una foto de alta calidad de tu producto físico sobre un fondo neutro. La IA extraerá el objeto y lo integrará perfectamente con los trazos manuales.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye [Real Object] por tu producto. Juega con el [Doodle Concept] para crear una interacción divertida (ej: una hamburguesa real que es el sol en un dibujo de playa).', 'Sube una foto de alta calidad de tu producto físico sobre un fondo neutro. La IA extraerá el objeto y lo integrará perfectamente con los trazos manuales.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('f3cd82b5-8d2d-4d01-8b74-7cb69f29a51e', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('28372728-9af8-453c-827e-7ae8b0f141b6', 'prompt', 'Retrato Artístico en Blanco y Negro', 'nano-banana-case-99', 'Retrato artístico en blanco y negro de alta resolución estilo editorial.', '
 A high-resolution black and white portrait artwork, in an editorial and fine art photography style.
@@ -2131,7 +2478,7 @@ A high-resolution black and white portrait artwork, in an editorial and fine art
     "composition": "Negative space, off-center subject"
   },
   "description": "Abstract yet deeply human black and white portrait, intimate and timeless."
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('28372728-9af8-453c-827e-7ae8b0f141b6', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('4088d998-ad74-441f-8b29-b6e4e3f11bed', 'prompt', 'Silueta Borrosa tras Vidrio Esmerilado', 'nano-banana-case-98', 'Fotografía en blanco y negro de una silueta borrosa tras una superficie esmerilada.', '
 A black and white photograph shows the blurred silhouette of a [SUBJECT] behind a frosted or translucent surface.
@@ -2149,7 +2496,7 @@ A black and white photograph shows the blurred silhouette of a [SUBJECT] behind 
     "background": "Soft gray gradient"
   },
   "description": "Blurred silhouette behind frosted glass with one sharp detail pressed against the surface."
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4088d998-ad74-441f-8b29-b6e4e3f11bed', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('389e7419-4b7e-44fc-8ec4-4ebb7529a78c', 'prompt', 'Muñeca de Tejido Acogedora', 'nano-banana-case-97', 'Fotografía en primer plano de una muñeca de tejido hecha a mano sostenida con suavidad.', '
 A close-up, professionally composed photograph showcasing a hand-crocheted yarn doll gently cradled by two hands.
@@ -2169,7 +2516,7 @@ A close-up, professionally composed photograph showcasing a hand-crocheted yarn 
     "atmosphere": "Comfortable, intimate, warm"
   },
   "description": "Close-up of a hand-crocheted doll held gently, highlighting craftsmanship and warmth."
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('389e7419-4b7e-44fc-8ec4-4ebb7529a78c', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('a60812a2-68ab-43f1-85c5-6ddc205e5a23', 'prompt', 'Retrato Cinematográfico Monocromático', 'retrato-cinematografico-monocromatico', 'Retrato en B&W hiperrealista 8K con iluminación Chiaroscuro dramática.', '
 # Framework REAISEMP
@@ -2225,7 +2572,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Dominio del Claroscuro
-Este estilo resalta las texturas. Si quieres un look más suave, cambia I_Iluminacion a "Luz suave de ventana".', 'Adjunta una foto con iluminación lateral. La IA potenciará el contraste y añadirá el grano cinematográfico manteniendo tu identidad.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Este estilo resalta las texturas. Si quieres un look más suave, cambia I_Iluminacion a "Luz suave de ventana".', 'Adjunta una foto con iluminación lateral. La IA potenciará el contraste y añadirá el grano cinematográfico manteniendo tu identidad.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a60812a2-68ab-43f1-85c5-6ddc205e5a23', '61a3c407-bef7-4162-820a-bfca8dbdd1fd') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a60812a2-68ab-43f1-85c5-6ddc205e5a23', '39b84df0-b2fc-4187-87ba-d6dd2b217bed') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('5e9ac5d7-87f7-4dd0-8a73-b873ad4f278e', 'prompt', 'Alta Costura Cyberpunk', 'alta-costura-cyberpunk', 'Estilo high-fashion futurista con iluminación dual neón (Amarillo/Azul).', '
@@ -2282,7 +2629,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Estética Futurista
-Cambia los colores de neón en I_Iluminacion para adaptarlos a tu marca (ej: "Violeta y Cian"). Puedes cambiar el peinado en R_Render para un look más agresivo.', 'Usa una foto con iluminación fuerte desde un lado. La IA integrará los colores neón sobre tu rostro manteniendo la pose de giro al hombro.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Cambia los colores de neón en I_Iluminacion para adaptarlos a tu marca (ej: "Violeta y Cian"). Puedes cambiar el peinado en R_Render para un look más agresivo.', 'Usa una foto con iluminación fuerte desde un lado. La IA integrará los colores neón sobre tu rostro manteniendo la pose de giro al hombro.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5e9ac5d7-87f7-4dd0-8a73-b873ad4f278e', '23e74b4b-008a-4a0d-870b-f8297beba9c9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5e9ac5d7-87f7-4dd0-8a73-b873ad4f278e', 'a786e011-fb3c-4dec-804d-66510df1dd79') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('e9257cc1-4147-4e69-80b8-f5c69aadb9df', 'prompt', 'Cottagecore en Césped', 'cottagecore-en-cesped', 'Retrato cenital relajado sobre césped, estilo romántico y natural.', '
@@ -2336,7 +2683,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Estilo Natural
-Para un look más otoñal, cambia el E_Entorno a "Césped con hojas secas en tonos ocres". También puedes añadir "flores silvestres" alrededor del cabello en R_Render.', 'Adjunta una foto mirando hacia arriba (ángulo cenital). La IA colocará tu rostro en el centro del césped y extenderá tu cabello de forma artística.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Para un look más otoñal, cambia el E_Entorno a "Césped con hojas secas en tonos ocres". También puedes añadir "flores silvestres" alrededor del cabello en R_Render.', 'Adjunta una foto mirando hacia arriba (ángulo cenital). La IA colocará tu rostro en el centro del césped y extenderá tu cabello de forma artística.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e9257cc1-4147-4e69-80b8-f5c69aadb9df', 'bf4d518b-880f-498f-85db-fca25118d772') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e9257cc1-4147-4e69-80b8-f5c69aadb9df', 'cda8407e-00a7-4c33-88ef-08792370b94f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('dea53267-ffa7-4734-8a34-10049824378e', 'prompt', 'Artístico Bajo Cascada', 'artistico-bajo-cascada', 'Retrato etéreo con agua y reflejos, paleta de azules fríos y rosa suave.', '
@@ -2390,7 +2737,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Fantasía Acuática
-Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con cascada de neón" y ajusta los colores en E_visual a "Púrpuras y Turquesas".', 'Sube una foto tuya con el cabello suelto. La IA simulará el efecto de cabello mojado y las gotas de agua sobre tu piel.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con cascada de neón" y ajusta los colores en E_visual a "Púrpuras y Turquesas".', 'Sube una foto tuya con el cabello suelto. La IA simulará el efecto de cabello mojado y las gotas de agua sobre tu piel.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('dea53267-ffa7-4734-8a34-10049824378e', 'b6e1e1df-5bb3-4020-8c9f-985bb023780f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('dea53267-ffa7-4734-8a34-10049824378e', 'a38533b6-c17e-4499-86ff-90e5d8fb4d3c') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('919d250e-0268-4667-851d-5452a3a2a2e9', 'prompt', 'Neon Noir Cabello Mojado', 'neon-noir-cabello-mojado', 'Close-up intenso con piel húmeda y contraste Teal-Orange.', '
@@ -2447,7 +2794,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "efectos": "Volumetric light suave."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('919d250e-0268-4667-851d-5452a3a2a2e9', 'ec694f99-cfb9-45c8-8773-16d8073dc205') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('919d250e-0268-4667-851d-5452a3a2a2e9', 'f9b86224-212f-4a88-8d45-c8a30140e485') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('f908f971-3014-41a4-859e-e45a8d1bc08d', 'prompt', 'Neon Noir Rubia Platino', 'neon-noir-rubia-platino', 'Elegancia futurista con iluminación split roja y azul.', '
@@ -2504,7 +2851,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "claridad": "Muy alta."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('f908f971-3014-41a4-859e-e45a8d1bc08d', 'ec694f99-cfb9-45c8-8773-16d8073dc205') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('f908f971-3014-41a4-859e-e45a8d1bc08d', '839ae9e7-b490-4d4f-8d29-fcce365aa1f0') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('22119ec7-6d92-463d-821d-645530848a2f', 'prompt', 'Neon Halo Rojo', 'neon-halo-rojo', 'Retrato poderoso con backlight de neón rojo formando un halo.', '
@@ -2556,7 +2903,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "contraste": "Alto."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('22119ec7-6d92-463d-821d-645530848a2f', 'b09a2ddd-9b88-4912-8ed1-9072aa0c7ce4') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('22119ec7-6d92-463d-821d-645530848a2f', 'afcf34a4-71d6-412e-8b63-575d2ee59764') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('02c76661-49d5-4f4c-8e25-3ce76f25e87c', 'prompt', 'Retro Glam Cabriolet', 'retro-glam-cabriolet', 'Editorial de moda estilo Vogue retro en un descapotable rojo.', '
@@ -2607,7 +2954,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "claridad": "Alta."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('02c76661-49d5-4f4c-8e25-3ce76f25e87c', '74349942-442a-40fa-82d2-750bd22da89e') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('02c76661-49d5-4f4c-8e25-3ce76f25e87c', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('889201a3-dd5c-4c1c-8ae6-8e330da06215', 'prompt', 'Novia Alta Costura', 'novia-alta-costura', 'Fotografía de boda ultra-realista y lujosa en una suite.', '
@@ -2657,7 +3004,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "claridad": "Muy alta."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('889201a3-dd5c-4c1c-8ae6-8e330da06215', 'a2120663-fc2d-4579-87ea-c94abf146a22') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('889201a3-dd5c-4c1c-8ae6-8e330da06215', '60514d83-4505-48ee-87c7-40d282bc13f9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('518fd46d-ddb3-497e-8761-98f08ec766d6', 'prompt', 'Retrato Fotográfico en Arcade (Ghostface)', 'foto-amenazante-arcade-ghostface', 'Retrato con temática Ghostface en un arcade vibrante con luces neón rosa.', '
@@ -2713,7 +3060,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "efectos": "Glow neón ligero."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('518fd46d-ddb3-497e-8761-98f08ec766d6', '29a098fb-6b07-4fde-80b0-3a006069c43f') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('518fd46d-ddb3-497e-8761-98f08ec766d6', 'a786e011-fb3c-4dec-804d-66510df1dd79') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('fbf9c52e-c985-40e3-8e1f-975d28bb4afa', 'prompt', 'Retrato de Pareja Elegante (Turtleneck)', 'retrato-pareja-elegante-turtleneck', 'Retrato de pareja en estudio, estilo elegante y minimalista.', '
@@ -2768,7 +3115,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "contraste": "Moderado para estilo cinematográfico."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fbf9c52e-c985-40e3-8e1f-975d28bb4afa', '7a2110f9-46cd-4f0b-895f-b1ea221681de') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fbf9c52e-c985-40e3-8e1f-975d28bb4afa', 'e996d2a2-f1bc-4dcc-8697-788aae049d71') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('4f216813-15a2-4c26-8242-0cb29b039cae', 'prompt', 'Authentic Smartphone Selfie — Wide Angle Car Interior (1:1 Reference Lock)', 'authentic-smartphone-selfie', 'Selfie auténtico con smartphone y lente gran angular en interior de auto.', '
@@ -2783,7 +3130,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
 *   **M (Composición):** Plano medio selfie, cámara elevada, encuadre idéntico a referencia.
 *   **P (Post):** Desaturado, contraste medio-alto, grano sutil.
         ', 'Lifestyle', NULL, NULL, 'intermediate', '/images/prompts/authentic-smartphone-selfie.jpg', '{"title":"Authentic Smartphone Selfie — Wide Angle Car Interior (1:1 Reference Lock)","framework_REAISEMP":{"R_Render_del_Avatar":{"descripcion_facial":"Hombre joven utilizando estrictamente el rostro del usuario a partir de la imagen de referencia cargada.","expresion":"Relajada y segura, expresión natural.","detalles":"Cabello de longitud media, textura ondulada y volumen natural; gafas de sol reflectantes; auriculares puestos.","instruccion_critica":"Copiar el rostro exactamente 1:1 desde la imagen de referencia. No modificar rasgos, proporciones ni expresión."},"E_Entorno":{"fondo":"Interior de automóvil con tapicería beige.","ambientacion":"Escena cotidiana y auténtica dentro del coche.","elementos_clave":{"techo":"Techo beige visible ocupando la parte superior del encuadre, con parasol y consola superior.","sunroof":"Techo solar mostrando árboles, cielo y líneas eléctricas.","interior":"Asientos beige, reposacabezas traseros, línea del cinturón de seguridad, asiento delantero derecho parcial.","exterior":"Ventana trasera con calle lavada y desenfocada."}},"A_Accion_Postura":{"pose":"Sentado en el asiento delantero izquierdo.","lenguaje_corporal":"Postura relajada y confiada.","accion":"Brazo izquierdo extendido hacia la cámara sosteniendo el teléfono.","perspectiva":"El brazo más cercano al lente aparece visualmente más grande por efecto gran angular.","mirada":"Dirigida a la cámara, cabeza ligeramente inclinada hacia la derecha."},"I_Iluminacion":{"tipo":"Iluminación natural de mediodía.","caracteristicas":"Luz solar fuerte desde arriba y frente, sombras naturales definidas."},"S_Sensacion_Atmosfera":{"emocion":"Autenticidad, calma, confianza cotidiana.","tono":"Street lifestyle, espontáneo, real."},"E_visual_EstiloVisual":{"estilo_general":"Selfie auténtico con smartphone y lente gran angular.","vestuario":"Camisa de manga corta gris-marrón de textura suelta, ligeramente desabotonada; jeans azul claro.","texturas":"Piel con textura visible, tela natural.","nivel_realismo":"Fotorrealista sin estilización artificial."},"M_Composicion_Camara":{"plano":"Plano medio tipo selfie.","angulo":"Cámara ligeramente elevada y frente al sujeto.","encuadre":"Gran angular, composición idéntica a la referencia.","instruccion_critica":"Mantener exactamente el mismo encuadre, perspectiva y framing que la imagen original."},"P_Postproduccion":{"color_grading":"Ligeramente desaturado.","contraste":"Medio-alto.","acabado":"Grano sutil, look street natural.","restricciones":"No agregar ni eliminar elementos. No cambiar mood, pose ni composición."}}}', '# Selfie Auténtico
-Sube tu foto de referencia para copiar exactamente el ángulo y la expresión.', 'La IA intentará replicar tu pose y entorno 1:1.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sube tu foto de referencia para copiar exactamente el ángulo y la expresión.', 'La IA intentará replicar tu pose y entorno 1:1.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4f216813-15a2-4c26-8242-0cb29b039cae', '51cd2e03-9be8-42d1-8d84-2a56f8077243') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4f216813-15a2-4c26-8242-0cb29b039cae', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('5c0fc83c-d25f-482b-89d7-6756381b76ae', 'prompt', '1990s Disposable Camera Portrait — Dark Academia Gaze', '90s-disposable-camera-portrait', 'Retrato estilo cámara desechable de los 90s con estética Dark Academia.', '
@@ -2843,7 +3190,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Estilo Dark Academia
-Ideal para perfiles con estética misteriosa o rebelde.', 'Usa una selfie directa. El efecto de flash aplanará la imagen, así que una foto con buena definición ayuda.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Ideal para perfiles con estética misteriosa o rebelde.', 'Usa una selfie directa. El efecto de flash aplanará la imagen, así que una foto con buena definición ayuda.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5c0fc83c-d25f-482b-89d7-6756381b76ae', '34f7e52b-c3b9-421c-8194-317539437e92') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5c0fc83c-d25f-482b-89d7-6756381b76ae', '61a3c407-bef7-4162-820a-bfca8dbdd1fd') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('384cc4f6-0721-44da-86ab-6c2c6c185256', 'prompt', 'Cinematic Portrait Restoration — Golden Hour Shadow (9:16)', 'cinematic-portrait-restoration', 'Restauración cinematográfica fotorrealista con iluminación Golden Hour.', '
@@ -2903,7 +3250,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Restauración Cinematográfica
-Este prompt está diseñado para mejorar fotos existentes dándoles un look de cine.', 'Sube la foto que quieras ''restaurar'' o mejorar. La IA respetará la composición original.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Este prompt está diseñado para mejorar fotos existentes dándoles un look de cine.', 'Sube la foto que quieras ''restaurar'' o mejorar. La IA respetará la composición original.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('384cc4f6-0721-44da-86ab-6c2c6c185256', '39b84df0-b2fc-4187-87ba-d6dd2b217bed') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('384cc4f6-0721-44da-86ab-6c2c6c185256', 'f3380b2f-b68d-4186-8fd3-550998a46e81') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('835635e6-d710-45eb-83b0-7262d08ac517', 'prompt', 'Monochrome Fine-Art Editorial — Grounded Presence', 'monochrome-fine-art-editorial', 'Editorial de moda fine-art en blanco y negro con silueta de caballo.', '
@@ -2965,7 +3312,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Editorial Fine Art
-Sustituye el caballo por otro elemento simbólico si lo deseas, pero mantén la iluminación de alto contraste.', 'Una foto con gafas de sol y actitud seria encajará perfectamente.', TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.679Z', '2026-08-28T16:24:45.679Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye el caballo por otro elemento simbólico si lo deseas, pero mantén la iluminación de alto contraste.', 'Una foto con gafas de sol y actitud seria encajará perfectamente.', TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.842Z', '2026-08-29T17:52:58.842Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('835635e6-d710-45eb-83b0-7262d08ac517', '192f3189-453a-4522-801c-7d96c2652c50') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('835635e6-d710-45eb-83b0-7262d08ac517', '61a3c407-bef7-4162-820a-bfca8dbdd1fd') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('4e9082f1-5b8f-4d80-8df3-b02a6d3ce77e', 'prompt', 'Luxury Bedtime iPhone Selfie — Phone Glow + Warm Lamp Glass-Skin Mood', 'luxury-bedtime-selfie', 'Ultra-realistic 8K luxury bedtime iPhone selfie portrait con atmósfera cozy editorial.', '
@@ -3122,7 +3469,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K luxury bedtime iPhone selfie portrait con atmósfera cozy editorial."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.665Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.815Z', '2026-08-29T17:52:58.817Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4e9082f1-5b8f-4d80-8df3-b02a6d3ce77e', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4e9082f1-5b8f-4d80-8df3-b02a6d3ce77e', '51cd2e03-9be8-42d1-8d84-2a56f8077243') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4e9082f1-5b8f-4d80-8df3-b02a6d3ce77e', '60514d83-4505-48ee-87c7-40d282bc13f9') ON CONFLICT DO NOTHING;
@@ -3252,7 +3599,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K golden-hour candid wind selfie con mood espontáneo y cinematográfico."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.666Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.817Z', '2026-08-29T17:52:58.817Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9d8404f4-683b-470d-86e9-2af28e645ed6', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9d8404f4-683b-470d-86e9-2af28e645ed6', '51cd2e03-9be8-42d1-8d84-2a56f8077243') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9d8404f4-683b-470d-86e9-2af28e645ed6', 'f3380b2f-b68d-4186-8fd3-550998a46e81') ON CONFLICT DO NOTHING;
@@ -3398,7 +3745,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K pink immersion fashion portrait con atmósfera juguetona surreal."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.666Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.817Z', '2026-08-29T17:52:58.817Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e3ace5ef-0f0a-4dab-89cb-f5557e875ef2', '28c9b38f-2f25-4ce6-86a9-f7bc21227203') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e3ace5ef-0f0a-4dab-89cb-f5557e875ef2', '872f0a0e-0193-44ce-8116-d5b07c00942b') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e3ace5ef-0f0a-4dab-89cb-f5557e875ef2', 'e7e7135e-c9c4-460b-838d-c77e34f1fcb9') ON CONFLICT DO NOTHING;
@@ -3529,7 +3876,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K cyberpunk noir triptych sequence con identidad preservada."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.666Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.817Z', '2026-08-29T17:52:58.817Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1c227346-7a22-43b2-8c69-0133b3eb2053', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1c227346-7a22-43b2-8c69-0133b3eb2053', '23e74b4b-008a-4a0d-870b-f8297beba9c9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1c227346-7a22-43b2-8c69-0133b3eb2053', 'ec694f99-cfb9-45c8-8773-16d8073dc205') ON CONFLICT DO NOTHING;
@@ -3664,7 +4011,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K overhead sofa portrait con atmósfera tranquila y cinematográfica."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.666Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.817Z', '2026-08-29T17:52:58.817Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e2446f6b-8ba9-414a-8148-635f39da348c', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e2446f6b-8ba9-414a-8148-635f39da348c', '0f5b7c3f-fb24-42d7-8543-e2194edc9602') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e2446f6b-8ba9-414a-8148-635f39da348c', 'e7ac43de-f671-44f6-8691-9c743fdb3553') ON CONFLICT DO NOTHING;
@@ -3792,7 +4139,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K fragile tape couture portrait con estética editorial conceptual premium."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.666Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.817Z', '2026-08-29T17:52:58.817Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('56cef5e2-493f-41ac-8d2c-6700c8b3c6e6', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('56cef5e2-493f-41ac-8d2c-6700c8b3c6e6', '38b6a8bc-3739-41f6-850f-fa1fd6ed23f2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('56cef5e2-493f-41ac-8d2c-6700c8b3c6e6', '65b9e768-56a5-4273-8b81-f8d28c497914') ON CONFLICT DO NOTHING;
@@ -3916,7 +4263,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K split-light profile portrait con mood etéreo editorial."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.666Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.817Z', '2026-08-29T17:52:58.817Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('eb72edf7-90ce-4922-8190-099824b49ccc', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('eb72edf7-90ce-4922-8190-099824b49ccc', '470cbea3-705e-4662-8890-8e4b972f7ecb') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('eb72edf7-90ce-4922-8190-099824b49ccc', '6f448522-3e5e-41c9-8d36-a9e36331b356') ON CONFLICT DO NOTHING;
@@ -4064,7 +4411,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K cloud fantasy portrait con mood celestial sereno y fidelidad absoluta."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.666Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('49587332-350c-49ac-8de7-0a8754a5d5c3', '28c9b38f-2f25-4ce6-86a9-f7bc21227203') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('49587332-350c-49ac-8de7-0a8754a5d5c3', '4b0df260-f2e8-4d55-8706-bb1a2192f6f1') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('49587332-350c-49ac-8de7-0a8754a5d5c3', '6bea1a96-8ecc-4538-81d7-802322ec4336') ON CONFLICT DO NOTHING;
@@ -4228,7 +4575,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K violet diva portrait con estética editorial glam de lujo."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.666Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('081505f3-5919-490b-8c4b-a838484f2371', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('081505f3-5919-490b-8c4b-a838484f2371', 'ce38b0f1-cefd-435f-81cf-11189d218f9c') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('081505f3-5919-490b-8c4b-a838484f2371', '00adb4a6-b424-4745-84bd-4d697e34ac04') ON CONFLICT DO NOTHING;
@@ -4347,7 +4694,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K modern studio chair portrait con estética fashion minimal premium."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.666Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8f8fe38e-d68e-416e-8195-4a0b74fa7174', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8f8fe38e-d68e-416e-8195-4a0b74fa7174', 'ce38b0f1-cefd-435f-81cf-11189d218f9c') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8f8fe38e-d68e-416e-8195-4a0b74fa7174', '356ee647-71f8-4602-85be-d9139e09edec') ON CONFLICT DO NOTHING;
@@ -4486,7 +4833,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K tropical juice selfie portrait con mood veraniego playful."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.666Z', '2026-08-28T16:24:45.666Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9b1add3a-1afb-4a6b-8b0f-713e330c81c8', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9b1add3a-1afb-4a6b-8b0f-713e330c81c8', 'da1092e5-3f78-4a6f-8bdd-ac7d7b53c0a7') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9b1add3a-1afb-4a6b-8b0f-713e330c81c8', '51cd2e03-9be8-42d1-8d84-2a56f8077243') ON CONFLICT DO NOTHING;
@@ -4616,7 +4963,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K authentic night pool Polaroid portrait con mood íntimo y delicado."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5f4bb8cb-fb6d-423d-8208-6d5fd6eec899', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5f4bb8cb-fb6d-423d-8208-6d5fd6eec899', 'cb2c9ced-f65c-432d-8a0f-a39443b6f723') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5f4bb8cb-fb6d-423d-8208-6d5fd6eec899', 'f51b5ce1-b5f4-48ff-805f-714bf93f1daa') ON CONFLICT DO NOTHING;
@@ -4737,7 +5084,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K surreal butterfly couture portrait con emoción editorial atemporal."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('95359a4c-c636-45a2-84e3-f29bfc9e6867', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('95359a4c-c636-45a2-84e3-f29bfc9e6867', 'b5a9bf83-07fe-4ac0-89f2-56e90d7a69a9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('95359a4c-c636-45a2-84e3-f29bfc9e6867', '28c9b38f-2f25-4ce6-86a9-f7bc21227203') ON CONFLICT DO NOTHING;
@@ -4885,7 +5232,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K pastel cyber gamergirl portrait con mood cálido, íntimo y editorial."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0db0b21e-5f50-439b-89aa-f0bceeb79ccc', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0db0b21e-5f50-439b-89aa-f0bceeb79ccc', '23e74b4b-008a-4a0d-870b-f8297beba9c9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0db0b21e-5f50-439b-89aa-f0bceeb79ccc', '6bea1a96-8ecc-4538-81d7-802322ec4336') ON CONFLICT DO NOTHING;
@@ -5006,7 +5353,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K striking black poster portrait con neón personalizado."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5a04aec5-b174-4867-8c6c-bf411fe40d10', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5a04aec5-b174-4867-8c6c-bf411fe40d10', '0da6e438-1784-4a94-8120-52a12ee566de') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5a04aec5-b174-4867-8c6c-bf411fe40d10', 'a786e011-fb3c-4dec-804d-66510df1dd79') ON CONFLICT DO NOTHING;
@@ -5130,7 +5477,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K cinematic subway portrait con energía urbana y emoción contenida."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('2a39d6c8-2547-4098-8717-2ea1ce2f4607', '575e4ebd-f06b-4993-8199-933aeaf56baa') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('2a39d6c8-2547-4098-8717-2ea1ce2f4607', '39b84df0-b2fc-4187-87ba-d6dd2b217bed') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('2a39d6c8-2547-4098-8717-2ea1ce2f4607', '2cf60b2d-5678-464d-896d-07717f27d620') ON CONFLICT DO NOTHING;
@@ -5256,7 +5603,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K futuristic fashion editorial portrait con tipografía integrada."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('967ab33f-2770-42d2-8ad0-d3d9fc326e31', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('967ab33f-2770-42d2-8ad0-d3d9fc326e31', 'efd6306e-5b6a-49bd-8ec6-632ba41bb27d') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('967ab33f-2770-42d2-8ad0-d3d9fc326e31', '71c0e984-340f-454a-863b-e4f9de5c9e6b') ON CONFLICT DO NOTHING;
@@ -5354,7 +5701,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K crimson editorial portrait con presencia escultórica."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9f61a206-5142-4cd9-8699-e1852f65e20d', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9f61a206-5142-4cd9-8699-e1852f65e20d', 'b494bcf3-c32e-4fc1-8e44-2bbb3f950cf0') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9f61a206-5142-4cd9-8699-e1852f65e20d', '99464f8a-cb41-4870-88fa-93727b359000') ON CONFLICT DO NOTHING;
@@ -5442,7 +5789,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "aspecto": "4:5 Vertical."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('486bfa80-e881-4660-83d8-a9a612e06a77', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('486bfa80-e881-4660-83d8-a9a612e06a77', '8a796d72-abff-4a35-8a51-a538bc4abdaa') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('486bfa80-e881-4660-83d8-a9a612e06a77', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
@@ -5559,7 +5906,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K outdoor floral portrait con luz soleada y atmósfera fresca."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('494fc71a-6c79-46dc-8896-646fc77f9951', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('494fc71a-6c79-46dc-8896-646fc77f9951', '0b568b09-1fa1-42ca-8609-3e4ce6294e67') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('494fc71a-6c79-46dc-8896-646fc77f9951', '63636fb4-1990-4e4b-86aa-57e06467efd3') ON CONFLICT DO NOTHING;
@@ -5678,7 +6025,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K moody wall portrait con rosa blanca y sombra dorada misteriosa."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8025d00b-28b1-4f52-8013-14cacf29cfef', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8025d00b-28b1-4f52-8013-14cacf29cfef', '99464f8a-cb41-4870-88fa-93727b359000') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8025d00b-28b1-4f52-8013-14cacf29cfef', 'b78afbc0-3986-4381-8aa5-51bf31877a08') ON CONFLICT DO NOTHING;
@@ -5787,7 +6134,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K timeless monochrome portrait con vibra editorial minimal."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fac686f8-af13-462d-8449-450de948ecfa', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fac686f8-af13-462d-8449-450de948ecfa', '61a3c407-bef7-4162-820a-bfca8dbdd1fd') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fac686f8-af13-462d-8449-450de948ecfa', '356ee647-71f8-4602-85be-d9139e09edec') ON CONFLICT DO NOTHING;
@@ -5905,7 +6252,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K Vogue-style orange glow studio portrait con misterio y elegancia."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('3e43f275-fe7b-47b2-8256-486bcb0a242a', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('3e43f275-fe7b-47b2-8256-486bcb0a242a', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('3e43f275-fe7b-47b2-8256-486bcb0a242a', 'ce38b0f1-cefd-435f-81cf-11189d218f9c') ON CONFLICT DO NOTHING;
@@ -6015,7 +6362,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K neon elevator fashion portrait con mood misterioso."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('67c80378-1181-4b69-81cf-b8f79c80f6ff', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('67c80378-1181-4b69-81cf-b8f79c80f6ff', 'a786e011-fb3c-4dec-804d-66510df1dd79') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('67c80378-1181-4b69-81cf-b8f79c80f6ff', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
@@ -6127,7 +6474,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K floating surreal cinematic portrait con sensación de libertad."
     }
   }
-}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'pro', '2026-08-29T17:52:58.818Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c27d9798-35ec-44e1-856a-00b7e6d28157', 'b5a9bf83-07fe-4ac0-89f2-56e90d7a69a9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c27d9798-35ec-44e1-856a-00b7e6d28157', '549d1ac8-ef43-4e3a-8651-21b6aa47bb18') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c27d9798-35ec-44e1-856a-00b7e6d28157', '4ac01170-ed90-4ced-8bef-a0de5b03e202') ON CONFLICT DO NOTHING;
@@ -6356,7 +6703,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "nitidez": "Bordes duros (no anti-aliasing)."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('52ca7ce2-9483-41c1-8b03-734eadf87dab', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('1113ab10-200c-49c8-8ee2-c1f505d9f5b5', 'prompt', 'Miniature 3D Building', 'nano-banana-case-56', '', '3D chibi-style miniature design of a whimsical Starbucks café, shaped like an oversized takeaway coffee cup complete with a lid and straw. The building has two floors, with large glass windows that clearly reveal a cozy and refined interior: wooden furniture, warm lighting, and busy baristas at work. On the street, cute little figurines are strolling or sitting, surrounded by benches, street lamps, and potted plants, creating a charming corner of the city. The overall aesthetic follows a detailed and realistic miniature cityscape style, with soft lighting that evokes a relaxing afternoon atmosphere.', 'Generative AI', NULL, NULL, 'intermediate', NULL, '3D chibi-style miniature design of a whimsical Starbucks café, shaped like an oversized takeaway coffee cup complete with a lid and straw. The building has two floors, with large glass windows that clearly reveal a cozy and refined interior: wooden furniture, warm lighting, and busy baristas at work. On the street, cute little figurines are strolling or sitting, surrounded by benches, street lamps, and potted plants, creating a charming corner of the city. The overall aesthetic follows a detailed and realistic miniature cityscape style, with soft lighting that evokes a relaxing afternoon atmosphere.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-01-23T05:34:12.815Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1113ab10-200c-49c8-8ee2-c1f505d9f5b5', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
@@ -6423,7 +6770,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Selfie nocturna común y sin composición intencional."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-08-29T17:52:58.818Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7a3db42c-a138-4359-83c6-b1556fdf120a', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('99fc3f11-8438-44e3-8748-05be24f6fe31', 'prompt', 'Emoji Inflatable Cushion', 'nano-banana-case-53', '', 'Create a high-resolution 3D render of [🥹] designed as an inflatable, puffy object. The shape should appear soft, rounded, and air-filled — like a plush balloon or blow-up toy. Use a smooth, matte texture with subtle fabric creases and stitching to emphasize the inflatable look. The form should be slightly irregular and squishy, with gentle shadows and soft lighting that highlight volume and realism. Place it on a clean, minimal background (light gray or pale blue), and maintain a playful, sculptural aesthetic.', 'Generative AI', NULL, NULL, 'intermediate', NULL, 'Create a high-resolution 3D render of [🥹] designed as an inflatable, puffy object. The shape should appear soft, rounded, and air-filled — like a plush balloon or blow-up toy. Use a smooth, matte texture with subtle fabric creases and stitching to emphasize the inflatable look. The form should be slightly irregular and squishy, with gentle shadows and soft lighting that highlight volume and realism. Place it on a clean, minimal background (light gray or pale blue), and maintain a playful, sculptural aesthetic.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-01-23T05:34:12.815Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('99fc3f11-8438-44e3-8748-05be24f6fe31', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
@@ -6485,7 +6832,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "efectos": "Simulación de imperfecciones de tinta y textura de papel para máximo realismo."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('ab2b41bb-1a88-48f6-8e59-ef5ed6b2abcb', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('9ee8e736-9bde-4d5a-8c6c-5271f053a305', 'prompt', 'Trading Card Burst Scene — Lara Croft Archaeological Adventure', 'nano-banana-case-50', 'Ilustración de trading card donde Lara Croft rompe el marco hacia el exterior.', '
 # Framework REAISEMP (Object)
@@ -6573,7 +6920,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "nitidez": "Máxima nitidez en personaje y borde fracturado"
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9ee8e736-9bde-4d5a-8c6c-5271f053a305', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('8c860d60-115e-43ae-8279-eebcdd7026ad', 'prompt', 'Portada editorial — Mujer en qipao rosa con mariposas', 'nano-banana-case-49', 'Portada de revista fashion editorial con mujer en qipao y mariposas.', '
 # Framework REAISEMP (Human)
@@ -6636,7 +6983,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Portada limpia, premium, lista para revista."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('8c860d60-115e-43ae-8279-eebcdd7026ad', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('da074752-d2f0-4204-8d4f-3cb3753da71c', 'prompt', 'ESC Keycap Miniature Diorama', 'nano-banana-case-47', '', 'A hyper-realistic isometric 3D render of a miniature computer setup inside a translucent mechanical keyboard keycap, specifically placed on the ESC key of a real matte-finished mechanical keyboard. Inside the keycap, a tiny figure sits in a modern ergonomic chair, wearing a cozy textured hoodie, working at a glowing ultra-realistic computer screen. The environment is packed with lifelike miniature tech accessories: real-material desk lamps, monitors with reflections, tiny speaker grills, tangled cables, and ceramic mugs. The base of the scene is made of soil, rocks, and moss, with photorealistic textures and imperfections. The lighting inside the cap mimics natural morning sun, casting soft shadows and warm tones, while the outside has cold ambient reflections from the surrounding keyboard. The word “ESC” is subtly etched onto the top of the translucent keycap with a faint frosted glass effect — just barely visible depending on the angle. The surrounding keyboard keys like F1, Q, Shift, and CTRL are crisp, textured, and photorealistically lit. Shot as if taken with a high-end mobile phone camera, with shallow depth of field, perfect white balance, and cinematic detail.', 'Generative AI', NULL, NULL, 'intermediate', '/images/prompts/nano-47-keycap.jpg', 'A hyper-realistic isometric 3D render of a miniature computer setup inside a translucent mechanical keyboard keycap, specifically placed on the ESC key of a real matte-finished mechanical keyboard. Inside the keycap, a tiny figure sits in a modern ergonomic chair, wearing a cozy textured hoodie, working at a glowing ultra-realistic computer screen. The environment is packed with lifelike miniature tech accessories: real-material desk lamps, monitors with reflections, tiny speaker grills, tangled cables, and ceramic mugs. The base of the scene is made of soil, rocks, and moss, with photorealistic textures and imperfections. The lighting inside the cap mimics natural morning sun, casting soft shadows and warm tones, while the outside has cold ambient reflections from the surrounding keyboard. The word “ESC” is subtly etched onto the top of the translucent keycap with a faint frosted glass effect — just barely visible depending on the angle. The surrounding keyboard keys like F1, Q, Shift, and CTRL are crisp, textured, and photorealistically lit. Shot as if taken with a high-end mobile phone camera, with shallow depth of field, perfect white balance, and cinematic detail.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.815Z', '2026-01-23T05:34:12.815Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('da074752-d2f0-4204-8d4f-3cb3753da71c', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
@@ -6798,7 +7145,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   },
   "final_prompt": "Chibi 3D family wedding portrait, western wedding attire, father in suit, mother in wedding gown, flower girl with bouquet. Realistic floral arch background, inside a photo frame. 3D cute stylized characters, photorealistic environment. Vibrant colors, soft lighting, 8K. --ar 3:4"
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4ca4b46f-6875-4e34-8741-a61c57954b40', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('e7de5a69-7705-4ddd-839e-5ab4dc7864be', 'prompt', '3D Papercraft Pop-up Book', 'nano-banana-case-32', '', 'Multi-layered foldable paper sculpture pop-up book, placed on a desk, with a clean background highlighting the main subject. The book presents a 3D flip-book style, with a 2:3 vertical aspect ratio. The open pages display the scene of [Nezha Demon Child version battling Ao Bing]. All elements are finely foldable and assembled, showcasing a realistic and delicate texture of folded paper. The composition uniformly adopts a frontal perspective, with an overall dreamy and beautiful visual style, vibrant and gorgeous colors, full of a fantastical and lively story atmosphere.', 'Generative AI', NULL, NULL, 'intermediate', '/images/prompts/3d-papercraft-popup-book.jpg', 'Multi-layered foldable paper sculpture pop-up book, placed on a desk, with a clean background highlighting the main subject. The book presents a 3D flip-book style, with a 2:3 vertical aspect ratio. The open pages display the scene of [Nezha Demon Child version battling Ao Bing]. All elements are finely foldable and assembled, showcasing a realistic and delicate texture of folded paper. The composition uniformly adopts a frontal perspective, with an overall dreamy and beautiful visual style, vibrant and gorgeous colors, full of a fantastical and lively story atmosphere.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-01-23T05:34:12.816Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e7de5a69-7705-4ddd-839e-5ab4dc7864be', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
@@ -7116,7 +7463,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Escena auténtica y encantadora con contraste juguetón"
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('75678881-1fbd-42c5-8b88-86e645798669', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('1fd09fa5-1f42-4039-8c91-76e308218c7b', 'prompt', 'Mexico in a Box — Miniature Diorama', 'nano-banana-case-19', 'Diorama realista de México dentro de una caja de cartón.', '
 # Framework REAISEMP (Object)
@@ -7169,7 +7516,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado": "Aspecto físico tangible, no render digital liso."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1fd09fa5-1f42-4039-8c91-76e308218c7b', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('380d82c3-b6a2-4204-822f-eb8a9b63281d', 'prompt', 'Poster futurista minimalista — Metaball Coca-Cola Bottle', 'nano-banana-case-9', 'Poster minimalista futurista de una botella de Coca-Cola estilo metaball.', '
 # Framework REAISEMP (Object)
@@ -7242,7 +7589,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Poster limpio, premium, listo para exposición contemporánea."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('380d82c3-b6a2-4204-822f-eb8a9b63281d', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('20ca6e33-de16-471b-8d8b-c1fea963034e', 'prompt', 'LEGO Collectible Glass Cube — Avatar + Companion Animal Diorama', 'nano-banana-case-8', 'Mini escena coleccionable LEGO en cubo de vidrio premium.', '
 # Framework REAISEMP (Object)
@@ -7321,7 +7668,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "nitidez": "Alta definición en grabados, vidrio, figura y detalles miniatura"
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-01-23T05:34:12.816Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('20ca6e33-de16-471b-8d8b-c1fea963034e', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('b6204195-3fac-480c-847a-eab7a8151142', 'prompt', 'Retrato sofisticado — Mujer en traje navy con presencia elegante', 'elegance-redefined-confidence', 'Retrato editorial sofisticado de mujer en traje navy.', '
 # Framework REAISEMP (Human)
@@ -7381,7 +7728,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Retrato contemporáneo que transmite elegancia y poder."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('b6204195-3fac-480c-847a-eab7a8151142', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('a36d0dbb-0139-46be-8ffc-527159049217', 'prompt', 'Retrato chiaroscuro — Belleza rubia platino con couture floral', 'whispers-elegance-floral-dreamscape', 'Retrato editorial chiaroscuro de belleza rubia con couture floral.', '
 # Framework REAISEMP (Human)
@@ -7441,11 +7788,11 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K fashion portrait con mood chiaroscuro refinado."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a36d0dbb-0139-46be-8ffc-527159049217', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('b9061963-3f2f-494f-8ad2-7a1fb5c426a5', 'prompt', 'Elegance in the Snow: A Portrait of Winter Wonder', 'elegance-snow-winter-wonder', 'Girl with an umbrella in a snowy landscape with penguins.', 'Amidst a serene snowy landscape, a girl stands poised with an umbrella, radiating confidence. Penguins wander nearby, enhancing the enchanting, tranquil vibe of this winter scene.', 'Portrait', NULL, NULL, 'intermediate', 'https://files.promptgather.io/7552015b7eecfde57b726cf9ac37a947_thumb_1762912195432.jpg', 'Amidst a serene snowy landscape, a girl stands poised with an umbrella, radiating confidence. Penguins wander nearby, enhancing the enchanting, tranquil vibe of this winter scene.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.667Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('b9061963-3f2f-494f-8ad2-7a1fb5c426a5', 'prompt', 'Elegance in the Snow: A Portrait of Winter Wonder', 'elegance-snow-winter-wonder', 'Girl with an umbrella in a snowy landscape with penguins.', 'Amidst a serene snowy landscape, a girl stands poised with an umbrella, radiating confidence. Penguins wander nearby, enhancing the enchanting, tranquil vibe of this winter scene.', 'Portrait', NULL, NULL, 'intermediate', 'https://files.promptgather.io/7552015b7eecfde57b726cf9ac37a947_thumb_1762912195432.jpg', 'Amidst a serene snowy landscape, a girl stands poised with an umbrella, radiating confidence. Penguins wander nearby, enhancing the enchanting, tranquil vibe of this winter scene.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('b9061963-3f2f-494f-8ad2-7a1fb5c426a5', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('17cbe527-97a4-4b81-84be-c0a54d241b3e', 'prompt', 'Sunlit Serenity: A Moment in Time', 'sunlit-serenity-moment-in-time', 'Golden morning light on a calm expression.', 'Golden morning light spills through window blinds, softly illuminating her calm expression. This cinematic portrait captures the beauty of tranquility, with delicate shadows enhancing her thoughtful gaze.', 'Portrait', NULL, NULL, 'intermediate', 'https://files.promptgather.io/463f7e65b390a238afc692740dad2f9b_thumb_1762912192697.jpg', 'Golden morning light spills through window blinds, softly illuminating her calm expression. This cinematic portrait captures the beauty of tranquility, with delicate shadows enhancing her thoughtful gaze.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.667Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('17cbe527-97a4-4b81-84be-c0a54d241b3e', 'prompt', 'Sunlit Serenity: A Moment in Time', 'sunlit-serenity-moment-in-time', 'Golden morning light on a calm expression.', 'Golden morning light spills through window blinds, softly illuminating her calm expression. This cinematic portrait captures the beauty of tranquility, with delicate shadows enhancing her thoughtful gaze.', 'Portrait', NULL, NULL, 'intermediate', 'https://files.promptgather.io/463f7e65b390a238afc692740dad2f9b_thumb_1762912192697.jpg', 'Golden morning light spills through window blinds, softly illuminating her calm expression. This cinematic portrait captures the beauty of tranquility, with delicate shadows enhancing her thoughtful gaze.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('17cbe527-97a4-4b81-84be-c0a54d241b3e', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('dc18e351-46c5-400c-8de2-cdd7e93eb447', 'prompt', 'Neon Noir Portrait — Digital Rebellion', 'urban-shadows-hackers-realm', 'Retrato cyberpunk neo-noir con estética de rebelión digital.', '
 # Framework REAISEMP
@@ -7501,7 +7848,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   },
   "final_prompt": "Cinematic cyberpunk neon-noir portrait of a rebellious woman with wet skin, intense determined expression. Night city background drenched in neon rain, wet streets. High contrast colorful neon lighting reflections. Photorealistic 8K, cold palette with acid green and magenta accents, digital rebellion atmosphere. --ar 16:9"
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('dc18e351-46c5-400c-8de2-cdd7e93eb447', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('dc18e351-46c5-400c-8de2-cdd7e93eb447', '23e74b4b-008a-4a0d-870b-f8297beba9c9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('e2e8142a-e680-468f-81bb-f8328518cc6e', 'prompt', 'Cinematic Subway Portrait — Longing and Reflection', 'shadows-longing-subway-story', 'Retrato cinematográfico en el metro, cargado de anhelo y reflexión.', '
@@ -7560,7 +7907,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   },
   "final_prompt": "Cinematic urban portrait of a middle-aged man in a dark trench coat, deep pensive expression, holding a crumpled paper. Underground subway station background with tunnels and artificial lights. High contrast harsh artificial lighting. Photorealistic 8K, cold desaturated palette with greenish accents, melancholic atmosphere. --ar 16:9"
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e2e8142a-e680-468f-81bb-f8328518cc6e', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('6b3a89f7-a196-433a-87ce-4bae4aac9cb5', 'prompt', 'Golden Hour', 'golden-hour', 'Retrato poético al atardecer, soledad en pensamiento.', '
 # Framework REAISEMP
@@ -7616,7 +7963,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   },
   "final_prompt": "Cinematic lifestyle portrait of a young woman with soft natural features, pensive and introspective expression. Outdoor sunset setting with warm low horizon light. Natural sunset lighting creating dancing soft shadows on face. Photorealistic 8K, golden warm tones, soft contrast, delicate emotional atmosphere. --ar 16:9"
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('6b3a89f7-a196-433a-87ce-4bae4aac9cb5', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('e110bd71-c611-43e9-892a-0642a9b4b2b8', 'prompt', 'Power Portrait — Teal Smoke Authority', 'teal-smoke-authority-power', 'Retrato de poder cinematográfico con humo teal y estética editorial.', '
 # Framework REAISEMP
@@ -7674,7 +8021,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   },
   "final_prompt": "Cinematic power portrait of an elegant woman in a tailored black suit, confident and dominant expression. Dark minimalist background with swirling teal smoke and mist. Soft diffuse cinematic lighting, teal halo effect. Photorealistic 8K, editorial aesthetic, high contrast, sophisticated atmosphere. --ar 16:9"
-}', NULL, NULL, TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e110bd71-c611-43e9-892a-0642a9b4b2b8', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e110bd71-c611-43e9-892a-0642a9b4b2b8', '39b84df0-b2fc-4187-87ba-d6dd2b217bed') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('1899b88e-ddb5-4695-83a4-2ba055ac932e', 'prompt', 'Cyberpunk Cinematic Portrait — The Choice', 'shadows-authority-cyberpunk-portrait', 'Retrato cinematográfico de alta autoridad en una realidad simulada.', '
@@ -7739,7 +8086,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   },
   "final_prompt": "Cyberpunk Cinematic Portrait, Adult woman with highly detailed facial features [exact identity], wearing distinctive round sunglasses, enigmatic and authoritative expression. Sitting in a large ornate dark armchair, both hands extended forward in a symbolic gesture of choice. Background is a dark minimalist room with cascading green digital code on walls. Dramatic cinematic lighting with green highlights, deep shadows. Ultra-realistic 8K, dark trench coat, high contrast, Matrix-inspired simulation aesthetic. --ar 3:4"
-}', NULL, NULL, TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1899b88e-ddb5-4695-83a4-2ba055ac932e', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1899b88e-ddb5-4695-83a4-2ba055ac932e', '23e74b4b-008a-4a0d-870b-f8297beba9c9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('a1cbda5f-b627-44c9-88a4-6b0ce982c4a3', 'prompt', 'Conceptual Juxtaposition Portrait — Geisha Between Worlds', 'geisha-dual-existence-conceptual', 'Retrato conceptual que divide el mundo de una geisha entre lo urbano y lo natural.', '
@@ -7798,7 +8145,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   },
   "final_prompt": "Conceptual juxtaposition portrait of a symbolic geisha figure, delicate features, serene expression. The scene is perfectly split vertically: left side features cold blue rigid modern urban architecture, right side features warm vibrant organic exuberant jungle vegetation. Symmetrical composition, centered subject. Conceptual art style, high contrast between cold and warm lighting, 8K resolution, symbolic editorial aesthetic. --ar 16:9"
-}', NULL, NULL, TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a1cbda5f-b627-44c9-88a4-6b0ce982c4a3', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a1cbda5f-b627-44c9-88a4-6b0ce982c4a3', 'd341c67c-fe6c-43af-8590-1177e2116b28') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('7b343c55-0f5d-4e99-8ad3-af386c7b62f2', 'prompt', 'Cinematic Music Studio Portrait — Creative Focus', 'music-studio-creative-focus', 'Retrato cinematográfico de una artista en su estudio, capturando la esencia de la creación musical.', '
@@ -7856,7 +8203,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   },
   "final_prompt": "Cinematic lifestyle portrait of a female music artist, natural and expressive features, deeply focused and connected to sound. Setting is a dim music studio with visible guitars and MIDI controllers in the background. Minimal directional lighting casting soft shadows. Photorealistic 8K, warm analog color grading, intimate creative atmosphere. --ar 16:9"
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7b343c55-0f5d-4e99-8ad3-af386c7b62f2', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7b343c55-0f5d-4e99-8ad3-af386c7b62f2', '24739888-0e50-41f4-82c8-9ea609fc457e') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('a87f71e2-dfdb-4065-897d-55b479847002', 'prompt', 'Winter Tranquility Portrait — Snowfall Elegance', 'winter-snowfall-elegance', 'Retrato invernal que captura la elegancia y la paz de la nieve al caer.', '
@@ -7914,7 +8261,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   },
   "final_prompt": "Cinematic winter portrait of an elegant woman in a luxurious fur coat, serene and contemplative expression. Natural soft cold skin tones. Falling snow in a quiet winter landscape background. Diffuse natural winter lighting. Photorealistic 8K, cold color palette with soft whites and blueish grays, ethereal atmosphere. --ar 16:9"
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a87f71e2-dfdb-4065-897d-55b479847002', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a87f71e2-dfdb-4065-897d-55b479847002', '8a796d72-abff-4a35-8a51-a538bc4abdaa') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('6b33a28d-2ac7-4b08-8d20-cf2da2efc011', 'prompt', 'Retrato Fashion de Cuerpo Completo con MacBook Pro - Femenino', 'fashion-fullbody-macbook-pro', 'Retrato fashion de cuerpo completo con MacBook Pro, estilo editorial minimalista.', '
@@ -7967,7 +8314,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "claridad": "Alta."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('6b33a28d-2ac7-4b08-8d20-cf2da2efc011', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('6b33a28d-2ac7-4b08-8d20-cf2da2efc011', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('6b33a28d-2ac7-4b08-8d20-cf2da2efc011', 'ca4fe112-b77c-4c5f-868d-163de854f9dc') ON CONFLICT DO NOTHING;
@@ -8022,7 +8369,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "claridad": "Alta y precisa."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1f902e83-e0a2-42a8-84c2-0b674d4bea9a', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1f902e83-e0a2-42a8-84c2-0b674d4bea9a', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1f902e83-e0a2-42a8-84c2-0b674d4bea9a', '61a3c407-bef7-4162-820a-bfca8dbdd1fd') ON CONFLICT DO NOTHING;
@@ -8075,7 +8422,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "claridad": "Alta y suave."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('98f9a556-422c-4cf8-8cdb-54dfe99737a0', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('98f9a556-422c-4cf8-8cdb-54dfe99737a0', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('5e042803-0f1d-4137-8f48-a3b391d5222c', 'prompt', 'Retrato Navideño con Caja de Regalo y Letrero Neón - Femenino', 'christmas-gift-neon', 'Retrato navideño alegre con caja de regalo gigante y letrero neón.', '
@@ -8128,7 +8475,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "efectos": "Bokeh expandido."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5e042803-0f1d-4137-8f48-a3b391d5222c', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5e042803-0f1d-4137-8f48-a3b391d5222c', '62debbdf-d74f-4103-88e1-2327c1dd79f1') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5e042803-0f1d-4137-8f48-a3b391d5222c', 'a786e011-fb3c-4dec-804d-66510df1dd79') ON CONFLICT DO NOTHING;
@@ -8180,7 +8527,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "claridad": "Moderada para efecto suave."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5c2c1406-a4bb-4098-8c8b-987d1612be09', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5c2c1406-a4bb-4098-8c8b-987d1612be09', '62debbdf-d74f-4103-88e1-2327c1dd79f1') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('5c2c1406-a4bb-4098-8c8b-987d1612be09', '8a825204-ae80-4bb3-8a48-7f029f852268') ON CONFLICT DO NOTHING;
@@ -8236,7 +8583,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "nitidez": "Moderada/baja."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9d620c87-d4d4-43d9-85ce-a081e01c7ef0', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9d620c87-d4d4-43d9-85ce-a081e01c7ef0', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9d620c87-d4d4-43d9-85ce-a081e01c7ef0', '41d8c9ef-d8ae-483d-87ec-9cf6792c0e74') ON CONFLICT DO NOTHING;
@@ -8293,7 +8640,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "efectos": "Glow del fuego."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('063fa9a0-8501-40ee-86cf-a066785b3029', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('063fa9a0-8501-40ee-86cf-a066785b3029', '39b84df0-b2fc-4187-87ba-d6dd2b217bed') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('063fa9a0-8501-40ee-86cf-a066785b3029', 'a786e011-fb3c-4dec-804d-66510df1dd79') ON CONFLICT DO NOTHING;
@@ -8347,7 +8694,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "ruido": "Ligero."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('830b3f84-8060-4db7-8594-4616834b4bb2', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('830b3f84-8060-4db7-8594-4616834b4bb2', '39b84df0-b2fc-4187-87ba-d6dd2b217bed') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('830b3f84-8060-4db7-8594-4616834b4bb2', 'a786e011-fb3c-4dec-804d-66510df1dd79') ON CONFLICT DO NOTHING;
@@ -8403,7 +8750,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "ruido": "Alto."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('beda3314-8c36-4de9-88a3-00b8b7042450', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('beda3314-8c36-4de9-88a3-00b8b7042450', '39b84df0-b2fc-4187-87ba-d6dd2b217bed') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('beda3314-8c36-4de9-88a3-00b8b7042450', 'fef86d52-82e9-4fbd-8420-6a315ef0ad03') ON CONFLICT DO NOTHING;
@@ -8458,7 +8805,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "ruido": "Moderado."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('13ddd38a-6317-405e-8470-e5c9be411b26', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('13ddd38a-6317-405e-8470-e5c9be411b26', '39b84df0-b2fc-4187-87ba-d6dd2b217bed') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('13ddd38a-6317-405e-8470-e5c9be411b26', 'fef86d52-82e9-4fbd-8420-6a315ef0ad03') ON CONFLICT DO NOTHING;
@@ -8513,7 +8860,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "claridad": "Alta."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c6598147-8c0e-48ed-8244-2c43f1fe3823', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c6598147-8c0e-48ed-8244-2c43f1fe3823', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c6598147-8c0e-48ed-8244-2c43f1fe3823', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
@@ -8566,7 +8913,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "claridad": "Alta."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.819Z', '2026-08-29T17:52:58.819Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d2568a11-22f4-4af2-8641-38671b817728', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d2568a11-22f4-4af2-8641-38671b817728', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d2568a11-22f4-4af2-8641-38671b817728', '62debbdf-d74f-4103-88e1-2327c1dd79f1') ON CONFLICT DO NOTHING;
@@ -8630,7 +8977,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Imagen contemporánea, profesional y lista para perfil corporativo."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fc04a2b2-514b-431a-80ec-bba3b9a5aa84', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fc04a2b2-514b-431a-80ec-bba3b9a5aa84', 'f0edcde4-94ab-4cbb-8324-2ed5aeff4225') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fc04a2b2-514b-431a-80ec-bba3b9a5aa84', '3a8d5248-3879-4712-8352-03076643a662') ON CONFLICT DO NOTHING;
@@ -8712,7 +9059,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Serie editorial coherente, emotiva y minimalista lista para revista."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('898466fe-5ad5-4dd0-8fc6-96ea87ae7ab2', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('898466fe-5ad5-4dd0-8fc6-96ea87ae7ab2', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('898466fe-5ad5-4dd0-8fc6-96ea87ae7ab2', 'f17c8880-8ca9-42df-81a4-00d54d66bcb9') ON CONFLICT DO NOTHING;
@@ -8777,7 +9124,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Auténtico paparazzi snapshot, crudo y nostálgico."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1c93fb69-f6cd-408e-87eb-986e8c42913a', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1c93fb69-f6cd-408e-87eb-986e8c42913a', '0c12b7c3-d97c-41d8-83fd-d9f94d7e1d0a') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1c93fb69-f6cd-408e-87eb-986e8c42913a', 'dc09f376-c86b-4590-8cb3-43f2d33da56c') ON CONFLICT DO NOTHING;
@@ -8838,7 +9185,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Escena épica y emocional lista como still de película."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('54686c22-3e0c-4671-8201-3253b5ab1156', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('54686c22-3e0c-4671-8201-3253b5ab1156', '39b84df0-b2fc-4187-87ba-d6dd2b217bed') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('54686c22-3e0c-4671-8201-3253b5ab1156', '6e4f151f-3670-4f67-8a36-02135c22915c') ON CONFLICT DO NOTHING;
@@ -8906,7 +9253,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Thumbnail moderno, llamativo, listo para viralidad."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('2f1e38b5-7638-4999-8ae8-9f4b414eaba1', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('2f1e38b5-7638-4999-8ae8-9f4b414eaba1', '6794068b-f704-46d3-8ee8-5f0c84b2ffad') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('2f1e38b5-7638-4999-8ae8-9f4b414eaba1', '50f2c7de-4f4f-4507-8ae8-b4b684982af8') ON CONFLICT DO NOTHING;
@@ -8993,7 +9340,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "nitidez": "Alta definición en caja, personajes y detalles decorativos"
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('644d235a-b3ca-425e-8864-6120a1277eb8', '6121296b-e11e-4b6b-8bd3-648139c36d37') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('644d235a-b3ca-425e-8864-6120a1277eb8', '9ffafdbb-ef6a-4693-8a9d-3c17860f1ce8') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('644d235a-b3ca-425e-8864-6120a1277eb8', '4119e704-b41f-42c2-88e3-9ebb6eecede2') ON CONFLICT DO NOTHING;
@@ -9081,7 +9428,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K cozy Y2K harsh-flash selfie con vibra íntima."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9db2e923-fcdf-4325-8b7a-c42dec25439e', 'f40bc665-4479-4af3-8857-c444d89ecd24') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9db2e923-fcdf-4325-8b7a-c42dec25439e', 'dc09f376-c86b-4590-8cb3-43f2d33da56c') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9db2e923-fcdf-4325-8b7a-c42dec25439e', 'd59bbabd-307c-41ad-8539-f85e96ed30ca') ON CONFLICT DO NOTHING;
@@ -9244,7 +9591,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K cute cat-ears mirror selfie portrait con ambiente bright lifestyle."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e2446f6b-8ba9-414a-8148-635f39da348c', '51cd2e03-9be8-42d1-8d84-2a56f8077243') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e2446f6b-8ba9-414a-8148-635f39da348c', '00b3a0ce-6fad-4c3a-8d9d-1419593018ce') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e2446f6b-8ba9-414a-8148-635f39da348c', '918e36fa-6e9e-482a-88b9-0410e6af5770') ON CONFLICT DO NOTHING;
@@ -9403,7 +9750,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K gym locker mirror selfie con mood sporty editorial y fidelidad absoluta."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9d8404f4-683b-470d-86e9-2af28e645ed6', '51cd2e03-9be8-42d1-8d84-2a56f8077243') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9d8404f4-683b-470d-86e9-2af28e645ed6', 'e65aed91-4fab-4574-8f48-5d9390a5be00') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('9d8404f4-683b-470d-86e9-2af28e645ed6', '41d8c9ef-d8ae-483d-87ec-9cf6792c0e74') ON CONFLICT DO NOTHING;
@@ -9543,7 +9890,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K Gen-Z camcorder collage portrait con estética editorial VHS futurista."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('eb72edf7-90ce-4922-8190-099824b49ccc', '8951aa14-a722-492a-81ec-7f55e290a183') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('eb72edf7-90ce-4922-8190-099824b49ccc', '4270fc57-7856-4b16-81ab-370f3e654a81') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('eb72edf7-90ce-4922-8190-099824b49ccc', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
@@ -9669,7 +10016,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K monochrome hoodie portrait con atmósfera introspectiva de estudio."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('081505f3-5919-490b-8c4b-a838484f2371', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('081505f3-5919-490b-8c4b-a838484f2371', '61a3c407-bef7-4162-820a-bfca8dbdd1fd') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('081505f3-5919-490b-8c4b-a838484f2371', 'd164f509-a838-43ac-8459-2c7dad280356') ON CONFLICT DO NOTHING;
@@ -9788,7 +10135,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K poolside fashion editorial portrait con atmósfera limpia y comercial."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4e9082f1-5b8f-4d80-8df3-b02a6d3ce77e', 'da1092e5-3f78-4a6f-8bdd-ac7d7b53c0a7') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4e9082f1-5b8f-4d80-8df3-b02a6d3ce77e', '77495ed8-df99-4a2d-8fa5-be3aabfa5411') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4e9082f1-5b8f-4d80-8df3-b02a6d3ce77e', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -9936,7 +10283,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
       "acabado_final": "Ultra-realistic 8K intimate editorial portrait with warm nostalgic film atmosphere and absolute face fidelity."
     }
   }
-}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+}', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0f2a225b-fad6-4d6f-8483-47944c080572', '76cbf2d5-3aa0-4204-845d-b89118da12ab') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0f2a225b-fad6-4d6f-8483-47944c080572', '6311fecc-7319-4faf-858b-04ef6724f241') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0f2a225b-fad6-4d6f-8483-47944c080572', 'b53711bb-5c3b-4d1f-8176-4ddb47ebeaf8') ON CONFLICT DO NOTHING;
@@ -10107,7 +10454,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Selfie con Supercar
-Sustituye la descripción del avatar o la marca de la gorra si prefieres usar otra prenda. Ajusta el color del envoltorio del coche cambiando `CHROME PINK / rose gold` por otro tono (ej. `CHROME EMERALD GREEN`).', 'Usa una foto donde tu sujeto esté mirando directamente a la cámara para mantener la mirada fija en el teléfono del selfie de manera coherente.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye la descripción del avatar o la marca de la gorra si prefieres usar otra prenda. Ajusta el color del envoltorio del coche cambiando `CHROME PINK / rose gold` por otro tono (ej. `CHROME EMERALD GREEN`).', 'Usa una foto donde tu sujeto esté mirando directamente a la cámara para mantener la mirada fija en el teléfono del selfie de manera coherente.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('34850c30-f8d2-42fd-8284-b02cfaddc162', '575e4ebd-f06b-4993-8199-933aeaf56baa') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('34850c30-f8d2-42fd-8284-b02cfaddc162', '60514d83-4505-48ee-87c7-40d282bc13f9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('34850c30-f8d2-42fd-8284-b02cfaddc162', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10170,7 +10517,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Selfie Cozy Winter
-Sustituye la descripción física del avatar (cabello, ojos, tono de piel) por la tuya. Ajusta la prenda (ej. cambia ''Vestido sweater de punto grueso color crema'' por ''Polerón de lana negro'') para renovar el outfit.', 'Usa una foto donde tu rostro se vea de frente o ligeramente perfilado de modo que el flash retro resalte tu mirada.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye la descripción física del avatar (cabello, ojos, tono de piel) por la tuya. Ajusta la prenda (ej. cambia ''Vestido sweater de punto grueso color crema'' por ''Polerón de lana negro'') para renovar el outfit.', 'Usa una foto donde tu rostro se vea de frente o ligeramente perfilado de modo que el flash retro resalte tu mirada.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fde21abf-6859-4e85-8474-5d5822181c71', 'dc09f376-c86b-4590-8cb3-43f2d33da56c') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fde21abf-6859-4e85-8474-5d5822181c71', 'b53711bb-5c3b-4d1f-8176-4ddb47ebeaf8') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fde21abf-6859-4e85-8474-5d5822181c71', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10237,7 +10584,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Mirror Selfie
-Modifica el color del vestido cambiando ''color azul brillante'' por tu tono preferido (ej. ''color verde oliva''). Puedes sustituir los calcetines deportivos altos por zapatos de tacón o tenis casuales para cambiar el estilo de vestir.', 'Usa una foto de retrato clara donde la pose de tu cuerpo y manos sea similar para asegurar que el mapeo del rostro y los hombros encajen perfectamente en el espejo.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Modifica el color del vestido cambiando ''color azul brillante'' por tu tono preferido (ej. ''color verde oliva''). Puedes sustituir los calcetines deportivos altos por zapatos de tacón o tenis casuales para cambiar el estilo de vestir.', 'Usa una foto de retrato clara donde la pose de tu cuerpo y manos sea similar para asegurar que el mapeo del rostro y los hombros encajen perfectamente en el espejo.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4ac980f8-95c8-45ea-812c-411aac1dde56', 'f1d11f80-ccff-4409-83b7-520e0c92da87') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4ac980f8-95c8-45ea-812c-411aac1dde56', 'b53711bb-5c3b-4d1f-8176-4ddb47ebeaf8') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4ac980f8-95c8-45ea-812c-411aac1dde56', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10320,7 +10667,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Selfie con Cachorro
-Sustituye los rasgos faciales y de vestimenta del avatar por los tuyos. Si prefieres otra raza de perro, edita ''Goldendoodle'' por el nombre de la raza que desees (ej. ''Pug'' o ''Golden Retriever'').', 'Usa una foto donde tu expresión sea alegre y relajada, preferiblemente con la cabeza un poco inclinada para que coincida de forma natural con la pose de abrazo.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.668Z', '2026-08-28T16:24:45.668Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye los rasgos faciales y de vestimenta del avatar por los tuyos. Si prefieres otra raza de perro, edita ''Goldendoodle'' por el nombre de la raza que desees (ej. ''Pug'' o ''Golden Retriever'').', 'Usa una foto donde tu expresión sea alegre y relajada, preferiblemente con la cabeza un poco inclinada para que coincida de forma natural con la pose de abrazo.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('de54ef7c-ba06-454d-8b15-4d5c0888aa5a', '597d0932-6a36-4ec5-801b-f363602afddc') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('de54ef7c-ba06-454d-8b15-4d5c0888aa5a', 'b53711bb-5c3b-4d1f-8176-4ddb47ebeaf8') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('de54ef7c-ba06-454d-8b15-4d5c0888aa5a', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10398,7 +10745,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Viaje en Jet Privado
-Reemplaza los rasgos de la modelo para ajustarlos a tu avatar. Modifica los accesorios del jet cambiando ''mochila de diseñador'' por otra prenda o elemento (ej. ''una copa de champaña en la mesa lateral'').', 'Usa una foto donde tu rostro y hombros miren al frente con expresión relajada o segura para que coincida perfectamente con la perspectiva a nivel de ojos dentro de la cabina.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Reemplaza los rasgos de la modelo para ajustarlos a tu avatar. Modifica los accesorios del jet cambiando ''mochila de diseñador'' por otra prenda o elemento (ej. ''una copa de champaña en la mesa lateral'').', 'Usa una foto donde tu rostro y hombros miren al frente con expresión relajada o segura para que coincida perfectamente con la perspectiva a nivel de ojos dentro de la cabina.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c00e6a8d-9dbf-456f-87f4-9ceb2f2402d0', '3bdcbcf8-8e36-409c-89d4-b433347525a1') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c00e6a8d-9dbf-456f-87f4-9ceb2f2402d0', '60514d83-4505-48ee-87c7-40d282bc13f9') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c00e6a8d-9dbf-456f-87f4-9ceb2f2402d0', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10478,7 +10825,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Flash Nocturno en Dormitorio
-Modifica el top de manga larga negro por otro color (ej. ''blanco'' o ''rojo oscuro'') para jugar con el contraste del flash. Puedes adaptar el fondo de la ventana para reflejar otra localización de fondo en la ciudad.', 'Usa una foto tomada con flash frontal directo a tu avatar, preferiblemente levantando los brazos para simular la pose de atarse el pelo de manera fluida.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Modifica el top de manga larga negro por otro color (ej. ''blanco'' o ''rojo oscuro'') para jugar con el contraste del flash. Puedes adaptar el fondo de la ventana para reflejar otra localización de fondo en la ciudad.', 'Usa una foto tomada con flash frontal directo a tu avatar, preferiblemente levantando los brazos para simular la pose de atarse el pelo de manera fluida.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.820Z', '2026-08-29T17:52:58.820Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d3a3e96f-dc5e-4bf3-8e3b-8ed2cd4eea14', 'b53711bb-5c3b-4d1f-8176-4ddb47ebeaf8') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d3a3e96f-dc5e-4bf3-8e3b-8ed2cd4eea14', '35cda63b-9cc3-436e-8635-96383ae7fabb') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('d3a3e96f-dc5e-4bf3-8e3b-8ed2cd4eea14', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10559,7 +10906,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Balcón Nocturno
-Edita el texto frontal ''WANGHAF'' por la palabra que quieras en tu sudadera. Puedes modificar el color del pantalón deportivo gris a otro tono o sustituir la gorra por el pelo libre.', 'Usa una foto donde tu rostro esté perfilado de tres cuartos mirando ligeramente hacia arriba para encajar bien con la dirección de la mirada.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Edita el texto frontal ''WANGHAF'' por la palabra que quieras en tu sudadera. Puedes modificar el color del pantalón deportivo gris a otro tono o sustituir la gorra por el pelo libre.', 'Usa una foto donde tu rostro esté perfilado de tres cuartos mirando ligeramente hacia arriba para encajar bien con la dirección de la mirada.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.821Z', '2026-08-29T17:52:58.821Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fe5d0fd3-00d6-4699-8029-4f2019068de4', '63636fb4-1990-4e4b-86aa-57e06467efd3') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fe5d0fd3-00d6-4699-8029-4f2019068de4', '35cda63b-9cc3-436e-8635-96383ae7fabb') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('fe5d0fd3-00d6-4699-8029-4f2019068de4', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10639,7 +10986,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Retrato en París
-Modifica el blazer negro por un vestido de cóctel elegante para cambiar la formalidad de la foto. Puedes cambiar la localización sustituyendo la Torre Eiffel por otro monumento famoso del mundo.', 'Usa una foto donde tu rostro mire ligeramente de perfil hacia arriba para que encaje perfectamente con la pose contemplativa junto al río Sena.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Modifica el blazer negro por un vestido de cóctel elegante para cambiar la formalidad de la foto. Puedes cambiar la localización sustituyendo la Torre Eiffel por otro monumento famoso del mundo.', 'Usa una foto donde tu rostro mire ligeramente de perfil hacia arriba para que encaje perfectamente con la pose contemplativa junto al río Sena.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.821Z', '2026-08-29T17:52:58.821Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('950e7a3c-68f4-4a65-84f5-6dfc98de0d9d', '3bdcbcf8-8e36-409c-89d4-b433347525a1') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('950e7a3c-68f4-4a65-84f5-6dfc98de0d9d', '35cda63b-9cc3-436e-8635-96383ae7fabb') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('950e7a3c-68f4-4a65-84f5-6dfc98de0d9d', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10722,7 +11069,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Retrato Urbano de Día
-Modifica la blusa wrap verde oliva por otra prenda y color de tu elección (ej. ''camisa de lino blanca''). Puedes sustituir el bolso negro con cadena dorada por otro accesorio como unas gafas de sol.', 'Usa una foto donde tu rostro tenga una sonrisa radiante y mire directamente a la cámara para asegurar una coherencia perfecta con la expresión alegre del prompt.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Modifica la blusa wrap verde oliva por otra prenda y color de tu elección (ej. ''camisa de lino blanca''). Puedes sustituir el bolso negro con cadena dorada por otro accesorio como unas gafas de sol.', 'Usa una foto donde tu rostro tenga una sonrisa radiante y mire directamente a la cámara para asegurar una coherencia perfecta con la expresión alegre del prompt.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.821Z', '2026-08-29T17:52:58.821Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e598a91b-b170-448f-8eee-f60954bf701f', '575e4ebd-f06b-4993-8199-933aeaf56baa') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e598a91b-b170-448f-8eee-f60954bf701f', '63636fb4-1990-4e4b-86aa-57e06467efd3') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('e598a91b-b170-448f-8eee-f60954bf701f', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10803,7 +11150,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Esquí Alpino
-Modifica el color de la chaqueta rosa y verde por los colores de tu propia equipación. Puedes cambiar la expresión facial o sustituir las gafas reflectantes por unas gafas normales de esquí.', 'Usa una foto donde mantengas tu peinado recogido en moño y los brazos extendidos para simular perfectamente el agarre a dos manos del smartphone al tomar la foto.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Modifica el color de la chaqueta rosa y verde por los colores de tu propia equipación. Puedes cambiar la expresión facial o sustituir las gafas reflectantes por unas gafas normales de esquí.', 'Usa una foto donde mantengas tu peinado recogido en moño y los brazos extendidos para simular perfectamente el agarre a dos manos del smartphone al tomar la foto.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.821Z', '2026-08-29T17:52:58.821Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7592cde5-7f95-480b-8177-956d8c0bfaec', '75615c42-fbb6-4999-80f0-db023929a962') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7592cde5-7f95-480b-8177-956d8c0bfaec', '63636fb4-1990-4e4b-86aa-57e06467efd3') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('7592cde5-7f95-480b-8177-956d8c0bfaec', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10881,7 +11228,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Selfie Dominical Relajado
-Sustituye la descripción del pelo y ropa por la tuya. Puedes alterar la funda de stickers y el diseño de la cama de fondo modificando la descripción en los campos correspondientes de entorno.', 'Usa una foto donde estés sentada en el suelo apoyándote hacia atrás de manera lateral para que el render conserve la inclinación corporal exacta.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Sustituye la descripción del pelo y ropa por la tuya. Puedes alterar la funda de stickers y el diseño de la cama de fondo modificando la descripción en los campos correspondientes de entorno.', 'Usa una foto donde estés sentada en el suelo apoyándote hacia atrás de manera lateral para que el render conserve la inclinación corporal exacta.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.821Z', '2026-08-29T17:52:58.821Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('80ea00c2-1050-46ec-8ff2-0b8b7367f068', 'f1d11f80-ccff-4409-83b7-520e0c92da87') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('80ea00c2-1050-46ec-8ff2-0b8b7367f068', 'b53711bb-5c3b-4d1f-8176-4ddb47ebeaf8') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('80ea00c2-1050-46ec-8ff2-0b8b7367f068', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -10958,7 +11305,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Retrato Vintage en Baño
-Modifica el tipo de vestido o color del encaje de seda para renovar tu outfit. Puedes agregar o quitar elementos del mostrador del baño ajustando la descripción en los detalles del entorno.', 'Usa una foto donde aparezcas sentada sobre un mostrador o mesa inclinándote levemente al espejo de modo que la pose sea consistente.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Modifica el tipo de vestido o color del encaje de seda para renovar tu outfit. Puedes agregar o quitar elementos del mostrador del baño ajustando la descripción en los detalles del entorno.', 'Usa una foto donde aparezcas sentada sobre un mostrador o mesa inclinándote levemente al espejo de modo que la pose sea consistente.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.821Z', '2026-08-29T17:52:58.821Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('75eb4763-289a-4257-829e-237ed259d4b8', 'f1d11f80-ccff-4409-83b7-520e0c92da87') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('75eb4763-289a-4257-829e-237ed259d4b8', 'b53711bb-5c3b-4d1f-8176-4ddb47ebeaf8') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('75eb4763-289a-4257-829e-237ed259d4b8', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -11022,7 +11369,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Retrato en Sofá
-Modifica el color del abrigo o bodysuit (ej. cambia ''Bodysuit blanco'' por ''Bodysuit negro satinado''). Puedes adaptar la composición reclinada en el sofá ajustando los parámetros de pose.', 'Usa una foto donde estés reclinada en un sofá para mantener la coherencia anatómica perfecta y la inclinación natural de la cabeza.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Modifica el color del abrigo o bodysuit (ej. cambia ''Bodysuit blanco'' por ''Bodysuit negro satinado''). Puedes adaptar la composición reclinada en el sofá ajustando los parámetros de pose.', 'Usa una foto donde estés reclinada en un sofá para mantener la coherencia anatómica perfecta y la inclinación natural de la cabeza.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.821Z', '2026-08-29T17:52:58.821Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('35865e22-f101-4a57-885d-20dd1b556014', 'b53711bb-5c3b-4d1f-8176-4ddb47ebeaf8') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('35865e22-f101-4a57-885d-20dd1b556014', '179bf2c6-0bb3-43a3-8654-673782bc8069') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('35865e22-f101-4a57-885d-20dd1b556014', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -11088,7 +11435,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Selfie con Gato
-Modifica el color del gato (ej. cambia ''gato negro'' por ''gato siamés''). Puedes retirar el flequillo o el piercing de septum editando las especificaciones del avatar.', 'Usa una foto donde tu rostro y mejilla toquen el objeto o mascota de la toma original para mantener la coherencia espacial y de la mano sosteniendo el pelaje.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Modifica el color del gato (ej. cambia ''gato negro'' por ''gato siamés''). Puedes retirar el flequillo o el piercing de septum editando las especificaciones del avatar.', 'Usa una foto donde tu rostro y mejilla toquen el objeto o mascota de la toma original para mantener la coherencia espacial y de la mano sosteniendo el pelaje.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.821Z', '2026-08-29T17:52:58.821Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('28e2a212-5217-4288-8bff-dd40e89a14de', '24be544a-e87d-4391-8d5e-b386a8cae31a') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('28e2a212-5217-4288-8bff-dd40e89a14de', 'a4fb7cad-a409-40af-8d21-4add9d147036') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('28e2a212-5217-4288-8bff-dd40e89a14de', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -11188,7 +11535,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Retrato en Puente de Nueva York
-Modifica la chaqueta de cuero por otra prenda similar (ej. cambia ''Chaqueta oversized de cuero negro'' por ''Gabardina clásica beige''). Puedes adaptar el skyline de fondo si deseas simular otra ciudad.', 'Usa una foto donde tu rostro y cabello tengan movimiento sutil causado por brisa artificial o natural para coincidir con el dinamismo del prompt.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Modifica la chaqueta de cuero por otra prenda similar (ej. cambia ''Chaqueta oversized de cuero negro'' por ''Gabardina clásica beige''). Puedes adaptar el skyline de fondo si deseas simular otra ciudad.', 'Usa una foto donde tu rostro y cabello tengan movimiento sutil causado por brisa artificial o natural para coincidir con el dinamismo del prompt.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.821Z', '2026-08-29T17:52:58.821Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('380676aa-1f80-45f9-8683-91b40f206120', '575e4ebd-f06b-4993-8199-933aeaf56baa') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('380676aa-1f80-45f9-8683-91b40f206120', '35cda63b-9cc3-436e-8635-96383ae7fabb') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('380676aa-1f80-45f9-8683-91b40f206120', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -11276,7 +11623,7 @@ INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown,
     }
   }
 }', '# Personalización de Selfie en Baño Vaporoso
-Modifica el color del bikini (ej. cambia ''bikini blanco'' por ''bikini negro o rojo''). Puedes alterar el tono de cabello a otro color manteniendo el acabado húmedo.', 'Usa una foto donde levantes un brazo por detrás de la cabeza y mantengas una expresión íntima para asegurar que la superposición anatómica sea totalmente fluida.', TRUE, TRUE, 'free_preview', '2026-08-28T16:24:45.669Z', '2026-08-28T16:24:45.669Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+Modifica el color del bikini (ej. cambia ''bikini blanco'' por ''bikini negro o rojo''). Puedes alterar el tono de cabello a otro color manteniendo el acabado húmedo.', 'Usa una foto donde levantes un brazo por detrás de la cabeza y mantengas una expresión íntima para asegurar que la superposición anatómica sea totalmente fluida.', TRUE, TRUE, 'free_preview', '2026-08-29T17:52:58.821Z', '2026-08-29T17:52:58.821Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4a5b8a16-fac0-4991-8bef-2ee32382f0ae', '77495ed8-df99-4a2d-8fa5-be3aabfa5411') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4a5b8a16-fac0-4991-8bef-2ee32382f0ae', 'b53711bb-5c3b-4d1f-8176-4ddb47ebeaf8') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4a5b8a16-fac0-4991-8bef-2ee32382f0ae', '630f4208-ab2d-4eb1-84d8-4cbe36c155b2') ON CONFLICT DO NOTHING;
@@ -11314,39 +11661,39 @@ Un desglose técnico pero accesible de lo que está incluido.
 Tres secciones de manejo de objeciones redactadas en formato FAQ.
 Marcadores de posición para prueba social.
 Sección de precios con un CTA claro y una sección de cierre que genere urgencia real.
-[Inserta los datos de tu oferta, problema y objeciones aquí]', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+[Inserta los datos de tu oferta, problema y objeciones aquí]', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('858bac74-fc7a-444b-82fb-9f3f32ad8305', '1a9c0f2a-531d-416d-8537-70c17cfc4ec8') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('858bac74-fc7a-444b-82fb-9f3f32ad8305', 'c97d1262-59ee-46e5-8d5d-a76b3f13b48e') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('858bac74-fc7a-444b-82fb-9f3f32ad8305', 'd870301f-5cd9-47a8-829d-e1099109185a') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('afc95f85-f085-4d7a-84e9-a91608b43bc7', 'text_prompt', 'Identificación de la audiencia a la que se dirige', 'identificacion-audiencia-objetivo-facebook', 'Ensayo sobre la importancia de identificar la audiencia en marketing online.', 'Escribe un ensayo que describa la importancia de identificar la audiencia a la que se dirige en una estrategia de marketing en línea. Incluye consejos prácticos sobre cómo identificar la audiencia adecuada y cómo adaptar la estrategia de marketing para llegar a esa audiencia.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe un ensayo que describa la importancia de identificar la audiencia a la que se dirige en una estrategia de marketing en línea. Incluye consejos prácticos sobre cómo identificar la audiencia adecuada y cómo adaptar la estrategia de marketing para llegar a esa audiencia.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('afc95f85-f085-4d7a-84e9-a91608b43bc7', 'text_prompt', 'Identificación de la audiencia a la que se dirige', 'identificacion-audiencia-objetivo-facebook', 'Ensayo sobre la importancia de identificar la audiencia en marketing online.', 'Escribe un ensayo que describa la importancia de identificar la audiencia a la que se dirige en una estrategia de marketing en línea. Incluye consejos prácticos sobre cómo identificar la audiencia adecuada y cómo adaptar la estrategia de marketing para llegar a esa audiencia.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe un ensayo que describa la importancia de identificar la audiencia a la que se dirige en una estrategia de marketing en línea. Incluye consejos prácticos sobre cómo identificar la audiencia adecuada y cómo adaptar la estrategia de marketing para llegar a esa audiencia.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('afc95f85-f085-4d7a-84e9-a91608b43bc7', '1118fd3b-4a65-4848-822b-dcdb710ebb33') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('1f50b02d-175d-40d3-86c3-e1d7a267b8ff', 'text_prompt', 'Creación de buyer personas para comprender mejor a la audiencia', 'creacion-buyer-personas-marketing', 'Guía detallada sobre cómo crear buyer personas para negocios en línea.', 'Escribe una guía detallada sobre cómo crear buyer personas para comprender mejor a la audiencia de un negocio en línea. Incluye los diferentes elementos que deben incluirse en una buyer persona, cómo utilizar la información obtenida y cómo adaptar la estrategia de marketing en función de los datos.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe una guía detallada sobre cómo crear buyer personas para comprender mejor a la audiencia de un negocio en línea. Incluye los diferentes elementos que deben incluirse en una buyer persona, cómo utilizar la información obtenida y cómo adaptar la estrategia de marketing en función de los datos.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('1f50b02d-175d-40d3-86c3-e1d7a267b8ff', 'text_prompt', 'Creación de buyer personas para comprender mejor a la audiencia', 'creacion-buyer-personas-marketing', 'Guía detallada sobre cómo crear buyer personas para negocios en línea.', 'Escribe una guía detallada sobre cómo crear buyer personas para comprender mejor a la audiencia de un negocio en línea. Incluye los diferentes elementos que deben incluirse en una buyer persona, cómo utilizar la información obtenida y cómo adaptar la estrategia de marketing en función de los datos.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe una guía detallada sobre cómo crear buyer personas para comprender mejor a la audiencia de un negocio en línea. Incluye los diferentes elementos que deben incluirse en una buyer persona, cómo utilizar la información obtenida y cómo adaptar la estrategia de marketing en función de los datos.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('1f50b02d-175d-40d3-86c3-e1d7a267b8ff', '1118fd3b-4a65-4848-822b-dcdb710ebb33') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('08503980-8e77-4900-8fff-f6ddf67d63a9', 'text_prompt', 'Selección de opciones de segmentación adecuadas', 'segmentacion-adecuada-marketing-online', 'Artículo sobre cómo seleccionar opciones de segmentación para llegar a la audiencia deseada.', 'Escribe un artículo que explique cómo seleccionar las opciones de segmentación adecuadas para llegar a la audiencia deseada en una estrategia de marketing en línea. Incluye consejos sobre cómo seleccionar las opciones de segmentación adecuadas, cómo utilizar las herramientas de segmentación disponibles y cómo adaptar la estrategia de marketing en función de los datos obtenidos.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe un artículo que explique cómo seleccionar las opciones de segmentación adecuadas para llegar a la audiencia deseada en una estrategia de marketing en línea. Incluye consejos sobre cómo seleccionar las opciones de segmentación adecuadas, cómo utilizar las herramientas de segmentación disponibles y cómo adaptar la estrategia de marketing en función de los datos obtenidos.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('08503980-8e77-4900-8fff-f6ddf67d63a9', 'text_prompt', 'Selección de opciones de segmentación adecuadas', 'segmentacion-adecuada-marketing-online', 'Artículo sobre cómo seleccionar opciones de segmentación para llegar a la audiencia deseada.', 'Escribe un artículo que explique cómo seleccionar las opciones de segmentación adecuadas para llegar a la audiencia deseada en una estrategia de marketing en línea. Incluye consejos sobre cómo seleccionar las opciones de segmentación adecuadas, cómo utilizar las herramientas de segmentación disponibles y cómo adaptar la estrategia de marketing en función de los datos obtenidos.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe un artículo que explique cómo seleccionar las opciones de segmentación adecuadas para llegar a la audiencia deseada en una estrategia de marketing en línea. Incluye consejos sobre cómo seleccionar las opciones de segmentación adecuadas, cómo utilizar las herramientas de segmentación disponibles y cómo adaptar la estrategia de marketing en función de los datos obtenidos.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('08503980-8e77-4900-8fff-f6ddf67d63a9', '1118fd3b-4a65-4848-822b-dcdb710ebb33') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('de427071-5120-4c99-8dfb-7dba77f85f8b', 'text_prompt', 'Establecimiento de objetivos de marketing', 'establecimiento-objetivos-marketing-online', 'Guía práctica para definir objetivos realistas y medibles.', 'Escribe una guía práctica que describa cómo establecer objetivos de marketing para un negocio en línea. Incluye consejos sobre cómo definir objetivos realistas y alcanzables, cómo medir el éxito de los objetivos y cómo adaptar la estrategia de marketing en función de los datos obtenidos.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe una guía práctica que describa cómo establecer objetivos de marketing para un negocio en línea. Incluye consejos sobre cómo definir objetivos realistas y alcanzables, cómo medir el éxito de los objetivos y cómo adaptar la estrategia de marketing en función de los datos obtenidos.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('de427071-5120-4c99-8dfb-7dba77f85f8b', 'text_prompt', 'Establecimiento de objetivos de marketing', 'establecimiento-objetivos-marketing-online', 'Guía práctica para definir objetivos realistas y medibles.', 'Escribe una guía práctica que describa cómo establecer objetivos de marketing para un negocio en línea. Incluye consejos sobre cómo definir objetivos realistas y alcanzables, cómo medir el éxito de los objetivos y cómo adaptar la estrategia de marketing en función de los datos obtenidos.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe una guía práctica que describa cómo establecer objetivos de marketing para un negocio en línea. Incluye consejos sobre cómo definir objetivos realistas y alcanzables, cómo medir el éxito de los objetivos y cómo adaptar la estrategia de marketing en función de los datos obtenidos.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('de427071-5120-4c99-8dfb-7dba77f85f8b', '1118fd3b-4a65-4848-822b-dcdb710ebb33') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('6ae93608-100e-4033-850c-c31e07cf3faa', 'text_prompt', 'Definición de una estrategia de contenido', 'estrategia-contenido-efectiva-facebook', 'Informe sobre cómo planificar y diseñar contenido para mejorar el marketing.', 'Escribe un informe que describa cómo definir una estrategia de contenido efectiva para un negocio en línea. Incluye los diferentes tipos de contenido que se pueden utilizar, cómo identificar la audiencia adecuada, cómo planificar y diseñar el contenido y cómo utilizar el contenido para mejorar la estrategia de marketing.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe un informe que describa cómo definir una estrategia de contenido efectiva para un negocio en línea. Incluye los diferentes tipos de contenido que se pueden utilizar, cómo identificar la audiencia adecuada, cómo planificar y diseñar el contenido y cómo utilizar el contenido para mejorar la estrategia de marketing.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('6ae93608-100e-4033-850c-c31e07cf3faa', 'text_prompt', 'Definición de una estrategia de contenido', 'estrategia-contenido-efectiva-facebook', 'Informe sobre cómo planificar y diseñar contenido para mejorar el marketing.', 'Escribe un informe que describa cómo definir una estrategia de contenido efectiva para un negocio en línea. Incluye los diferentes tipos de contenido que se pueden utilizar, cómo identificar la audiencia adecuada, cómo planificar y diseñar el contenido y cómo utilizar el contenido para mejorar la estrategia de marketing.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe un informe que describa cómo definir una estrategia de contenido efectiva para un negocio en línea. Incluye los diferentes tipos de contenido que se pueden utilizar, cómo identificar la audiencia adecuada, cómo planificar y diseñar el contenido y cómo utilizar el contenido para mejorar la estrategia de marketing.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('6ae93608-100e-4033-850c-c31e07cf3faa', '1118fd3b-4a65-4848-822b-dcdb710ebb33') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('16db9998-fe08-4df0-8161-96ce223a3d76', 'text_prompt', 'Planificación de campañas publicitarias', 'planificacion-campanas-publicitarias-exitosas', 'Guía detallada sobre canales, mensajes y medición de éxito publicitario.', 'Escribe una guía detallada sobre cómo planificar campañas publicitarias efectivas para un negocio en línea. Incluye los diferentes elementos clave de una campaña publicitaria, cómo seleccionar los canales adecuados, cómo diseñar el mensaje de la campaña y cómo medir el éxito de la campaña.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe una guía detallada sobre cómo planificar campañas publicitarias efectivas para un negocio en línea. Incluye los diferentes elementos clave de una campaña publicitaria, cómo seleccionar los canales adecuados, cómo diseñar el mensaje de la campaña y cómo medir el éxito de la campaña.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('16db9998-fe08-4df0-8161-96ce223a3d76', 'text_prompt', 'Planificación de campañas publicitarias', 'planificacion-campanas-publicitarias-exitosas', 'Guía detallada sobre canales, mensajes y medición de éxito publicitario.', 'Escribe una guía detallada sobre cómo planificar campañas publicitarias efectivas para un negocio en línea. Incluye los diferentes elementos clave de una campaña publicitaria, cómo seleccionar los canales adecuados, cómo diseñar el mensaje de la campaña y cómo medir el éxito de la campaña.', 'Marketing de Facebook', NULL, NULL, 'beginner', NULL, 'Escribe una guía detallada sobre cómo planificar campañas publicitarias efectivas para un negocio en línea. Incluye los diferentes elementos clave de una campaña publicitaria, cómo seleccionar los canales adecuados, cómo diseñar el mensaje de la campaña y cómo medir el éxito de la campaña.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('16db9998-fe08-4df0-8161-96ce223a3d76', '1118fd3b-4a65-4848-822b-dcdb710ebb33') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('05333212-4ade-4500-8061-25227dc4f166', 'text_prompt', 'Pie de foto para Instagram promocionando [tipo de producto]', 'pie-de-foto-instagram-promocion', 'Escribe un pie de foto de Instagram para un post promocional de [tipo de producto].', 'Escribe un pie de foto de Instagram para un post promocional de [tipo de producto]. Utiliza un lenguaje amigable y humano que atraiga a [tipo de público]. Destaca las cualidades únicas de [tipo de producto], utiliza emojis de muestra y no suenes demasiado promocional.', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe un pie de foto de Instagram para un post promocional de [tipo de producto]. Utiliza un lenguaje amigable y humano que atraiga a [tipo de público]. Destaca las cualidades únicas de [tipo de producto], utiliza emojis de muestra y no suenes demasiado promocional.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('05333212-4ade-4500-8061-25227dc4f166', 'text_prompt', 'Pie de foto para Instagram promocionando [tipo de producto]', 'pie-de-foto-instagram-promocion', 'Escribe un pie de foto de Instagram para un post promocional de [tipo de producto].', 'Escribe un pie de foto de Instagram para un post promocional de [tipo de producto]. Utiliza un lenguaje amigable y humano que atraiga a [tipo de público]. Destaca las cualidades únicas de [tipo de producto], utiliza emojis de muestra y no suenes demasiado promocional.', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe un pie de foto de Instagram para un post promocional de [tipo de producto]. Utiliza un lenguaje amigable y humano que atraiga a [tipo de público]. Destaca las cualidades únicas de [tipo de producto], utiliza emojis de muestra y no suenes demasiado promocional.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('05333212-4ade-4500-8061-25227dc4f166', 'c89e4a96-b22a-4760-82f8-619e21e333a3') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('0c8b4ba4-a89d-4413-82d0-8fc551bac50f', 'text_prompt', 'Titular conciso y memorable para [tipo de producto/servicio]', 'titular-conciso-memorable', 'Escribe un titular conciso y memorable para [tipo de producto/servicio].', 'Escribe un titular conciso y memorable para [tipo de producto/servicio].', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe un titular conciso y memorable para [tipo de producto/servicio].', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('0c8b4ba4-a89d-4413-82d0-8fc551bac50f', 'text_prompt', 'Titular conciso y memorable para [tipo de producto/servicio]', 'titular-conciso-memorable', 'Escribe un titular conciso y memorable para [tipo de producto/servicio].', 'Escribe un titular conciso y memorable para [tipo de producto/servicio].', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe un titular conciso y memorable para [tipo de producto/servicio].', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('0c8b4ba4-a89d-4413-82d0-8fc551bac50f', 'c89e4a96-b22a-4760-82f8-619e21e333a3') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('c1bce925-f08c-441b-85f9-8dc038be9f78', 'text_prompt', 'Breve texto publicitario para aplicación combinada de redes sociales y finanzas', 'texto-publicitario-app-combinada', 'Texto publicitario directo al grano para una app multi-función.', 'Escribe un breve texto publicitario para una aplicación que combina las funciones de aplicaciones como Instagram, WhatsApp, Venmo y Tik Tok en un solo lugar. Utiliza un lenguaje rápido y conciso, similar al de Apple, que atraiga a un público más joven. Ve directo al grano: no pierdas el tiempo.', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe un breve texto publicitario para una aplicación que combina las funciones de aplicaciones como Instagram, WhatsApp, Venmo y Tik Tok en un solo lugar. Utiliza un lenguaje rápido y conciso, similar al de Apple, que atraiga a un público más joven. Ve directo al grano: no pierdas el tiempo.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('c1bce925-f08c-441b-85f9-8dc038be9f78', 'text_prompt', 'Breve texto publicitario para aplicación combinada de redes sociales y finanzas', 'texto-publicitario-app-combinada', 'Texto publicitario directo al grano para una app multi-función.', 'Escribe un breve texto publicitario para una aplicación que combina las funciones de aplicaciones como Instagram, WhatsApp, Venmo y Tik Tok en un solo lugar. Utiliza un lenguaje rápido y conciso, similar al de Apple, que atraiga a un público más joven. Ve directo al grano: no pierdas el tiempo.', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe un breve texto publicitario para una aplicación que combina las funciones de aplicaciones como Instagram, WhatsApp, Venmo y Tik Tok en un solo lugar. Utiliza un lenguaje rápido y conciso, similar al de Apple, que atraiga a un público más joven. Ve directo al grano: no pierdas el tiempo.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c1bce925-f08c-441b-85f9-8dc038be9f78', 'c89e4a96-b22a-4760-82f8-619e21e333a3') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('958189e1-ce18-4b81-819a-90114300d51d', 'text_prompt', 'Asuntos de correo electrónico para venta flash de curso en línea de creación de contenidos de IA', 'asuntos-email-venta-flash-ia', '10 líneas de asunto de correo electrónico para una venta flash del 50%.', 'Escribe 10 líneas de asunto de correo electrónico para una venta flash del 50% de descuento en un curso online de creación de contenidos de IA. Ve directo al grano - no pierdas el tiempo.', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe 10 líneas de asunto de correo electrónico para una venta flash del 50% de descuento en un curso online de creación de contenidos de IA. Ve directo al grano - no pierdas el tiempo.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('958189e1-ce18-4b81-819a-90114300d51d', 'text_prompt', 'Asuntos de correo electrónico para venta flash de curso en línea de creación de contenidos de IA', 'asuntos-email-venta-flash-ia', '10 líneas de asunto de correo electrónico para una venta flash del 50%.', 'Escribe 10 líneas de asunto de correo electrónico para una venta flash del 50% de descuento en un curso online de creación de contenidos de IA. Ve directo al grano - no pierdas el tiempo.', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe 10 líneas de asunto de correo electrónico para una venta flash del 50% de descuento en un curso online de creación de contenidos de IA. Ve directo al grano - no pierdas el tiempo.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('958189e1-ce18-4b81-819a-90114300d51d', 'c89e4a96-b22a-4760-82f8-619e21e333a3') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('62568d54-9da1-46bb-8bb0-e40664c47917', 'text_prompt', 'Anuncio publicitario para un restaurante vegano', 'anuncio-restaurante-vegano', 'Anuncio creativo y atractivo para un restaurante vegano.', 'Escribe un anuncio publicitario para un restaurante vegano que resalte los beneficios de una dieta vegana y la calidad de los ingredientes utilizados. Utiliza un lenguaje creativo y atractivo que haga que los clientes potenciales se sientan atraídos por el restaurante y su oferta gastronómica.', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe un anuncio publicitario para un restaurante vegano que resalte los beneficios de una dieta vegana y la calidad de los ingredientes utilizados. Utiliza un lenguaje creativo y atractivo que haga que los clientes potenciales se sientan atraídos por el restaurante y su oferta gastronómica.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('62568d54-9da1-46bb-8bb0-e40664c47917', 'text_prompt', 'Anuncio publicitario para un restaurante vegano', 'anuncio-restaurante-vegano', 'Anuncio creativo y atractivo para un restaurante vegano.', 'Escribe un anuncio publicitario para un restaurante vegano que resalte los beneficios de una dieta vegana y la calidad de los ingredientes utilizados. Utiliza un lenguaje creativo y atractivo que haga que los clientes potenciales se sientan atraídos por el restaurante y su oferta gastronómica.', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe un anuncio publicitario para un restaurante vegano que resalte los beneficios de una dieta vegana y la calidad de los ingredientes utilizados. Utiliza un lenguaje creativo y atractivo que haga que los clientes potenciales se sientan atraídos por el restaurante y su oferta gastronómica.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('62568d54-9da1-46bb-8bb0-e40664c47917', 'c89e4a96-b22a-4760-82f8-619e21e333a3') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('4724591e-d1c4-4e75-859c-62d0ee778342', 'text_prompt', 'Líneas de asunto para promoción de marca de ropa', 'lineas-asunto-promocion-ropa', '10 líneas de asunto de correo electrónico para una marca de moda.', 'Escribe 10 líneas de asunto de correo electrónico para una promoción de una marca de ropa. Ve directo al grano, utiliza un lenguaje atractivo y no pierdas el tiempo.', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe 10 líneas de asunto de correo electrónico para una promoción de una marca de ropa. Ve directo al grano, utiliza un lenguaje atractivo y no pierdas el tiempo.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('4724591e-d1c4-4e75-859c-62d0ee778342', 'text_prompt', 'Líneas de asunto para promoción de marca de ropa', 'lineas-asunto-promocion-ropa', '10 líneas de asunto de correo electrónico para una marca de moda.', 'Escribe 10 líneas de asunto de correo electrónico para una promoción de una marca de ropa. Ve directo al grano, utiliza un lenguaje atractivo y no pierdas el tiempo.', 'Marketing y publicidad', NULL, NULL, 'beginner', NULL, 'Escribe 10 líneas de asunto de correo electrónico para una promoción de una marca de ropa. Ve directo al grano, utiliza un lenguaje atractivo y no pierdas el tiempo.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('4724591e-d1c4-4e75-859c-62d0ee778342', 'c89e4a96-b22a-4760-82f8-619e21e333a3') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('20354c79-f1c7-47c2-8fad-97de26404ffe', 'text_prompt', 'Reseña de producto [tipo de producto] desde la perspectiva de [tipo de cliente]', 'resena-producto-perspectiva-cliente', 'Reseña de producto con voz de Generación Z.', 'Escribe una reseña de un producto [tipo de producto] desde la perspectiva de [tipo de cliente]. No suenes demasiado promocional. Escribe como un miembro de la Generación Z.', 'Reseñas de productos', NULL, NULL, 'beginner', NULL, 'Escribe una reseña de un producto [tipo de producto] desde la perspectiva de [tipo de cliente]. No suenes demasiado promocional. Escribe como un miembro de la Generación Z.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('20354c79-f1c7-47c2-8fad-97de26404ffe', 'text_prompt', 'Reseña de producto [tipo de producto] desde la perspectiva de [tipo de cliente]', 'resena-producto-perspectiva-cliente', 'Reseña de producto con voz de Generación Z.', 'Escribe una reseña de un producto [tipo de producto] desde la perspectiva de [tipo de cliente]. No suenes demasiado promocional. Escribe como un miembro de la Generación Z.', 'Reseñas de productos', NULL, NULL, 'beginner', NULL, 'Escribe una reseña de un producto [tipo de producto] desde la perspectiva de [tipo de cliente]. No suenes demasiado promocional. Escribe como un miembro de la Generación Z.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('20354c79-f1c7-47c2-8fad-97de26404ffe', 'c89e4a96-b22a-4760-82f8-619e21e333a3') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('c591e06c-9a4f-41cd-8d00-2654c3029296', 'text_prompt', 'Descripción de tienda en línea de bolsa grande de palomitas de maíz veganas', 'descripcion-tienda-palomitas-veganas', 'Descripción de e-commerce rápida y concisa.', 'Escribe la descripción de una tienda de comercio electrónico para un juego de mesa divertido y educativo para niños. Utiliza un lenguaje rápido y conciso que atraiga tanto a padres como a niños. Destaca su valor educativo y no suenes demasiado promocional.', 'Reseñas de productos', NULL, NULL, 'beginner', NULL, 'Escribe la descripción de una tienda de comercio electrónico para un juego de mesa divertido y educativo para niños. Utiliza un lenguaje rápido y conciso que atraiga tanto a padres como a niños. Destaca su valor educativo y no suenes demasiado promocional.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('c591e06c-9a4f-41cd-8d00-2654c3029296', 'text_prompt', 'Descripción de tienda en línea de bolsa grande de palomitas de maíz veganas', 'descripcion-tienda-palomitas-veganas', 'Descripción de e-commerce rápida y concisa.', 'Escribe la descripción de una tienda de comercio electrónico para un juego de mesa divertido y educativo para niños. Utiliza un lenguaje rápido y conciso que atraiga tanto a padres como a niños. Destaca su valor educativo y no suenes demasiado promocional.', 'Reseñas de productos', NULL, NULL, 'beginner', NULL, 'Escribe la descripción de una tienda de comercio electrónico para un juego de mesa divertido y educativo para niños. Utiliza un lenguaje rápido y conciso que atraiga tanto a padres como a niños. Destaca su valor educativo y no suenes demasiado promocional.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('c591e06c-9a4f-41cd-8d00-2654c3029296', 'c89e4a96-b22a-4760-82f8-619e21e333a3') ON CONFLICT DO NOTHING;
-INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('a7b6c895-c8b1-4ad9-8802-83fb992aa455', 'text_prompt', 'Reseña de producto de belleza para adolescentes', 'resena-producto-belleza-adolescentes', 'Reseña de producto de belleza para piel sensible.', 'Escribe una reseña de un producto de belleza desde la perspectiva de una adolescente con piel sensible. No suenes demasiado promocional y utiliza un lenguaje cercano y juvenil.', 'Reseñas de productos', NULL, NULL, 'beginner', NULL, 'Escribe una reseña de un producto de belleza desde la perspectiva de una adolescente con piel sensible. No suenes demasiado promocional y utiliza un lenguaje cercano y juvenil.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-28T16:24:45.678Z', '2026-08-28T16:24:45.678Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
+INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('a7b6c895-c8b1-4ad9-8802-83fb992aa455', 'text_prompt', 'Reseña de producto de belleza para adolescentes', 'resena-producto-belleza-adolescentes', 'Reseña de producto de belleza para piel sensible.', 'Escribe una reseña de un producto de belleza desde la perspectiva de una adolescente con piel sensible. No suenes demasiado promocional y utiliza un lenguaje cercano y juvenil.', 'Reseñas de productos', NULL, NULL, 'beginner', NULL, 'Escribe una reseña de un producto de belleza desde la perspectiva de una adolescente con piel sensible. No suenes demasiado promocional y utiliza un lenguaje cercano y juvenil.', NULL, NULL, TRUE, FALSE, 'free_preview', '2026-08-29T17:52:58.831Z', '2026-08-29T17:52:58.831Z') ON CONFLICT (slug) DO UPDATE SET title = EXCLUDED.title, summary = EXCLUDED.summary, body_markdown = EXCLUDED.body_markdown, category = EXCLUDED.category, featured_image_url = EXCLUDED.featured_image_url, prompt_text = EXCLUDED.prompt_text;
 INSERT INTO public.content_tags (content_id, tag_id) VALUES ('a7b6c895-c8b1-4ad9-8802-83fb992aa455', 'c89e4a96-b22a-4760-82f8-619e21e333a3') ON CONFLICT DO NOTHING;
 INSERT INTO public.content_items (id, type, title, slug, summary, body_markdown, category, system_type, process_state, level, featured_image_url, prompt_text, customization_guide, reference_image_guide, is_published, is_featured, paywall_level, created_at, updated_at) VALUES ('fc95ec78-0bbf-441c-84e8-d92fdb4cbf82', 'automation', 'Build Your ManyChat DM Flows With Claude', 'build-manychat-dm-flows-claude', 'Integración para conectar y nutrir leads a través de mensajes directos combinando automatización de ManyChat y el cerebro de Claude.', '
 # ManyChat + Claude Integration Blueprint
