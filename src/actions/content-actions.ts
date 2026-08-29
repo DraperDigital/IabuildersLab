@@ -141,7 +141,7 @@ export async function listContent(filters?: { type?: string; status?: string; se
 
         // Apply Pagination
         const page = filters?.page || 1;
-        const limit = filters?.limit || 10;
+        const limit = filters?.limit || 12;
         const startIndex = (page - 1) * limit;
         const endIndex = startIndex + limit;
 
@@ -228,14 +228,20 @@ export async function listContent(filters?: { type?: string; status?: string; se
             totalPages: Math.ceil(totalCount / limit)
         };
     } catch (error) {
-        console.log("Supabase error (listContent), returning mock data as fallback");
-        // Apply filters to fallback data too!
+        console.log("Supabase error (listContent), returning mock data as fallback", error);
+        // Apply filters and pagination to fallback data
         let content = applyMockFilters(ALL_MOCK_CONTENT, filters);
+        const totalCount = content.length;
+        const page = filters?.page || 1;
+        const limit = filters?.limit || 12;
+        const startIndex = (page - 1) * limit;
+        const endIndex = startIndex + limit;
+        const paginatedContent = content.slice(startIndex, endIndex);
 
         return {
-            data: content,
-            count: content.length,
-            totalPages: 1
+            data: paginatedContent as ContentItem[],
+            count: totalCount,
+            totalPages: Math.ceil(totalCount / limit)
         };
     }
 }
