@@ -8,6 +8,9 @@ import { ArrowLeft } from "lucide-react";
 import { PublicHeader } from "@/components/public-header";
 import { Pagination } from "@/components/ui/pagination";
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export default async function PromptsPage({ searchParams }: { searchParams: Promise<{ [key: string]: string | string[] | undefined }> }) {
     const resolvedParams = await searchParams;
     const tab = typeof resolvedParams.tab === 'string' ? resolvedParams.tab : 'audiovisual';
@@ -46,7 +49,21 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
     ]);
 
     // Filter categories dynamically based on tab
-    const sopCategories = ["Marketing & Content", "Ventas y Calificación", "Operaciones y Cierre", "Páginas de Ventas", "Marketing de Facebook", "Research", "Content", "Sales", "Operations", "Marketing", "Market Research & Content", "CRM & Operations"];
+    const sopCategories = [
+        "Market Research & Content",
+        "CRM & Operations",
+        "Paid Ads & Acquisition",
+        "Content Creation",
+        "Development Web / UI",
+        "Research & Content Creation",
+        "Ventas y Calificación",
+        "Operaciones y Cierre",
+        "Páginas de Ventas",
+        "Marketing & Content",
+        "Infrastructure & Local Environment",
+        "Infrastructure & Growth Automation",
+        "Infrastructure & Open Source"
+    ];
     const rawCategories = categoriesData || [];
     const categories = rawCategories.filter(cat => isSopTab ? sopCategories.includes(cat) : !sopCategories.includes(cat));
 
@@ -86,6 +103,7 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
                             <div className="flex border-b border-white/10 mb-8 gap-6">
                                 <Link
                                     href={{ pathname: '/prompts', query: { tab: 'audiovisual', search } }}
+                                    prefetch={false}
                                     className={`pb-3 text-lg font-medium transition-colors relative cursor-pointer ${!isSopTab ? 'text-white font-semibold' : 'text-slate-400 hover:text-white'}`}
                                 >
                                     Prompts Audiovisuales
@@ -95,6 +113,7 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
                                 </Link>
                                 <Link
                                     href={{ pathname: '/prompts', query: { tab: 'sop', search } }}
+                                    prefetch={false}
                                     className={`pb-3 text-lg font-medium transition-colors relative cursor-pointer ${isSopTab ? 'text-white font-semibold' : 'text-slate-400 hover:text-white'}`}
                                 >
                                     Sistemas de Prompting (SOP)
