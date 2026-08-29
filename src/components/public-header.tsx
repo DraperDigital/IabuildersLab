@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/co
 import { createClient } from "@/utils/supabase/server";
 import { signOut } from "@/actions/auth";
 import { getTranslations } from "next-intl/server";
+import { LanguageSwitcher } from "@/components/language-switcher";
 
 export async function PublicHeader() {
     const supabase = await createClient();
@@ -15,11 +16,18 @@ export async function PublicHeader() {
         <header className="relative z-40 border-b border-purple-500/20 glass-effect">
             <div className="container mx-auto px-4">
                 <div className="flex h-16 items-center justify-between py-4">
-                    <Link href="/" className="flex items-center">
-                        <img src="/logo-horizontal.png" alt="IA Builders Lab" className="h-8 object-contain" />
-                    </Link>
+                    <div className="flex items-center gap-4">
+                        <Link href="/" className="flex items-center">
+                            <img src="/logo-horizontal.png" alt="IA Builders Lab" className="h-8 object-contain" />
+                        </Link>
+                        <div className="hidden xl:flex items-center gap-2 font-mono text-[11px] text-slate-400 bg-slate-900/80 px-2.5 py-1 rounded-full border border-purple-500/20">
+                            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                            <span>iabuilders.lab / v2.4</span>
+                        </div>
+                    </div>
+
                     {/* Desktop Navigation */}
-                    <nav className="hidden md:flex gap-6 items-center">
+                    <nav className="hidden md:flex gap-5 items-center">
                         <Link href="/systems" className="text-sm font-medium text-purple-200 hover:text-purple-400 transition-colors">
                             {t('systems')}
                         </Link>
@@ -36,8 +44,10 @@ export async function PublicHeader() {
                             {t('pricing')}
                         </Link>
 
+                        <LanguageSwitcher />
+
                         {user ? (
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-3">
                                 <Link href="/admin">
                                     <Button variant="outline" size="sm" className="border-purple-500/50 text-purple-200 hover:bg-purple-500/20 gap-2">
                                         <Shield className="h-4 w-4" />

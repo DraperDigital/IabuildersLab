@@ -123,7 +123,12 @@ function SidebarContent({ categories, tags, onNavigate }: SidebarContentProps) {
 
     const handleClearFilters = () => {
         setSearchTerm('');
-        router.push(pathname);
+        const currentTab = searchParams.get('tab');
+        if (currentTab) {
+            router.push(`${pathname}?tab=${currentTab}`);
+        } else {
+            router.push(pathname);
+        }
         if (onNavigate) onNavigate();
     };
 

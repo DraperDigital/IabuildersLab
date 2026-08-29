@@ -40,6 +40,29 @@ export async function login(formData: FormData) {
     redirect('/en/admin'); // Redirect to admin dashboard
 }
 
+export async function sendOtp(formData: FormData) {
+    const email = formData.get('email') as string;
+    if (!email) return { error: 'E-mail requerido.' };
+
+    try {
+        const supabase = await createClient();
+        const origin = (await headers()).get('origin');
+        const { error } = await supabase.auth.signInWithOtp({
+            email,
+            options: {
+                emailRedirectTo: `${origin}/auth/callback`,
+            },
+        });
+
+        if (error) {
+            return { error: error.message };
+        }
+        return { success: true, message: `Código/Enlace de acceso enviado a ${email}` };
+    } catch (error) {
+        return { error: 'Error al enviar código de acceso por correo.' };
+    }
+}
+
 
 export async function signOut() {
     const supabase = await createClient();
