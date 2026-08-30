@@ -87,12 +87,10 @@ export function PromptCard({ prompt }: PromptCardProps) {
                 {/* Image Container */}
                 <div className="relative aspect-[4/5] w-full overflow-hidden">
                     {prompt.featured_image_url ? (
-                        <Image
+                        <img
                             src={prompt.featured_image_url}
                             alt={prompt.title}
-                            fill
-                            className="object-cover transition-transform duration-500 group-hover:scale-110"
-                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                         />
                     ) : (
                         <div className="flex h-full w-full items-center justify-center bg-slate-800 text-slate-600">
