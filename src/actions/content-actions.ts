@@ -7,7 +7,7 @@ import { cookies } from "next/headers";
 
 
 import { ALL_MOCK_CONTENT, addMockItem, updateMockItem, deleteMockItem } from "@/lib/mock-data";
-import { isSopItem, isSkillItem } from "@/lib/utils";
+import { isSopItem, isSkillItem, isAudiovisualItem } from "@/lib/utils";
 
 // Keep local MOCK_CONTENT reference alias for internal use if needed
 const MOCK_CONTENT = ALL_MOCK_CONTENT;
@@ -93,18 +93,13 @@ export async function getContent(id: string) {
 function applyMockFilters(content: ContentItem[], filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; excludeCategories?: string[]; isSop?: boolean; isSkill?: boolean }) {
     let result = [...content];
 
-    if (filters?.isSkill !== undefined) {
-        if (filters.isSkill) {
-            result = result.filter(c => isSkillItem(c));
-        } else {
-            result = result.filter(c => !isSkillItem(c));
-        }
-    } else if (filters?.isSop !== undefined) {
-        if (filters.isSop) {
-            result = result.filter(c => isSopItem(c) && !isSkillItem(c));
-        } else {
-            result = result.filter(c => !isSopItem(c));
-        }
+    if (filters?.isSkill) {
+        result = result.filter(c => isSkillItem(c));
+    } else if (filters?.isSop) {
+        result = result.filter(c => isSopItem(c) && !isSkillItem(c));
+    } else {
+        // Audiovisual Tab (default)
+        result = result.filter(c => isAudiovisualItem(c));
     }
 
     if (filters?.type && filters.type !== 'all') {
@@ -214,18 +209,13 @@ export async function listContent(filters?: { type?: string; status?: string; se
             content = content.filter((item: any) => item.tags.some((t: any) => t.slug === filters.tag));
         }
 
-        if (filters?.isSkill !== undefined) {
-            if (filters.isSkill) {
-                content = content.filter((item: any) => isSkillItem(item));
-            } else {
-                content = content.filter((item: any) => !isSkillItem(item));
-            }
-        } else if (filters?.isSop !== undefined) {
-            if (filters.isSop) {
-                content = content.filter((item: any) => isSopItem(item) && !isSkillItem(item));
-            } else {
-                content = content.filter((item: any) => !isSopItem(item));
-            }
+        if (filters?.isSkill) {
+            content = content.filter((item: any) => isSkillItem(item));
+        } else if (filters?.isSop) {
+            content = content.filter((item: any) => isSopItem(item) && !isSkillItem(item));
+        } else {
+            // Audiovisual Tab
+            content = content.filter((item: any) => isAudiovisualItem(item));
         }
 
         const totalCount = content.length;
