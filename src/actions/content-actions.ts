@@ -200,7 +200,7 @@ export async function listContent(filters?: { type?: string; status?: string; se
         if (error) throw error;
 
         // Post-query filtering
-        let content = data.map(item => ({
+        let content = data.map((item: any) => ({
             ...item,
             tags: item.tags.map((t: any) => t.tag)
         }));
@@ -443,7 +443,7 @@ export async function getDistinctCategories(type?: string) {
 
         if (error) throw error;
 
-        const categories = Array.from(new Set(data.map(item => item.category).filter(Boolean))) as string[];
+        const categories = Array.from(new Set(data.map((item: any) => item.category).filter(Boolean))) as string[];
         return { data: categories.sort() };
     } catch (error: any) {
         console.error('Error fetching categories:', error);

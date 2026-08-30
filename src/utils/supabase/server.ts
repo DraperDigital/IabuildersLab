@@ -4,9 +4,48 @@ import { cookies } from 'next/headers'
 export async function createClient() {
     const cookieStore = await cookies()
 
-    // Use real credentials if available, otherwise use placeholders to prevent crash during mock mode
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://mock.supabase.co';
-    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'mock-key';
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+    if (!supabaseUrl || !supabaseKey) {
+        return {
+            auth: {
+                getUser: async () => ({ data: { user: null }, error: null }),
+                getSession: async () => ({ data: { session: null }, error: null }),
+                signInWithPassword: async () => ({ data: { user: null, session: null }, error: { message: "Supabase no está configurado." } }),
+                signInWithOtp: async () => ({ data: null, error: { message: "Supabase no está configurado." } }),
+                signOut: async () => ({ error: null }),
+                signUp: async () => ({ data: { user: null, session: null }, error: { message: "Supabase no está configurado." } }),
+            },
+            from: () => ({
+                select: () => ({
+                    order: () => ({
+                        order: () => ({
+                            eq: () => ({
+                                single: async () => ({ data: null, error: null }),
+                            }),
+                            range: async () => ({ data: [], count: 0, error: null }),
+                        }),
+                        eq: () => ({
+                            single: async () => ({ data: null, error: null }),
+                        }),
+                        single: async () => ({ data: null, error: null }),
+                        range: async () => ({ data: [], count: 0, error: null }),
+                    }),
+                    eq: () => ({
+                        single: async () => ({ data: null, error: null }),
+                        order: () => ({ range: async () => ({ data: [], count: 0, error: null }) }),
+                    }),
+                    ilike: () => ({
+                        range: async () => ({ data: [], count: 0, error: null }),
+                    }),
+                    not: () => ({}),
+                    range: async () => ({ data: [], count: 0, error: null }),
+                }),
+                update: () => ({ eq: async () => ({ error: null }) }),
+            }),
+        } as any;
+    }
 
     const client = createServerClient(
         supabaseUrl,
@@ -22,14 +61,23 @@ export async function createClient() {
                             cookieStore.set(name, value, options)
                         )
                     } catch {
-                        // The `setAll` method was called from a Server Component.
-                        // This can be ignored if you have middleware refreshing
-                        // user sessions.
+                        // Ignore setAll in server components
                     }
                 },
             },
         }
     )
+
+    // Wrap auth.getUser to safely catch network errors when Supabase is unreachable
+    const originalGetUser = client.auth.getUser.bind(client.auth);
+    client.auth.getUser = async (...args: Parameters<typeof originalGetUser>) => {
+        try {
+            return await originalGetUser(...args);
+        } catch (err) {
+            console.error("Supabase getUser network error:", err);
+            return { data: { user: null }, error: err as any };
+        }
+    };
 
     // Check for mock session (only allowed in non-production environments)
     const isMock = process.env.NODE_ENV !== 'production' && cookieStore.get('mock_session')?.value === 'true';

@@ -66,7 +66,7 @@ export default async function AdminTagsPage() {
                                 </TableCell>
                             </TableRow>
                         ) : (
-                            tags?.map((tag) => (
+                            tags?.map((tag: any) => (
                                 <TableRow key={tag.id}>
                                     <TableCell className="font-medium">{tag.name}</TableCell>
                                     <TableCell>{tag.slug}</TableCell>

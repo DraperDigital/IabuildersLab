@@ -16,7 +16,7 @@ export function TagSelector({ selectedTags, onChange }: TagSelectorProps) {
 
     const loadOptions = (inputValue: string) => {
         return searchTags(inputValue).then(tags =>
-            tags.map(tag => ({ label: tag.name, value: tag.id, ...tag }))
+            tags.map((tag: any) => ({ label: tag.name, value: tag.id, ...tag }))
         );
     };
 

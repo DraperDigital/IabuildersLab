@@ -90,7 +90,7 @@ export async function listAttachments(contentId: string) {
     }
 
     // Enrich with public URLs
-    const attachmentsWithUrls = await Promise.all(data.map(async (file) => {
+    const attachmentsWithUrls = await Promise.all(data.map(async (file: any) => {
         const { data: { publicUrl } } = supabase.storage
             .from('content-attachments')
             .getPublicUrl(file.file_path);

@@ -117,7 +117,7 @@ export async function getRecentContent(limit = 5): Promise<{ data: any; error?: 
         }
 
         return {
-            data: data.map(item => ({
+            data: data.map((item: any) => ({
                 ...item,
                 status: item.status ? 'published' : 'draft'
             }))

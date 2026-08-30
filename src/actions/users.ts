@@ -67,7 +67,7 @@ export async function getUsers(filters?: { search?: string; page?: number; limit
 
         if (error) throw error;
 
-        const mappedData = data?.map(p => ({
+        const mappedData = data?.map((p: any) => ({
             id: p.id,
             email: p.email || p.id,
             profile: p

@@ -76,7 +76,7 @@ export async function getUsedTags(type?: string) {
         // Remove duplicates if any (though typically distinct tags should be returned, inner join might multiply rows?)
         // Supabase/Postgrest returns one row per parent if configured right, but with !inner it might act as filter.
         // Let's dedup just in case.
-        const uniqueTags = Array.from(new Map(data.map(item => [item.id, item])).values());
+        const uniqueTags = Array.from(new Map(data.map((item: any) => [item.id, item])).values());
 
         return { data: uniqueTags };
 
