@@ -7,7 +7,7 @@ import { cookies } from "next/headers";
 
 
 import { ALL_MOCK_CONTENT, addMockItem, updateMockItem, deleteMockItem } from "@/lib/mock-data";
-import { isSopItem } from "@/lib/utils";
+import { isSopItem, isSkillItem } from "@/lib/utils";
 
 // Keep local MOCK_CONTENT reference alias for internal use if needed
 const MOCK_CONTENT = ALL_MOCK_CONTENT;
@@ -90,12 +90,18 @@ export async function getContent(id: string) {
 
 
 // Helper to apply filters to mock/in-memory data
-function applyMockFilters(content: ContentItem[], filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; excludeCategories?: string[]; isSop?: boolean }) {
+function applyMockFilters(content: ContentItem[], filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; excludeCategories?: string[]; isSop?: boolean; isSkill?: boolean }) {
     let result = [...content];
 
-    if (filters?.isSop !== undefined) {
+    if (filters?.isSkill !== undefined) {
+        if (filters.isSkill) {
+            result = result.filter(c => isSkillItem(c));
+        } else {
+            result = result.filter(c => !isSkillItem(c));
+        }
+    } else if (filters?.isSop !== undefined) {
         if (filters.isSop) {
-            result = result.filter(c => isSopItem(c));
+            result = result.filter(c => isSopItem(c) && !isSkillItem(c));
         } else {
             result = result.filter(c => !isSopItem(c));
         }
@@ -121,7 +127,7 @@ function applyMockFilters(content: ContentItem[], filters?: { type?: string; sta
     return result;
 }
 
-export async function listContent(filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; page?: number; limit?: number; excludeCategories?: string[]; isSop?: boolean }) {
+export async function listContent(filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; page?: number; limit?: number; excludeCategories?: string[]; isSop?: boolean; isSkill?: boolean }) {
     const isMock = (await cookies()).get('mock_session')?.value === 'true';
 
     // Explicit mock check
@@ -208,9 +214,15 @@ export async function listContent(filters?: { type?: string; status?: string; se
             content = content.filter((item: any) => item.tags.some((t: any) => t.slug === filters.tag));
         }
 
-        if (filters?.isSop !== undefined) {
+        if (filters?.isSkill !== undefined) {
+            if (filters.isSkill) {
+                content = content.filter((item: any) => isSkillItem(item));
+            } else {
+                content = content.filter((item: any) => !isSkillItem(item));
+            }
+        } else if (filters?.isSop !== undefined) {
             if (filters.isSop) {
-                content = content.filter((item: any) => isSopItem(item));
+                content = content.filter((item: any) => isSopItem(item) && !isSkillItem(item));
             } else {
                 content = content.filter((item: any) => !isSopItem(item));
             }

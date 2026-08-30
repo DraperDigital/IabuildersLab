@@ -15,6 +15,7 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
     const resolvedParams = await searchParams;
     const tab = typeof resolvedParams.tab === 'string' ? resolvedParams.tab : 'audiovisual';
     const isSopTab = tab === 'sop';
+    const isSkillsTab = tab === 'skills';
     const category = typeof resolvedParams.category === 'string' ? resolvedParams.category : undefined;
     const tag = typeof resolvedParams.tag === 'string' ? resolvedParams.tag : undefined;
     const search = typeof resolvedParams.search === 'string' ? resolvedParams.search : undefined;
@@ -29,19 +30,21 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
         { data: tagsData }
     ] = await Promise.all([
         listContent({
-            type: isSopTab ? 'all' : 'prompt',
+            type: (isSopTab || isSkillsTab) ? 'all' : 'prompt',
             status: 'published',
             category,
             tag,
             search,
             page,
             limit,
-            isSop: isSopTab
+            isSop: isSopTab,
+            isSkill: isSkillsTab
         }),
         listContent({
-            type: isSopTab ? 'all' : 'prompt',
+            type: (isSopTab || isSkillsTab) ? 'all' : 'prompt',
             status: 'published',
             isSop: isSopTab,
+            isSkill: isSkillsTab,
             limit: 1000
         }),
         getDistinctCategories('prompt'),
@@ -62,10 +65,15 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
         "Marketing & Content",
         "Infrastructure & Local Environment",
         "Infrastructure & Growth Automation",
-        "Infrastructure & Open Source"
+        "Infrastructure & Open Source",
+        "Skills & CLI"
     ];
     const rawCategories = categoriesData || [];
-    const categories = rawCategories.filter(cat => isSopTab ? sopCategories.includes(cat) : !sopCategories.includes(cat));
+    const categories = rawCategories.filter(cat => {
+        if (isSkillsTab) return cat === "Skills & CLI";
+        if (isSopTab) return sopCategories.includes(cat) && cat !== "Skills & CLI";
+        return !sopCategories.includes(cat);
+    });
 
     // Filter tags dynamically to show only those in use by current tab
     const activeTagSlugs = new Set(allTabPrompts.flatMap(p => p.tags?.map(t => t.slug) || []));
@@ -100,14 +108,14 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
                             </p>
 
                             {/* Tab Bar */}
-                            <div className="flex border-b border-white/10 mb-8 gap-6">
+                            <div className="flex border-b border-white/10 mb-8 gap-6 flex-wrap">
                                 <Link
                                     href={{ pathname: '/prompts', query: { tab: 'audiovisual', search } }}
                                     prefetch={false}
-                                    className={`pb-3 text-lg font-medium transition-colors relative cursor-pointer ${!isSopTab ? 'text-white font-semibold' : 'text-slate-400 hover:text-white'}`}
+                                    className={`pb-3 text-lg font-medium transition-colors relative cursor-pointer ${tab === 'audiovisual' ? 'text-white font-semibold' : 'text-slate-400 hover:text-white'}`}
                                 >
                                     Prompts Audiovisuales
-                                    {!isSopTab && (
+                                    {tab === 'audiovisual' && (
                                         <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-purple-500"></div>
                                     )}
                                 </Link>
@@ -119,6 +127,16 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
                                     Sistemas de Prompting (SOP)
                                     {isSopTab && (
                                         <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-purple-500"></div>
+                                    )}
+                                </Link>
+                                <Link
+                                    href={{ pathname: '/prompts', query: { tab: 'skills', search } }}
+                                    prefetch={false}
+                                    className={`pb-3 text-lg font-medium transition-colors relative cursor-pointer ${isSkillsTab ? 'text-white font-semibold' : 'text-slate-400 hover:text-white'}`}
+                                >
+                                    Skills CLI (Claude & AGY)
+                                    {isSkillsTab && (
+                                        <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-emerald-400"></div>
                                     )}
                                 </Link>
                             </div>

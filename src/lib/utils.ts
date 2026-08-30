@@ -5,8 +5,24 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
+export function isSkillItem(item: any): boolean {
+    if (!item) return false;
+    const idStr = String(item.id || '').toLowerCase();
+    const slugStr = String(item.slug || '').toLowerCase();
+    const categoryStr = String(item.category || '');
+
+    return (
+        idStr.startsWith('skill-') ||
+        slugStr.startsWith('skill-') ||
+        categoryStr === 'Skills & CLI' ||
+        item.system_type === 'Claude / AGY Skill'
+    );
+}
+
 export function isSopItem(item: any): boolean {
     if (!item) return false;
+    if (isSkillItem(item)) return true;
+
     const idStr = String(item.id || '').toLowerCase();
     const slugStr = String(item.slug || '').toLowerCase();
     const titleLower = String(item.title || '').toLowerCase();
@@ -39,7 +55,8 @@ export function isSopItem(item: any): boolean {
         "Marketing & Content",
         "Infrastructure & Local Environment",
         "Infrastructure & Growth Automation",
-        "Infrastructure & Open Source"
+        "Infrastructure & Open Source",
+        "Skills & CLI"
     ];
 
     return (

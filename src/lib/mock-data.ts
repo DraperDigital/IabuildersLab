@@ -2,6 +2,7 @@ import { ContentItem } from "@/types/content";
 import { EXTRA_MOCK_PROMPTS } from "@/lib/extra-mock-prompts";
 import { COPY_LIBRARY_PROMPTS } from "@/lib/copy-library-data";
 import { HYBRID_TOP_PROMPTS } from "@/lib/hybrid-top-prompts";
+import { SKILLS_DATA } from "@/lib/skills-data";
 
 export const MOCK_SYSTEMS: ContentItem[] = [
     {
@@ -3718,6 +3719,7 @@ const transformMockItem = (item: any): ContentItemWithTags => ({
 
 // Mutable store for mock content
 export let ALL_MOCK_CONTENT: ContentItemWithTags[] = [
+    ...SKILLS_DATA.map(transformMockItem),
     ...HYBRID_TOP_PROMPTS.map(transformMockItem),
     ...MOCK_SYSTEMS.map(transformMockItem),
     ...MOCK_PROMPTS.map(transformMockItem),

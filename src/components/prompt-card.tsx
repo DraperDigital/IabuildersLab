@@ -1,12 +1,12 @@
 import { Link } from "@/i18n/routing";
 import { ContentItem } from "@/types/content";
 import { Badge } from "@/components/ui/badge";
-import { Lock, Image as ImageIcon } from "lucide-react";
+import { Lock, Image as ImageIcon, Terminal } from "lucide-react";
 import Image from "next/image";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
-import { isSopItem } from "@/lib/utils";
+import { isSopItem, isSkillItem } from "@/lib/utils";
 import { CopyButton } from "@/components/copy-button";
 
 interface PromptCardProps {
@@ -25,6 +25,7 @@ export function PromptCard({ prompt }: PromptCardProps) {
     };
 
     const promptCopyText = prompt.prompt_text || prompt.body_markdown || prompt.summary || prompt.title;
+    const isSkill = isSkillItem(prompt);
 
     if (isSopItem(prompt)) {
         const isSystemSop = prompt.id.startsWith('sop-') || prompt.title.toLowerCase().startsWith('sop:');
@@ -39,10 +40,16 @@ export function PromptCard({ prompt }: PromptCardProps) {
                             <Badge variant="outline" className={`${levelColors[prompt.level as keyof typeof levelColors || 'beginner']} border font-semibold text-xs`}>
                                 {common(prompt.level || 'beginner')}
                             </Badge>
-                            {prompt.category && (
-                                <Badge variant="outline" className="bg-slate-950/50 backdrop-blur-md border-white/20 text-white text-xs uppercase tracking-wider font-mono">
-                                    {prompt.category}
+                            {isSkill ? (
+                                <Badge variant="outline" className="bg-emerald-950/80 backdrop-blur-md border-emerald-500/40 text-emerald-400 text-xs font-mono flex items-center gap-1">
+                                    <Terminal className="w-3 h-3" /> CLAUDE & AGY SKILL
                                 </Badge>
+                            ) : (
+                                prompt.category && (
+                                    <Badge variant="outline" className="bg-slate-950/50 backdrop-blur-md border-white/20 text-white text-xs uppercase tracking-wider font-mono">
+                                        {prompt.category}
+                                    </Badge>
+                                )
                             )}
                         </div>
                         {prompt.is_featured && (
@@ -59,13 +66,14 @@ export function PromptCard({ prompt }: PromptCardProps) {
                 <CardFooter className="relative z-10 mt-auto pt-0 flex gap-2">
                     <Link href={`/prompts/${prompt.slug}`} className="flex-1">
                         <Button className="w-full tech-gradient group-hover:glow-effect transition-all cursor-pointer font-semibold text-xs">
-                            {isSystemSop ? "Leer Sistema" : "Leer Prompt"}
+                            {isSkill ? "Ver Skill CLI" : (isSystemSop ? "Leer Sistema" : "Leer Prompt")}
                         </Button>
                     </Link>
                     <CopyButton
                         text={promptCopyText}
                         variant="secondary"
                         size="sm"
+                        label={isSkill ? "Copiar Skill" : "Copiar"}
                         className="border-purple-500/30 bg-slate-950/80 hover:bg-purple-500/20 text-purple-200"
                     />
                 </CardFooter>
