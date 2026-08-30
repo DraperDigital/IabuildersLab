@@ -317,7 +317,6 @@ ESTRUCTURA DE TRANSICIÓN:
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
-        featured_image_url: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=1000&auto=format&fit=crop",
         prompt_text: `Commercial studio photography of a luxury crystal perfume bottle on a reflective black obsidian stone table, dramatic chiaroscuro lighting, soft purple and gold light leaks, water droplets on glass, cinematic depth of field, 8k resolution, shot on Hasselblad H6D-100c --ar 4:5 --style raw --v 6.1`,
         body_markdown: `
 # Cinematic Dark Elegance: Luxury Glass Perfume Bottle
@@ -349,7 +348,6 @@ Commercial studio photography of a luxury crystal perfume bottle on a reflective
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
-        featured_image_url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop",
         prompt_text: `Editorial magazine portrait of a confident tech founder in a sleek dark tailored suit, high-end studio lighting, soft Rembrandt side light, subtle purple backlighting, shot on 85mm f/1.4 lens, crisp details, natural skin texture, Forbes magazine cover style --ar 4:5 --v 6.1`,
         body_markdown: `
 # High-End Founder Editorial Portrait (85mm Lens)
@@ -381,7 +379,6 @@ Editorial magazine portrait of a confident tech founder in a sleek dark tailored
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
-        featured_image_url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
         prompt_text: `3D isometric render of a modern AI SaaS analytics dashboard UI floating in dark space, frosted glassmorphism cards, glowing violet and cyan neon charts, smooth rounded corners, Octane Render, 8k resolution, minimalist tech aesthetic --ar 4:5 --v 6.1`,
         body_markdown: `
 # Isometric Floating 3D Dark Mode AI Analytics Dashboard
@@ -413,7 +410,6 @@ Prompt para generar mockups UI/UX 3D y gráficos futuristas para landing pages y
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
-        featured_image_url: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000&auto=format&fit=crop",
         prompt_text: `Minimalist studio macro photography of a matte black custom mechanical keyboard, subtle purple RGB backlight glowing between keycaps, dark slate desk surface, clean arrangement, shot on Sony A7IV 90mm macro lens --ar 4:5 --v 6.1`,
         body_markdown: `
 # Minimalist Matte Black Mechanical Keyboard Studio Close-up
@@ -445,7 +441,6 @@ Minimalist studio macro photography of a matte black custom mechanical keyboard,
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
-        featured_image_url: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1000&auto=format&fit=crop",
         prompt_text: `Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercomputer server hall, glowing neon purple and deep blue fiber optic cables, reflection on polished dark floor, vanishing point perspective, volumetric haze, 8k --ar 4:5 --v 6.1`,
         body_markdown: `
 # Next-Gen Quantum AI Server Infrastructure Core
