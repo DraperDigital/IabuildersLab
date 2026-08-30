@@ -310,6 +310,7 @@ ESTRUCTURA DE TRANSICIÓN:
         summary: "Fotografía de estudio de alta gama para perfumería y cosmética de lujo con iluminación dramática chiaroscuro, reflejos de agua en cristal obsidian y sombras suaves.",
         category: "Fotografía de Producto",
         system_type: "Midjourney v6",
+        featured_image_url: "/images/cases/focal-earring.jpg",
         process_state: "Estudio",
         level: "intermediate",
         is_published: true,
@@ -348,6 +349,7 @@ Commercial studio photography of a luxury crystal perfume bottle on a reflective
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
+        featured_image_url: "/images/cases/power-suit-portrait.jpg",
         prompt_text: `Editorial magazine portrait of a confident tech founder in a sleek dark tailored suit, high-end studio lighting, soft Rembrandt side light, subtle purple backlighting, shot on 85mm f/1.4 lens, crisp details, natural skin texture, Forbes magazine cover style --ar 4:5 --v 6.1`,
         body_markdown: `
 # High-End Founder Editorial Portrait (85mm Lens)
@@ -379,6 +381,7 @@ Editorial magazine portrait of a confident tech founder in a sleek dark tailored
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
+        featured_image_url: "/images/cases/code-style-card.jpg",
         prompt_text: `3D isometric render of a modern AI SaaS analytics dashboard UI floating in dark space, frosted glassmorphism cards, glowing violet and cyan neon charts, smooth rounded corners, Octane Render, 8k resolution, minimalist tech aesthetic --ar 4:5 --v 6.1`,
         body_markdown: `
 # Isometric Floating 3D Dark Mode AI Analytics Dashboard
@@ -410,6 +413,7 @@ Prompt para generar mockups UI/UX 3D y gráficos futuristas para landing pages y
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
+        featured_image_url: "/images/cases/anime-figure-desk.jpg",
         prompt_text: `Minimalist studio macro photography of a matte black custom mechanical keyboard, subtle purple RGB backlight glowing between keycaps, dark slate desk surface, clean arrangement, shot on Sony A7IV 90mm macro lens --ar 4:5 --v 6.1`,
         body_markdown: `
 # Minimalist Matte Black Mechanical Keyboard Studio Close-up
@@ -441,6 +445,7 @@ Minimalist studio macro photography of a matte black custom mechanical keyboard,
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
+        featured_image_url: "/images/cases/cyberpunk-fashion.jpg",
         prompt_text: `Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercomputer server hall, glowing neon purple and deep blue fiber optic cables, reflection on polished dark floor, vanishing point perspective, volumetric haze, 8k --ar 4:5 --v 6.1`,
         body_markdown: `
 # Next-Gen Quantum AI Server Infrastructure Core

@@ -93,7 +93,7 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
                 <div className="flex flex-col lg:flex-row gap-12">
 
                     {/* Main Content (Gallery) */}
-                    <div className="flex-1 order-2 lg:order-1">
+                    <div className="flex-1">
                         <div className="mb-8">
                             <Link href="/" className="inline-flex items-center gap-2 text-slate-400 hover:text-white transition-colors mb-6">
                                 <ArrowLeft className="h-4 w-4" />
@@ -162,7 +162,7 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
                     </div>
 
                     {/* Sidebar (Right Column) */}
-                    <aside className="w-full lg:w-80 order-1 lg:order-2 shrink-0">
+                    <aside className="w-full lg:w-80 shrink-0">
                         <PromptSidebar categories={categories} tags={tags} />
                     </aside>
                 </div>
