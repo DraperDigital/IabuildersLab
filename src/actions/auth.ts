@@ -8,13 +8,13 @@ export async function login(formData: FormData) {
     const email = formData.get('email') as string;
     const password = formData.get('password') as string;
 
-    // Mock Login Bypass
-    if (email === 'admin@mock.com' && password === 'mock') {
+    // Mock Login Bypass (Development / Local Testing Only)
+    if (process.env.NODE_ENV !== 'production' && email === 'admin@mock.com' && password === 'mock') {
         const cookieStore = await cookies();
         cookieStore.set('mock_session', 'true', {
             path: '/',
             httpOnly: true,
-            secure: process.env.NODE_ENV === 'production',
+            secure: false,
             maxAge: 60 * 60 * 24 * 7, // 1 week
         });
         return redirect('/en/admin');

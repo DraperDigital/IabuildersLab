@@ -31,8 +31,8 @@ export async function createClient() {
         }
     )
 
-    // Check for mock session
-    const isMock = cookieStore.get('mock_session')?.value === 'true';
+    // Check for mock session (only allowed in non-production environments)
+    const isMock = process.env.NODE_ENV !== 'production' && cookieStore.get('mock_session')?.value === 'true';
 
     if (isMock) {
         // Proxy the client to intercept auth calls

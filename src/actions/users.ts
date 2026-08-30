@@ -6,7 +6,7 @@ import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 
 export async function getUsers(filters?: { search?: string; page?: number; limit?: number }) {
-    const isMock = (await cookies()).get('mock_session')?.value === 'true';
+    const isMock = process.env.NODE_ENV !== 'production' && (await cookies()).get('mock_session')?.value === 'true';
     if (isMock) {
         return {
             data: [
@@ -14,7 +14,7 @@ export async function getUsers(filters?: { search?: string; page?: number; limit
                     id: 'u1',
                     email: 'admin@example.com',
                     profile: {
-                        user_id: 'u1', // profile often has user_id as FK, but PK might be id
+                        user_id: 'u1',
                         id: 'u1',
                         role: 'admin',
                         plan: 'pro',
@@ -42,12 +42,17 @@ export async function getUsers(filters?: { search?: string; page?: number; limit
 
     try {
         const supabase = await createClient();
+        const { data: { user }, error: authError } = await supabase.auth.getUser();
+
+        if (authError || !user) {
+            return { data: [], count: 0, totalPages: 0, error: 'Acceso no autorizado' };
+        }
+
         const page = filters?.page || 1;
         const limit = filters?.limit || 20;
         const from = (page - 1) * limit;
         const to = from + limit - 1;
 
-        // Fetch profiles. Note: In this schema, profile 'id' is the user's UUID.
         let query = supabase
             .from('profiles')
             .select('*', { count: 'exact' })
@@ -62,22 +67,9 @@ export async function getUsers(filters?: { search?: string; page?: number; limit
 
         if (error) throw error;
 
-        // Transform to match the shape expected by UI if needed, but for now passing profiles as users
-        // The UI expects { id, email, profile: { ... } } roughly?
-        // Actually the UI code I saw mapped users.map(user => user.email)
-        // Check UI again: users?.map((user) => <TableCell>{user.email}</TableCell> ... initialRole={user.profile?.role})
-        // Real Supabase profiles table usually doesn't have email unless we sync it or join auth.users (hard)
-        // For simplicity, we'll return the profile AS the user object, and email might be missing or we use a fallback.
-        // OR we can rely on 'email' column if it exists in profiles (check schema.sql).
-        // Checking schema.sql (memory): create table public.profiles ( id uuid references auth.users ... )
-        // It does NOT have email.
-        // HACK: For now, we'll return ID as email fallback or fetch email if possible?
-        // Getting email from auth.users requires admin API.
-        // Let's just return the profile and in UI display ID if email missing.
-
         const mappedData = data?.map(p => ({
             id: p.id,
-            email: p.id, // Fallback since we can't easily get email without service role
+            email: p.email || p.id,
             profile: p
         }));
 
@@ -87,7 +79,7 @@ export async function getUsers(filters?: { search?: string; page?: number; limit
             totalPages: count ? Math.ceil(count / limit) : 0
         };
     } catch (error: any) {
-        console.error('Error fetching users, using mock data:', error);
+        console.error('Error fetching users:', error);
         return {
             data: [],
             count: 0,
@@ -99,6 +91,26 @@ export async function getUsers(filters?: { search?: string; page?: number; limit
 
 export async function updateUserRole(userId: string, role: UserRole) {
     const supabase = await createClient();
+
+    // Check caller authentication
+    const { data: { user }, error: authError } = await supabase.auth.getUser();
+    if (authError || !user) {
+        return { error: 'No autorizado: Sesión requerida' };
+    }
+
+    // Check if caller is admin (allow in mock mode during dev)
+    const isMock = process.env.NODE_ENV !== 'production' && (await cookies()).get('mock_session')?.value === 'true';
+    if (!isMock) {
+        const { data: callerProfile } = await supabase
+            .from('profiles')
+            .select('role')
+            .eq('id', user.id)
+            .single();
+
+        if (callerProfile?.role !== 'admin') {
+            return { error: 'Prohibido: Se requieren privilegios de Administrador' };
+        }
+    }
 
     // Use 'id' as it is the primary key and matches auth.uid() in profiles table
     const { error } = await supabase
@@ -117,6 +129,26 @@ export async function updateUserRole(userId: string, role: UserRole) {
 
 export async function updateUserPlan(userId: string, plan: SubscriptionPlan | null) {
     const supabase = await createClient();
+
+    // Check caller authentication
+    const { data: { user }, error: authError } = await supabase.auth.getUser();
+    if (authError || !user) {
+        return { error: 'No autorizado: Sesión requerida' };
+    }
+
+    // Check if caller is admin (allow in mock mode during dev)
+    const isMock = process.env.NODE_ENV !== 'production' && (await cookies()).get('mock_session')?.value === 'true';
+    if (!isMock) {
+        const { data: callerProfile } = await supabase
+            .from('profiles')
+            .select('role')
+            .eq('id', user.id)
+            .single();
+
+        if (callerProfile?.role !== 'admin') {
+            return { error: 'Prohibido: Se requieren privilegios de Administrador' };
+        }
+    }
 
     const { error } = await supabase
         .from('profiles')
