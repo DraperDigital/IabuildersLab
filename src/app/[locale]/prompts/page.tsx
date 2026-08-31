@@ -7,6 +7,7 @@ import { Link } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { PublicHeader } from "@/components/public-header";
 import { Pagination } from "@/components/ui/pagination";
+import { HostingerBanner } from "@/components/hostinger-banner";
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -140,6 +141,9 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
                                     )}
                                 </Link>
                             </div>
+
+                            {/* Hostinger Affiliate / Infrastructure Banner */}
+                            <HostingerBanner className="mb-8" />
                         </div>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

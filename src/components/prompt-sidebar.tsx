@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Search, X, Star, Filter, Briefcase, Video, Signal, Zap } from "lucide-react";
+import { Search, X, Star, Filter, Briefcase, Video, Signal, Zap, Server, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";
@@ -261,6 +261,31 @@ function SidebarContent({ categories, tags, onNavigate }: SidebarContentProps) {
                     </div>
                 </div>
             )}
+
+            {/* Hostinger Sidebar Referral Widget */}
+            <div className="pt-4 border-t border-slate-800">
+                <div className="p-4 rounded-xl bg-gradient-to-br from-purple-950/80 via-indigo-950/80 to-slate-950 border border-purple-500/30 text-white space-y-3 shadow-lg">
+                    <div className="flex items-center gap-2">
+                        <Server className="h-4 w-4 text-purple-400" />
+                        <span className="font-bold text-[11px] uppercase tracking-wider text-purple-300">Infraestructura IA</span>
+                    </div>
+                    <h4 className="text-sm font-bold text-white leading-snug">
+                        Hosting para tus Automatizaciones & Web
+                    </h4>
+                    <p className="text-xs text-slate-300 leading-relaxed font-light">
+                        Aloja hasta 50 webs y sistemas con dominio gratis y 20% de descuento.
+                    </p>
+                    <a
+                        href="https://www.hostinger.com/mx?REFERRALCODE=1JOSE0514"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex w-full items-center justify-center gap-2 px-3 py-2 rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs transition-colors shadow-md group"
+                    >
+                        <span>Ver Hostinger MX</span>
+                        <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
+                    </a>
+                </div>
+            </div>
         </div>
     );
 }

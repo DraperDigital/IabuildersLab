@@ -9,6 +9,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import ReactMarkdown from "react-markdown";
 import { CopyButton } from "@/components/copy-button";
+import { HostingerBanner } from "@/components/hostinger-banner";
 
 const markdownComponents = {
     h1: ({ children }: any) => <h1 className="text-3xl font-extrabold text-white mb-6 border-b border-purple-500/20 pb-3">{children}</h1>,
@@ -120,6 +121,9 @@ export function TextPromptView({ prompt, prevPrompt, nextPrompt, categories, tag
                         </div>
                     </div>
                 )}
+
+                {/* Hostinger Hosting & Infrastructure CTA */}
+                <HostingerBanner className="mb-12" />
 
                 {/* The Prompt Box (Main Feature) */}
                 <div className="mb-12">
