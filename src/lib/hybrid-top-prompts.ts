@@ -611,5 +611,82 @@ Cinematic professional studio tight head-and-shoulders portrait of a calm intens
 \`\`\`
 `,
         tags: ["Midjourney", "Editorial", "Sci-Fi", "Laser", "Retratos"] as any
+    },
+    {
+        id: "prompt-pop-art-sticker-bomb-portrait",
+        type: "prompt",
+        title: "Pop-Art Avant-Garde: Vintage Sticker Bomb Beauty Portrait",
+        slug: "pop-art-avant-garde-sticker-bomb-portrait",
+        summary: "Retrato editorial de alta moda con intervención avant-garde estilo 'sticker-bomb' facial. Collage denso de pegatinas vintage, bandas de rock y logos pop siguiendo la curvatura de la piel sobre fondo neutro de estudio.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/pop-art-sticker-bomb-portrait.jpg",
+        prompt_text: `High-end editorial beauty centered head-and-shoulders portrait of a woman in a matte black high-neck turtleneck, face covered in a dense layered collage of colorful vintage brand stickers, rock band logos, typography and mini pop-art graphics conforming smoothly to facial features with realistic adhesive texture and tiny paper shadows, natural editorial makeup visible around eyes, soft off-white seamless studio backdrop, gentle front studio lighting, subtle film grain, shot on Hasselblad H6D-100c 100mm lens --ar 4:5 --style raw --v 6.1`,
+        body_markdown: `
+# Pop-Art Avant-Garde: Vintage Sticker Bomb Beauty Portrait
+
+Prompt editorial vanguardista de moda urbana y Pop-Art con textura ultra-realista de calcomanías/pegatinas vintage adheridas al rostro respetando relieve facial y sombra de papel.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+High-end editorial beauty centered head-and-shoulders portrait of a woman in a matte black high-neck turtleneck, face covered in a dense layered collage of colorful vintage brand stickers, rock band logos, typography and mini pop-art graphics conforming smoothly to facial features with realistic adhesive texture and tiny paper shadows, natural editorial makeup visible around eyes, soft off-white seamless studio backdrop, gentle front studio lighting, subtle film grain, shot on Hasselblad H6D-100c 100mm lens --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura JSON para Modelos de Generación Avanzada (DALL-E 3 / API / Structured Generation)
+
+\`\`\`json
+{
+  "subject": {
+    "description": "Woman from reference, exact facial identity, structure and proportions preserved.",
+    "expression": "strong fashion presence, slightly lifted chin, mouth slightly open",
+    "face": { "preserve_original": true, "makeup": "natural editorial" }
+  },
+  "clothing": {
+    "top": {
+      "type": "structured high-neck garment",
+      "color": "matte black",
+      "details": "minimal clean silhouette"
+    }
+  },
+  "accessories": {
+    "prop": {
+      "type": "colorful sticker collage",
+      "details": "dense layered vintage logos, typography, symbols and mini illustrations covering most of face; stickers follow facial curvature with realistic adhesive texture, edge lift and tiny shadows; eyes remain visible and lips partially visible"
+    }
+  },
+  "photography": {
+    "camera_style": "high-end editorial beauty photography",
+    "angle": "frontal eye-level",
+    "shot_type": "centered head-and-shoulders",
+    "aspect_ratio": "4:5 vertical",
+    "texture": "sharp photorealism, subtle film grain, cinematic texture"
+  },
+  "background": {
+    "setting": "minimal studio",
+    "wall_color": "soft off-white or pale gray",
+    "atmosphere": "artistic fashion magazine"
+  },
+  "lighting": {
+    "type": "soft directional studio light",
+    "direction": "front",
+    "quality": "gentle contrast, natural highlights",
+    "shadows": "subtle under jaw and cheekbones"
+  }
+}
+\`\`\`
+`,
+        tags: ["Midjourney", "Editorial", "Pop-Art", "Stickers", "Moda"] as any
     }
 ];
