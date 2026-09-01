@@ -34,11 +34,18 @@ export function FrameworkAnalysis({ promptText }: FrameworkAnalysisProps) {
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
                 {FRAMEWORK_DEFINITIONS.map((def) => {
-                    const data = frameworkData[def.key];
+                    // Search for key or alias in frameworkData
+                    let data = null;
+                    for (const k of def.aliases) {
+                        if (frameworkData[k]) {
+                            data = frameworkData[k];
+                            break;
+                        }
+                    }
                     if (!data) return null;
 
                     return (
-                        <Card key={def.key} className="bg-slate-900/50 border-slate-800 hover:border-indigo-500/30 transition-all duration-300 group overflow-hidden relative">
+                        <Card key={def.letter} className="bg-slate-900/50 border-slate-800 hover:border-indigo-500/30 transition-all duration-300 group overflow-hidden relative">
                             {/* Header */}
                             <div className="p-4 border-b border-slate-800/50 bg-slate-900/30">
                                 <div className="flex items-center gap-3">
@@ -47,7 +54,7 @@ export function FrameworkAnalysis({ promptText }: FrameworkAnalysisProps) {
                                     </div>
                                     <div>
                                         <h4 className="text-slate-200 font-semibold text-sm">{def.title}</h4>
-                                        <p className="text-slate-600 text-[10px] uppercase tracking-wider font-medium">Concepto</p>
+                                        <p className="text-slate-600 text-[10px] uppercase tracking-wider font-medium">Dimensión REALISMO</p>
                                     </div>
                                 </div>
                             </div>
@@ -55,16 +62,20 @@ export function FrameworkAnalysis({ promptText }: FrameworkAnalysisProps) {
                             {/* Content */}
                             <div className="p-4">
                                 <div className="space-y-3">
-                                    {Object.entries(data).map(([key, value]) => (
-                                        <div key={key}>
-                                            <p className="text-slate-500 text-xs mb-1 capitalize border-b border-slate-800/50 pb-1 inline-block border-dashed hover:text-slate-400 transition-colors cursor-help" title={`Propiedad específica del framework`}>
-                                                {key.replace(/_/g, ' ')}
-                                            </p>
-                                            <p className="text-slate-300 text-sm leading-relaxed font-light">
-                                                {String(value)}
-                                            </p>
-                                        </div>
-                                    ))}
+                                    {typeof data === 'string' ? (
+                                        <p className="text-slate-300 text-sm leading-relaxed font-light">{data}</p>
+                                    ) : (
+                                        Object.entries(data).map(([key, value]) => (
+                                            <div key={key}>
+                                                <p className="text-slate-500 text-xs mb-1 capitalize border-b border-slate-800/50 pb-1 inline-block border-dashed hover:text-slate-400 transition-colors cursor-help" title={`Propiedad específica del framework`}>
+                                                    {key.replace(/_/g, ' ')}
+                                                </p>
+                                                <p className="text-slate-300 text-sm leading-relaxed font-light">
+                                                    {String(value)}
+                                                </p>
+                                            </div>
+                                        ))
+                                    )}
                                 </div>
                             </div>
 
@@ -80,51 +91,51 @@ export function FrameworkAnalysis({ promptText }: FrameworkAnalysisProps) {
 
 const FRAMEWORK_DEFINITIONS = [
     {
-        key: "R_Render_del_Avatar",
         letter: "R",
-        title: "Render",
+        title: "Render / Avatar",
+        aliases: ["R_Render_del_Avatar", "R_Render", "Render_del_Avatar", "Render", "R"],
         colorClass: "text-rose-400 border-rose-500/20 bg-rose-500/10"
     },
     {
-        key: "E_Entorno",
         letter: "E",
         title: "Entorno",
+        aliases: ["E_Entorno", "Entorno", "E"],
         colorClass: "text-emerald-400 border-emerald-500/20 bg-emerald-500/10"
     },
     {
-        key: "A_Accion_Postura",
         letter: "A",
-        title: "Acción",
+        title: "Acción / Postura",
+        aliases: ["A_Accion_Postura", "A_Accion", "Accion_Postura", "Accion", "A"],
         colorClass: "text-amber-400 border-amber-500/20 bg-amber-500/10"
     },
     {
-        key: "I_Iluminacion",
-        letter: "I",
-        title: "Iluminación",
-        colorClass: "text-yellow-300 border-yellow-400/20 bg-yellow-400/10"
-    },
-    {
-        key: "S_Sensacion_Atmosfera",
-        letter: "S",
-        title: "Sensación",
-        colorClass: "text-cyan-400 border-cyan-500/20 bg-cyan-500/10"
-    },
-    {
-        key: "E_visual_EstiloVisual",
-        letter: "E",
-        title: "Estilo",
+        letter: "L",
+        title: "Lenguaje Visual",
+        aliases: ["L_Lenguaje_Visual", "Lenguaje_Visual", "E_visual_EstiloVisual", "EstiloVisual", "L"],
         colorClass: "text-pink-400 border-pink-500/20 bg-pink-500/10"
     },
     {
-        key: "M_Composicion_Camara",
+        letter: "I",
+        title: "Iluminación",
+        aliases: ["I_Iluminacion", "Iluminacion", "I"],
+        colorClass: "text-yellow-300 border-yellow-400/20 bg-yellow-400/10"
+    },
+    {
+        letter: "S",
+        title: "Sensación / Atmósfera",
+        aliases: ["S_Sensacion_Atmosfera", "S_Sensacion", "Sensacion_Atmosfera", "Sensacion", "S"],
+        colorClass: "text-cyan-400 border-cyan-500/20 bg-cyan-500/10"
+    },
+    {
         letter: "M",
-        title: "Composición",
+        title: "Composición / Cámara",
+        aliases: ["M_Composicion_Camara", "M_Composicion", "Composicion_Camara", "Composicion", "M"],
         colorClass: "text-violet-400 border-violet-500/20 bg-violet-500/10"
     },
     {
-        key: "P_Postproduccion",
-        letter: "P",
-        title: "Postproducción",
+        letter: "O",
+        title: "Optimización final",
+        aliases: ["O_Optimizacion_final", "Optimizacion_final", "P_Postproduccion", "Postproduccion", "O", "P"],
         colorClass: "text-blue-400 border-blue-500/20 bg-blue-500/10"
     }
 ];
