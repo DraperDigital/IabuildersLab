@@ -966,5 +966,75 @@ Vogue magazine high-fashion extreme close-up intimate portrait of an elegant blo
 \`\`\`
 `,
         tags: ["Midjourney", "Editorial", "Vogue", "Retratos", "Nupcial"] as any
+    },
+    {
+        id: "prompt-white-cobra-fine-art-macro-portrait",
+        type: "prompt",
+        title: "Primal Intimacy: White Cobra Macro Fine-Art Portrait",
+        slug: "primal-intimacy-white-cobra-macro-portrait",
+        summary: "Retrato fotográfico macro hiperrealista de alta intensidad. Un sujeto femenino con pecas naturales y mirada serena con una cobra blanca albina enroscada en el cuello y su cabeza erguida frente al rostro.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/white-cobra-fine-art-macro-portrait.jpg",
+        prompt_text: `Hyper-realistic fine-art macro tight close-up portrait of a fearless calm woman with natural skin texture and freckles, a pristine white albino cobra coiled around her neck with its hood partially expanded near her nose and lips, visible tiny forked tongue, glossy black reflective cobra eyes, dark charcoal seamless backdrop, soft side directional studio lighting sculpting scales and pores, shot on Sony A7R V 100mm f/2.8 macro lens --ar 4:5 --style raw --v 6.1`,
+        body_markdown: `
+# Primal Intimacy: White Cobra Macro Fine-Art Portrait
+
+Prompt macro fotográfico de bellas artes e hiperrealismo con textura de piel con pecas, escamas de reptil albino en marfil brillante y profundidad de campo extremadamente corta.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Hyper-realistic fine-art macro tight close-up portrait of a fearless calm woman with natural skin texture and freckles, a pristine white albino cobra coiled around her neck with its hood partially expanded near her nose and lips, visible tiny forked tongue, glossy black reflective cobra eyes, dark charcoal seamless backdrop, soft side directional studio lighting sculpting scales and pores, shot on Sony A7R V 100mm f/2.8 macro lens --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura JSON para Modelos de Generación Avanzada (DALL-E 3 / API / Structured Generation)
+
+\`\`\`json
+{
+  "subject": {
+    "description": "Woman from the uploaded reference, exact facial identity and proportions preserved, with a white cobra coiled closely around her neck and partially across her face.",
+    "age": "same as reference",
+    "expression": "calm, fearless, emotionally controlled gaze directly at camera",
+    "face": { "preserve_original": true, "makeup": "minimal, natural skin texture" }
+  },
+  "accessories": {
+    "prop": {
+      "type": "white cobra",
+      "details": "ivory and pale pearl scales, partially expanded hood beside face, head elevated near nose and lips, subtle forked tongue visible, glossy black reflective eyes"
+    }
+  },
+  "photography": {
+    "camera_style": "hyper-realistic fine-art macro photography",
+    "angle": "frontal macro perspective",
+    "shot_type": "extreme close-up cropped above forehead and below chin",
+    "aspect_ratio": "4:5 vertical",
+    "texture": "100mm macro lens aesthetic, f/2.8, extremely shallow depth of field, pores and individual scales sharply rendered"
+  },
+  "background": {
+    "setting": "seamless dark studio",
+    "wall_color": "charcoal",
+    "atmosphere": "primal, intimate, tense"
+  },
+  "lighting": {
+    "type": "soft directional macro studio light",
+    "direction": "from one side",
+    "quality": "sculpted, controlled specular highlights"
+  }
+}
+\`\`\`
+`,
+        tags: ["Midjourney", "Fine Art", "Macro", "Retratos", "Naturaleza"] as any
     }
 ];
