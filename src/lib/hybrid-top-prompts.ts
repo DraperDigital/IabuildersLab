@@ -536,5 +536,80 @@ Cinematic high-contrast editorial head-and-shoulders 3/4 portrait of an intense 
 \`\`\`
 `,
         tags: ["Midjourney", "Editorial", "Retratos", "Chiaroscuro", "Moda"] as any
+    },
+    {
+        id: "prompt-vertical-red-laser-portrait",
+        type: "prompt",
+        title: "Cybernetic Noir: Vertical Red Laser Line Editorial Portrait",
+        slug: "cybernetic-noir-vertical-red-laser-portrait",
+        summary: "Retrato editorial de alta precisión cibernética sobre fondo azul profundo con rayo láser rojo vertical cruzando un ojo, iluminación direccional y contraste de tono frío vs cálido.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/vertical-red-laser-portrait.jpg",
+        prompt_text: `Cinematic professional studio tight head-and-shoulders portrait of a calm intense woman in a matte black high-neck turtleneck, thin vibrant saturated vertical red laser beam slicing across her eye with realistic skin reflections, deep blue seamless backdrop fading to black, cool rim lighting on hair and shoulders, directional front key light, razor-sharp facial details, shot on Sony A7R V 85mm f/1.4 lens --ar 4:5 --style raw --v 6.1`,
+        body_markdown: `
+# Cybernetic Noir: Vertical Red Laser Line Editorial Portrait
+
+Prompt editorial cinemático estilo Cyberpunk / Sci-Fi elegante con proyección de rayo láser rojo vertical de precisión cruzando el rostro y textura hiperdetallada de piel.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Cinematic professional studio tight head-and-shoulders portrait of a calm intense woman in a matte black high-neck turtleneck, thin vibrant saturated vertical red laser beam slicing across her eye with realistic skin reflections, deep blue seamless backdrop fading to black, cool rim lighting on hair and shoulders, directional front key light, razor-sharp facial details, shot on Sony A7R V 85mm f/1.4 lens --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura JSON para Modelos de Generación Avanzada (DALL-E 3 / API / Structured Generation)
+
+\`\`\`json
+{
+  "subject": {
+    "description": "Woman from reference, exact facial identity, proportions and structure preserved.",
+    "expression": "calm, intense, controlled gaze toward camera",
+    "face": { "preserve_original": true, "makeup": "minimal editorial" }
+  },
+  "clothing": {
+    "top": {
+      "type": "minimal structured high-neck garment",
+      "color": "matte black",
+      "details": "clean silhouette"
+    }
+  },
+  "photography": {
+    "camera_style": "cinematic professional studio portrait",
+    "angle": "slightly low-angle head-and-shoulders",
+    "shot_type": "tight portrait",
+    "aspect_ratio": "4:5 vertical",
+    "texture": "ultra high resolution, razor-sharp facial detail"
+  },
+  "background": {
+    "setting": "dark moody studio",
+    "wall_color": "deep blue fading toward black",
+    "atmosphere": "dramatic cinematic"
+  },
+  "lighting": {
+    "type": "directional cinematic lighting",
+    "direction": "slightly above front",
+    "shadows": "deep but detailed beneath jaw and across one side",
+    "rim_light": "strong cool backlight outlining hair and shoulders"
+  },
+  "prop": {
+    "type": "laser",
+    "details": "thin saturated red vertical beam crossing one eye, subtle glow and realistic red reflection on nearby skin"
+  }
+}
+\`\`\`
+`,
+        tags: ["Midjourney", "Editorial", "Sci-Fi", "Laser", "Retratos"] as any
     }
 ];
