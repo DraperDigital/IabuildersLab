@@ -478,7 +478,24 @@ Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercom
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-edgy-streetwear-bouquet.png",
-        prompt_text: `Centered medium portrait of a young adult woman with long red hair and natural freckles, confident neutral expression, chin slightly raised looking slightly downward toward camera, holding a large organic bouquet of red gerberas, white carnations and light blue flowers firmly against her chest, wearing an oversized sleeveless black tee with a distressed rectangular red chest graphic, heavy silver chain with circular pendant, chunky rings and metallic watch, solid deep saturated blue studio backdrop, hard directional lighting from upper side with crisp highlights and pronounced chin shadow, edgy contemporary fashion editorial aesthetic --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "REAISEMP": {
+    "R": "Use uploaded portrait only as exact facial identity reference; preserve facial structure, proportions and natural skin texture.",
+    "E": "Young adult woman, confident neutral expression, chin slightly raised, looking slightly downward toward camera.",
+    "A": "Holding a large vibrant bouquet firmly against her chest.",
+    "I": "Oversized sleeveless black tee, distressed rectangular red chest graphic, heavy silver chain, circular pendant, chunky rings, metallic bracelet/watch, black studded strap.",
+    "S": "Centered medium portrait against a solid deep saturated blue studio backdrop.",
+    "E2": "Hard directional light from upper side, crisp highlights on face and flowers, pronounced chin shadow, strong contrast.",
+    "M": "Edgy contemporary fashion editorial, saturated red/blue/black palette, ultra-photorealistic."
+  },
+  "photography": {
+    "camera": "professional editorial camera, 50mm portrait look",
+    "aspect_ratio": "4:5",
+    "focus": "sharp face and flowers, realistic microtexture",
+    "finish": "high-resolution fashion photography, no artificial skin smoothing"
+  },
+  "prop": "organic bouquet of red gerberas, white carnations and light blue flowers"
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Edgy Streetwear & Blue Studio Floral Portrait
 
@@ -535,7 +552,23 @@ Centered medium portrait of a young adult woman with long red hair and natural f
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-vintage-sticker-bomb-portrait.png",
-        prompt_text: `Centered head-and-shoulders portrait of a young adult woman with long red hair and natural freckles, chin slightly lifted with mouth slightly open, wearing a structured matte-black high-neck turtleneck, face covered in a dense curated collage of colorful vintage brand stickers, logos and typography following facial curvature with realistic paper overlap and adhesive shadows, eyes and lips remaining visible, smooth off-white studio background, soft directional front beauty lighting, slight desaturation, subtle film grain, editorial fashion magazine aesthetic --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "REAISEMP": {
+    "R": "Use uploaded portrait as exact facial identity reference; preserve all facial proportions and features.",
+    "E": "Young adult woman, centered head-and-shoulders portrait, chin slightly lifted, mouth slightly open, strong fashion presence.",
+    "A": "Facing camera directly with relaxed, controlled expression.",
+    "I": "Structured matte-black high-neck garment.",
+    "S": "Minimal smooth off-white/pale-gray studio backdrop.",
+    "E2": "Soft directional beauty light from front, subtle jaw and cheekbone shadows, natural skin highlights, gentle dimensional contrast.",
+    "M": "Dense curated colorful sticker collage covering most of the face while retaining recognizable facial structure; vintage logos, typography, symbols and mini illustrations follow facial curvature with realistic edges, overlap and adhesive shadows. Eyes remain visible and lips partly visible."
+  },
+  "photography": {
+    "camera": "high-end editorial portrait",
+    "aspect_ratio": "4:5",
+    "focus": "sharp facial and sticker texture",
+    "finish": "slight desaturation, subtle film grain, photorealistic magazine aesthetic"
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Pop-Art Vintage Sticker Bomb Portrait
 
@@ -591,7 +624,23 @@ Centered head-and-shoulders portrait of a young adult woman with long red hair a
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-vertical-red-laser-portrait.png",
-        prompt_text: `Centered portrait of a young adult woman with long red hair and freckles, calm intense expression looking directly toward camera, wearing a minimal structured matte-black high-neck garment, thin saturated red laser line crossing one eye with subtle glow and realistic red reflection on skin, dark blue studio background fading toward near-black, directional key light slightly above front with cool rim light outlining hair and shoulders, 50mm cinematic portrait look --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "REAISEMP": {
+    "R": "Use uploaded portrait as exact facial identity reference; preserve identity, proportions and natural skin texture.",
+    "E": "Young adult woman with calm, intense, controlled expression.",
+    "A": "Looking directly toward camera.",
+    "I": "Minimal structured matte-black high-neck garment.",
+    "S": "Dark blue studio background fading naturally toward near-black.",
+    "E2": "Directional key light slightly above front, minimal fill, defined highlights on forehead, nose and cheekbone, deep detailed shadows under jaw; strong cool rim light outlining hair and shoulders.",
+    "M": "Thin saturated red laser line crossing one eye with subtle glow and realistic red reflection on nearby skin; cinematic, mysterious, high-contrast editorial realism."
+  },
+  "photography": {
+    "camera": "cinematic portrait camera, 50mm look",
+    "aspect_ratio": "4:5",
+    "focus": "razor-sharp visible eye and skin detail",
+    "finish": "ultra-realistic studio photography"
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Cybernetic Vertical Red Laser Line Portrait
 
@@ -647,7 +696,23 @@ Centered portrait of a young adult woman with long red hair and freckles, calm i
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-white-cobra-macro.jpg",
-        prompt_text: `Extreme macro portrait of a young adult woman with calm fearless expression, holding completely still with a white albino cobra coiled around her neck and crossing partially over her face, cobra hood partially expanded near nose and lips, forked tongue visible, glossy black eyes, seamless dark charcoal background, soft directional side macro lighting sculpting pores and individual scales, 100mm macro f/2.8 aesthetic --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "REAISEMP": {
+    "R": "Use uploaded portrait as exact facial identity reference; preserve facial structure, proportions, pores and unique details.",
+    "E": "Young adult woman with calm, fearless, controlled expression and intense direct gaze.",
+    "A": "Holding completely still while a white cobra coils around her neck and crosses partially over her face.",
+    "I": "Minimal visible styling; natural skin and hair remain secondary to the face and reptile.",
+    "S": "Extreme macro portrait against seamless dark charcoal background.",
+    "E2": "Soft directional macro light from one side, sculpting facial structure and individual ivory scales; deep but detailed shadows and controlled specular highlights.",
+    "M": "Cobra hood partially expanded beside face, head elevated near nose and lips, subtle forked tongue, glossy black eyes. One human eye remains razor sharp while the other is partly obscured. Extreme tactile realism."
+  },
+  "photography": {
+    "camera": "100mm macro lens, f/2.8 aesthetic",
+    "aspect_ratio": "4:5 vertical",
+    "focus": "visible eye and cobra head",
+    "finish": "ultra-realistic fine-art macro photography, HDR, natural skin pores and individual scales"
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Primal Intimacy White Cobra Macro Portrait
 
@@ -703,7 +768,23 @@ Extreme macro portrait of a young adult woman with calm fearless expression, hol
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-red-glitter-portrait.png",
-        prompt_text: `Cinematic 3/4 editorial portrait of an intense woman, monochrome black and white skin rendering, solid saturated red studio backdrop, strong red rim light on hair and shoulders, heavy full-color iridescent multicolor glitter surrounding both eyes, hard 45-degree key light leaving 60-70% of face in detailed chiaroscuro shadow, moody high-end fashion editorial --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "REAISEMP": {
+    "R": "Use uploaded portrait as exact facial identity reference; preserve full facial structure and proportions.",
+    "E": "Young adult woman, 3/4 head-and-shoulders portrait, intense controlled gaze toward camera.",
+    "A": "Face turned slightly away from light while eyes return toward camera.",
+    "I": "Minimal elegant structured black attire.",
+    "S": "Solid saturated red seamless studio background.",
+    "E2": "Hard 45-degree directional key light, narrow beam, minimal fill; 60–70% of face remains in detailed shadow. Strong red rim light outlines hair and shoulders without lighting the face.",
+    "M": "Skin and visible body rendered in dramatic black and white while background and rim remain red. Heavy multicolor iridescent glitter surrounds eyes with chunky reflective particles, preserving full-color sparkle."
+  },
+  "photography": {
+    "camera": "high-end cinematic editorial camera",
+    "aspect_ratio": "4:5",
+    "focus": "illuminated eye and glitter particles",
+    "finish": "moody chiaroscuro, ultra-detailed photorealism"
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Chiaroscuro Red & Iridescent Glitter Portrait
 
@@ -759,7 +840,23 @@ Cinematic 3/4 editorial portrait of an intense woman, monochrome black and white
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-vogue-bridal-white-horse.jpg",
-        prompt_text: `Vogue style intimate close-up editorial portrait of an adult blonde bride with serene expression resting head-to-head beside a white horse, sheer pearl veil covering half her face, golden horse eye reflecting white clouds, minimal ivory background with white stone floor, soft diffused cinematic lighting, 85mm fashion lens aesthetic --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "REAISEMP": {
+    "R": "Use uploaded portrait as facial identity reference where applicable; preserve natural facial proportions and texture.",
+    "E": "Adult blonde bride with serene, intimate expression.",
+    "A": "Standing very close to a white horse, creating an intimate eye-to-eye composition.",
+    "I": "Pristine ivory bridal styling with soft pearl veil covering half the face.",
+    "S": "Minimal pristine ivory environment with polished white stone floor and seamless pale background.",
+    "E2": "Soft diffused cinematic light, gentle shadows, controlled highlights across veil, skin and horse.",
+    "M": "The horse's golden eye sits beside the bride's visible eye, reflecting white clouds. Luxurious Vogue-style editorial realism, clean ivory/cream palette."
+  },
+  "photography": {
+    "camera": "85mm fashion portrait lens",
+    "aspect_ratio": "4:5 vertical",
+    "focus": "eyes, veil texture and horse eye",
+    "finish": "deep cinematic sharpness, ultra-realistic skin and hair"
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Vogue Pearl Veil & White Horse Editorial
 
@@ -815,7 +912,53 @@ Vogue style intimate close-up editorial portrait of an adult blonde bride with s
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-laser-noir-portrait.jpg",
-        prompt_text: `Cinematic tight head-and-shoulders low-angle portrait of a serious controlled woman wearing a matte black turtleneck, thin saturated vertical red laser line slicing across one eye with subtle glow and skin reflection, deep blue seamless studio backdrop fading to near-black, hard directional top key light, crisp highlights, deep chin shadows, cool rim light on hair and shoulders, 50mm editorial camera look --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "title": "Retrato Cinematográfico Noir con Láser Rojo",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "referencia_facial": "Usar el retrato proporcionado como referencia facial exacta.",
+      "identidad": "Preservar completamente la identidad, rasgos faciales y proporciones del sujeto.",
+      "encuadre_corporal": "Retrato de cabeza y hombros.",
+      "piel": "Textura natural de piel, conservando detalle y realismo fotográfico.",
+      "vestuario": "Prenda minimalista de cuello alto o estructura definida, completamente negra y de acabado mate."
+    },
+    "E_Entorno": {
+      "fondo": "Estudio oscuro con degradado de azul profundo hacia negro casi absoluto.",
+      "atmósfera": "Fondo limpio, oscuro y minimalista, con una separación visual clara entre el sujeto y el fondo."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato de cabeza y hombros con postura firme y controlada.",
+      "orientacion": "Sujeto ligeramente inclinado hacia la cámara desde una perspectiva inferior.",
+      "mirada": "Mirada dirigida ligeramente hacia abajo, hacia la cámara.",
+      "expresion": "Seria, contenida y segura."
+    },
+    "I_Iluminacion": {
+      "luz_principal": "Luz direccional proveniente ligeramente desde arriba y al frente.",
+      "caracteristicas": "Iluminación de alto contraste con highlights definidos sobre la frente, puente de la nariz, pómulos y labios.",
+      "relleno": "Luz de relleno mínima para conservar sombras profundas y dramáticas.",
+      "sombras": "Sombras marcadas debajo de la mandíbula y sobre uno de los lados del rostro.",
+      "rim_light": "Fuerte contraluz fría delineando el cabello y los hombros, creando una separación nítida respecto al fondo.",
+      "laser": "Una línea láser roja, vertical, delgada y nítida atraviesa uno de los ojos. Rojo saturado con un glow sutil y un ligero reflejo rojizo sobre la piel cercana."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Intensa, misteriosa, segura y cinematográfica.",
+      "tono": "Noir contemporáneo, sofisticado y ligeramente futurista."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía cinematográfica de estudio, oscura y sofisticada.",
+      "realismo": "Fotorealismo de alta fidelidad con textura natural de piel y detalles faciales precisos."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Primer plano de cabeza y hombros.",
+      "angulo": "Low-angle, cámara situada ligeramente por debajo del rostro.",
+      "enfoque": "Enfoque extremadamente nítido sobre el rostro y los ojos."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Grading cinematográfico de alto contraste con azul oscuro y negros profundos.",
+      "acento_cromatico": "Rojo intenso reservado para el láser y su reflejo sobre la piel."
+    }
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Retrato Cinematográfico Noir con Láser Rojo
 
@@ -901,7 +1044,47 @@ Cinematic tight head-and-shoulders low-angle portrait of a serious controlled wo
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-purple-studio-relighting.jpg",
-        prompt_text: `Centered high-end studio portrait of a confident woman on a solid matte deep purple indigo backdrop, strong directional key light from camera right sculpting cheekbone and jawline, dark shadow-side on camera left with subtle cool rim light on jaw edge, realistic skin texture with visible natural pores and freckles, no digital smoothing, 85mm lens aesthetic --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "title": "Retrato de Estudio con Iluminación Esculpida Púrpura",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "referencia_facial": "Usar la imagen proporcionada únicamente como referencia de identidad facial y proporciones.",
+      "identidad": "Preservar completamente la identidad y estructura facial del sujeto.",
+      "restricciones_referencia": "Ignorar por completo la dirección e intensidad de iluminación de la imagen original.",
+      "piel": "Conservar la textura natural de la piel sin suavizado artificial."
+    },
+    "E_Entorno": {
+      "fondo": "Fondo sólido en tono púrpura índigo profundo.",
+      "color": "Púrpura índigo altamente saturado.",
+      "acabado": "Superficie mate, uniforme y sin variaciones de tono."
+    },
+    "A_Accion_Postura": {
+      "pose": "Postura de retrato de estudio, estable y natural.",
+      "orientacion": "Rostro orientado hacia la cámara."
+    },
+    "I_Iluminacion": {
+      "fuente_principal": "Fuente de luz principal a la derecha de la cámara, iluminando intensamente el pómulo y mandíbula derechos.",
+      "lado_en_sombra": "El lado izquierdo permanece visiblemente más oscuro con separación clara de sombras.",
+      "rim_light": "Rim light delgado en el borde mandibular del lado en sombra."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Seguridad, intensidad y sofisticación.",
+      "tono": "Dramático, preciso y contemporáneo."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía profesional de estudio con iluminación cinematográfica esculpida.",
+      "realismo": "Fotorealismo de alta fidelidad."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato de estudio centrado.",
+      "angulo": "Ángulo neutro a la altura de los ojos."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tratamiento cromático limpio con fondo púrpura índigo saturado.",
+      "nitidez": "Alta nitidez en rasgos faciales y textura de piel."
+    }
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Retrato de Estudio con Iluminación Esculpida Púrpura
 
@@ -981,7 +1164,42 @@ Centered high-end studio portrait of a confident woman on a solid matte deep pur
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-botanical-fine-art.png",
-        prompt_text: `Fine art botanical close-up frontal portrait of a quiet introspective woman, wild organic botanical arrangement with mustard yellow flowers, muted purple blossoms and thin twisted branches framing her face, authentic skin texture with freckles, warm cream-beige matte backdrop, soft side window lighting glow, painterly realism, analog film grain --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "title": "Retrato Botánico de Bellas Artes",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "referencia_facial": "Usar el retrato proporcionado únicamente como referencia de identidad facial.",
+      "identidad": "Preservar completamente la estructura facial, rasgos distintivos y proporciones del sujeto.",
+      "piel": "Conservar textura natural de piel sin suavizado artificial."
+    },
+    "E_Entorno": {
+      "fondo": "Fondo neutro cálido en tono crema-beige mate.",
+      "tratamiento": "Tono uniforme, sin degradado y sin colores dominantes."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato frontal en primer plano.",
+      "encuadre_organico": "Ramas, tallos y follaje atraviesan parcialmente el rostro generando capas orgánicas en primer plano."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz lateral suave y direccional cálida de ventana de tarde."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Introspectiva, tranquila y contemplativa.",
+      "tono": "Orgánico, silencioso y artístico."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Retrato botánico de bellas artes con lenguaje fotográfico analógico.",
+      "vegetacion": "Flores amarillo mostaza, moradas apagadas y pétalos blancos suaves con ramas retorcidas."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Primerísimo primer plano frontal.",
+      "enfoque": "Rostro enfocado mientras vegetación cercana permanece suavemente fuera de foco."
+    },
+    "P_Postproduccion": {
+      "paleta": "Paleta terrosa y apagada con verdes desaturados y grano analógico natural."
+    }
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Retrato Botánico de Bellas Artes
 
@@ -1056,7 +1274,38 @@ Fine art botanical close-up frontal portrait of a quiet introspective woman, wil
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-sticker-collage-editorial.png",
-        prompt_text: `Centered editorial head-and-shoulders portrait of a confident woman in a black matte turtleneck, face covered in a dense layered collage of colorful vintage stickers and logos conforming smoothly to facial geometry, eyes and lips visible, pale gray studio backdrop, soft front beauty lighting, subtle film grain --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "title": "Retrato Editorial con Collage de Stickers",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "referencia_facial": "Usar el retrato proporcionado como referencia facial exacta.",
+      "identidad": "Preservar completamente la identidad y estructura facial.",
+      "vestuario": "Prenda negra estructurada de cuello alto en material mate."
+    },
+    "E_Entorno": {
+      "fondo": "Fondo neutro claro, blanco roto a gris pálido."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato centrado de cabeza y hombros.",
+      "stickers": "Composición densa de stickers vintage amoldados a la curvatura facial."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación de estudio suave direccional estilo beauty."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Seguridad, sofisticación y actitud editorial."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía editorial con intervención gráfica analógica y textura realista."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Primer plano frontal centrado."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Ligera desaturación general y grano cinematográfico sutil."
+    }
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Retrato Editorial con Collage de Stickers
 
@@ -1127,7 +1376,36 @@ Centered editorial head-and-shoulders portrait of a confident woman in a black m
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-chiaroscuro-glitter-red.png",
-        prompt_text: `3/4 chiaroscuro editorial portrait of an intense woman, monochrome skin rendering, solid saturated red studio backdrop, strong red rim light on hair, full-color iridescent multicolor glitter makeup around eyes, hard 45-degree key light leaving 60-70% of face in shadow --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "title": "Retrato Editorial de Claroscuro con Glitter Iridiscente",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "referencia_facial": "Usar el retrato proporcionado únicamente como referencia facial exacta.",
+      "maquillaje": "Glitter iridiscente multicolor aplicado intensamente alrededor de los ojos con cobertura tipo máscara."
+    },
+    "E_Entorno": {
+      "fondo": "Backdrop rojo sólido y altamente saturado."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato tres cuartos con rostro girado alejado de la luz principal."
+    },
+    "I_Iluminacion": {
+      "luz_principal": "Key light dura a 45 grados dejando 60-70% en sombra chiaroscuro y rim light rojo en cabello."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Misteriosa, intensa y sofisticada de alta moda."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía editorial cinematográfica de alto contraste con color selectivo."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato 3/4 enfocado en el ojo iluminado."
+    },
+    "P_Postproduccion": {
+      "tratamiento": "Piel en blanco y negro mientras fondo, rim y glitter permanecen en color pleno."
+    }
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Retrato Editorial de Claroscuro con Glitter Iridiscente
 
@@ -1196,7 +1474,35 @@ Framework completo en español para claroscuro dramático con color selectivo.
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-vogue-bride-white-horse.jpg",
-        prompt_text: `Vogue magazine style close-up portrait of an elegant bride in ivory gown with pearl veil beside a white horse, golden horse eye reflecting white sky clouds, polished white stone floor, minimal pale ivory environment, soft diffused lighting, 85mm lens --ar 4:5 --style raw --v 6.1`,
+        prompt_text: `{
+  "title": "Retrato Editorial de Novia con Caballo Blanco",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Novia rubia sofisticada con velo de perlas cubriendo medio rostro y caballo blanco con ojo dorado que refleja nubes."
+    },
+    "E_Entorno": {
+      "fondo": "Fondo blanco prístino con piso de piedra pulida en tono marfil-crema."
+    },
+    "A_Accion_Postura": {
+      "pose": "Composición íntima cabeza con cabeza entre la novia y el caballo."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación envolvente suave y difusa."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Íntima, etérea, elegante y romántica."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial Vogue de alta costura e hiperrealismo fotográfico."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato 85mm con enfoque en ojos de la novia y del caballo."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Paleta prístina blanca, marfil, beige y crema."
+    }
+  }
+}`,
         body_markdown: `
 # Metodología R.E.A.I.S.E.M.P.: Retrato Editorial de Novia con Caballo Blanco
 
@@ -1247,5 +1553,1663 @@ Vogue magazine style close-up portrait of an elegant bride in ivory gown with pe
 \`\`\`
 `,
         tags: ["REAISEMP", "Midjourney", "Editorial", "Vogue", "Nupcial"] as any
+    },
+    {
+        id: "prompt-reaisemp-cobra-macro-es",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Macro de Bellas Artes con Cobra Blanca",
+        slug: "metodologia-reaisemp-retrato-macro-bellas-artes-cobra-blanca",
+        summary: "Prompt macro hiperrealista estructurado en español bajo R.E.A.I.S.E.M.P. Sujeto femenino con piel natural y pecas, cobra blanca albina enroscada en el cuello y escamas marfil sobre fondo carbón.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-cobra-macro-es.jpg",
+        prompt_text: `{
+  "title": "Retrato Macro de Bellas Artes con Cobra Blanca",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer con identidad facial definida y apariencia completamente fotorealista.",
+      "piel": "Textura hiperrealista con poros visibles, micropecas y vello facial fino.",
+      "cobra": "Cobra blanca enrollada firmemente alrededor del cuello y clavícula."
+    },
+    "E_Entorno": {
+      "fondo": "Fondo neutro carbón oscuro seamless."
+    },
+    "A_Accion_Postura": {
+      "pose": "Extreme close-up macro con capucha parcialmente expandida cerca de la boca."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación macro de estudio lateral dramática."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Intimidad, tensión y desafío primal."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía macro hiperrealista de bellas artes."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Extreme close-up 100mm macro f/2.8."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tonos ivory, perla, crema y carbón oscuro."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Retrato Macro de Bellas Artes con Cobra Blanca
+
+Framework completo en español para macrofotografía de bellas artes e hiperrealismo reptiliano.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Extreme macro fine-art portrait of a calm fearless woman with natural skin texture and freckles, a white albino cobra coiled around her neck with hood expanded near her nose and lips, visible tiny tongue, glossy black eyes, dark charcoal backdrop, soft side macro lighting, 100mm macro f/2.8 --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Retrato Macro de Bellas Artes con Cobra Blanca",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer con identidad facial definida y apariencia completamente fotorealista.",
+      "piel": "Textura hiperrealista con poros visibles, micropecas y vello facial fino.",
+      "cobra": "Cobra blanca enrollada firmemente alrededor del cuello y clavícula."
+    },
+    "E_Entorno": {
+      "fondo": "Fondo neutro carbón oscuro seamless."
+    },
+    "A_Accion_Postura": {
+      "pose": "Extreme close-up macro con capucha parcialmente expandida cerca de la boca."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación macro de estudio lateral dramática."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Intimidad, tensión y desafío primal."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía macro hiperrealista de bellas artes."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Extreme close-up 100mm macro f/2.8."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tonos ivory, perla, crema y carbón oscuro."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Fine Art", "Macro", "Naturaleza"] as any
+    },
+    {
+        id: "prompt-reaisemp-rattlesnake-gothic",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Gótico de Mujer y Serpiente de Cascabel",
+        slug: "metodologia-reaisemp-retrato-gotico-mujer-serpiente-cascabel",
+        summary: "Prompt gótico de oscuro romanticismo estructurado en español bajo R.E.A.I.S.E.M.P. Mujer de piel pálida y ojos verdes con serpiente de cascabel de escamas carbón y bronce enrollada en la mejilla.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-rattlesnake-gothic.png",
+        prompt_text: `{
+  "title": "Retrato Gótico de Mujer y Serpiente de Cascabel",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer adulta de apariencia etérea, piel pálida y ojos verdes intensos.",
+      "serpiente": "Serpiente de cascabel enrollada alrededor de mejilla y sien en tonos carbón y bronce."
+    },
+    "E_Entorno": {
+      "fondo": "Espacio casi negro con niebla atmosférica sutil."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato íntimo con la cabeza de la serpiente cubriendo parcialmente el rostro."
+    },
+    "I_Iluminacion": {
+      "tipo": "Claroscuro dramático con única fuente direccional que ilumina medio rostro."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Misterio, vulnerabilidad, tentación y estética gótica."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía fine art gótica contemporánea de alto contraste."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Primerísimo primer plano centrado en rostro y serpiente."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Paleta desaturada de tonos pálidos, carbón y bronce frío."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Retrato Gótico de Mujer y Serpiente de Cascabel
+
+Framework gótico cinematográfico de claroscuro y romanticismo oscuro.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Dark romantic fine-art close-up portrait of a pale woman with green eyes and freckles, a rattlesnake coiled around her cheek with its triangular head near her eye, charcoal and bronze scales, atmospheric haze on black background, dramatic single key light chiaroscuro --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Retrato Gótico de Mujer y Serpiente de Cascabel",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer adulta de apariencia etérea, piel pálida y ojos verdes intensos.",
+      "serpiente": "Serpiente de cascabel enrollada alrededor de mejilla y sien en tonos carbón y bronce."
+    },
+    "E_Entorno": {
+      "fondo": "Espacio casi negro con niebla atmosférica sutil."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato íntimo con la cabeza de la serpiente cubriendo parcialmente el rostro."
+    },
+    "I_Iluminacion": {
+      "tipo": "Claroscuro dramático con única fuente direccional que ilumina medio rostro."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Misterio, vulnerabilidad, tentación y estética gótica."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía fine art gótica contemporánea de alto contraste."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Primerísimo primer plano centrado en rostro y serpiente."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Paleta desaturada de tonos pálidos, carbón y bronce frío."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Gótico", "Fine Art", "Naturaleza"] as any
+    },
+    {
+        id: "prompt-reaisemp-streetwear-low-angle",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Streetwear Urbano con Perspectiva Low-Angle",
+        slug: "metodologia-reaisemp-streetwear-urbano-perspectiva-low-angle",
+        summary: "Prompt editorial de moda urbana estructurado en español bajo R.E.A.I.S.E.M.P. Perspectiva extrema de ángulo bajo con el sneaker del primer plano exagerado sobre cruce peatonal de rascacielos.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-streetwear-low-angle.jpg",
+        prompt_text: `{
+  "title": "Streetwear Urbano con Perspectiva Low-Angle",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "vestuario": "Pantalones cargo verde oliva, sneakers blancos y camiseta cropped."
+    },
+    "E_Entorno": {
+      "escenario": "Intersección urbana moderna con rascacielos y cielo azul despejado."
+    },
+    "A_Accion_Postura": {
+      "pose": "Caminando con decisión, pie avanzando hacia la cámara en primer plano."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz solar directa limpia de día."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Poderosa, urbana y energética."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de moda urbana contemporánea."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano completo extreme low-angle con gran angular."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Color vibrante y natural 8K."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Streetwear Urbano con Perspectiva Low-Angle
+
+Framework completo en español para campañas streetwear con distorsión gran angular dinámica.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Full-body extreme low-angle ground-level fashion editorial of a confident woman in olive cargo pants and white sneakers walking across a city intersection, front sneaker stepping towards camera exaggerated in wide-angle perspective, tall glass skyscrapers and clear blue sky, bright natural daylight --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Streetwear Urbano con Perspectiva Low-Angle",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "vestuario": "Pantalones cargo verde oliva, sneakers blancos y camiseta cropped."
+    },
+    "E_Entorno": {
+      "escenario": "Intersección urbana moderna con rascacielos y cielo azul despejado."
+    },
+    "A_Accion_Postura": {
+      "pose": "Caminando con decisión, pie avanzando hacia la cámara en primer plano."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz solar directa limpia de día."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Poderosa, urbana y energética."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de moda urbana contemporánea."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano completo extreme low-angle con gran angular."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Color vibrante y natural 8K."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Streetwear", "Urbano", "Low-Angle"] as any
+    },
+    {
+        id: "prompt-reaisemp-y2k-porsche-orbit",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Y2K Fashion con Porsche y Perspectiva Drone Orbit",
+        slug: "metodologia-reaisemp-y2k-fashion-porsche-drone-orbit",
+        summary: "Prompt de moda retro-futurista Y2K estructurado en español bajo R.E.A.I.S.E.M.P. Modelo recostada sobre el capó de un Porsche rojo vintage con perspectiva gran angular elevada estilo drone orbit.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-y2k-porsche-orbit.jpg",
+        prompt_text: `{
+  "title": "Y2K Fashion con Porsche y Perspectiva Drone Orbit",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "vestuario": "Crop top negro, pantalones de cuero ultrabajo, gafas plateadas shield y mini buns."
+    },
+    "E_Entorno": {
+      "escenario": "Porsche rojo vintage con reflejos cálidos y fondo urbano."
+    },
+    "A_Accion_Postura": {
+      "pose": "Recostada en el capó extendiendo una mano al objetivo con actitud provocadora."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz cálida de atardecer con reflejos sobre la pintura automotriz."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Audaz, Y2K y viral."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía Y2K hiperrealista con aberración cromática ligera y ligero light leak."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Perspectiva elevada gran angular con distorsión fisheye y motion blur circular."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tonos cálidos de atardecer y tratamiento digital Y2K."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Y2K Fashion con Porsche y Perspectiva Drone Orbit
+
+Framework editorial de estética principios de los 2000 con efecto de cámara en movimiento fisheye.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Y2K fashion wide fisheye drone orbit shot of a stylish woman with mini hair buns and shield sunglasses lying on the hood of a glossy red vintage Porsche, reaching towards camera, leather pants, chain belt, sunset warm directional side light, circular motion blur in urban background --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Y2K Fashion con Porsche y Perspectiva Drone Orbit",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "vestuario": "Crop top negro, pantalones de cuero ultrabajo, gafas plateadas shield y mini buns."
+    },
+    "E_Entorno": {
+      "escenario": "Porsche rojo vintage con reflejos cálidos y fondo urbano."
+    },
+    "A_Accion_Postura": {
+      "pose": "Recostada en el capó extendiendo una mano al objetivo con actitud provocadora."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz cálida de atardecer con reflejos sobre la pintura automotriz."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Audaz, Y2K y viral."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía Y2K hiperrealista con aberración cromática ligera y ligero light leak."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Perspectiva elevada gran angular con distorsión fisheye y motion blur circular."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tonos cálidos de atardecer y tratamiento digital Y2K."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Y2K", "Porsche", "Retro"] as any
+    },
+    {
+        id: "prompt-reaisemp-colossal-worms-eye",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Colosal desde Perspectiva Worm's-Eye",
+        slug: "metodologia-reaisemp-retrato-colosal-perspectiva-worms-eye",
+        summary: "Prompt de surrealismo urbano de escala estructurado en español bajo R.E.A.I.S.E.M.P. Figura femenina gigantesca sentada en la cornisa de un edificio sobre rascacielos con encuadre de ojo de gusano.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-colossal-worms-eye.jpg",
+        prompt_text: `{
+  "title": "Retrato Colosal desde Perspectiva Worm's-Eye",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "vestuario": "Chaqueta deportiva roja, leggings negros y sneakers plataforma blancos con suela roja."
+    },
+    "E_Entorno": {
+      "escenario": "Cornisa de edificio frente a rascacielos curvos y cielo despejado."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada en el borde percibiéndose gigantesca frente a la ciudad."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz urbana diurna de alto contraste."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Monumental, surrealista y poderosa."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía urbana hiperrealista con distorsión perspectival."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Worm's-eye view gran angular con distorsión de barril."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tratamiento urbano nítido en 8K."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Retrato Colosal desde Perspectiva Worm's-Eye
+
+Framework surrealista de escala monumental urbana.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Colossal scale surrealism extreme low-angle worm's-eye view of a giant woman in a red track jacket and platform sneakers sitting on the edge of a brick building overlooking towering curved skyscrapers, clear blue sky, fisheye barrel distortion, sharp architectural focus --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Retrato Colosal desde Perspectiva Worm's-Eye",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "vestuario": "Chaqueta deportiva roja, leggings negros y sneakers plataforma blancos con suela roja."
+    },
+    "E_Entorno": {
+      "escenario": "Cornisa de edificio frente a rascacielos curvos y cielo despejado."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada en el borde percibiéndose gigantesca frente a la ciudad."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz urbana diurna de alto contraste."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Monumental, surrealista y poderosa."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía urbana hiperrealista con distorsión perspectival."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Worm's-eye view gran angular con distorsión de barril."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tratamiento urbano nítido en 8K."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Surrealismo", "Urbano", "Worms-Eye"] as any
+    },
+    {
+        id: "prompt-reaisemp-jewelry-golden-sand-emerald",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería de Lujo — Escultura de Arena Dorada",
+        slug: "metodologia-reaisemp-editorial-joyeria-lujo-escultura-arena-dorada",
+        summary: "Prompt de alta joyería estructurado en español bajo R.E.A.I.S.E.M.P. Busto femenino escultórico emergiendo de arena dorada con collar de diamantes y esmeralda esmeralda verde profunda.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-jewelry-golden-sand-emerald.png",
+        prompt_text: `{
+  "title": "Editorial de Joyería de Lujo — Escultura de Arena Dorada",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Busto femenino emergiendo de superficie de arena dorada.",
+      "material": "Piel con textura mate granulada de arena fina.",
+      "joyeria": "Collar de diamantes con gema verde de corte esmeralda y aretes a juego."
+    },
+    "E_Entorno": {
+      "escenario": "Superficie de arena dorada monocromática en tonos arena y marrón cálido."
+    },
+    "A_Accion_Postura": {
+      "pose": "Busto en perfil lateral elegante con ojos cerrados."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz cinematográfica escultórica con refracción realista en la esmeralda."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Calma, elegancia, lujo silencioso y belleza atemporal."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de joyería de lujo y fotografía museum-grade fine art."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato de busto anamórfico 85mm f/2.8."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Gradación monocromática cálida con acento verde en la esmeralda."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería de Lujo — Escultura de Arena Dorada
+
+Framework completo en español para fotografía escultórica de alta joyería y gemas preciosas.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Luxury jewelry editorial anamorphic 85mm shot of a fine golden sand sculpture female bust emerging from sand, low bun hairstyle, closed eyes, wearing a high-end diamond necklace with a large emerald-cut deep green emerald pendant and matching emerald earrings, golden warm monochrome palette, soft directional lighting, museum fine art photography --ar 16:9 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Editorial de Joyería de Lujo — Escultura de Arena Dorada",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Busto femenino emergiendo de superficie de arena dorada.",
+      "material": "Piel con textura mate granulada de arena fina.",
+      "joyeria": "Collar de diamantes con gema verde de corte esmeralda y aretes a juego."
+    },
+    "E_Entorno": {
+      "escenario": "Superficie de arena dorada monocromática en tonos arena y marrón cálido."
+    },
+    "A_Accion_Postura": {
+      "pose": "Busto en perfil lateral elegante con ojos cerrados."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz cinematográfica escultórica con refracción realista en la esmeralda."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Calma, elegancia, lujo silencioso y belleza atemporal."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de joyería de lujo y fotografía museum-grade fine art."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato de busto anamórfico 85mm f/2.8."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Gradación monocromática cálida con acento verde en la esmeralda."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Joyería", "Escultura", "Lujo"] as any
+    },
+    {
+        id: "prompt-reaisemp-jewelry-sand-relief-emerald",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Relieve de Arena Dorada y Esmeraldas",
+        slug: "metodologia-reaisemp-editorial-joyeria-relieve-arena-dorada-esmeraldas",
+        summary: "Prompt de relieve escultórico bajo R.E.A.I.S.E.M.P. Silueta de perfil tallada en arena dorada con collar de diamantes, gotas de esmeraldas y ramita decorativa en el cabello.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-jewelry-sand-relief-emerald.png",
+        prompt_text: `{
+  "title": "Editorial de Joyería — Relieve de Arena Dorada y Esmeraldas",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Relieve femenino en perfil tallado en arena dorada.",
+      "joyeria": "Collar de diamantes con múltiples esmeraldas en gota y aretes a juego colocados al lado."
+    },
+    "E_Entorno": {
+      "fondo": "Fondo de arena dorada monocromática texturizada."
+    },
+    "A_Accion_Postura": {
+      "pose": "Perfil lateral suave con ramita artística sobre el cabello."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz direccional suave que resalta contornos del relieve y facetas de gemas."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Serenidad, lujo fine art y contemplación."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de alta joyería con estética de relieve escultórico."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato de perfil 85mm anamórfico."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Monocromático dorado cálido con esmeraldas vibrantes."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Relieve de Arena Dorada y Esmeraldas
+
+Framework completo en español para relieves de arena y alta joyería de esmeraldas.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Luxury fine art jewelry editorial top-down perspective of a female profile relief carved into warm golden sand, closed eyes, diamond necklace with multiple teardrop emerald pendants and matching emerald earrings beside relief, small twig resting on head, golden monochrome palette, anamorphic 85mm --ar 16:9 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Editorial de Joyería — Relieve de Arena Dorada y Esmeraldas",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Relieve femenino en perfil tallado en arena dorada.",
+      "joyeria": "Collar de diamantes con múltiples esmeraldas en gota y aretes a juego colocados al lado."
+    },
+    "E_Entorno": {
+      "fondo": "Fondo de arena dorada monocromática texturizada."
+    },
+    "A_Accion_Postura": {
+      "pose": "Perfil lateral suave con ramita artística sobre el cabello."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz direccional suave que resalta contornos del relieve y facetas de gemas."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Serenidad, lujo fine art y contemplación."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de alta joyería con estética de relieve escultórico."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato de perfil 85mm anamórfico."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Monocromático dorado cálido con esmeraldas vibrantes."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Joyería", "Esmeraldas", "Escultura"] as any
+    },
+    {
+        id: "prompt-reaisemp-jewelry-terracotta-ruby",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Relieve Terracota y Rubíes",
+        slug: "metodologia-reaisemp-editorial-joyeria-relieve-terracota-rubies",
+        summary: "Prompt escultórico terracota bajo R.E.A.I.S.E.M.P. Relieve femenino en arena rojo tierra con collar de diamantes y rubíes ovales de rojo profundo.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-jewelry-terracotta-ruby.jpg",
+        prompt_text: `{
+  "title": "Editorial de Joyería — Relieve Terracota y Rubíes",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Perfil femenino en relieve tallado sobre arena terracota.",
+      "joyeria": "Collar de diamantes con rubíes ovalados y aretes colgantes a juego."
+    },
+    "E_Entorno": {
+      "fondo": "Superficie de arena terracota monocromática en rojo tierra."
+    },
+    "A_Accion_Postura": {
+      "pose": "Perfil lateral escultórico con ojos cerrados."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz direccional suave que proyecta sombras dentro del relieve."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Lujo, sensualidad contenida y tierra."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de joyería de alta gama y escultura terracota."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato de perfil 85mm anamórfico f/2.8."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Monocromático terracota rojo tierra con profundidad en rubíes."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Relieve Terracota y Rubíes
+
+Framework completo en español para escultura terracota y gemas de rubí de lujo.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Fine art luxury jewelry editorial profile relief carved into terracotta red sand, diamond necklace with multiple oval ruby pendants, matching ruby dangling earrings, warm red earth monochrome backdrop, soft top-left key light, ARRI Alexa anamorphic 85mm f/2.8 --ar 16:9 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Editorial de Joyería — Relieve Terracota y Rubíes",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Perfil femenino en relieve tallado sobre arena terracota.",
+      "joyeria": "Collar de diamantes con rubíes ovalados y aretes colgantes a juego."
+    },
+    "E_Entorno": {
+      "fondo": "Superficie de arena terracota monocromática en rojo tierra."
+    },
+    "A_Accion_Postura": {
+      "pose": "Perfil lateral escultórico con ojos cerrados."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz direccional suave que proyecta sombras dentro del relieve."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Lujo, sensualidad contenida y tierra."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de joyería de alta gama y escultura terracota."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato de perfil 85mm anamórfico f/2.8."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Monocromático terracota rojo tierra con profundidad en rubíes."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Joyería", "Rubíes", "Terracota"] as any
+    },
+    {
+        id: "prompt-reaisemp-jewelry-ivory-sapphire",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Escultura Ivory y Zafiro Azul",
+        slug: "metodologia-reaisemp-editorial-joyeria-escultura-ivory-zafiro-azul",
+        summary: "Prompt de joyería costera estilo escultura clásica bajo R.E.A.I.S.E.M.P. Relieve femenino ivory-beige con concha marina en el moño, collar de diamantes y zafiro azul marino profundo.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-jewelry-ivory-sapphire.png",
+        prompt_text: `{
+  "title": "Editorial de Joyería — Escultura Ivory y Zafiro Azul",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Perfil femenino sereno esculpido sobre arena ivory-beige.",
+      "detalle_organico": "Concha marina pequeña colocada en el moño.",
+      "joyeria": "Collar de diamantes con gran zafiro azul navy en forma de lágrima y aretes a juego."
+    },
+    "E_Entorno": {
+      "fondo": "Superficie arenosa monocromática ivory-beige."
+    },
+    "A_Accion_Postura": {
+      "pose": "Perfil lateral atemporal con ojos cerrados."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz difusa que resalta profundidad azul y facetas del zafiro."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Lujo silencioso, serenidad y belleza costera."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de lujo inspirado en escultura clásica."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato de perfil 85mm anamórfico."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Monocromático ivory-beige con acento azul zafiro."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Escultura Ivory y Zafiro Azul
+
+Framework completo en español para escultura clásica en arena ivory y zafiro azul navy.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Classical sculpture fine art jewelry editorial profile relief carved into ivory-beige sand, small seashell tucked into low hair bun, diamond necklace with a large teardrop deep navy sapphire pendant, matching sapphire earrings beside relief, soft diffused lighting, ARRI Alexa anamorphic 85mm --ar 16:9 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Editorial de Joyería — Escultura Ivory y Zafiro Azul",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Perfil femenino sereno esculpido sobre arena ivory-beige.",
+      "detalle_organico": "Concha marina pequeña colocada en el moño.",
+      "joyeria": "Collar de diamantes con gran zafiro azul navy en forma de lágrima y aretes a juego."
+    },
+    "E_Entorno": {
+      "fondo": "Superficie arenosa monocromática ivory-beige."
+    },
+    "A_Accion_Postura": {
+      "pose": "Perfil lateral atemporal con ojos cerrados."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz difusa que resalta profundidad azul y facetas del zafiro."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Lujo silencioso, serenidad y belleza costera."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de lujo inspirado en escultura clásica."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato de perfil 85mm anamórfico."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Monocromático ivory-beige con acento azul zafiro."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Joyería", "Zafiro", "Lujo"] as any
+    },
+    {
+        id: "prompt-reaisemp-newspaper-room-pink-jacket-man",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Editorial Avant-Garde — Hombre en Habitación de Periódicos",
+        slug: "metodologia-reaisemp-editorial-avant-garde-hombre-habitacion-periodicos",
+        summary: "Prompt conceptual avant-garde estructurado en español bajo R.E.A.I.S.E.M.P. Hombre con chaqueta baby pink, gafas futuristas y botas de combate sentado con piernas cruzadas en una habitación 360° forrada de periódicos.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-newspaper-room-pink-jacket-man.png",
+        prompt_text: `{
+  "title": "Editorial Avant-Garde — Hombre en Habitación de Periódicos",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Hombre joven con apariencia masculina natural y fotorealista.",
+      "vestuario": "Chaqueta baby pink con cierre, pantalones grises, botas negras de combate y gafas futuristas."
+    },
+    "E_Entorno": {
+      "escenario": "Habitación pequeña y rectangular completamente revestida de periódicos en blanco y negro (paredes, suelo y techo)."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentado con piernas cruzadas ajustando las gafas de sol con actitud intensa."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación dramática de estudio controlada con alto contraste."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Confianza, intensidad, urbano y avant-garde."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "High-fashion editorial contemporáneo y arte conceptual."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio-amplio frontal simétrico."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Entorno monocromático con la chaqueta baby pink como ruptura cromática principal."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Editorial Avant-Garde — Hombre en Habitación de Periódicos
+
+Framework completo en español para fotografía de moda avant-garde en instalaciones de arte conceptual.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Avant-garde fashion editorial medium shot of a young man with light beard and futuristic black sunglasses sitting cross-legged inside a rectangular room completely covered in black and white newspaper pages, wearing an open baby pink zip jacket, gray pants, black combat boots, silver chain necklace, symmetrical eye-level camera view, controlled studio lighting --ar 16:9 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Editorial Avant-Garde — Hombre en Habitación de Periódicos",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Hombre joven con apariencia masculina natural y fotorealista.",
+      "vestuario": "Chaqueta baby pink con cierre, pantalones grises, botas negras de combate y gafas futuristas."
+    },
+    "E_Entorno": {
+      "escenario": "Habitación pequeña y rectangular completamente revestida de periódicos en blanco y negro (paredes, suelo y techo)."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentado con piernas cruzadas ajustando las gafas de sol con actitud intensa."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación dramática de estudio controlada con alto contraste."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Confianza, intensidad, urbano y avant-garde."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "High-fashion editorial contemporáneo y arte conceptual."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio-amplio frontal simétrico."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Entorno monocromático con la chaqueta baby pink como ruptura cromática principal."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Avant-Garde", "Editorial", "Conceptual"] as any
+    },
+    {
+        id: "prompt-reaisemp-newspaper-room-shocked-woman",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Editorial Conceptual — Shock en Habitación de Periódicos",
+        slug: "metodologia-reaisemp-editorial-conceptual-shock-habitacion-periodicos",
+        summary: "Prompt de moda surrealista estructurado en español bajo R.E.A.I.S.E.M.P. Mujer con blazer de ajedrez blanco y negro, pantalones verde oscuro y gafas geométricas en pose de sorpresa sosteniendo su rostro dentro de habitación de periódicos.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-newspaper-room-shocked-woman.png",
+        prompt_text: `{
+  "title": "Editorial Conceptual — Shock en Habitación de Periódicos",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer joven con expresión dramática de sorpresa y boca abierta.",
+      "vestuario": "Chaqueta de patrón cuadriculado ajedrez, pantalones verde oscuro, sneakers grises y gafas geométricas."
+    },
+    "E_Entorno": {
+      "escenario": "Habitación rectangular revestida en 360° con periódicos en blanco y negro."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada cruzada sujetando suavemente las mejillas con ambas manos mirando a cámara."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz suave direccional uniforme para destacar rostro y patrón de ajedrez."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Teatralidad, sorpresa, surrealismo juguetón."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía editorial de moda conceptual contemporánea."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio-amplio frontal centrado."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Monocromo con verde oscuro, gris y negro bien definidos."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Editorial Conceptual — Shock en Habitación de Periódicos
+
+Framework completo en español para fotografía editorial teatral y surrealismo conceptual.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Conceptual fashion editorial of a woman with open mouth shocked expression holding her face with both hands, wearing a black and white checkered blazer, dark green pants, gray sneakers and geometric sunglasses, sitting cross-legged in a room entirely wallpapered with newspaper, symmetrical eye-level perspective --ar 16:9 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Editorial Conceptual — Shock en Habitación de Periódicos",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer joven con expresión dramática de sorpresa y boca abierta.",
+      "vestuario": "Chaqueta de patrón cuadriculado ajedrez, pantalones verde oscuro, sneakers grises y gafas geométricas."
+    },
+    "E_Entorno": {
+      "escenario": "Habitación rectangular revestida en 360° con periódicos en blanco y negro."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada cruzada sujetando suavemente las mejillas con ambas manos mirando a cámara."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz suave direccional uniforme para destacar rostro y patrón de ajedrez."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Teatralidad, sorpresa, surrealismo juguetón."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía editorial de moda conceptual contemporánea."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio-amplio frontal centrado."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Monocromo con verde oscuro, gris y negro bien definidos."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Conceptual", "Surrealismo", "Editorial"] as any
+    },
+    {
+        id: "prompt-reaisemp-newspaper-room-dark-green-lounge",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Editorial Conceptual — Dark Green Fashion en Habitación de Periódicos",
+        slug: "metodologia-reaisemp-editorial-conceptual-dark-green-fashion-habitacion-periodicos",
+        summary: "Prompt de alta moda minimalista en español bajo R.E.A.I.S.E.M.P. Modelo relajada en una silla giratoria lounge beige con blusa verde oscuro y falda corta blanca dentro de una habitación de periódico 4:5.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-newspaper-room-dark-green-lounge.jpg",
+        prompt_text: `{
+  "title": "Editorial Conceptual — Dark Green Fashion en Habitación de Periódicos",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer joven de apariencia sofisticada y relajada.",
+      "vestuario": "Blusa verde oscuro, falda corta blanca, calcetines blancos, sneakers high-top beige y gafas oversized."
+    },
+    "E_Entorno": {
+      "escenario": "Habitación minimalista tipo caja revestida de periódicos con silla lounge giratoria beige."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada en la silla giratoria con pierna cruzada y brazo detrás de la cabeza."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz de estudio suave y difusa uniforme."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Confianza, relajación y alta moda sofisticada."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía editorial de moda contemporánea minimalista."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio-amplio vertical 4:5 frontal."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Paleta base monocromática/beige con verde oscuro como acento principal."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Editorial Conceptual — Dark Green Fashion en Habitación de Periódicos
+
+Framework completo en español para campañas de moda conceptual contemporánea.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Fashion editorial vertical 4:5 portrait of a confident woman with oversized sunglasses sitting relaxed in a beige swivel lounge chair, dark green silk blouse, white mini skirt, high-top beige sneakers, surrounded by 360-degree newspaper-lined room walls and floor, soft studio lighting --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Editorial Conceptual — Dark Green Fashion en Habitación de Periódicos",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer joven de apariencia sofisticada y relajada.",
+      "vestuario": "Blusa verde oscuro, falda corta blanca, calcetines blancos, sneakers high-top beige y gafas oversized."
+    },
+    "E_Entorno": {
+      "escenario": "Habitación minimalista tipo caja revestida de periódicos con silla lounge giratoria beige."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada en la silla giratoria con pierna cruzada y brazo detrás de la cabeza."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz de estudio suave y difusa uniforme."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Confianza, relajación y alta moda sofisticada."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía editorial de moda contemporánea minimalista."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio-amplio vertical 4:5 frontal."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Paleta base monocromática/beige con verde oscuro como acento principal."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Editorial", "Moda", "Conceptual"] as any
+    },
+    {
+        id: "prompt-reaisemp-holographic-social-profile",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Holographic Social Profile — Instagram Interface",
+        slug: "metodologia-reaisemp-holographic-social-profile-instagram-interface",
+        summary: "Prompt de arte digital e interfaz futurista bajo R.E.A.I.S.E.M.P. Mano humana sosteniendo una tarjeta holográfica semitransparente con perfil de Instagram flotante en luz azul y magenta.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-holographic-social-profile.png",
+        prompt_text: `{
+  "title": "Holographic Social Profile — Instagram Interface",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mano humana sosteniendo tarjeta holográfica semitransparente.",
+      "ui": "Estructura y perfil de Instagram flotante hiperrealista."
+    },
+    "E_Entorno": {
+      "escenario": "Estudio minimalista de alta tecnología con luces azul y magenta."
+    },
+    "A_Accion_Postura": {
+      "pose": "Tarjeta inclinada revelando profundidad y refracción sobre la piel."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz holográfica propia emitiendo glow sobre la mano."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Innovación, tecnología de lujo y futuro digital."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Digital art hiperrealista glassmorphism."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Close-up macro 85mm f/1.8."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Azul y magenta cinematográfico."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Holographic Social Profile — Instagram Interface
+
+Framework completo en español para interfaces UI holográficas y tecnología de lujo.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Luxury tech digital art macro shot of a human hand holding a glowing glassmorphism transparent holographic social media profile interface card, volumetric blue and magenta neon studio glow, realistic skin texture, 85mm macro lens f/1.8 --ar 16:9 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Holographic Social Profile — Instagram Interface",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mano humana sosteniendo tarjeta holográfica semitransparente.",
+      "ui": "Estructura y perfil de Instagram flotante hiperrealista."
+    },
+    "E_Entorno": {
+      "escenario": "Estudio minimalista de alta tecnología con luces azul y magenta."
+    },
+    "A_Accion_Postura": {
+      "pose": "Tarjeta inclinada revelando profundidad y refracción sobre la piel."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz holográfica propia emitiendo glow sobre la mano."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Innovación, tecnología de lujo y futuro digital."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Digital art hiperrealista glassmorphism."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Close-up macro 85mm f/1.8."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Azul y magenta cinematográfico."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Futurista", "Holograma", "UI"] as any
+    },
+    {
+        id: "prompt-reaisemp-hand-drawn-doodle-portrait",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Hand-Drawn Doodle Portrait — Red & Yellow Pen",
+        slug: "metodologia-reaisemp-hand-drawn-doodle-portrait-red-yellow-pen",
+        summary: "Prompt de ilustración analógica en cuaderno bajo R.E.A.I.S.E.M.P. Retrato masculino ilustrado con trazos de tinta roja y amarilla rodeado de doodles y anotaciones manuscritas.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-hand-drawn-doodle-portrait.jpg",
+        prompt_text: `{
+  "title": "Hand-Drawn Doodle Portrait — Red & Yellow Pen",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Retrato masculino ilustrado respetando la identidad del sujeto."
+    },
+    "E_Entorno": {
+      "escenario": "Hoja de libreta blanca con textura de papel y doodles circundantes."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato frontal rodeado de flechas y textos manuscritos."
+    },
+    "I_Iluminacion": {
+      "tipo": "Simulada por densidad de trazos y achurados de tinta."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Creatividad, espontaneidad y arte personal."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Hand-drawn doodle art con tinta roja y amarilla."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Vista directa superior de página de libreta."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Paleta dominada por tinta roja y amarilla sobre papel blanco."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Hand-Drawn Doodle Portrait — Red & Yellow Pen
+
+Framework completo en español para retratos ilustrados estilo cuaderno de bocetos.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Hand-drawn doodle art illustration of a man's portrait on spiral notebook paper page, red and yellow ballpoint pen ink strokes, handwritten annotations, arrows and sketch symbols framing face, authentic paper texture --ar 16:9 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Hand-Drawn Doodle Portrait — Red & Yellow Pen",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Retrato masculino ilustrado respetando la identidad del sujeto."
+    },
+    "E_Entorno": {
+      "escenario": "Hoja de libreta blanca con textura de papel y doodles circundantes."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato frontal rodeado de flechas y textos manuscritos."
+    },
+    "I_Iluminacion": {
+      "tipo": "Simulada por densidad de trazos y achurados de tinta."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Creatividad, espontaneidad y arte personal."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Hand-drawn doodle art con tinta roja y amarilla."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Vista directa superior de página de libreta."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Paleta dominada por tinta roja y amarilla sobre papel blanco."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Ilustración", "Doodle", "Arte"] as any
+    },
+    {
+        id: "prompt-reaisemp-moody-brown-knit-portrait",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Moody Aesthetic Portrait — Brown Knit & Tropical Foliage",
+        slug: "metodologia-reaisemp-moody-aesthetic-portrait-brown-knit-tropical-foliage",
+        summary: "Prompt de fotografía íntima vintage en español bajo R.E.A.I.S.E.M.P. Retrato en esquina oscura con sweater de punto marrón, café para llevar y follaje tropical natural.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-moody-brown-knit-portrait.png",
+        prompt_text: `{
+  "title": "Moody Aesthetic Portrait — Brown Knit & Tropical Foliage",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer en sweater de punto marrón grueso con vaso de café y anillos."
+    },
+    "E_Entorno": {
+      "escenario": "Esquina oscura de habitación con plantas de follaje tropical."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato espontáneo con vaso cerca del rostro y mirada a cámara."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz lateral cálida de atardecer con penumbra al fondo."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Intimidad, melancolía y calma dark aesthetic."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía vintage cinematográfica sepia."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Close-up asimétrico con profundidad de campo reducida."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tonos sepia oscuros, marrones y grano sutil."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Moody Aesthetic Portrait — Brown Knit & Tropical Foliage
+
+Framework vintage para retratos íntimos cinematográficos.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Moody vintage cinematic portrait of a young woman in dark brown cable-knit sweater holding a takeaway coffee cup near her face, dark indoor room corner flanked by large tropical leaves, warm directional window light, dark sepia tones, shallow depth of field --ar 16:9 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "Moody Aesthetic Portrait — Brown Knit & Tropical Foliage",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer en sweater de punto marrón grueso con vaso de café y anillos."
+    },
+    "E_Entorno": {
+      "escenario": "Esquina oscura de habitación con plantas de follaje tropical."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato espontáneo con vaso cerca del rostro y mirada a cámara."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz lateral cálida de atardecer con penumbra al fondo."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Intimidad, melancolía y calma dark aesthetic."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía vintage cinematográfica sepia."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Close-up asimétrico con profundidad de campo reducida."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tonos sepia oscuros, marrones y grano sutil."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Moody", "Vintage", "Retrato"] as any
+    },
+    {
+        id: "prompt-reaisemp-white-couture-sunlit-courtyard",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: White Couture — Sunlit Stone Courtyard",
+        slug: "metodologia-reaisemp-white-couture-sunlit-stone-courtyard",
+        summary: "Prompt de alta costura nupcial estructurado en español bajo R.E.A.I.S.E.M.P. Modelo luciendo vestido couture blanco con pétalos 3D en patio soleado de piedra minimalista.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-white-couture-sunlit-courtyard.png",
+        prompt_text: `{
+  "title": "White Couture — Sunlit Stone Courtyard",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer en vestido de alta costura blanco con pétalos 3D sobredimensionados y pedrería."
+    },
+    "E_Entorno": {
+      "escenario": "Patio de piedra neutra bañado por sol cálido."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie con postura relajada y elegante."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz solar directa cálida con sombras dimensionales."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Majestuosidad, elegancia atemporal y serenidad."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de alta moda y arquitectura."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano completo vertical 9:16 85mm."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tonos neutros cálidos, beige y reflejos dorados."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: White Couture — Sunlit Stone Courtyard
+
+Framework de moda de lujo en arquitectura minimalista.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+High-fashion couture full-body editorial portrait of a woman in an ornate white gown with oversized 3D petal appliques and intricate beadwork, standing in a sunlit minimal stone courtyard with tall walls, warm golden sunlight, 85mm lens f/2.5 --ar 9:16 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "White Couture — Sunlit Stone Courtyard",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer en vestido de alta costura blanco con pétalos 3D sobredimensionados y pedrería."
+    },
+    "E_Entorno": {
+      "escenario": "Patio de piedra neutra bañado por sol cálido."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie con postura relajada y elegante."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz solar directa cálida con sombras dimensionales."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Majestuosidad, elegancia atemporal y serenidad."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Editorial de alta moda y arquitectura."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano completo vertical 9:16 85mm."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tonos neutros cálidos, beige y reflejos dorados."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Couture", "Moda", "Alta Costura"] as any
+    },
+    {
+        id: "prompt-reaisemp-1930s-hollywood-vintage-portrait",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: 1930s Hollywood Portrait — Vintage Era Editorial",
+        slug: "metodologia-reaisemp-1930s-hollywood-portrait-vintage-era-editorial",
+        summary: "Prompt de glamour clásico de Hollywood bajo R.E.A.I.S.E.M.P. Elegante retrato con peinado Marcel wave, estola de piel, collar de perlas y vestido de satén en salón Art Deco.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-1930s-hollywood-vintage-portrait.png",
+        prompt_text: `{
+  "title": "1930s Hollywood Portrait — Vintage Era Editorial",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer con peinado Marcel wave de los años 30, vestido de satén plateado, estola de piel y perlas."
+    },
+    "E_Entorno": {
+      "escenario": "Salón de baile Art Deco de lujo con candelabros dorados."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada en sofá vintage con mano en el mentón."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz de estudio años 30 envolvente y dramática."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Glamour clásico de Hollywood, sofisticación y nostalgia."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía cinematográfica vintage años 30."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato vertical 9:16 50mm."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tonos de película fotográfica vintage con grano fino."
+    }
+  }
+}`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: 1930s Hollywood Portrait — Vintage Era Editorial
+
+Framework completo en español para glamour clásico de cine de los años 30.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+1930s classic Hollywood glamour vintage portrait of an elegant woman with Marcel wave hairstyle wearing a silver metallic satin gown, fur stole and pearl necklace, seated in an opulent Art Deco ballroom, warm golden chandelier lighting, 50mm film photography look --ar 9:16 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+
+\`\`\`json
+{
+  "title": "1930s Hollywood Portrait — Vintage Era Editorial",
+  "framework_REAISEMP": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Mujer con peinado Marcel wave de los años 30, vestido de satén plateado, estola de piel y perlas."
+    },
+    "E_Entorno": {
+      "escenario": "Salón de baile Art Deco de lujo con candelabros dorados."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada en sofá vintage con mano en el mentón."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz de estudio años 30 envolvente y dramática."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Glamour clásico de Hollywood, sofisticación y nostalgia."
+    },
+    "E_visual_EstiloVisual": {
+      "estilo": "Fotografía cinematográfica vintage años 30."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato vertical 9:16 50mm."
+    },
+    "P_Postproduccion": {
+      "color_grading": "Tonos de película fotográfica vintage con grano fino."
+    }
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Hollywood", "Vintage", "Años 30"] as any
     }
 ];

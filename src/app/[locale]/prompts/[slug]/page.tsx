@@ -11,6 +11,7 @@ import { FrameworkAnalysis } from "@/components/framework-analysis";
 import { ReaisempGuide } from "@/components/reaisemp-guide";
 import { AvatarCourseCTA } from "@/components/avatar-course-cta";
 import { CustomizationGuide } from "@/components/customization-guide";
+import { TransitionBlock } from "@/components/transition-block";
 import { Sparkles } from "lucide-react";
 import { getDistinctCategories } from "@/actions/content-actions";
 import { getUsedTags } from "@/actions/tags";
@@ -169,7 +170,7 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
                                 )}
                             </div>
 
-                            {/* Main Visual (Result) */}
+                            {/* 1. Main Visual (Result) */}
                             <div className="mb-10 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 aspect-video relative group">
                                 {prompt.featured_image_url ? (
                                     <img
@@ -182,31 +183,33 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
                                         <p className="text-slate-500">No Preview Image</p>
                                     </div>
                                 )}
-
-                                {/* Watermark/info */}
-
                             </div>
 
+                            {/* 2. Educational Framework Callout (Guía Maestra REALISMO) */}
+                            <ReaisempGuide />
 
-
-                            {/* Avatar Course CTA - Hidden for Nano Banana cases */}
-                            {(!prompt.id.startsWith('nano-') && !prompt.id.startsWith('p-nano-')) && (
-                                <>
-                                    <AvatarCourseCTA />
-                                    <ReaisempGuide />
-                                </>
-                            )}
-
-                            {/* The Prompt Block with Aspect Ratio Selector */}
+                            {/* 3. The Prompt Block with Aspect Ratio Selector */}
                             <PromptDisplay
                                 promptText={prompt.prompt_text || "No prompt text provided."}
                                 isLocked={isLocked}
                             />
 
-                            {/* Analysis Component (Only appears if framework data exists) */}
+                            {/* 4. Analysis Component (Table by dimension) */}
                             <FrameworkAnalysis promptText={prompt.prompt_text || ""} />
 
-                            {/* Customization Guide Section */}
+                            {/* 5. NEW: Transition Block Component */}
+                            <TransitionBlock
+                                dimensionsKey={prompt.transition_dimensions}
+                                detailSpecific={prompt.transition_detail}
+                                userTarget={prompt.transition_user_target}
+                            />
+
+                            {/* 6. Course Implementation CTA (Moved here right before Premium Section) */}
+                            {(!prompt.id.startsWith('nano-') && !prompt.id.startsWith('p-nano-')) && (
+                                <AvatarCourseCTA />
+                            )}
+
+                            {/* 7. Customization Guide Section (Premium Gated) */}
                             {(prompt.customization_guide || prompt.reference_image_guide) && (
                                 <CustomizationGuide
                                     guide={prompt.customization_guide}

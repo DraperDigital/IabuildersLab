@@ -34,6 +34,9 @@ export type ContentItem = {
     tags?: Tag[];
     customization_guide?: string;
     reference_image_guide?: string;
+    transition_dimensions?: string;
+    transition_detail?: string;
+    transition_user_target?: string;
 };
 
 export type ContentItemWithTags = ContentItem & {

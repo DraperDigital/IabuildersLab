@@ -9,25 +9,39 @@ export function ReaisempGuide() {
 
     return (
         <section className="mt-8 mb-8 border rounded-xl border-purple-500/20 bg-slate-900/40 overflow-hidden">
-            <button
-                onClick={() => setIsOpen(!isOpen)}
-                className="w-full flex items-center justify-between p-4 bg-slate-900/60 hover:bg-slate-900/80 transition-colors"
-            >
-                <div className="flex items-center gap-3">
-                    <div className="p-2 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-lg border border-purple-500/20">
-                        <Info className="w-5 h-5 text-purple-400" />
+            <div className="p-5 bg-slate-900/60 border-b border-purple-500/10">
+                <div className="flex items-start justify-between gap-4">
+                    <div className="flex items-start gap-3">
+                        <div className="p-2.5 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-xl border border-purple-500/30 shrink-0 mt-0.5">
+                            <Info className="w-5 h-5 text-purple-400" />
+                        </div>
+                        <div className="space-y-2">
+                            <div className="flex items-center gap-2">
+                                <h3 className="text-xl font-bold text-white tracking-tight">Guía Maestra REALISMO</h3>
+                                <span className="px-2 py-0.5 text-[10px] font-semibold bg-purple-500/10 text-purple-300 border border-purple-500/20 rounded-full">Metodología de 8 dimensiones</span>
+                            </div>
+                            <p className="text-slate-300 text-sm leading-relaxed max-w-3xl font-light">
+                                Cada prompt de este vault sigue esta metodología de 8 dimensiones — no es prueba y error, es un sistema reproducible. Define quién aparece <strong>(R)</strong>, dónde está <strong>(E)</strong>, qué hace <strong>(A)</strong>, cómo está iluminado <strong>(I)</strong>, qué transmite <strong>(S)</strong>, qué lenguaje visual usa <strong>(E)</strong>, cómo lo ve la cámara <strong>(M)</strong> y cuál es su acabado final <strong>(P)</strong>.
+                            </p>
+                            <p className="text-purple-300/90 text-xs font-medium">
+                                El JSON de abajo es exactamente esa estructura aplicada a este resultado.
+                            </p>
+                        </div>
                     </div>
-                    <div className="text-left">
-                        <h3 className="text-lg font-bold text-white">Guía Maestra REAISEMP</h3>
-                        <p className="text-slate-400 text-xs">Metodología exclusiva de IA Builders Lab</p>
-                    </div>
+
+                    <button
+                        onClick={() => setIsOpen(!isOpen)}
+                        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-800 border border-slate-700/60 text-slate-300 text-xs font-medium transition-colors shrink-0"
+                    >
+                        <span>{isOpen ? "Ocultar desglose" : "Ver desglose"}</span>
+                        {isOpen ? (
+                            <ChevronUp className="w-4 h-4 text-slate-400" />
+                        ) : (
+                            <ChevronDown className="w-4 h-4 text-slate-400" />
+                        )}
+                    </button>
                 </div>
-                {isOpen ? (
-                    <ChevronUp className="w-5 h-5 text-slate-400" />
-                ) : (
-                    <ChevronDown className="w-5 h-5 text-slate-400" />
-                )}
-            </button>
+            </div>
 
             {isOpen && (
                 <div className="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 animate-in slide-in-from-top-2 duration-300">
