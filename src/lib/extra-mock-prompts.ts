@@ -6,7 +6,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "luxury-bedtime-selfie",
         summary: "Ultra-realistic 8K luxury bedtime iPhone selfie portrait con atmósfera cozy editorial.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Preservar estructura facial, peinado, tono de piel y expresión exactamente idénticos.
@@ -80,7 +80,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Luxury Bedtime iPhone Selfie — Phone Glow + Warm Lamp Glass-Skin Mood",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Preservar estructura facial, peinado, tono de piel y expresión exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -182,7 +182,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "playful-golden-hour-selfie",
         summary: "Ultra-realistic 8K golden-hour candid wind selfie con mood espontáneo y cinematográfico.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Preservar estructura facial, tono de piel, peinado, expresión y rasgos físicos exactamente idénticos.
@@ -244,7 +244,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Playful Golden Hour Wind Selfie — Tongue-Out Candid Close-Up",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Preservar estructura facial, tono de piel, peinado, expresión y rasgos físicos exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar el rostro bajo ninguna circunstancia.",
@@ -330,7 +330,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "pink-glow-ball-immersion",
         summary: "Ultra-realistic 8K pink immersion fashion portrait con atmósfera juguetona surreal.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos.
@@ -395,7 +395,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Pink Glow Ball Immersion Portrait — Magenta Saturated Editorial Fantasy",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos.",
                     "preservacion_total": "No cambiar ni editar el rostro bajo ninguna circunstancia.",
@@ -494,7 +494,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "cyberpunk-noir-sequence",
         summary: "Ultra-realistic 8K cyberpunk noir triptych sequence con identidad preservada y estilo neon dark.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado y tono de piel exactamente idénticos.
@@ -550,7 +550,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Cyberpunk Noir 3-Frame Portrait Sequence — Green Neon Street Aesthetic",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado y tono de piel exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -643,7 +643,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "overhead-cozy-sofa",
         summary: "Ultra-realistic 8K overhead sofa portrait con atmósfera tranquila y cinematográfica.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rostro, peinado, tono de piel y todos los rasgos físicos exactamente idénticos.
@@ -707,7 +707,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Overhead Cozy Sofa Portrait — Morning Sunbeam Basement Scene",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Mantener rostro, peinado, tono de piel y todos los rasgos físicos exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -796,7 +796,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "fragile-tape-couture",
         summary: "Ultra-realistic 8K fragile tape couture portrait con estética editorial conceptual premium.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión, tipo corporal y todos los rasgos físicos exactamente idénticos.
@@ -857,7 +857,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Fragile Tape Couture Portrait — Yellow Avant-Garde Editorial Concept",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión, tipo corporal y todos los rasgos físicos exactamente idénticos.",
                     "preservacion_total": "No cambiar ni editar ningún aspecto físico bajo ninguna circunstancia.",
@@ -942,7 +942,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "dual-split-light-portrait",
         summary: "Ultra-realistic 8K split-light profile portrait con mood etéreo editorial y contraste gold/blue.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos a la referencia.
@@ -1001,7 +1001,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Dual Split-Light Profile Portrait — Gold Top Light + Neon Blue Jaw Glow",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos a la referencia.",
                     "preservacion_total": "No cambiar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.",
@@ -1084,7 +1084,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "cloud-fantasy-portrait",
         summary: "Ultra-realistic 8K cloud fantasy portrait con mood celestial sereno y fidelidad absoluta.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, color, longitud, textura, tono de piel, tipo corporal, tattoos y expresión exactamente idénticos.
@@ -1154,7 +1154,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Cloud Fantasy Ethereal Portrait — Soft Blue Purple Heavenly Mood",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, color, longitud, textura, tono de piel, tipo corporal, tattoos y expresión exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -1250,7 +1250,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "violet-monochrome-diva",
         summary: "Ultra-realistic 8K violet diva portrait con estética editorial glam de lujo.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rostro, cabello, tono de piel y todos los rasgos físicos exactamente idénticos.
@@ -1327,7 +1327,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Violet Monochrome Diva Portrait — Lavender Fur Y2K Glam Editorial",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Mantener rostro, cabello, tono de piel y todos los rasgos físicos exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar ningún aspecto físico bajo ninguna circunstancia.",
@@ -1432,7 +1432,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "modern-chair-studio-portrait",
         summary: "Ultra-realistic 8K modern studio chair portrait con estética fashion minimal premium.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos. No alterar ni embellecer el rostro.
@@ -1489,7 +1489,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Modern Chair Studio Portrait — Black Coat + Denim Shorts Editorial",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos. No alterar ni embellecer el rostro.",
                     "preservacion_total": "No modificar cara, proporciones, textura de piel ni expresión bajo ninguna circunstancia.",
@@ -1569,7 +1569,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "tropical-juice-selfie",
         summary: "Ultra-realistic 8K tropical juice selfie portrait con mood veraniego playful.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado y tono de piel exactamente idénticos. Identidad bloqueada.
@@ -1635,7 +1635,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Tropical Juice Selfie Portrait — Playful Summer Fashion + Fluffy Dog",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado y tono de piel exactamente idénticos. Identidad bloqueada.",
                     "preservacion_total": "No alterar ningún rasgo físico bajo ninguna circunstancia.",
@@ -1726,7 +1726,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "night-pool-polaroid-portrait",
         summary: "Ultra-realistic 8K authentic night pool Polaroid portrait con mood íntimo y delicado.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos a la referencia.
@@ -1788,7 +1788,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Night Pool Polaroid Portrait — Wet Hair Cinematic Film Mood",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos a la referencia.",
                     "preservacion_total": "No alterar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.",
@@ -1874,7 +1874,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "butterfly-couture-portrait",
         summary: "Ultra-realistic 8K surreal butterfly couture portrait con emoción editorial atemporal.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos. No alterar ni embellecer el rostro.
@@ -1932,7 +1932,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Butterfly Couture Surreal Portrait — High-Fashion Magical Realism",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Mantener rasgos faciales, peinado, tono de piel y expresión exactamente idénticos. No alterar ni embellecer el rostro.",
                     "preservacion_total": "No modificar cara, proporciones, textura de piel ni expresión bajo ninguna circunstancia.",
@@ -2013,7 +2013,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "pastel-cyber-gamergirl",
         summary: "Ultra-realistic 8K pastel cyber gamergirl portrait con mood cálido, íntimo y editorial.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la foto subida como identidad principal. Mantener estructura facial, tono de piel, peinado y expresión exactamente idénticos a la referencia.
@@ -2083,7 +2083,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Pastel Cyber Gamergirl Portrait — Neon Cozy Keyboard Scene",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la foto subida como identidad principal. Mantener estructura facial, tono de piel, peinado y expresión exactamente idénticos a la referencia.",
                     "preservacion_total": "No cambiar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.",
@@ -2179,7 +2179,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "black-cinematic-neon-poster",
         summary: "Ultra-realistic 8K striking black poster portrait con neón personalizado.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la foto subida como identidad principal. Mantener estructura facial, forma corporal, silueta, peinado, tono de piel y textura exactamente idénticos a la referencia.
@@ -2237,7 +2237,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Black Cinematic Poster — Neon Sign 'YOUR NAME HERE'",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la foto subida como identidad principal. Mantener estructura facial, forma corporal, silueta, peinado, tono de piel y textura exactamente idénticos a la referencia.",
                     "preservacion_total": "No alterar ni editar ningún rasgo físico de la persona.",
@@ -2318,7 +2318,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "subway-motion-blur-portrait",
         summary: "Ultra-realistic 8K cinematic subway portrait con energía urbana y emoción contenida.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.
@@ -2377,7 +2377,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Subway Motion Blur Portrait — Still Subject, Yellow Train Streak",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.",
                     "preservacion_total": "No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -2460,7 +2460,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "futuristic-editorial-megan",
         summary: "Ultra-realistic 8K futuristic fashion editorial portrait con tipografía integrada.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.
@@ -2520,7 +2520,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Futuristic Editorial — Metallic Pink Shapes + Typography 'MEGAN'",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.",
                     "preservacion_total": "No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -2604,7 +2604,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "crimson-dominance-portrait",
         summary: "Ultra-realistic 8K crimson editorial portrait con presencia escultórica.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.
@@ -2652,7 +2652,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Crimson Dominance Portrait — Low Angle Cinematic Editorial",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.",
                     "preservacion_total": "No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -2720,7 +2720,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "snowy-mountain-swimsuit",
         summary: "High-contrast winter luxury portrait: olive bikini in snow with fur hat.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Mantener rasgos faciales originales, maquillaje high-fashion impecable.
@@ -2765,7 +2765,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Snowy Mountain Swimsuit — Bold Winter Contrast",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Mantener rasgos faciales originales, maquillaje high-fashion impecable.",
                     "cabello": "Castaño oscuro, largo y ondulado, parcialmente extendido sobre la nieve.",
@@ -2826,7 +2826,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "denim-backpack-garden-portrait",
         summary: "Ultra-realistic 8K outdoor floral portrait con luz soleada y atmósfera fresca.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.
@@ -2882,7 +2882,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Denim Backpack Garden Portrait — Pink Roses Sunny Daylight",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.",
                     "preservacion_total": "No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -2961,7 +2961,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "denim-rose-wall-portrait",
         summary: "Ultra-realistic 8K moody wall portrait con rosa blanca y sombra dorada misteriosa.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos.
@@ -3018,7 +3018,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Denim Rose Wall Portrait — Golden Circle Shadow Mood",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos.",
                     "preservacion_total": "No cambiar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -3098,7 +3098,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "minimalist-bw-chair-portrait",
         summary: "Ultra-realistic 8K timeless monochrome portrait con vibra editorial minimal.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos.
@@ -3151,7 +3151,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Minimalist Black & White Chair Portrait — Raw Timeless Mood",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos.",
                     "preservacion_total": "No cambiar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -3225,7 +3225,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "orange-rim-light-editorial-vogue",
         summary: "Ultra-realistic 8K Vogue-style orange glow studio portrait con misterio y elegancia.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.
@@ -3282,7 +3282,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Orange Rim-Light Editorial — Shadowed Vogue Studio Portrait",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen subida como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y tipo de cuerpo exactamente idénticos a la referencia.",
                     "preservacion_total": "No modificar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -3361,7 +3361,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "elevator-neon-editorial-black-suit",
         summary: "Ultra-realistic 8K neon elevator fashion portrait con mood misterioso.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** El sujeto debe ser exactamente idéntico a la imagen de referencia: rostro, cabello, tono de piel, tipo de cuerpo y todos los rasgos físicos sin ninguna modificación.
@@ -3413,7 +3413,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Elevator Neon Editorial — Black Suit Mysterious Portrait",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "El sujeto debe ser exactamente idéntico a la imagen de referencia: rostro, cabello, tono de piel, tipo de cuerpo y todos los rasgos físicos sin ninguna modificación.",
                     "preservacion_total": "No alterar cara, proporciones, peinado ni características corporales.",
@@ -3489,7 +3489,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "floating-jump-mirror-water-surreal",
         summary: "Ultra-realistic 8K floating surreal cinematic portrait con sensación de libertad.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** La persona debe ser exactamente idéntica a la imagen de referencia: rostro, cabello, tono de piel y todos los rasgos físicos sin ninguna alteración.
@@ -3543,7 +3543,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Floating Jump Above Mirror Water — Surreal Freedom Portrait",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "La persona debe ser exactamente idéntica a la imagen de referencia: rostro, cabello, tono de piel y todos los rasgos físicos sin ninguna alteración.",
                     "preservacion_total": "No cambiar cara, peinado, proporciones ni características corporales.",
@@ -3729,7 +3729,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         "prompt_text": JSON.stringify({
             "title": "Double Exposure Epic Poster — Aragorn & Middle Earth",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Composición artística de doble exposición centrada en la silueta de Aragorn, hijo de Arathorn.",
                     "forma_base": "Silueta humana definida y reconocible, utilizada como contenedor visual.",
@@ -3814,7 +3814,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         "prompt_text": JSON.stringify({
             "title": "Chibi Silicone Wrist Rest — Panda Design",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Reposamuñecas de silicona estilo chibi inspirado en el emoji de panda.",
                     "forma": "Redondeada, suave y adorable, con proporciones cartoon.",
@@ -3898,7 +3898,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         "prompt_text": JSON.stringify({
             "title": "Advanced Anatomical Visualization — Highlighted Area",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Ilustración digital del sujeto representado mediante líneas luminosas que delinean su anatomía.",
                     "sujeto": "[SUBJECT]",
@@ -4007,7 +4007,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         "prompt_text": JSON.stringify({
             "title": "LEGO Cityscape — Shanghai Bund & Pudong Skyline",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Escena urbana altamente detallada recreada completamente en estilo LEGO.",
                     "estilo_construccion": "Bloques LEGO con geometría modular y colores vivos.",
@@ -4116,7 +4116,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         "prompt_text": JSON.stringify({
             "title": "Crystal Ball World — Chang’e Flying to the Moon",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Esfera de cristal delicada que contiene un mundo tridimensional en miniatura.",
                     "estructura": "Bola de cristal transparente con superficie pulida y refractiva.",
@@ -4515,7 +4515,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "nano-banana-case-57",
         "summary": "Icono de hamburguesa pixel art estilo 8-bit clásico.",
         "body_markdown": `
-# Framework REAISEMP (Object)
+# Framework REALISMO (Object)
 
 *   **R (Render):** Icono pixel art 8-bit de hamburguesa. Lineart negro grueso, colores planos vibrantes.
 *   **E (Entorno):** Fondo blanco puro minimalista.
@@ -4528,7 +4528,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Pixel Art Burger — 8-Bit Icon",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Icono pixel art de una hamburguesa clásica con queso.",
                     "estilo_pixel": "8-bit o 16-bit, píxeles visibles y definidos.",
@@ -4633,7 +4633,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "nano-banana-case-54",
         "summary": "Selfie nocturna casual y accidental en Hong Kong.",
         "body_markdown": `
-# Framework REAISEMP (Human)
+# Framework REALISMO (Human)
 
 *   **R (Render):** Dos hombres adultos (Eason Chan, Nicholas Tse). Identidad casual, sin glam.
 *   **E (Entorno):** Noche, HK Convention Centre. Luces urbanas desenfocadas.
@@ -4646,7 +4646,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Selfie casual nocturna ultra ordinaria — Snapshot accidental",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujetos": "Dos hombres adultos (Eason Chan y Nicholas Tse) presentes en la selfie.",
                     "identidad": "Rasgos reconocibles preservados, pero capturados de forma casual y sin intención estética.",
@@ -4765,7 +4765,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "nano-banana-case-51",
         "summary": "Sello de pasaporte realista 'Welcome to Guanajuato' con silueta arquitectónica.",
         "body_markdown": `
-# Framework REAISEMP (Object)
+# Framework REALISMO (Object)
 
 *   **R (Render):** Sello de tinta azul en papel de pasaporte texturizado.
 *   **E (Entorno):** Página de pasaporte con patrones de seguridad sutiles.
@@ -4778,7 +4778,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Passport Entry Stamp — Welcome to Guanajuato",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Sello de entrada en pasaporte realista para Guanajuato, México.",
                     "detalles_sello": {
@@ -4845,7 +4845,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "nano-banana-case-50",
         "summary": "Ilustración de trading card donde Lara Croft rompe el marco hacia el exterior.",
         "body_markdown": `
-# Framework REAISEMP (Object)
+# Framework REALISMO (Object)
 
 *   **R (Render):** Lara Croft saltando/balanceándose. Ruptura marco carta.
 *   **E (Entorno):** Dentro: Ruinas selváticas. Fuera: Escombros, fragmentos carta.
@@ -4858,7 +4858,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Trading Card Burst Scene — Lara Croft Archaeological Adventure",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Ilustración ultra-fotorrealista estilo cinematográfico de una carta coleccionable donde Lara Croft rompe el marco hacia el exterior.",
                     "elemento_central": {
@@ -4951,7 +4951,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "nano-banana-case-49",
         "summary": "Portada de revista fashion editorial con mujer en qipao y mariposas.",
         "body_markdown": `
-# Framework REAISEMP (Human)
+# Framework REALISMO (Human)
 
 *   **R (Render):** Mujer hermosa, estética fashion. Qipao rosa, encaje blanco. Mariposas.
 *   **E (Entorno):** Fondo gris minimalista. Estudio limpio.
@@ -4964,7 +4964,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Portada editorial — Mujer en qipao rosa con mariposas",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer hermosa con estética elegante tipo fashion magazine.",
                     "vestimenta": {
@@ -5099,7 +5099,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         "prompt_text": JSON.stringify({
             "title": "RPG Collectible Character Card — Programmer",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Tarjeta digital coleccionable estilo RPG con un personaje 3D cartoon.",
                     "personaje": {
@@ -5278,10 +5278,10 @@ export const EXTRA_MOCK_PROMPTS = [
         "title": "Chibi 3D Family Wedding Portrait — Framed Scene",
         "slug": "nano-banana-case-33",
         "summary": "Retrato familiar de boda en estilo Chibi 3D dentro de un marco.",
-        "body_markdown": "\n# Framework REAISEMP\n\n*   **R (Render):** Personajes chibi 3D, cabezas grandes, expresiones suaves.\n*   **E (Entorno):** Escenario fotográfico realista con arco floral.\n*   **A (Acción):** Familia posando armoniosamente.\n*   **I (Iluminación):** Suave y uniforme.\n*   **S (Sensación):** Ternura, celebración.\n*   **E (Estilo):** Híbrido: personajes estilizados + entorno realista.\n*   **M (Composición):** Plano medio centrado en marco.\n*   **P (Post):** Colores vivos, acabado pulido.\n        ",
+        "body_markdown": "\n# Framework REALISMO\n\n*   **R (Render):** Personajes chibi 3D, cabezas grandes, expresiones suaves.\n*   **E (Entorno):** Escenario fotográfico realista con arco floral.\n*   **A (Acción):** Familia posando armoniosamente.\n*   **I (Iluminación):** Suave y uniforme.\n*   **S (Sensación):** Ternura, celebración.\n*   **E (Estilo):** Híbrido: personajes estilizados + entorno realista.\n*   **M (Composición):** Plano medio centrado en marco.\n*   **P (Post):** Colores vivos, acabado pulido.\n        ",
         "prompt_text": JSON.stringify({
             "title": "Chibi 3D Family Wedding Portrait — Framed Scene",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Transformar a las personas de la foto original en versiones chibi 3D, manteniendo identidad reconocible de cada integrante (padre, madre e hijo) a través de rasgos simplificados.",
                     "estilo_personajes": "Chibi 3D con cabezas grandes, cuerpos pequeños, proporciones adorables y expresiones suaves.",
@@ -5393,7 +5393,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         "prompt_text": JSON.stringify({
             "title": "Floating Moscow — Surreal Aerial Cityscape",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Ciudad de Moscú representada de forma surrealista, fragmentada en islas flotantes suspendidas en el cielo.",
                     "escala": "Arquitectura urbana a gran escala.",
@@ -5472,7 +5472,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         "prompt_text": JSON.stringify({
             "title": "OOTD Character Card — Fashion Designer",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Avatar 3D estilo Q / chibi renderizado con calidad C4D, presentado como tarjeta editorial OOTD.",
                     "personaje": {
@@ -5640,7 +5640,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         "prompt_text": JSON.stringify({
             "title": "Collectible Figure Box — JAMES BOND",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Figura coleccionable estilo Funko Pop presentada dentro de su caja y también fuera del empaque.",
                     "empaque": {
@@ -5750,7 +5750,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "nano-banana-case-20",
         "summary": "Escena casual de contraste entre figura anime y persona real.",
         "body_markdown": `
-# Framework REAISEMP (Object)
+# Framework REALISMO (Object)
 
 *   **R (Render):** Figura anime vs Persona Real. Figura estilo Jackie Chan completamente equipada. Persona real imitando pose exacta.
 *   **E (Entorno):** Escritorio cotidiano, interior casual, foto de móvil.
@@ -5763,7 +5763,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Desk Scene Contrast — Anime Figure + Real Person Pose Match",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Escena casual tipo móvil donde una figura anime coleccionable aparece sobre un escritorio junto a una persona real replicando su pose.",
                     "figura": {
@@ -5840,7 +5840,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "nano-banana-case-19",
         "summary": "Diorama realista de México dentro de una caja de cartón.",
         "body_markdown": `
-# Framework REAISEMP (Object)
+# Framework REALISMO (Object)
 
 *   **R (Render):** Diorama 3D-printed dentro de caja de cartón. Textura matte con layer lines visibles, estilo juguete táctil.
 *   **E (Entorno):** Interior de caja de cartón beige, manos humanas sosteniendo la tapa.
@@ -5853,7 +5853,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Mexico in a Box — Miniature Diorama",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "tipo_objeto": "Diorama impreso en 3D dentro de una caja de cartón.",
                     "materiales": {
@@ -5921,7 +5921,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "nano-banana-case-9",
         "summary": "Poster minimalista futurista de una botella de Coca-Cola estilo metaball.",
         "body_markdown": `
-# Framework REAISEMP (Object)
+# Framework REALISMO (Object)
 
 *   **R (Render):** Metaball fluido 3D, botella Coca-Cola. Vidrio esmerilado, rojo a blanco.
 *   **E (Entorno):** Fondo gris ultra claro. Galería futurista minimalista.
@@ -5934,7 +5934,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Poster futurista minimalista — Metaball Coca-Cola Bottle",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Objeto central: metaball fluido 3D con forma completa de botella clásica de Coca-Cola.",
                     "material": "Vidrio esmerilado (frosted glass) con ruido granulado delicado.",
@@ -6016,7 +6016,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "nano-banana-case-8",
         "summary": "Mini escena coleccionable LEGO en cubo de vidrio premium.",
         "body_markdown": `
-# Framework REAISEMP (Object)
+# Framework REALISMO (Object)
 
 *   **R (Render):** Mini escena coleccionable LEGO. Avatar personalizado + animal compañero.
 *   **E (Entorno):** Cubo de vidrio transparente minimalista, base negra mate con acentos plateados.
@@ -6029,7 +6029,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "LEGO Collectible Glass Cube — Avatar + Companion Animal Diorama",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Mini escena coleccionable estilo LEGO minifigure basada en la foto del usuario, dentro de un cubo de vidrio premium.",
                     "avatar": {
@@ -6118,7 +6118,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "elegance-redefined-confidence",
         "summary": "Retrato editorial sofisticado de mujer en traje navy.",
         "body_markdown": `
-# Framework REAISEMP (Human)
+# Framework REALISMO (Human)
 
 *   **R (Render):** Mujer elegante, traje navy entallado. Textura piel realista.
 *   **E (Entorno):** Ambiente sereno, cálido y refinado.
@@ -6131,7 +6131,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Retrato sofisticado — Mujer en traje navy con presencia elegante",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer elegante y poised con apariencia sofisticada.",
                     "vestimenta": {
@@ -6194,7 +6194,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "whispers-elegance-floral-dreamscape",
         "summary": "Retrato editorial chiaroscuro de belleza rubia con couture floral.",
         "body_markdown": `
-# Framework REAISEMP (Human)
+# Framework REALISMO (Human)
 
 *   **R (Render):** Belleza rubia platino impactante. Couture floral delicada. Piel ultra-realista.
 *   **E (Entorno):** Fondo oscuro minimalista, pétalos flotando.
@@ -6207,7 +6207,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Retrato chiaroscuro — Belleza rubia platino con couture floral",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer de belleza impactante con cabello rubio platino.",
                     "identidad_visual": "Rostro elegante y emocional, estética de alta costura.",
@@ -6306,7 +6306,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "urban-shadows-hackers-realm",
         "summary": "Retrato cyberpunk neo-noir con estética de rebelión digital.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Figura femenina intensa, piel húmeda, expresión determinada.
 *   **E (Entorno):** Ciudad nocturna con neón, calles mojadas, arquitectura futurista.
@@ -6319,7 +6319,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Neon Noir Portrait — Digital Rebellion",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Figura femenina con rasgos definidos y expresivos, piel realista con reflejos húmedos por la lluvia.",
                     "expresion": "Intensa y determinada, mirada firme cargada de propósito.",
@@ -6378,7 +6378,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "shadows-longing-subway-story",
         "summary": "Retrato cinematográfico en el metro, cargado de anhelo y reflexión.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Hombre adulto, rasgos definidos, mirada profunda y pensativa.
 *   **E (Entorno):** Estación de metro subterránea, eco visual, luces artificiales.
@@ -6391,7 +6391,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Cinematic Subway Portrait — Longing and Reflection",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Hombre adulto con rasgos definidos y naturales, piel realista con textura visible.",
                     "expresion": "Cargada de anticipación y reflexión, mirada profunda y pensativa.",
@@ -6452,7 +6452,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "golden-hour",
         "summary": "Retrato poético al atardecer, soledad en pensamiento.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Mujer joven, rasgos naturales, textura de piel realista, mirada introspectiva.
 *   **E (Entorno):** Exterior al atardecer, luz cálida en el horizonte.
@@ -6465,7 +6465,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Poetic Sunset Portrait — Solitude in Thought",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Mujer joven con rasgos suaves y naturales, piel realista con textura visible.",
                     "expresion": "Pensativa, introspectiva, mirada cargada de emoción contenida.",
@@ -6524,7 +6524,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "teal-smoke-authority-power",
         "summary": "Retrato de poder cinematográfico con humo teal y estética editorial.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Figura femenina elegante, rasgos definidos, expresión de confianza silenciosa.
 *   **E (Entorno):** Espacio minimalista oscuro, humo en movimiento creando profundidad.
@@ -6537,7 +6537,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Power Portrait — Teal Smoke Authority (16:9)",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Figura femenina con rasgos definidos y elegantes, estructura facial equilibrada, piel realista con acabado editorial pulido.",
                     "expresion": "Segura y dominante, confianza silenciosa.",
@@ -6598,7 +6598,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "shadows-authority-cyberpunk-portrait",
         "summary": "Retrato cinematográfico de alta autoridad en una realidad simulada.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Mujer adulta, rostro exacto de la usuaria, expresión enigmática y autoritaria, gafas de sol redondas.
 *   **E (Entorno):** Habitación oscura minimalista, cascadas de código digital verde descendiendo por las paredes.
@@ -6611,7 +6611,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Cyberpunk Cinematic Portrait — The Choice",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Mujer adulta utilizando el rostro exacto de la usuaria, preservando perfectamente sus rasgos faciales, proporciones, textura de piel, expresiones naturales y peinado original.",
                     "expresion": "Enigmática, compuesta y autoritaria.",
@@ -6678,7 +6678,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "geisha-dual-existence-conceptual",
         "summary": "Retrato conceptual que divide el mundo de una geisha entre lo urbano y lo natural.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Figura de geisha simbólica, rasgos delicados, expresión serena y contemplativa.
 *   **E (Entorno):** Composición dividida: Lado urbano (arquitectura moderna rígida) vs Lado natural (vegetación exuberante).
@@ -6691,7 +6691,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Conceptual Juxtaposition Portrait — Geisha Between Worlds",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Figura femenina inspirada en una geisha, con rasgos delicados y expresión serena, identidad tratada de forma simbólica y artística más que literal.",
                     "expresion": "Calma, introspectiva, contemplativa.",
@@ -6752,7 +6752,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "music-studio-creative-focus",
         "summary": "Retrato cinematográfico de una artista en su estudio, capturando la esencia de la creación musical.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Artista femenina, rasgos naturales y expresivos, profundamente concentrada.
 *   **E (Entorno):** Estudio musical en penumbra, guitarras y controladores MIDI de fondo.
@@ -6765,7 +6765,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Cinematic Music Studio Portrait — Creative Focus",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Artista femenina con rasgos naturales y expresivos, piel realista, identidad clara y auténtica.",
                     "expresion": "Concentrada, inspirada, profundamente conectada con el sonido.",
@@ -6825,7 +6825,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "winter-snowfall-elegance",
         "summary": "Retrato invernal que captura la elegancia y la paz de la nieve al caer.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Figura femenina elegante, traje de piel lujoso, expresión serena y calmada.
 *   **E (Entorno):** Exterior invernal, caída de nieve suave, atmósfera silenciosa.
@@ -6838,7 +6838,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Winter Tranquility Portrait — Snowfall Elegance",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Figura femenina con rasgos serenos y elegantes, piel natural con tonos fríos suaves, identidad visual calmada y armónica.",
                     "expresion": "Tranquila, contemplativa, con una sensación de quietud interior.",
@@ -6898,7 +6898,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "fashion-fullbody-macbook-pro",
         "summary": "Retrato fashion de cuerpo completo con MacBook Pro, estilo editorial minimalista.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Rostro natural con maquillaje suave, expresión neutra profesional. Cabello rojo suelto.
 *   **E (Entorno):** Fondo neutro apagado estilo marketing, ambientación minimalista.
@@ -6911,7 +6911,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Retrato Fashion de Cuerpo Completo con MacBook Pro - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro natural con maquillaje suave.",
                     "expresion": "Neutra profesional.",
@@ -6966,7 +6966,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "couture-couple-bw",
         "summary": "Retrato B&W de pareja de alta costura, espalda con espalda, estilo editorial.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Expresión intensa y elegante, seria, editorial. Cabello con ondas largas estilizadas. Estilo con blazer negro y crop top.
 *   **E (Entorno):** Telón gris claro minimalista, ambientación moda de estudio en B&W.
@@ -6979,7 +6979,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Retrato B&W de Pareja de Alta Costura (Espalda con Espalda) - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Expresión intensa y elegante.",
                     "expresion": "Seria, editorial.",
@@ -7035,7 +7035,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "intimate-couple-modern",
         "summary": "Retrato íntimo de pareja en sala moderna, cálido y elegante.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Perfil delicado, mirada suave, expresión cálida y afectuosa. Cabello largo con ondas suaves. Top y falda negros.
 *   **E (Entorno):** Sala moderna desenfocada con tonos beige, ambientación elegante y cálida.
@@ -7048,7 +7048,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Retrato Íntimo de Pareja en Sala Moderna - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Perfil delicado, mirada suave.",
                     "expresion": "Cálida, afectuosa.",
@@ -7102,7 +7102,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "christmas-gift-neon",
         "summary": "Retrato navideño alegre con caja de regalo gigante y letrero neón.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Sonrisa amplia, maquillaje navideño suave. Cabello rubio largo, suelto. Minivestido rojo brillante.
 *   **E (Entorno):** Árboles navideños con luces cálidas. Letrero 'Merry Christmas' en neón blanco.
@@ -7115,7 +7115,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Retrato Navideño con Caja de Regalo y Letrero Neón - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Sonrisa amplia, maquillaje navideño suave.",
                     "cabello": "Rubio largo, suelto.",
@@ -7170,7 +7170,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "christmas-intimate-warm",
         "summary": "Retrato navideño íntimo y cálido con iluminación tenue.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Mirada pensativa, maquillaje suave. Cabello rubio largo natural. Suéter rojo navideño.
 *   **E (Entorno):** Árbol navideño oscuro con bokeh dorado. Ambientación cálida e íntima.
@@ -7183,7 +7183,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Retrato Íntimo y Cálido Navideño - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Mirada pensativa, maquillaje suave.",
                     "cabello": "Rubio largo natural.",
@@ -7236,7 +7236,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "gym-selfie-casual",
         "summary": "Selfie casual en gimnasio con estilo de teléfono, natural y espontáneo.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Natural, sin retoque. Cabello peinado casual, expresión espontánea. Outfit deportivo girly en negro y rosa.
 *   **E (Entorno):** Gimnasio real, ligeramente desordenado. Ambientación casual auténtica.
@@ -7249,7 +7249,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Selfie Casual en Gimnasio con Estilo de Teléfono - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Natural, sin retoque.",
                     "cabello": "Peinado casual.",
@@ -7306,7 +7306,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "jennifers-body-style",
         "summary": "Escena estilo Jennifer's Body en sofá de terciopelo, rebelde y oscura.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Expresiva y traviesa, lengua afuera en pose divertida. Peinado suelto de fiesta. Baby tee corta y mini falda baja.
 *   **E (Entorno):** Sala oscura con luces neón y velas. Ambientación oscura, mística y cinematográfica.
@@ -7319,7 +7319,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Escena Estilo Jennifer’s Body en Sofá de Terciopelo - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Expresiva y traviesa.",
                     "cabello": "Peinado suelto de fiesta.",
@@ -7376,7 +7376,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "neon-horror-drive-thru",
         "summary": "Selfie casual en un drive-thru de terror con estética neón vibrante.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Risa espontánea, expresión alegre. Cabello suelto natural. Cropped hoodie y mini falda.
 *   **E (Entorno):** Drive-thru de terror con neón multicolor. Michael Myers al fondo.
@@ -7389,7 +7389,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Selfie en Auto Rosa con Estética Neon Horror - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Risa espontánea, expresión alegre.",
                     "cabello": "Suelto, natural.",
@@ -7444,7 +7444,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "gritty-bathroom-freddy",
         "summary": "Selfie gritty en baño de gasolinera estilo 90s con Freddy Krueger.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Expresión despreocupada haciendo burbuja de chicle. Top rojo halter, mini falda y medias de red.
 *   **E (Entorno):** Baño sucio estilo 90s, azulejos viejos. Freddy Krueger en puerta del cubículo.
@@ -7457,7 +7457,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Selfie Gritty en Baño de Gasolinera 90s con Freddy Krueger - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Expresión despreocupada haciendo burbuja de chicle.",
                     "cabello": "Despeinado casual.",
@@ -7513,7 +7513,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "night-parking-jason",
         "summary": "Selfie nocturna casual en estacionamiento con Jason Voorhees.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Expresión natural relajada. Cabello rubio liso largo. Hoodie negro corto, mini falda roja, calcetas altas.
 *   **E (Entorno):** Estacionamiento con luces y trick-or-treaters. Jason sosteniendo calabaza pequeña.
@@ -7526,7 +7526,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Selfie Nocturna en Estacionamiento con Jason Voorhees - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Expresión natural relajada.",
                     "cabello": "Rubio liso largo.",
@@ -7581,7 +7581,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "fashion-geometric-sweater",
         "summary": "Editorial de moda con suéter geométrico y fondo naranja vibrante.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Rasgos femeninos definidos, expresión seria elegante. Melena larga o bob estilizado. Gafas redondas negro-dorado. Suéter geométrico con cuello naranja grueso.
 *   **E (Entorno):** Fondo naranja sólido vibrante, ambientación moda editorial moderna.
@@ -7594,7 +7594,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Fashion Editorial con Suéter Geométrico - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rasgos femeninos definidos, expresión seria elegante.",
                     "cabello": "Melena larga o bob estilizado.",
@@ -7649,7 +7649,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "fashion-christmas-sweater",
         "summary": "Editorial navideño de moda con suéter y gafas oscuras.",
         "body_markdown": `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Expresión seria y elegante. Cabello rubio largo o castaño. Suéter navideño rojo/blanco/verde. Gafas oscuras redondas.
 *   **E (Entorno):** Fondo rojo profundo con luces de navidad borrosas. Ambientación Studio Christmas editorial.
@@ -7662,7 +7662,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Retrato Femenino con Suéter Navideño y Gafas Oscuras - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Expresión seria y elegante.",
                     "cabello": "Rubio largo o castaño.",
@@ -7716,7 +7716,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "professional-studio-profile",
         "summary": "Retrato profesional de estudio business casual.",
         "body_markdown": `
-# Framework REAISEMP (Human)
+# Framework REALISMO (Human)
 
 *   **R (Render):** Identidad y rasgos clave mantenidos. Sonrisa cálida, profesional. Piel natural. Cabello detallado.
 *   **E (Entorno):** Fondo sólido neutro de estudio #141414.
@@ -7729,7 +7729,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Professional Studio Profile Photo — Business Casual Portrait",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Mantener exactamente la estructura facial, identidad y rasgos clave de la persona en la imagen de entrada.",
                     "expresion": "Sonrisa cálida, acogedora y profesional.",
@@ -7793,7 +7793,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "editorial-3x3-grid",
         "summary": "Serie de retratos editoriales íntimos y minimalistas en formato grid 3x3.",
         "body_markdown": `
-# Framework REAISEMP (Human)
+# Framework REALISMO (Human)
 
 *   **R (Render):** Identidad 100% igual a referencia. Vestimenta minimalista (navy/marfil). Piel realista. Cabello natural expresivo.
 *   **E (Entorno):** Estudio limpio minimalista beige suave. Sin distracciones.
@@ -7806,7 +7806,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Editorial 3x3 Grid — Intimate Minimalist Portrait Series",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "El personaje debe coincidir con la referencia al 100%, preservando rostro, estructura facial y rasgos clave.",
                     "vestimenta": {
@@ -7888,7 +7888,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "early-2000s-paparazzi",
         "summary": "Retrato callejero nocturno estilo paparazzi de los 2000s con flash duro.",
         "body_markdown": `
-# Framework REAISEMP (Human)
+# Framework REALISMO (Human)
 
 *   **R (Render):** Identidad 100% fiel. Mirada fría, distante. Streetwear oversized neutro. Piel textura cruda.
 *   **E (Entorno):** Calle urbana nocturna. Teléfono público. Fondo luces desenfocadas.
@@ -7901,7 +7901,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Early 2000s Paparazzi Night Shot — Raw Flash Street Portrait",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Mantener el rostro 100% fiel a la imagen de referencia, sin alterar estructura facial ni rasgos clave.",
                     "expresion": "Mirada fría, distante, emocionalmente desconectada.",
@@ -7966,7 +7966,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "gaming-cinema-scene",
         "summary": "Escena cinematográfica hiperrealista en cine con personajes de videojuegos.",
         "body_markdown": `
-# Framework REAISEMP (Human)
+# Framework REALISMO (Human)
 
 *   **R (Render):** Identidad fiel. Expresión feliz/emocionada. Piel hiperrealista.
 *   **E (Entorno):** Cine oscuro, luces bajas. Múltiples personajes de videojuegos (Mario, DK, Goku, Kratos).
@@ -7979,7 +7979,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Escena de cine con personajes de videojuegos",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "El hombre debe conservar exactamente el rostro y rasgos faciales de la foto proporcionada.",
                     "expresion": "Feliz, emocionado, disfrutando el momento.",
@@ -8040,7 +8040,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "mrbeast-halloween-thumbnail",
         "summary": "Miniatura de YouTube estilo MrBeast con temática de Halloween.",
         "body_markdown": `
-# Framework REAISEMP (Human)
+# Framework REALISMO (Human)
 
 *   **R (Render):** Identidad exacta. Sorpresa extrema estilo MrBeast. Rasgos exagerados limpios.
 *   **E (Entorno):** Halloween. Calabazas brillantes, fantasmas, casa embrujada. Colores naranja/púrpura.
@@ -8053,7 +8053,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Miniatura estilo MrBeast con tema Halloween y expresión de sorpresa",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Mantener exactamente el mismo rostro y peinado masculino de la imagen de referencia.",
                     "expresion": "Sorpresa extrema, energía alta, mirada expresiva estilo YouTube thumbnail.",
@@ -8121,7 +8121,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "nano-banana-case-12",
         "summary": "Figura coleccionable 3D estilo chibi de pareja en caja romántica.",
         "body_markdown": `
-# Framework REAISEMP (Object)
+# Framework REALISMO (Object)
 
 *   **R (Render):** Figura chibi 3D. Pareja romántica. Ojos expresivos. Ramo flores blancas.
 *   **E (Entorno):** Caja joyero romántica. Ventana skyline pueblo chino. Nubes, pétalos.
@@ -8134,7 +8134,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Romantic Collectible Box — Forever Together Chibi Keepsake",
-            "framework_REAISEMP_Object": {
+            "framework_REALISMO_Object": {
                 "R_Render_del_Objeto": {
                     "descripcion_principal": "Figura coleccionable 3D estilo chibi basada en los sujetos de la foto, presentada dentro de una caja romántica tipo joyero portátil.",
                     "figuras": {
@@ -8221,7 +8221,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "slug": "early-2000s-flash-selfie",
         "summary": "Selfie cozy Y2K con flash duro, sweater tejido y ambiente hogareño.",
         "body_markdown": `
-# Framework REAISEMP (Human)
+# Framework REALISMO (Human)
 
 *   **R (Render):** Mujer joven, rubia, sweater chunky off-shoulder. Piel realista con flash.
 *   **E (Entorno):** Sala cozy de noche, chimenea encendida, alfombra faux fur.
@@ -8234,7 +8234,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         "prompt_text": JSON.stringify({
             "title": "Early 2000s Flash Selfie — Cozy Sweater Floor Portrait",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Preservar exactamente el rostro original (preserve_original = true).",
                     "sujeto": "Mujer joven (early–mid 20s) tomando una selfie desde un ángulo alto.",
@@ -8326,7 +8326,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "cat-ears-mirror-selfie",
         summary: "Ultra-realistic 8K photorealistic mirror selfie con outfit rosa y cat ears.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos.
@@ -8402,7 +8402,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Cat-Ears Mirror Selfie — Pink Brocade Outfit + Playful Tongue Expression",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel y expresión exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -8507,7 +8507,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "gym-locker-room-selfie",
         summary: "Ultra-realistic 8K gym lifestyle mirror selfie con sportswear gris y aesthetic fitness.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel, proporciones corporales y expresión exactamente idénticos.
@@ -8582,7 +8582,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Gym Locker Room Mirror Selfie — Athletic Sportswear Editorial Realism",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Mantener estructura facial, peinado, tono de piel, proporciones corporales y expresión exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -8684,7 +8684,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "gen-z-vhs-collage",
         summary: "Ultra-realistic 8K Gen-Z camcorder collage portrait con estética editorial VHS futurista.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Preservar rasgos faciales, identidad y expresión exactamente idénticos.
@@ -8747,7 +8747,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "6-Frame Gen-Z VHS Collage — Pink Sunglasses + Camcorder REC Overlay",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Preservar rasgos faciales, identidad y expresión exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -8842,7 +8842,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "bw-hoodie-portrait",
         summary: "Ultra-realistic 8K monochrome hoodie portrait con atmósfera introspectiva de estudio.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen de referencia como identidad principal. Preservar estructura facial, rasgos, tono de piel, peinado y expresión exactamente idénticos.
@@ -8902,7 +8902,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Black-and-White Hoodie Editorial Portrait — Seated Introspective Studio Pose",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen de referencia como identidad principal. Preservar estructura facial, rasgos, tono de piel, peinado y expresión exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar ningún rasgo físico bajo ninguna circunstancia.",
@@ -8987,7 +8987,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "poolside-fashion-portrait",
         summary: "Ultra-realistic 8K poolside fashion editorial portrait con atmósfera limpia y comercial.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar la imagen adjunta como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y rasgos físicos exactamente idénticos.
@@ -9044,7 +9044,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Poolside Fashion Editorial Portrait — Colorful Bikini + Butterfly Tattoo",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar la imagen adjunta como identidad principal. Mantener estructura facial, peinado, tono de piel, expresión y rasgos físicos exactamente idénticos.",
                     "preservacion_total": "No alterar ni editar el rostro ni ningún rasgo físico bajo ninguna circunstancia.",
@@ -9123,7 +9123,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "intimate-dressing-chair",
         summary: "Ultra-realistic 8K intimate editorial portrait with warm nostalgic film atmosphere.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 ## R: Render del Avatar
 - **Identidad:** Usar el modelo de referencia como identidad principal. Mantener ojos, contorno facial, cejas, nariz y boca 100% idénticos. No editar el rostro.
@@ -9193,7 +9193,7 @@ export const EXTRA_MOCK_PROMPTS = [
 `,
         prompt_text: JSON.stringify({
             "title": "Intimate Dressing Chair Portrait — Kodak Film Camera + Warm Nostalgic 35mm Mood (8K)",
-            "framework_REAISEMP_Human": {
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "identidad": "Usar el modelo de referencia como identidad principal. Mantener ojos, contorno facial, cejas, nariz y boca 100% idénticos. No editar el rostro.",
                     "preservacion_total": "No alterar ni modificar ningún rasgo facial o físico bajo ninguna circunstancia. Identidad bloqueada.",
@@ -9289,7 +9289,7 @@ export const EXTRA_MOCK_PROMPTS = [
         slug: "chrome-pink-supercar-selfie",
         summary: "Prompt ultra-realista que coloca a tu avatar posando junto a un BMW i8 en un llamativo color cromo rosa espejo con estilo streetwear de lujo.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Mujer joven (early 20s), cabello rubio platino fluyendo bajo gorra negra. Estructura facial bonita, ojos enfocados en pantalla del móvil.
 *   **E(Entorno):** Calle urbana moderna, edificios de cristal, pavimento adoquinado elegante.
@@ -9302,7 +9302,7 @@ export const EXTRA_MOCK_PROMPTS = [
         `,
         prompt_text: JSON.stringify({
             "title": "Chrome Pink Supercar Selfie — Casual Instagram Main Character Mood",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "subject": {
                     "description": "Young woman taking selfie next to chrome pink BMW i8, casual main character energy",
                     "setting_rules": "street scene, luxury car, urban modern backdrop",
@@ -9475,11 +9475,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-cozy-y2k-winter-selfie",
         type: "prompt",
-        title: "REAISEMP_Human — Cozy Y2K Winter Selfie",
+        title: "REALISMO_Human — Cozy Y2K Winter Selfie",
         slug: "cozy-y2k-winter-selfie",
         summary: "Prompt ultra-realista de retrato lifestyle en plano picado con estética Y2K, flash de cámara retro y ambiente acogedor de noche invernal junto a la chimenea.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven de piel clara bronceada, cabello rubio largo y voluminoso. Eyeliner alado y vestido sweater de punto crema oversized off-shoulder.
 *   **E(Entorno):** Salón acogedor de noche invernal. Chimenea de gas con llamas naranjas, alfombra blanca mullida de pelo sintético y suelo de madera oscura.
@@ -9491,8 +9491,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Tonos cálidos y desaturados, nitidez natural de piel y tejido de punto sin filtros artificiales.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Cozy Y2K Winter Selfie",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Cozy Y2K Winter Selfie",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer joven de piel clara bronceada, apariencia natural y fotográfica.",
                     "cabello": "Largo, rubio, voluminoso, con ondas sueltas y raya lateral.",
@@ -9557,11 +9557,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-electric-blue-mirror-selfie",
         type: "prompt",
-        title: "REAISEMP_Human — Mirror Selfie Azul Eléctrico",
+        title: "REALISMO_Human — Mirror Selfie Azul Eléctrico",
         slug: "electric-blue-mirror-selfie",
         summary: "Prompt ultra-realista de mirror selfie de cuerpo completo en un entorno interior minimalista y luminoso, destacando el vestido azul eléctrico brillante.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer adulta sentada en el suelo frente a un gran espejo. Coleta rubia alta con mechones sueltos, vestido mini ajustado azul brillante y calcetines blancos altos de estilo deportivo.
 *   **E(Entorno):** Habitación interior minimalista con paredes blancas, molduras decorativas y suelo de madera clara.
@@ -9573,8 +9573,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Tonos y colores limpios destacando el azul brillante y el fondo blanco con profundidad de campo natural.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Mirror Selfie Azul Eléctrico",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Mirror Selfie Azul Eléctrico",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer adulta sentada en el suelo frente a un gran espejo, capturando una selfie de cuerpo completo.",
                     "cabello": "Rubio, recogido en una coleta alta con mechones sueltos enmarcando el rostro.",
@@ -9643,11 +9643,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-puppy-cuddle-selfie",
         type: "prompt",
-        title: "REAISEMP_Human — Selfie cariñosa con cachorro",
+        title: "REALISMO_Human — Selfie cariñosa con cachorro",
         slug: "puppy-cuddle-selfie",
         summary: "Prompt ultra-realista de primer plano vertical lifestyle capturando una selfie espontánea de tu avatar abrazando de manera cariñosa a un esponjoso cachorro goldendoodle.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven de piel cálida bronceada, cabello largo rubio recogido en moño alto desenfadado, aros dorados finos y tank top acanalado negro.
 *   **E(Entorno):** Dormitorio luminoso y ordenado. Paredes blancas, puerta panelada azul marino, cómoda blanca y ventana amplia.
@@ -9659,8 +9659,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Tonos cálidos y naturales, saturación realista, nitidez alta en texturas y sin marcas de agua ni texto.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Selfie cariñosa con cachorro",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Selfie cariñosa con cachorro",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer joven adulta de piel cálida bronceada, apariencia natural y sonrisa suave.",
                     "cabello": "Recogido en un moño alto y desenfadado, con mechones sueltos enmarcando el rostro.",
@@ -9745,11 +9745,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-private-jet-luxury-travel",
         type: "prompt",
-        title: "REAISEMP_Human — Luxury Travel Private Jet",
+        title: "REALISMO_Human — Luxury Travel Private Jet",
         slug: "private-jet-luxury-travel",
         summary: "Prompt ultra-realista de retrato lifestyle en jet privado. El avatar posa relajado en asientos de cuero gris junto a la ventanilla con luz natural brillante.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven de piel bronceada, cabello largo castaño con reflejos rubios ondulados, manicura degradada rosa y blanca, tank top blanco y pantalones negros.
 *   **E(Entorno):** Cabina interior de jet privado de lujo. Asientos de cuero gris, paneles blancos, ventanilla con luz intensa y mochila de diseñador al lado.
@@ -9761,8 +9761,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Colores neutros cálidos y naturales, contraste nítido y sin apariencia artificial de render 3D.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Luxury Travel Private Jet",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Luxury Travel Private Jet",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer joven adulta de apariencia natural, piel bronceada y presencia relajada.",
                     "cabello": "Largo, castaño con reflejos rubios, ondulado y cayendo naturalmente sobre los hombros.",
@@ -9842,11 +9842,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-candid-flash-bedroom-night",
         type: "prompt",
-        title: "REAISEMP_Human — Candid Flash Bedroom Night",
+        title: "REALISMO_Human — Candid Flash Bedroom Night",
         slug: "candid-flash-bedroom-night",
         summary: "Prompt ultra-realista de fotografía candid nocturna con flash directo de smartphone. El avatar posa sentada en la cama de su dormitorio recogiéndose el pelo.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven sentada en la cama, cabello rubio recogido con ambas manos, body negro de manga larga, jeans azul claro y collar con cruz pequeña.
 *   **E(Entorno):** Dormitorio de noche. Cama grande con edredón beige, estructura de canopy metálica negra, ventana amplia con vistas a las luces de la ciudad y cortinas beige.
@@ -9858,8 +9858,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Tonos y temperatura cálida del flash directo con saturación natural y contraste definido.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Candid Flash Bedroom Night",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Candid Flash Bedroom Night",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer joven adulta sentada sobre la cama, capturada en un momento íntimo y espontáneo.",
                     "cabello": "Rubio, recogido hacia atrás mientras ajusta o ata el cabello con ambas manos.",
@@ -9941,11 +9941,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-candid-porch-night",
         type: "prompt",
-        title: "REAISEMP_Human — Candid Porch Night",
+        title: "REALISMO_Human — Candid Porch Night",
         slug: "candid-porch-night",
         summary: "Prompt ultra-realista de fotografía candid nocturna en balcón o porche residencial. El avatar posa sentada con sudadera negra con el texto WANGHAF y gorra negra hacia atrás.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Persona rubia sentada de forma relajada, cabello largo saliendo bajo gorra de béisbol negra hacia atrás, sudadera con capucha negra con el texto WANGHAF y pantalones grises.
 *   **E(Entorno):** Porche residencial de noche. Ventana con persianas, barandilla de madera blanca, macetas con plantas verdes, silla y mesa de metal blanca con un vaso de papel.
@@ -9957,8 +9957,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Contraste fuerte producido por el flash directo, colores y tonos nocturnos naturales. Texto WANGHAF perfectamente legible en la sudadera.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Candid Porch Night",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Candid Porch Night",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Persona joven adulta sentada de forma relajada en un porche residencial durante la noche.",
                     "cabello": "Largo y rubio, parcialmente oculto bajo una gorra.",
@@ -10041,11 +10041,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-paris-night-seine",
         type: "prompt",
-        title: "REAISEMP_Human — Paris Night Portrait by the Seine",
+        title: "REALISMO_Human — Paris Night Portrait by the Seine",
         slug: "paris-night-seine",
         summary: "Prompt ultra-realista de retrato nocturno de viaje en París junto al río Sena. El avatar posa elegante con blazer negro frente a la Torre Eiffel iluminada.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven rubia, cabello largo y ondulado cayendo sobre los hombros, blazer negro con escote en V pronunciado, collar dorado y pendientes de aro.
 *   **E(Entorno):** Orilla del río Sena en París durante la noche. Torre Eiffel iluminada en tonos dorados al fondo, agua reflejando las luces doradas, barandilla metálica en primer plano.
@@ -10057,8 +10057,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Tonos dorados cálidos y negros profundos con alta definición en el sujeto principal sin filtros de estudio exagerados.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Paris Night Portrait by the Seine",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Paris Night Portrait by the Seine",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer joven adulta de cabello rubio largo y ondulado, capturada en un retrato nocturno elegante y contemplativo.",
                     "cabello": "Largo, rubio y ondulado, cayendo naturalmente sobre los hombros.",
@@ -10140,11 +10140,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-urban-luxury-daylight",
         type: "prompt",
-        title: "REAISEMP_Human — Urban Luxury Daylight Portrait",
+        title: "REALISMO_Human — Urban Luxury Daylight Portrait",
         slug: "urban-luxury-daylight",
         summary: "Prompt ultra-realista de retrato chic urbano con luz de día natural en plaza comercial elegante. El avatar posa sonriente sentada sobre un banco de mármol gris con bolso de diseñador.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven de silueta curvilínea, cabello rubio castaño ondulado muy largo sobre el hombro, blusa wrap verde oliva, pantalón negro de tiro alto y manicura roja.
 *   **E(Entorno):** Plaza exterior moderna con banco de mármol gris claro, boutique de lujo al fondo con vitrinas y transeúntes desenfocados.
@@ -10156,8 +10156,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Tonos cálidos y luminosos con saturación realista y contraste moderado. Sin marcas de agua, textos ni imperfecciones 3D.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Urban Luxury Daylight Portrait",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Urban Luxury Daylight Portrait",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer joven adulta de figura curvilínea, apariencia sofisticada y presencia natural.",
                     "cabello": "Muy largo, grueso y ondulado, cayendo sobre hombro y pecho.",
@@ -10242,11 +10242,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-alpine-ski-selfie",
         type: "prompt",
-        title: "REAISEMP_Human — Alpine Ski Selfie",
+        title: "REALISMO_Human — Alpine Ski Selfie",
         slug: "alpine-ski-selfie",
         summary: "Prompt ultra-realista de selfie de medio cuerpo durante un día de esquí en los Alpes. El avatar posa frente a un chalet tradicional con montañas nevadas de fondo.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven de apariencia y cabello natural recogido en messy bun, chaqueta de esquí rosa y verde con pantalones a juego y gafas de nieve reflectantes.
 *   **E(Entorno):** Exterior de un chalet alpino tradicional de madera con nieve fresca y montañas nevadas en el fondo.
@@ -10258,8 +10258,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Tonos fríos y contrastes limpios, manteniendo alta nitidez en rostro y sin distorsión extrema.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Alpine Ski Selfie",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Alpine Ski Selfie",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer joven adulta tomando un selfie casual durante un día de esquí.",
                     "face_identity": "Usar la imagen de referencia como identidad facial principal; preservar estructura, proporciones, textura de piel, lunares, marcas y rasgos distintivos.",
@@ -10342,11 +10342,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-lazy-sunday-mirror-selfie",
         type: "prompt",
-        title: "REAISEMP_Human — Lazy Sunday Mirror Selfie",
+        title: "REALISMO_Human — Lazy Sunday Mirror Selfie",
         slug: "lazy-sunday-mirror-selfie",
         summary: "Prompt ultra-realista de mirror selfie de cuerpo completo reflejado en espejo dorado. El avatar posa sentada en el suelo del dormitorio con tank top acanalado blanco y shorts grises jaspeados.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven de complexión atlética, cabello rubio platino recogido en messy low bun con mechones sueltos, tank top blanco cropped de algodón ribbed y shorts grises jaspeados, descalza.
 *   **E(Entorno):** Dormitorio acogedor de mañana tranquila. Espejo de cuerpo completo con marco dorado, suelo de madera, cama sin hacer con sábanas grises y habitación ligeramente desordenada.
@@ -10358,8 +10358,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Tonos cremas, grises y dorados con alta definición en el sujeto principal sin filtros de estudio. Funda transparente con stickers visible en el iPhone.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Lazy Sunday Mirror Selfie",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Lazy Sunday Mirror Selfie",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer joven adulta de complexión delgada, atlética y tonificada.",
                     "cabello": "Rubio platino muy claro, recogido en un messy low bun con mechones sueltos enmarcando el rostro.",
@@ -10439,11 +10439,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-vintage-slip-bathroom-vanity",
         type: "prompt",
-        title: "REAISEMP_Human — Vintage Slip Bathroom Vanity",
+        title: "REALISMO_Human — Vintage Slip Bathroom Vanity",
         slug: "vintage-slip-bathroom-vanity",
         summary: "Prompt ultra-realista de fotografía mirror selfie analógica de 35mm. El avatar posa sentada en el mostrador del baño vistiendo un vestido de seda vintage.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven de figura esbelta, cabello recogido suelto y desordenado con mechones finos, vestido slip vintage de seda con bordes de encaje claro.
 *   **E(Entorno):** Baño residencial compacto. Espejo de vanity con manchas de agua, mostrador desordenado con cosméticos, brochas y productos de aseo personal.
@@ -10455,8 +10455,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Negros ligeramente lavados, sombras verdosas y rojos saturados de forma moderada. Enfoque nítido pero suave característico de película vintage.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Vintage Slip Bathroom Vanity",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Vintage Slip Bathroom Vanity",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer adulta joven, principios de los 20, figura esbelta y apariencia natural.",
                     "cabello": "Recogido suelto y ligeramente desordenado, con mechones enmarcando el rostro.",
@@ -10535,11 +10535,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-luxury-sofa-editorial",
         type: "prompt",
-        title: "REAISEMP_Human — Luxury Sofa Editorial",
+        title: "REALISMO_Human — Luxury Sofa Editorial",
         slug: "luxury-sofa-editorial",
         summary: "Prompt ultra-realista de retrato editorial cinematográfico. El avatar posa reclinada sobre un sofá beige con bodysuit blanco, abrigo voluminoso de pelo sintético y tacones nude.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer adulta, expresión calmada y seductora con media sonrisa natural, bodysuit blanco ajustado sin tirantes, medias marfil translúcidas, abrigo voluminoso de piel sintética sobre hombros y tacones nude.
 *   **E(Entorno):** Interior moderno en tonos beige minimalistas. Sofá beige grande y elementos decorativos neutros y discretos.
@@ -10551,8 +10551,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Tonos crema, beige y blanco contrastados, alta nitidez sin modificar la identidad facial del sujeto respecto a la referencia original.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Luxury Sofa Editorial",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Luxury Sofa Editorial",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer adulta cuya identidad facial debe mantenerse exactamente igual a la imagen de referencia.",
                     "rostro": "Preservar estructura facial, proporciones y rasgos originales; maquillaje suave con énfasis sutil en ojos y labios.",
@@ -10618,11 +10618,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-grunge-egirl-black-cat",
         type: "prompt",
-        title: "REAISEMP_Human — Grunge E-girl Black Cat",
+        title: "REALISMO_Human — Grunge E-girl Black Cat",
         slug: "grunge-egirl-black-cat",
         summary: "Prompt de primer plano ultra-realista con estética soft-grunge/e-girl. El avatar posa para un selfie sosteniendo de forma cariñosa a un gato negro junto a su rostro.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven de estilo e-girl / soft-grunge, cabello rubio liso a los hombros con flequillo completo, pecas y rubor rosado, delineado de ojos winged negro, septum y collar plateado de daga alada con ojo.
 *   **E(Entorno):** Interior doméstico sencillo con pared lisa de tono beige/crema.
@@ -10634,8 +10634,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Contraste medio-alto muy natural sin filtros robóticos ni piel plástica de render.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Grunge E-girl Black Cat",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Grunge E-girl Black Cat",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer adulta joven, aproximadamente de 20 años, apariencia alternativa soft-grunge/e-girl.",
                     "cabello": "Rubio, hasta los hombros, liso y con flequillo completo cubriendo la frente.",
@@ -10703,11 +10703,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-nyc-night-bridge",
         type: "prompt",
-        title: "REAISEMP_Human — NYC Night Bridge",
+        title: "REALISMO_Human — NYC Night Bridge",
         slug: "nyc-night-bridge",
         summary: "Prompt de retrato nocturno ultra-realista frente al Manhattan Bridge y el skyline iluminado de Nueva York, con chaqueta oversized de cuero y brisa de río Sena.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Persona de cabello oscuro suelto y natural con mechones movidos por la brisa, chaqueta de cuero negro oversized y falda oscura. Identidad facial bloqueada.
 *   **E(Entorno):** Orilla del río en Nueva York de noche junto a una barandilla metálica desgastada. Manhattan Bridge y skyline iluminado al fondo con luna creciente en cielo oscuro.
@@ -10719,8 +10719,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Contraste nocturno natural entre tonos cálidos y fríos, sin distorsión artificial y fidelidad total a la referencia.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — NYC Night Bridge",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — NYC Night Bridge",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Persona adulta basada estrictamente en la imagen de referencia.",
                     "identidad": "Preservar exactamente los rasgos faciales, proporciones, estructura del rostro y detalles únicos de la persona de referencia.",
@@ -10822,11 +10822,11 @@ export const EXTRA_MOCK_PROMPTS = [
     {
         id: "lifestyle-steamy-bathroom-selfie",
         type: "prompt",
-        title: "REAISEMP_Human — Steamy Bathroom Selfie",
+        title: "REALISMO_Human — Steamy Bathroom Selfie",
         slug: "steamy-bathroom-selfie",
         summary: "Prompt ultra-realista de primer plano (close-up) selfie de smartphone dentro de un baño lleno de vapor. El avatar posa frente a espejo empañado con cabello mojado gris plateado y top de bikini blanco.",
         body_markdown: `
-# Framework REAISEMP_Human
+# Framework REALISMO_Human
 
 *   **R(Render del Avatar):** Mujer joven, cabello gris plateado mojado y despeinado con mechones en la cara, mejillas sonrojadas, labios entreabiertos, top triangular de bikini blanco húmedo y collar dorado. Identidad facial bloqueada.
 *   **E(Entorno):** Baño contemporáneo lleno de vapor. Ducha de vidrio con condensación y gotas de agua, espejo con salpicaduras y reflejos luminosos difusos de fondo.
@@ -10838,8 +10838,8 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **P(Postproducción):** Contraste suave, colores ricos pero naturales (contraste Hollywood cálido/frío) y preservación estricta de rasgos faciales.
         `,
         prompt_text: JSON.stringify({
-            "title": "REAISEMP_Human — Steamy Bathroom Selfie",
-            "framework_REAISEMP_Human": {
+            "title": "REALISMO_Human — Steamy Bathroom Selfie",
+            "framework_REALISMO_Human": {
                 "R_Render_del_Avatar": {
                     "sujeto": "Mujer adulta joven basada estrictamente en la imagen de referencia.",
                     "identidad": "Preservar al 100% la estructura facial, proporciones, rasgos únicos, textura de piel y expresión de la referencia.",

@@ -465,11 +465,11 @@ Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercom
     {
         id: "prompt-reaisemp-edgy-streetwear-bouquet",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Edgy Streetwear & Blue Studio Floral Portrait",
+        title: "Metodología R.E.A.L.I.S.M.O.: Edgy Streetwear & Blue Studio Floral Portrait",
         slug: "metodologia-reaisemp-edgy-streetwear-blue-studio-bouquet",
-        summary: "Prompt estructurado bajo el framework R.E.A.I.S.E.M.P. Retrato editorial contemporáneo con sujeto pelirrojo, estética streetwear, cadenas de plata y ramo de gerberas rojas sobre estudio azul saturado.",
+        summary: "Prompt estructurado bajo el framework R.E.A.L.I.S.M.O. Retrato editorial contemporáneo con sujeto pelirrojo, estética streetwear, cadenas de plata y ramo de gerberas rojas sobre estudio azul saturado.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -479,7 +479,7 @@ Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercom
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-edgy-streetwear-bouquet.png",
         prompt_text: `{
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait only as exact facial identity reference; preserve facial structure, proportions and natural skin texture.",
     "E": "Young adult woman, confident neutral expression, chin slightly raised, looking slightly downward toward camera.",
     "A": "Holding a large vibrant bouquet firmly against her chest.",
@@ -497,9 +497,9 @@ Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercom
   "prop": "organic bouquet of red gerberas, white carnations and light blue flowers"
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Edgy Streetwear & Blue Studio Floral Portrait
+# Metodología R.E.A.L.I.S.M.O.: Edgy Streetwear & Blue Studio Floral Portrait
 
-Prompt de alta precisión fotográfica utilizando la estructura sintáctica **R.E.A.I.S.E.M.P.** (Reference, Expression, Action, Identity/Outfit, Setting, Exposure/Lighting, Mood/Style).
+Prompt de alta precisión fotográfica utilizando la estructura sintáctica **R.E.A.L.I.S.M.O.** (Reference, Expression, Action, Identity/Outfit, Setting, Exposure/Lighting, Mood/Style).
 
 ---
 
@@ -511,11 +511,11 @@ Centered medium portrait of a young adult woman with long red hair and natural f
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. (JSON para Modelos Avanzados & LLM Prompters)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON para Modelos Avanzados & LLM Prompters)
 
 \`\`\`json
 {
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait only as exact facial identity reference; preserve facial structure, proportions and natural skin texture.",
     "E": "Young adult woman, confident neutral expression, chin slightly raised, looking slightly downward toward camera.",
     "A": "Holding a large vibrant bouquet firmly against her chest.",
@@ -534,16 +534,16 @@ Centered medium portrait of a young adult woman with long red hair and natural f
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Streetwear", "Retratos"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Streetwear", "Retratos"] as any
     },
     {
         id: "prompt-reaisemp-vintage-sticker-bomb-portrait",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Pop-Art Vintage Sticker Bomb Portrait",
+        title: "Metodología R.E.A.L.I.S.M.O.: Pop-Art Vintage Sticker Bomb Portrait",
         slug: "metodologia-reaisemp-pop-art-vintage-sticker-bomb-portrait",
-        summary: "Prompt de alto impacto visual bajo la metodología R.E.A.I.S.E.M.P. Retrato editorial avant-garde con pegatinas vintage (Coca-Cola, Starbucks, Gulf) cubriendo el rostro con textura de adhesivo hiperrealista.",
+        summary: "Prompt de alto impacto visual bajo la metodología R.E.A.L.I.S.M.O. Retrato editorial avant-garde con pegatinas vintage (Coca-Cola, Starbucks, Gulf) cubriendo el rostro con textura de adhesivo hiperrealista.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -553,7 +553,7 @@ Centered medium portrait of a young adult woman with long red hair and natural f
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-vintage-sticker-bomb-portrait.png",
         prompt_text: `{
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve all facial proportions and features.",
     "E": "Young adult woman, centered head-and-shoulders portrait, chin slightly lifted, mouth slightly open, strong fashion presence.",
     "A": "Facing camera directly with relaxed, controlled expression.",
@@ -570,9 +570,9 @@ Centered medium portrait of a young adult woman with long red hair and natural f
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Pop-Art Vintage Sticker Bomb Portrait
+# Metodología R.E.A.L.I.S.M.O.: Pop-Art Vintage Sticker Bomb Portrait
 
-Prompt de alta resolución artística estructurado con la sintaxis **R.E.A.I.S.E.M.P.** para recrear intervenciones de moda avant-garde con collage facial de pegatinas vintage.
+Prompt de alta resolución artística estructurado con la sintaxis **R.E.A.L.I.S.M.O.** para recrear intervenciones de moda avant-garde con collage facial de pegatinas vintage.
 
 ---
 
@@ -584,11 +584,11 @@ Centered head-and-shoulders portrait of a young adult woman with long red hair a
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. (JSON para Modelos Avanzados & LLM Prompters)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON para Modelos Avanzados & LLM Prompters)
 
 \`\`\`json
 {
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve all facial proportions and features.",
     "E": "Young adult woman, centered head-and-shoulders portrait, chin slightly lifted, mouth slightly open, strong fashion presence.",
     "A": "Facing camera directly with relaxed, controlled expression.",
@@ -606,16 +606,16 @@ Centered head-and-shoulders portrait of a young adult woman with long red hair a
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Pop-Art", "Stickers"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Pop-Art", "Stickers"] as any
     },
     {
         id: "prompt-reaisemp-vertical-red-laser-portrait",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Cybernetic Vertical Red Laser Line Portrait",
+        title: "Metodología R.E.A.L.I.S.M.O.: Cybernetic Vertical Red Laser Line Portrait",
         slug: "metodologia-reaisemp-cybernetic-vertical-red-laser-portrait",
-        summary: "Prompt cinemático bajo sintaxis R.E.A.I.S.E.M.P. Retrato editorial cibernético con línea láser roja vertical cruzando el ojo y brillo realista sobre la piel.",
+        summary: "Prompt cinemático bajo sintaxis R.E.A.L.I.S.M.O. Retrato editorial cibernético con línea láser roja vertical cruzando el ojo y brillo realista sobre la piel.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -625,7 +625,7 @@ Centered head-and-shoulders portrait of a young adult woman with long red hair a
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-vertical-red-laser-portrait.png",
         prompt_text: `{
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve identity, proportions and natural skin texture.",
     "E": "Young adult woman with calm, intense, controlled expression.",
     "A": "Looking directly toward camera.",
@@ -642,9 +642,9 @@ Centered head-and-shoulders portrait of a young adult woman with long red hair a
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Cybernetic Vertical Red Laser Line Portrait
+# Metodología R.E.A.L.I.S.M.O.: Cybernetic Vertical Red Laser Line Portrait
 
-Prompt cinemático estructurado con la arquitectura **R.E.A.I.S.E.M.P.** para proyección de rayo láser rojo de precisión con luz direccional y contraste de tono frío vs cálido.
+Prompt cinemático estructurado con la arquitectura **R.E.A.L.I.S.M.O.** para proyección de rayo láser rojo de precisión con luz direccional y contraste de tono frío vs cálido.
 
 ---
 
@@ -656,11 +656,11 @@ Centered portrait of a young adult woman with long red hair and freckles, calm i
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. (JSON para Modelos Avanzados & LLM Prompters)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON para Modelos Avanzados & LLM Prompters)
 
 \`\`\`json
 {
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve identity, proportions and natural skin texture.",
     "E": "Young adult woman with calm, intense, controlled expression.",
     "A": "Looking directly toward camera.",
@@ -678,16 +678,16 @@ Centered portrait of a young adult woman with long red hair and freckles, calm i
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Sci-Fi", "Laser"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Sci-Fi", "Laser"] as any
     },
     {
         id: "prompt-reaisemp-white-cobra-macro-portrait",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Primal Intimacy White Cobra Macro Portrait",
+        title: "Metodología R.E.A.L.I.S.M.O.: Primal Intimacy White Cobra Macro Portrait",
         slug: "metodologia-reaisemp-primal-intimacy-white-cobra-macro-portrait",
-        summary: "Prompt macro de ultra-precisión bajo la metodología R.E.A.I.S.E.M.P. Sujeto femenino sereno con cobra blanca albina enroscada en el cuello, capucha expandida y escamas marfil en detalle fotográfico de 100mm f/2.8.",
+        summary: "Prompt macro de ultra-precisión bajo la metodología R.E.A.L.I.S.M.O. Sujeto femenino sereno con cobra blanca albina enroscada en el cuello, capucha expandida y escamas marfil en detalle fotográfico de 100mm f/2.8.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -697,7 +697,7 @@ Centered portrait of a young adult woman with long red hair and freckles, calm i
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-white-cobra-macro.jpg",
         prompt_text: `{
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve facial structure, proportions, pores and unique details.",
     "E": "Young adult woman with calm, fearless, controlled expression and intense direct gaze.",
     "A": "Holding completely still while a white cobra coils around her neck and crosses partially over her face.",
@@ -714,9 +714,9 @@ Centered portrait of a young adult woman with long red hair and freckles, calm i
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Primal Intimacy White Cobra Macro Portrait
+# Metodología R.E.A.L.I.S.M.O.: Primal Intimacy White Cobra Macro Portrait
 
-Prompt hiperrealista de macrofotografía de bellas artes estructurado bajo la sintaxis **R.E.A.I.S.E.M.P.**.
+Prompt hiperrealista de macrofotografía de bellas artes estructurado bajo la sintaxis **R.E.A.L.I.S.M.O.**.
 
 ---
 
@@ -728,11 +728,11 @@ Extreme macro portrait of a young adult woman with calm fearless expression, hol
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. (JSON para Modelos Avanzados & LLM Prompters)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON para Modelos Avanzados & LLM Prompters)
 
 \`\`\`json
 {
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve facial structure, proportions, pores and unique details.",
     "E": "Young adult woman with calm, fearless, controlled expression and intense direct gaze.",
     "A": "Holding completely still while a white cobra coils around her neck and crosses partially over her face.",
@@ -750,16 +750,16 @@ Extreme macro portrait of a young adult woman with calm fearless expression, hol
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Fine Art", "Macro", "Naturaleza"] as any
+        tags: ["REALISMO", "Midjourney", "Fine Art", "Macro", "Naturaleza"] as any
     },
     {
         id: "prompt-reaisemp-red-glitter-portrait",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Chiaroscuro Red & Iridescent Glitter Portrait",
+        title: "Metodología R.E.A.L.I.S.M.O.: Chiaroscuro Red & Iridescent Glitter Portrait",
         slug: "metodologia-reaisemp-chiaroscuro-red-iridescent-glitter-portrait",
-        summary: "Prompt de estudio editorial chiaroscuro bajo la estructura R.E.A.I.S.E.M.P. Piel y vestimenta en monocromo de alto contraste con fondo rojo saturado y glitter iridiscente multicolor en los ojos.",
+        summary: "Prompt de estudio editorial chiaroscuro bajo la estructura R.E.A.L.I.S.M.O. Piel y vestimenta en monocromo de alto contraste con fondo rojo saturado y glitter iridiscente multicolor en los ojos.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -769,7 +769,7 @@ Extreme macro portrait of a young adult woman with calm fearless expression, hol
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-red-glitter-portrait.png",
         prompt_text: `{
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve full facial structure and proportions.",
     "E": "Young adult woman, 3/4 head-and-shoulders portrait, intense controlled gaze toward camera.",
     "A": "Face turned slightly away from light while eyes return toward camera.",
@@ -786,9 +786,9 @@ Extreme macro portrait of a young adult woman with calm fearless expression, hol
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Chiaroscuro Red & Iridescent Glitter Portrait
+# Metodología R.E.A.L.I.S.M.O.: Chiaroscuro Red & Iridescent Glitter Portrait
 
-Prompt editorial de contraste dramático de color selectivo basado en el marco **R.E.A.I.S.E.M.P.**.
+Prompt editorial de contraste dramático de color selectivo basado en el marco **R.E.A.L.I.S.M.O.**.
 
 ---
 
@@ -800,11 +800,11 @@ Cinematic 3/4 editorial portrait of an intense woman, monochrome black and white
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. (JSON para Modelos Avanzados & LLM Prompters)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON para Modelos Avanzados & LLM Prompters)
 
 \`\`\`json
 {
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve full facial structure and proportions.",
     "E": "Young adult woman, 3/4 head-and-shoulders portrait, intense controlled gaze toward camera.",
     "A": "Face turned slightly away from light while eyes return toward camera.",
@@ -822,16 +822,16 @@ Cinematic 3/4 editorial portrait of an intense woman, monochrome black and white
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Chiaroscuro", "Moda"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Chiaroscuro", "Moda"] as any
     },
     {
         id: "prompt-reaisemp-vogue-bridal-white-horse",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Vogue Pearl Veil & White Horse Editorial",
+        title: "Metodología R.E.A.L.I.S.M.O.: Vogue Pearl Veil & White Horse Editorial",
         slug: "metodologia-reaisemp-vogue-pearl-veil-white-horse-editorial",
-        summary: "Prompt de alta costura nupcial inspirado en Vogue bajo sintaxis R.E.A.I.S.E.M.P. Novia con velo transparente de perlas cabeza a cabeza con un caballo blanco de ojos dorados y reflejos de nubes.",
+        summary: "Prompt de alta costura nupcial inspirado en Vogue bajo sintaxis R.E.A.L.I.S.M.O. Novia con velo transparente de perlas cabeza a cabeza con un caballo blanco de ojos dorados y reflejos de nubes.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -841,7 +841,7 @@ Cinematic 3/4 editorial portrait of an intense woman, monochrome black and white
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-vogue-bridal-white-horse.jpg",
         prompt_text: `{
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait as facial identity reference where applicable; preserve natural facial proportions and texture.",
     "E": "Adult blonde bride with serene, intimate expression.",
     "A": "Standing very close to a white horse, creating an intimate eye-to-eye composition.",
@@ -858,9 +858,9 @@ Cinematic 3/4 editorial portrait of an intense woman, monochrome black and white
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Vogue Pearl Veil & White Horse Editorial
+# Metodología R.E.A.L.I.S.M.O.: Vogue Pearl Veil & White Horse Editorial
 
-Prompt editorial nupcial de gran lujo y elegancia pura, estructurado minuciosamente con el estándar **R.E.A.I.S.E.M.P.**.
+Prompt editorial nupcial de gran lujo y elegancia pura, estructurado minuciosamente con el estándar **R.E.A.L.I.S.M.O.**.
 
 ---
 
@@ -872,11 +872,11 @@ Vogue style intimate close-up editorial portrait of an adult blonde bride with s
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. (JSON para Modelos Avanzados & LLM Prompters)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON para Modelos Avanzados & LLM Prompters)
 
 \`\`\`json
 {
-  "REAISEMP": {
+  "REALISMO": {
     "R": "Use uploaded portrait as facial identity reference where applicable; preserve natural facial proportions and texture.",
     "E": "Adult blonde bride with serene, intimate expression.",
     "A": "Standing very close to a white horse, creating an intimate eye-to-eye composition.",
@@ -894,16 +894,16 @@ Vogue style intimate close-up editorial portrait of an adult blonde bride with s
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Vogue", "Nupcial"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Vogue", "Nupcial"] as any
     },
     {
         id: "prompt-reaisemp-cinematic-red-laser-noir",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Cinematográfico Noir con Láser Rojo",
+        title: "Metodología R.E.A.L.I.S.M.O.: Retrato Cinematográfico Noir con Láser Rojo",
         slug: "metodologia-reaisemp-retrato-cinematografico-noir-laser-rojo",
-        summary: "Prompt cinemático estructurado en español bajo el marco R.E.A.I.S.E.M.P. Retrato de cabeza y hombros con iluminación de alto contraste, línea láser roja vertical atravesando el ojo y fondo azul profundo.",
+        summary: "Prompt cinemático estructurado en español bajo el marco R.E.A.L.I.S.M.O. Retrato de cabeza y hombros con iluminación de alto contraste, línea láser roja vertical atravesando el ojo y fondo azul profundo.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -914,7 +914,7 @@ Vogue style intimate close-up editorial portrait of an adult blonde bride with s
         featured_image_url: "/images/prompts/reaisemp-laser-noir-portrait.jpg",
         prompt_text: `{
   "title": "Retrato Cinematográfico Noir con Láser Rojo",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "referencia_facial": "Usar el retrato proporcionado como referencia facial exacta.",
       "identidad": "Preservar completamente la identidad, rasgos faciales y proporciones del sujeto.",
@@ -960,9 +960,9 @@ Vogue style intimate close-up editorial portrait of an adult blonde bride with s
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Retrato Cinematográfico Noir con Láser Rojo
+# Metodología R.E.A.L.I.S.M.O.: Retrato Cinematográfico Noir con Láser Rojo
 
-Framework completo estructurado en español bajo la metodología **R.E.A.I.S.E.M.P.** (Render del Avatar, Entorno, Acción/Postura, Iluminación, Sensación/Atmósfera, Estilo Visual, Composición/Cámara, Postproducción).
+Framework completo estructurado en español bajo la metodología **R.E.A.L.I.S.M.O.** (Render del Avatar, Entorno, Acción/Postura, Iluminación, Sensación/Atmósfera, Estilo Visual, Composición/Cámara, Postproducción).
 
 ---
 
@@ -974,12 +974,12 @@ Cinematic tight head-and-shoulders low-angle portrait of a serious controlled wo
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Retrato Cinematográfico Noir con Láser Rojo",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "referencia_facial": "Usar el retrato proporcionado como referencia facial exacta.",
       "identidad": "Preservar completamente la identidad, rasgos faciales y proporciones del sujeto.",
@@ -1026,16 +1026,16 @@ Cinematic tight head-and-shoulders low-angle portrait of a serious controlled wo
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Noir", "Laser"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Noir", "Laser"] as any
     },
     {
         id: "prompt-reaisemp-purple-studio-relighting",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Retrato de Estudio con Iluminación Esculpida Púrpura",
+        title: "Metodología R.E.A.L.I.S.M.O.: Retrato de Estudio con Iluminación Esculpida Púrpura",
         slug: "metodologia-reaisemp-retrato-estudio-iluminacion-esculpida-purpura",
-        summary: "Prompt de relighting profesional de estudio estructurado en español bajo R.E.A.I.S.E.M.P. Fondo púrpura índigo mate con iluminación direccional que esculpe pómulos y línea mandibular sin suavizado artificial.",
+        summary: "Prompt de relighting profesional de estudio estructurado en español bajo R.E.A.L.I.S.M.O. Fondo púrpura índigo mate con iluminación direccional que esculpe pómulos y línea mandibular sin suavizado artificial.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -1046,7 +1046,7 @@ Cinematic tight head-and-shoulders low-angle portrait of a serious controlled wo
         featured_image_url: "/images/prompts/reaisemp-purple-studio-relighting.jpg",
         prompt_text: `{
   "title": "Retrato de Estudio con Iluminación Esculpida Púrpura",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "referencia_facial": "Usar la imagen proporcionada únicamente como referencia de identidad facial y proporciones.",
       "identidad": "Preservar completamente la identidad y estructura facial del sujeto.",
@@ -1086,9 +1086,9 @@ Cinematic tight head-and-shoulders low-angle portrait of a serious controlled wo
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Retrato de Estudio con Iluminación Esculpida Púrpura
+# Metodología R.E.A.L.I.S.M.O.: Retrato de Estudio con Iluminación Esculpida Púrpura
 
-Especificación completa en español de Reiluminación (*Studio Relighting*) utilizando el marco **R.E.A.I.S.E.M.P.**.
+Especificación completa en español de Reiluminación (*Studio Relighting*) utilizando el marco **R.E.A.L.I.S.M.O.**.
 
 ---
 
@@ -1100,12 +1100,12 @@ Centered high-end studio portrait of a confident woman on a solid matte deep pur
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Retrato de Estudio con Iluminación Esculpida Púrpura",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "referencia_facial": "Usar la imagen proporcionada únicamente como referencia de identidad facial y proporciones.",
       "identidad": "Preservar completamente la identidad y estructura facial del sujeto.",
@@ -1146,16 +1146,16 @@ Centered high-end studio portrait of a confident woman on a solid matte deep pur
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Relighting", "Estudio"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Relighting", "Estudio"] as any
     },
     {
         id: "prompt-reaisemp-botanical-fine-art",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Botánico de Bellas Artes",
+        title: "Metodología R.E.A.L.I.S.M.O.: Retrato Botánico de Bellas Artes",
         slug: "metodologia-reaisemp-retrato-botanico-bellas-artes",
-        summary: "Prompt botánico de bellas artes estructurado en español bajo R.E.A.I.S.E.M.P. Composición analógica orgánica con ramas, flores mostaza y violeta sobre fondo crema-beige.",
+        summary: "Prompt botánico de bellas artes estructurado en español bajo R.E.A.L.I.S.M.O. Composición analógica orgánica con ramas, flores mostaza y violeta sobre fondo crema-beige.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -1166,7 +1166,7 @@ Centered high-end studio portrait of a confident woman on a solid matte deep pur
         featured_image_url: "/images/prompts/reaisemp-botanical-fine-art.png",
         prompt_text: `{
   "title": "Retrato Botánico de Bellas Artes",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "referencia_facial": "Usar el retrato proporcionado únicamente como referencia de identidad facial.",
       "identidad": "Preservar completamente la estructura facial, rasgos distintivos y proporciones del sujeto.",
@@ -1201,9 +1201,9 @@ Centered high-end studio portrait of a confident woman on a solid matte deep pur
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Retrato Botánico de Bellas Artes
+# Metodología R.E.A.L.I.S.M.O.: Retrato Botánico de Bellas Artes
 
-Framework completo estructurado en español bajo el estándar **R.E.A.I.S.E.M.P.**.
+Framework completo estructurado en español bajo el estándar **R.E.A.L.I.S.M.O.**.
 
 ---
 
@@ -1215,12 +1215,12 @@ Fine art botanical close-up frontal portrait of a quiet introspective woman, wil
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Retrato Botánico de Bellas Artes",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "referencia_facial": "Usar el retrato proporcionado únicamente como referencia de identidad facial.",
       "identidad": "Preservar completamente la estructura facial, rasgos distintivos y proporciones del sujeto.",
@@ -1256,16 +1256,16 @@ Fine art botanical close-up frontal portrait of a quiet introspective woman, wil
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Fine Art", "Botanical", "Analógico"] as any
+        tags: ["REALISMO", "Midjourney", "Fine Art", "Botanical", "Analógico"] as any
     },
     {
         id: "prompt-reaisemp-sticker-collage-editorial",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Editorial con Collage de Stickers",
+        title: "Metodología R.E.A.L.I.S.M.O.: Retrato Editorial con Collage de Stickers",
         slug: "metodologia-reaisemp-retrato-editorial-collage-stickers",
-        summary: "Prompt avant-garde en español estructurado con R.E.A.I.S.E.M.P. Retrato editorial centrado con stickers vintage (Coca-Cola, Starbucks, Gulf) amoldados sobre la geometría facial.",
+        summary: "Prompt avant-garde en español estructurado con R.E.A.L.I.S.M.O. Retrato editorial centrado con stickers vintage (Coca-Cola, Starbucks, Gulf) amoldados sobre la geometría facial.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -1276,7 +1276,7 @@ Fine art botanical close-up frontal portrait of a quiet introspective woman, wil
         featured_image_url: "/images/prompts/reaisemp-sticker-collage-editorial.png",
         prompt_text: `{
   "title": "Retrato Editorial con Collage de Stickers",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "referencia_facial": "Usar el retrato proporcionado como referencia facial exacta.",
       "identidad": "Preservar completamente la identidad y estructura facial.",
@@ -1307,7 +1307,7 @@ Fine art botanical close-up frontal portrait of a quiet introspective woman, wil
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Retrato Editorial con Collage de Stickers
+# Metodología R.E.A.L.I.S.M.O.: Retrato Editorial con Collage de Stickers
 
 Framework completo en español para retratos Pop-Art de intervención gráfica analógica.
 
@@ -1321,12 +1321,12 @@ Centered editorial head-and-shoulders portrait of a confident woman in a black m
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Retrato Editorial con Collage de Stickers",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "referencia_facial": "Usar el retrato proporcionado como referencia facial exacta.",
       "identidad": "Preservar completamente la identidad y estructura facial.",
@@ -1358,16 +1358,16 @@ Centered editorial head-and-shoulders portrait of a confident woman in a black m
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Pop-Art", "Stickers"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Pop-Art", "Stickers"] as any
     },
     {
         id: "prompt-reaisemp-chiaroscuro-glitter-red",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Editorial de Claroscuro con Glitter Iridiscente",
+        title: "Metodología R.E.A.L.I.S.M.O.: Retrato Editorial de Claroscuro con Glitter Iridiscente",
         slug: "metodologia-reaisemp-retrato-editorial-claroscuro-glitter-iridiscente",
-        summary: "Prompt de alto impacto chiaroscuro en español bajo R.E.A.I.S.E.M.P. Piel monocromática en blanco y negro sobre fondo rojo carmesí con glitter multicolor iridiscente en los ojos.",
+        summary: "Prompt de alto impacto chiaroscuro en español bajo R.E.A.L.I.S.M.O. Piel monocromática en blanco y negro sobre fondo rojo carmesí con glitter multicolor iridiscente en los ojos.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -1378,7 +1378,7 @@ Centered editorial head-and-shoulders portrait of a confident woman in a black m
         featured_image_url: "/images/prompts/reaisemp-chiaroscuro-glitter-red.png",
         prompt_text: `{
   "title": "Retrato Editorial de Claroscuro con Glitter Iridiscente",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "referencia_facial": "Usar el retrato proporcionado únicamente como referencia facial exacta.",
       "maquillaje": "Glitter iridiscente multicolor aplicado intensamente alrededor de los ojos con cobertura tipo máscara."
@@ -1407,7 +1407,7 @@ Centered editorial head-and-shoulders portrait of a confident woman in a black m
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Retrato Editorial de Claroscuro con Glitter Iridiscente
+# Metodología R.E.A.L.I.S.M.O.: Retrato Editorial de Claroscuro con Glitter Iridiscente
 
 Framework completo en español para claroscuro dramático con color selectivo.
 
@@ -1421,12 +1421,12 @@ Framework completo en español para claroscuro dramático con color selectivo.
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Retrato Editorial de Claroscuro con Glitter Iridiscente",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "referencia_facial": "Usar el retrato proporcionado únicamente como referencia facial exacta.",
       "maquillaje": "Glitter iridiscente multicolor aplicado intensamente alrededor de los ojos con cobertura tipo máscara."
@@ -1456,16 +1456,16 @@ Framework completo en español para claroscuro dramático con color selectivo.
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Chiaroscuro", "Moda"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Chiaroscuro", "Moda"] as any
     },
     {
         id: "prompt-reaisemp-vogue-bride-white-horse",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Editorial de Novia con Caballo Blanco",
+        title: "Metodología R.E.A.L.I.S.M.O.: Retrato Editorial de Novia con Caballo Blanco",
         slug: "metodologia-reaisemp-retrato-editorial-novia-caballo-blanco",
-        summary: "Prompt nupcial estilo Vogue estructurado en español bajo R.E.A.I.S.E.M.P. Novia con velo transparente decorado con perlas cabeza a cabeza con caballo blanco de ojo dorado con reflejo de nubes.",
+        summary: "Prompt nupcial estilo Vogue estructurado en español bajo R.E.A.L.I.S.M.O. Novia con velo transparente decorado con perlas cabeza a cabeza con caballo blanco de ojo dorado con reflejo de nubes.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -1476,7 +1476,7 @@ Framework completo en español para claroscuro dramático con color selectivo.
         featured_image_url: "/images/prompts/reaisemp-vogue-bride-white-horse.jpg",
         prompt_text: `{
   "title": "Retrato Editorial de Novia con Caballo Blanco",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Novia rubia sofisticada con velo de perlas cubriendo medio rostro y caballo blanco con ojo dorado que refleja nubes."
     },
@@ -1504,7 +1504,7 @@ Framework completo en español para claroscuro dramático con color selectivo.
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Retrato Editorial de Novia con Caballo Blanco
+# Metodología R.E.A.L.I.S.M.O.: Retrato Editorial de Novia con Caballo Blanco
 
 Framework completo en español para retratos nupciales estilo Vogue Haute Couture.
 
@@ -1518,12 +1518,12 @@ Vogue magazine style close-up portrait of an elegant bride in ivory gown with pe
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Retrato Editorial de Novia con Caballo Blanco",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Novia rubia sofisticada con velo de perlas cubriendo medio rostro y caballo blanco con ojo dorado que refleja nubes."
     },
@@ -1552,16 +1552,16 @@ Vogue magazine style close-up portrait of an elegant bride in ivory gown with pe
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Vogue", "Nupcial"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Vogue", "Nupcial"] as any
     },
     {
         id: "prompt-reaisemp-cobra-macro-es",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Macro de Bellas Artes con Cobra Blanca",
+        title: "Metodología R.E.A.L.I.S.M.O.: Retrato Macro de Bellas Artes con Cobra Blanca",
         slug: "metodologia-reaisemp-retrato-macro-bellas-artes-cobra-blanca",
-        summary: "Prompt macro hiperrealista estructurado en español bajo R.E.A.I.S.E.M.P. Sujeto femenino con piel natural y pecas, cobra blanca albina enroscada en el cuello y escamas marfil sobre fondo carbón.",
+        summary: "Prompt macro hiperrealista estructurado en español bajo R.E.A.L.I.S.M.O. Sujeto femenino con piel natural y pecas, cobra blanca albina enroscada en el cuello y escamas marfil sobre fondo carbón.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -1572,7 +1572,7 @@ Vogue magazine style close-up portrait of an elegant bride in ivory gown with pe
         featured_image_url: "/images/prompts/reaisemp-cobra-macro-es.jpg",
         prompt_text: `{
   "title": "Retrato Macro de Bellas Artes con Cobra Blanca",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer con identidad facial definida y apariencia completamente fotorealista.",
       "piel": "Textura hiperrealista con poros visibles, micropecas y vello facial fino.",
@@ -1602,7 +1602,7 @@ Vogue magazine style close-up portrait of an elegant bride in ivory gown with pe
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Retrato Macro de Bellas Artes con Cobra Blanca
+# Metodología R.E.A.L.I.S.M.O.: Retrato Macro de Bellas Artes con Cobra Blanca
 
 Framework completo en español para macrofotografía de bellas artes e hiperrealismo reptiliano.
 
@@ -1616,12 +1616,12 @@ Extreme macro fine-art portrait of a calm fearless woman with natural skin textu
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Retrato Macro de Bellas Artes con Cobra Blanca",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer con identidad facial definida y apariencia completamente fotorealista.",
       "piel": "Textura hiperrealista con poros visibles, micropecas y vello facial fino.",
@@ -1652,16 +1652,16 @@ Extreme macro fine-art portrait of a calm fearless woman with natural skin textu
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Fine Art", "Macro", "Naturaleza"] as any
+        tags: ["REALISMO", "Midjourney", "Fine Art", "Macro", "Naturaleza"] as any
     },
     {
         id: "prompt-reaisemp-rattlesnake-gothic",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Gótico de Mujer y Serpiente de Cascabel",
+        title: "Metodología R.E.A.L.I.S.M.O.: Retrato Gótico de Mujer y Serpiente de Cascabel",
         slug: "metodologia-reaisemp-retrato-gotico-mujer-serpiente-cascabel",
-        summary: "Prompt gótico de oscuro romanticismo estructurado en español bajo R.E.A.I.S.E.M.P. Mujer de piel pálida y ojos verdes con serpiente de cascabel de escamas carbón y bronce enrollada en la mejilla.",
+        summary: "Prompt gótico de oscuro romanticismo estructurado en español bajo R.E.A.L.I.S.M.O. Mujer de piel pálida y ojos verdes con serpiente de cascabel de escamas carbón y bronce enrollada en la mejilla.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -1672,7 +1672,7 @@ Extreme macro fine-art portrait of a calm fearless woman with natural skin textu
         featured_image_url: "/images/prompts/reaisemp-rattlesnake-gothic.png",
         prompt_text: `{
   "title": "Retrato Gótico de Mujer y Serpiente de Cascabel",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer adulta de apariencia etérea, piel pálida y ojos verdes intensos.",
       "serpiente": "Serpiente de cascabel enrollada alrededor de mejilla y sien en tonos carbón y bronce."
@@ -1701,7 +1701,7 @@ Extreme macro fine-art portrait of a calm fearless woman with natural skin textu
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Retrato Gótico de Mujer y Serpiente de Cascabel
+# Metodología R.E.A.L.I.S.M.O.: Retrato Gótico de Mujer y Serpiente de Cascabel
 
 Framework gótico cinematográfico de claroscuro y romanticismo oscuro.
 
@@ -1715,12 +1715,12 @@ Dark romantic fine-art close-up portrait of a pale woman with green eyes and fre
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Retrato Gótico de Mujer y Serpiente de Cascabel",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer adulta de apariencia etérea, piel pálida y ojos verdes intensos.",
       "serpiente": "Serpiente de cascabel enrollada alrededor de mejilla y sien en tonos carbón y bronce."
@@ -1750,16 +1750,16 @@ Dark romantic fine-art close-up portrait of a pale woman with green eyes and fre
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Gótico", "Fine Art", "Naturaleza"] as any
+        tags: ["REALISMO", "Midjourney", "Gótico", "Fine Art", "Naturaleza"] as any
     },
     {
         id: "prompt-reaisemp-streetwear-low-angle",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Streetwear Urbano con Perspectiva Low-Angle",
+        title: "Metodología R.E.A.L.I.S.M.O.: Streetwear Urbano con Perspectiva Low-Angle",
         slug: "metodologia-reaisemp-streetwear-urbano-perspectiva-low-angle",
-        summary: "Prompt editorial de moda urbana estructurado en español bajo R.E.A.I.S.E.M.P. Perspectiva extrema de ángulo bajo con el sneaker del primer plano exagerado sobre cruce peatonal de rascacielos.",
+        summary: "Prompt editorial de moda urbana estructurado en español bajo R.E.A.L.I.S.M.O. Perspectiva extrema de ángulo bajo con el sneaker del primer plano exagerado sobre cruce peatonal de rascacielos.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -1770,7 +1770,7 @@ Dark romantic fine-art close-up portrait of a pale woman with green eyes and fre
         featured_image_url: "/images/prompts/reaisemp-streetwear-low-angle.jpg",
         prompt_text: `{
   "title": "Streetwear Urbano con Perspectiva Low-Angle",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "vestuario": "Pantalones cargo verde oliva, sneakers blancos y camiseta cropped."
     },
@@ -1798,7 +1798,7 @@ Dark romantic fine-art close-up portrait of a pale woman with green eyes and fre
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Streetwear Urbano con Perspectiva Low-Angle
+# Metodología R.E.A.L.I.S.M.O.: Streetwear Urbano con Perspectiva Low-Angle
 
 Framework completo en español para campañas streetwear con distorsión gran angular dinámica.
 
@@ -1812,12 +1812,12 @@ Full-body extreme low-angle ground-level fashion editorial of a confident woman 
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Streetwear Urbano con Perspectiva Low-Angle",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "vestuario": "Pantalones cargo verde oliva, sneakers blancos y camiseta cropped."
     },
@@ -1846,16 +1846,16 @@ Full-body extreme low-angle ground-level fashion editorial of a confident woman 
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Streetwear", "Urbano", "Low-Angle"] as any
+        tags: ["REALISMO", "Midjourney", "Streetwear", "Urbano", "Low-Angle"] as any
     },
     {
         id: "prompt-reaisemp-y2k-porsche-orbit",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Y2K Fashion con Porsche y Perspectiva Drone Orbit",
+        title: "Metodología R.E.A.L.I.S.M.O.: Y2K Fashion con Porsche y Perspectiva Drone Orbit",
         slug: "metodologia-reaisemp-y2k-fashion-porsche-drone-orbit",
-        summary: "Prompt de moda retro-futurista Y2K estructurado en español bajo R.E.A.I.S.E.M.P. Modelo recostada sobre el capó de un Porsche rojo vintage con perspectiva gran angular elevada estilo drone orbit.",
+        summary: "Prompt de moda retro-futurista Y2K estructurado en español bajo R.E.A.L.I.S.M.O. Modelo recostada sobre el capó de un Porsche rojo vintage con perspectiva gran angular elevada estilo drone orbit.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -1866,7 +1866,7 @@ Full-body extreme low-angle ground-level fashion editorial of a confident woman 
         featured_image_url: "/images/prompts/reaisemp-y2k-porsche-orbit.jpg",
         prompt_text: `{
   "title": "Y2K Fashion con Porsche y Perspectiva Drone Orbit",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "vestuario": "Crop top negro, pantalones de cuero ultrabajo, gafas plateadas shield y mini buns."
     },
@@ -1894,7 +1894,7 @@ Full-body extreme low-angle ground-level fashion editorial of a confident woman 
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Y2K Fashion con Porsche y Perspectiva Drone Orbit
+# Metodología R.E.A.L.I.S.M.O.: Y2K Fashion con Porsche y Perspectiva Drone Orbit
 
 Framework editorial de estética principios de los 2000 con efecto de cámara en movimiento fisheye.
 
@@ -1908,12 +1908,12 @@ Y2K fashion wide fisheye drone orbit shot of a stylish woman with mini hair buns
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Y2K Fashion con Porsche y Perspectiva Drone Orbit",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "vestuario": "Crop top negro, pantalones de cuero ultrabajo, gafas plateadas shield y mini buns."
     },
@@ -1942,16 +1942,16 @@ Y2K fashion wide fisheye drone orbit shot of a stylish woman with mini hair buns
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Y2K", "Porsche", "Retro"] as any
+        tags: ["REALISMO", "Midjourney", "Y2K", "Porsche", "Retro"] as any
     },
     {
         id: "prompt-reaisemp-colossal-worms-eye",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Retrato Colosal desde Perspectiva Worm's-Eye",
+        title: "Metodología R.E.A.L.I.S.M.O.: Retrato Colosal desde Perspectiva Worm's-Eye",
         slug: "metodologia-reaisemp-retrato-colosal-perspectiva-worms-eye",
-        summary: "Prompt de surrealismo urbano de escala estructurado en español bajo R.E.A.I.S.E.M.P. Figura femenina gigantesca sentada en la cornisa de un edificio sobre rascacielos con encuadre de ojo de gusano.",
+        summary: "Prompt de surrealismo urbano de escala estructurado en español bajo R.E.A.L.I.S.M.O. Figura femenina gigantesca sentada en la cornisa de un edificio sobre rascacielos con encuadre de ojo de gusano.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -1962,7 +1962,7 @@ Y2K fashion wide fisheye drone orbit shot of a stylish woman with mini hair buns
         featured_image_url: "/images/prompts/reaisemp-colossal-worms-eye.jpg",
         prompt_text: `{
   "title": "Retrato Colosal desde Perspectiva Worm's-Eye",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "vestuario": "Chaqueta deportiva roja, leggings negros y sneakers plataforma blancos con suela roja."
     },
@@ -1990,7 +1990,7 @@ Y2K fashion wide fisheye drone orbit shot of a stylish woman with mini hair buns
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Retrato Colosal desde Perspectiva Worm's-Eye
+# Metodología R.E.A.L.I.S.M.O.: Retrato Colosal desde Perspectiva Worm's-Eye
 
 Framework surrealista de escala monumental urbana.
 
@@ -2004,12 +2004,12 @@ Colossal scale surrealism extreme low-angle worm's-eye view of a giant woman in 
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Retrato Colosal desde Perspectiva Worm's-Eye",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "vestuario": "Chaqueta deportiva roja, leggings negros y sneakers plataforma blancos con suela roja."
     },
@@ -2038,16 +2038,16 @@ Colossal scale surrealism extreme low-angle worm's-eye view of a giant woman in 
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Surrealismo", "Urbano", "Worms-Eye"] as any
+        tags: ["REALISMO", "Midjourney", "Surrealismo", "Urbano", "Worms-Eye"] as any
     },
     {
         id: "prompt-reaisemp-jewelry-golden-sand-emerald",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería de Lujo — Escultura de Arena Dorada",
+        title: "Metodología R.E.A.L.I.S.M.O.: Editorial de Joyería de Lujo — Escultura de Arena Dorada",
         slug: "metodologia-reaisemp-editorial-joyeria-lujo-escultura-arena-dorada",
-        summary: "Prompt de alta joyería estructurado en español bajo R.E.A.I.S.E.M.P. Busto femenino escultórico emergiendo de arena dorada con collar de diamantes y esmeralda esmeralda verde profunda.",
+        summary: "Prompt de alta joyería estructurado en español bajo R.E.A.L.I.S.M.O. Busto femenino escultórico emergiendo de arena dorada con collar de diamantes y esmeralda esmeralda verde profunda.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -2058,7 +2058,7 @@ Colossal scale surrealism extreme low-angle worm's-eye view of a giant woman in 
         featured_image_url: "/images/prompts/reaisemp-jewelry-golden-sand-emerald.png",
         prompt_text: `{
   "title": "Editorial de Joyería de Lujo — Escultura de Arena Dorada",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Busto femenino emergiendo de superficie de arena dorada.",
       "material": "Piel con textura mate granulada de arena fina.",
@@ -2088,7 +2088,7 @@ Colossal scale surrealism extreme low-angle worm's-eye view of a giant woman in 
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería de Lujo — Escultura de Arena Dorada
+# Metodología R.E.A.L.I.S.M.O.: Editorial de Joyería de Lujo — Escultura de Arena Dorada
 
 Framework completo en español para fotografía escultórica de alta joyería y gemas preciosas.
 
@@ -2102,12 +2102,12 @@ Luxury jewelry editorial anamorphic 85mm shot of a fine golden sand sculpture fe
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Editorial de Joyería de Lujo — Escultura de Arena Dorada",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Busto femenino emergiendo de superficie de arena dorada.",
       "material": "Piel con textura mate granulada de arena fina.",
@@ -2138,16 +2138,16 @@ Luxury jewelry editorial anamorphic 85mm shot of a fine golden sand sculpture fe
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Joyería", "Escultura", "Lujo"] as any
+        tags: ["REALISMO", "Midjourney", "Joyería", "Escultura", "Lujo"] as any
     },
     {
         id: "prompt-reaisemp-jewelry-sand-relief-emerald",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Relieve de Arena Dorada y Esmeraldas",
+        title: "Metodología R.E.A.L.I.S.M.O.: Editorial de Joyería — Relieve de Arena Dorada y Esmeraldas",
         slug: "metodologia-reaisemp-editorial-joyeria-relieve-arena-dorada-esmeraldas",
-        summary: "Prompt de relieve escultórico bajo R.E.A.I.S.E.M.P. Silueta de perfil tallada en arena dorada con collar de diamantes, gotas de esmeraldas y ramita decorativa en el cabello.",
+        summary: "Prompt de relieve escultórico bajo R.E.A.L.I.S.M.O. Silueta de perfil tallada en arena dorada con collar de diamantes, gotas de esmeraldas y ramita decorativa en el cabello.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -2158,7 +2158,7 @@ Luxury jewelry editorial anamorphic 85mm shot of a fine golden sand sculpture fe
         featured_image_url: "/images/prompts/reaisemp-jewelry-sand-relief-emerald.png",
         prompt_text: `{
   "title": "Editorial de Joyería — Relieve de Arena Dorada y Esmeraldas",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Relieve femenino en perfil tallado en arena dorada.",
       "joyeria": "Collar de diamantes con múltiples esmeraldas en gota y aretes a juego colocados al lado."
@@ -2187,7 +2187,7 @@ Luxury jewelry editorial anamorphic 85mm shot of a fine golden sand sculpture fe
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Relieve de Arena Dorada y Esmeraldas
+# Metodología R.E.A.L.I.S.M.O.: Editorial de Joyería — Relieve de Arena Dorada y Esmeraldas
 
 Framework completo en español para relieves de arena y alta joyería de esmeraldas.
 
@@ -2201,12 +2201,12 @@ Luxury fine art jewelry editorial top-down perspective of a female profile relie
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Editorial de Joyería — Relieve de Arena Dorada y Esmeraldas",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Relieve femenino en perfil tallado en arena dorada.",
       "joyeria": "Collar de diamantes con múltiples esmeraldas en gota y aretes a juego colocados al lado."
@@ -2236,16 +2236,16 @@ Luxury fine art jewelry editorial top-down perspective of a female profile relie
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Joyería", "Esmeraldas", "Escultura"] as any
+        tags: ["REALISMO", "Midjourney", "Joyería", "Esmeraldas", "Escultura"] as any
     },
     {
         id: "prompt-reaisemp-jewelry-terracotta-ruby",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Relieve Terracota y Rubíes",
+        title: "Metodología R.E.A.L.I.S.M.O.: Editorial de Joyería — Relieve Terracota y Rubíes",
         slug: "metodologia-reaisemp-editorial-joyeria-relieve-terracota-rubies",
-        summary: "Prompt escultórico terracota bajo R.E.A.I.S.E.M.P. Relieve femenino en arena rojo tierra con collar de diamantes y rubíes ovales de rojo profundo.",
+        summary: "Prompt escultórico terracota bajo R.E.A.L.I.S.M.O. Relieve femenino en arena rojo tierra con collar de diamantes y rubíes ovales de rojo profundo.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -2256,7 +2256,7 @@ Luxury fine art jewelry editorial top-down perspective of a female profile relie
         featured_image_url: "/images/prompts/reaisemp-jewelry-terracotta-ruby.jpg",
         prompt_text: `{
   "title": "Editorial de Joyería — Relieve Terracota y Rubíes",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Perfil femenino en relieve tallado sobre arena terracota.",
       "joyeria": "Collar de diamantes con rubíes ovalados y aretes colgantes a juego."
@@ -2285,7 +2285,7 @@ Luxury fine art jewelry editorial top-down perspective of a female profile relie
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Relieve Terracota y Rubíes
+# Metodología R.E.A.L.I.S.M.O.: Editorial de Joyería — Relieve Terracota y Rubíes
 
 Framework completo en español para escultura terracota y gemas de rubí de lujo.
 
@@ -2299,12 +2299,12 @@ Fine art luxury jewelry editorial profile relief carved into terracotta red sand
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Editorial de Joyería — Relieve Terracota y Rubíes",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Perfil femenino en relieve tallado sobre arena terracota.",
       "joyeria": "Collar de diamantes con rubíes ovalados y aretes colgantes a juego."
@@ -2334,16 +2334,16 @@ Fine art luxury jewelry editorial profile relief carved into terracotta red sand
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Joyería", "Rubíes", "Terracota"] as any
+        tags: ["REALISMO", "Midjourney", "Joyería", "Rubíes", "Terracota"] as any
     },
     {
         id: "prompt-reaisemp-jewelry-ivory-sapphire",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Escultura Ivory y Zafiro Azul",
+        title: "Metodología R.E.A.L.I.S.M.O.: Editorial de Joyería — Escultura Ivory y Zafiro Azul",
         slug: "metodologia-reaisemp-editorial-joyeria-escultura-ivory-zafiro-azul",
-        summary: "Prompt de joyería costera estilo escultura clásica bajo R.E.A.I.S.E.M.P. Relieve femenino ivory-beige con concha marina en el moño, collar de diamantes y zafiro azul marino profundo.",
+        summary: "Prompt de joyería costera estilo escultura clásica bajo R.E.A.L.I.S.M.O. Relieve femenino ivory-beige con concha marina en el moño, collar de diamantes y zafiro azul marino profundo.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -2354,7 +2354,7 @@ Fine art luxury jewelry editorial profile relief carved into terracotta red sand
         featured_image_url: "/images/prompts/reaisemp-jewelry-ivory-sapphire.png",
         prompt_text: `{
   "title": "Editorial de Joyería — Escultura Ivory y Zafiro Azul",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Perfil femenino sereno esculpido sobre arena ivory-beige.",
       "detalle_organico": "Concha marina pequeña colocada en el moño.",
@@ -2384,7 +2384,7 @@ Fine art luxury jewelry editorial profile relief carved into terracotta red sand
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Editorial de Joyería — Escultura Ivory y Zafiro Azul
+# Metodología R.E.A.L.I.S.M.O.: Editorial de Joyería — Escultura Ivory y Zafiro Azul
 
 Framework completo en español para escultura clásica en arena ivory y zafiro azul navy.
 
@@ -2398,12 +2398,12 @@ Classical sculpture fine art jewelry editorial profile relief carved into ivory-
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Editorial de Joyería — Escultura Ivory y Zafiro Azul",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Perfil femenino sereno esculpido sobre arena ivory-beige.",
       "detalle_organico": "Concha marina pequeña colocada en el moño.",
@@ -2434,16 +2434,16 @@ Classical sculpture fine art jewelry editorial profile relief carved into ivory-
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Joyería", "Zafiro", "Lujo"] as any
+        tags: ["REALISMO", "Midjourney", "Joyería", "Zafiro", "Lujo"] as any
     },
     {
         id: "prompt-reaisemp-newspaper-room-pink-jacket-man",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Editorial Avant-Garde — Hombre en Habitación de Periódicos",
+        title: "Metodología R.E.A.L.I.S.M.O.: Editorial Avant-Garde — Hombre en Habitación de Periódicos",
         slug: "metodologia-reaisemp-editorial-avant-garde-hombre-habitacion-periodicos",
-        summary: "Prompt conceptual avant-garde estructurado en español bajo R.E.A.I.S.E.M.P. Hombre con chaqueta baby pink, gafas futuristas y botas de combate sentado con piernas cruzadas en una habitación 360° forrada de periódicos.",
+        summary: "Prompt conceptual avant-garde estructurado en español bajo R.E.A.L.I.S.M.O. Hombre con chaqueta baby pink, gafas futuristas y botas de combate sentado con piernas cruzadas en una habitación 360° forrada de periódicos.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -2454,7 +2454,7 @@ Classical sculpture fine art jewelry editorial profile relief carved into ivory-
         featured_image_url: "/images/prompts/reaisemp-newspaper-room-pink-jacket-man.png",
         prompt_text: `{
   "title": "Editorial Avant-Garde — Hombre en Habitación de Periódicos",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Hombre joven con apariencia masculina natural y fotorealista.",
       "vestuario": "Chaqueta baby pink con cierre, pantalones grises, botas negras de combate y gafas futuristas."
@@ -2483,7 +2483,7 @@ Classical sculpture fine art jewelry editorial profile relief carved into ivory-
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Editorial Avant-Garde — Hombre en Habitación de Periódicos
+# Metodología R.E.A.L.I.S.M.O.: Editorial Avant-Garde — Hombre en Habitación de Periódicos
 
 Framework completo en español para fotografía de moda avant-garde en instalaciones de arte conceptual.
 
@@ -2497,12 +2497,12 @@ Avant-garde fashion editorial medium shot of a young man with light beard and fu
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Editorial Avant-Garde — Hombre en Habitación de Periódicos",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Hombre joven con apariencia masculina natural y fotorealista.",
       "vestuario": "Chaqueta baby pink con cierre, pantalones grises, botas negras de combate y gafas futuristas."
@@ -2532,16 +2532,16 @@ Avant-garde fashion editorial medium shot of a young man with light beard and fu
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Avant-Garde", "Editorial", "Conceptual"] as any
+        tags: ["REALISMO", "Midjourney", "Avant-Garde", "Editorial", "Conceptual"] as any
     },
     {
         id: "prompt-reaisemp-newspaper-room-shocked-woman",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Editorial Conceptual — Shock en Habitación de Periódicos",
+        title: "Metodología R.E.A.L.I.S.M.O.: Editorial Conceptual — Shock en Habitación de Periódicos",
         slug: "metodologia-reaisemp-editorial-conceptual-shock-habitacion-periodicos",
-        summary: "Prompt de moda surrealista estructurado en español bajo R.E.A.I.S.E.M.P. Mujer con blazer de ajedrez blanco y negro, pantalones verde oscuro y gafas geométricas en pose de sorpresa sosteniendo su rostro dentro de habitación de periódicos.",
+        summary: "Prompt de moda surrealista estructurado en español bajo R.E.A.L.I.S.M.O. Mujer con blazer de ajedrez blanco y negro, pantalones verde oscuro y gafas geométricas en pose de sorpresa sosteniendo su rostro dentro de habitación de periódicos.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -2552,7 +2552,7 @@ Avant-garde fashion editorial medium shot of a young man with light beard and fu
         featured_image_url: "/images/prompts/reaisemp-newspaper-room-shocked-woman.png",
         prompt_text: `{
   "title": "Editorial Conceptual — Shock en Habitación de Periódicos",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer joven con expresión dramática de sorpresa y boca abierta.",
       "vestuario": "Chaqueta de patrón cuadriculado ajedrez, pantalones verde oscuro, sneakers grises y gafas geométricas."
@@ -2581,7 +2581,7 @@ Avant-garde fashion editorial medium shot of a young man with light beard and fu
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Editorial Conceptual — Shock en Habitación de Periódicos
+# Metodología R.E.A.L.I.S.M.O.: Editorial Conceptual — Shock en Habitación de Periódicos
 
 Framework completo en español para fotografía editorial teatral y surrealismo conceptual.
 
@@ -2595,12 +2595,12 @@ Conceptual fashion editorial of a woman with open mouth shocked expression holdi
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Editorial Conceptual — Shock en Habitación de Periódicos",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer joven con expresión dramática de sorpresa y boca abierta.",
       "vestuario": "Chaqueta de patrón cuadriculado ajedrez, pantalones verde oscuro, sneakers grises y gafas geométricas."
@@ -2630,16 +2630,16 @@ Conceptual fashion editorial of a woman with open mouth shocked expression holdi
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Conceptual", "Surrealismo", "Editorial"] as any
+        tags: ["REALISMO", "Midjourney", "Conceptual", "Surrealismo", "Editorial"] as any
     },
     {
         id: "prompt-reaisemp-newspaper-room-dark-green-lounge",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Editorial Conceptual — Dark Green Fashion en Habitación de Periódicos",
+        title: "Metodología R.E.A.L.I.S.M.O.: Editorial Conceptual — Dark Green Fashion en Habitación de Periódicos",
         slug: "metodologia-reaisemp-editorial-conceptual-dark-green-fashion-habitacion-periodicos",
-        summary: "Prompt de alta moda minimalista en español bajo R.E.A.I.S.E.M.P. Modelo relajada en una silla giratoria lounge beige con blusa verde oscuro y falda corta blanca dentro de una habitación de periódico 4:5.",
+        summary: "Prompt de alta moda minimalista en español bajo R.E.A.L.I.S.M.O. Modelo relajada en una silla giratoria lounge beige con blusa verde oscuro y falda corta blanca dentro de una habitación de periódico 4:5.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -2650,7 +2650,7 @@ Conceptual fashion editorial of a woman with open mouth shocked expression holdi
         featured_image_url: "/images/prompts/reaisemp-newspaper-room-dark-green-lounge.jpg",
         prompt_text: `{
   "title": "Editorial Conceptual — Dark Green Fashion en Habitación de Periódicos",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer joven de apariencia sofisticada y relajada.",
       "vestuario": "Blusa verde oscuro, falda corta blanca, calcetines blancos, sneakers high-top beige y gafas oversized."
@@ -2679,7 +2679,7 @@ Conceptual fashion editorial of a woman with open mouth shocked expression holdi
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Editorial Conceptual — Dark Green Fashion en Habitación de Periódicos
+# Metodología R.E.A.L.I.S.M.O.: Editorial Conceptual — Dark Green Fashion en Habitación de Periódicos
 
 Framework completo en español para campañas de moda conceptual contemporánea.
 
@@ -2693,12 +2693,12 @@ Fashion editorial vertical 4:5 portrait of a confident woman with oversized sung
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Editorial Conceptual — Dark Green Fashion en Habitación de Periódicos",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer joven de apariencia sofisticada y relajada.",
       "vestuario": "Blusa verde oscuro, falda corta blanca, calcetines blancos, sneakers high-top beige y gafas oversized."
@@ -2728,16 +2728,16 @@ Fashion editorial vertical 4:5 portrait of a confident woman with oversized sung
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Editorial", "Moda", "Conceptual"] as any
+        tags: ["REALISMO", "Midjourney", "Editorial", "Moda", "Conceptual"] as any
     },
     {
         id: "prompt-reaisemp-holographic-social-profile",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Holographic Social Profile — Instagram Interface",
+        title: "Metodología R.E.A.L.I.S.M.O.: Holographic Social Profile — Instagram Interface",
         slug: "metodologia-reaisemp-holographic-social-profile-instagram-interface",
-        summary: "Prompt de arte digital e interfaz futurista bajo R.E.A.I.S.E.M.P. Mano humana sosteniendo una tarjeta holográfica semitransparente con perfil de Instagram flotante en luz azul y magenta.",
+        summary: "Prompt de arte digital e interfaz futurista bajo R.E.A.L.I.S.M.O. Mano humana sosteniendo una tarjeta holográfica semitransparente con perfil de Instagram flotante en luz azul y magenta.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -2748,7 +2748,7 @@ Fashion editorial vertical 4:5 portrait of a confident woman with oversized sung
         featured_image_url: "/images/prompts/reaisemp-holographic-social-profile.png",
         prompt_text: `{
   "title": "Holographic Social Profile — Instagram Interface",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mano humana sosteniendo tarjeta holográfica semitransparente.",
       "ui": "Estructura y perfil de Instagram flotante hiperrealista."
@@ -2777,7 +2777,7 @@ Fashion editorial vertical 4:5 portrait of a confident woman with oversized sung
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Holographic Social Profile — Instagram Interface
+# Metodología R.E.A.L.I.S.M.O.: Holographic Social Profile — Instagram Interface
 
 Framework completo en español para interfaces UI holográficas y tecnología de lujo.
 
@@ -2791,12 +2791,12 @@ Luxury tech digital art macro shot of a human hand holding a glowing glassmorphi
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Holographic Social Profile — Instagram Interface",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mano humana sosteniendo tarjeta holográfica semitransparente.",
       "ui": "Estructura y perfil de Instagram flotante hiperrealista."
@@ -2826,16 +2826,16 @@ Luxury tech digital art macro shot of a human hand holding a glowing glassmorphi
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Futurista", "Holograma", "UI"] as any
+        tags: ["REALISMO", "Midjourney", "Futurista", "Holograma", "UI"] as any
     },
     {
         id: "prompt-reaisemp-hand-drawn-doodle-portrait",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Hand-Drawn Doodle Portrait — Red & Yellow Pen",
+        title: "Metodología R.E.A.L.I.S.M.O.: Hand-Drawn Doodle Portrait — Red & Yellow Pen",
         slug: "metodologia-reaisemp-hand-drawn-doodle-portrait-red-yellow-pen",
-        summary: "Prompt de ilustración analógica en cuaderno bajo R.E.A.I.S.E.M.P. Retrato masculino ilustrado con trazos de tinta roja y amarilla rodeado de doodles y anotaciones manuscritas.",
+        summary: "Prompt de ilustración analógica en cuaderno bajo R.E.A.L.I.S.M.O. Retrato masculino ilustrado con trazos de tinta roja y amarilla rodeado de doodles y anotaciones manuscritas.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -2846,7 +2846,7 @@ Luxury tech digital art macro shot of a human hand holding a glowing glassmorphi
         featured_image_url: "/images/prompts/reaisemp-hand-drawn-doodle-portrait.jpg",
         prompt_text: `{
   "title": "Hand-Drawn Doodle Portrait — Red & Yellow Pen",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Retrato masculino ilustrado respetando la identidad del sujeto."
     },
@@ -2874,7 +2874,7 @@ Luxury tech digital art macro shot of a human hand holding a glowing glassmorphi
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Hand-Drawn Doodle Portrait — Red & Yellow Pen
+# Metodología R.E.A.L.I.S.M.O.: Hand-Drawn Doodle Portrait — Red & Yellow Pen
 
 Framework completo en español para retratos ilustrados estilo cuaderno de bocetos.
 
@@ -2888,12 +2888,12 @@ Hand-drawn doodle art illustration of a man's portrait on spiral notebook paper 
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Hand-Drawn Doodle Portrait — Red & Yellow Pen",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Retrato masculino ilustrado respetando la identidad del sujeto."
     },
@@ -2922,16 +2922,16 @@ Hand-drawn doodle art illustration of a man's portrait on spiral notebook paper 
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Ilustración", "Doodle", "Arte"] as any
+        tags: ["REALISMO", "Midjourney", "Ilustración", "Doodle", "Arte"] as any
     },
     {
         id: "prompt-reaisemp-moody-brown-knit-portrait",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: Moody Aesthetic Portrait — Brown Knit & Tropical Foliage",
+        title: "Metodología R.E.A.L.I.S.M.O.: Moody Aesthetic Portrait — Brown Knit & Tropical Foliage",
         slug: "metodologia-reaisemp-moody-aesthetic-portrait-brown-knit-tropical-foliage",
-        summary: "Prompt de fotografía íntima vintage en español bajo R.E.A.I.S.E.M.P. Retrato en esquina oscura con sweater de punto marrón, café para llevar y follaje tropical natural.",
+        summary: "Prompt de fotografía íntima vintage en español bajo R.E.A.L.I.S.M.O. Retrato en esquina oscura con sweater de punto marrón, café para llevar y follaje tropical natural.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -2942,7 +2942,7 @@ Hand-drawn doodle art illustration of a man's portrait on spiral notebook paper 
         featured_image_url: "/images/prompts/reaisemp-moody-brown-knit-portrait.png",
         prompt_text: `{
   "title": "Moody Aesthetic Portrait — Brown Knit & Tropical Foliage",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer en sweater de punto marrón grueso con vaso de café y anillos."
     },
@@ -2970,7 +2970,7 @@ Hand-drawn doodle art illustration of a man's portrait on spiral notebook paper 
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: Moody Aesthetic Portrait — Brown Knit & Tropical Foliage
+# Metodología R.E.A.L.I.S.M.O.: Moody Aesthetic Portrait — Brown Knit & Tropical Foliage
 
 Framework vintage para retratos íntimos cinematográficos.
 
@@ -2984,12 +2984,12 @@ Moody vintage cinematic portrait of a young woman in dark brown cable-knit sweat
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "Moody Aesthetic Portrait — Brown Knit & Tropical Foliage",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer en sweater de punto marrón grueso con vaso de café y anillos."
     },
@@ -3018,16 +3018,16 @@ Moody vintage cinematic portrait of a young woman in dark brown cable-knit sweat
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Moody", "Vintage", "Retrato"] as any
+        tags: ["REALISMO", "Midjourney", "Moody", "Vintage", "Retrato"] as any
     },
     {
         id: "prompt-reaisemp-white-couture-sunlit-courtyard",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: White Couture — Sunlit Stone Courtyard",
+        title: "Metodología R.E.A.L.I.S.M.O.: White Couture — Sunlit Stone Courtyard",
         slug: "metodologia-reaisemp-white-couture-sunlit-stone-courtyard",
-        summary: "Prompt de alta costura nupcial estructurado en español bajo R.E.A.I.S.E.M.P. Modelo luciendo vestido couture blanco con pétalos 3D en patio soleado de piedra minimalista.",
+        summary: "Prompt de alta costura nupcial estructurado en español bajo R.E.A.L.I.S.M.O. Modelo luciendo vestido couture blanco con pétalos 3D en patio soleado de piedra minimalista.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -3038,7 +3038,7 @@ Moody vintage cinematic portrait of a young woman in dark brown cable-knit sweat
         featured_image_url: "/images/prompts/reaisemp-white-couture-sunlit-courtyard.png",
         prompt_text: `{
   "title": "White Couture — Sunlit Stone Courtyard",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer en vestido de alta costura blanco con pétalos 3D sobredimensionados y pedrería."
     },
@@ -3066,7 +3066,7 @@ Moody vintage cinematic portrait of a young woman in dark brown cable-knit sweat
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: White Couture — Sunlit Stone Courtyard
+# Metodología R.E.A.L.I.S.M.O.: White Couture — Sunlit Stone Courtyard
 
 Framework de moda de lujo en arquitectura minimalista.
 
@@ -3080,12 +3080,12 @@ High-fashion couture full-body editorial portrait of a woman in an ornate white 
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "White Couture — Sunlit Stone Courtyard",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer en vestido de alta costura blanco con pétalos 3D sobredimensionados y pedrería."
     },
@@ -3114,16 +3114,16 @@ High-fashion couture full-body editorial portrait of a woman in an ornate white 
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Couture", "Moda", "Alta Costura"] as any
+        tags: ["REALISMO", "Midjourney", "Couture", "Moda", "Alta Costura"] as any
     },
     {
         id: "prompt-reaisemp-1930s-hollywood-vintage-portrait",
         type: "prompt",
-        title: "Metodología R.E.A.I.S.E.M.P.: 1930s Hollywood Portrait — Vintage Era Editorial",
+        title: "Metodología R.E.A.L.I.S.M.O.: 1930s Hollywood Portrait — Vintage Era Editorial",
         slug: "metodologia-reaisemp-1930s-hollywood-portrait-vintage-era-editorial",
-        summary: "Prompt de glamour clásico de Hollywood bajo R.E.A.I.S.E.M.P. Elegante retrato con peinado Marcel wave, estola de piel, collar de perlas y vestido de satén en salón Art Deco.",
+        summary: "Prompt de glamour clásico de Hollywood bajo R.E.A.L.I.S.M.O. Elegante retrato con peinado Marcel wave, estola de piel, collar de perlas y vestido de satén en salón Art Deco.",
         category: "Retratos & Branding",
-        system_type: "Midjourney v6 / REAISEMP",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -3134,7 +3134,7 @@ High-fashion couture full-body editorial portrait of a woman in an ornate white 
         featured_image_url: "/images/prompts/reaisemp-1930s-hollywood-vintage-portrait.png",
         prompt_text: `{
   "title": "1930s Hollywood Portrait — Vintage Era Editorial",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer con peinado Marcel wave de los años 30, vestido de satén plateado, estola de piel y perlas."
     },
@@ -3162,7 +3162,7 @@ High-fashion couture full-body editorial portrait of a woman in an ornate white 
   }
 }`,
         body_markdown: `
-# Metodología R.E.A.I.S.E.M.P.: 1930s Hollywood Portrait — Vintage Era Editorial
+# Metodología R.E.A.L.I.S.M.O.: 1930s Hollywood Portrait — Vintage Era Editorial
 
 Framework completo en español para glamour clásico de cine de los años 30.
 
@@ -3176,12 +3176,12 @@ Framework completo en español para glamour clásico de cine de los años 30.
 
 ---
 
-## ⚙️ Estructura R.E.A.I.S.E.M.P. Completa (JSON en Español)
+## ⚙️ Estructura R.E.A.L.I.S.M.O. Completa (JSON en Español)
 
 \`\`\`json
 {
   "title": "1930s Hollywood Portrait — Vintage Era Editorial",
-  "framework_REAISEMP": {
+  "framework_REALISMO": {
     "R_Render_del_Avatar": {
       "sujeto": "Mujer con peinado Marcel wave de los años 30, vestido de satén plateado, estola de piel y perlas."
     },
@@ -3210,6 +3210,6 @@ Framework completo en español para glamour clásico de cine de los años 30.
 }
 \`\`\`
 `,
-        tags: ["REAISEMP", "Midjourney", "Hollywood", "Vintage", "Años 30"] as any
+        tags: ["REALISMO", "Midjourney", "Hollywood", "Vintage", "Años 30"] as any
     }
 ];

@@ -12,7 +12,7 @@ export function FrameworkAnalysis({ promptText }: FrameworkAnalysisProps) {
 
     try {
         const parsed = JSON.parse(promptText);
-        frameworkData = parsed.framework_REAISEMP;
+        frameworkData = parsed.framework_REALISMO || parsed.REALISMO || parsed.framework_REAISEMP || parsed.REAISEMP || parsed.framework_REAISEMP_Human;
     } catch (e) {
         // Not valid JSON or missing framework data
         return null;
@@ -28,7 +28,7 @@ export function FrameworkAnalysis({ promptText }: FrameworkAnalysisProps) {
                 </div>
                 <div>
                     <h3 className="text-xl font-bold text-white">Análisis de Framework</h3>
-                    <p className="text-slate-400 text-sm">Desglose estratégico de este prompt usando la metodología REAISEMP</p>
+                    <p className="text-slate-400 text-sm">Desglose estratégico de este prompt usando la metodología REALISMO</p>
                 </div>
             </div>
 

@@ -853,7 +853,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "retro-futuristic-fashion-glitchcore",
         summary: "Portada de revista minimalista que fusiona estética Y2K con vibras glitchcore y exposición doble.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Rostro [SUBJECT] estilizado, identidad tratada gráficamente.
 *   **E(Entorno):** Portada revista abstracta, escena doble exposición.
@@ -866,7 +866,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "Y2K Glitchcore Fashion Cover — Minimalist Line Art",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "[SUBJECT] con rasgos definidos y estilizados, identidad facial clara pero tratada de forma gráfica.",
                     "expresion": "Neutra o segura, pensada para portada editorial.",
@@ -928,7 +928,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "vogue-elegance-couture-glamour",
         summary: "Retrato editorial de lujo inspirado por Ana de Armas en un vestido de lentejuelas negro.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Mujer sofisticada (inspiración Ana de Armas), peinado sleek ponytail.
 *   **E(Entorno):** Sofá de terciopelo borgoña profundo, interior lujoso.
@@ -941,7 +941,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "High-Fashion Editorial Portrait — Luxury Power Femininity",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Mujer adulta con rasgos finos y sofisticados, estructura facial definida y elegante, piel realista con acabado pulido de editorial.",
                     "referencia_identidad": "Ana de Armas (o mujer con presencia y elegancia similares, si se usa como inspiración).",
@@ -1010,7 +1010,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "glamour-shore-celebrity-vibes",
         summary: "Fotografía de estilo de vida en la playa con una joven en un vestido blanco chic.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Mujer joven 20s, piel bronceada luminosa, glow saludable.
 *   **E(Entorno):** Beach club de lujo, arena blanca, daybed.
@@ -1023,7 +1023,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "Luxury Beach Club Portrait — Sunlit Daybed",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Mujer joven en sus 20s con piel bronceada y luminosa, rasgos equilibrados y naturales, textura de piel realista con glow saludable.",
                     "expresion": "Relajada, fresca, expresión serena y confiada.",
@@ -1084,7 +1084,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "power-elegance-boss-girl",
         summary: "Retrato cinematográfico de una mujer poderosa en el asiento del conductor de un coche de lujo.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Rostro joven elegante, estructura facial definida.
 *   **E(Entorno):** Interior de automóvil de lujo, cuero beige.
@@ -1097,7 +1097,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "Cinematic Lifestyle Portrait — Luxury Boss Girl",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro joven adulto con rasgos occidentales equilibrados, estructura facial definida y elegante, piel realista con textura natural.",
                     "expresion": "Confiada, poderosa, seguridad tranquila.",
@@ -1161,7 +1161,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "stitches-reality-embroidery-art",
         summary: "Efecto visual que transforma una foto real en una obra de arte bordada con textura realista.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Rostro masculino adulto, chaqueta colorida moderna.
 *   **E(Entorno):** Paisaje de montaña nevada, contraste de colores.
@@ -1174,7 +1174,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "Composite Transformation Portrait — Photo to Embroidered Artwork",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro masculino adulto con rasgos bien definidos, identidad clara y realista.",
                     "expresion": "Neutra y segura, expresión editorial contenida.",
@@ -1235,7 +1235,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "sunset-elegance-dubai-vistas",
         summary: "Captura de viaje de lujo con vistas al Burj Khalifa durante la hora dorada.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Rostro joven elegante, textura suave, tonos cálidos.
 *   **E(Entorno):** Dubai Downtown, Burj Khalifa al fondo, barandilla.
@@ -1248,7 +1248,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "Cinematic Lifestyle Portrait — Dubai Waterfront Sunset",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro joven adulto con rasgos naturales y elegantes, piel realista con textura suave y tonos cálidos.",
                     "expresion": "Serena y contemplativa.",
@@ -1310,7 +1310,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "urban-edge-futuristic-street-fashion",
         summary: "Retrato adolescente con estética industrial, ángulos dramáticos y neones azules.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Rostro moderno urbano, rasgos definidos.
 *   **E(Entorno):** Fondo metálico oscuro, textura industrial.
@@ -1323,7 +1323,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "Street Fashion Portrait — Futuristic Industrial",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro moderno y urbano, rasgos definidos, piel natural sin retoques exagerados.",
                     "expresion": "Segura, relajada, actitud street.",
@@ -1383,7 +1383,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "maid-moonlight-cosplay-moment",
         summary: "Estilo cosplay japonés con traje de maid clásico frente a máquinas expendedoras retroiluminadas.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Rostro joven estilo japonés, twin tails y orejas de gato.
 *   **E(Entorno):** Calle nocturna japonesa con máquinas expendedoras.
@@ -1396,7 +1396,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "Japanese Cosplay Portrait — Neon Night Street",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro joven adulto con rasgos delicados y estilo japonés, piel natural y limpia.",
                     "expresion": "Dulce y confiada, ligera sonrisa.",
@@ -1457,7 +1457,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "ethereal-dreamscape-kpop-portrait",
         summary: "Fotografía de película analógica con estética Petra Collins, colores pastel y destellos arcoíris.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Rostro joven adulto, piel natural con grano analógico.
 *   **E(Entorno):** Habitación íntima minimalista.
@@ -1470,7 +1470,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "Dreamlike Analog Portrait — Ethereal Bedroom",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro joven adulto con rasgos suaves y delicados, piel natural con imperfecciones visibles propias de fotografía analógica.",
                     "expresion": "Serena, introspectiva, mirada relajada.",
@@ -1534,7 +1534,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "miniature-portrait-smartphone-stage",
         summary: "Efecto de perspectiva forzada donde una modelo posa sobre la pantalla de un smartphone.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Modelo (inspiración Anne Hathaway), gafas de montura negra, pose juguetona.
 *   **E(Entorno):** Pantalla de smartphone como escenario, fondo gris limpio.
@@ -1547,7 +1547,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "Miniature Portrait — Smartphone Stage",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro estilizado (inspiración Anne Hathaway), maquillaje exquisito, gafas de montura negra.",
                     "expresion": "Cuchi, juguetona, alegre.",
@@ -1609,7 +1609,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "nano-banana-case-1",
         summary: "Estilo 3D Chibi/Pixar de una tierna propuesta de matrimonio en un jardín de rosas.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Personajes estilo Chibi 3D, estética Pixar, rostros expresivos y piel suave.
 *   **E(Entorno):** Jardín de rosas encantado, arco floral circular (rosa, lila, blanco), bokeh suave.
@@ -1622,7 +1622,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "3D Chibi Proposal — Enchanted Flower Arch",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "estilo": "3D Chibi / Pixar Animation style.",
                     "caracteristicas": "Personajes adorables, cabezas ligeramente más grandes, ojos expresivos.",
@@ -1683,7 +1683,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "nano-banana-case-2",
         summary: "Efecto creativo 'pop-out' donde una escena 3D Chibi sale de un marco de fotos sostenido por una mano.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Personajes estilo Chibi 3D, estética Pixar, rostros expresivos.
 *   **E(Entorno):** Marco de foto Polaroid roto/rasgado sostenido por una mano, jardín de rosas al fondo.
@@ -1696,7 +1696,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "3D Chibi Out-of-Frame Portrait",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "estilo": "3D Chibi / Pixar Animation style.",
                     "caracteristicas": "Personajes adorables, proporciones deformadas tiernas, ojos grandes.",
@@ -1756,7 +1756,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         slug: "dia-de-muertos-catrina",
         summary: "Retrato hiperrealista 8K de Catrina con maquillaje dorado y rojo.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
     *   ** R(Render):** Maquillaje Catrina dorado y rojo, rostro sereno.
 *   ** E(Entorno):** Oscuro, místico, luces suaves.
@@ -1769,7 +1769,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato Catrina Día de Muertos Hiperrealista - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro femenino base sin alterar, solo maquillaje aplicado.",
                     "expresion": "Serena y mística.",
@@ -1832,7 +1832,7 @@ Este prompt es ideal para retratos temáticos de alta fidelidad. Para adaptarlo 
 
 En tu generador preferido (Midjourney o InsightFace), carga tu foto como referencia visual de rostro.
 
-Copia el prompt REAISEMP de este caso y añade el parámetro de referencia (comando --cref en MJ) para que la IA aplique el maquillaje de Catrina sobre tus propios rasgos.`
+Copia el prompt REALISMO de este caso y añade el parámetro de referencia (comando --cref en MJ) para que la IA aplique el maquillaje de Catrina sobre tus propios rasgos.`
     },
 
     {
@@ -1842,7 +1842,7 @@ Copia el prompt REAISEMP de este caso y añade el parámetro de referencia (coma
         slug: "bw-silla-plegable-denim",
         summary: "Retrato minimalista B&W en silla plegable con outfit de denim.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
     *   ** R(Render):** Rostro relajado, outfit denim.
 *   ** E(Entorno):** Estudio liso minimalista.
@@ -1855,7 +1855,7 @@ Copia el prompt REAISEMP de este caso y añade el parámetro de referencia (coma
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato B&W con Denim en Silla Plegable - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro relajado, mirada suave.",
                     "expresion": "Calmada, cool.",
@@ -1926,7 +1926,7 @@ Copia el prompt y verás cómo tu pose se transforma en este retrato minimalista
         slug: "retrato-tecnico-rembrandt-bw",
         summary: "Retrato introspectivo con iluminación Rembrandt clásica y piel natural.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
     *   ** R(Render):** Piel natural sin retocar, tela con lunares.
 *   ** E(Entorno):** Habitación oscura, luz de ventana.
@@ -1939,7 +1939,7 @@ Copia el prompt y verás cómo tu pose se transforma en este retrato minimalista
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato Técnico B&W con Iluminación Rembrandt - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro sin retocar, piel natural visible.",
                     "expresion": "Introspectiva e intensa.",
@@ -2002,7 +2002,7 @@ Asegúrate de que la referencia sea en alta resolución para que las texturas de
         slug: "closeup-pendiente-focal",
         summary: "Fotografía editorial enfocada en joyería y detalles de lujo.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Piel bronceada, vestido negro, pendiente visible.
 *   **E(Entorno):** Oscuro minimalista.
@@ -2015,7 +2015,7 @@ Asegúrate de que la referencia sea en alta resolución para que las texturas de
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato Close-up de Oreja Iluminada (Pendiente Focal) - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Solo parte del rostro visible, piel bronceada impecable.",
                     "expresion": "Neutra y elegante.",
@@ -2076,7 +2076,7 @@ Aplica el prompt detallado y ajusta los parámetros de visualización para que e
         slug: "retrato-poder-traje-negro",
         summary: "Retrato editorial empoderado con traje negro en ambiente minimalista.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
         *   ** R(Render):** Expresión confiada, traje negro, cabello brillante.
 *   ** E(Entorno):** Negro profundo.
@@ -2089,7 +2089,7 @@ Aplica el prompt detallado y ajusta los parámetros de visualización para que e
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato de Poder en Traje Negro (Estudio) - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Expresión confiada, mirada elegante.",
                     "cabello": "Largo, oscuro y brillante.",
@@ -2523,7 +2523,7 @@ A close-up, professionally composed photograph showcasing a hand-crocheted yarn 
         tags: [{ id: "t-nano", name: "Nano Banana", slug: "nano-banana" }]
     },
 
-    // REAISEMP Framework - Women's Portraits
+    // REALISMO Framework - Women's Portraits
     {
         id: "p15",
         type: "prompt",
@@ -2531,7 +2531,7 @@ A close-up, professionally composed photograph showcasing a hand-crocheted yarn 
         slug: "retrato-cinematografico-monocromatico",
         summary: "Retrato en B&W hiperrealista 8K con iluminación Chiaroscuro dramática.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Modelo femenina, rasgos suaves, mirada profunda, piel natural con textura.
 *   **E (Entorno):** Fondo negro aterciopelado, rayos difusos estilo acuático.
@@ -2544,7 +2544,7 @@ A close-up, professionally composed photograph showcasing a hand-crocheted yarn 
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato Cinematográfico Monocromático (Chiaroscuro) - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Modelo femenina con rasgos suaves y expresivos, mirada profunda y piel con textura natural visible bajo la luz.",
                     "expresion": "Serena, introspectiva, emocional.",
@@ -2605,7 +2605,7 @@ Este estilo resalta las texturas. Si quieres un look más suave, cambia I_Ilumin
         slug: "alta-costura-cyberpunk",
         summary: "Estilo high-fashion futurista con iluminación dual neón (Amarillo/Azul).",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Rostro estilizado, mirada intensa, cabello bob minimalista.
 *   **E (Entorno):** Fondo negro, ambiente cyberpunk limpio.
@@ -2617,7 +2617,7 @@ Este estilo resalta las texturas. Si quieres un look más suave, cambia I_Ilumin
         `,
         prompt_text: JSON.stringify({
             "title": "Alta Costura Cyberpunk con Iluminación Dual - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro femenino estilizado con mirada intensa y elegante.",
                     "expresion": "Confianza moderna.",
@@ -2679,7 +2679,7 @@ Cambia los colores de neón en I_Iluminacion para adaptarlos a tu marca (ej: "Vi
         slug: "cottagecore-en-cesped",
         summary: "Retrato cenital relajado sobre césped, estilo romántico y natural.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Rostro suave, pecas, cabello extendido radialmente.
 *   **E (Entorno):** Césped verde cuidado.
@@ -2691,7 +2691,7 @@ Cambia los colores de neón en I_Iluminacion para adaptarlos a tu marca (ej: "Vi
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato Cottagecore sobre Césped (Ángulo Cenital) - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro femenino suave con maquillaje natural y pecas visibles.",
                     "expresion": "Serena y delicada.",
@@ -2750,7 +2750,7 @@ Para un look más otoñal, cambia el E_Entorno a "Césped con hojas secas en ton
         slug: "artistico-bajo-cascada",
         summary: "Retrato etéreo con agua y reflejos, paleta de azules fríos y rosa suave.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Rostro suave, cabello mojado, figura realista.
 *   **E (Entorno):** Cascada difuminada, agua cristalina.
@@ -2762,7 +2762,7 @@ Para un look más otoñal, cambia el E_Entorno a "Césped con hojas secas en ton
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato Artístico Bajo Cascada en Bikini Rosa - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro suave con expresión tranquila.",
                     "expresion": "Calma elegante.",
@@ -2821,7 +2821,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "neon-noir-cabello-mojado",
         summary: "Close-up intenso con piel húmeda y contraste Teal-Orange.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Mirada intensa, piel húmeda brillante, cabello oscuro pegado.
 *   **E (Entorno):** Degradado teal-esmeralda.
@@ -2833,7 +2833,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato Neon Noir con Cabello Mojado - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Mirada intensa, piel húmeda brillante.",
                     "expresion": "Poder y misterio.",
@@ -2893,7 +2893,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "neon-noir-rubia-platino",
         summary: "Elegancia futurista con iluminación split roja y azul.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Maquillaje rojo intenso, rubia platino, ondas.
 *   **E (Entorno):** Negro total, neon noir.
@@ -2906,7 +2906,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato Neon Noir Rubia Platino (Ojos Cerrados) - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro definido con maquillaje rojo intenso.",
                     "expresion": "Relajada y elegante.",
@@ -2965,7 +2965,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "neon-halo-rojo",
         summary: "Retrato poderoso con backlight de neón rojo formando un halo.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Labios intensos, cabello con ondas rojizas.
 *   **E (Entorno):** Oscuro, aro de neón rojo detrás.
@@ -2977,7 +2977,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato con Halo de Neón Rojo - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro femenino iluminado por luz roja, labios intensos.",
                     "expresion": "Confianza elegante.",
@@ -3032,7 +3032,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "retro-glam-cabriolet",
         summary: "Editorial de moda estilo Vogue retro en un descapotable rojo.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Gafas redondas retro, actitud sofisticada.
 *   **E (Entorno):** Horizonte marino, cabriolet escarlata.
@@ -3044,7 +3044,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato Retro-Glam en Cabriolet con Horizonte Marino - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Modelo con gafas redondas retro.",
                     "expresion": "Actitud glam sofisticada.",
@@ -3098,7 +3098,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "novia-alta-costura",
         summary: "Fotografía de boda ultra-realista y lujosa en una suite.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Maquillaje perfecto, velo largo.
 *   **E (Entorno):** Suite nupcial difuminada.
@@ -3110,7 +3110,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato de Novia de Alta Costura en Suite Lujosa - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro elegante con maquillaje perfecto.",
                     "expresion": "Calma y elegancia.",
@@ -3156,7 +3156,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         updated_at: new Date().toISOString(),
         tags: [{ id: "t-bride", name: "Bridal", slug: "bridal" }, { id: "t-lux", name: "Luxury", slug: "luxury" }]
     },
-    // REAISEMP Framework - Women's Portraits (Part 2: 11-19)
+    // REALISMO Framework - Women's Portraits (Part 2: 11-19)
     {
         id: "p24",
         type: "prompt",
@@ -3164,7 +3164,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "foto-amenazante-arcade-ghostface",
         summary: "Retrato con temática Ghostface en un arcade vibrante con luces neón rosa.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Joven con expresión lúdica pero seria, estilo urbano.
 *   **E (Entorno):** Arcade colorido, cabina de peluches Ghostface, neón rosa.
@@ -3177,7 +3177,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato Fotográfico en Arcade con Temática Ghostface - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Joven con expresión seria pero intrigante, rasgos suaves, mirada dirigida a cámara.",
                     "expresion": "Seriedad lúdica, toque de tensión.",
@@ -3235,7 +3235,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "retrato-pareja-elegante-turtleneck",
         summary: "Retrato de pareja en estudio, estilo elegante y minimalista.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Pareja con aspecto clásico, turtleneck negro.
 *   **E (Entorno):** Estudio oscuro minimalista.
@@ -3248,7 +3248,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         `,
         prompt_text: JSON.stringify({
             "title": "Retrato de Pareja Elegante en Estudio (Turtleneck) - Femenino",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Rostro suave, maquillaje natural, mirada calmada.",
                     "expresion": "Serena y afectuosa.",
@@ -3306,7 +3306,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "authentic-smartphone-selfie",
         summary: "Selfie auténtico con smartphone y lente gran angular en interior de auto.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R (Render):** Hombre joven, rostro 1:1 referencia, cabello ondulado, gafas de sol reflectantes.
 *   **E (Entorno):** Interior de automóvil, tapicería beige, sunroof, calle desenfocada.
@@ -3319,7 +3319,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         `,
         prompt_text: JSON.stringify({
             "title": "Authentic Smartphone Selfie — Wide Angle Car Interior (1:1 Reference Lock)",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Hombre joven utilizando estrictamente el rostro del usuario a partir de la imagen de referencia cargada.",
                     "expresion": "Relajada y segura, expresión natural.",
@@ -3391,7 +3391,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "90s-disposable-camera-portrait",
         summary: "Retrato estilo cámara desechable de los 90s con estética Dark Academia.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Hombre joven, rostro usuario exacto, mirada intensa predatoria.
 *   **E(Entorno):** Fiesta nocturna casa oscura, caos contenido.
@@ -3405,7 +3405,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         featured_image_url: "/images/prompts/90s-disposable-camera-portrait.png",
         prompt_text: JSON.stringify({
             "title": "1990s Disposable Camera Portrait — Dark Academia Gaze",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Hombre joven utilizando estrictamente el rostro del usuario tomado del selfie de referencia, preservando rasgos faciales, proporciones y estructura ósea.",
                     "expresion": "Mirada directa e intensa, ligeramente entornada, con una expresión predatoria y magnética.",
@@ -3465,7 +3465,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "cinematic-portrait-restoration",
         summary: "Restauración cinematográfica fotorrealista con iluminación Golden Hour.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Rasgos originales preservados, expresión exacta.
 *   **E(Entorno):** Interior minimalista, pared fondo.
@@ -3478,7 +3478,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         `,
         prompt_text: JSON.stringify({
             "title": "Cinematic Portrait Restoration — Golden Hour Shadow (9:16)",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Sujeto con rasgos faciales originales preservados con total fidelidad.",
                     "expresion": "Exactamente la expresión original, sin alteraciones.",
@@ -3541,7 +3541,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         slug: "monochrome-fine-art-editorial",
         summary: "Editorial de moda fine-art en blanco y negro con silueta de caballo.",
         body_markdown: `
-# Framework REAISEMP
+# Framework REALISMO
 
 *   **R(Render):** Identidad intacta, expresión calma introspectiva.
 *   **E(Entorno):** Paisaje natural abierto, pasto salvaje.
@@ -3554,7 +3554,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
         `,
         prompt_text: JSON.stringify({
             "title": "Monochrome Fine-Art Editorial — Grounded Presence",
-            "framework_REAISEMP": {
+            "framework_REALISMO": {
                 "R_Render_del_Avatar": {
                     "descripcion_facial": "Persona con rasgos faciales reales y definidos, identidad intacta y reconocible.",
                     "expresion": "Calma, introspectiva, mirada baja y contenida.",
