@@ -461,5 +461,118 @@ Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercom
 \`\`\`
 `,
         tags: ["Cyberpunk", "AI Infrastructure", "Servers", "Sci-Fi"] as any
+    },
+    {
+        id: "prompt-reaisemp-edgy-streetwear-bouquet",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Edgy Streetwear & Blue Studio Floral Portrait",
+        slug: "metodologia-reaisemp-edgy-streetwear-blue-studio-bouquet",
+        summary: "Prompt estructurado bajo el framework R.E.A.I.S.E.M.P. Retrato editorial contemporáneo con sujeto pelirrojo, estética streetwear, cadenas de plata y ramo de gerberas rojas sobre estudio azul saturado.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-edgy-streetwear-bouquet.png",
+        prompt_text: `Centered medium portrait of a young adult woman with long red hair and natural freckles, confident neutral expression, chin slightly raised looking slightly downward toward camera, holding a large organic bouquet of red gerberas, white carnations and light blue flowers firmly against her chest, wearing an oversized sleeveless black tee with a distressed rectangular red chest graphic, heavy silver chain with circular pendant, chunky rings and metallic watch, solid deep saturated blue studio backdrop, hard directional lighting from upper side with crisp highlights and pronounced chin shadow, edgy contemporary fashion editorial aesthetic --ar 4:5 --style raw --v 6.1`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Edgy Streetwear & Blue Studio Floral Portrait
+
+Prompt de alta precisión fotográfica utilizando la estructura sintáctica **R.E.A.I.S.E.M.P.** (Reference, Expression, Action, Identity/Outfit, Setting, Exposure/Lighting, Mood/Style).
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Centered medium portrait of a young adult woman with long red hair and natural freckles, confident neutral expression, chin slightly raised looking slightly downward toward camera, holding a large organic bouquet of red gerberas, white carnations and light blue flowers firmly against her chest, wearing an oversized sleeveless black tee with a distressed rectangular red chest graphic, heavy silver chain with circular pendant, chunky rings and metallic watch, solid deep saturated blue studio backdrop, hard directional lighting from upper side with crisp highlights and pronounced chin shadow, edgy contemporary fashion editorial aesthetic --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. (JSON para Modelos Avanzados & LLM Prompters)
+
+\`\`\`json
+{
+  "REAISEMP": {
+    "R": "Use uploaded portrait only as exact facial identity reference; preserve facial structure, proportions and natural skin texture.",
+    "E": "Young adult woman, confident neutral expression, chin slightly raised, looking slightly downward toward camera.",
+    "A": "Holding a large vibrant bouquet firmly against her chest.",
+    "I": "Oversized sleeveless black tee, distressed rectangular red chest graphic, heavy silver chain, circular pendant, chunky rings, metallic bracelet/watch, black studded strap.",
+    "S": "Centered medium portrait against a solid deep saturated blue studio backdrop.",
+    "E2": "Hard directional light from upper side, crisp highlights on face and flowers, pronounced chin shadow, strong contrast.",
+    "M": "Edgy contemporary fashion editorial, saturated red/blue/black palette, ultra-photorealistic."
+  },
+  "photography": {
+    "camera": "professional editorial camera, 50mm portrait look",
+    "aspect_ratio": "4:5",
+    "focus": "sharp face and flowers, realistic microtexture",
+    "finish": "high-resolution fashion photography, no artificial skin smoothing"
+  },
+  "prop": "organic bouquet of red gerberas, white carnations and light blue flowers"
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Editorial", "Streetwear", "Retratos"] as any
+    },
+    {
+        id: "prompt-reaisemp-vintage-sticker-bomb-portrait",
+        type: "prompt",
+        title: "Metodología R.E.A.I.S.E.M.P.: Pop-Art Vintage Sticker Bomb Portrait",
+        slug: "metodologia-reaisemp-pop-art-vintage-sticker-bomb-portrait",
+        summary: "Prompt de alto impacto visual bajo la metodología R.E.A.I.S.E.M.P. Retrato editorial avant-garde con pegatinas vintage (Coca-Cola, Starbucks, Gulf) cubriendo el rostro con textura de adhesivo hiperrealista.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6 / REAISEMP",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/reaisemp-vintage-sticker-bomb-portrait.png",
+        prompt_text: `Centered head-and-shoulders portrait of a young adult woman with long red hair and natural freckles, chin slightly lifted with mouth slightly open, wearing a structured matte-black high-neck turtleneck, face covered in a dense curated collage of colorful vintage brand stickers, logos and typography following facial curvature with realistic paper overlap and adhesive shadows, eyes and lips remaining visible, smooth off-white studio background, soft directional front beauty lighting, slight desaturation, subtle film grain, editorial fashion magazine aesthetic --ar 4:5 --style raw --v 6.1`,
+        body_markdown: `
+# Metodología R.E.A.I.S.E.M.P.: Pop-Art Vintage Sticker Bomb Portrait
+
+Prompt de alta resolución artística estructurado con la sintaxis **R.E.A.I.S.E.M.P.** para recrear intervenciones de moda avant-garde con collage facial de pegatinas vintage.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Centered head-and-shoulders portrait of a young adult woman with long red hair and natural freckles, chin slightly lifted with mouth slightly open, wearing a structured matte-black high-neck turtleneck, face covered in a dense curated collage of colorful vintage brand stickers, logos and typography following facial curvature with realistic paper overlap and adhesive shadows, eyes and lips remaining visible, smooth off-white studio background, soft directional front beauty lighting, slight desaturation, subtle film grain, editorial fashion magazine aesthetic --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura R.E.A.I.S.E.M.P. (JSON para Modelos Avanzados & LLM Prompters)
+
+\`\`\`json
+{
+  "REAISEMP": {
+    "R": "Use uploaded portrait as exact facial identity reference; preserve all facial proportions and features.",
+    "E": "Young adult woman, centered head-and-shoulders portrait, chin slightly lifted, mouth slightly open, strong fashion presence.",
+    "A": "Facing camera directly with relaxed, controlled expression.",
+    "I": "Structured matte-black high-neck garment.",
+    "S": "Minimal smooth off-white/pale-gray studio backdrop.",
+    "E2": "Soft directional beauty light from front, subtle jaw and cheekbone shadows, natural skin highlights, gentle dimensional contrast.",
+    "M": "Dense curated colorful sticker collage covering most of the face while retaining recognizable facial structure; vintage logos, typography, symbols and mini illustrations follow facial curvature with realistic edges, overlap and adhesive shadows. Eyes remain visible and lips partly visible."
+  },
+  "photography": {
+    "camera": "high-end editorial portrait",
+    "aspect_ratio": "4:5",
+    "focus": "sharp facial and sticker texture",
+    "finish": "slight desaturation, subtle film grain, photorealistic magazine aesthetic"
+  }
+}
+\`\`\`
+`,
+        tags: ["REAISEMP", "Midjourney", "Editorial", "Pop-Art", "Stickers"] as any
     }
 ];
