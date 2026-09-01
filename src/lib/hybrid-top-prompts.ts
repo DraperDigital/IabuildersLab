@@ -688,5 +688,142 @@ High-end editorial beauty centered head-and-shoulders portrait of a woman in a m
 \`\`\`
 `,
         tags: ["Midjourney", "Editorial", "Pop-Art", "Stickers", "Moda"] as any
+    },
+    {
+        id: "prompt-streetwear-bouquet-editorial-portrait",
+        type: "prompt",
+        title: "Edgy Streetwear: Saturated Blue & Floral Bouquet Portrait",
+        slug: "edgy-streetwear-bouquet-editorial-portrait",
+        summary: "Retrato editorial contemporáneo de ángulo bajo con estética urbana streetwear. Sujeto en camiseta negra sin mangas con gráfico rojo, cadenas de plata y gran ramo de gerberas rojas y flores azules sobre fondo azul saturado.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/streetwear-bouquet-editorial-portrait.jpg",
+        prompt_text: `Contemporary high-contrast editorial low-angle medium portrait of a confident woman holding a vibrant large floral bouquet of red gerberas, white carnations and light blue flowers in front of her chest, wearing an oversized black sleeveless t-shirt with a distressed red rectangular graphic, heavy silver chain with circular pendant, chunky silver rings and studded strap, deep saturated solid blue backdrop, hard directional natural lighting with crisp contrast, shot on Hasselblad H6D-100c 85mm lens --ar 4:5 --style raw --v 6.1`,
+        body_markdown: `
+# Edgy Streetwear: Saturated Blue & Floral Bouquet Portrait
+
+Prompt editorial contemporáneo de alta moda urbana con encuadre de ángulo bajo, contraste marcado de accesorios de joyería plateada, gráficos rojos y un ramo botánico vibrante.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Contemporary high-contrast editorial low-angle medium portrait of a confident woman holding a vibrant large floral bouquet of red gerberas, white carnations and light blue flowers in front of her chest, wearing an oversized black sleeveless t-shirt with a distressed red rectangular graphic, heavy silver chain with circular pendant, chunky silver rings and studded strap, deep saturated solid blue backdrop, hard directional natural lighting with crisp contrast, shot on Hasselblad H6D-100c 85mm lens --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura JSON para Modelos de Generación Avanzada (DALL-E 3 / API / Structured Generation)
+
+\`\`\`json
+{
+  "subject": {
+    "description": "Woman from reference, exact facial identity and proportions preserved, holding a large vibrant bouquet firmly in front of her chest.",
+    "expression": "confident neutral expression, chin slightly raised, looking slightly downward toward camera",
+    "face": { "preserve_original": true, "makeup": "natural editorial" }
+  },
+  "clothing": {
+    "top": { "type": "oversized sleeveless t-shirt", "color": "black", "details": "distressed rectangular red graphic across chest" },
+    "accessories": "heavy silver chain, large circular pendant, chunky silver rings, metallic bracelet or watch, black studded strap"
+  },
+  "photography": {
+    "camera_style": "high-contrast contemporary editorial fashion photography",
+    "angle": "low-angle perspective",
+    "shot_type": "centered medium portrait",
+    "aspect_ratio": "4:5 vertical",
+    "texture": "ultra-detailed, sharp focus, photorealistic"
+  },
+  "background": {
+    "setting": "clean studio backdrop",
+    "wall_color": "deep saturated blue",
+    "atmosphere": "bold, edgy, contemporary"
+  },
+  "lighting": {
+    "type": "hard directional natural-style light",
+    "direction": "upper side",
+    "quality": "crisp contrast, strong highlights"
+  },
+  "prop": "red gerberas, white carnations and light blue flowers in a natural organic bouquet"
+}
+\`\`\`
+`,
+        tags: ["Midjourney", "Editorial", "Streetwear", "Retratos", "Flores"] as any
+    },
+    {
+        id: "prompt-botanical-fine-art-portrait",
+        type: "prompt",
+        title: "Fine Art Organic: Introspective Botanical Overlay Portrait",
+        slug: "fine-art-introspective-botanical-portrait",
+        summary: "Retrato fotográfico de bellas artes en primer plano con estética analógica orgánica. Capas de ramas retorcidas y flores silvestres (mostaza, violeta, blanco) cruzando el rostro sobre fondo crema cálido.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/botanical-fine-art-portrait.jpg",
+        prompt_text: `Fine art analog close-up frontal portrait of a quiet introspective woman, wild organic botanical arrangement with mustard yellow flowers, muted purple blossoms and thin twisted branches framing and delicately crossing her face, authentic skin texture with subtle freckles, warm cream-beige matte backdrop with soft natural window light glow, painterly realism and subtle film grain, shot on Pentax 67 105mm f/2.4 lens --ar 4:5 --style raw --v 6.1`,
+        body_markdown: `
+# Fine Art Organic: Introspective Botanical Overlay Portrait
+
+Prompt fotográfico de bellas artes estilo analógico de medio formato con iluminación natural de ventana, profundidad de campo orgánica y composición botánica envolvente.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Fine art analog close-up frontal portrait of a quiet introspective woman, wild organic botanical arrangement with mustard yellow flowers, muted purple blossoms and thin twisted branches framing and delicately crossing her face, authentic skin texture with subtle freckles, warm cream-beige matte backdrop with soft natural window light glow, painterly realism and subtle film grain, shot on Pentax 67 105mm f/2.4 lens --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura JSON para Modelos de Generación Avanzada (DALL-E 3 / API / Structured Generation)
+
+\`\`\`json
+{
+  "subject": {
+    "description": "Close-up frontal portrait of the woman from the reference image, using the reference only for facial identity and proportions.",
+    "expression": "quiet, introspective, natural gaze",
+    "face": { "preserve_original": true, "makeup": "soft natural makeup, authentic skin texture" }
+  },
+  "accessories": {
+    "prop": {
+      "type": "wild botanical arrangement",
+      "details": "mustard yellow flowers, muted purple blossoms, soft white petals, natural green leaves and thin twisted branches crossing the face"
+    }
+  },
+  "photography": {
+    "camera_style": "fine art analog portrait photography",
+    "angle": "frontal eye-level",
+    "shot_type": "close-up with layered botanical foreground",
+    "aspect_ratio": "4:5 vertical",
+    "texture": "natural film grain, painterly realism, soft organic depth separation"
+  },
+  "background": {
+    "setting": "warm neutral fine-art backdrop",
+    "wall_color": "cream-beige matte",
+    "atmosphere": "quiet, organic, introspective"
+  },
+  "lighting": {
+    "type": "soft directional window light",
+    "direction": "slightly from the side",
+    "quality": "warm late-afternoon glow with gentle falloff"
+  }
+}
+\`\`\`
+`,
+        tags: ["Midjourney", "Fine Art", "Botanical", "Retratos", "Analógico"] as any
     }
 ];
