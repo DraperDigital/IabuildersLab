@@ -22,9 +22,9 @@ export default function AvatarMasterclassPage() {
                     <div className="absolute bottom-0 right-0 w-[800px] h-[600px] bg-blue-600/10 rounded-full blur-[120px] opacity-30 pointer-events-none" />
 
                     <div className="container mx-auto px-4 relative z-10 text-center">
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 text-sm font-medium mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
-                            <Zap className="w-4 h-4 fill-purple-300" />
-                            Nuevo Workshop Intensivo 2025
+                        <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-gradient-to-r from-purple-500/15 via-pink-500/15 to-purple-500/15 border border-purple-500/30 text-purple-200 text-xs md:text-sm font-semibold tracking-wide uppercase mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700 shadow-[0_0_15px_rgba(168,85,247,0.15)]">
+                            <Zap className="w-4 h-4 text-purple-300 fill-purple-300" />
+                            <span>Metodología Oficial REALISMO™ · Workshop 2025</span>
                         </div>
 
                         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
@@ -34,8 +34,8 @@ export default function AvatarMasterclassPage() {
                             </span>
                         </h1>
 
-                        <p className="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto mb-10 leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200 font-light">
-                            Deja de generar "gente random". Aprende el framework <strong>REALISMO</strong> para crear avatares consistentes y entrenar modelos propios.
+                        <p className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200 font-light">
+                            Deja de generar "gente random". Aprende la metodología de 8 dimensiones <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300 font-bold">REALISMO™</strong> para crear avatares consistentes y entrenar modelos propios sin mutaciones.
                         </p>
 
                         <div className="flex flex-col items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300 max-w-lg mx-auto">
