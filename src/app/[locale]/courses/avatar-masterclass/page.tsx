@@ -4,8 +4,10 @@ import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { Check, Star, Users, Play, Zap, ShieldCheck } from "lucide-react";
+import { Check, Star, Users, Play, Zap, ShieldCheck, BookOpen, Clock, FileText } from "lucide-react";
 import { PublicHeader } from "@/components/public-header";
+import { CourseFAQ } from "@/components/course-faq";
+import { CreatorBio } from "@/components/creator-bio";
 
 export default function AvatarMasterclassPage() {
     return (
@@ -32,21 +34,29 @@ export default function AvatarMasterclassPage() {
                             </span>
                         </h1>
 
-                        <p className="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto mb-10 leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
-                            Deja de generar "gente random". Aprende el framework <strong>REAISEMP</strong> para crear avatares consistentes y entrenar modelos propios.
+                        <p className="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto mb-10 leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200 font-light">
+                            Deja de generar "gente random". Aprende el framework <strong>REALISMO</strong> para crear avatares consistentes y entrenar modelos propios.
                         </p>
 
-                        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
-                            <Link href="/checkout?plan=avatar-masterclass" className="w-full sm:w-auto">
-                                <Button size="lg" className="h-14 px-8 text-lg bg-white text-purple-950 hover:bg-slate-200 hover:scale-105 transition-all w-full font-bold shadow-[0_0_20px_rgba(255,255,255,0.3)]">
-                                    Inscribirme Ahora - $9.99 USD
-                                </Button>
-                            </Link>
-                            <Link href="#curriculum" className="w-full sm:w-auto">
-                                <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-slate-700 text-slate-300 hover:text-white hover:bg-slate-800 w-full">
-                                    Ver Detalles
-                                </Button>
-                            </Link>
+                        <div className="flex flex-col items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300 max-w-lg mx-auto">
+                            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
+                                <Link href="/checkout?plan=avatar-masterclass" className="w-full sm:w-auto">
+                                    <Button size="lg" className="h-14 px-8 text-lg bg-white text-purple-950 hover:bg-slate-200 hover:scale-105 transition-all w-full font-bold shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                                        Inscribirme Ahora - $9.99 USD
+                                    </Button>
+                                </Link>
+                                <Link href="#curriculum" className="w-full sm:w-auto">
+                                    <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-slate-700 text-slate-300 hover:text-white hover:bg-slate-800 w-full">
+                                        Ver Detalles
+                                    </Button>
+                                </Link>
+                            </div>
+
+                            {/* 1. Risk Reversal (Hero) */}
+                            <div className="mt-2 flex items-center justify-center gap-2 text-slate-400 text-xs">
+                                <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
+                                <span>Garantía de 7 días. Si el framework no te sirve, te devolvemos tu pago sin preguntas.</span>
+                            </div>
                         </div>
 
                         <div className="mt-12 flex items-center justify-center gap-8 text-slate-500 text-sm font-medium animate-in fade-in zoom-in duration-1000 delay-500 opacity-0 fill-mode-forwards" style={{ animationFillMode: 'forwards' }}>
@@ -71,7 +81,7 @@ export default function AvatarMasterclassPage() {
                     <div className="container mx-auto px-4">
                         <div className="grid md:grid-cols-2 gap-16 items-start">
                             <div className="space-y-8">
-                                <h2 className="text-3xl md:text-4xl font-bold text-white">
+                                <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">
                                     Lo que <span className="text-red-400">NO</span> enseñamos
                                 </h2>
                                 <div className="space-y-4">
@@ -292,70 +302,184 @@ export default function AvatarMasterclassPage() {
                     </div>
                 </section>
 
-                {/* Curriculum */}
-                <section id="curriculum" className="py-24 relative">
-                    <div className="container mx-auto px-4">
-                        <div className="text-center max-w-3xl mx-auto mb-16">
+                {/* 5. Creator Bio & Credibility Section */}
+                <CreatorBio />
+
+                {/* 2. Curriculum Section with Breakdown & Duration */}
+                <section id="curriculum" className="py-24 relative bg-slate-950">
+                    <div className="container mx-auto px-4 max-w-5xl">
+                        <div className="text-center max-w-3xl mx-auto mb-12">
                             <Badge variant="outline" className="mb-4 border-purple-500/30 text-purple-300">
                                 El Recorrido
                             </Badge>
-                            <h2 className="text-4xl font-bold text-white mb-4">Lo que vamos a lograr</h2>
-                            <p className="text-slate-400">Desde la teoría fundamental hasta flujos de trabajo de agencia.</p>
+                            <h2 className="text-4xl font-bold text-white mb-3 tracking-tight">Lo que vamos a lograr</h2>
+                            <p className="text-slate-400 text-base mb-6">Desde la teoría fundamental hasta flujos de trabajo de agencia.</p>
+                            
+                            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 text-xs font-semibold">
+                                <BookOpen className="w-4 h-4" />
+                                <span>4 módulos · ~2 horas de contenido · Acceso de por vida</span>
+                            </div>
                         </div>
 
-                        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {/* 4 Cards Overview */}
+                        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
                             {[
                                 {
                                     title: "Construir Avatar Base",
                                     desc: "Define identidad visual con una estructura clara para que rostro y proporciones se mantengan estables desde el inicio.",
-                                    icon: "🧱"
+                                    icon: "🧱",
+                                    duration: "~30 min"
                                 },
                                 {
                                     title: "Variar sin Romper",
                                     desc: "Cambia ropa, fondo, encuadre y contexto sin que el avatar mute ni pierda su reconocimiento.",
-                                    icon: "🎭"
+                                    icon: "🎭",
+                                    duration: "~35 min"
                                 },
                                 {
                                     title: "Imagen → Video Usable",
                                     desc: "Pasa de imagen consistente a video en VEO3 entendiendo qué se hereda y qué ajustar sin redefinir el rostro.",
-                                    icon: "🎥"
+                                    icon: "🎥",
+                                    duration: "~30 min"
                                 },
                                 {
                                     title: "Voz y Coherencia",
                                     desc: "Aplica voz consistente y lip sync limpio para tener un avatar listo para uso real en videos, no solo demos.",
-                                    icon: "🎙️"
+                                    icon: "🎙️",
+                                    duration: "~25 min"
                                 }
                             ].map((mod, i) => (
-                                <Card key={i} className="bg-slate-900/40 border-slate-800 hover:bg-slate-900/60 transition-all p-6 group">
-                                    <div className="text-4xl mb-6 group-hover:scale-110 transition-transform duration-300">{mod.icon}</div>
-                                    <h3 className="text-lg font-bold text-white mb-2 group-hover:text-purple-300 transition-colors">{mod.title}</h3>
-                                    <p className="text-slate-400 text-sm leading-relaxed">{mod.desc}</p>
+                                <Card key={i} className="bg-slate-900/40 border-slate-800 hover:bg-slate-900/60 transition-all p-6 group flex flex-col justify-between">
+                                    <div>
+                                        <div className="flex items-center justify-between mb-4">
+                                            <div className="text-4xl group-hover:scale-110 transition-transform duration-300">{mod.icon}</div>
+                                            <span className="text-[10px] font-mono font-medium px-2 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700/50">{mod.duration}</span>
+                                        </div>
+                                        <h3 className="text-lg font-bold text-white mb-2 group-hover:text-purple-300 transition-colors">{mod.title}</h3>
+                                        <p className="text-slate-400 text-sm leading-relaxed font-light">{mod.desc}</p>
+                                    </div>
                                 </Card>
                             ))}
+                        </div>
+
+                        {/* Detailed Modules Breakdown */}
+                        <div className="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
+                            <h3 className="text-xl font-bold text-white flex items-center gap-2 mb-4">
+                                <FileText className="w-5 h-5 text-purple-400" />
+                                Temario Detallado del Taller
+                            </h3>
+                            
+                            <div className="grid md:grid-cols-2 gap-6">
+                                <div className="space-y-2 p-4 bg-slate-950/60 border border-slate-800/80 rounded-xl">
+                                    <span className="text-xs font-mono font-bold text-purple-400">MÓDULO 1</span>
+                                    <h4 className="text-base font-semibold text-white">Construcción del Avatar Base</h4>
+                                    <ul className="text-xs text-slate-400 space-y-1.5 pt-1">
+                                        <li className="flex items-center gap-2">▸ Semiótica visual del avatar y semillas de identidad</li>
+                                        <li className="flex items-center gap-2">▸ Estructura del prompt inicial sin distorsión facial</li>
+                                        <li className="flex items-center gap-2">▸ Matriz de rasgos físicos y retención anatómica</li>
+                                    </ul>
+                                </div>
+
+                                <div className="space-y-2 p-4 bg-slate-950/60 border border-slate-800/80 rounded-xl">
+                                    <span className="text-xs font-mono font-bold text-purple-400">MÓDULO 2</span>
+                                    <h4 className="text-base font-semibold text-white">Variación Sin Mutación</h4>
+                                    <ul className="text-xs text-slate-400 space-y-1.5 pt-1">
+                                        <li className="flex items-center gap-2">▸ Matriz de vestuario, outfits y cambio de época</li>
+                                        <li className="flex items-center gap-2">▸ Iluminación de estudio vs escenarios en exterior</li>
+                                        <li className="flex items-center gap-2">▸ Enfoque y ángulos de cámara complejos (low-angle, macro)</li>
+                                    </ul>
+                                </div>
+
+                                <div className="space-y-2 p-4 bg-slate-950/60 border border-slate-800/80 rounded-xl">
+                                    <span className="text-xs font-mono font-bold text-purple-400">MÓDULO 3</span>
+                                    <h4 className="text-base font-semibold text-white">De Imagen a Video Usable (VEO3)</h4>
+                                    <ul className="text-xs text-slate-400 space-y-1.5 pt-1">
+                                        <li className="flex items-center gap-2">▸ Herencia de vectores de movimiento desde la imagen estática</li>
+                                        <li className="flex items-center gap-2">▸ Generación de clips cinemáticos 16:9 y vertical 9:16</li>
+                                        <li className="flex items-center gap-2">▸ Prevención de mutación en secuencias de video</li>
+                                    </ul>
+                                </div>
+
+                                <div className="space-y-2 p-4 bg-slate-950/60 border border-slate-800/80 rounded-xl">
+                                    <span className="text-xs font-mono font-bold text-purple-400">MÓDULO 4</span>
+                                    <h4 className="text-base font-semibold text-white">Clonación de Voz & Lip Sync Pro</h4>
+                                    <ul className="text-xs text-slate-400 space-y-1.5 pt-1">
+                                        <li className="flex items-center gap-2">▸ Calibración vocal y tonos de voz en ElevenLabs</li>
+                                        <li className="flex items-center gap-2">▸ Sincronización labial limpia y lip sync sin artefactos</li>
+                                        <li className="flex items-center gap-2">▸ Exportación final y flujo de trabajo para redes sociales</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
 
-                {/* Final CTA */}
+                {/* 4. FAQ / Manejo de Objeciones */}
+                <CourseFAQ />
+
+                {/* 6. Final CTA with Value Stacking & Risk Reversal */}
                 <section className="py-24 relative overflow-hidden">
                     <div className="absolute inset-0 bg-purple-900/20" />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950" />
 
                     <div className="container mx-auto px-4 relative z-10 text-center">
-                        <div className="max-w-2xl mx-auto bg-slate-900/80 backdrop-blur-xl border border-purple-500/30 rounded-2xl p-12 shadow-[0_0_50px_rgba(168,85,247,0.15)]">
-                            <h2 className="text-3xl font-bold text-white mb-6">
+                        <div className="max-w-2xl mx-auto bg-slate-900/90 backdrop-blur-xl border border-purple-500/40 rounded-2xl p-8 md:p-12 shadow-[0_0_50px_rgba(168,85,247,0.2)]">
+                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">
                                 ¿Listo para profesionalizar tus personajes?
                             </h2>
-                            <p className="text-slate-400 mb-8 text-lg">
-                                Acceso inmediato al curso, recursos descargables y comunidad. Deja de jugar a la lotería con tus prompts.
+                            <p className="text-slate-400 mb-8 text-base font-light">
+                                Todo lo que necesitas para dominar avatares consistentes e identidad visual de marca sin improvisar.
                             </p>
-                            <div className="flex flex-col gap-4">
+
+                            {/* Value Stack List */}
+                            <div className="space-y-3 mb-8 text-left bg-slate-950/70 p-5 rounded-xl border border-purple-500/20">
+                                <div className="flex items-center justify-between text-xs md:text-sm">
+                                    <span className="text-slate-200 flex items-center gap-2">
+                                        <Check className="w-4 h-4 text-emerald-400 shrink-0" />
+                                        Workshop Intensivo: Avatares & Consistencia Visual
+                                    </span>
+                                    <span className="text-slate-500 line-through font-mono text-xs">$97 USD</span>
+                                </div>
+                                <div className="flex items-center justify-between text-xs md:text-sm">
+                                    <span className="text-slate-200 flex items-center gap-2">
+                                        <Check className="w-4 h-4 text-emerald-400 shrink-0" />
+                                        Pack de Plantillas Metodología REALISMO (200+ Prompts)
+                                    </span>
+                                    <span className="text-slate-500 line-through font-mono text-xs">$47 USD</span>
+                                </div>
+                                <div className="flex items-center justify-between text-xs md:text-sm">
+                                    <span className="text-slate-200 flex items-center gap-2">
+                                        <Check className="w-4 h-4 text-emerald-400 shrink-0" />
+                                        Guías de Personalización Imagen a Video (VEO3 + HeyGen)
+                                    </span>
+                                    <span className="text-slate-500 line-through font-mono text-xs">$37 USD</span>
+                                </div>
+                                <div className="flex items-center justify-between text-xs md:text-sm">
+                                    <span className="text-slate-200 flex items-center gap-2">
+                                        <Check className="w-4 h-4 text-emerald-400 shrink-0" />
+                                        Acceso de Por Vida + Actualizaciones del Vault
+                                    </span>
+                                    <span className="text-slate-500 line-through font-mono text-xs">Incalculable</span>
+                                </div>
+                                <div className="pt-3 border-t border-slate-800 flex items-center justify-between">
+                                    <span className="text-purple-300 font-bold text-sm md:text-base">Precio Especial de Lanzamiento</span>
+                                    <span className="text-2xl font-extrabold text-white">$9.99 USD</span>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col gap-3">
                                 <Link href="/checkout?plan=avatar-masterclass" className="w-full">
-                                    <Button size="lg" className="h-16 text-xl bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white border-0 shadow-lg shadow-purple-900/20 w-full animate-pulse hover:animate-none">
+                                    <Button size="lg" className="h-16 text-xl bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-bold border-0 shadow-lg shadow-purple-900/30 w-full animate-pulse hover:animate-none">
                                         Acceder por solo $9.99 USD
                                     </Button>
                                 </Link>
-                                <p className="text-slate-500 text-sm">Pago único • Acceso de por vida</p>
+
+                                {/* 1. Risk Reversal (Bottom CTA) */}
+                                <div className="mt-1 flex items-center justify-center gap-2 text-slate-400 text-xs">
+                                    <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
+                                    <span>Garantía de 7 días. Si el framework no te sirve, te devolvemos tu pago sin preguntas.</span>
+                                </div>
+                                <p className="text-slate-500 text-xs mt-1">Pago único • Acceso de por vida • Sin cargos recurrentes</p>
                             </div>
                         </div>
                     </div>
@@ -368,3 +492,4 @@ export default function AvatarMasterclassPage() {
         </div>
     );
 }
+
