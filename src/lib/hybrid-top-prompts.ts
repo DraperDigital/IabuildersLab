@@ -461,5 +461,80 @@ Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercom
 \`\`\`
 `,
         tags: ["Cyberpunk", "AI Infrastructure", "Servers", "Sci-Fi"] as any
+    },
+    {
+        id: "prompt-red-editorial-glitter-portrait",
+        type: "prompt",
+        title: "Chiaroscuro Red Editorial: Iridescent Glitter Eyes Portrait",
+        slug: "chiaroscuro-red-editorial-glitter-portrait",
+        summary: "Retrato editorial de estudio de alto contraste chiaroscuro en monocromo sobre fondo rojo carmesí saturado con maquillaje de glitter iridiscente multicolor alrededor de los ojos.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/red-editorial-glitter-portrait.png",
+        prompt_text: `Cinematic high-contrast editorial head-and-shoulders 3/4 portrait of an intense woman, 60-70% chiaroscuro deep shadow on face, monochrome skin and black structured jacket, vivid saturated solid red background, strong red rim light outlining hair, full-color iridescent multicolor glitter makeup surrounding both eyes, sharp focus on illuminated eye, shot on Hasselblad H6D-100c 85mm lens --ar 4:5 --style raw --v 6.1`,
+        body_markdown: `
+# Chiaroscuro Red Editorial: Iridescent Glitter Eyes Portrait
+
+Prompt de estudio editorial de alta moda con iluminación chiaroscuro dramática, contraste selectivo entre piel monocromática, fondo rojo carmesí saturado y glitter iridiscente multicolor en los ojos.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Cinematic high-contrast editorial head-and-shoulders 3/4 portrait of an intense woman, 60-70% chiaroscuro deep shadow on face, monochrome skin and black structured jacket, vivid saturated solid red background, strong red rim light outlining hair, full-color iridescent multicolor glitter makeup surrounding both eyes, sharp focus on illuminated eye, shot on Hasselblad H6D-100c 85mm lens --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura JSON para Modelos de Generación Avanzada (DALL-E 3 / API / Structured Generation)
+
+\`\`\`json
+{
+  "subject": {
+    "description": "Woman from reference, exact facial identity, proportions and structure preserved.",
+    "expression": "intense controlled gaze toward camera",
+    "face": {
+      "preserve_original": true,
+      "makeup": "heavy multicolor iridescent glitter surrounding both eyes"
+    }
+  },
+  "clothing": {
+    "top": {
+      "type": "minimal structured elegant attire",
+      "color": "black",
+      "details": "refined silhouette"
+    }
+  },
+  "photography": {
+    "camera_style": "cinematic high-contrast editorial portrait",
+    "angle": "3/4 angle",
+    "shot_type": "head-and-shoulders",
+    "aspect_ratio": "4:5 vertical",
+    "texture": "ultra high resolution, sharp focus on illuminated eye"
+  },
+  "background": {
+    "setting": "seamless studio",
+    "wall_color": "solid saturated red",
+    "atmosphere": "moody, dramatic"
+  },
+  "lighting": {
+    "type": "hard chiaroscuro key light",
+    "direction": "45-degree side angle",
+    "shadows": "60–70% of face in detailed shadow",
+    "rim_light": "strong red backlight outlining hair and shoulders without illuminating face"
+  },
+  "color_treatment": "high-contrast monochrome skin and clothing while preserving red background, red rim light and full-color iridescent glitter"
+}
+\`\`\`
+`,
+        tags: ["Midjourney", "Editorial", "Retratos", "Chiaroscuro", "Moda"] as any
     }
 ];
