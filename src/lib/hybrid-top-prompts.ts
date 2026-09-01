@@ -893,5 +893,78 @@ High-end studio close-up frontal portrait of a calm confident woman, strong dire
 \`\`\`
 `,
         tags: ["Midjourney", "Editorial", "Relighting", "Retratos", "Estudio"] as any
+    },
+    {
+        id: "prompt-vogue-bridal-white-horse-portrait",
+        type: "prompt",
+        title: "Vogue Haute Couture: Pearl Veil & White Horse Editorial Portrait",
+        slug: "vogue-haute-couture-pearl-veil-white-horse-portrait",
+        summary: "Retrato fotográfico editorial estilo Vogue de altísima elegancia. Una novia rubia con velo transparente decorado con perlas traslúcidas abrazada íntimamente cabeza a cabeza con un caballo blanco con reflejos de nubes en su ojo dorado.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/vogue-bridal-white-horse-portrait.jpg",
+        prompt_text: `Vogue magazine high-fashion extreme close-up intimate portrait of an elegant blonde bride in an ivory gown with a sheer pearl-embellished veil over half her face, resting head-to-head beside a pristine white horse with golden eyes reflecting white sky, soft ivory-beige studio backdrop, diffused gentle front lighting, 85mm lens aesthetic, ultra-realistic skin and hair texture, cinematic luxury fashion editorial --ar 4:5 --style raw --v 6.1`,
+        body_markdown: `
+# Vogue Haute Couture: Pearl Veil & White Horse Editorial Portrait
+
+Prompt editorial de alta costura inspirado en portadas de Vogue y campañas nupciales de lujo, combinando alta moda con elementos naturales y texturas de perlas e iluminación suave.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+Vogue magazine high-fashion extreme close-up intimate portrait of an elegant blonde bride in an ivory gown with a sheer pearl-embellished veil over half her face, resting head-to-head beside a pristine white horse with golden eyes reflecting white sky, soft ivory-beige studio backdrop, diffused gentle front lighting, 85mm lens aesthetic, ultra-realistic skin and hair texture, cinematic luxury fashion editorial --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura JSON para Modelos de Generación Avanzada (DALL-E 3 / API / Structured Generation)
+
+\`\`\`json
+{
+  "subject": {
+    "description": "Elegant adult bride with long blonde hair, wearing a pristine ivory bridal look and a soft pearl veil covering half of her face.",
+    "age": "adult",
+    "expression": "calm, intimate, sophisticated",
+    "hair": { "color": "blonde", "style": "long and softly styled" },
+    "face": { "preserve_original": true, "makeup": "clean bridal makeup, realistic skin texture" }
+  },
+  "accessories": {
+    "prop": {
+      "type": "white horse",
+      "details": "golden eye positioned intimately beside the woman's visible eye, clear reflection of white clouds in the eye"
+    }
+  },
+  "photography": {
+    "camera_style": "Vogue-style high-fashion editorial photography",
+    "angle": "eye-level intimate perspective",
+    "shot_type": "extreme close-up portrait",
+    "aspect_ratio": "4:5 vertical",
+    "texture": "85mm lens aesthetic, cinematic sharpness, ultra-realistic skin and hair"
+  },
+  "background": {
+    "setting": "pristine minimal environment",
+    "wall_color": "soft ivory beige",
+    "elements": ["white polished stone floor", "clean pale background"],
+    "atmosphere": "luxurious, serene, intimate"
+  },
+  "lighting": {
+    "type": "soft diffused directional light",
+    "direction": "front-side",
+    "quality": "gentle cinematic illumination",
+    "shadows": "dramatic yet soft"
+  }
+}
+\`\`\`
+`,
+        tags: ["Midjourney", "Editorial", "Vogue", "Retratos", "Nupcial"] as any
     }
 ];
