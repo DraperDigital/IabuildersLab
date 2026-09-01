@@ -825,5 +825,73 @@ Fine art analog close-up frontal portrait of a quiet introspective woman, wild o
 \`\`\`
 `,
         tags: ["Midjourney", "Fine Art", "Botanical", "Retratos", "Analógico"] as any
+    },
+    {
+        id: "prompt-purple-indigo-studio-relighting-portrait",
+        type: "prompt",
+        title: "Studio Relighting: Deep Purple Indigo Chiaroscuro Portrait",
+        slug: "purple-indigo-studio-relighting-portrait",
+        summary: "Retrato de estudio de alto nivel enfocado en relighting preciso de 2 luces. Luz principal direccional desde la derecha, sombra tridimensional izquierda y luz de borde azulada sobre fondo púrpura-índigo profundo.",
+        category: "Retratos & Branding",
+        system_type: "Midjourney v6",
+        process_state: "Editorial",
+        level: "advanced",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        featured_image_url: "/images/prompts/purple-indigo-studio-relighting-portrait.jpg",
+        prompt_text: `High-end studio close-up frontal portrait of a calm confident woman, strong directional key light from camera right sculpting cheekbone and jawline, deep light-to-shadow contrast on camera-left, subtle cool rim light outlining shadow-side jaw, solid deep purple-indigo studio backdrop, realistic skin texture with visible natural pores and freckles, no artificial smoothing, shot on Hasselblad H6D-100c 85mm lens --ar 4:5 --style raw --v 6.1`,
+        body_markdown: `
+# Studio Relighting: Deep Purple Indigo Chiaroscuro Portrait
+
+Prompt de estudio profesional diseñado para dominar esquemas de iluminación de 2 luces (*Two-light studio setup*), contraste tridimensional de pómulo y textura de piel fotorrealista sin suavizado artificial.
+
+---
+
+## 🎨 Prompt Maestro (Texto Directo / Midjourney / Flux)
+
+\`\`\`text
+High-end studio close-up frontal portrait of a calm confident woman, strong directional key light from camera right sculpting cheekbone and jawline, deep light-to-shadow contrast on camera-left, subtle cool rim light outlining shadow-side jaw, solid deep purple-indigo studio backdrop, realistic skin texture with visible natural pores and freckles, no artificial smoothing, shot on Hasselblad H6D-100c 85mm lens --ar 4:5 --style raw --v 6.1
+\`\`\`
+
+---
+
+## ⚙️ Estructura JSON para Modelos de Generación Avanzada (DALL-E 3 / API / Structured Generation)
+
+\`\`\`json
+{
+  "subject": {
+    "description": "Close-up frontal portrait of the woman from the reference image, preserving her exact facial identity, proportions and natural skin texture.",
+    "expression": "calm, confident, natural gaze directly toward camera",
+    "face": {
+      "preserve_original": true,
+      "makeup": "natural, refined, no excessive smoothing"
+    }
+  },
+  "photography": {
+    "camera_style": "high-end studio portrait photography with realistic skin rendering",
+    "angle": "frontal eye-level",
+    "shot_type": "tight close-up, face and upper shoulders",
+    "aspect_ratio": "4:5 vertical",
+    "texture": "ultra high resolution, natural pores, subtle realistic grain, sculpted dimensional contrast"
+  },
+  "lighting": {
+    "setup": "two-light studio relighting",
+    "key_light": "strong directional light from camera right, illuminating cheekbone, jawline and neck",
+    "shadow_side": "camera-left side visibly darker with defined light-to-shadow separation",
+    "rim_light": "subtle secondary edge light outlining the shadow-side jaw and shoulder",
+    "quality": "high contrast, defined shadow edge, controlled highlights, no flat illumination"
+  },
+  "background": {
+    "setting": "professional studio backdrop",
+    "wall_color": "solid deep purple-indigo",
+    "atmosphere": "dramatic, sophisticated, dimensional"
+  }
+}
+\`\`\`
+`,
+        tags: ["Midjourney", "Editorial", "Relighting", "Retratos", "Estudio"] as any
     }
 ];
