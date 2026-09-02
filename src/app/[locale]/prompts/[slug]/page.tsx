@@ -12,6 +12,7 @@ import { ReaisempGuide } from "@/components/reaisemp-guide";
 import { AvatarCourseCTA } from "@/components/avatar-course-cta";
 import { CustomizationGuide } from "@/components/customization-guide";
 import { TransitionBlock } from "@/components/transition-block";
+import { PromptImageModal } from "@/components/prompt-image-modal";
 import { Sparkles } from "lucide-react";
 import { getDistinctCategories } from "@/actions/content-actions";
 import { getUsedTags } from "@/actions/tags";
@@ -170,20 +171,12 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
                                 )}
                             </div>
 
-                            {/* 1. Main Visual (Result) */}
-                            <div className="mb-10 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 aspect-video relative group">
-                                {prompt.featured_image_url ? (
-                                    <img
-                                        src={prompt.featured_image_url}
-                                        alt="Prompt Result"
-                                        className="w-full h-full object-cover"
-                                    />
-                                ) : (
-                                    <div className="w-full h-full flex items-center justify-center bg-slate-900 border border-slate-800">
-                                        <p className="text-slate-500">No Preview Image</p>
-                                    </div>
-                                )}
-                            </div>
+                            {/* 1. Main Visual (Result Image with "Ver Imagen" Popup Modal) */}
+                            <PromptImageModal
+                                imageUrl={prompt.featured_image_url || ""}
+                                altText={prompt.title}
+                                title={prompt.title}
+                            />
 
                             {/* 2. Educational Framework Callout (Guía Maestra REALISMO) */}
                             <ReaisempGuide />
