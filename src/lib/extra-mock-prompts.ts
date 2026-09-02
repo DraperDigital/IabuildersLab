@@ -6269,8 +6269,37 @@ export const EXTRA_MOCK_PROMPTS = [
         "title": "Elegance in the Snow: A Portrait of Winter Wonder",
         "slug": "elegance-snow-winter-wonder",
         "summary": "Girl with an umbrella in a snowy landscape with penguins.",
-        "body_markdown": "Amidst a serene snowy landscape, a girl stands poised with an umbrella, radiating confidence. Penguins wander nearby, enhancing the enchanting, tranquil vibe of this winter scene.",
-        "prompt_text": "Amidst a serene snowy landscape, a girl stands poised with an umbrella, radiating confidence. Penguins wander nearby, enhancing the enchanting, tranquil vibe of this winter scene.",
+        "body_markdown": `# Elegance in the Snow: A Portrait of Winter Wonder\n\nPrompt estructurado bajo R.E.A.L.I.S.M.O.`,
+        "prompt_text": `{
+  "title": "Elegance in the Snow: A Portrait of Winter Wonder",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Chica joven con abrigo invernal elegante sosteniendo un paraguas en un paisaje nevado.",
+      "expresion": "Serena, confiada y pacífica."
+    },
+    "E_Entorno": {
+      "escenario": "Paisaje invernal cubierto de nieve blanca prístina con pingüinos paseando libremente en el fondo."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie sosteniendo el paraguas con elegancia en medio de la nieve."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía de retrato editorial de invierno, estética poética y tranquilizadora."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz natural de día nevado suave y difusa."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Encantadora, tranquila, pacífica y etérea."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio vertical en formato 4:5 con profundidad de campo suave."
+    },
+    "O_Optimizacion_final": {
+      "acabado": "Detalle nítido en copos de nieve, textura de abrigo, alto rango dinámico y paleta de tonos fríos limpios."
+    }
+  }
+}`,
         "category": "Portrait",
         "level": "intermediate",
         "is_published": true,
@@ -6287,8 +6316,37 @@ export const EXTRA_MOCK_PROMPTS = [
         "title": "Sunlit Serenity: A Moment in Time",
         "slug": "sunlit-serenity-moment-in-time",
         "summary": "Golden morning light on a calm expression.",
-        "body_markdown": "Golden morning light spills through window blinds, softly illuminating her calm expression. This cinematic portrait captures the beauty of tranquility, with delicate shadows enhancing her thoughtful gaze.",
-        "prompt_text": "Golden morning light spills through window blinds, softly illuminating her calm expression. This cinematic portrait captures the beauty of tranquility, with delicate shadows enhancing her thoughtful gaze.",
+        "body_markdown": `# Sunlit Serenity: A Moment in Time\n\nPrompt estructurado bajo R.E.A.L.I.S.M.O.`,
+        "prompt_text": `{
+  "title": "Sunlit Serenity: A Moment in Time",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "sujeto": "Retrato femenino de belleza natural con expresión calmada y reflexiva.",
+      "expresion": "Serena, pensativa y en paz."
+    },
+    "E_Entorno": {
+      "escenario": "Habitación cálida e íntima con persianas metálicas o de madera filtrando luz solar."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sujeto mirando sutilmente a través de la luz solar filtrada."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía de retrato cinematográfico íntimo con sombras dramáticas de persianas."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz solar dorada de la mañana filtrada por las persianas creando un patrón de sombras suaves sobre el rostro."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Tranquilidad, calidez, introspección y belleza poética."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato de primer plano con lente 85mm f/1.4 y desenfoque cinematográfico."
+    },
+    "O_Optimizacion_final": {
+      "acabado": "Tono dorado cálido, textura de piel detallada y contraste cinematográfico refinado."
+    }
+  }
+}`,
         "category": "Portrait",
         "level": "intermediate",
         "is_published": true,
