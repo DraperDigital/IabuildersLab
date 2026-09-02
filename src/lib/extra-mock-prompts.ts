@@ -3723,9 +3723,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Presentación: La silueta de Aragorn se presenta de perfil o frontal como figura central. Dinámica visual: Los paisajes emergen y se expanden a través del contorno. Narrativa: Sensación de viaje, soledad heroica y destino.
 *   **I (Iluminación):** Iluminación conceptual integrada. Paisajes bañados por luz solar cálida dentro de la silueta, contrastando con el fondo oscuro.
 *   **S (Sensación):** Épica, introspección, grandeza y melancolía. Tono: Heroico, poético, narrativo.
-*   **E (Estilo):** Doble exposición artística estilo Midjourney. Técnica: Fusión, superposición y blending de capas. Color: Esquema vibrante interior vs monocromo exterior. Líneas: Trazos nítidos y deliberados.
+*   **L (Lenguaje Visual):** Doble exposición artística estilo Midjourney. Técnica: Fusión, superposición y blending de capas. Color: Esquema vibrante interior vs monocromo exterior. Líneas: Trazos nítidos y deliberados.
 *   **M (Composición):** Composición tipo póster. Ángulo frontal o ligeramente lateral. Encuadre: Figura central dominante con amplio espacio negativo.
-*   **P (Post):** Alto contraste, negros profundos. Detalle general 1.45, fondo 1.4. Acabado: Masterpiece cinematográfico de doble exposición.
+*   **O (Optimización final):** Alto contraste, negros profundos. Detalle general 1.45, fondo 1.4. Acabado: Masterpiece cinematográfico de doble exposición.
 `,
         "prompt_text": JSON.stringify({
             "title": "Double Exposure Epic Poster — Aragorn & Middle Earth",
@@ -3808,9 +3808,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Presentación: Posición de uso, listo para apoyar la muñeca. Interacción simulada: Brazos abiertos sugiriendo confort. Uso: Accesorio ergonómico para oficina.
 *   **I (Iluminación):** Iluminación suave de estudio. Características: Luz difusa que resalta el volumen y evita sombras duras. Objetivo: Mostrar textura de silicona.
 *   **S (Sensación):** Confort, ternura, cercanía. Tono: Cute, relajante, amigable.
-*   **E (Estilo):** Producto chibi estilo cartoon. Materiales: Silicona suave mate grado alimenticio, espuma interior. Paleta: Blanco, negro y acentos suaves. Detalle: Texturas visibles de silicona.
+*   **L (Lenguaje Visual):** Producto chibi estilo cartoon. Materiales: Silicona suave mate grado alimenticio, espuma interior. Paleta: Blanco, negro y acentos suaves. Detalle: Texturas visibles de silicona.
 *   **M (Composición):** Plano medio de producto. Ángulo: Vista frontal o superior (45°). Encuadre: Objeto centrado con espacio negativo.
-*   **P (Post):** Colores limpios y naturales. Contraste bajo a medio. Acabado: Alta definición, nitidez para destacar textura.
+*   **O (Optimización final):** Colores limpios y naturales. Contraste bajo a medio. Acabado: Alta definición, nitidez para destacar textura.
 `,
         "prompt_text": JSON.stringify({
             "title": "Chibi Silicone Wrist Rest — Panda Design",
@@ -3892,9 +3892,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Presentación: Sujeto estático, posición clara y legible. Enfoque: Observación y análisis visual. Punto clave: Zona destacada como área de interés.
 *   **I (Iluminación):** Iluminación generada por las líneas. Características: Líneas azules brillantes vs fondo oscuro. Énfasis: Zona [PART] con resplandor rojo intenso.
 *   **S (Sensación):** Claridad, precisión, enfoque. Tono: Educativo, científico, futurista.
-*   **E (Estilo):** Visualización anatómica avanzada. Inspiración: Imagen médica y escaneo tecnológico. Colores: Azul luminoso (estructura) + Rojo brillante (zona destacada). Líneas: Trazos precisos y definidos.
+*   **L (Lenguaje Visual):** Visualización anatómica avanzada. Inspiración: Imagen médica y escaneo tecnológico. Colores: Azul luminoso (estructura) + Rojo brillante (zona destacada). Líneas: Trazos precisos y definidos.
 *   **M (Composición):** Plano medio o general. Ángulo: Frontal o perspectiva ligera. Encuadre: Sujeto centrado ocupando el foco.
-*   **P (Post):** Alto contraste, alta nitidez en contornos. Acabado: Estética pulida tipo imaging científico. Efectos: Brillo suave (glow).
+*   **O (Optimización final):** Alto contraste, alta nitidez en contornos. Acabado: Estética pulida tipo imaging científico. Efectos: Brillo suave (glow).
 `,
         "prompt_text": JSON.stringify({
             "title": "Advanced Anatomical Visualization — Highlighted Area",
@@ -4001,9 +4001,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Dinámica: Escena urbana activa y viva. Elementos humanos: Minifiguras LEGO caminando, tomando fotos y haciendo turismo. Tráfico: Autos LEGO clásicos estacionados y circulando. Actividad acuática: Ferris y barcos turísticos LEGO navegando el río.
 *   **I (Iluminación):** Iluminación diurna brillante. Características: Luz uniforme que realza los colores LEGO sin sombras dramáticas.
 *   **S (Sensación):** Energía, modernidad, vitalidad urbana. Tono: Alegre, dinámico, optimista.
-*   **E (Estilo):** Diorama urbano estilo LEGO altamente detallado. Arquitectura: Bund (histórico, neoclásico) vs Pudong (rascacielos modernos). Materiales: Plásticos LEGO con acabados limpios y colores saturados. Cielo: Azul brillante LEGO con nubes de bloques.
+*   **L (Lenguaje Visual):** Diorama urbano estilo LEGO altamente detallado. Arquitectura: Bund (histórico, neoclásico) vs Pudong (rascacielos modernos). Materiales: Plásticos LEGO con acabados limpios y colores saturados. Cielo: Azul brillante LEGO con nubes de bloques.
 *   **M (Composición):** Plano general amplio del paisaje urbano. Ángulo ligeramente elevado. Encuadre: Composición panorámica equilibrada entre Bund, río y skyline.
-*   **P (Post):** Colores saturados y brillantes, fieles al estilo LEGO. Contraste medio. Acabado: Look limpio, nítido y altamente detallado, estilo maqueta coleccionable.
+*   **O (Optimización final):** Colores saturados y brillantes, fieles al estilo LEGO. Contraste medio. Acabado: Look limpio, nítido y altamente detallado, estilo maqueta coleccionable.
 `,
         "prompt_text": JSON.stringify({
             "title": "LEGO Cityscape — Shanghai Bund & Pudong Skyline",
@@ -4110,9 +4110,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** La bola de cristal descansa tranquilamente como objeto central. Escena narrativa congelada en un momento poético. Personajes chibi interactuando emocionalmente dentro del mundo en miniatura.
 *   **I (Iluminación):** Iluminación natural cálida. La luz del sol se refracta a través del cristal creando destellos dorados. Iluminación suave que baña el entorno con un resplandor reconfortante.
 *   **S (Sensación):** Ensueño, calma, ternura, maravilla. Poético, mágico, reconfortante.
-*   **E (Estilo):** Escena híbrida de realismo mágico. Mundo 3D en estilo chibi adorable y detallado. Elementos de fantasía de Asia Oriental. Texturas: Superficie clara con refracción y reflejos suaves; Materiales suaves, colores ricos y detalles intrincados.
+*   **L (Lenguaje Visual):** Escena híbrida de realismo mágico. Mundo 3D en estilo chibi adorable y detallado. Elementos de fantasía de Asia Oriental. Texturas: Superficie clara con refracción y reflejos suaves; Materiales suaves, colores ricos y detalles intrincados.
 *   **M (Composición):** Primer plano a plano medio del objeto. Ángulo frontal ligeramente elevado. Composición centrada con la bola de cristal como foco absoluto, fondo desenfocado.
-*   **P (Post):** Paleta cálida dorada con acentos suaves y etéreos. Contraste suave a medio. Look de realismo mágico cinematográfico, lujoso pero elegante. Brillos luminosos sutiles, partículas de luz, atmósfera viva.
+*   **O (Optimización final):** Paleta cálida dorada con acentos suaves y etéreos. Contraste suave a medio. Look de realismo mágico cinematográfico, lujoso pero elegante. Brillos luminosos sutiles, partículas de luz, atmósfera viva.
 `,
         "prompt_text": JSON.stringify({
             "title": "Crystal Ball World — Chang’e Flying to the Moon",
@@ -4522,9 +4522,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Objeto estático centrado.
 *   **I (Iluminación):** Plana, sin sombras complejas (estilo sprite).
 *   **S (Sensación):** Retro, nostálgico, arcade, apetitoso.
-*   **E (Estilo):** Pixel art clásico, estética de videojuego retro.
+*   **L (Lenguaje Visual):** Pixel art clásico, estética de videojuego retro.
 *   **M (Composición):** Icono cuadrado centrado.
-*   **P (Post):** Upscaling nítido (nearest neighbor) para mantener bordes duros.
+*   **O (Optimización final):** Upscaling nítido (nearest neighbor) para mantener bordes duros.
         `,
         "prompt_text": JSON.stringify({
             "title": "Pixel Art Burger — 8-Bit Icon",
@@ -4640,9 +4640,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Selfie accidental. Ángulo incómodo.
 *   **I (Iluminación):** Desigual smartphone. Flash o luz inconsistente.
 *   **S (Sensación):** Cotidiano, sin dramatismo. Imperfecto y realista.
-*   **E (Estilo):** Selfie iPhone ordinaria. Motion blur, composición desordenada.
+*   **L (Lenguaje Visual):** Selfie iPhone ordinaria. Motion blur, composición desordenada.
 *   **M (Composición):** Messy framing. Ángulo torcido. Smartphone depth of field.
-*   **P (Post):** Colores crudos. Contraste bajo. Acabado auténtico accidental.
+*   **O (Optimización final):** Colores crudos. Contraste bajo. Acabado auténtico accidental.
         `,
         "prompt_text": JSON.stringify({
             "title": "Selfie casual nocturna ultra ordinaria — Snapshot accidental",
@@ -4772,9 +4772,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Sellado manual en ángulo ligero (imperfecto).
 *   **I (Iluminación):** Plana, escáner o fotografía macro suave.
 *   **S (Sensación):** Oficial, viaje, llegada, auténtico.
-*   **E (Estilo):** Fotorrealismo macro de documento oficial.
+*   **L (Lenguaje Visual):** Fotorrealismo macro de documento oficial.
 *   **M (Composición):** Sello ovalado/ornamental centrado. Texto 'One-way' legible.
-*   **P (Post):** Textura de papel, absorción de tinta, smudges ligeros.
+*   **O (Optimización final):** Textura de papel, absorción de tinta, smudges ligeros.
         `,
         "prompt_text": JSON.stringify({
             "title": "Passport Entry Stamp — Welcome to Guanajuato",
@@ -4852,9 +4852,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Movimiento agresivo hacia adelante. Pop-out 3D.
 *   **I (Iluminación):** Aventurera, dinámica. Contrastes fuertes.
 *   **S (Sensación):** Épica, peligro, energía explosiva.
-*   **E (Estilo):** Trading card illustration ultra-realista. Dimensional rupture.
+*   **L (Lenguaje Visual):** Trading card illustration ultra-realista. Dimensional rupture.
 *   **M (Composición):** Carta coleccionable, personaje saliendo marco. Título visible.
-*   **P (Post):** Cracks energéticos, distorsión, partículas, motion blur.
+*   **O (Optimización final):** Cracks energéticos, distorsión, partículas, motion blur.
         `,
         "prompt_text": JSON.stringify({
             "title": "Trading Card Burst Scene — Lara Croft Archaeological Adventure",
@@ -4958,9 +4958,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Pose refinada, mano sosteniendo mariposas delicadamente.
 *   **I (Iluminación):** Estudio suave y envolvente. Sombras sutiles.
 *   **S (Sensación):** Elegancia, delicadeza, fantasía suave.
-*   **E (Estilo):** Fotografía editorial hiperrealista. Alta moda.
+*   **L (Lenguaje Visual):** Fotografía editorial hiperrealista. Alta moda.
 *   **M (Composición):** Portada centrada. Texto "FASHION DESIGN" superior.
-*   **P (Post):** Paleta suave elegante. Alta nitidez en detalles.
+*   **O (Optimización final):** Paleta suave elegante. Alta nitidez en detalles.
         `,
         "prompt_text": JSON.stringify({
             "title": "Portada editorial — Mujer en qipao rosa con mariposas",
@@ -5093,9 +5093,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Postura confiada y heroica típica de tarjetas RPG. Lenguaje corporal: Actitud segura, preparada y competente. Presentación: El personaje se muestra como figura central dentro de la tarjeta.
 *   **I (Iluminación):** Iluminación suave y uniforme. Características: Luz equilibrada que resalta el volumen 3D y la personalidad del personaje, sin sombras duras.
 *   **S (Sensación):** Competencia, creatividad, confianza. Tono: Divertido, inspirador, profesional.
-*   **E (Estilo):** Tarjeta RPG coleccionable en estilo 3D cartoon. Interfaz: Barras de habilidades y estadísticas visibles (ej. Creatividad +10, UI/UX +8). Marco: Bordes limpios y definidos, similares a una caja o figura coleccionable. Paleta de color: Colores con highlights cálidos y tonos asociados a la profesión.
+*   **L (Lenguaje Visual):** Tarjeta RPG coleccionable en estilo 3D cartoon. Interfaz: Barras de habilidades y estadísticas visibles (ej. Creatividad +10, UI/UX +8). Marco: Bordes limpios y definidos, similares a una caja o figura coleccionable. Paleta de color: Colores con highlights cálidos y tonos asociados a la profesión.
 *   **M (Composición):** Plano medio del personaje dentro de la tarjeta. Ángulo frontal. Encuadre: Composición vertical tipo carta coleccionable.
-*   **P (Post):** Colores vivos pero balanceados. Contraste medio. Acabado: Aspecto pulido, limpio y listo para colección digital. Elementos de texto: Banner superior (Título) y placa inferior (Nombre).
+*   **O (Optimización final):** Colores vivos pero balanceados. Contraste medio. Acabado: Aspecto pulido, limpio y listo para colección digital. Elementos de texto: Banner superior (Título) y placa inferior (Nombre).
 `,
         "prompt_text": JSON.stringify({
             "title": "RPG Collectible Character Card — Programmer",
@@ -5278,7 +5278,7 @@ export const EXTRA_MOCK_PROMPTS = [
         "title": "Chibi 3D Family Wedding Portrait — Framed Scene",
         "slug": "nano-banana-case-33",
         "summary": "Retrato familiar de boda en estilo Chibi 3D dentro de un marco.",
-        "body_markdown": "\n# Framework REALISMO\n\n*   **R (Render):** Personajes chibi 3D, cabezas grandes, expresiones suaves.\n*   **E (Entorno):** Escenario fotográfico realista con arco floral.\n*   **A (Acción):** Familia posando armoniosamente.\n*   **I (Iluminación):** Suave y uniforme.\n*   **S (Sensación):** Ternura, celebración.\n*   **E (Estilo):** Híbrido: personajes estilizados + entorno realista.\n*   **M (Composición):** Plano medio centrado en marco.\n*   **P (Post):** Colores vivos, acabado pulido.\n        ",
+        "body_markdown": "\n# Framework REALISMO\n\n*   **R (Render):** Personajes chibi 3D, cabezas grandes, expresiones suaves.\n*   **E (Entorno):** Escenario fotográfico realista con arco floral.\n*   **A (Acción):** Familia posando armoniosamente.\n*   **I (Iluminación):** Suave y uniforme.\n*   **S (Sensación):** Ternura, celebración.\n*   **L (Lenguaje Visual):** Híbrido: personajes estilizados + entorno realista.\n*   **M (Composición):** Plano medio centrado en marco.\n*   **O (Optimización final):** Colores vivos, acabado pulido.\n        ",
         "prompt_text": JSON.stringify({
             "title": "Chibi 3D Family Wedding Portrait — Framed Scene",
             "framework_REALISMO": {
@@ -5387,9 +5387,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Las islas flotan libremente en el aire. Sensación de suspensión y quietud, sin movimiento agresivo. Composición estable y equilibrada entre las islas.
 *   **I (Iluminación):** Iluminación natural tipo daylight. Luz uniforme que ilumina la arquitectura y las islas desde un ángulo alto, sin sombras extremas.
 *   **S (Sensación):** Asombro, surrealismo, contemplación. Onírico, majestuoso, silencioso.
-*   **E (Estilo):** Fotografía surrealista. Estética de fotografía tomada con lente de 35 mm. Arquitectura detallada, superficies naturales de las islas visibles. Alto nivel de detalle.
+*   **L (Lenguaje Visual):** Fotografía surrealista. Estética de fotografía tomada con lente de 35 mm. Arquitectura detallada, superficies naturales de las islas visibles. Alto nivel de detalle.
 *   **M (Composición):** Plano general amplio. Vista aérea o ligeramente elevada. Lente de 35 mm. Encuadre abierto que permite apreciar múltiples islas flotantes.
-*   **P (Post):** Colores naturales con ligero énfasis cinematográfico. Contraste medio. Look fotográfico limpio, surrealista y cinematográfico.
+*   **O (Optimización final):** Colores naturales con ligero énfasis cinematográfico. Contraste medio. Look fotográfico limpio, surrealista y cinematográfico.
 `,
         "prompt_text": JSON.stringify({
             "title": "Floating Moscow — Surreal Aerial Cityscape",
@@ -5466,9 +5466,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Pose natural y segura, acorde a un diseñador de moda. El personaje actúa como modelo de su propio outfit.
 *   **I (Iluminación):** Iluminación suave y uniforme estilo estudio.
 *   **S (Sensación):** Creatividad, estilo, autoexpresión. Moderno, fashion-forward, cool.
-*   **E (Estilo):** Q-style 3D chibi con acabado C4D.
+*   **L (Lenguaje Visual):** Q-style 3D chibi con acabado C4D.
 *   **M (Composición):** Formato Vertical 9:16. Tarjeta editorial con personaje y breakdown de items.
-*   **P (Post):** Colores limpios y coordinados, Look editorial fashion.
+*   **O (Optimización final):** Colores limpios y coordinados, Look editorial fashion.
 `,
         "prompt_text": JSON.stringify({
             "title": "OOTD Character Card — Fashion Designer",
@@ -5634,9 +5634,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** La caja se muestra cerrada en vista isométrica junto a la figura fuera del empaque.
 *   **I (Iluminación):** Iluminación de estudio realista.
 *   **S (Sensación):** Elegancia, exclusividad, nostalgia.
-*   **E (Estilo):** Producto coleccionable 3D con estética Funko Pop.
+*   **L (Lenguaje Visual):** Producto coleccionable 3D con estética Funko Pop.
 *   **M (Composición):** Plano medio de producto, Vista isométrica.
-*   **P (Post):** Colores equilibrados y realistas.
+*   **O (Optimización final):** Colores equilibrados y realistas.
 `,
         "prompt_text": JSON.stringify({
             "title": "Collectible Figure Box — JAMES BOND",
@@ -5757,9 +5757,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Poses paralelas exageradas y dinámicas. Interacción visual divertida.
 *   **I (Iluminación):** Ambiental cálida, imperfecta, sombras suaves (smartphone style).
 *   **S (Sensación):** Cálido, divertido, auténtico.
-*   **E (Estilo):** Snapshot casual true-to-life. Contraste escala juguete vs humana.
+*   **L (Lenguaje Visual):** Snapshot casual true-to-life. Contraste escala juguete vs humana.
 *   **M (Composición):** Plano medio balanceado.
-*   **P (Post):** Color grading natural y cálido.
+*   **O (Optimización final):** Color grading natural y cálido.
         `,
         "prompt_text": JSON.stringify({
             "title": "Desk Scene Contrast — Anime Figure + Real Person Pose Match",
@@ -5847,9 +5847,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Vista top-down revelando el paisaje miniatura.
 *   **I (Iluminación):** Cálida y cinematográfica, resaltando texturas y sombras realistas.
 *   **S (Sensación):** Mágico, encantador, realismo miniatura.
-*   **E (Estilo):** Fotografía ultra-realista de maqueta física estilo juguete.
+*   **L (Lenguaje Visual):** Fotografía ultra-realista de maqueta física estilo juguete.
 *   **M (Composición):** Paisaje de México con landmarks (pirámides, edificios coloniales), vegetación y multitudes. Texto "MÉXICO" en letras plásticas de colores en la tapa.
-*   **P (Post):** Enfoque nítido en el diorama, profundidad de campo natural.
+*   **O (Optimización final):** Enfoque nítido en el diorama, profundidad de campo natural.
         `,
         "prompt_text": JSON.stringify({
             "title": "Mexico in a Box — Miniature Diorama",
@@ -5928,9 +5928,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Objeto centrado. Fluido sobre texto con transparencia.
 *   **I (Iluminación):** Softbox alto. Sombras suaves coloreadas. Halo sutil.
 *   **S (Sensación):** Futurista, limpio, premium. Minimalismo elegante.
-*   **E (Estilo):** Poster minimalista futurista. Efecto vidrio esmerilado.
+*   **L (Lenguaje Visual):** Poster minimalista futurista. Efecto vidrio esmerilado.
 *   **M (Composición):** Vertical 3:4 4K. Espacio negativo generoso.
-*   **P (Post):** HDR alto. Nitidez extrema. Blur gaussiano en letras cubiertas.
+*   **O (Optimización final):** HDR alto. Nitidez extrema. Blur gaussiano en letras cubiertas.
         `,
         "prompt_text": JSON.stringify({
             "title": "Poster futurista minimalista — Metaball Coca-Cola Bottle",
@@ -6023,9 +6023,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Avatar y animal posando juntos, presencia simbólica y calmada.
 *   **I (Iluminación):** Refinada, luz de estudio suave, highlights elegantes en vidrio.
 *   **S (Sensación):** Curado, artístico, elegante, minimalista, museográfico.
-*   **E (Estilo):** Diorama LEGO realista, acabado premium de materiales.
+*   **L (Lenguaje Visual):** Diorama LEGO realista, acabado premium de materiales.
 *   **M (Composición):** Vertical, cubo centrado, espacio negativo limpio.
-*   **P (Post):** Paleta coordinada, contraste suave, nitidez alta en grabados y texturas.
+*   **O (Optimización final):** Paleta coordinada, contraste suave, nitidez alta en grabados y texturas.
         `,
         "prompt_text": JSON.stringify({
             "title": "LEGO Collectible Glass Cube — Avatar + Companion Animal Diorama",
@@ -6125,9 +6125,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Postura):** Firme, centrada, mirada segura. Actitud de liderazgo.
 *   **I (Iluminación):** Suave, cálida, envolvente. Sombras sutiles.
 *   **S (Sensación):** Confianza, poder tranquilo, sofisticación.
-*   **E (Estilo):** Retrato editorial cinematográfico high-end.
+*   **L (Lenguaje Visual):** Retrato editorial cinematográfico high-end.
 *   **M (Composición):** Plano medio/retrato. Eye-level, centrado.
-*   **P (Post):** Tonos cálidos, contraste suave, nitidez alta.
+*   **O (Optimización final):** Tonos cálidos, contraste suave, nitidez alta.
         `,
         "prompt_text": JSON.stringify({
             "title": "Retrato sofisticado — Mujer en traje navy con presencia elegante",
@@ -6201,9 +6201,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Postura):** Serena, delicada. Mirada emocional y sensible.
 *   **I (Iluminación):** Chiaroscuro dramático, contraste fuerte, luz direccional.
 *   **S (Sensación):** Delicado, emocional, etéreo, poético.
-*   **E (Estilo):** Retrato editorial cinematográfico de alta costura.
+*   **L (Lenguaje Visual):** Retrato editorial cinematográfico de alta costura.
 *   **M (Composición):** Close-up/Plano medio. Centrado con elementos flotantes.
-*   **P (Post):** Tonos cinematográficos, contraste suave en piel, nitidez 8K.
+*   **O (Optimización final):** Tonos cinematográficos, contraste suave en piel, nitidez 8K.
         `,
         "prompt_text": JSON.stringify({
             "title": "Retrato chiaroscuro — Belleza rubia platino con couture floral",
@@ -6371,54 +6371,53 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Postura firme y desafiante, mirada directa sostenida.
 *   **I (Iluminación):** Neón nocturno urbano, reflejos de colores saturados en la lluvia.
 *   **S (Sensación):** Rebelión, misterio, subversión digital.
-*   **E (Estilo):** Neon-noir cyberpunk, texturas mojadas fotorrealistas.
+*   **L (Lenguaje Visual):** Neon-noir cyberpunk, texturas mojadas fotorrealistas.
 *   **M (Composición):** Plano medio centrado, profundidad urbana.
-*   **P (Post):** Paleta fría con acentos neón ácidos, contraste alto, look rebelde.
+*   **O (Optimización final):** Paleta fría con acentos neón ácidos, contraste alto, look rebelde.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Neon Noir Portrait — Digital Rebellion",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Figura femenina con rasgos definidos y expresivos, piel realista con reflejos húmedos por la lluvia.",
-                    "expresion": "Intensa y determinada, mirada firme cargada de propósito.",
-                    "coherencia": "Identidad facial consistente, proporciones realistas, presencia fuerte."
-                },
-                "E_Entorno": {
-                    "fondo": "Ciudad nocturna empapada de luces neón.",
-                    "ambientacion": "Entorno urbano futurista con estética cyberpunk.",
-                    "elementos_clave": "Calles mojadas, reflejos de neón, arquitectura densa."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie, ligeramente adelantada en el encuadre.",
-                    "lenguaje_corporal": "Postura firme, actitud desafiante y rebelde.",
-                    "mirada": "Directa a cámara o ligeramente lateral, manteniendo tensión narrativa."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación nocturna urbana.",
-                    "caracteristicas": "Luces neón de colores intensos reflejadas en la lluvia, contrastes marcados y brillos húmedos."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Misterio, rebelión, determinación.",
-                    "tono": "Neo-noir, cyberpunk, subversivo."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Retrato cinematográfico cyberpunk.",
-                    "texturas": "Superficies mojadas, piel húmeda, neón difuso.",
-                    "nivel_realismo": "Fotorrealista con estética futurista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Ángulo neutro o ligeramente bajo.",
-                    "encuadre": "Composición centrada con profundidad urbana al fondo."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Paleta fría con acentos neón saturados (azules, magentas, verdes).",
-                    "contraste": "Alto.",
-                    "acabado": "Look cinematográfico oscuro con atmósfera rebelde y digital."
-                }
-            },
-            "final_prompt": "Cinematic cyberpunk neon-noir portrait of a rebellious woman with wet skin, intense determined expression. Night city background drenched in neon rain, wet streets. High contrast colorful neon lighting reflections. Photorealistic 8K, cold palette with acid green and magenta accents, digital rebellion atmosphere. --ar 16:9"
-        }, null, 2),
+  "title": "Neon Noir Portrait — Digital Rebellion",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Figura femenina con rasgos definidos y expresivos, piel realista con reflejos húmedos por la lluvia.",
+      "expresion": "Intensa y determinada, mirada firme cargada de propósito.",
+      "coherencia": "Identidad facial consistente, proporciones realistas, presencia fuerte."
+    },
+    "E_Entorno": {
+      "fondo": "Ciudad nocturna empapada de luces neón.",
+      "ambientacion": "Entorno urbano futurista con estética cyberpunk.",
+      "elementos_clave": "Calles mojadas, reflejos de neón, arquitectura densa."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie, ligeramente adelantada en el encuadre.",
+      "lenguaje_corporal": "Postura firme, actitud desafiante y rebelde.",
+      "mirada": "Directa a cámara o ligeramente lateral, manteniendo tensión narrativa."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Retrato cinematográfico cyberpunk.",
+      "texturas": "Superficies mojadas, piel húmeda, neón difuso.",
+      "nivel_realismo": "Fotorrealista con estética futurista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación nocturna urbana.",
+      "caracteristicas": "Luces neón de colores intensos reflejadas en la lluvia, contrastes marcados y brillos húmedos."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Misterio, rebelión, determinación.",
+      "tono": "Neo-noir, cyberpunk, subversivo."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Ángulo neutro o ligeramente bajo.",
+      "encuadre": "Composición centrada con profundidad urbana al fondo."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Paleta fría con acentos neón saturados (azules, magentas, verdes).",
+      "contraste": "Alto.",
+      "acabado": "Look cinematográfico oscuro con atmósfera rebelde y digital."
+    }
+  }
+}, null, 2),
         "category": "Cyberpunk",
         "level": "intermediate",
         "is_published": true,
@@ -6443,56 +6442,55 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Sosteniendo un papel arrugado (promesa rota), postura contenida.
 *   **I (Iluminación):** Luces duras del metro, sombras marcadas.
 *   **S (Sensación):** Soledad, anhelo, anticipación pesada.
-*   **E (Estilo):** Retrato narrativo urbano, fotorrealista emocional.
+*   **L (Lenguaje Visual):** Retrato narrativo urbano, fotorrealista emocional.
 *   **M (Composición):** Plano medio, ángulo neutro, espacio negativo.
-*   **P (Post):** Paleta fría desaturada, acentos verdosos, look cinematográfico.
+*   **O (Optimización final):** Paleta fría desaturada, acentos verdosos, look cinematográfico.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Cinematic Subway Portrait — Longing and Reflection",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Hombre adulto con rasgos definidos y naturales, piel realista con textura visible.",
-                    "expresion": "Cargada de anticipación y reflexión, mirada profunda y pensativa.",
-                    "vestuario": "Gabardina (trench coat) oscura, clásica y atemporal.",
-                    "coherencia": "Identidad facial consistente, proporciones realistas, sin exageración estilística."
-                },
-                "E_Entorno": {
-                    "fondo": "Estación de metro subterránea.",
-                    "ambientacion": "Espacio urbano cerrado con eco, sensación de vacío y tránsito constante.",
-                    "elementos_clave": "Arquitectura del metro, túneles, luces artificiales."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie o ligeramente inclinado, cuerpo contenido.",
-                    "lenguaje_corporal": "Postura tensa pero controlada, reflejo de espera y duda.",
-                    "accion": "Sosteniendo un papel arrugado como símbolo de una promesa rota.",
-                    "mirada": "Dirigida hacia abajo o hacia el vacío, fuera de cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación artificial urbana.",
-                    "caracteristicas": "Luces duras del metro creando sombras marcadas y contrastes dramáticos."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Soledad, anhelo, anticipación pesada.",
-                    "tono": "Melancólico, introspectivo, cinematográfico."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Retrato cinematográfico urbano narrativo.",
-                    "texturas": "Superficies frías del metro, tela del abrigo con detalle visible.",
-                    "nivel_realismo": "Fotorrealista con carga emocional."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Ángulo neutro o ligeramente bajo.",
-                    "encuadre": "Composición que deja espacio negativo para enfatizar soledad."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Paleta fría y desaturada con acentos amarillos o verdosos del metro.",
-                    "contraste": "Medio-alto.",
-                    "acabado": "Look cinematográfico urbano con énfasis narrativo."
-                }
-            },
-            "final_prompt": "Cinematic urban portrait of a middle-aged man in a dark trench coat, deep pensive expression, holding a crumpled paper. Underground subway station background with tunnels and artificial lights. High contrast harsh artificial lighting. Photorealistic 8K, cold desaturated palette with greenish accents, melancholic atmosphere. --ar 16:9"
-        }, null, 2),
+  "title": "Cinematic Subway Portrait — Longing and Reflection",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Hombre adulto con rasgos definidos y naturales, piel realista con textura visible.",
+      "expresion": "Cargada de anticipación y reflexión, mirada profunda y pensativa.",
+      "vestuario": "Gabardina (trench coat) oscura, clásica y atemporal.",
+      "coherencia": "Identidad facial consistente, proporciones realistas, sin exageración estilística."
+    },
+    "E_Entorno": {
+      "fondo": "Estación de metro subterránea.",
+      "ambientacion": "Espacio urbano cerrado con eco, sensación de vacío y tránsito constante.",
+      "elementos_clave": "Arquitectura del metro, túneles, luces artificiales."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie o ligeramente inclinado, cuerpo contenido.",
+      "lenguaje_corporal": "Postura tensa pero controlada, reflejo de espera y duda.",
+      "accion": "Sosteniendo un papel arrugado como símbolo de una promesa rota.",
+      "mirada": "Dirigida hacia abajo o hacia el vacío, fuera de cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Retrato cinematográfico urbano narrativo.",
+      "texturas": "Superficies frías del metro, tela del abrigo con detalle visible.",
+      "nivel_realismo": "Fotorrealista con carga emocional."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación artificial urbana.",
+      "caracteristicas": "Luces duras del metro creando sombras marcadas y contrastes dramáticos."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Soledad, anhelo, anticipación pesada.",
+      "tono": "Melancólico, introspectivo, cinematográfico."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Ángulo neutro o ligeramente bajo.",
+      "encuadre": "Composición que deja espacio negativo para enfatizar soledad."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Paleta fría y desaturada con acentos amarillos o verdosos del metro.",
+      "contraste": "Medio-alto.",
+      "acabado": "Look cinematográfico urbano con énfasis narrativo."
+    }
+  }
+}, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
@@ -6517,54 +6515,53 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Postura relajada y quieta, mirada fuera de cámara, pausa en el tiempo.
 *   **I (Iluminación):** Luz natural de sunset, sombras suaves que danzan en el rostro.
 *   **S (Sensación):** Soledad, melancolía suave, intimidad emocional.
-*   **E (Estilo):** Lifestyle cinematográfico, fotorrealista con sensibilidad artística.
+*   **L (Lenguaje Visual):** Lifestyle cinematográfico, fotorrealista con sensibilidad artística.
 *   **M (Composición):** Primer plano íntimo, composición centrada.
-*   **P (Post):** Tonos dorados cálidos, contraste suave, look delicado.
+*   **O (Optimización final):** Tonos dorados cálidos, contraste suave, look delicado.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Poetic Sunset Portrait — Solitude in Thought",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Mujer joven con rasgos suaves y naturales, piel realista con textura visible.",
-                    "expresion": "Pensativa, introspectiva, mirada cargada de emoción contenida.",
-                    "coherencia": "Identidad facial consistente, proporciones realistas, sin estilización excesiva."
-                },
-                "E_Entorno": {
-                    "fondo": "Entorno exterior al atardecer.",
-                    "ambientacion": "Escenario tranquilo y silencioso que acompaña el momento introspectivo.",
-                    "elementos_clave": "Luz cálida del sol bajo en el horizonte."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Postura relajada, cuerpo quieto.",
-                    "lenguaje_corporal": "Quietud contemplativa, sensación de pausa en el tiempo.",
-                    "mirada": "Dirigida ligeramente fuera de cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación natural de sunset.",
-                    "caracteristicas": "Luz cálida lateral creando sombras suaves que danzan sobre el rostro."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Soledad, reflexión, melancolía suave.",
-                    "tono": "Poético, íntimo, emocional."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Retrato cinematográfico lifestyle.",
-                    "texturas": "Piel natural, transiciones suaves de luz y sombra.",
-                    "nivel_realismo": "Fotorrealista con sensibilidad artística."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Primer plano o plano medio.",
-                    "angulo": "Ángulo neutro.",
-                    "encuadre": "Composición íntima centrada en el rostro."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos cálidos dorados con sombras suaves.",
-                    "contraste": "Suave.",
-                    "acabado": "Look cinematográfico delicado y emocional."
-                }
-            },
-            "final_prompt": "Cinematic lifestyle portrait of a young woman with soft natural features, pensive and introspective expression. Outdoor sunset setting with warm low horizon light. Natural sunset lighting creating dancing soft shadows on face. Photorealistic 8K, golden warm tones, soft contrast, delicate emotional atmosphere. --ar 16:9"
-        }, null, 2),
+  "title": "Poetic Sunset Portrait — Solitude in Thought",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Mujer joven con rasgos suaves y naturales, piel realista con textura visible.",
+      "expresion": "Pensativa, introspectiva, mirada cargada de emoción contenida.",
+      "coherencia": "Identidad facial consistente, proporciones realistas, sin estilización excesiva."
+    },
+    "E_Entorno": {
+      "fondo": "Entorno exterior al atardecer.",
+      "ambientacion": "Escenario tranquilo y silencioso que acompaña el momento introspectivo.",
+      "elementos_clave": "Luz cálida del sol bajo en el horizonte."
+    },
+    "A_Accion_Postura": {
+      "pose": "Postura relajada, cuerpo quieto.",
+      "lenguaje_corporal": "Quietud contemplativa, sensación de pausa en el tiempo.",
+      "mirada": "Dirigida ligeramente fuera de cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Retrato cinematográfico lifestyle.",
+      "texturas": "Piel natural, transiciones suaves de luz y sombra.",
+      "nivel_realismo": "Fotorrealista con sensibilidad artística."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación natural de sunset.",
+      "caracteristicas": "Luz cálida lateral creando sombras suaves que danzan sobre el rostro."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Soledad, reflexión, melancolía suave.",
+      "tono": "Poético, íntimo, emocional."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Primer plano o plano medio.",
+      "angulo": "Ángulo neutro.",
+      "encuadre": "Composición íntima centrada en el rostro."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos cálidos dorados con sombras suaves.",
+      "contraste": "Suave.",
+      "acabado": "Look cinematográfico delicado y emocional."
+    }
+  }
+}, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
@@ -6589,56 +6586,55 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Postura firme y erguida, control total del espacio.
 *   **I (Iluminación):** Luz cinematográfica suave, halo teal difuso a través de la neblina.
 *   **S (Sensación):** Confianza, autoridad, misterio elegante.
-*   **E (Estilo):** Retrato de poder editorial, fotorrealista, texturas de traje definidas.
+*   **L (Lenguaje Visual):** Retrato de poder editorial, fotorrealista, texturas de traje definidas.
 *   **M (Composición):** Plano medio a tres cuartos, ángulo bajo de autoridad, formato 16:9.
-*   **P (Post):** Paleta oscura con acentos teal, look sofisticado y limpio.
+*   **O (Optimización final):** Paleta oscura con acentos teal, look sofisticado y limpio.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Power Portrait — Teal Smoke Authority (16:9)",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Figura femenina con rasgos definidos y elegantes, estructura facial equilibrada, piel realista con acabado editorial pulido.",
-                    "expresion": "Segura y dominante, confianza silenciosa.",
-                    "vestuario": "Traje negro a medida con líneas limpias y corte impecable.",
-                    "coherencia": "Identidad visual consistente, proporciones realistas."
-                },
-                "E_Entorno": {
-                    "fondo": "Espacio oscuro envuelto en humo en movimiento.",
-                    "ambientacion": "Escenario minimalista y abstracto que enfatiza liderazgo.",
-                    "elementos_clave": "Neblina/smoke creando capas de profundidad."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie, postura firme y erguida.",
-                    "lenguaje_corporal": "Control total del espacio.",
-                    "mirada": "Directa al frente, presencia autoritaria."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación cinematográfica suave.",
-                    "caracteristicas": "Luz teal difusa atravesando el humo, halo envolvente con sombras controladas."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Confianza, autoridad, misterio.",
-                    "tono": "Elegante, poderoso, cinematográfico."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Retrato cinematográfico de poder con estética editorial.",
-                    "texturas": "Tela del traje bien definida; humo etéreo.",
-                    "nivel_realismo": "Fotorrealista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio a tres cuartos.",
-                    "angulo": "Ligeramente bajo para reforzar autoridad.",
-                    "encuadre": "Formato horizontal 16:9, sujeto dominante centrado con espacio negativo lateral."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Paleta oscura con acentos teal suaves.",
-                    "contraste": "Medio.",
-                    "acabado": "Look limpio y sofisticado con atmósfera envolvente.",
-                    "branding_conceptual": "La presencia visual comunica la esencia de liderazgo asociada a Grok Imagine."
-                }
-            },
-            "final_prompt": "Cinematic power portrait of an elegant woman in a tailored black suit, confident and dominant expression. Dark minimalist background with swirling teal smoke and mist. Soft diffuse cinematic lighting, teal halo effect. Photorealistic 8K, editorial aesthetic, high contrast, sophisticated atmosphere. --ar 16:9"
-        }, null, 2),
+  "title": "Power Portrait — Teal Smoke Authority (16:9)",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Figura femenina con rasgos definidos y elegantes, estructura facial equilibrada, piel realista con acabado editorial pulido.",
+      "expresion": "Segura y dominante, confianza silenciosa.",
+      "vestuario": "Traje negro a medida con líneas limpias y corte impecable.",
+      "coherencia": "Identidad visual consistente, proporciones realistas."
+    },
+    "E_Entorno": {
+      "fondo": "Espacio oscuro envuelto en humo en movimiento.",
+      "ambientacion": "Escenario minimalista y abstracto que enfatiza liderazgo.",
+      "elementos_clave": "Neblina/smoke creando capas de profundidad."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie, postura firme y erguida.",
+      "lenguaje_corporal": "Control total del espacio.",
+      "mirada": "Directa al frente, presencia autoritaria."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Retrato cinematográfico de poder con estética editorial.",
+      "texturas": "Tela del traje bien definida; humo etéreo.",
+      "nivel_realismo": "Fotorrealista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación cinematográfica suave.",
+      "caracteristicas": "Luz teal difusa atravesando el humo, halo envolvente con sombras controladas."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Confianza, autoridad, misterio.",
+      "tono": "Elegante, poderoso, cinematográfico."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio a tres cuartos.",
+      "angulo": "Ligeramente bajo para reforzar autoridad.",
+      "encuadre": "Formato horizontal 16:9, sujeto dominante centrado con espacio negativo lateral."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Paleta oscura con acentos teal suaves.",
+      "contraste": "Medio.",
+      "acabado": "Look limpio y sofisticado con atmósfera envolvente.",
+      "branding_conceptual": "La presencia visual comunica la esencia de liderazgo asociada a Grok Imagine."
+    }
+  }
+}, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
@@ -6663,62 +6659,61 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Sentada en sillón ornamentado, manos extendidas hacia adelante (gesto de decisión), mirada firme.
 *   **I (Iluminación):** Dramática cinematográfica, reflejos verdes del código digital, sombras profundas.
 *   **S (Sensación):** Tensión, misterio, autoridad absoluta.
-*   **E (Estilo):** Hyper-realista cyberpunk, gabardina oscura sobre traje estructurado.
+*   **L (Lenguaje Visual):** Hyper-realista cyberpunk, gabardina oscura sobre traje estructurado.
 *   **M (Composición):** Plano medio/tres cuartos, ángulo frontal bajo para enfatizar autoridad.
-*   **P (Post):** Paleta oscura con acentos verdes intensos, contraste alto, look 8K de alto impacto.
+*   **O (Optimización final):** Paleta oscura con acentos verdes intensos, contraste alto, look 8K de alto impacto.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Cyberpunk Cinematic Portrait — The Choice",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Mujer adulta utilizando el rostro exacto de la usuaria, preservando perfectamente sus rasgos faciales, proporciones, textura de piel, expresiones naturales y peinado original.",
-                    "expresion": "Enigmática, compuesta y autoritaria.",
-                    "accesorios": "Gafas de sol redondas distintivas.",
-                    "coherencia": "Identidad facial fija y consistente, sin alteraciones ni estilización no deseada."
-                },
-                "E_Entorno": {
-                    "fondo": "Habitación oscura y minimalista con estética casi estéril.",
-                    "elementos_clave": "Cascadas de código digital verde descendiendo por las paredes o proyectadas en el espacio.",
-                    "ambientacion": "Entorno que evoca una realidad simulada de inspiración cyberpunk."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada en un sillón oscuro, grande y ornamentado.",
-                    "lenguaje_corporal": "Postura intencional y poderosa, control total del espacio.",
-                    "accion": "Ambas manos extendidas hacia adelante, gesto simbólico de decisión.",
-                    "mirada": "Firme y dominante, dirigida hacia el espectador."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación dramática cinematográfica.",
-                    "caracteristicas": "Luz direccional que crea sombras profundas, resaltando el rostro y la expresión, con reflejos verdes provenientes del código digital."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Tensión, misterio, autoridad.",
-                    "tono": "Cinematográfico, cyberpunk, serio y poderoso."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Retrato cinematográfico hyper-realista con estética cyberpunk.",
-                    "vestuario": "Gabardina oscura sobre un traje estructurado y elegante.",
-                    "texturas": "Materiales realistas en ropa, piel y mobiliario.",
-                    "nivel_realismo": "Ultra-realista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio a plano tres cuartos.",
-                    "angulo": "Ángulo frontal ligeramente bajo para enfatizar autoridad.",
-                    "encuadre": "Formato vertical 3:4, sujeto dominante en el centro del encuadre."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Paleta oscura con acentos verdes intensos.",
-                    "contraste": "Alto, con negros profundos.",
-                    "acabado": "Look cinematográfico de alto impacto.",
-                    "calidad": {
-                        "resolucion": "Ultra-realistic 8K",
-                        "estilo": "Cyberpunk cinematic",
-                        "iluminacion": "Dramatic shadowed"
-                    }
-                }
-            },
-            "final_prompt": "Cyberpunk Cinematic Portrait, Adult woman with highly detailed facial features [exact identity], wearing distinctive round sunglasses, enigmatic and authoritative expression. Sitting in a large ornate dark armchair, both hands extended forward in a symbolic gesture of choice. Background is a dark minimalist room with cascading green digital code on walls. Dramatic cinematic lighting with green highlights, deep shadows. Ultra-realistic 8K, dark trench coat, high contrast, Matrix-inspired simulation aesthetic. --ar 3:4"
-        }, null, 2),
+  "title": "Cyberpunk Cinematic Portrait — The Choice",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Mujer adulta utilizando el rostro exacto de la usuaria, preservando perfectamente sus rasgos faciales, proporciones, textura de piel, expresiones naturales y peinado original.",
+      "expresion": "Enigmática, compuesta y autoritaria.",
+      "accesorios": "Gafas de sol redondas distintivas.",
+      "coherencia": "Identidad facial fija y consistente, sin alteraciones ni estilización no deseada."
+    },
+    "E_Entorno": {
+      "fondo": "Habitación oscura y minimalista con estética casi estéril.",
+      "elementos_clave": "Cascadas de código digital verde descendiendo por las paredes o proyectadas en el espacio.",
+      "ambientacion": "Entorno que evoca una realidad simulada de inspiración cyberpunk."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada en un sillón oscuro, grande y ornamentado.",
+      "lenguaje_corporal": "Postura intencional y poderosa, control total del espacio.",
+      "accion": "Ambas manos extendidas hacia adelante, gesto simbólico de decisión.",
+      "mirada": "Firme y dominante, dirigida hacia el espectador."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Retrato cinematográfico hyper-realista con estética cyberpunk.",
+      "vestuario": "Gabardina oscura sobre un traje estructurado y elegante.",
+      "texturas": "Materiales realistas en ropa, piel y mobiliario.",
+      "nivel_realismo": "Ultra-realista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación dramática cinematográfica.",
+      "caracteristicas": "Luz direccional que crea sombras profundas, resaltando el rostro y la expresión, con reflejos verdes provenientes del código digital."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Tensión, misterio, autoridad.",
+      "tono": "Cinematográfico, cyberpunk, serio y poderoso."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio a plano tres cuartos.",
+      "angulo": "Ángulo frontal ligeramente bajo para enfatizar autoridad.",
+      "encuadre": "Formato vertical 3:4, sujeto dominante en el centro del encuadre."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Paleta oscura con acentos verdes intensos.",
+      "contraste": "Alto, con negros profundos.",
+      "acabado": "Look cinematográfico de alto impacto.",
+      "calidad": {
+        "resolucion": "Ultra-realistic 8K",
+        "estilo": "Cyberpunk cinematic",
+        "iluminacion": "Dramatic shadowed"
+      }
+    }
+  }
+}, null, 2),
         "category": "Cyberpunk",
         "level": "advanced",
         "is_published": true,
@@ -6743,56 +6738,55 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Postura estática centrada, equilibrio meditativo entre dos realidades.
 *   **I (Iluminación):** Luz fría estructurada (urbano) vs Luz cálida vibrante (natural).
 *   **S (Sensación):** Dualidad, tensión poética entre progreso y naturaleza.
-*   **E (Estilo):** Arte conceptual, semi-realista, fuerte narrativa visual.
+*   **L (Lenguaje Visual):** Arte conceptual, semi-realista, fuerte narrativa visual.
 *   **M (Composición):** Plano medio frontal, composición simétrica que enfatiza la división.
-*   **P (Post):** Color grading contrastado, estilo editorial simbólico, contraste alto.
+*   **O (Optimización final):** Color grading contrastado, estilo editorial simbólico, contraste alto.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Conceptual Juxtaposition Portrait — Geisha Between Worlds",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Figura femenina inspirada en una geisha, con rasgos delicados y expresión serena, identidad tratada de forma simbólica y artística más que literal.",
-                    "expresion": "Calma, introspectiva, contemplativa.",
-                    "coherencia": "El rostro permanece reconocible y equilibrado a pesar de la división visual conceptual."
-                },
-                "E_Entorno": {
-                    "fondo": "Composición dividida en dos mundos contrastantes.",
-                    "lado_urbano": "Estructuras geométricas, arquitectura moderna, formas rígidas y urbanas.",
-                    "lado_natural": "Vegetación exuberante, colores vivos, naturaleza orgánica y salvaje.",
-                    "ambientacion": "Contraste visual entre modernidad y naturaleza."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Postura estática y centrada, símbolo de equilibrio entre dos realidades.",
-                    "lenguaje_corporal": "Quietud deliberada, presencia meditativa.",
-                    "mirada": "Neutral o suavemente dirigida al frente, reforzando la dualidad."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación conceptual diferenciada por zonas.",
-                    "caracteristicas": "Luz fría y estructurada en el lado urbano, luz cálida y vibrante en el lado natural."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Dualidad, reflexión, tensión entre progreso y naturaleza.",
-                    "tono": "Poético, simbólico, contemplativo."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Arte conceptual con narrativa visual fuerte.",
-                    "tecnicas": "Juxtaposición visual, división simbólica del retrato.",
-                    "texturas": "Contraste entre superficies geométricas duras y elementos orgánicos vivos.",
-                    "nivel_realismo": "Semi-realista conceptual."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio o primer plano.",
-                    "angulo": "Ángulo frontal.",
-                    "encuadre": "Composición simétrica que enfatiza la división entre ambos mundos."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Paleta contrastante entre tonos fríos urbanos y colores saturados naturales.",
-                    "contraste": "Alto entre ambas mitades.",
-                    "acabado": "Estilo artístico editorial con fuerte carga simbólica."
-                }
-            },
-            "final_prompt": "Conceptual juxtaposition portrait of a symbolic geisha figure, delicate features, serene expression. The scene is perfectly split vertically: left side features cold blue rigid modern urban architecture, right side features warm vibrant organic exuberant jungle vegetation. Symmetrical composition, centered subject. Conceptual art style, high contrast between cold and warm lighting, 8K resolution, symbolic editorial aesthetic. --ar 16:9"
-        }, null, 2),
+  "title": "Conceptual Juxtaposition Portrait — Geisha Between Worlds",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Figura femenina inspirada en una geisha, con rasgos delicados y expresión serena, identidad tratada de forma simbólica y artística más que literal.",
+      "expresion": "Calma, introspectiva, contemplativa.",
+      "coherencia": "El rostro permanece reconocible y equilibrado a pesar de la división visual conceptual."
+    },
+    "E_Entorno": {
+      "fondo": "Composición dividida en dos mundos contrastantes.",
+      "lado_urbano": "Estructuras geométricas, arquitectura moderna, formas rígidas y urbanas.",
+      "lado_natural": "Vegetación exuberante, colores vivos, naturaleza orgánica y salvaje.",
+      "ambientacion": "Contraste visual entre modernidad y naturaleza."
+    },
+    "A_Accion_Postura": {
+      "pose": "Postura estática y centrada, símbolo de equilibrio entre dos realidades.",
+      "lenguaje_corporal": "Quietud deliberada, presencia meditativa.",
+      "mirada": "Neutral o suavemente dirigida al frente, reforzando la dualidad."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Arte conceptual con narrativa visual fuerte.",
+      "tecnicas": "Juxtaposición visual, división simbólica del retrato.",
+      "texturas": "Contraste entre superficies geométricas duras y elementos orgánicos vivos.",
+      "nivel_realismo": "Semi-realista conceptual."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación conceptual diferenciada por zonas.",
+      "caracteristicas": "Luz fría y estructurada en el lado urbano, luz cálida y vibrante en el lado natural."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Dualidad, reflexión, tensión entre progreso y naturaleza.",
+      "tono": "Poético, simbólico, contemplativo."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio o primer plano.",
+      "angulo": "Ángulo frontal.",
+      "encuadre": "Composición simétrica que enfatiza la división entre ambos mundos."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Paleta contrastante entre tonos fríos urbanos y colores saturados naturales.",
+      "contraste": "Alto entre ambas mitades.",
+      "acabado": "Estilo artístico editorial con fuerte carga simbólica."
+    }
+  }
+}, null, 2),
         "category": "Conceptual",
         "level": "advanced",
         "is_published": true,
@@ -6817,55 +6811,54 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Interactuando con el equipo, postura inmersiva y enfocada.
 *   **I (Iluminación):** Luz mínima direccional, creando sombras profundas y atmósfera íntima.
 *   **S (Sensación):** Pasión, introspección, proceso creativo auténtico.
-*   **E (Estilo):** Fotorrealista, estilo lifestyle cinematográfico.
+*   **L (Lenguaje Visual):** Fotorrealista, estilo lifestyle cinematográfico.
 *   **M (Composición):** Plano medio, composición equilibrada entre artista e instrumentos.
-*   **P (Post):** Tonos cálidos y oscuros, acabado analógico, contraste medio-alto.
+*   **O (Optimización final):** Tonos cálidos y oscuros, acabado analógico, contraste medio-alto.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Cinematic Music Studio Portrait — Creative Focus",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Artista femenina con rasgos naturales y expresivos, piel realista, identidad clara y auténtica.",
-                    "expresion": "Concentrada, inspirada, profundamente conectada con el sonido.",
-                    "coherencia": "Rasgos consistentes, apariencia realista sin estilización excesiva."
-                },
-                "E_Entorno": {
-                    "fondo": "Estudio musical en penumbra.",
-                    "elementos_clave": "Guitarras visibles, controladores MIDI y equipo musical rodeando a la artista.",
-                    "ambientacion": "Espacio creativo íntimo y funcional, cargado de potencial sonoro."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie o sentada frente al equipo musical.",
-                    "lenguaje_corporal": "Postura enfocada, inmersa en el proceso creativo.",
-                    "accion": "Interactuando o preparándose para usar guitarras y controladores MIDI.",
-                    "mirada": "Dirigida hacia los instrumentos o ligeramente hacia abajo, en concentración."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación mínima y direccional.",
-                    "caracteristicas": "Un único punto de luz que revela parcialmente el rostro y los instrumentos, dejando el resto del espacio en sombra."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Creatividad, pasión, introspección.",
-                    "tono": "Íntimo, artístico, inspirador."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Retrato cinematográfico lifestyle en entorno musical.",
-                    "texturas": "Materiales reales de instrumentos, superficies mates y metálicas.",
-                    "nivel_realismo": "Fotorrealista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Ángulo neutro o ligeramente lateral.",
-                    "encuadre": "Composición que integra a la artista y los instrumentos sin saturar la escena."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos oscuros y cálidos con acentos suaves.",
-                    "contraste": "Medio-alto, enfatizando luces y sombras.",
-                    "acabado": "Look cinematográfico íntimo con sensación analógica."
-                }
-            },
-            "final_prompt": "Cinematic lifestyle portrait of a female music artist, natural and expressive features, deeply focused and connected to sound. Setting is a dim music studio with visible guitars and MIDI controllers in the background. Minimal directional lighting casting soft shadows. Photorealistic 8K, warm analog color grading, intimate creative atmosphere. --ar 16:9"
-        }, null, 2),
+  "title": "Cinematic Music Studio Portrait — Creative Focus",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Artista femenina con rasgos naturales y expresivos, piel realista, identidad clara y auténtica.",
+      "expresion": "Concentrada, inspirada, profundamente conectada con el sonido.",
+      "coherencia": "Rasgos consistentes, apariencia realista sin estilización excesiva."
+    },
+    "E_Entorno": {
+      "fondo": "Estudio musical en penumbra.",
+      "elementos_clave": "Guitarras visibles, controladores MIDI y equipo musical rodeando a la artista.",
+      "ambientacion": "Espacio creativo íntimo y funcional, cargado de potencial sonoro."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie o sentada frente al equipo musical.",
+      "lenguaje_corporal": "Postura enfocada, inmersa en el proceso creativo.",
+      "accion": "Interactuando o preparándose para usar guitarras y controladores MIDI.",
+      "mirada": "Dirigida hacia los instrumentos o ligeramente hacia abajo, en concentración."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Retrato cinematográfico lifestyle en entorno musical.",
+      "texturas": "Materiales reales de instrumentos, superficies mates y metálicas.",
+      "nivel_realismo": "Fotorrealista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación mínima y direccional.",
+      "caracteristicas": "Un único punto de luz que revela parcialmente el rostro y los instrumentos, dejando el resto del espacio en sombra."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Creatividad, pasión, introspección.",
+      "tono": "Íntimo, artístico, inspirador."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Ángulo neutro o ligeramente lateral.",
+      "encuadre": "Composición que integra a la artista y los instrumentos sin saturar la escena."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos oscuros y cálidos con acentos suaves.",
+      "contraste": "Medio-alto, enfatizando luces y sombras.",
+      "acabado": "Look cinematográfico íntimo con sensación analógica."
+    }
+  }
+}, null, 2),
         "category": "Creative",
         "level": "intermediate",
         "is_published": true,
@@ -6890,55 +6883,54 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Postura erguida y relajada, presencia serena ante la cámara.
 *   **I (Iluminación):** Luz natural difusa de invierno, envolvente y suave.
 *   **S (Sensación):** Paz, quietud, elegancia fría y poética.
-*   **E (Estilo):** Fotorrealista con toque artístico, retrato cinematográfico.
+*   **L (Lenguaje Visual):** Fotorrealista con toque artístico, retrato cinematográfico.
 *   **M (Composición):** Plano medio centrado, los copos de nieve envuelven al sujeto.
-*   **P (Post):** Paleta fría (blancos y grises azulados), contraste suave, look etéreo.
+*   **O (Optimización final):** Paleta fría (blancos y grises azulados), contraste suave, look etéreo.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Winter Tranquility Portrait — Snowfall Elegance",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Figura femenina con rasgos serenos y elegantes, piel natural con tonos fríos suaves, identidad visual calmada y armónica.",
-                    "expresion": "Tranquila, contemplativa, con una sensación de quietud interior.",
-                    "vestuario": "Abrigo de piel lujoso que envuelve la figura con presencia y sofisticación.",
-                    "coherencia": "Proporciones realistas y apariencia refinada, sin exageración."
-                },
-                "E_Entorno": {
-                    "fondo": "Escenario exterior invernal con caída de nieve.",
-                    "ambientacion": "Paisaje frío y silencioso que refuerza la sensación de calma.",
-                    "elementos_clave": "Copos de nieve visibles flotando alrededor del sujeto."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Postura erguida y relajada.",
-                    "lenguaje_corporal": "Calma absoluta, presencia serena.",
-                    "mirada": "Suave, dirigida al frente o ligeramente fuera de cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación natural difusa de invierno.",
-                    "caracteristicas": "Luz suave y envolvente que resalta la textura del abrigo y los copos de nieve."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Paz, quietud, elegancia fría.",
-                    "tono": "Poético, invernal, contemplativo."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Retrato cinematográfico de invierno.",
-                    "texturas": "Detalle visible en la piel, el abrigo de piel y los copos de nieve.",
-                    "nivel_realismo": "Fotorrealista con toque artístico."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Ángulo neutro.",
-                    "encuadre": "Composición centrada con nieve envolviendo al sujeto."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Paleta fría con blancos suaves y grises azulados.",
-                    "contraste": "Suave.",
-                    "acabado": "Look limpio y etéreo que refuerza la tranquilidad invernal."
-                }
-            },
-            "final_prompt": "Cinematic winter portrait of an elegant woman in a luxurious fur coat, serene and contemplative expression. Natural soft cold skin tones. Falling snow in a quiet winter landscape background. Diffuse natural winter lighting. Photorealistic 8K, cold color palette with soft whites and blueish grays, ethereal atmosphere. --ar 16:9"
-        }, null, 2),
+  "title": "Winter Tranquility Portrait — Snowfall Elegance",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Figura femenina con rasgos serenos y elegantes, piel natural con tonos fríos suaves, identidad visual calmada y armónica.",
+      "expresion": "Tranquila, contemplativa, con una sensación de quietud interior.",
+      "vestuario": "Abrigo de piel lujoso que envuelve la figura con presencia y sofisticación.",
+      "coherencia": "Proporciones realistas y apariencia refinada, sin exageración."
+    },
+    "E_Entorno": {
+      "fondo": "Escenario exterior invernal con caída de nieve.",
+      "ambientacion": "Paisaje frío y silencioso que refuerza la sensación de calma.",
+      "elementos_clave": "Copos de nieve visibles flotando alrededor del sujeto."
+    },
+    "A_Accion_Postura": {
+      "pose": "Postura erguida y relajada.",
+      "lenguaje_corporal": "Calma absoluta, presencia serena.",
+      "mirada": "Suave, dirigida al frente o ligeramente fuera de cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Retrato cinematográfico de invierno.",
+      "texturas": "Detalle visible en la piel, el abrigo de piel y los copos de nieve.",
+      "nivel_realismo": "Fotorrealista con toque artístico."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación natural difusa de invierno.",
+      "caracteristicas": "Luz suave y envolvente que resalta la textura del abrigo y los copos de nieve."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Paz, quietud, elegancia fría.",
+      "tono": "Poético, invernal, contemplativo."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Ángulo neutro.",
+      "encuadre": "Composición centrada con nieve envolviendo al sujeto."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Paleta fría con blancos suaves y grises azulados.",
+      "contraste": "Suave.",
+      "acabado": "Look limpio y etéreo que refuerza la tranquilidad invernal."
+    }
+  }
+}, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
@@ -6963,50 +6955,50 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** De pie manipulando un MacBook Pro, gestualidad natural y profesional.
 *   **I (Iluminación):** Studio soft light, sombras mínimas.
 *   **S (Sensación):** Productividad, modernidad, tono marketing clean.
-*   **E (Estilo):** Editorial minimalista, paleta neutra elegante.
+*   **L (Lenguaje Visual):** Editorial minimalista, paleta neutra elegante.
 *   **M (Composicion):** Full body, ángulo neutral, modelo centrada.
-*   **P (Post):** Tonos suaves, claridad alta.
+*   **O (Optimización final):** Tonos suaves, claridad alta.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Retrato Fashion de Cuerpo Completo con MacBook Pro - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro natural con maquillaje suave.",
-                    "expresion": "Neutra profesional.",
-                    "cabello": "Rojo, suelto.",
-                    "coherencia": "Medidas corporales exactas según prompt original."
-                },
-                "E_Entorno": {
-                    "fondo": "Neutro apagado estilo marketing.",
-                    "ambientacion": "Minimalista."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie manipulando un MacBook Pro.",
-                    "gestualidad": "Natural y profesional."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Studio soft light.",
-                    "caracteristicas": "Sombras mínimas."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Productividad, modernidad.",
-                    "tono": "Marketing clean."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Editorial minimalista.",
-                    "color": "Paleta neutra elegante."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Full body.",
-                    "angulo": "Neutral.",
-                    "encuadre": "Modelo centrada."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos suaves.",
-                    "claridad": "Alta."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Fashion de Cuerpo Completo con MacBook Pro - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro natural con maquillaje suave.",
+      "expresion": "Neutra profesional.",
+      "cabello": "Rojo, suelto.",
+      "coherencia": "Medidas corporales exactas según prompt original."
+    },
+    "E_Entorno": {
+      "fondo": "Neutro apagado estilo marketing.",
+      "ambientacion": "Minimalista."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie manipulando un MacBook Pro.",
+      "gestualidad": "Natural y profesional."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Editorial minimalista.",
+      "color": "Paleta neutra elegante."
+    },
+    "I_Iluminacion": {
+      "tipo": "Studio soft light.",
+      "caracteristicas": "Sombras mínimas."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Productividad, modernidad.",
+      "tono": "Marketing clean."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Full body.",
+      "angulo": "Neutral.",
+      "encuadre": "Modelo centrada."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos suaves.",
+      "claridad": "Alta."
+    }
+  }
+}, null, 2),
         "category": "Fashion",
         "level": "intermediate",
         "is_published": true,
@@ -7031,51 +7023,51 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Espalda con espalda junto al hombre, mirada directa intensa a cámara.
 *   **I (Iluminación):** Luz controlada suave, contraste elegante B&W.
 *   **S (Sensación):** Fuerza, elegancia, sofisticación, tono editorial clásico.
-*   **E (Estilo):** Monocromo elegante, blancos puros, negros profundos, textura alta definición fashion.
+*   **L (Lenguaje Visual):** Monocromo elegante, blancos puros, negros profundos, textura alta definición fashion.
 *   **M (Composición):** Mitad de cuerpo, altura de ojos, ambos sujetos centrados y simétricos.
-*   **P (Post):** B&W de alto contraste, claridad alta y precisa.
+*   **O (Optimización final):** B&W de alto contraste, claridad alta y precisa.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Retrato B&W de Pareja de Alta Costura (Espalda con Espalda) - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Expresión intensa y elegante.",
-                    "expresion": "Seria, editorial.",
-                    "cabello": "Ondas largas estilizadas.",
-                    "estilo": "Blazer negro con crop top."
-                },
-                "E_Entorno": {
-                    "fondo": "Telón gris claro minimalista.",
-                    "ambientacion": "Moda de estudio en B&W."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Espalda con espalda junto al hombre.",
-                    "mirada": "Directa intensa a cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz controlada suave.",
-                    "caracteristicas": "Contraste elegante B&W."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Fuerza, elegancia, sofisticación.",
-                    "tono": "Editorial clásico."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Monocromo elegante.",
-                    "color": "Blancos puros, negros profundos.",
-                    "textura": "Alta definición fashion."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Mitad de cuerpo.",
-                    "angulo": "Altura de ojos.",
-                    "encuadre": "Ambos sujetos centrados y simétricos."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "B&W de alto contraste.",
-                    "claridad": "Alta y precisa."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato B&W de Pareja de Alta Costura (Espalda con Espalda) - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Expresión intensa y elegante.",
+      "expresion": "Seria, editorial.",
+      "cabello": "Ondas largas estilizadas.",
+      "estilo": "Blazer negro con crop top."
+    },
+    "E_Entorno": {
+      "fondo": "Telón gris claro minimalista.",
+      "ambientacion": "Moda de estudio en B&W."
+    },
+    "A_Accion_Postura": {
+      "pose": "Espalda con espalda junto al hombre.",
+      "mirada": "Directa intensa a cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Monocromo elegante.",
+      "color": "Blancos puros, negros profundos.",
+      "textura": "Alta definición fashion."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz controlada suave.",
+      "caracteristicas": "Contraste elegante B&W."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Fuerza, elegancia, sofisticación.",
+      "tono": "Editorial clásico."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Mitad de cuerpo.",
+      "angulo": "Altura de ojos.",
+      "encuadre": "Ambos sujetos centrados y simétricos."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "B&W de alto contraste.",
+      "claridad": "Alta y precisa."
+    }
+  }
+}, null, 2),
         "category": "Fashion",
         "level": "intermediate",
         "is_published": true,
@@ -7100,49 +7092,49 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** De pie al lado del hombre, mano en su cintura. Mirada hacia cámara.
 *   **I (Iluminación):** Luz difusa desde la izquierda, sombras delicadas y cálidas.
 *   **S (Sensación):** Conexión emocional, tono retrato cálido editorial.
-*   **E (Estilo):** Lifestyle cálido y moderno, paleta beige, negro, marrón suave.
+*   **L (Lenguaje Visual):** Lifestyle cálido y moderno, paleta beige, negro, marrón suave.
 *   **M (Composición):** Plano medio, ángulo altura de ojos.
-*   **P (Post):** Color grading cálido elegante, claridad alta y suave.
+*   **O (Optimización final):** Color grading cálido elegante, claridad alta y suave.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Retrato Íntimo de Pareja en Sala Moderna - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Perfil delicado, mirada suave.",
-                    "expresion": "Cálida, afectuosa.",
-                    "cabello": "Largo con ondas suaves.",
-                    "indumentaria": "Top y falda negros."
-                },
-                "E_Entorno": {
-                    "fondo": "Sala moderna desenfocada con tonos beige.",
-                    "ambientacion": "Elegante y cálida."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie al lado del hombre, mano en su cintura.",
-                    "mirada": "Hacia cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz difusa desde la izquierda.",
-                    "caracteristicas": "Sombras delicadas y cálidas."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Conexión emocional.",
-                    "tono": "Retrato cálido editorial."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Lifestyle cálido y moderno.",
-                    "color": "Paleta cálida: beige, negro, marrón suave."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medio.",
-                    "angulo": "Altura de ojos."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Cálido elegante.",
-                    "claridad": "Alta y suave."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Íntimo de Pareja en Sala Moderna - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Perfil delicado, mirada suave.",
+      "expresion": "Cálida, afectuosa.",
+      "cabello": "Largo con ondas suaves.",
+      "indumentaria": "Top y falda negros."
+    },
+    "E_Entorno": {
+      "fondo": "Sala moderna desenfocada con tonos beige.",
+      "ambientacion": "Elegante y cálida."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie al lado del hombre, mano en su cintura.",
+      "mirada": "Hacia cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Lifestyle cálido y moderno.",
+      "color": "Paleta cálida: beige, negro, marrón suave."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz difusa desde la izquierda.",
+      "caracteristicas": "Sombras delicadas y cálidas."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Conexión emocional.",
+      "tono": "Retrato cálido editorial."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medio.",
+      "angulo": "Altura de ojos."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Cálido elegante.",
+      "claridad": "Alta y suave."
+    }
+  }
+}, null, 2),
         "category": "Lifestyle",
         "level": "intermediate",
         "is_published": true,
@@ -7167,50 +7159,50 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Sentada dentro de una caja roja gigante. Manos abiertas, postura alegre.
 *   **I (Iluminación):** Luz cálida festiva, bokeh navideño brillante.
 *   **S (Sensación):** Alegría festiva, tono comercial navideño.
-*   **E (Estilo):** Fotografía publicitaria navideña, rojos, verdes, dorados, brillo suave y cálido.
+*   **L (Lenguaje Visual):** Fotografía publicitaria navideña, rojos, verdes, dorados, brillo suave y cálido.
 *   **M (Composición):** Medium shot, ligero picado desde arriba.
-*   **P (Post):** Calidez navideña, claridad alta, bokeh expandido.
+*   **O (Optimización final):** Calidez navideña, claridad alta, bokeh expandido.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Retrato Navideño con Caja de Regalo y Letrero Neón - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Sonrisa amplia, maquillaje navideño suave.",
-                    "cabello": "Rubio largo, suelto.",
-                    "indumentaria": "Minivestido rojo brillante."
-                },
-                "E_Entorno": {
-                    "fondo": "Árboles navideños con luces cálidas.",
-                    "elementos": "Letrero 'Merry Christmas' en neón blanco."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada dentro de una caja roja gigante.",
-                    "gestualidad": "Manos abiertas, postura alegre."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz cálida festiva.",
-                    "caracteristicas": "Bokeh navideño brillante."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Alegría festiva.",
-                    "tono": "Comercial navideño."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Fotografía publicitaria navideña.",
-                    "color": "Rojos, verdes, dorados.",
-                    "textura": "Brillo suave y cálido."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medium shot.",
-                    "angulo": "Ligero picado desde arriba."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Calidez navideña.",
-                    "claridad": "Alta.",
-                    "efectos": "Bokeh expandido."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Navideño con Caja de Regalo y Letrero Neón - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Sonrisa amplia, maquillaje navideño suave.",
+      "cabello": "Rubio largo, suelto.",
+      "indumentaria": "Minivestido rojo brillante."
+    },
+    "E_Entorno": {
+      "fondo": "Árboles navideños con luces cálidas.",
+      "elementos": "Letrero 'Merry Christmas' en neón blanco."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada dentro de una caja roja gigante.",
+      "gestualidad": "Manos abiertas, postura alegre."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Fotografía publicitaria navideña.",
+      "color": "Rojos, verdes, dorados.",
+      "textura": "Brillo suave y cálido."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz cálida festiva.",
+      "caracteristicas": "Bokeh navideño brillante."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Alegría festiva.",
+      "tono": "Comercial navideño."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medium shot.",
+      "angulo": "Ligero picado desde arriba."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Calidez navideña.",
+      "claridad": "Alta.",
+      "efectos": "Bokeh expandido."
+    }
+  }
+}, null, 2),
         "category": "Holiday",
         "level": "beginner",
         "is_published": true,
@@ -7235,48 +7227,48 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Manos cerca del rostro en gesto contemplativo. Mirada hacia arriba.
 *   **I (Iluminación):** Luz cálida tenue, sombras suaves e íntimas.
 *   **S (Sensación):** Nostalgia y calidez emocional, tono íntimo navideño.
-*   **E (Estilo):** Retrato navideño tipo editorial, rojos profundos y dorados oscuros.
+*   **L (Lenguaje Visual):** Retrato navideño tipo editorial, rojos profundos y dorados oscuros.
 *   **M (Composición):** Medium close-up, ángulo neutral.
-*   **P (Post):** Color grading cálido profundo, claridad moderada para efecto suave.
+*   **O (Optimización final):** Color grading cálido profundo, claridad moderada para efecto suave.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Retrato Íntimo y Cálido Navideño - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Mirada pensativa, maquillaje suave.",
-                    "cabello": "Rubio largo natural.",
-                    "indumentaria": "Suéter rojo navideño."
-                },
-                "E_Entorno": {
-                    "fondo": "Árbol navideño oscuro con bokeh dorado.",
-                    "ambientacion": "Cálida e íntima."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Manos cerca del rostro en gesto contemplativo.",
-                    "mirada": "Hacia arriba."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz cálida tenue.",
-                    "caracteristicas": "Sombras suaves e íntimas."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Nostalgia y calidez emocional.",
-                    "tono": "Íntimo navideño."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Retrato navideño tipo editorial.",
-                    "color": "Rojos profundos y dorados oscuros."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medium close-up.",
-                    "angulo": "Neutral."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Cálido profundo.",
-                    "claridad": "Moderada para efecto suave."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Íntimo y Cálido Navideño - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Mirada pensativa, maquillaje suave.",
+      "cabello": "Rubio largo natural.",
+      "indumentaria": "Suéter rojo navideño."
+    },
+    "E_Entorno": {
+      "fondo": "Árbol navideño oscuro con bokeh dorado.",
+      "ambientacion": "Cálida e íntima."
+    },
+    "A_Accion_Postura": {
+      "pose": "Manos cerca del rostro en gesto contemplativo.",
+      "mirada": "Hacia arriba."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Retrato navideño tipo editorial.",
+      "color": "Rojos profundos y dorados oscuros."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz cálida tenue.",
+      "caracteristicas": "Sombras suaves e íntimas."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Nostalgia y calidez emocional.",
+      "tono": "Íntimo navideño."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medium close-up.",
+      "angulo": "Neutral."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Cálido profundo.",
+      "claridad": "Moderada para efecto suave."
+    }
+  }
+}, null, 2),
         "category": "Holiday",
         "level": "intermediate",
         "is_published": true,
@@ -7301,52 +7293,52 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Selfie frente al espejo, gestualidad teléfono en mano.
 *   **I (Iluminación):** Luz natural suave, sin iluminación profesional.
 *   **S (Sensación):** Naturalidad y espontaneidad, tono realista no profesional.
-*   **E (Estilo):** Foto de móvil real, colores neutros sin estilización, textura suave típica de cámara de baja calidad.
+*   **L (Lenguaje Visual):** Foto de móvil real, colores neutros sin estilización, textura suave típica de cámara de baja calidad.
 *   **M (Composición):** Selfie close-up / medio, ángulo vertical espejo, encuadre centrado y casual.
-*   **P (Post):** Edición mínima, contraste natural, nitidez moderada/baja.
+*   **O (Optimización final):** Edición mínima, contraste natural, nitidez moderada/baja.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Selfie Casual en Gimnasio con Estilo de Teléfono - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Natural, sin retoque.",
-                    "cabello": "Peinado casual.",
-                    "expresion": "Espontánea.",
-                    "indumentaria": "Outfit deportivo girly en negro y rosa."
-                },
-                "E_Entorno": {
-                    "fondo": "Gimnasio real, ligeramente desordenado.",
-                    "ambientacion": "Casual auténtica."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Selfie frente al espejo.",
-                    "gestualidad": "Teléfono en mano."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz natural suave.",
-                    "caracteristicas": "Sin iluminación profesional."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Naturalidad y espontaneidad.",
-                    "tono": "Realista no profesional."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Foto de móvil real.",
-                    "color": "Neutros, sin estilización.",
-                    "textura": "Suavidad típica de cámara de baja calidad."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Selfie close-up / medio.",
-                    "angulo": "Vertical espejo.",
-                    "encuadre": "Centrado y casual."
-                },
-                "O_Optimizacion_final": {
-                    "edicion": "Mínima.",
-                    "contraste": "Natural.",
-                    "nitidez": "Moderada/baja."
-                }
-            }
-        }, null, 2),
+  "title": "Selfie Casual en Gimnasio con Estilo de Teléfono - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Natural, sin retoque.",
+      "cabello": "Peinado casual.",
+      "expresion": "Espontánea.",
+      "indumentaria": "Outfit deportivo girly en negro y rosa."
+    },
+    "E_Entorno": {
+      "fondo": "Gimnasio real, ligeramente desordenado.",
+      "ambientacion": "Casual auténtica."
+    },
+    "A_Accion_Postura": {
+      "pose": "Selfie frente al espejo.",
+      "gestualidad": "Teléfono en mano."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Foto de móvil real.",
+      "color": "Neutros, sin estilización.",
+      "textura": "Suavidad típica de cámara de baja calidad."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz natural suave.",
+      "caracteristicas": "Sin iluminación profesional."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Naturalidad y espontaneidad.",
+      "tono": "Realista no profesional."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Selfie close-up / medio.",
+      "angulo": "Vertical espejo.",
+      "encuadre": "Centrado y casual."
+    },
+    "O_Optimizacion_final": {
+      "edicion": "Mínima.",
+      "contraste": "Natural.",
+      "nitidez": "Moderada/baja."
+    }
+  }
+}, null, 2),
         "category": "Lifestyle",
         "level": "beginner",
         "is_published": true,
@@ -7371,52 +7363,52 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Sentada junto a otra chica en el sofá. Interacción divertida con el encendedor.
 *   **I (Iluminación):** Luz de velas + neón, reflejos cálidos en rostros.
 *   **S (Sensación):** Risa, energía rebelde, tono oscuro juvenil.
-*   **E (Estilo):** Cine oscuro 50mm f/1.4 realista, neón rosa, amarillo cálido, alta nitidez nocturna.
+*   **L (Lenguaje Visual):** Cine oscuro 50mm f/1.4 realista, neón rosa, amarillo cálido, alta nitidez nocturna.
 *   **M (Composición):** Plano medio, altura de ojos, enfoque en rostros y llama.
-*   **P (Post):** Color grading oscuro-neón vibrante, claridad alta, glow del fuego.
+*   **O (Optimización final):** Color grading oscuro-neón vibrante, claridad alta, glow del fuego.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Escena Estilo Jennifer’s Body en Sofá de Terciopelo - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Expresiva y traviesa.",
-                    "cabello": "Peinado suelto de fiesta.",
-                    "indumentaria": "Baby tee corta y mini falda baja.",
-                    "expresion": "Lengua afuera en pose divertida."
-                },
-                "E_Entorno": {
-                    "fondo": "Sala oscura con luces neón y velas.",
-                    "ambientacion": "Oscura, mística y cinematográfica."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada junto a otra chica en el sofá.",
-                    "gestualidad": "Interacción divertida con el encendedor."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz de velas + neón.",
-                    "caracteristicas": "Reflejos cálidos en rostros."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Risa, energía rebelde.",
-                    "tono": "Oscuro juvenil."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Cine oscuro 50mm f/1.4 realista.",
-                    "color": "Neón rosa, amarillo cálido.",
-                    "textura": "Alta nitidez nocturna."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medio.",
-                    "angulo": "Altura de ojos.",
-                    "enfoque": "Rostros y llama."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Oscuro-neón vibrante.",
-                    "claridad": "Alta.",
-                    "efectos": "Glow del fuego."
-                }
-            }
-        }, null, 2),
+  "title": "Escena Estilo Jennifer’s Body en Sofá de Terciopelo - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Expresiva y traviesa.",
+      "cabello": "Peinado suelto de fiesta.",
+      "indumentaria": "Baby tee corta y mini falda baja.",
+      "expresion": "Lengua afuera en pose divertida."
+    },
+    "E_Entorno": {
+      "fondo": "Sala oscura con luces neón y velas.",
+      "ambientacion": "Oscura, mística y cinematográfica."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada junto a otra chica en el sofá.",
+      "gestualidad": "Interacción divertida con el encendedor."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Cine oscuro 50mm f/1.4 realista.",
+      "color": "Neón rosa, amarillo cálido.",
+      "textura": "Alta nitidez nocturna."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz de velas + neón.",
+      "caracteristicas": "Reflejos cálidos en rostros."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Risa, energía rebelde.",
+      "tono": "Oscuro juvenil."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medio.",
+      "angulo": "Altura de ojos.",
+      "enfoque": "Rostros y llama."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Oscuro-neón vibrante.",
+      "claridad": "Alta.",
+      "efectos": "Glow del fuego."
+    }
+  }
+}, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
@@ -7441,50 +7433,50 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Selfie frontal inclinada, sosteniendo una papa frita.
 *   **I (Iluminación):** Neón exterior filtrado, reflejos multicolores.
 *   **S (Sensación):** Juego, humor, vibra Gen Z.
-*   **E (Estilo):** Realismo iPhone nocturno, colores rosa, azul, púrpura.
+*   **L (Lenguaje Visual):** Realismo iPhone nocturno, colores rosa, azul, púrpura.
 *   **M (Composición):** Selfie close-up, ángulo ligeramente alto.
-*   **P (Post):** Neón saturado, ruido ligero.
+*   **O (Optimización final):** Neón saturado, ruido ligero.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Selfie en Auto Rosa con Estética Neon Horror - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Risa espontánea, expresión alegre.",
-                    "cabello": "Suelto, natural.",
-                    "indumentaria": "Cropped hoodie y mini falda casual."
-                },
-                "E_Entorno": {
-                    "fondo": "Drive-thru de terror con neón multicolor.",
-                    "elementos": "Michael Myers sosteniendo malteada."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Selfie frontal inclinada.",
-                    "gestualidad": "Sosteniendo una papa frita y diciendo 'cheese'."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Neón exterior filtrado al auto.",
-                    "caracteristicas": "Reflejos multicolores."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Juego, humor, vibra Gen Z.",
-                    "tono": "Casual con toque slasher cómico."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Realismo estilo iPhone nocturno.",
-                    "color": "Rosa, azul, púrpura."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Selfie close-up.",
-                    "angulo": "Ligeramente alto.",
-                    "encuadre": "Casual y espontáneo."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Neón saturado.",
-                    "claridad": "Media acorde a móvil.",
-                    "ruido": "Ligero."
-                }
-            }
-        }, null, 2),
+  "title": "Selfie en Auto Rosa con Estética Neon Horror - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Risa espontánea, expresión alegre.",
+      "cabello": "Suelto, natural.",
+      "indumentaria": "Cropped hoodie y mini falda casual."
+    },
+    "E_Entorno": {
+      "fondo": "Drive-thru de terror con neón multicolor.",
+      "elementos": "Michael Myers sosteniendo malteada."
+    },
+    "A_Accion_Postura": {
+      "pose": "Selfie frontal inclinada.",
+      "gestualidad": "Sosteniendo una papa frita y diciendo 'cheese'."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Realismo estilo iPhone nocturno.",
+      "color": "Rosa, azul, púrpura."
+    },
+    "I_Iluminacion": {
+      "tipo": "Neón exterior filtrado al auto.",
+      "caracteristicas": "Reflejos multicolores."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Juego, humor, vibra Gen Z.",
+      "tono": "Casual con toque slasher cómico."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Selfie close-up.",
+      "angulo": "Ligeramente alto.",
+      "encuadre": "Casual y espontáneo."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Neón saturado.",
+      "claridad": "Media acorde a móvil.",
+      "ruido": "Ligero."
+    }
+  }
+}, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
@@ -7509,51 +7501,51 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Frente al espejo, formando burbuja de chicle.
 *   **I (Iluminación):** Fluorescente parpadeante, sombras duras y tonos verdosos.
 *   **S (Sensación):** Tensión mezclada con humor irreverente, gritty horror 90s.
-*   **E (Estilo):** Calidad baja y ruda, desaturado y sucio, ruido marcado.
+*   **L (Lenguaje Visual):** Calidad baja y ruda, desaturado y sucio, ruido marcado.
 *   **M (Composición):** Selfie en espejo, frontal.
-*   **P (Post):** Tonos verdes fríos, claridad baja, ruido alto.
+*   **O (Optimización final):** Tonos verdes fríos, claridad baja, ruido alto.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Selfie Gritty en Baño de Gasolinera 90s con Freddy Krueger - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Expresión despreocupada haciendo burbuja de chicle.",
-                    "cabello": "Despeinado casual.",
-                    "indumentaria": "Top rojo halter, mini falda y medias de red."
-                },
-                "E_Entorno": {
-                    "fondo": "Baño sucio estilo 90s, azulejos viejos.",
-                    "elementos": "Freddy Krueger en puerta del cubículo."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Frente al espejo.",
-                    "gestualidad": "Formando burbuja de chicle."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Fluorescente parpadeante.",
-                    "caracteristicas": "Sombras duras y tonos verdosos."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Tensión mezclada con humor irreverente.",
-                    "tono": "Gritty horror 90s."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Calidad baja y ruda.",
-                    "color": "Desaturado y sucio.",
-                    "textura": "Ruido marcado."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Selfie en espejo.",
-                    "angulo": "Frontal.",
-                    "encuadre": "Ajustado al centro."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos verdes fríos.",
-                    "claridad": "Baja.",
-                    "ruido": "Alto."
-                }
-            }
-        }, null, 2),
+  "title": "Selfie Gritty en Baño de Gasolinera 90s con Freddy Krueger - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Expresión despreocupada haciendo burbuja de chicle.",
+      "cabello": "Despeinado casual.",
+      "indumentaria": "Top rojo halter, mini falda y medias de red."
+    },
+    "E_Entorno": {
+      "fondo": "Baño sucio estilo 90s, azulejos viejos.",
+      "elementos": "Freddy Krueger en puerta del cubículo."
+    },
+    "A_Accion_Postura": {
+      "pose": "Frente al espejo.",
+      "gestualidad": "Formando burbuja de chicle."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Calidad baja y ruda.",
+      "color": "Desaturado y sucio.",
+      "textura": "Ruido marcado."
+    },
+    "I_Iluminacion": {
+      "tipo": "Fluorescente parpadeante.",
+      "caracteristicas": "Sombras duras y tonos verdosos."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Tensión mezclada con humor irreverente.",
+      "tono": "Gritty horror 90s."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Selfie en espejo.",
+      "angulo": "Frontal.",
+      "encuadre": "Ajustado al centro."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos verdes fríos.",
+      "claridad": "Baja.",
+      "ruido": "Alto."
+    }
+  }
+}, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
@@ -7578,50 +7570,50 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Selfie elevada ligeramente, posición casual de noche.
 *   **I (Iluminación):** Luz ambiental nocturna de estacionamiento, sombras suaves, colores urbanos.
 *   **S (Sensación):** Casualidad nocturna, Halloween urbano realista.
-*   **E (Estilo):** Estética iPhone nocturna, colores fríos con acentos cálidos.
+*   **L (Lenguaje Visual):** Estética iPhone nocturna, colores fríos con acentos cálidos.
 *   **M (Composición):** Selfie medio, ángulo ligeramente alto, encuadre desenfadado.
-*   **P (Post):** Color grading urban night, claridad media-baja, ruido moderado.
+*   **O (Optimización final):** Color grading urban night, claridad media-baja, ruido moderado.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Selfie Nocturna en Estacionamiento con Jason Voorhees - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Expresión natural relajada.",
-                    "cabello": "Rubio liso largo.",
-                    "indumentaria": "Hoodie negro corto, mini falda roja, calcetas altas."
-                },
-                "E_Entorno": {
-                    "fondo": "Estacionamiento con luces y trick-or-treaters.",
-                    "elementos": "Jason sosteniendo calabaza pequeña."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Selfie elevada ligeramente.",
-                    "gestualidad": "Posición casual de noche."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz ambiental nocturna de estacionamiento.",
-                    "caracteristicas": "Sombras suaves, colores urbanos."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Casualidad nocturna.",
-                    "tono": "Halloween urbano realista."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Estética iPhone nocturna.",
-                    "color": "Colores fríos con acentos cálidos."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Selfie medio.",
-                    "angulo": "Ligeramente alto.",
-                    "encuadre": "Desenfadado."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Urban night.",
-                    "claridad": "Media-baja.",
-                    "ruido": "Moderado."
-                }
-            }
-        }, null, 2),
+  "title": "Selfie Nocturna en Estacionamiento con Jason Voorhees - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Expresión natural relajada.",
+      "cabello": "Rubio liso largo.",
+      "indumentaria": "Hoodie negro corto, mini falda roja, calcetas altas."
+    },
+    "E_Entorno": {
+      "fondo": "Estacionamiento con luces y trick-or-treaters.",
+      "elementos": "Jason sosteniendo calabaza pequeña."
+    },
+    "A_Accion_Postura": {
+      "pose": "Selfie elevada ligeramente.",
+      "gestualidad": "Posición casual de noche."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Estética iPhone nocturna.",
+      "color": "Colores fríos con acentos cálidos."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz ambiental nocturna de estacionamiento.",
+      "caracteristicas": "Sombras suaves, colores urbanos."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Casualidad nocturna.",
+      "tono": "Halloween urbano realista."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Selfie medio.",
+      "angulo": "Ligeramente alto.",
+      "encuadre": "Desenfadado."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Urban night.",
+      "claridad": "Media-baja.",
+      "ruido": "Moderado."
+    }
+  }
+}, null, 2),
         "category": "Cinematic",
         "level": "intermediate",
         "is_published": true,
@@ -7646,50 +7638,50 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Mirada hacia el lado con postura segura, cuello y hombros relajados.
 *   **I (Iluminación):** Luz de estudio brillante, sombras suaves, piel muy definida.
 *   **S (Sensación):** Confianza y estilo, moda futurista minimalista.
-*   **E (Estilo):** High-fashion editorial, paleta vibrante naranja/azul/rojo, ropa con textura clara.
+*   **L (Lenguaje Visual):** High-fashion editorial, paleta vibrante naranja/azul/rojo, ropa con textura clara.
 *   **M (Composición):** Retrato medio, ángulo altura de ojos.
-*   **P (Post):** Saturación moderada y contrastes fuertes, claridad alta.
+*   **O (Optimización final):** Saturación moderada y contrastes fuertes, claridad alta.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Fashion Editorial con Suéter Geométrico - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rasgos femeninos definidos, expresión seria elegante.",
-                    "cabello": "Melena larga o bob estilizado.",
-                    "accesorios": "Gafas redondas negro-dorado.",
-                    "indumentaria": "Suéter geométrico con cuello naranja grueso."
-                },
-                "E_Entorno": {
-                    "fondo": "Naranja sólido vibrante.",
-                    "ambientacion": "Moda editorial moderna."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Mirada hacia el lado con postura segura.",
-                    "gestualidad": "Cuello y hombros relajados."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz de estudio brillante.",
-                    "caracteristicas": "Sombras suaves, piel muy definida."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Confianza y estilo.",
-                    "tono": "Moda futurista minimalista."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "High-fashion editorial.",
-                    "color": "Paleta vibrante naranja/azul/rojo.",
-                    "textura": "Ropa con textura clara."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Retrato medio.",
-                    "angulo": "Altura de ojos."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Saturación moderada y contrastes fuertes.",
-                    "claridad": "Alta."
-                }
-            }
-        }, null, 2),
+  "title": "Fashion Editorial con Suéter Geométrico - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rasgos femeninos definidos, expresión seria elegante.",
+      "cabello": "Melena larga o bob estilizado.",
+      "accesorios": "Gafas redondas negro-dorado.",
+      "indumentaria": "Suéter geométrico con cuello naranja grueso."
+    },
+    "E_Entorno": {
+      "fondo": "Naranja sólido vibrante.",
+      "ambientacion": "Moda editorial moderna."
+    },
+    "A_Accion_Postura": {
+      "pose": "Mirada hacia el lado con postura segura.",
+      "gestualidad": "Cuello y hombros relajados."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "High-fashion editorial.",
+      "color": "Paleta vibrante naranja/azul/rojo.",
+      "textura": "Ropa con textura clara."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz de estudio brillante.",
+      "caracteristicas": "Sombras suaves, piel muy definida."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Confianza y estilo.",
+      "tono": "Moda futurista minimalista."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Retrato medio.",
+      "angulo": "Altura de ojos."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Saturación moderada y contrastes fuertes.",
+      "claridad": "Alta."
+    }
+  }
+}, null, 2),
         "category": "Fashion",
         "level": "intermediate",
         "is_published": true,
@@ -7714,49 +7706,49 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** De pie mirando al lado, postura calmada.
 *   **I (Iluminación):** Luz cálida suave, enfatiza textura del suéter.
 *   **S (Sensación):** Elegancia festiva, editorial navideño serio.
-*   **E (Estilo):** Alta moda navideña, rojos profundos y verdes suaves.
+*   **L (Lenguaje Visual):** Alta moda navideña, rojos profundos y verdes suaves.
 *   **M (Composición):** Medium shot, ángulo frontal leve.
-*   **P (Post):** Color grading navideño cálido, claridad alta.
+*   **O (Optimización final):** Color grading navideño cálido, claridad alta.
         `,
         "prompt_text": JSON.stringify({
-            "title": "Retrato Femenino con Suéter Navideño y Gafas Oscuras - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Expresión seria y elegante.",
-                    "cabello": "Rubio largo o castaño.",
-                    "indumentaria": "Suéter navideño rojo/blanco/verde.",
-                    "accesorios": "Gafas oscuras redondas."
-                },
-                "E_Entorno": {
-                    "fondo": "Rojo profundo con luces de navidad borrosas.",
-                    "ambientacion": "Studio Christmas editorial."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie mirando al lado.",
-                    "gestualidad": "Postura calmada."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz cálida suave.",
-                    "caracteristicas": "Enfatiza textura del suéter."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Elegancia festiva.",
-                    "tono": "Editorial navideño serio."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Alta moda navideña.",
-                    "color": "Rojos profundos y verdes suaves."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medium shot.",
-                    "angulo": "Frontal leve."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Navideño cálido.",
-                    "claridad": "Alta."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Femenino con Suéter Navideño y Gafas Oscuras - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Expresión seria y elegante.",
+      "cabello": "Rubio largo o castaño.",
+      "indumentaria": "Suéter navideño rojo/blanco/verde.",
+      "accesorios": "Gafas oscuras redondas."
+    },
+    "E_Entorno": {
+      "fondo": "Rojo profundo con luces de navidad borrosas.",
+      "ambientacion": "Studio Christmas editorial."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie mirando al lado.",
+      "gestualidad": "Postura calmada."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Alta moda navideña.",
+      "color": "Rojos profundos y verdes suaves."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz cálida suave.",
+      "caracteristicas": "Enfatiza textura del suéter."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Elegancia festiva.",
+      "tono": "Editorial navideño serio."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medium shot.",
+      "angulo": "Frontal leve."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Navideño cálido.",
+      "claridad": "Alta."
+    }
+  }
+}, null, 2),
         "category": "Fashion",
         "level": "intermediate",
         "is_published": true,
@@ -7781,9 +7773,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Plano chest-up, espacio negativo superior. Postura abierta y accesible.
 *   **I (Iluminación):** Studio soft light, envolvente y cálida. Catchlight sutil.
 *   **S (Sensación):** Confianza, calidez profesional, cercanía.
-*   **E (Estilo):** Retrato corporate high-end. Cardigan charcoal sobre blusa blanca.
+*   **L (Lenguaje Visual):** Retrato corporate high-end. Cardigan charcoal sobre blusa blanca.
 *   **M (Composición):** Ángulo ligeramente alto. Lente 85mm f/1.8. Poca profundidad de campo.
-*   **P (Post):** Detalle nítido. Color grading cinemático limpio.
+*   **O (Optimización final):** Detalle nítido. Color grading cinemático limpio.
         `,
         "prompt_text": JSON.stringify({
             "title": "Professional Studio Profile Photo — Business Casual Portrait",
@@ -7858,9 +7850,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Grid 3x3 con 9 tomas distintas (ojos, manos, perfiles, etc.). Ángulos tight headshots.
 *   **I (Iluminación):** Gran luz difusa frontal-derecha. Reflector fill. Rim sutil. Sombras suaves.
 *   **S (Sensación):** Íntimo, introspectivo, minimalista. Quietud emocional.
-*   **E (Estilo):** Fotografía editorial minimalista high-end. Muted grade. Un panel B&W. Grano sutil.
+*   **L (Lenguaje Visual):** Fotografía editorial minimalista high-end. Muted grade. Un panel B&W. Grano sutil.
 *   **M (Composición):** Grid 3x3 alineado. Lentes 35mm/50mm/85mm. DOF delgada.
-*   **P (Post):** Tonos apagados beige studio clean. Contraste suave. Grano cinemático.
+*   **O (Optimización final):** Tonos apagados beige studio clean. Contraste suave. Grano cinemático.
         `,
         "prompt_text": JSON.stringify({
             "title": "Editorial 3x3 Grid — Intimate Minimalist Portrait Series",
@@ -7953,9 +7945,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** En teléfono público, girando hacia cámara. Mano cubriendo parcialmente. Defensivo.
 *   **I (Iluminación):** Flash duro directo (paparazzi). Sombras duras.
 *   **S (Sensación):** Raw, espontáneo, misterioso. Energía Y2K.
-*   **E (Estilo):** Paparazzi 2000s. Lo-fi realista, grainy. Timestamp digital rojo.
+*   **L (Lenguaje Visual):** Paparazzi 2000s. Lo-fi realista, grainy. Timestamp digital rojo.
 *   **M (Composición):** Plano medio/close-up espontáneo. Ángulo snapshot inclinado.
-*   **P (Post):** Tonos nocturnos, flash frío. Alto contraste. Grano digital.
+*   **O (Optimización final):** Tonos nocturnos, flash frío. Alto contraste. Grano digital.
         `,
         "prompt_text": JSON.stringify({
             "title": "Early 2000s Paparazzi Night Shot — Raw Flash Street Portrait",
@@ -8031,9 +8023,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Sentado/de pie reaccionando con alegría. Interacción natural con personajes.
 *   **I (Iluminación):** Cinematográfica oscura. Luz de pantalla. Sombras suaves.
 *   **S (Sensación):** Divertido, nostálgico, épico. Energía geek.
-*   **E (Estilo):** Hiperrealista cinematográfico. Crossover gamer. Alta definición.
+*   **L (Lenguaje Visual):** Hiperrealista cinematográfico. Crossover gamer. Alta definición.
 *   **M (Composición):** Plano medio. Eye-level. Fondo semidesenfocado.
-*   **P (Post):** Dark cinematic, tonos cálidos, ligero glow.
+*   **O (Optimización final):** Dark cinematic, tonos cálidos, ligero glow.
         `,
         "prompt_text": JSON.stringify({
             "title": "Escena de cine con personajes de videojuegos",
@@ -8105,9 +8097,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Rostro centrado mirando a cámara. Expresión viral abierta.
 *   **I (Iluminación):** Iluminación intensa de thumbnail. Luz frontal brillante. Alto contraste.
 *   **S (Sensación):** Divertido, spooky, energético. Sensacionalista.
-*   **E (Estilo):** Miniatura ultra-realista 8K. Estética marketing viral.
+*   **L (Lenguaje Visual):** Miniatura ultra-realista 8K. Estética marketing viral.
 *   **M (Composición):** Horizontal 16:9. Close-up centrado.
-*   **P (Post):** Saturación alta, nitidez extrema. Glow ligero.
+*   **O (Optimización final):** Saturación alta, nitidez extrema. Glow ligero.
         `,
         "prompt_text": JSON.stringify({
             "title": "Miniatura estilo MrBeast con tema Halloween y expresión de sorpresa",
@@ -8186,9 +8178,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Acción):** Caja abierta. Pareja mirándose dulcemente. Energía enamorada.
 *   **I (Iluminación):** Ambiental cálida suave. Glow delicado.
 *   **S (Sensación):** Romántico, cálido, nostálgico, adorable. Keepsake de lujo.
-*   **E (Estilo):** Collectible chibi 3D premium. Estética pastel. Detalles dorados.
+*   **L (Lenguaje Visual):** Collectible chibi 3D premium. Estética pastel. Detalles dorados.
 *   **M (Composición):** Vertical 9:16. Plano medio producto. Caja foco central.
-*   **P (Post):** Tonos cálidos pastel. Contraste bajo-medio. Nitidez decorativa.
+*   **O (Optimización final):** Tonos cálidos pastel. Contraste bajo-medio. Nitidez decorativa.
         `,
         "prompt_text": JSON.stringify({
             "title": "Romantic Collectible Box — Forever Together Chibi Keepsake",
@@ -8286,9 +8278,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A (Postura):** Selfie high-angle desde el piso. Piernas recogidas. Cámara digital visible.
 *   **I (Iluminación):** Flash duro frontal (2000s style) + calidez de fuego de fondo.
 *   **S (Sensación):** Íntimo, nostálgico, relajado, auténtico.
-*   **E (Estilo):** Snapshot digital Y2K, influencers tempranos.
+*   **L (Lenguaje Visual):** Snapshot digital Y2K, influencers tempranos.
 *   **M (Composición):** Vertical 4:5, encuadre cerrado high-angle.
-*   **P (Post):** Contraste medio-alto, look digital vintage, glow cálido + flash frío.
+*   **O (Optimización final):** Contraste medio-alto, look digital vintage, glow cálido + flash frío.
         `,
         "prompt_text": JSON.stringify({
             "title": "Early 2000s Flash Selfie — Cozy Sweater Floor Portrait",
@@ -9354,166 +9346,23 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción):** Posando con un brazo levantado tomando una selfie a un ángulo alto, apoyada ligeramente sobre la puerta del conductor de un BMW i8.
 *   **I(Iluminación):** Luz natural de día, reflejos en el cromo del vehículo.
 *   **S(Sensación):** Flex casual de lujo, vibra main character e Instagram-perfect.
-*   **E(Estilo):** Foto urbana candid de estilo de vida de alta definición.
+*   **L (Lenguaje Visual):** Foto urbana candid de estilo de vida de alta definición.
 *   **M(Composición):** Plano medio-completo vertical, ella en el centro con el vehículo cromo rosa como co-estrella.
-*   **P(Post):** Paleta de colores súper contrastada y vibrante (Amarillo + Blanco + Rosa Cromo).
+*   **O (Optimización final):** Paleta de colores súper contrastada y vibrante (Amarillo + Blanco + Rosa Cromo).
         `,
         prompt_text: JSON.stringify({
-            "title": "Chrome Pink Supercar Selfie — Casual Instagram Main Character Mood",
-            "framework_REALISMO": {
-                "subject": {
-                    "description": "Young woman taking selfie next to chrome pink BMW i8, casual main character energy",
-                    "setting_rules": "street scene, luxury car, urban modern backdrop",
-                    "age": "early 20s",
-                    "expression": {
-                        "eyes": "focused on phone screen, taking selfie, casual confidence",
-                        "mouth": "relaxed, soft, natural",
-                        "brows": "relaxed, effortless",
-                        "overall": "unbothered, 'just casually next to a pink supercar' energy"
-                    },
-                    "hair": {
-                        "color": "platinum blonde",
-                        "style": "loose, flowing from under cap",
-                        "details": "messy-pretty, some pieces falling forward, effortless waves",
-                        "length": "medium-long, past shoulders"
-                    },
-                    "body": {
-                        "frame": "petite, slim, toned",
-                        "waist": "tiny, fully exposed midriff",
-                        "legs": "toned, athletic, fully visible",
-                        "stance": "casual lean against car, weight shifted"
-                    },
-                    "pose": {
-                        "position": "standing next to driver door of car, leaning slightly against it",
-                        "upper_body": {
-                            "action": "one arm UP holding phone for selfie",
-                            "phone_angle": "high, classic selfie position",
-                            "other_arm": "relaxed at side"
-                        },
-                        "lower_body": {
-                            "stance": "one leg straight, one slightly crossed or bent",
-                            "weight": "casual lean, hip near car",
-                            "energy": "relaxed but aware of angles"
-                        },
-                        "overall": "the 'caught me with this random supercar' pose that's definitely not random"
-                    },
-                    "clothing": {
-                        "top": {
-                            "type": "ultra cropped baby tee",
-                            "color": "bright YELLOW, sunshine yellow",
-                            "graphic": "small star or cute graphic on chest (or BANANA logo)",
-                            "fit": {
-                                "length": "EXTREME crop - ends just below chest, full stomach exposed",
-                                "tightness": "fitted, hugging curves",
-                                "sleeves": "short sleeves, casual"
-                            },
-                            "effect": "entire midriff visible from just under chest to shorts"
-                        },
-                        "bottom": {
-                            "type": "ultra mini athletic shorts",
-                            "color": "WHITE, clean bright white",
-                            "fit": {
-                                "style": "tight fitted athletic shorts",
-                                "length": "very short, upper thigh",
-                                "waist": "high-waisted, sits at natural waist",
-                                "effect": "shows full leg length, hugs curves"
-                            },
-                            "material": "stretchy athletic fabric, smooth"
-                        },
-                        "shoes": {
-                            "type": "white sneakers",
-                            "style": "clean, casual, athletic vibe",
-                            "effect": "completes sporty-cute look"
-                        }
-                    },
-                    "face": {
-                        "features": "pretty, big eyes, small nose, soft lips",
-                        "makeup": "natural, minimal, fresh-faced",
-                        "expression": "focused on selfie, casual pretty"
-                    }
-                },
-                "accessories": {
-                    "headwear": {
-                        "type": "baseball cap",
-                        "color": "BLACK",
-                        "style": "worn forward, classic",
-                        "logo": "small patch or logo visible",
-                        "effect": "sporty edge, hair flowing from underneath"
-                    },
-                    "headphones": {
-                        "type": "over-ear headphones",
-                        "color": "WHITE",
-                        "position": "around neck, not on ears",
-                        "style": "chunky, modern, like Beats or similar",
-                        "effect": "adds to casual 'just vibing' energy"
-                    },
-                    "device": {
-                        "type": "iPhone",
-                        "position": "held up high for selfie",
-                        "case": "dark case visible"
-                    }
-                },
-                "the_car": {
-                    "make": "BMW i8",
-                    "wrap": "CHROME PINK / rose gold mirror finish",
-                    "effect": {
-                        "reflection": "mirror chrome reflecting everything around",
-                        "color": "pink/rose gold, flashy, attention-grabbing",
-                        "energy": "luxury, flex, main character vehicle"
-                    },
-                    "position": "parked on street, she's standing next to driver side",
-                    "wheels": "black rims with pink accents matching wrap",
-                    "presence": "the car is a CO-STAR, not just background"
-                },
-                "environment": {
-                    "location": "modern urban area, upscale shopping district or hotel entrance",
-                    "ground": "cobblestone or nice pavement",
-                    "backdrop": {
-                        "buildings": "modern glass buildings, upscale retail",
-                        "elements": "architectural feature visible (sculptural element)",
-                        "other_cars": "normal cars parked nearby for contrast",
-                        "vibe": "wealthy area, nice neighborhood"
-                    },
-                    "time": "daytime, good natural light",
-                    "atmosphere": "urban luxury, casual wealth"
-                },
-                "photography": {
-                    "style": "candid-looking but obviously posed, lifestyle shot",
-                    "angle": "shot from front-side, capturing her full body + car",
-                    "quality": "high quality, could be iPhone or camera",
-                    "framing": "her centered, car visible behind/beside, environment context",
-                    "lighting": "natural daylight, flattering"
-                },
-                "color_story": {
-                    "her": {
-                        "top": "bright YELLOW",
-                        "shorts": "clean WHITE",
-                        "cap": "BLACK",
-                        "headphones": "WHITE",
-                        "shoes": "WHITE",
-                        "hair": "platinum BLONDE"
-                    },
-                    "car": "chrome PINK / rose gold",
-                    "overall": "yellow + white + pink chrome = eye-catching, vibrant, instagram-perfect"
-                },
-                "the_vibe": {
-                    "energy": "casual luxury, 'this is just my tuesday'",
-                    "mood": "unbothered, main character, casual flex",
-                    "contrast": "sporty casual outfit + absurd luxury car",
-                    "story": "she either owns this car or saw it and had to take a pic - either way she belongs next to it",
-                    "social_media": "this is THE instagram photo",
-                    "caption_energy": "'running errands' or '🩷' or no caption needed"
-                },
-                "critical_elements": {
-                    "outfit_combo": "yellow crop + white shorts = sporty cute, maximum skin",
-                    "midriff": "fully exposed, tiny waist on display",
-                    "cap_headphones": "the combo that says 'casual but styled'",
-                    "car_color": "chrome pink/rose gold = the main prop",
-                    "selfie_action": "caught in the act of taking the pic",
-                    "energy": "effortless but everything is intentional"
-                }
-            }
-        }, null, 2),
+  "title": "Chrome Pink Supercar Selfie — Casual Instagram Main Character Mood",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {},
+    "E_Entorno": {},
+    "A_Accion_Postura": {},
+    "L_Lenguaje_Visual": {},
+    "I_Iluminacion": {},
+    "S_Sensacion_Atmosfera": {},
+    "M_Composicion_Camara": {},
+    "O_Optimizacion_final": {}
+  }
+}, null, 2),
         category: "Lifestyle",
         level: "intermediate",
         is_published: true,
@@ -9544,9 +9393,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Sentada en el suelo con piernas recogidas de lado, tomando una selfie con el brazo extendido desde arriba.
 *   **I(Iluminación):** Flash frontal directo (sombras duras de cámara antigua) combinado con la luz cálida de la chimenea.
 *   **S(Sensación / Atmósfera):** Cozy, íntimo, nostálgico, estética Y2K de influencer de noche de invierno.
-*   **E(Estilo Visual):** Fotografía lifestyle ultra realista, estética de cámara digital clásica (principios de los 2000), ligeramente imperfecta.
+*   **L (Lenguaje Visual):** Fotografía lifestyle ultra realista, estética de cámara digital clásica (principios de los 2000), ligeramente imperfecta.
 *   **M(Composición / Cámara):** Plano medio picado (high-angle shot), encuadre casual y formato vertical 4:5.
-*   **P(Postproducción):** Tonos cálidos y desaturados, nitidez natural de piel y tejido de punto sin filtros artificiales.
+*   **O (Optimización final):** Tonos cálidos y desaturados, nitidez natural de piel y tejido de punto sin filtros artificiales.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Cozy Y2K Winter Selfie",
@@ -9626,9 +9475,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Sentada en el suelo, mano derecha sosteniendo el móvil con funda plateada y flash activo apuntando al espejo. Mano izquierda levantando ligeramente el cabello, mirada hacia el reflejo.
 *   **I(Iluminación):** Iluminación interior brillante y flash directo del smartphone visible en el espejo con reflejos y destellos naturales.
 *   **S(Sensación / Atmósfera):** Moderno, limpio, seguro y juvenil. Vibe de contenido espontáneo de redes sociales.
-*   **E(Estilo Visual):** Fotografía mirror selfie de smartphone nítida y fotorrealista, textura natural de piel, vestido y madera.
+*   **L (Lenguaje Visual):** Fotografía mirror selfie de smartphone nítida y fotorrealista, textura natural de piel, vestido y madera.
 *   **M(Composición / Cámara):** Composición frontal de cuerpo completo reflejada en el espejo, con la modelo centrada.
-*   **P(Postproducción):** Tonos y colores limpios destacando el azul brillante y el fondo blanco con profundidad de campo natural.
+*   **O (Optimización final):** Tonos y colores limpios destacando el azul brillante y el fondo blanco con profundidad de campo natural.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Mirror Selfie Azul Eléctrico",
@@ -9712,9 +9561,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Sostiene cariñosamente a un cachorro dorado contra el pecho con ambas manos, cabeza inclinada y mirando de frente a la cámara con sonrisa suave.
 *   **I(Iluminación):** Luz natural lateral procedente de la ventana a la derecha, suave y difusa.
 *   **S(Sensación / Atmósfera):** Cálida, afectuosa, feliz, natural y familiar.
-*   **E(Estilo Visual):** Fotografía lifestyle candid ultra realista tipo selfie de smartphone (iPhone). Texturas de algodón y pelaje muy definidas.
+*   **L (Lenguaje Visual):** Fotografía lifestyle candid ultra realista tipo selfie de smartphone (iPhone). Texturas de algodón y pelaje muy definidas.
 *   **M(Composición / Cámara):** Primer plano vertical (4:5) con la modelo y el cachorro centrados, ángulo de cámara levemente picado y fondo desenfocado.
-*   **P(Postproducción):** Tonos cálidos y naturales, saturación realista, nitidez alta en texturas y sin marcas de agua ni texto.
+*   **O (Optimización final):** Tonos cálidos y naturales, saturación realista, nitidez alta en texturas y sin marcas de agua ni texto.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Selfie cariñosa con cachorro",
@@ -9814,9 +9663,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Sentada de medio lado, la mano izquierda toca sutilmente el cabello y la mano derecha descansa en la rodilla. Joyería plateada fina y mochila visible.
 *   **I(Iluminación):** Luz natural diurna difusa desde la derecha entrando por la ventanilla, ligera sobreexposición natural en el cristal de la ventana.
 *   **S(Sensación / Atmósfera):** Relajado, casual, sofisticado y de alto standing.
-*   **E(Estilo Visual):** Fotografía de viajes lifestyle candid ultra realista, grano fotográfico sutil y texturas de cuero, metal y algodón muy detalladas.
+*   **L (Lenguaje Visual):** Fotografía de viajes lifestyle candid ultra realista, grano fotográfico sutil y texturas de cuero, metal y algodón muy detalladas.
 *   **M(Composición / Cámara):** Plano medio asimétrico (9:16 vertical), ángulo a la altura de los ojos (eye-level) con fondo suavemente desenfocado.
-*   **P(Postproducción):** Colores neutros cálidos y naturales, contraste nítido y sin apariencia artificial de render 3D.
+*   **O (Optimización final):** Colores neutros cálidos y naturales, contraste nítido y sin apariencia artificial de render 3D.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Luxury Travel Private Jet",
@@ -9911,9 +9760,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Torso orientado levemente a la izquierda, ambos brazos elevados para atar/ajustar el cabello, mirada contemplativa hacia la izquierda fuera de cámara.
 *   **I(Iluminación):** Flash directo y frontal de smartphone con destello de alta intensidad, creando sombras nítidas detrás y reflejos brillantes en frente y piel.
 *   **S(Sensación / Atmósfera):** Íntima, casual, cruda, doméstica y espontánea.
-*   **E(Estilo Visual):** Fotografía de smartphone de noche (candid flash photography), grano fino y texturas reales de algodón, mezclilla y sábanas.
+*   **L (Lenguaje Visual):** Fotografía de smartphone de noche (candid flash photography), grano fino y texturas reales de algodón, mezclilla y sábanas.
 *   **M(Composición / Cámara):** Plano medio vertical (9:16), ángulo levemente contrapicado, sujeto centrado y profundidad de campo reducida con fondo de dormitorio suave.
-*   **P(Postproducción):** Tonos y temperatura cálida del flash directo con saturación natural y contraste definido.
+*   **O (Optimización final):** Tonos y temperatura cálida del flash directo con saturación natural y contraste definido.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Candid Flash Bedroom Night",
@@ -10010,9 +9859,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Sentada en la silla metálica, mirando ligeramente hacia arriba de forma expectante, mientras otra persona (parcialmente visible) acerca un cigarrillo a su boca.
 *   **I(Iluminación):** Flash directo de cámara con fuerte intensidad frontal y caída de iluminación rápida hacia el fondo oscuro del porche.
 *   **S(Sensación / Atmósfera):** Relajada, casual, íntima, de instantánea entre amigos.
-*   **E(Estilo Visual):** Fotografía de estilo de vida candid nocturna con flash, grano analógico sutil y texturas de algodón, madera y hojas verdes muy naturales.
+*   **L (Lenguaje Visual):** Fotografía de estilo de vida candid nocturna con flash, grano analógico sutil y texturas de algodón, madera y hojas verdes muy naturales.
 *   **M(Composición / Cámara):** Plano medio vertical (9:16), perspectiva a nivel de los ojos (eye-level) con enfoque nítido sobre el sujeto principal.
-*   **P(Postproducción):** Contraste fuerte producido por el flash directo, colores y tonos nocturnos naturales. Texto WANGHAF perfectamente legible en la sudadera.
+*   **O (Optimización final):** Contraste fuerte producido por el flash directo, colores y tonos nocturnos naturales. Texto WANGHAF perfectamente legible en la sudadera.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Candid Porch Night",
@@ -10110,9 +9959,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** De pie, apoyada ligeramente sobre la barandilla de metal con una mano relajada. Postura elegante, mirada pensativa dirigida hacia arriba y a la izquierda.
 *   **I(Iluminación):** Mezcla de luz ambiental nocturna (dorada artificial de la Torre Eiffel) y flash directo frontal para iluminar a la mujer. Contraste alto con fondo y cielo oscuro.
 *   **S(Sensación / Atmósfera):** Romántica, glamurosa, cinematográfica y serena.
-*   **E(Estilo Visual):** Retrato nocturno de viaje ultra realista con texturas definidas en cabello, blazer negro y metal de la barandilla.
+*   **L (Lenguaje Visual):** Retrato nocturno de viaje ultra realista con texturas definidas en cabello, blazer negro y metal de la barandilla.
 *   **M(Composición / Cámara):** Plano medio vertical (9:16) con composición asimétrica (ella a la derecha, la Torre Eiffel dominando la parte izquierda), ángulo a nivel de ojos y fondo desenfocado.
-*   **P(Postproducción):** Tonos dorados cálidos y negros profundos con alta definición en el sujeto principal sin filtros de estudio exagerados.
+*   **O (Optimización final):** Tonos dorados cálidos y negros profundos con alta definición en el sujeto principal sin filtros de estudio exagerados.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Paris Night Portrait by the Seine",
@@ -10209,9 +10058,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Sentada de lado en el banco de mármol, cuerpo ligeramente inclinado hacia el frente, mirada directa y alegre a la cámara con una mano descansando en su hombro. Bolso negro con cadena dorada en el banco.
 *   **I(Iluminación):** Luz natural diurna brillante, iluminación lateral y frontal suave y favorecedora sin sombras duras.
 *   **S(Sensación / Atmósfera):** Elegante, alegre, glamurosa, urbana y lifestyle sofisticado.
-*   **E(Estilo Visual):** Retrato urbano chic altamente realista con grano analógico sutil y definición clara de piel, cabello ondulado, mármol y cuero.
+*   **L (Lenguaje Visual):** Retrato urbano chic altamente realista con grano analógico sutil y definición clara de piel, cabello ondulado, mármol y cuero.
 *   **M(Composición / Cámara):** Plano medio-largo vertical (4:5), ángulo ligeramente contrapicado, objetivo de retrato 50mm–85mm con apertura f/2.0–f/3.5 logrando un bokeh suave.
-*   **P(Postproducción):** Tonos cálidos y luminosos con saturación realista y contraste moderado. Sin marcas de agua, textos ni imperfecciones 3D.
+*   **O (Optimización final):** Tonos cálidos y luminosos con saturación realista y contraste moderado. Sin marcas de agua, textos ni imperfecciones 3D.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Urban Luxury Daylight Portrait",
@@ -10311,9 +10160,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Sosteniendo el smartphone con el brazo extendido para tomar una selfie casual, mirada directa al objetivo.
 *   **I(Iluminación):** Luz natural diurna fría e intensa, típica de invierno, con reflejos sobre nieve y ropa técnica.
 *   **S(Sensación / Atmósfera):** Aventura invernal, fresca, elegante y sofisticada.
-*   **E(Estilo Visual):** Selfie smartphone ultra fotorealista, texturas de nieve, tela técnica y poros de piel muy definidos.
+*   **L (Lenguaje Visual):** Selfie smartphone ultra fotorealista, texturas de nieve, tela técnica y poros de piel muy definidos.
 *   **M(Composición / Cámara):** Plano medio de selfie (9:16 vertical), ángulo sutilmente por encima de los ojos con profundidad de campo natural.
-*   **P(Postproducción):** Tonos fríos y contrastes limpios, manteniendo alta nitidez en rostro y sin distorsión extrema.
+*   **O (Optimización final):** Tonos fríos y contrastes limpios, manteniendo alta nitidez en rostro y sin distorsión extrema.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Alpine Ski Selfie",
@@ -10411,9 +10260,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Sentada en el suelo de madera apoyando el torso hacia atrás en la mano izquierda, tomando un mirror selfie con el móvil en la mano derecha, mirada hacia la pantalla.
 *   **I(Iluminación):** Luz natural lateral de ventana matutina suave y cálida, con un ligero resplandor dorado.
 *   **S(Sensación / Atmósfera):** Cozy, íntimo, relajado, cotidiano, vibra de lazy Sunday y soft girl aesthetic.
-*   **E(Estilo Visual):** Mirror selfie de smartphone realista e imperfecto, texturas de algodón, madera y ropa de cama muy naturales.
+*   **L (Lenguaje Visual):** Mirror selfie de smartphone realista e imperfecto, texturas de algodón, madera y ropa de cama muy naturales.
 *   **M(Composición / Cámara):** Reflejo frontal de cuerpo completo en espejo, modelo centrada y dormitorio visible alrededor, formato vertical 4:5.
-*   **P(Postproducción):** Tonos cremas, grises y dorados con alta definición en el sujeto principal sin filtros de estudio. Funda transparente con stickers visible en el iPhone.
+*   **O (Optimización final):** Tonos cremas, grises y dorados con alta definición en el sujeto principal sin filtros de estudio. Funda transparente con stickers visible en el iPhone.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Lazy Sunday Mirror Selfie",
@@ -10508,9 +10357,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Sentada sobre el mostrador del baño, inclinándose hacia el espejo con piernas relajadas de lado, mirada dirigida al reflejo del espejo.
 *   **I(Iluminación):** Flash frontal directo y duro con sombras marcadas y highlights especulares, combinado con luz de tungsteno ambiental tenue y cálida de fondo.
 *   **S(Sensación / Atmósfera):** Cool, íntimo, crudo, privado y nocturno.
-*   **E(Estilo Visual):** Fotografía mirror selfie con estética analógica de point-and-shoot de 35mm con grano visible y viñeteado natural.
+*   **L (Lenguaje Visual):** Fotografía mirror selfie con estética analógica de point-and-shoot de 35mm con grano visible y viñeteado natural.
 *   **M(Composición / Cámara):** Plano thighs-up vertical (4:5) desde el reflejo del espejo a nivel de los ojos (eye-level), con objetos desenfocados en primer plano para aportar profundidad.
-*   **P(Postproducción):** Negros ligeramente lavados, sombras verdosas y rojos saturados de forma moderada. Enfoque nítido pero suave característico de película vintage.
+*   **O (Optimización final):** Negros ligeramente lavados, sombras verdosas y rojos saturados de forma moderada. Enfoque nítido pero suave característico de película vintage.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Vintage Slip Bathroom Vanity",
@@ -10604,9 +10453,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** Reclinada sobre el sofá, cuerpo girado de lado, una pierna flexionada y la otra extendida al frente. Mano izquierda colocada casualmente cerca de la cabeza y mano derecha relajada al lado.
 *   **I(Iluminación):** Iluminación interior cálida y difusa con un halo dorado (warm golden undertone), highlights y resplandor suave sobre piel y prendas.
 *   **S(Sensación / Atmósfera):** Elegancia, glamour discreto, confianza tranquila y lujo silencioso.
-*   **E(Estilo Visual):** Retrato editorial de moda sofisticado y fotorealista, texturas de piel sintética, medias y cuero de tacones de alta credibilidad física.
+*   **L (Lenguaje Visual):** Retrato editorial de moda sofisticado y fotorealista, texturas de piel sintética, medias y cuero de tacones de alta credibilidad física.
 *   **M(Composición / Cámara):** Retrato horizontal (aspecto 3.4:1) a nivel de ojos, composición equilibrada favoreciendo la silueta y profundidad de campo suave.
-*   **P(Postproducción):** Tonos crema, beige y blanco contrastados, alta nitidez sin modificar la identidad facial del sujeto respecto a la referencia original.
+*   **O (Optimización final):** Tonos crema, beige y blanco contrastados, alta nitidez sin modificar la identidad facial del sujeto respecto a la referencia original.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Luxury Sofa Editorial",
@@ -10687,9 +10536,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** De pie o sentada en primer plano de selfie, sosteniendo un gato negro mejilla con mejilla mientras apoya su mano suavemente sobre el pecho del gato.
 *   **I(Iluminación):** Luz artificial tenue y cálida de lámpara ambiental, logrando sombras suaves pero definidas en el rostro y contraste de piel pálida con elementos oscuros.
 *   **S(Sensación / Atmósfera):** Cozy, íntima, melancólica y alternativa.
-*   **E(Estilo Visual):** Selfie de primer plano (close-up) de smartphone con texturas muy claras de pecas, cabello liso y pelo del gato.
+*   **L (Lenguaje Visual):** Selfie de primer plano (close-up) de smartphone con texturas muy claras de pecas, cabello liso y pelo del gato.
 *   **M(Composición / Cámara):** Formato vertical 4:5, encuadre cerrado sobre rostro y gato a nivel de ojos con fondo sutilmente difuminado.
-*   **P(Postproducción):** Contraste medio-alto muy natural sin filtros robóticos ni piel plástica de render.
+*   **O (Optimización final):** Contraste medio-alto muy natural sin filtros robóticos ni piel plástica de render.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Grunge E-girl Black Cat",
@@ -10772,9 +10621,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** De pie junto a la barandilla con hombros orientados hacia la cámara, cabeza ligeramente inclinada hacia atrás y brisa moviendo cabello y ropa.
 *   **I(Iluminación):** Luz nocturna natural de farolas de la ciudad y del puente, con reflejos dorados y azules fríos sobre el agua y chaqueta de cuero.
 *   **S(Sensación / Atmósfera):** Contemplativa, elegante, urbana y cinematográfica.
-*   **E(Estilo Visual):** Fotografía nocturna con estética de iPhone, texturas de metal desgastado, agua en movimiento y cuero muy detalladas.
+*   **L (Lenguaje Visual):** Fotografía nocturna con estética de iPhone, texturas de metal desgastado, agua en movimiento y cuero muy detalladas.
 *   **M(Composición / Cámara):** Retrato medio-largo vertical (9:16) con sujeto nítido a nivel de los ojos y fondo del puente perfectamente reconocible.
-*   **P(Postproducción):** Contraste nocturno natural entre tonos cálidos y fríos, sin distorsión artificial y fidelidad total a la referencia.
+*   **O (Optimización final):** Contraste nocturno natural entre tonos cálidos y fríos, sin distorsión artificial y fidelidad total a la referencia.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — NYC Night Bridge",
@@ -10891,9 +10740,9 @@ export const EXTRA_MOCK_PROMPTS = [
 *   **A(Acción / Postura):** De pie frente al espejo, un brazo elevado sobre la cabeza sosteniendo el móvil para tomar un selfie de primer plano. Gotas de agua visibles en cuello, hombros y torso.
 *   **I(Iluminación):** Luz cinematográfica cálida-fría, con un halo dorado difuso cruzando el vapor del baño y sombras frías envolviendo la cabina de ducha.
 *   **S(Sensación / Atmósfera):** Íntima, cinemática, sofisticada y de estética de fotograma de película de alta calidad.
-*   **E(Estilo Visual):** Selfie de smartphone ultra cinematográfico y fotorealista, con definición extrema de piel húmeda, poros, gotas y cristales empañados.
+*   **L (Lenguaje Visual):** Selfie de smartphone ultra cinematográfico y fotorealista, con definición extrema de piel húmeda, poros, gotas y cristales empañados.
 *   **M(Composición / Cámara):** Plano close-up vertical (3:4), encuadre estrecho y centrado en rostro y hombros con bokeh suave de luces de fondo.
-*   **P(Postproducción):** Contraste suave, colores ricos pero naturales (contraste Hollywood cálido/frío) y preservación estricta de rasgos faciales.
+*   **O (Optimización final):** Contraste suave, colores ricos pero naturales (contraste Hollywood cálido/frío) y preservación estricta de rasgos faciales.
         `,
         prompt_text: JSON.stringify({
             "title": "REALISMO_Human — Steamy Bathroom Selfie",

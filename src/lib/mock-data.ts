@@ -860,55 +860,55 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Retrato frontal estático, pose editorial impactante.
 *   **I(Iluminación):** Estilizada no realista, colores neón difusos.
 *   **S(Sensación):** Experimental, digital, nostalgia Y2K.
-*   **E(Estilo):** Minimalist line art con glitch digital y risograph.
+*   **L (Lenguaje Visual):** Minimalist line art con glitch digital y risograph.
 *   **M(Composición):** Primer plano vertical, tipografía dominante.
-*   **P(Post):** Paleta negativo, acentos neón, contraste alto.
+*   **O (Optimización final):** Paleta negativo, acentos neón, contraste alto.
         `,
         prompt_text: JSON.stringify({
-            "title": "Y2K Glitchcore Fashion Cover — Minimalist Line Art",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "[SUBJECT] con rasgos definidos y estilizados, identidad facial clara pero tratada de forma gráfica.",
-                    "expresion": "Neutra o segura, pensada para portada editorial.",
-                    "coherencia": "Rostro reconocible aunque parcialmente intervenido por efectos gráficos."
-                },
-                "E_Entorno": {
-                    "fondo": "Composición abstracta tipo portada de revista de moda.",
-                    "ambientacion": "Escena retrofuturista con capas gráficas superpuestas.",
-                    "elementos_clave": "Escena doble exposición integrada al rostro."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Retrato frontal o tres cuartos, pose estática tipo cover editorial.",
-                    "lenguaje_corporal": "Presencia fuerte y contenida, pensada para impacto visual.",
-                    "mirada": "Dirigida a cámara o ligeramente fuera de eje."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación estilizada no realista.",
-                    "caracteristicas": "[COLOR] y [COLOR] lighting con efecto neón difuso, luz gráfica y plana combinada con brillos suaves."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Experimental, digital, nostálgica.",
-                    "tono": "Y2K, glitchcore, editorial futurista."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Minimalist screen print line art combinado con estética Y2K.",
-                    "tecnicas": "Doble exposición estilo risograph, color negativo, glitch digital.",
-                    "texturas": "Grano gráfico, ruido digital, overlays de niebla neón.",
-                    "nivel_realismo": "Estilizado artístico, no fotorrealista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Primer plano tipo portada de revista.",
-                    "angulo": "Ángulo frontal.",
-                    "encuadre": "Formato vertical, composición centrada con tipografía dominante."
-                },
-                "O_Optimizacion_final": {
-                    "tipografia": "Bold typography estilo fashion magazine Y2K.",
-                    "color_grading": "Paleta invertida tipo negativo con acentos neón.",
-                    "contraste": "Alto.",
-                    "acabado": "Look gráfico experimental con glitch visible y superposiciones."
-                }
-            }
-        }, null, 2),
+  "title": "Y2K Glitchcore Fashion Cover — Minimalist Line Art",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "[SUBJECT] con rasgos definidos y estilizados, identidad facial clara pero tratada de forma gráfica.",
+      "expresion": "Neutra o segura, pensada para portada editorial.",
+      "coherencia": "Rostro reconocible aunque parcialmente intervenido por efectos gráficos."
+    },
+    "E_Entorno": {
+      "fondo": "Composición abstracta tipo portada de revista de moda.",
+      "ambientacion": "Escena retrofuturista con capas gráficas superpuestas.",
+      "elementos_clave": "Escena doble exposición integrada al rostro."
+    },
+    "A_Accion_Postura": {
+      "pose": "Retrato frontal o tres cuartos, pose estática tipo cover editorial.",
+      "lenguaje_corporal": "Presencia fuerte y contenida, pensada para impacto visual.",
+      "mirada": "Dirigida a cámara o ligeramente fuera de eje."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Minimalist screen print line art combinado con estética Y2K.",
+      "tecnicas": "Doble exposición estilo risograph, color negativo, glitch digital.",
+      "texturas": "Grano gráfico, ruido digital, overlays de niebla neón.",
+      "nivel_realismo": "Estilizado artístico, no fotorrealista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación estilizada no realista.",
+      "caracteristicas": "[COLOR] y [COLOR] lighting con efecto neón difuso, luz gráfica y plana combinada con brillos suaves."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Experimental, digital, nostálgica.",
+      "tono": "Y2K, glitchcore, editorial futurista."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Primer plano tipo portada de revista.",
+      "angulo": "Ángulo frontal.",
+      "encuadre": "Formato vertical, composición centrada con tipografía dominante."
+    },
+    "O_Optimizacion_final": {
+      "tipografia": "Bold typography estilo fashion magazine Y2K.",
+      "color_grading": "Paleta invertida tipo negativo con acentos neón.",
+      "contraste": "Alto.",
+      "acabado": "Look gráfico experimental con glitch visible y superposiciones."
+    }
+  }
+}, null, 2),
         category: "Fashion",
         level: "advanced",
         featured_image_url: "/images/prompts/retro-futuristic-fashion-glitchcore.jpg",
@@ -935,62 +935,62 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Sentada, postura dominante femenina, bolso estruturado.
 *   **I(Iluminación):** Cinematográfica de estudio, resalta joyas y lentejuelas.
 *   **S(Sensación):** Poder, sensualidad elegante, sofisticación Vogue.
-*   **E(Estilo):** Editorial de moda couture, ultra-realista.
+*   **L (Lenguaje Visual):** Editorial de moda couture, ultra-realista.
 *   **M(Composición):** Plano medio a tres cuartos, frontal ligeramente bajo.
-*   **P(Post):** Color grading profundo (borgoña/dorado), nitidez 8K, depth of field reducida.
+*   **O (Optimización final):** Color grading profundo (borgoña/dorado), nitidez 8K, depth of field reducida.
         `,
         prompt_text: JSON.stringify({
-            "title": "High-Fashion Editorial Portrait — Luxury Power Femininity",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Mujer adulta con rasgos finos y sofisticados, estructura facial definida y elegante, piel realista con acabado pulido de editorial.",
-                    "referencia_identidad": "Ana de Armas (o mujer con presencia y elegancia similares, si se usa como inspiración).",
-                    "expresion": "Mirada audaz, segura y sin disculpas.",
-                    "cabello": "Peinado sleek en high ponytail, perfectamente estilizado.",
-                    "coherencia": "Proporciones realistas, identidad facial consistente, estética de alta costura."
-                },
-                "E_Entorno": {
-                    "fondo": "Sofá de terciopelo color borgoña profundo.",
-                    "ambientacion": "Espacio interior elegante y lujoso, enfoque editorial.",
-                    "superficies": "Textura rica del terciopelo visible y protagonista."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada con piernas separadas de forma segura y dominante.",
-                    "lenguaje_corporal": "Postura femenina poderosa, control total del espacio.",
-                    "accion": "Sosteniendo un bolso de lujo estructurado con cadena dorada entre las manos.",
-                    "mirada": "Directa a cámara, presencia fuerte y editorial."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación cinematográfica de estudio.",
-                    "caracteristicas": "Luz controlada que resalta rostro, joyería y texturas del vestido, sombras suaves y profundas."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Poder, lujo, sensualidad elegante.",
-                    "tono": "Alta costura, Vogue editorial, sofisticación absoluta."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Editorial de moda de lujo con realismo cinematográfico.",
-                    "vestuario": "Vestido couture negro de lentejuelas con escote pronunciado y cut-outs sutiles.",
-                    "accesorios": "Aros de diamantes oversized, anillos de oro apilados, pulsera tennis de diamantes, collares de oro en capas, stilettos negros puntiagudos.",
-                    "nivel_realismo": "Ultra-realista, estética Vogue."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio a plano tres cuartos.",
-                    "angulo": "Ángulo frontal ligeramente bajo para enfatizar poder.",
-                    "encuadre": "Composición centrada con foco en rostro, joyería y accesorios."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos profundos y ricos, énfasis en borgoña, negro y dorados.",
-                    "contraste": "Medio-alto.",
-                    "acabado": "Look editorial premium con nitidez extrema y profundidad de campo reducida.",
-                    "calidad": {
-                        "resolucion": "8K ultra-detailed",
-                        "enfoque": "Ultra-sharp en rostro, joyería y accesorios",
-                        "profundidad_de_campo": "Shallow depth of field"
-                    }
-                }
-            }
-        }, null, 2),
+  "title": "High-Fashion Editorial Portrait — Luxury Power Femininity",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Mujer adulta con rasgos finos y sofisticados, estructura facial definida y elegante, piel realista con acabado pulido de editorial.",
+      "referencia_identidad": "Ana de Armas (o mujer con presencia y elegancia similares, si se usa como inspiración).",
+      "expresion": "Mirada audaz, segura y sin disculpas.",
+      "cabello": "Peinado sleek en high ponytail, perfectamente estilizado.",
+      "coherencia": "Proporciones realistas, identidad facial consistente, estética de alta costura."
+    },
+    "E_Entorno": {
+      "fondo": "Sofá de terciopelo color borgoña profundo.",
+      "ambientacion": "Espacio interior elegante y lujoso, enfoque editorial.",
+      "superficies": "Textura rica del terciopelo visible y protagonista."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada con piernas separadas de forma segura y dominante.",
+      "lenguaje_corporal": "Postura femenina poderosa, control total del espacio.",
+      "accion": "Sosteniendo un bolso de lujo estructurado con cadena dorada entre las manos.",
+      "mirada": "Directa a cámara, presencia fuerte y editorial."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Editorial de moda de lujo con realismo cinematográfico.",
+      "vestuario": "Vestido couture negro de lentejuelas con escote pronunciado y cut-outs sutiles.",
+      "accesorios": "Aros de diamantes oversized, anillos de oro apilados, pulsera tennis de diamantes, collares de oro en capas, stilettos negros puntiagudos.",
+      "nivel_realismo": "Ultra-realista, estética Vogue."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación cinematográfica de estudio.",
+      "caracteristicas": "Luz controlada que resalta rostro, joyería y texturas del vestido, sombras suaves y profundas."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Poder, lujo, sensualidad elegante.",
+      "tono": "Alta costura, Vogue editorial, sofisticación absoluta."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio a plano tres cuartos.",
+      "angulo": "Ángulo frontal ligeramente bajo para enfatizar poder.",
+      "encuadre": "Composición centrada con foco en rostro, joyería y accesorios."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos profundos y ricos, énfasis en borgoña, negro y dorados.",
+      "contraste": "Medio-alto.",
+      "acabado": "Look editorial premium con nitidez extrema y profundidad de campo reducida.",
+      "calidad": {
+        "resolucion": "8K ultra-detailed",
+        "enfoque": "Ultra-sharp en rostro, joyería y accesorios",
+        "profundidad_de_campo": "Shallow depth of field"
+      }
+    }
+  }
+}, null, 2),
         category: "Fashion",
         level: "advanced",
         featured_image_url: "/images/prompts/vogue-elegance-couture-glamour.jpg",
@@ -1017,54 +1017,54 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Reclinada suavemente, postura elegante y effortless.
 *   **I(Iluminación):** Natural suave de día, resalta brillo de piel.
 *   **S(Sensación):** Calma, frescura, lujo relajado.
-*   **E(Estilo):** Lifestyle ultra-realista veraniega.
+*   **L (Lenguaje Visual):** Lifestyle ultra-realista veraniega.
 *   **M(Composición):** Plano medio, composición limpia.
-*   **P(Post):** Tonos cálidos, blancos limpios, acabado luminoso.
+*   **O (Optimización final):** Tonos cálidos, blancos limpios, acabado luminoso.
         `,
         prompt_text: JSON.stringify({
-            "title": "Luxury Beach Club Portrait — Sunlit Daybed",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Mujer joven en sus 20s con piel bronceada y luminosa, rasgos equilibrados y naturales, textura de piel realista con glow saludable.",
-                    "expresion": "Relajada, fresca, expresión serena y confiada.",
-                    "cabello": "Cabello suelto con movimiento natural, estilo veraniego.",
-                    "coherencia": "Identidad facial consistente, proporciones realistas, apariencia natural."
-                },
-                "E_Entorno": {
-                    "fondo": "Beach club de lujo con arena blanca y camastros tipo daybed.",
-                    "ambientacion": "Ambiente exclusivo, veraniego y sofisticado."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada o reclinada suavemente sobre el daybed.",
-                    "lenguaje_corporal": "Postura relajada y elegante, actitud effortless.",
-                    "mirada": "Dirigida hacia la cámara o ligeramente fuera de ella."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz natural suave de día.",
-                    "caracteristicas": "Iluminación uniforme que resalta el brillo de la piel sin sombras duras."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Frescura, calma, lujo relajado.",
-                    "tono": "Summer luxury, lifestyle, natural."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Fotografía lifestyle ultra-realista con estética veraniega.",
-                    "vestuario": "Vestido mini blanco off-the-shoulder con encaje tipo eyelet.",
-                    "texturas": "Tela ligera, detalles delicados, piel luminosa.",
-                    "nivel_realismo": "Ultra-realista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Ángulo neutro a la altura de los ojos.",
-                    "encuadre": "Composición limpia con entorno visible sin distraer."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos claros y cálidos, blancos limpios y piel dorada.",
-                    "contraste": "Suave.",
-                    "acabado": "Look natural, luminoso y elegante."
-                }
-            }
-        }, null, 2),
+  "title": "Luxury Beach Club Portrait — Sunlit Daybed",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Mujer joven en sus 20s con piel bronceada y luminosa, rasgos equilibrados y naturales, textura de piel realista con glow saludable.",
+      "expresion": "Relajada, fresca, expresión serena y confiada.",
+      "cabello": "Cabello suelto con movimiento natural, estilo veraniego.",
+      "coherencia": "Identidad facial consistente, proporciones realistas, apariencia natural."
+    },
+    "E_Entorno": {
+      "fondo": "Beach club de lujo con arena blanca y camastros tipo daybed.",
+      "ambientacion": "Ambiente exclusivo, veraniego y sofisticado."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada o reclinada suavemente sobre el daybed.",
+      "lenguaje_corporal": "Postura relajada y elegante, actitud effortless.",
+      "mirada": "Dirigida hacia la cámara o ligeramente fuera de ella."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Fotografía lifestyle ultra-realista con estética veraniega.",
+      "vestuario": "Vestido mini blanco off-the-shoulder con encaje tipo eyelet.",
+      "texturas": "Tela ligera, detalles delicados, piel luminosa.",
+      "nivel_realismo": "Ultra-realista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz natural suave de día.",
+      "caracteristicas": "Iluminación uniforme que resalta el brillo de la piel sin sombras duras."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Frescura, calma, lujo relajado.",
+      "tono": "Summer luxury, lifestyle, natural."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Ángulo neutro a la altura de los ojos.",
+      "encuadre": "Composición limpia con entorno visible sin distraer."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos claros y cálidos, blancos limpios y piel dorada.",
+      "contraste": "Suave.",
+      "acabado": "Look natural, luminoso y elegante."
+    }
+  }
+}, null, 2),
         category: "Portrait",
         level: "intermediate",
         featured_image_url: "/images/prompts/glamour-shore-celebrity-vibes.jpg",
@@ -1091,57 +1091,57 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Sentada en el conductor, actitud dominante y relajada.
 *   **I(Iluminación):** Natural suave, luz envolvente de ventanas.
 *   **S(Sensación):** Poder, independencia, éxito aspiracional.
-*   **E(Estilo):** Lifestyle cinematográfica ultra-realista.
+*   **L (Lenguaje Visual):** Lifestyle cinematográfica ultra-realista.
 *   **M(Composición):** Plano medio, composición limpia enfocada.
-*   **P(Post):** Tonos cálidos/neutros, contraste suave tipo film.
+*   **O (Optimización final):** Tonos cálidos/neutros, contraste suave tipo film.
         `,
         prompt_text: JSON.stringify({
-            "title": "Cinematic Lifestyle Portrait — Luxury Boss Girl",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro joven adulto con rasgos occidentales equilibrados, estructura facial definida y elegante, piel realista con textura natural.",
-                    "expresion": "Confiada, poderosa, seguridad tranquila.",
-                    "cabello": "Peinado pulido and moderno, acorde a un estilo ejecutivo de lujo.",
-                    "accesorios": "Gafas de sol oversized de diseño minimalista.",
-                    "coherencia": "Identidad facial consistente, proporciones realistas, sin exageración."
-                },
-                "E_Entorno": {
-                    "fondo": "Interior de automóvil de lujo de alta gama.",
-                    "elementos_clave": "Asientos de cuero beige y acabados premium.",
-                    "ambientacion": "Escenario lifestyle sofisticado, exclusivo y moderno."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada en el asiento del conductor.",
-                    "lenguaje_corporal": "Postura relajada pero dominante, control total del espacio.",
-                    "accion": "Sosteniendo un smartphone de manera natural.",
-                    "mirada": "Dirigida ligeramente fuera de cámara, actitud segura."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación natural suave.",
-                    "caracteristicas": "Luz envolvente que entra por las ventanas del vehículo, sombras suaves y bien controladas."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Poder, independencia, éxito.",
-                    "tono": "Luxury lifestyle, aspiracional, cinematográfico."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Fotografía lifestyle cinematográfica ultra-realista.",
-                    "vestuario": "Outfit minimalista de lujo, líneas limpias y elegantes.",
-                    "texturas": "Materiales premium visibles en ropa y automóvil.",
-                    "nivel_realismo": "Ultra-realista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Ángulo neutro desde el exterior o interior del vehículo.",
-                    "encuadre": "Composición limpia enfocada en el sujeto y el interior del auto."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos cálidos y neutros con contraste suave tipo película.",
-                    "contraste": "Bajo a medio.",
-                    "acabado": "Look cinematográfico limpio con sensación de film lifestyle."
-                }
-            }
-        }, null, 2),
+  "title": "Cinematic Lifestyle Portrait — Luxury Boss Girl",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro joven adulto con rasgos occidentales equilibrados, estructura facial definida y elegante, piel realista con textura natural.",
+      "expresion": "Confiada, poderosa, seguridad tranquila.",
+      "cabello": "Peinado pulido and moderno, acorde a un estilo ejecutivo de lujo.",
+      "accesorios": "Gafas de sol oversized de diseño minimalista.",
+      "coherencia": "Identidad facial consistente, proporciones realistas, sin exageración."
+    },
+    "E_Entorno": {
+      "fondo": "Interior de automóvil de lujo de alta gama.",
+      "elementos_clave": "Asientos de cuero beige y acabados premium.",
+      "ambientacion": "Escenario lifestyle sofisticado, exclusivo y moderno."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada en el asiento del conductor.",
+      "lenguaje_corporal": "Postura relajada pero dominante, control total del espacio.",
+      "accion": "Sosteniendo un smartphone de manera natural.",
+      "mirada": "Dirigida ligeramente fuera de cámara, actitud segura."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Fotografía lifestyle cinematográfica ultra-realista.",
+      "vestuario": "Outfit minimalista de lujo, líneas limpias y elegantes.",
+      "texturas": "Materiales premium visibles en ropa y automóvil.",
+      "nivel_realismo": "Ultra-realista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación natural suave.",
+      "caracteristicas": "Luz envolvente que entra por las ventanas del vehículo, sombras suaves y bien controladas."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Poder, independencia, éxito.",
+      "tono": "Luxury lifestyle, aspiracional, cinematográfico."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Ángulo neutro desde el exterior o interior del vehículo.",
+      "encuadre": "Composición limpia enfocada en el sujeto y el interior del auto."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos cálidos y neutros con contraste suave tipo película.",
+      "contraste": "Bajo a medio.",
+      "acabado": "Look cinematográfico limpio con sensación de film lifestyle."
+    }
+  }
+}, null, 2),
         category: "Lifestyle",
         level: "advanced",
         featured_image_url: "/images/prompts/power-elegance-boss-girl.jpg",
@@ -1168,54 +1168,54 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Postura erguida frontal, presencia editorial.
 *   **I(Iluminación):** Equilibrada, mantiene detalle en ambas texturas.
 *   **S(Sensación):** Transformación artesanal, concepto creativo.
-*   **E(Estilo):** Híbrido fotorrealismo e ilustración textil (bordado).
+*   **L (Lenguaje Visual):** Híbrido fotorrealismo e ilustración textil (bordado).
 *   **M(Composición):** Plano medio, diseño editorial dividido.
-*   **P(Post):** Colores vivos vs fondo frío, layout limpio de transición.
+*   **O (Optimización final):** Colores vivos vs fondo frío, layout limpio de transición.
         `,
         prompt_text: JSON.stringify({
-            "title": "Composite Transformation Portrait — Photo to Embroidered Artwork",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro masculino adulto con rasgos bien definidos, identidad clara y realista.",
-                    "expresion": "Neutra y segura, expresión editorial contenida.",
-                    "vestimenta": "Chaqueta colorida con diseño moderno y llamativo.",
-                    "coherencia": "Rasgos faciales consistentes a lo largo de la transformación visual."
-                },
-                "E_Entorno": {
-                    "fondo": "Paisaje de montaña nevada.",
-                    "ambientacion": "Escenario natural frío que contrasta con la vestimenta colorida.",
-                    "uso_editorial": "Fondo utilizado como elemento narrativo y estético."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Postura erguida, frontal o ligeramente en tres cuartos.",
-                    "lenguaje_corporal": "Firme, calmado, con presencia editorial.",
-                    "mirada": "Dirigida a cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación equilibrada y controlada.",
-                    "caracteristicas": "Luz uniforme que mantiene detalle tanto en fotografía como en textura bordada."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Transformación, artesanía, contraste entre lo real y lo artístico.",
-                    "tono": "Editorial, creativo, conceptual."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Imagen compuesta que transiciona de fotografía realista a arte bordado.",
-                    "texturas": "Textura de bordado altamente detallada y visible.",
-                    "nivel_realismo": "Híbrido: fotorrealismo + ilustración textil."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Ángulo neutro.",
-                    "encuadre": "Diseño editorial dividido que muestra claramente la transformación visual."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Colores vivos en la chaqueta contrastando con blancos fríos del fondo.",
-                    "contraste": "Medio.",
-                    "acabado": "Layout editorial limpio con transición clara entre fotografía y bordado."
-                }
-            }
-        }, null, 2),
+  "title": "Composite Transformation Portrait — Photo to Embroidered Artwork",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro masculino adulto con rasgos bien definidos, identidad clara y realista.",
+      "expresion": "Neutra y segura, expresión editorial contenida.",
+      "vestimenta": "Chaqueta colorida con diseño moderno y llamativo.",
+      "coherencia": "Rasgos faciales consistentes a lo largo de la transformación visual."
+    },
+    "E_Entorno": {
+      "fondo": "Paisaje de montaña nevada.",
+      "ambientacion": "Escenario natural frío que contrasta con la vestimenta colorida.",
+      "uso_editorial": "Fondo utilizado como elemento narrativo y estético."
+    },
+    "A_Accion_Postura": {
+      "pose": "Postura erguida, frontal o ligeramente en tres cuartos.",
+      "lenguaje_corporal": "Firme, calmado, con presencia editorial.",
+      "mirada": "Dirigida a cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Imagen compuesta que transiciona de fotografía realista a arte bordado.",
+      "texturas": "Textura de bordado altamente detallada y visible.",
+      "nivel_realismo": "Híbrido: fotorrealismo + ilustración textil."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación equilibrada y controlada.",
+      "caracteristicas": "Luz uniforme que mantiene detalle tanto en fotografía como en textura bordada."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Transformación, artesanía, contraste entre lo real y lo artístico.",
+      "tono": "Editorial, creativo, conceptual."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Ángulo neutro.",
+      "encuadre": "Diseño editorial dividido que muestra claramente la transformación visual."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Colores vivos en la chaqueta contrastando con blancos fríos del fondo.",
+      "contraste": "Medio.",
+      "acabado": "Layout editorial limpio con transición clara entre fotografía y bordado."
+    }
+  }
+}, null, 2),
         category: "Creative",
         level: "advanced",
         featured_image_url: "/images/prompts/stitches-reality-embroidery-art.jpg",
@@ -1242,55 +1242,55 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** De pie, apoyada en barandilla, mirada contemplativa.
 *   **I(Iluminación):** Golden hour natural, luz cálida, reflejos ámbar.
 *   **S(Sensación):** Calma, aspiracional, sofisticada.
-*   **E(Estilo):** Lifestyle cinematográfica ultra-realista, Kodak Portra.
+*   **L (Lenguaje Visual):** Lifestyle cinematográfica ultra-realista, Kodak Portra.
 *   **M(Composición):** Plano medio, composición equilibrada.
-*   **P(Post):** Color grading dorado/ámbar, contraste suave, grano fino.
+*   **O (Optimización final):** Color grading dorado/ámbar, contraste suave, grano fino.
         `,
         prompt_text: JSON.stringify({
-            "title": "Cinematic Lifestyle Portrait — Dubai Waterfront Sunset",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro joven adulto con rasgos naturales y elegantes, piel realista con textura suave y tonos cálidos.",
-                    "expresion": "Serena y contemplativa.",
-                    "cabello": "Cabello natural, ligeramente movido por la brisa.",
-                    "coherencia": "Identidad facial consistente, proporciones realistas, sin exageraciones."
-                },
-                "E_Entorno": {
-                    "fondo": "Zona costera de Dubai Downtown junto a una barandilla frente al agua.",
-                    "elementos_clave": "Burj Khalifa visible al fondo.",
-                    "ambientacion": "Entorno urbano moderno y lujoso durante el atardecer."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie apoyada suavemente en la barandilla.",
-                    "lenguaje_corporal": "Relajado, natural y elegante, estilo lifestyle.",
-                    "mirada": "Dirigida hacia el horizonte y el Burj Khalifa, fuera de cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación natural de golden hour.",
-                    "caracteristicas": "Luz cálida con reflejos ámbar y sombras suaves propias del atardecer."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Calma, aspiracional, serenidad.",
-                    "tono": "Cinematográfico, lifestyle, sofisticado."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Fotografía lifestyle cinematográfica ultra-realista.",
-                    "film_look": "Kodak Portra con tonos cálidos.",
-                    "texturas": "Grano analógico sutil.",
-                    "nivel_realismo": "Ultra-realista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Ángulo neutro a la altura de los ojos.",
-                    "encuadre": "Composición equilibrada con arquitectura icónica visible al fondo."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Warm grading con predominio de tonos dorados y ámbar.",
-                    "contraste": "Suave y natural.",
-                    "acabado": "Look cinematográfico limpio con grano de película discreto."
-                }
-            }
-        }, null, 2),
+  "title": "Cinematic Lifestyle Portrait — Dubai Waterfront Sunset",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro joven adulto con rasgos naturales y elegantes, piel realista con textura suave y tonos cálidos.",
+      "expresion": "Serena y contemplativa.",
+      "cabello": "Cabello natural, ligeramente movido por la brisa.",
+      "coherencia": "Identidad facial consistente, proporciones realistas, sin exageraciones."
+    },
+    "E_Entorno": {
+      "fondo": "Zona costera de Dubai Downtown junto a una barandilla frente al agua.",
+      "elementos_clave": "Burj Khalifa visible al fondo.",
+      "ambientacion": "Entorno urbano moderno y lujoso durante el atardecer."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie apoyada suavemente en la barandilla.",
+      "lenguaje_corporal": "Relajado, natural y elegante, estilo lifestyle.",
+      "mirada": "Dirigida hacia el horizonte y el Burj Khalifa, fuera de cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Fotografía lifestyle cinematográfica ultra-realista.",
+      "film_look": "Kodak Portra con tonos cálidos.",
+      "texturas": "Grano analógico sutil.",
+      "nivel_realismo": "Ultra-realista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación natural de golden hour.",
+      "caracteristicas": "Luz cálida con reflejos ámbar y sombras suaves propias del atardecer."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Calma, aspiracional, serenidad.",
+      "tono": "Cinematográfico, lifestyle, sofisticado."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Ángulo neutro a la altura de los ojos.",
+      "encuadre": "Composición equilibrada con arquitectura icónica visible al fondo."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Warm grading con predominio de tonos dorados y ámbar.",
+      "contraste": "Suave y natural.",
+      "acabado": "Look cinematográfico limpio con grano de película discreto."
+    }
+  }
+}, null, 2),
         category: "Travel",
         level: "intermediate",
         featured_image_url: "/images/prompts/sunset-elegance-dubai-vistas.jpg",
@@ -1317,53 +1317,53 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Postura firme, ángulo bajo (low angle).
 *   **I(Iluminación):** Industrial azul, luz direccional fría.
 *   **S(Sensación):** Actitud urbana, modernidad, streetwear.
-*   **E(Estilo):** Street fashion contemporáneo futurista.
+*   **L (Lenguaje Visual):** Street fashion contemporáneo futurista.
 *   **M(Composición):** Plano medio a cuerpo completo, centrado.
-*   **P(Post):** Tonos azules industriales, contraste medio-alto.
+*   **O (Optimización final):** Tonos azules industriales, contraste medio-alto.
         `,
         prompt_text: JSON.stringify({
-            "title": "Street Fashion Portrait — Futuristic Industrial",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro moderno y urbano, rasgos definidos, piel natural sin retoques exagerados.",
-                    "expresion": "Segura, relajada, actitud street.",
-                    "cabello": "Estilo urbano contemporáneo, limpio pero con carácter.",
-                    "coherencia": "Proporciones realistas, identidad consistente."
-                },
-                "E_Entorno": {
-                    "fondo": "Fondo metálico oscuro con textura industrial.",
-                    "ambientacion": "Escenario futurista industrial, estética urbana cruda."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Postura firme con ligera apertura de piernas.",
-                    "lenguaje_corporal": "Actitud dominante y relajada típica del street fashion.",
-                    "mirada": "Dirigida hacia la cámara desde un ángulo bajo."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación industrial azul.",
-                    "caracteristicas": "Luz direccional fría con reflejos metálicos, sombras marcadas pero controladas."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Actitud urbana, poder, modernidad.",
-                    "tono": "Futurista, industrial, streetwear."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Street fashion contemporáneo con estética futurista.",
-                    "texturas": "Ropa con telas gruesas, superficies metálicas visibles.",
-                    "nivel_realismo": "Fotorrealismo."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio a cuerpo completo.",
-                    "angulo": "Ángulo bajo (low angle shot).",
-                    "encuadre": "Centrado, enfatizando presencia y altura."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Dominancia de tonos azules industriales.",
-                    "contraste": "Medio-alto.",
-                    "acabado": "Look urbano limpio con nitidez controlada."
-                }
-            }
-        }, null, 2),
+  "title": "Street Fashion Portrait — Futuristic Industrial",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro moderno y urbano, rasgos definidos, piel natural sin retoques exagerados.",
+      "expresion": "Segura, relajada, actitud street.",
+      "cabello": "Estilo urbano contemporáneo, limpio pero con carácter.",
+      "coherencia": "Proporciones realistas, identidad consistente."
+    },
+    "E_Entorno": {
+      "fondo": "Fondo metálico oscuro con textura industrial.",
+      "ambientacion": "Escenario futurista industrial, estética urbana cruda."
+    },
+    "A_Accion_Postura": {
+      "pose": "Postura firme con ligera apertura de piernas.",
+      "lenguaje_corporal": "Actitud dominante y relajada típica del street fashion.",
+      "mirada": "Dirigida hacia la cámara desde un ángulo bajo."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Street fashion contemporáneo con estética futurista.",
+      "texturas": "Ropa con telas gruesas, superficies metálicas visibles.",
+      "nivel_realismo": "Fotorrealismo."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación industrial azul.",
+      "caracteristicas": "Luz direccional fría con reflejos metálicos, sombras marcadas pero controladas."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Actitud urbana, poder, modernidad.",
+      "tono": "Futurista, industrial, streetwear."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio a cuerpo completo.",
+      "angulo": "Ángulo bajo (low angle shot).",
+      "encuadre": "Centrado, enfatizando presencia y altura."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Dominancia de tonos azules industriales.",
+      "contraste": "Medio-alto.",
+      "acabado": "Look urbano limpio con nitidez controlada."
+    }
+  }
+}, null, 2),
         category: "Fashion",
         level: "intermediate",
         featured_image_url: "/images/prompts/urban-edge-futuristic-street-fashion.jpg",
@@ -1390,54 +1390,54 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Postura erguida, actitud kawaii controlada.
 *   **I(Iluminación):** Realista urbana, luz de máquinas expendedoras.
 *   **S(Sensación):** Encanto nocturno, fantasía urbana vibrante.
-*   **E(Estilo):** Cosplay japonés realista, fotorrealista.
+*   **L (Lenguaje Visual):** Cosplay japonés realista, fotorrealista.
 *   **M(Composición):** Plano medio a americano, 16:9 horizontal.
-*   **P(Post):** Colores nocturnos intensificados, acentos neón.
+*   **O (Optimización final):** Colores nocturnos intensificados, acentos neón.
         `,
         prompt_text: JSON.stringify({
-            "title": "Japanese Cosplay Portrait — Neon Night Street",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro joven adulto con rasgos delicados y estilo japonés, piel natural y limpia.",
-                    "expresion": "Dulce y confiada, ligera sonrisa.",
-                    "cabello": "Cabello largo en twin tails bien definidos.",
-                    "accesorios": "Diadema con orejas de gato.",
-                    "coherencia": "Identidad facial consistente, proporciones realistas."
-                },
-                "E_Entorno": {
-                    "fondo": "Calle nocturna japonesa con máquinas expendedoras iluminadas.",
-                    "ambientacion": "Entorno urbano nocturno, moderno y vibrante."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Postura erguida y natural, ligeramente girada hacia la cámara.",
-                    "lenguaje_corporal": "Actitud kawaii controlada, elegante y relajada.",
-                    "mirada": "Dirigida a cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación nocturna urbana realista.",
-                    "caracteristicas": "Luz ambiental proveniente de máquinas expendedoras brillantes, reflejos suaves y neón sutil."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Encanto, fantasía urbana, energía nocturna.",
-                    "tono": "Kawaii, moderno, vibrante."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Cosplay japonés realista.",
-                    "vestuario": "Clásico traje de maid con acabados limpios y detallados.",
-                    "nivel_realismo": "Fotorrealista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio a plano americano.",
-                    "angulo": "Ángulo neutro.",
-                    "encuadre": "Horizontal 16:9, sujeto centrado con fondo visible."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Colores nocturnos intensificados con acentos neón.",
-                    "contraste": "Medio.",
-                    "acabado": "Nitidez equilibrada con iluminación realista."
-                }
-            }
-        }, null, 2),
+  "title": "Japanese Cosplay Portrait — Neon Night Street",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro joven adulto con rasgos delicados y estilo japonés, piel natural y limpia.",
+      "expresion": "Dulce y confiada, ligera sonrisa.",
+      "cabello": "Cabello largo en twin tails bien definidos.",
+      "accesorios": "Diadema con orejas de gato.",
+      "coherencia": "Identidad facial consistente, proporciones realistas."
+    },
+    "E_Entorno": {
+      "fondo": "Calle nocturna japonesa con máquinas expendedoras iluminadas.",
+      "ambientacion": "Entorno urbano nocturno, moderno y vibrante."
+    },
+    "A_Accion_Postura": {
+      "pose": "Postura erguida y natural, ligeramente girada hacia la cámara.",
+      "lenguaje_corporal": "Actitud kawaii controlada, elegante y relajada.",
+      "mirada": "Dirigida a cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Cosplay japonés realista.",
+      "vestuario": "Clásico traje de maid con acabados limpios y detallados.",
+      "nivel_realismo": "Fotorrealista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación nocturna urbana realista.",
+      "caracteristicas": "Luz ambiental proveniente de máquinas expendedoras brillantes, reflejos suaves y neón sutil."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Encanto, fantasía urbana, energía nocturna.",
+      "tono": "Kawaii, moderno, vibrante."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio a plano americano.",
+      "angulo": "Ángulo neutro.",
+      "encuadre": "Horizontal 16:9, sujeto centrado con fondo visible."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Colores nocturnos intensificados con acentos neón.",
+      "contraste": "Medio.",
+      "acabado": "Nitidez equilibrada con iluminación realista."
+    }
+  }
+}, null, 2),
         category: "Alternative",
         level: "intermediate",
         featured_image_url: "/images/prompts/maid-moonlight-cosplay-moment.jpg",
@@ -1464,53 +1464,53 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Reclinada en la cama, mirada suave e introspectiva.
 *   **I(Iluminación):** Ambiental pastel, luz difusa con arcoíris y bloom.
 *   **S(Sensación):** Onírica, mágica, nostálgica.
-*   **E(Estilo):** Fotografía analógica Petra Collins, fotorrealismo.
+*   **L (Lenguaje Visual):** Fotografía analógica Petra Collins, fotorrealismo.
 *   **M(Composición):** Plano medio, ángulo neutro íntimo.
-*   **P(Post):** Tonos pastel cálidos/rosados, contraste bajo, soft focus.
+*   **O (Optimización final):** Tonos pastel cálidos/rosados, contraste bajo, soft focus.
         `,
         prompt_text: JSON.stringify({
-            "title": "Dreamlike Analog Portrait — Ethereal Bedroom",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro joven adulto con rasgos suaves y delicados, piel natural con imperfecciones visibles propias de fotografía analógica.",
-                    "expresion": "Serena, introspectiva, mirada relajada.",
-                    "cabello": "Cabello suelto, ligeramente despeinado, apariencia natural.",
-                    "coherencia": "Proporciones realistas, identidad intacta, sin retoque excesivo."
-                },
-                "E_Entorno": {
-                    "fondo": "Habitación íntima y minimalista, cama como elemento central.",
-                    "ambientacion": "Espacio personal, suave y acogedor, sin objetos dominantes."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Reclinada sobre la cama, postura relajada y natural.",
-                    "lenguaje_corporal": "Calma, vulnerabilidad sutil, sensación de descanso.",
-                    "mirada": "Suave, ligeramente perdida o dirigida fuera de cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación ambiental pastel.",
-                    "caracteristicas": "Luz difusa con flares de arcoíris, bloom intenso y reflejos suaves."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Onírica, mágica, íntima.",
-                    "tono": "Ethereal, nostálgico, delicado."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Fotografía analógica soñadora estilo Petra Collins.",
-                    "texturas": "Grano visible de película, desenfoque suave, bloom pesado.",
-                    "nivel_realismo": "Fotorrealismo analógico."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Ángulo neutro a la altura de la cama.",
-                    "encuadre": "Íntimo, ligeramente descentrado para sensación natural."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos pastel suaves con dominancia rosada y cálida.",
-                    "contraste": "Bajo.",
-                    "acabado": "Look analógico, soft focus, atmósfera difusa y soñadora."
-                }
-            }
-        }, null, 2),
+  "title": "Dreamlike Analog Portrait — Ethereal Bedroom",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro joven adulto con rasgos suaves y delicados, piel natural con imperfecciones visibles propias de fotografía analógica.",
+      "expresion": "Serena, introspectiva, mirada relajada.",
+      "cabello": "Cabello suelto, ligeramente despeinado, apariencia natural.",
+      "coherencia": "Proporciones realistas, identidad intacta, sin retoque excesivo."
+    },
+    "E_Entorno": {
+      "fondo": "Habitación íntima y minimalista, cama como elemento central.",
+      "ambientacion": "Espacio personal, suave y acogedor, sin objetos dominantes."
+    },
+    "A_Accion_Postura": {
+      "pose": "Reclinada sobre la cama, postura relajada y natural.",
+      "lenguaje_corporal": "Calma, vulnerabilidad sutil, sensación de descanso.",
+      "mirada": "Suave, ligeramente perdida o dirigida fuera de cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Fotografía analógica soñadora estilo Petra Collins.",
+      "texturas": "Grano visible de película, desenfoque suave, bloom pesado.",
+      "nivel_realismo": "Fotorrealismo analógico."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación ambiental pastel.",
+      "caracteristicas": "Luz difusa con flares de arcoíris, bloom intenso y reflejos suaves."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Onírica, mágica, íntima.",
+      "tono": "Ethereal, nostálgico, delicado."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Ángulo neutro a la altura de la cama.",
+      "encuadre": "Íntimo, ligeramente descentrado para sensación natural."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos pastel suaves con dominancia rosada y cálida.",
+      "contraste": "Bajo.",
+      "acabado": "Look analógico, soft focus, atmósfera difusa y soñadora."
+    }
+  }
+}, null, 2),
         category: "Portrait",
         level: "advanced",
         featured_image_url: "/images/prompts/ethereal-dreamscape-kpop-portrait.jpg",
@@ -1541,54 +1541,54 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Posando sobre la pantalla, perspectiva forzada extrema.
 *   **I(Iluminación):** Luz interior suave, sombras de contacto realistas.
 *   **S(Sensación):** Surrealismo, juego de escalas, ilusión 3D.
-*   **E(Estilo):** Composición fotorrealista surrealista, hiperrealismo.
+*   **L (Lenguaje Visual):** Composición fotorrealista surrealista, hiperrealismo.
 *   **M(Composición):** Vista de pájaro (top-down), profundidad de campo reducida.
-*   **P(Post):** Efecto 3D de profundidad, nitidez extrema en la figura.
+*   **O (Optimización final):** Efecto 3D de profundidad, nitidez extrema en la figura.
         `,
         prompt_text: JSON.stringify({
-            "title": "Miniature Portrait — Smartphone Stage",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro estilizado (inspiración Anne Hathaway), maquillaje exquisito, gafas de montura negra.",
-                    "expresion": "Cuchi, juguetona, alegre.",
-                    "cabello": "Largo y castaño, aspecto natural.",
-                    "coherencia": "Identidad reconocible a escala miniatura."
-                },
-                "E_Entorno": {
-                    "fondo": "Fondo gris neutro y limpio.",
-                    "superficie": "Pantalla de smartphone sostenida por una mano, tratada como un suelo oscuro/escenario.",
-                    "ambientacion": "Composición de interiores minimalista."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Pose dinámica y juguetona (una pierna levantada, signo de v).",
-                    "lenguaje_corporal": "Dinámico, divertido, interactuando con la 'superficie' del teléfono.",
-                    "perspectiva": "Perspectiva forzada extrema para enfatizar la diferencia de tamaño."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz suave de interior.",
-                    "caracteristicas": "Luz envolvente con sombras de contacto tenues sobre la pantalla negra."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Surrealismo, diversión, creatividad visual.",
-                    "tono": "Innovador, lúdico, 3D Pop-out."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Composición fotorrealista surrealista.",
-                    "nivel_realismo": "Hiperrealista.",
-                    "texturas": "Contraste entre cristal del teléfono y ropa de alta costura street."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Vista cenital / ojo de pájaro (top-down).",
-                    "angulo": "Ángulo picado fuerte.",
-                    "encuadre": "Enfoque en la miniatura y la mano que sostiene el dispositivo."
-                },
-                "O_Optimizacion_final": {
-                    "efectos": "Efecto 3D de 'salir de la pantalla'.",
-                    "contraste": "Medio.",
-                    "acabado": "Nitidez extrema en el sujeto miniatura, profundidad de campo reducida en el fondo."
-                }
-            }
-        }, null, 2),
+  "title": "Miniature Portrait — Smartphone Stage",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro estilizado (inspiración Anne Hathaway), maquillaje exquisito, gafas de montura negra.",
+      "expresion": "Cuchi, juguetona, alegre.",
+      "cabello": "Largo y castaño, aspecto natural.",
+      "coherencia": "Identidad reconocible a escala miniatura."
+    },
+    "E_Entorno": {
+      "fondo": "Fondo gris neutro y limpio.",
+      "superficie": "Pantalla de smartphone sostenida por una mano, tratada como un suelo oscuro/escenario.",
+      "ambientacion": "Composición de interiores minimalista."
+    },
+    "A_Accion_Postura": {
+      "pose": "Pose dinámica y juguetona (una pierna levantada, signo de v).",
+      "lenguaje_corporal": "Dinámico, divertido, interactuando con la 'superficie' del teléfono.",
+      "perspectiva": "Perspectiva forzada extrema para enfatizar la diferencia de tamaño."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Composición fotorrealista surrealista.",
+      "nivel_realismo": "Hiperrealista.",
+      "texturas": "Contraste entre cristal del teléfono y ropa de alta costura street."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz suave de interior.",
+      "caracteristicas": "Luz envolvente con sombras de contacto tenues sobre la pantalla negra."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Surrealismo, diversión, creatividad visual.",
+      "tono": "Innovador, lúdico, 3D Pop-out."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Vista cenital / ojo de pájaro (top-down).",
+      "angulo": "Ángulo picado fuerte.",
+      "encuadre": "Enfoque en la miniatura y la mano que sostiene el dispositivo."
+    },
+    "O_Optimizacion_final": {
+      "efectos": "Efecto 3D de 'salir de la pantalla'.",
+      "contraste": "Medio.",
+      "acabado": "Nitidez extrema en el sujeto miniatura, profundidad de campo reducida en el fondo."
+    }
+  }
+}, null, 2),
         category: "Creative",
         level: "advanced",
         featured_image_url: "/images/prompts/miniature-portrait-smartphone-stage.jpg",
@@ -1616,54 +1616,54 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Propuesta de matrimonio (él de rodillas, ella sorprendida con manos en mejillas).
 *   **I(Iluminación):** Luz cálida de atardecer, resplandor suave, luz volumétrica.
 *   **S(Sensación):** Romántica, tierna, mágica, estilo cuento de hadas.
-*   **E(Estilo):** Render 3D de alta calidad, colores vibrantes y saturación equilibrada.
+*   **L (Lenguaje Visual):** Render 3D de alta calidad, colores vibrantes y saturación equilibrada.
 *   **M(Composición):** Plano general, composición centrada bajo el arco floral.
-*   **P(Post):** Color grading cálido, efecto bloom sutil, alta resolución.
+*   **O (Optimización final):** Color grading cálido, efecto bloom sutil, alta resolución.
         `,
         prompt_text: JSON.stringify({
-            "title": "3D Chibi Proposal — Enchanted Flower Arch",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "estilo": "3D Chibi / Pixar Animation style.",
-                    "caracteristicas": "Personajes adorables, cabezas ligeramente más grandes, ojos expresivos.",
-                    "vestimenta": "Él con camisa azul y pantalón oscuro, ella con vestido rosa pastel.",
-                    "coherencia": "Estética consistente de película animada de alta gama."
-                },
-                "E_Entorno": {
-                    "fondo": "Jardín de flores exuberante con pétalos en el suelo.",
-                    "elementos_clave": "Arco de flores circular masivo y detallado, iluminación dorada al fondo.",
-                    "ambientacion": "Bosque o jardín de fantasía romántica."
-                },
-                "A_Accion_Postura": {
-                    "pose_masculina": "De rodillas, sosteniendo una caja con un anillo brillante.",
-                    "pose_femenina": "De pie, expresión de asombro y felicidad, manos cubriendo parcialmente la boca.",
-                    "interaccion": "Momento congelado de máxima emoción."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación de 'hora mágica' (sunset).",
-                    "caracteristicas": "Luz de fondo suave (backlighting) creando un contorno brillante, sombras cálidas y suaves."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Amor puro, alegría, magia, ternura.",
-                    "tono": "Vibrante, colorido, soñador."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Render digital 3D hiper-detallado.",
-                    "texturas": "Telas suaves, pétalos delicados, cabello con volumen estilizado.",
-                    "nivel_realismo": "Fantasía 3D fotorrealista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano general (Full shot).",
-                    "angulo": "Ángulo frontal neutro.",
-                    "encuadre": "Sujetos perfectamente enmarcados por el arco de flores."
-                },
-                "O_Optimizacion_final": {
-                    "filtros": "Efectos de partículas de luz (dust motes) flotando, bloom intenso en el anillo.",
-                    "contraste": "Medio.",
-                    "acabado": "Imagen limpia, nítida y apta para impresión editorial de alta calidad."
-                }
-            }
-        }, null, 2),
+  "title": "3D Chibi Proposal — Enchanted Flower Arch",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "estilo": "3D Chibi / Pixar Animation style.",
+      "caracteristicas": "Personajes adorables, cabezas ligeramente más grandes, ojos expresivos.",
+      "vestimenta": "Él con camisa azul y pantalón oscuro, ella con vestido rosa pastel.",
+      "coherencia": "Estética consistente de película animada de alta gama."
+    },
+    "E_Entorno": {
+      "fondo": "Jardín de flores exuberante con pétalos en el suelo.",
+      "elementos_clave": "Arco de flores circular masivo y detallado, iluminación dorada al fondo.",
+      "ambientacion": "Bosque o jardín de fantasía romántica."
+    },
+    "A_Accion_Postura": {
+      "pose_masculina": "De rodillas, sosteniendo una caja con un anillo brillante.",
+      "pose_femenina": "De pie, expresión de asombro y felicidad, manos cubriendo parcialmente la boca.",
+      "interaccion": "Momento congelado de máxima emoción."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Render digital 3D hiper-detallado.",
+      "texturas": "Telas suaves, pétalos delicados, cabello con volumen estilizado.",
+      "nivel_realismo": "Fantasía 3D fotorrealista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación de 'hora mágica' (sunset).",
+      "caracteristicas": "Luz de fondo suave (backlighting) creando un contorno brillante, sombras cálidas y suaves."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Amor puro, alegría, magia, ternura.",
+      "tono": "Vibrante, colorido, soñador."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano general (Full shot).",
+      "angulo": "Ángulo frontal neutro.",
+      "encuadre": "Sujetos perfectamente enmarcados por el arco de flores."
+    },
+    "O_Optimizacion_final": {
+      "filtros": "Efectos de partículas de luz (dust motes) flotando, bloom intenso en el anillo.",
+      "contraste": "Medio.",
+      "acabado": "Imagen limpia, nítida y apta para impresión editorial de alta calidad."
+    }
+  }
+}, null, 2),
         category: "Creative",
         level: "beginner",
         featured_image_url: "/images/prompts/3d-chibi-proposal-enchanted-arch.jpg",
@@ -1690,53 +1690,53 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   **A(Acción):** Propuesta de matrimonio, efecto "pop-out" (personajes y flores salen del marco).
 *   **I(Iluminación):** Luz cálida de atardecer, resplandor suave, bokeh profundo.
 *   **S(Sensación):** Creativa, mágica, romántica, ruptura de la cuarta pared.
-*   **E(Estilo):** Composición surrealista fotorrealista combinada con 3D.
+*   **L (Lenguaje Visual):** Composición surrealista fotorrealista combinada con 3D.
 *   **M(Composición):** Primer plano de la mano con el marco, profundidad de campo reducida.
-*   **P(Post):** Color grading cálido, nitidez en el marco, desenfoque artístico en el fondo.
+*   **O (Optimización final):** Color grading cálido, nitidez en el marco, desenfoque artístico en el fondo.
         `,
         prompt_text: JSON.stringify({
-            "title": "3D Chibi Out-of-Frame Portrait",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "estilo": "3D Chibi / Pixar Animation style.",
-                    "caracteristicas": "Personajes adorables, proporciones deformadas tiernas, ojos grandes.",
-                    "coherencia": "Identidad consistente con el estilo 3D de alta gama."
-                },
-                "E_Entorno": {
-                    "fondo": "Jardín de rosas desenfocado (bokeh).",
-                    "superficie": "Marco de fotografía Polaroid blanco, envejecido o rasgado.",
-                    "elementos_clave": "Mano humana real o hiperrealista sosteniendo el marco frente a la cámara."
-                },
-                "A_Accion_Postura": {
-                    "escena_interna": "Propuesta de matrimonio Chibi (él arrodillado, ella bailando/saltando de alegría).",
-                    "efecto_especial": "Los personajes y los pétalos de flores salen físicamente de los límites del marco de la foto (Out-of-Frame effect).",
-                    "dinamica": "Movimiento fluido, pétalos volando por delante del marco."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación cinematográfica de atardecer.",
-                    "caracteristicas": "Luz dorada cálida que integra el mundo real (mano) con el mundo 3D (personajes)."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Sorpresa, magia, amor creativo.",
-                    "tono": "Innovador, soñador, visualmente impactante."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Surrealismo visual / 3D Pop-out.",
-                    "nivel_realismo": "Híbrido fotorrealista (mano) y Pixar-style (escena).",
-                    "texturas": "Papel del marco, piel de la mano, pétalos de rosa detallados."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Primer plano (Close-up) de la mano y el marco.",
-                    "angulo": "Ángulo frontal.",
-                    "encuadre": "Composición centrada que resalta el efecto de profundidad."
-                },
-                "O_Optimizacion_final": {
-                    "filtros": "Bloom suave, color grading cálido (ámbar/rosa), grano analógico sutil.",
-                    "contraste": "Medio.",
-                    "acabado": "Imagen limpia con gran impacto visual de profundidad."
-                }
-            }
-        }, null, 2),
+  "title": "3D Chibi Out-of-Frame Portrait",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "estilo": "3D Chibi / Pixar Animation style.",
+      "caracteristicas": "Personajes adorables, proporciones deformadas tiernas, ojos grandes.",
+      "coherencia": "Identidad consistente con el estilo 3D de alta gama."
+    },
+    "E_Entorno": {
+      "fondo": "Jardín de rosas desenfocado (bokeh).",
+      "superficie": "Marco de fotografía Polaroid blanco, envejecido o rasgado.",
+      "elementos_clave": "Mano humana real o hiperrealista sosteniendo el marco frente a la cámara."
+    },
+    "A_Accion_Postura": {
+      "escena_interna": "Propuesta de matrimonio Chibi (él arrodillado, ella bailando/saltando de alegría).",
+      "efecto_especial": "Los personajes y los pétalos de flores salen físicamente de los límites del marco de la foto (Out-of-Frame effect).",
+      "dinamica": "Movimiento fluido, pétalos volando por delante del marco."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Surrealismo visual / 3D Pop-out.",
+      "nivel_realismo": "Híbrido fotorrealista (mano) y Pixar-style (escena).",
+      "texturas": "Papel del marco, piel de la mano, pétalos de rosa detallados."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación cinematográfica de atardecer.",
+      "caracteristicas": "Luz dorada cálida que integra el mundo real (mano) con el mundo 3D (personajes)."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Sorpresa, magia, amor creativo.",
+      "tono": "Innovador, soñador, visualmente impactante."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Primer plano (Close-up) de la mano y el marco.",
+      "angulo": "Ángulo frontal.",
+      "encuadre": "Composición centrada que resalta el efecto de profundidad."
+    },
+    "O_Optimizacion_final": {
+      "filtros": "Bloom suave, color grading cálido (ámbar/rosa), grano analógico sutil.",
+      "contraste": "Medio.",
+      "acabado": "Imagen limpia con gran impacto visual de profundidad."
+    }
+  }
+}, null, 2),
         category: "Creative",
         level: "advanced",
         featured_image_url: "/images/prompts/3d-chibi-out-of-frame-proposal.jpg",
@@ -1768,45 +1768,45 @@ export const MOCK_PROMPTS: ContentItem[] = [
 *   ** P(Post):** Tonos cálidos, dorados y carmesí.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato Catrina Día de Muertos Hiperrealista - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro femenino base sin alterar, solo maquillaje aplicado.",
-                    "expresion": "Serena y mística.",
-                    "cabello": "Peinado suelto o recogido sutil.",
-                    "maquillaje": "Catrina en tonos dorados y rojos."
-                },
-                "E_Entorno": {
-                    "fondo": "Oscuro con luces suaves.",
-                    "ambientacion": "Mística y tradicional mexicana."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Primer plano centrado.",
-                    "mirada": "Firme hacia cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz suave cinematográfica.",
-                    "caracteristicas": "Resalta detalles del maquillaje."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Misticismo, tradición, solemnidad.",
-                    "tono": "Artístico ceremonial."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Hiperrealismo 8K.",
-                    "color": "Rojos, dorados, negros.",
-                    "textura": "Detalles extremadamente finos."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Close-up.",
-                    "angulo": "Neutral."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos cálidos, dorados y carmesí.",
-                    "claridad": "Alta para maquillaje detallado."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Catrina Día de Muertos Hiperrealista - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro femenino base sin alterar, solo maquillaje aplicado.",
+      "expresion": "Serena y mística.",
+      "cabello": "Peinado suelto o recogido sutil.",
+      "maquillaje": "Catrina en tonos dorados y rojos."
+    },
+    "E_Entorno": {
+      "fondo": "Oscuro con luces suaves.",
+      "ambientacion": "Mística y tradicional mexicana."
+    },
+    "A_Accion_Postura": {
+      "pose": "Primer plano centrado.",
+      "mirada": "Firme hacia cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Hiperrealismo 8K.",
+      "color": "Rojos, dorados, negros.",
+      "textura": "Detalles extremadamente finos."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz suave cinematográfica.",
+      "caracteristicas": "Resalta detalles del maquillaje."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Misticismo, tradición, solemnidad.",
+      "tono": "Artístico ceremonial."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Close-up.",
+      "angulo": "Neutral."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos cálidos, dorados y carmesí.",
+      "claridad": "Alta para maquillaje detallado."
+    }
+  }
+}, null, 2),
         category: "Creative",
         level: "advanced",
         featured_image_url: "/images/cases/catrina-portrait.jpg",
@@ -1854,44 +1854,44 @@ Copia el prompt REALISMO de este caso y añade el parámetro de referencia (coma
 *   ** P(Post):** B & W contrastado.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato B&W con Denim en Silla Plegable - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro relajado, mirada suave.",
-                    "expresion": "Calmada, cool.",
-                    "cabello": "Suelto, estilo natural.",
-                    "indumentaria": "Chaqueta y jeans de mezclilla."
-                },
-                "E_Entorno": {
-                    "fondo": "Estudio liso minimalista.",
-                    "ambientacion": "Simple y moderno."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada con pierna cruzada en silla plegable.",
-                    "gestualidad": "Mano en el respaldo."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz suave direccional.",
-                    "caracteristicas": "Sombras nítidas y estilo cinematográfico."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Minimalismo cool.",
-                    "tono": "Cinemático B&W."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Blanco y negro elegante.",
-                    "textura": "Grano suave analógico."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medio.",
-                    "angulo": "Neutral."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "B&W contrastado.",
-                    "grano": "Fino."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato B&W con Denim en Silla Plegable - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro relajado, mirada suave.",
+      "expresion": "Calmada, cool.",
+      "cabello": "Suelto, estilo natural.",
+      "indumentaria": "Chaqueta y jeans de mezclilla."
+    },
+    "E_Entorno": {
+      "fondo": "Estudio liso minimalista.",
+      "ambientacion": "Simple y moderno."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada con pierna cruzada en silla plegable.",
+      "gestualidad": "Mano en el respaldo."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Blanco y negro elegante.",
+      "textura": "Grano suave analógico."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz suave direccional.",
+      "caracteristicas": "Sombras nítidas y estilo cinematográfico."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Minimalismo cool.",
+      "tono": "Cinemático B&W."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medio.",
+      "angulo": "Neutral."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "B&W contrastado.",
+      "grano": "Fino."
+    }
+  }
+}, null, 2),
         category: "Portrait",
         level: "intermediate",
         featured_image_url: "/images/cases/bw-chair-denim.jpg",
@@ -1938,46 +1938,46 @@ Copia el prompt y verás cómo tu pose se transforma en este retrato minimalista
 *   ** P(Post):** Curva suave en grises.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato Técnico B&W con Iluminación Rembrandt - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro sin retocar, piel natural visible.",
-                    "expresion": "Introspectiva e intensa.",
-                    "cabello": "Suelto con mechones sueltos.",
-                    "indumentaria": "Tela de lunares sobre los hombros."
-                },
-                "E_Entorno": {
-                    "fondo": "Habitación oscura con leve luz de ventana.",
-                    "ambientacion": "Íntima y cinematográfica."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada con hombros expuestos.",
-                    "mirada": "Directa e intensa."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Rembrandt clásico con octabox.",
-                    "caracteristicas": "Triángulo de luz bajo el ojo."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Profundidad emocional.",
-                    "tono": "Cine monocromático."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Hiperrealismo B&W.",
-                    "textura": "Piel natural sin retoque.",
-                    "color": "Monocromo detallado."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medio vertical.",
-                    "angulo": "Neutral a altura de ojos."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Curva suave en grises.",
-                    "grano": "Fino clásico.",
-                    "contraste": "Equilibrado."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Técnico B&W con Iluminación Rembrandt - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro sin retocar, piel natural visible.",
+      "expresion": "Introspectiva e intensa.",
+      "cabello": "Suelto con mechones sueltos.",
+      "indumentaria": "Tela de lunares sobre los hombros."
+    },
+    "E_Entorno": {
+      "fondo": "Habitación oscura con leve luz de ventana.",
+      "ambientacion": "Íntima y cinematográfica."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada con hombros expuestos.",
+      "mirada": "Directa e intensa."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Hiperrealismo B&W.",
+      "textura": "Piel natural sin retoque.",
+      "color": "Monocromo detallado."
+    },
+    "I_Iluminacion": {
+      "tipo": "Rembrandt clásico con octabox.",
+      "caracteristicas": "Triángulo de luz bajo el ojo."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Profundidad emocional.",
+      "tono": "Cine monocromático."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medio vertical.",
+      "angulo": "Neutral a altura de ojos."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Curva suave en grises.",
+      "grano": "Fino clásico.",
+      "contraste": "Equilibrado."
+    }
+  }
+}, null, 2),
         category: "Portrait",
         level: "advanced",
         featured_image_url: "/images/cases/rembrandt-portrait.jpg",
@@ -2009,49 +2009,49 @@ Asegúrate de que la referencia sea en alta resolución para que las texturas de
 *   **A(Acción):** Oreja centrada, cabeza girada.
 *   **I(Iluminación):** Haz puntual fuerte.
 *   **S(Sensación):** Lujo, misterio.
-*   **E(Estilo):** Fashion editorial.
+*   **L (Lenguaje Visual):** Fashion editorial.
 *   **M(Composición):** Close-up extremo.
-*   **P(Post):** Cinemático oscuro.
+*   **O (Optimización final):** Cinemático oscuro.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato Close-up de Oreja Iluminada (Pendiente Focal) - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Solo parte del rostro visible, piel bronceada impecable.",
-                    "expresion": "Neutra y elegante.",
-                    "cabello": "Recogido para mostrar la oreja.",
-                    "indumentaria": "Vestido negro de un solo hombro."
-                },
-                "E_Entorno": {
-                    "fondo": "Oscuro minimalista.",
-                    "ambientacion": "Editorial de lujo."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Oreja centrada en el encuadre.",
-                    "gestualidad": "Cabeza ligeramente girada."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Haz puntual fuerte.",
-                    "caracteristicas": "Enfocado solo en la oreja y pendiente."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Lujo, misterio.",
-                    "tono": "Moderno minimalista."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Fashion editorial.",
-                    "color": "Oscuros profundos con acentos metálicos."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Close-up extremo.",
-                    "angulo": "Neutral."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Cinemático oscuro.",
-                    "claridad": "Alta en zona focal."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Close-up de Oreja Iluminada (Pendiente Focal) - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Solo parte del rostro visible, piel bronceada impecable.",
+      "expresion": "Neutra y elegante.",
+      "cabello": "Recogido para mostrar la oreja.",
+      "indumentaria": "Vestido negro de un solo hombro."
+    },
+    "E_Entorno": {
+      "fondo": "Oscuro minimalista.",
+      "ambientacion": "Editorial de lujo."
+    },
+    "A_Accion_Postura": {
+      "pose": "Oreja centrada en el encuadre.",
+      "gestualidad": "Cabeza ligeramente girada."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Fashion editorial.",
+      "color": "Oscuros profundos con acentos metálicos."
+    },
+    "I_Iluminacion": {
+      "tipo": "Haz puntual fuerte.",
+      "caracteristicas": "Enfocado solo en la oreja y pendiente."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Lujo, misterio.",
+      "tono": "Moderno minimalista."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Close-up extremo.",
+      "angulo": "Neutral."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Cinemático oscuro.",
+      "claridad": "Alta en zona focal."
+    }
+  }
+}, null, 2),
         category: "Fashion",
         level: "advanced",
         featured_image_url: "/images/cases/focal-earring.jpg",
@@ -2088,43 +2088,43 @@ Aplica el prompt detallado y ajusta los parámetros de visualización para que e
 *   ** P(Post):** Tonos fríos, acentos cálidos.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato de Poder en Traje Negro (Estudio) - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Expresión confiada, mirada elegante.",
-                    "cabello": "Largo, oscuro y brillante.",
-                    "indumentaria": "Traje negro a medida."
-                },
-                "E_Entorno": {
-                    "fondo": "Negro profundo.",
-                    "ambientacion": "Minimalismo elegante."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada con piernas cruzadas.",
-                    "gestualidad": "Mano en el mentón."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Soft light controlada.",
-                    "caracteristicas": "Resalta el brillo del cabello y traje."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Poder, elegancia, autoridad.",
-                    "tono": "Editorial empoderado."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Moda editorial de alto nivel.",
-                    "color": "Negros y dorados sutiles."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medio.",
-                    "angulo": "Neutral."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos fríos con acentos cálidos.",
-                    "claridad": "Alta."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato de Poder en Traje Negro (Estudio) - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Expresión confiada, mirada elegante.",
+      "cabello": "Largo, oscuro y brillante.",
+      "indumentaria": "Traje negro a medida."
+    },
+    "E_Entorno": {
+      "fondo": "Negro profundo.",
+      "ambientacion": "Minimalismo elegante."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada con piernas cruzadas.",
+      "gestualidad": "Mano en el mentón."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Moda editorial de alto nivel.",
+      "color": "Negros y dorados sutiles."
+    },
+    "I_Iluminacion": {
+      "tipo": "Soft light controlada.",
+      "caracteristicas": "Resalta el brillo del cabello y traje."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Poder, elegancia, autoridad.",
+      "tono": "Editorial empoderado."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medio.",
+      "angulo": "Neutral."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos fríos con acentos cálidos.",
+      "claridad": "Alta."
+    }
+  }
+}, null, 2),
         category: "Fashion",
         level: "intermediate",
         featured_image_url: "/images/cases/power-suit-portrait.jpg",
@@ -2538,53 +2538,53 @@ A close-up, professionally composed photograph showcasing a hand-crocheted yarn 
 *   **A (Acción):** Medio movimiento, cabeza girada, mirada directa.
 *   **I (Iluminación):** Chiaroscuro dramático, rayos diagonales.
 *   **S (Sensación):** Misterio, elegancia introspectiva.
-*   **E (Estilo):** B&W hiperrealista 8K, grano fino.
+*   **L (Lenguaje Visual):** B&W hiperrealista 8K, grano fino.
 *   **M (Composición):** Primer plano, centrado dramático.
-*   **P (Post):** Alto contraste, color grading monocromo.
+*   **O (Optimización final):** Alto contraste, color grading monocromo.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato Cinematográfico Monocromático (Chiaroscuro) - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Modelo femenina con rasgos suaves y expresivos, mirada profunda y piel con textura natural visible bajo la luz.",
-                    "expresion": "Serena, introspectiva, emocional.",
-                    "cabello": "Ligeramente elevado por movimiento, mechones flotando.",
-                    "coherencia": "Proporciones realistas, rostro enfocado y nítido."
-                },
-                "E_Entorno": {
-                    "fondo": "Negro aterciopelado con rayos difusos que imitan luz acuática.",
-                    "ambientacion": "Cinemático en claroscuro."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Capturada en medio movimiento, cabeza girada sutilmente.",
-                    "mirada": "Directa, emocionalmente cargada."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz dramática de claroscuro.",
-                    "caracteristicas": "Rayos diagonales, fuertes contrastes B&W.",
-                    "resultado": "Esculpido facial dramático."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Misterio, elegancia introspectiva.",
-                    "tono": "Editorial analógico."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "B&W hiperrealista 8K.",
-                    "textura": "Grano fino cinematográfico.",
-                    "color": "Monocromo de alto contraste."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Primer plano cinematográfico.",
-                    "angulo": "Frontal con ligera diagonal.",
-                    "encuadre": "Centrado dramático."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Monocromo profundo.",
-                    "contraste": "Alto.",
-                    "grano": "Fino tipo película."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Cinematográfico Monocromático (Chiaroscuro) - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Modelo femenina con rasgos suaves y expresivos, mirada profunda y piel con textura natural visible bajo la luz.",
+      "expresion": "Serena, introspectiva, emocional.",
+      "cabello": "Ligeramente elevado por movimiento, mechones flotando.",
+      "coherencia": "Proporciones realistas, rostro enfocado y nítido."
+    },
+    "E_Entorno": {
+      "fondo": "Negro aterciopelado con rayos difusos que imitan luz acuática.",
+      "ambientacion": "Cinemático en claroscuro."
+    },
+    "A_Accion_Postura": {
+      "pose": "Capturada en medio movimiento, cabeza girada sutilmente.",
+      "mirada": "Directa, emocionalmente cargada."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "B&W hiperrealista 8K.",
+      "textura": "Grano fino cinematográfico.",
+      "color": "Monocromo de alto contraste."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz dramática de claroscuro.",
+      "caracteristicas": "Rayos diagonales, fuertes contrastes B&W.",
+      "resultado": "Esculpido facial dramático."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Misterio, elegancia introspectiva.",
+      "tono": "Editorial analógico."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Primer plano cinematográfico.",
+      "angulo": "Frontal con ligera diagonal.",
+      "encuadre": "Centrado dramático."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Monocromo profundo.",
+      "contraste": "Alto.",
+      "grano": "Fino tipo película."
+    }
+  }
+}, null, 2),
         category: "Portrait",
         level: "advanced",
         featured_image_url: "/images/cases/monochromatic-portrait.jpg",
@@ -2612,53 +2612,53 @@ Este estilo resalta las texturas. Si quieres un look más suave, cambia I_Ilumin
 *   **A (Acción):** De espaldas con giro, mirada fuerte a cámara.
 *   **I (Iluminación):** Dual Neón (Izquierda: Amarillo/Naranja, Derecha: Azul eléctrico).
 *   **S (Sensación):** Futurismo, energía eléctrica.
-*   **E (Estilo):** High-fashion, colores saturados.
+*   **L (Lenguaje Visual):** High-fashion, colores saturados.
 *   **M (Composición):** Medio corto, silueta enfatizada.
         `,
         prompt_text: JSON.stringify({
-            "title": "Alta Costura Cyberpunk con Iluminación Dual - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro femenino estilizado con mirada intensa y elegante.",
-                    "expresion": "Confianza moderna.",
-                    "cabello": "Corte bob claro minimalista.",
-                    "coherencia": "Modelado editorial preciso."
-                },
-                "E_Entorno": {
-                    "fondo": "Negro absoluto.",
-                    "ambientacion": "Futurista cyberpunk limpio."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De espaldas con giro al hombro.",
-                    "mirada": "Fuerte hacia cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz de neón dual.",
-                    "caracteristicas": {
-                        "lado_izquierdo": "Amarillo–naranja intenso.",
-                        "lado_derecho": "Azul eléctrico."
-                    }
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Futurismo, energía eléctrica.",
-                    "tono": "Editorial de moda moderna."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "High-fashion cyberpunk.",
-                    "color": "Vibrante, saturado.",
-                    "textura": "Ultra definida."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medio corto.",
-                    "angulo": "Neutral frontal con giro.",
-                    "encuadre": "Silueta enfatizada."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Dual-tone extremo.",
-                    "claridad": "Muy alta."
-                }
-            }
-        }, null, 2),
+  "title": "Alta Costura Cyberpunk con Iluminación Dual - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro femenino estilizado con mirada intensa y elegante.",
+      "expresion": "Confianza moderna.",
+      "cabello": "Corte bob claro minimalista.",
+      "coherencia": "Modelado editorial preciso."
+    },
+    "E_Entorno": {
+      "fondo": "Negro absoluto.",
+      "ambientacion": "Futurista cyberpunk limpio."
+    },
+    "A_Accion_Postura": {
+      "pose": "De espaldas con giro al hombro.",
+      "mirada": "Fuerte hacia cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "High-fashion cyberpunk.",
+      "color": "Vibrante, saturado.",
+      "textura": "Ultra definida."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz de neón dual.",
+      "caracteristicas": {
+        "lado_izquierdo": "Amarillo–naranja intenso.",
+        "lado_derecho": "Azul eléctrico."
+      }
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Futurismo, energía eléctrica.",
+      "tono": "Editorial de moda moderna."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medio corto.",
+      "angulo": "Neutral frontal con giro.",
+      "encuadre": "Silueta enfatizada."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Dual-tone extremo.",
+      "claridad": "Muy alta."
+    }
+  }
+}, null, 2),
         category: "Cyberpunk",
         level: "intermediate",
         featured_image_url: "/images/cases/cyberpunk-fashion.jpg",
@@ -2686,50 +2686,50 @@ Cambia los colores de neón en I_Iluminacion para adaptarlos a tu marca (ej: "Vi
 *   **A (Acción):** Recostada, vista cenital, relajada.
 *   **I (Iluminación):** Luz natural suave, sin sombras duras.
 *   **S (Sensación):** Calma, pureza, cottagecore.
-*   **E (Estilo):** Editorial romántico, colores verdes apagados.
+*   **L (Lenguaje Visual):** Editorial romántico, colores verdes apagados.
 *   **M (Composición):** Top-down puro, rostro centrado.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato Cottagecore sobre Césped (Ángulo Cenital) - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro femenino suave con maquillaje natural y pecas visibles.",
-                    "expresion": "Serena y delicada.",
-                    "cabello": "Extendido radialmente alrededor de la cabeza.",
-                    "coherencia": "Proporciones naturales y armoniosas."
-                },
-                "E_Entorno": {
-                    "fondo": "Césped verde cuidado y limpio.",
-                    "ambientacion": "Cottagecore naturalista."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Recostada mirando hacia la cámara cenital.",
-                    "gestualidad": "Relajada y estable."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz natural suave.",
-                    "caracteristicas": "Sin sombras duras."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Calma, pureza, naturaleza.",
-                    "tono": "Romántico suave."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Fotografía editorial cottagecore.",
-                    "color": "Verdes apagados, tonos cálidos.",
-                    "textura": "Suave y limpia."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Cenital mid/close-up.",
-                    "angulo": "Top-down puro.",
-                    "encuadre": "Rostro centrado."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Paleta suave vintage.",
-                    "claridad": "Moderada."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Cottagecore sobre Césped (Ángulo Cenital) - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro femenino suave con maquillaje natural y pecas visibles.",
+      "expresion": "Serena y delicada.",
+      "cabello": "Extendido radialmente alrededor de la cabeza.",
+      "coherencia": "Proporciones naturales y armoniosas."
+    },
+    "E_Entorno": {
+      "fondo": "Césped verde cuidado y limpio.",
+      "ambientacion": "Cottagecore naturalista."
+    },
+    "A_Accion_Postura": {
+      "pose": "Recostada mirando hacia la cámara cenital.",
+      "gestualidad": "Relajada y estable."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Fotografía editorial cottagecore.",
+      "color": "Verdes apagados, tonos cálidos.",
+      "textura": "Suave y limpia."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz natural suave.",
+      "caracteristicas": "Sin sombras duras."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Calma, pureza, naturaleza.",
+      "tono": "Romántico suave."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Cenital mid/close-up.",
+      "angulo": "Top-down puro.",
+      "encuadre": "Rostro centrado."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Paleta suave vintage.",
+      "claridad": "Moderada."
+    }
+  }
+}, null, 2),
         category: "Portrait",
         level: "beginner",
         featured_image_url: "/images/cases/cottagecore-grass.jpg",
@@ -2757,50 +2757,50 @@ Para un look más otoñal, cambia el E_Entorno a "Césped con hojas secas en ton
 *   **A (Acción):** De pie bajo el agua, mirada contemplativa.
 *   **I (Iluminación):** Natural filtrada, reflejos acuáticos.
 *   **S (Sensación):** Serenidad, fuerza natural.
-*   **E (Estilo):** Realismo artístico, gotas detalladas.
+*   **L (Lenguaje Visual):** Realismo artístico, gotas detalladas.
 *   **M (Composición):** Plano 3/4, modelo centrada.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato Artístico Bajo Cascada en Bikini Rosa - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro suave con expresión tranquila.",
-                    "expresion": "Calma elegante.",
-                    "cabello": "Mojado cayendo sobre los hombros.",
-                    "coherencia": "Figura proporcionada y realista."
-                },
-                "E_Entorno": {
-                    "fondo": "Cascada difuminada, agua cristalina.",
-                    "ambientacion": "Natural etérea."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie bajo el agua parcialmente sumergida.",
-                    "mirada": "Suave y contemplativa."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz natural filtrada.",
-                    "caracteristicas": "Reflejos acuáticos brillantes."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Serenidad y fuerza natural.",
-                    "tono": "Fantástico realista."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Realismo artístico hiper detallado.",
-                    "color": "Azules fríos y rosa suave.",
-                    "textura": "Gotas de agua detalladas."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "3/4.",
-                    "angulo": "Neutral cinematográfico.",
-                    "encuadre": "Modelo centrada."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos fríos acuáticos.",
-                    "claridad": "Alta."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Artístico Bajo Cascada en Bikini Rosa - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro suave con expresión tranquila.",
+      "expresion": "Calma elegante.",
+      "cabello": "Mojado cayendo sobre los hombros.",
+      "coherencia": "Figura proporcionada y realista."
+    },
+    "E_Entorno": {
+      "fondo": "Cascada difuminada, agua cristalina.",
+      "ambientacion": "Natural etérea."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie bajo el agua parcialmente sumergida.",
+      "mirada": "Suave y contemplativa."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Realismo artístico hiper detallado.",
+      "color": "Azules fríos y rosa suave.",
+      "textura": "Gotas de agua detalladas."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz natural filtrada.",
+      "caracteristicas": "Reflejos acuáticos brillantes."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Serenidad y fuerza natural.",
+      "tono": "Fantástico realista."
+    },
+    "M_Composicion_Camara": {
+      "plano": "3/4.",
+      "angulo": "Neutral cinematográfico.",
+      "encuadre": "Modelo centrada."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos fríos acuáticos.",
+      "claridad": "Alta."
+    }
+  }
+}, null, 2),
         category: "Artistic",
         level: "advanced",
         featured_image_url: "/images/cases/artistic-waterfall.jpg",
@@ -2828,54 +2828,54 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A (Acción):** Mano en el cabello, tensión visual.
 *   **I (Iluminación):** Dual dramática (Naranja vs Azul).
 *   **S (Sensación):** Tensión, fuerza, misterio.
-*   **E (Estilo):** Neon noir moderno, hyperrealista.
+*   **L (Lenguaje Visual):** Neon noir moderno, hyperrealista.
 *   **M (Composición):** Close-up frontal riguroso.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato Neon Noir con Cabello Mojado - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Mirada intensa, piel húmeda brillante.",
-                    "expresion": "Poder y misterio.",
-                    "cabello": "Oscuro, mojado, pegado al rostro.",
-                    "coherencia": "Fotorrealismo editorial."
-                },
-                "E_Entorno": {
-                    "fondo": "Degradado teal–esmeralda.",
-                    "ambientacion": "Neon noir moderno."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Close-up con mano en el cabello.",
-                    "mirada": "Directa intensa."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz dual dramática.",
-                    "caracteristicas": {
-                        "izquierda": "Naranja cálido.",
-                        "derecha": "Azul frío."
-                    }
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Tensión visual, fuerza interior.",
-                    "tono": "Noir vibrante."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Moda nocturna hiperrealista.",
-                    "color": "Contrastes duros teal-orange.",
-                    "textura": "Piel húmeda definida."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Close-up.",
-                    "angulo": "Frontal.",
-                    "encuadre": "Rostro centrado en tensión."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Teal–orange.",
-                    "claridad": "Extrema.",
-                    "efectos": "Volumetric light suave."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Neon Noir con Cabello Mojado - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Mirada intensa, piel húmeda brillante.",
+      "expresion": "Poder y misterio.",
+      "cabello": "Oscuro, mojado, pegado al rostro.",
+      "coherencia": "Fotorrealismo editorial."
+    },
+    "E_Entorno": {
+      "fondo": "Degradado teal–esmeralda.",
+      "ambientacion": "Neon noir moderno."
+    },
+    "A_Accion_Postura": {
+      "pose": "Close-up con mano en el cabello.",
+      "mirada": "Directa intensa."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Moda nocturna hiperrealista.",
+      "color": "Contrastes duros teal-orange.",
+      "textura": "Piel húmeda definida."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz dual dramática.",
+      "caracteristicas": {
+        "izquierda": "Naranja cálido.",
+        "derecha": "Azul frío."
+      }
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Tensión visual, fuerza interior.",
+      "tono": "Noir vibrante."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Close-up.",
+      "angulo": "Frontal.",
+      "encuadre": "Rostro centrado en tensión."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Teal–orange.",
+      "claridad": "Extrema.",
+      "efectos": "Volumetric light suave."
+    }
+  }
+}, null, 2),
         category: "Noir",
         level: "intermediate",
         featured_image_url: "/images/cases/neon-noir-wet.jpg",
@@ -2900,54 +2900,54 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A (Acción):** Cabeza hacia atrás, ojos cerrados.
 *   **I (Iluminación):** Split lighting (Rojo vs Azul).
 *   **S (Sensación):** Dramatismo introspectivo.
-*   **E (Estilo):** Hiperrealismo, colores saturados.
+*   **L (Lenguaje Visual):** Hiperrealismo, colores saturados.
 *   **M (Composición):** Medio corto, ángulo bajo.
-*   **P (Post):** Grading dual rojo/azul.
+*   **O (Optimización final):** Grading dual rojo/azul.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato Neon Noir Rubia Platino (Ojos Cerrados) - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro definido con maquillaje rojo intenso.",
-                    "expresion": "Relajada y elegante.",
-                    "cabello": "Rubio platino con ondas.",
-                    "coherencia": "Look editorial realista."
-                },
-                "E_Entorno": {
-                    "fondo": "Negro total.",
-                    "ambientacion": "Neon noir intenso."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Cabeza inclinada hacia atrás.",
-                    "mirada": "Ojos cerrados."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Split lighting neon.",
-                    "caracteristicas": {
-                        "rojo": "Lado izquierdo.",
-                        "azul": "Lado derecho."
-                    }
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Dramatismo introspectivo.",
-                    "tono": "Elegante y futurista."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Hiperrealismo neon noir.",
-                    "color": "Rojo–azul saturado.",
-                    "textura": "Piel suave, brillante."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medio corto.",
-                    "angulo": "Ligeramente bajo.",
-                    "encuadre": "Rostro y cuello enfatizados."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Dual rojo/azul.",
-                    "claridad": "Muy alta."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Neon Noir Rubia Platino (Ojos Cerrados) - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro definido con maquillaje rojo intenso.",
+      "expresion": "Relajada y elegante.",
+      "cabello": "Rubio platino con ondas.",
+      "coherencia": "Look editorial realista."
+    },
+    "E_Entorno": {
+      "fondo": "Negro total.",
+      "ambientacion": "Neon noir intenso."
+    },
+    "A_Accion_Postura": {
+      "pose": "Cabeza inclinada hacia atrás.",
+      "mirada": "Ojos cerrados."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Hiperrealismo neon noir.",
+      "color": "Rojo–azul saturado.",
+      "textura": "Piel suave, brillante."
+    },
+    "I_Iluminacion": {
+      "tipo": "Split lighting neon.",
+      "caracteristicas": {
+        "rojo": "Lado izquierdo.",
+        "azul": "Lado derecho."
+      }
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Dramatismo introspectivo.",
+      "tono": "Elegante y futurista."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medio corto.",
+      "angulo": "Ligeramente bajo.",
+      "encuadre": "Rostro y cuello enfatizados."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Dual rojo/azul.",
+      "claridad": "Muy alta."
+    }
+  }
+}, null, 2),
         category: "Noir",
         level: "intermediate",
         featured_image_url: "/images/cases/neon-noir-blonde.jpg",
@@ -2972,49 +2972,49 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A (Acción):** Frontal, mirada directa.
 *   **I (Iluminación):** Backlight de neón, efecto halo.
 *   **S (Sensación):** Poder visual, cyber noir.
-*   **E (Estilo):** Editorial, rojo dominante.
+*   **L (Lenguaje Visual):** Editorial, rojo dominante.
 *   **M (Composición):** Primer plano, halo centrado.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato con Halo de Neón Rojo - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro femenino iluminado por luz roja, labios intensos.",
-                    "expresion": "Confianza elegante.",
-                    "cabello": "Ondas rojizas iluminadas por el halo."
-                },
-                "E_Entorno": {
-                    "fondo": "Oscuro total.",
-                    "elemento": "Aro de neón rojo detrás de la cabeza."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Head & shoulders frontal.",
-                    "mirada": "Directa intensa."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Backlight de neón.",
-                    "caracteristicas": "Halo perfecto alrededor del rostro."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Poder visual.",
-                    "tono": "Cyber noir elegante."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Neon noir editorial.",
-                    "color": "Rojo dominante.",
-                    "textura": "Alta claridad."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Primer plano.",
-                    "angulo": "Neutral.",
-                    "encuadre": "Halo centrado."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Rojo saturado.",
-                    "contraste": "Alto."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato con Halo de Neón Rojo - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro femenino iluminado por luz roja, labios intensos.",
+      "expresion": "Confianza elegante.",
+      "cabello": "Ondas rojizas iluminadas por el halo."
+    },
+    "E_Entorno": {
+      "fondo": "Oscuro total.",
+      "elemento": "Aro de neón rojo detrás de la cabeza."
+    },
+    "A_Accion_Postura": {
+      "pose": "Head & shoulders frontal.",
+      "mirada": "Directa intensa."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Neon noir editorial.",
+      "color": "Rojo dominante.",
+      "textura": "Alta claridad."
+    },
+    "I_Iluminacion": {
+      "tipo": "Backlight de neón.",
+      "caracteristicas": "Halo perfecto alrededor del rostro."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Poder visual.",
+      "tono": "Cyber noir elegante."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Primer plano.",
+      "angulo": "Neutral.",
+      "encuadre": "Halo centrado."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Rojo saturado.",
+      "contraste": "Alto."
+    }
+  }
+}, null, 2),
         category: "Creative",
         level: "advanced",
         featured_image_url: "/images/cases/neon-halo-red.jpg",
@@ -3039,48 +3039,48 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A (Acción):** Al volante, mirando al espectador.
 *   **I (Iluminación):** Sol de mediodía, sombras duras.
 *   **S (Sensación):** Lujo, libertad, verano.
-*   **E (Estilo):** Retro glam ultra detallado.
+*   **L (Lenguaje Visual):** Retro glam ultra detallado.
 *   **M (Composición):** Medium shot.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato Retro-Glam en Cabriolet con Horizonte Marino - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Modelo con gafas redondas retro.",
-                    "expresion": "Actitud glam sofisticada.",
-                    "cabello": "Al viento."
-                },
-                "E_Entorno": {
-                    "fondo": "Horizonte del océano.",
-                    "elementos": "Cabriolet escarlata brillante."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada al volante mirando hacia el espectador.",
-                    "gestualidad": "Casual glam."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Sol de mediodía.",
-                    "caracteristicas": "Sombras contrastadas, reflejos brillantes."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Lujo retro, libertad.",
-                    "tono": "Editorial tipo Vogue."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Moda retro glam ultra detallada.",
-                    "color": "Rojos brillantes, tonos de playa."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medium shot.",
-                    "angulo": "Neutral.",
-                    "encuadre": "Modelo centrada en volante."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos brillantes y glossy.",
-                    "claridad": "Alta."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Retro-Glam en Cabriolet con Horizonte Marino - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Modelo con gafas redondas retro.",
+      "expresion": "Actitud glam sofisticada.",
+      "cabello": "Al viento."
+    },
+    "E_Entorno": {
+      "fondo": "Horizonte del océano.",
+      "elementos": "Cabriolet escarlata brillante."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada al volante mirando hacia el espectador.",
+      "gestualidad": "Casual glam."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Moda retro glam ultra detallada.",
+      "color": "Rojos brillantes, tonos de playa."
+    },
+    "I_Iluminacion": {
+      "tipo": "Sol de mediodía.",
+      "caracteristicas": "Sombras contrastadas, reflejos brillantes."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Lujo retro, libertad.",
+      "tono": "Editorial tipo Vogue."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medium shot.",
+      "angulo": "Neutral.",
+      "encuadre": "Modelo centrada en volante."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos brillantes y glossy.",
+      "claridad": "Alta."
+    }
+  }
+}, null, 2),
         category: "Fashion",
         level: "intermediate",
         featured_image_url: "/images/cases/retro-glam-cabriolet.jpg",
@@ -3105,47 +3105,47 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A (Acción):** De pie, serena.
 *   **I (Iluminación):** Luz cálida premium.
 *   **S (Sensación):** Romanticismo, lujo.
-*   **E (Estilo):** Ultra-realismo 8K, texturas detalladas.
+*   **L (Lenguaje Visual):** Ultra-realismo 8K, texturas detalladas.
 *   **M (Composición):** Full body.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato de Novia de Alta Costura en Suite Lujosa - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro elegante con maquillaje perfecto.",
-                    "expresion": "Calma y elegancia.",
-                    "cabello": "Peinado de novia con velo largo."
-                },
-                "E_Entorno": {
-                    "fondo": "Suite nupcial difuminada.",
-                    "ambientacion": "Romántica y sofisticada."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie mostrando el vestido.",
-                    "mirada": "Serena hacia cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz cálida premium.",
-                    "caracteristicas": "Texturas del vestido resaltadas."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Romanticismo y lujo.",
-                    "tono": "Editorial bridal."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Ultra-realismo 8K.",
-                    "textura": "Encaje detallado, tul voluminoso."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Full body.",
-                    "angulo": "Neutral."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Tonos cálidos de boda.",
-                    "claridad": "Muy alta."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato de Novia de Alta Costura en Suite Lujosa - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro elegante con maquillaje perfecto.",
+      "expresion": "Calma y elegancia.",
+      "cabello": "Peinado de novia con velo largo."
+    },
+    "E_Entorno": {
+      "fondo": "Suite nupcial difuminada.",
+      "ambientacion": "Romántica y sofisticada."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie mostrando el vestido.",
+      "mirada": "Serena hacia cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Ultra-realismo 8K.",
+      "textura": "Encaje detallado, tul voluminoso."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz cálida premium.",
+      "caracteristicas": "Texturas del vestido resaltadas."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Romanticismo y lujo.",
+      "tono": "Editorial bridal."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Full body.",
+      "angulo": "Neutral."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Tonos cálidos de boda.",
+      "claridad": "Muy alta."
+    }
+  }
+}, null, 2),
         category: "Fashion",
         level: "advanced",
         featured_image_url: "/images/cases/high-fashion-bride.jpg",
@@ -3171,53 +3171,53 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A (Acción):** Sentada en la máquina de peluches, teléfono rojo.
 *   **I (Iluminación):** Neón rosa predominante.
 *   **S (Sensación):** Tensión divertida, pop horror.
-*   **E (Estilo):** Arcade aesthetic vibrante.
+*   **L (Lenguaje Visual):** Arcade aesthetic vibrante.
 *   **M (Composición):** Plano medio, frontal bajo.
-*   **P (Post):** Magenta-neón saturado.
+*   **O (Optimización final):** Magenta-neón saturado.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato Fotográfico en Arcade con Temática Ghostface - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Joven con expresión seria pero intrigante, rasgos suaves, mirada dirigida a cámara.",
-                    "expresion": "Seriedad lúdica, toque de tensión.",
-                    "cabello": "Suelto, arreglado de manera casual.",
-                    "coherencia": "Proporciones realistas y estilo urbano."
-                },
-                "E_Entorno": {
-                    "fondo": "Arcade colorido con luces neón rosa, máquinas retro y ambientación vibrante.",
-                    "elementos": "Cabina de peluches Ghostface; letrero neón 'Wanna Play?'."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentada dentro de la máquina de peluches.",
-                    "gestualidad": "Sosteniendo un teléfono rojo de los 90.",
-                    "mirada": "Directa a la cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación de neón rosa predominante.",
-                    "caracteristicas": "Reflejos en piel y sombras suaves de ambiente arcade."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Tensión divertida, vibra misteriosa.",
-                    "tono": "Pop horror estilizado."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Fotografía vibrante tipo 'arcade aesthetic'.",
-                    "color": "Magenta dominante con toques de azul.",
-                    "textura": "Grano ligero de ambiente nocturno."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Frontal ligeramente bajo.",
-                    "encuadre": "Modelo centrada dentro de la máquina."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Magenta-neón saturado.",
-                    "claridad": "Media-alta.",
-                    "efectos": "Glow neón ligero."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato Fotográfico en Arcade con Temática Ghostface - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Joven con expresión seria pero intrigante, rasgos suaves, mirada dirigida a cámara.",
+      "expresion": "Seriedad lúdica, toque de tensión.",
+      "cabello": "Suelto, arreglado de manera casual.",
+      "coherencia": "Proporciones realistas y estilo urbano."
+    },
+    "E_Entorno": {
+      "fondo": "Arcade colorido con luces neón rosa, máquinas retro y ambientación vibrante.",
+      "elementos": "Cabina de peluches Ghostface; letrero neón 'Wanna Play?'."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentada dentro de la máquina de peluches.",
+      "gestualidad": "Sosteniendo un teléfono rojo de los 90.",
+      "mirada": "Directa a la cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Fotografía vibrante tipo 'arcade aesthetic'.",
+      "color": "Magenta dominante con toques de azul.",
+      "textura": "Grano ligero de ambiente nocturno."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación de neón rosa predominante.",
+      "caracteristicas": "Reflejos en piel y sombras suaves de ambiente arcade."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Tensión divertida, vibra misteriosa.",
+      "tono": "Pop horror estilizado."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Frontal ligeramente bajo.",
+      "encuadre": "Modelo centrada dentro de la máquina."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Magenta-neón saturado.",
+      "claridad": "Media-alta.",
+      "efectos": "Glow neón ligero."
+    }
+  }
+}, null, 2),
         category: "Creative",
         level: "intermediate",
         featured_image_url: "/images/cases/arcade-ghostface.jpg",
@@ -3242,52 +3242,52 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A (Acción):** Brazos rodeando hombros, conexión afectuosa.
 *   **I (Iluminación):** Luz suave enfocada.
 *   **S (Sensación):** Conexión, calidez, elegancia.
-*   **E (Estilo):** Editorial de estudio.
+*   **L (Lenguaje Visual):** Editorial de estudio.
 *   **M (Composición):** Medio corto, altura de ojos.
-*   **P (Post):** Cálido suave cinematográfico.
+*   **O (Optimización final):** Cálido suave cinematográfico.
         `,
         prompt_text: JSON.stringify({
-            "title": "Retrato de Pareja Elegante en Estudio (Turtleneck) - Femenino",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Rostro suave, maquillaje natural, mirada calmada.",
-                    "expresion": "Serena y afectuosa.",
-                    "cabello": "Largo ondulado.",
-                    "coherencia": "Aspecto clásico y elegante."
-                },
-                "E_Entorno": {
-                    "fondo": "Estudio oscuro minimalista.",
-                    "ambientacion": "Cinemática elegante."
-                },
-                "A_Accion_Postura": {
-                    "pose": "De pie detrás del hombre, brazos rodeando sus hombros.",
-                    "mirada": "Hacia cámara."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Luz suave enfocada.",
-                    "caracteristicas": "Sombras elegantes que separan del fondo."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Conexión, calidez, elegancia.",
-                    "tono": "Retrato profesional elegante."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Fotografía editorial en estudio.",
-                    "color": "Negros profundos, piel cálida.",
-                    "textura": "Alta definición limpia."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Medio corto.",
-                    "angulo": "Altura de ojos.",
-                    "encuadre": "Pareja centrada en armonía."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Cálido suave.",
-                    "claridad": "Alta.",
-                    "contraste": "Moderado para estilo cinematográfico."
-                }
-            }
-        }, null, 2),
+  "title": "Retrato de Pareja Elegante en Estudio (Turtleneck) - Femenino",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Rostro suave, maquillaje natural, mirada calmada.",
+      "expresion": "Serena y afectuosa.",
+      "cabello": "Largo ondulado.",
+      "coherencia": "Aspecto clásico y elegante."
+    },
+    "E_Entorno": {
+      "fondo": "Estudio oscuro minimalista.",
+      "ambientacion": "Cinemática elegante."
+    },
+    "A_Accion_Postura": {
+      "pose": "De pie detrás del hombre, brazos rodeando sus hombros.",
+      "mirada": "Hacia cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Fotografía editorial en estudio.",
+      "color": "Negros profundos, piel cálida.",
+      "textura": "Alta definición limpia."
+    },
+    "I_Iluminacion": {
+      "tipo": "Luz suave enfocada.",
+      "caracteristicas": "Sombras elegantes que separan del fondo."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Conexión, calidez, elegancia.",
+      "tono": "Retrato profesional elegante."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Medio corto.",
+      "angulo": "Altura de ojos.",
+      "encuadre": "Pareja centrada en armonía."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Cálido suave.",
+      "claridad": "Alta.",
+      "contraste": "Moderado para estilo cinematográfico."
+    }
+  }
+}, null, 2),
         category: "Portrait",
         level: "intermediate",
         featured_image_url: "/images/cases/elegant-couple-turtleneck.jpg",
@@ -3313,9 +3313,9 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A (Acción):** Selfie gran angular, brazo extendido, postura relajada, mirada a cámara.
 *   **I (Iluminación):** Natural de mediodía, luz fuerte, sombras definidas.
 *   **S (Sensación):** Autenticidad, calma, confianza cotidiana, street lifestyle.
-*   **E (Estilo):** Selfie smartphone gran angular, fotorrealista, texturas naturales.
+*   **L (Lenguaje Visual):** Selfie smartphone gran angular, fotorrealista, texturas naturales.
 *   **M (Composición):** Plano medio selfie, cámara elevada, encuadre idéntico a referencia.
-*   **P (Post):** Desaturado, contraste medio-alto, grano sutil.
+*   **O (Optimización final):** Desaturado, contraste medio-alto, grano sutil.
         `,
         prompt_text: JSON.stringify({
             "title": "Authentic Smartphone Selfie — Wide Angle Car Interior (1:1 Reference Lock)",
@@ -3398,9 +3398,9 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A(Acción):** De pie frontal, contacto visual directo.
 *   **I(Iluminación):** Flash directo cámara desechable, luz dura.
 *   **S(Sensación):** Peligro sutil, dark academia, rebelde.
-*   **E(Estilo):** Analógica lo-fi 90s, cámara desechable, grano pesado.
+*   **L (Lenguaje Visual):** Analógica lo-fi 90s, cámara desechable, grano pesado.
 *   **M(Composición):** Primer plano, centrado.
-*   **P(Post):** B&W alto contraste, estética cruda.
+*   **O (Optimización final):** B&W alto contraste, estética cruda.
         `,
         featured_image_url: "/images/prompts/90s-disposable-camera-portrait.png",
         prompt_text: JSON.stringify({
@@ -3472,56 +3472,56 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A(Acción):** Pose original, mirada preservada.
 *   **I(Iluminación):** Cinematográfica lateral golden hour, sombras dramáticas.
 *   **S(Sensación):** Misterio, intensidad contenida.
-*   **E(Estilo):** Restauración cinematográfica fotorrealista.
+*   **L (Lenguaje Visual):** Restauración cinematográfica fotorrealista.
 *   **M(Composición):** Plano original, 9:16 vertical.
-*   **P(Post):** Ultra-HD, highlights cálidos, alto contraste.
+*   **O (Optimización final):** Ultra-HD, highlights cálidos, alto contraste.
         `,
         prompt_text: JSON.stringify({
-            "title": "Cinematic Portrait Restoration — Golden Hour Shadow (9:16)",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Sujeto con rasgos faciales originales preservados con total fidelidad.",
-                    "expresion": "Exactamente la expresión original, sin alteraciones.",
-                    "instruccion_critica": "Preservar estrictamente la pose, la expresión y la composición originales.",
-                    "coherencia": "Identidad facial intacta, sin cambios de rasgos ni proporciones."
-                },
-                "E_Entorno": {
-                    "fondo": "Interior minimalista con pared visible detrás del sujeto.",
-                    "ambientacion": "Espacio simple que permite proyectar sombras dramáticas.",
-                    "elementos_clave": "Pared utilizada como superficie para sombra definida."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Pose original del retrato, sin modificaciones.",
-                    "lenguaje_corporal": "Se mantiene exactamente como en la imagen base.",
-                    "mirada": "Dirección de la mirada preservada."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación cinematográfica lateral tipo golden hour.",
-                    "caracteristicas": "Luz cálida lateral que proyecta una sombra definida y dramática en la pared detrás del sujeto."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Misterio, intensidad contenida.",
-                    "tono": "Cinematográfico, cálido, de alto contraste."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Restauración cinematográfica fotorrealista.",
-                    "texturas": "Piel realista mejorada, detalles finos visibles.",
-                    "nivel_realismo": "Ultra-realista."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "El plano original del retrato.",
-                    "angulo": "Ángulo original sin cambios.",
-                    "encuadre": "Formato vertical 9:16, composición estrictamente preservada."
-                },
-                "O_Optimizacion_final": {
-                    "upscale": "Ultra-HD",
-                    "mejoras": "Aumento de nitidez en detalles, mejora de textura de piel realista, reducción de ruido.",
-                    "color_grading": "Highlights cálidos dorados con sombras profundas.",
-                    "contraste": "Alto.",
-                    "acabado": "Look cinematográfico limpio, fotorealista, con sombras profundas y luces cálidas."
-                }
-            }
-        }, null, 2),
+  "title": "Cinematic Portrait Restoration — Golden Hour Shadow (9:16)",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Sujeto con rasgos faciales originales preservados con total fidelidad.",
+      "expresion": "Exactamente la expresión original, sin alteraciones.",
+      "instruccion_critica": "Preservar estrictamente la pose, la expresión y la composición originales.",
+      "coherencia": "Identidad facial intacta, sin cambios de rasgos ni proporciones."
+    },
+    "E_Entorno": {
+      "fondo": "Interior minimalista con pared visible detrás del sujeto.",
+      "ambientacion": "Espacio simple que permite proyectar sombras dramáticas.",
+      "elementos_clave": "Pared utilizada como superficie para sombra definida."
+    },
+    "A_Accion_Postura": {
+      "pose": "Pose original del retrato, sin modificaciones.",
+      "lenguaje_corporal": "Se mantiene exactamente como en la imagen base.",
+      "mirada": "Dirección de la mirada preservada."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Restauración cinematográfica fotorrealista.",
+      "texturas": "Piel realista mejorada, detalles finos visibles.",
+      "nivel_realismo": "Ultra-realista."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación cinematográfica lateral tipo golden hour.",
+      "caracteristicas": "Luz cálida lateral que proyecta una sombra definida y dramática en la pared detrás del sujeto."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Misterio, intensidad contenida.",
+      "tono": "Cinematográfico, cálido, de alto contraste."
+    },
+    "M_Composicion_Camara": {
+      "plano": "El plano original del retrato.",
+      "angulo": "Ángulo original sin cambios.",
+      "encuadre": "Formato vertical 9:16, composición estrictamente preservada."
+    },
+    "O_Optimizacion_final": {
+      "upscale": "Ultra-HD",
+      "mejoras": "Aumento de nitidez en detalles, mejora de textura de piel realista, reducción de ruido.",
+      "color_grading": "Highlights cálidos dorados con sombras profundas.",
+      "contraste": "Alto.",
+      "acabado": "Look cinematográfico limpio, fotorealista, con sombras profundas y luces cálidas."
+    }
+  }
+}, null, 2),
         category: "Portrait",
         level: "advanced",
         featured_image_url: "/images/prompts/cinematic-portrait-restoration.png",
@@ -3548,58 +3548,58 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
 *   **A(Acción):** Sentado banco minimalista, riendas mano, caballo detrás.
 *   **I(Iluminación):** Natural alto contraste, cielo sobreexpuesto.
 *   **S(Sensación):** Introspección, quietud, fuerza.
-*   **E(Estilo):** Editorial fine-art B&W, texturas naturales.
+*   **L (Lenguaje Visual):** Editorial fine-art B&W, texturas naturales.
 *   **M(Composición):** Plano medio, ángulo bajo neutral.
-*   **P(Post):** B&W alto contraste, look formato medio.
+*   **O (Optimización final):** B&W alto contraste, look formato medio.
         `,
         prompt_text: JSON.stringify({
-            "title": "Monochrome Fine-Art Editorial — Grounded Presence",
-            "framework_REALISMO": {
-                "R_Render_del_Avatar": {
-                    "descripcion_facial": "Persona con rasgos faciales reales y definidos, identidad intacta y reconocible.",
-                    "expresion": "Calma, introspectiva, mirada baja y contenida.",
-                    "instruccion_critica": "No cambiar el rostro bajo ninguna circunstancia.",
-                    "coherencia": "Proporciones realistas, sin estilización ni alteración facial."
-                },
-                "E_Entorno": {
-                    "fondo": "Paisaje natural abierto con terreno irregular y pasto salvaje.",
-                    "ambientacion": "Espacio exterior crudo y minimalista.",
-                    "elementos_clave": "Cielo brillante y sobreexpuesto generando amplio espacio negativo."
-                },
-                "A_Accion_Postura": {
-                    "pose": "Sentado bajo sobre un banco metálico minimalista.",
-                    "lenguaje_corporal": "Piernas extendidas y separadas hacia adelante, postura relajada y enraizada.",
-                    "accion": "Una mano descansando entre las rodillas sosteniendo riendas de cuero delgadas.",
-                    "postura_superior": "Hombros ligeramente caídos, cabeza inclinada hacia abajo."
-                },
-                "I_Iluminacion": {
-                    "tipo": "Iluminación natural de alto contraste.",
-                    "caracteristicas": "Cielo sobreexpuesto creando silueta marcada, negros profundos y luces suaves."
-                },
-                "S_Sensacion_Atmosfera": {
-                    "emocion": "Introspección, quietud, fuerza contenida.",
-                    "tono": "Atemporal, cinematográfico, contemplativo."
-                },
-                "L_Lenguaje_Visual": {
-                    "estilo_general": "Editorial de moda fine-art en blanco y negro.",
-                    "vestuario": "Ropa oscura oversized en capas, pantalones wide-leg, botas de cuero, gafas de sol oscuras.",
-                    "elementos_simbolicos": "Caballo negro fuerte de pie detrás del sujeto, alineado de forma protectora y parcialmente superpuesto a la silueta.",
-                    "texturas": "Acabado mate, superficies naturales y textiles densos.",
-                    "nivel_realismo": "Fotorrealista artístico."
-                },
-                "M_Composicion_Camara": {
-                    "plano": "Plano medio.",
-                    "angulo": "Ángulo neutro ligeramente bajo.",
-                    "encuadre": "Composición equilibrada con superposición visual entre sujeto y caballo, amplio espacio negativo en el cielo."
-                },
-                "O_Optimizacion_final": {
-                    "color_grading": "Blanco y negro de alto contraste.",
-                    "contraste": "Alto, con negros profundos y highlights suaves.",
-                    "acabado": "Look de película de formato medio, grano sutil, textura mate.",
-                    "estilo_final": "Editorial de moda monocromática, fine-art, cinematográfica y atemporal."
-                }
-            }
-        }, null, 2),
+  "title": "Monochrome Fine-Art Editorial — Grounded Presence",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion_facial": "Persona con rasgos faciales reales y definidos, identidad intacta y reconocible.",
+      "expresion": "Calma, introspectiva, mirada baja y contenida.",
+      "instruccion_critica": "No cambiar el rostro bajo ninguna circunstancia.",
+      "coherencia": "Proporciones realistas, sin estilización ni alteración facial."
+    },
+    "E_Entorno": {
+      "fondo": "Paisaje natural abierto con terreno irregular y pasto salvaje.",
+      "ambientacion": "Espacio exterior crudo y minimalista.",
+      "elementos_clave": "Cielo brillante y sobreexpuesto generando amplio espacio negativo."
+    },
+    "A_Accion_Postura": {
+      "pose": "Sentado bajo sobre un banco metálico minimalista.",
+      "lenguaje_corporal": "Piernas extendidas y separadas hacia adelante, postura relajada y enraizada.",
+      "accion": "Una mano descansando entre las rodillas sosteniendo riendas de cuero delgadas.",
+      "postura_superior": "Hombros ligeramente caídos, cabeza inclinada hacia abajo."
+    },
+    "L_Lenguaje_Visual": {
+      "estilo_general": "Editorial de moda fine-art en blanco y negro.",
+      "vestuario": "Ropa oscura oversized en capas, pantalones wide-leg, botas de cuero, gafas de sol oscuras.",
+      "elementos_simbolicos": "Caballo negro fuerte de pie detrás del sujeto, alineado de forma protectora y parcialmente superpuesto a la silueta.",
+      "texturas": "Acabado mate, superficies naturales y textiles densos.",
+      "nivel_realismo": "Fotorrealista artístico."
+    },
+    "I_Iluminacion": {
+      "tipo": "Iluminación natural de alto contraste.",
+      "caracteristicas": "Cielo sobreexpuesto creando silueta marcada, negros profundos y luces suaves."
+    },
+    "S_Sensacion_Atmosfera": {
+      "emocion": "Introspección, quietud, fuerza contenida.",
+      "tono": "Atemporal, cinematográfico, contemplativo."
+    },
+    "M_Composicion_Camara": {
+      "plano": "Plano medio.",
+      "angulo": "Ángulo neutro ligeramente bajo.",
+      "encuadre": "Composición equilibrada con superposición visual entre sujeto y caballo, amplio espacio negativo en el cielo."
+    },
+    "O_Optimizacion_final": {
+      "color_grading": "Blanco y negro de alto contraste.",
+      "contraste": "Alto, con negros profundos y highlights suaves.",
+      "acabado": "Look de película de formato medio, grano sutil, textura mate.",
+      "estilo_final": "Editorial de moda monocromática, fine-art, cinematográfica y atemporal."
+    }
+  }
+}, null, 2),
         category: "Fashion",
         level: "advanced",
         featured_image_url: "/images/prompts/monochrome-fine-art-editorial.jpg",
