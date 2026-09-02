@@ -305,11 +305,11 @@ ESTRUCTURA DE TRANSICIÓN:
     {
         id: "prompt-luxury-perfume-product",
         type: "prompt",
-        title: "Cinematic Dark Elegance: Luxury Glass Perfume Bottle",
+        title: "Metodología R.E.A.L.I.S.M.O.: Cinematic Dark Elegance Perfume Bottle",
         slug: "luxury-perfume-dark-elegance",
-        summary: "Fotografía de estudio de alta gama para perfumería y cosmética de lujo con iluminación dramática chiaroscuro, reflejos de agua en cristal obsidian y sombras suaves.",
+        summary: "Fotografía de estudio comercial de alta gama para perfumería de lujo con iluminación chiaroscuro, reflejos sobre obsidiana y gotas de agua en cristal cristalino.",
         category: "Fotografía de Producto",
-        system_type: "Midjourney v6",
+        system_type: "Midjourney v6 / REALISMO",
         featured_image_url: "/images/cases/focal-earring.jpg",
         process_state: "Estudio",
         level: "intermediate",
@@ -318,18 +318,52 @@ ESTRUCTURA DE TRANSICIÓN:
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
-        prompt_text: `Commercial studio photography of a luxury crystal perfume bottle on a reflective black obsidian stone table, dramatic chiaroscuro lighting, soft purple and gold light leaks, water droplets on glass, cinematic depth of field, 8k resolution, shot on Hasselblad H6D-100c --ar 4:5 --style raw --v 6.1`,
+        transition_dimensions: "R, I y M",
+        transition_detail: "este producto, la refracción en cristal y la iluminación chiaroscuro",
+        transition_user_target: "tu propio catálogo de productos o marca",
+        prompt_text: `{
+  "render": "Botella de perfume de lujo fabricada en cristal, con acabado premium, superficie cristalina altamente detallada y físicamente realista. La botella es el sujeto principal y protagonista absoluto de la imagen.",
+  "entorno": "Estudio comercial de lujo. La botella está colocada sobre una mesa de piedra obsidiana negra, pulida y altamente reflectante. La superficie permite observar un reflejo definido de la botella.",
+  "accion": "Botella erguida y estable sobre la superficie de obsidiana. Pequeñas gotas de agua adheridas naturalmente a la superficie del cristal.",
+  "lenguaje_visual": "Fotografía comercial de producto de alta gama, campaña de perfumería de lujo, estética cinematográfica, sofisticada y premium, con realismo fotográfico de producto.",
+  "iluminacion": "Iluminación dramática tipo chiaroscuro. Destellos y filtraciones de luz suaves en tonos púrpura y dorado generan reflejos controlados sobre el cristal, las gotas de agua y la superficie de obsidiana. Contraste marcado entre luces y sombras.",
+  "sensacion": "Lujo, exclusividad, sofisticación, misterio y sensualidad. Atmósfera cinematográfica y elegante.",
+  "composicion": "Formato vertical 4:5. Fotografía de producto con la botella como punto focal absoluto. Profundidad de campo cinematográfica, manteniendo el producto definido mientras el entorno pierde nitidez progresivamente. Sensación de captura realizada con una cámara de formato medio Hasselblad H6D-100c.",
+  "optimizacion_final": "Resolución ultra alta, máxima nitidez y detalle en el cristal, gotas de agua y reflejos. Transparencias y refracciones físicamente creíbles. Alto rango dinámico, negros profundos, tonos púrpura y dorado sofisticados, contraste cinematográfico y acabado fotográfico RAW profesional."
+}`,
         body_markdown: `
-# Cinematic Dark Elegance: Luxury Glass Perfume Bottle
+# Metodología R.E.A.L.I.S.M.O.: Cinematic Dark Elegance Perfume Bottle
 
-Prompt de fotografía comercial de lujo para marcas de perfumería, cosmética o productos premium.
+Prompt de fotografía comercial de lujo estructurado bajo el framework de 8 dimensiones **R.E.A.L.I.S.M.O.**
 
 ---
 
-## 🎨 Prompt Maestro
+## 🎨 Especificación R.E.A.L.I.S.M.O.
 
-\`\`\`text
-Commercial studio photography of a luxury crystal perfume bottle on a reflective black obsidian stone table, dramatic chiaroscuro lighting, soft purple and gold light leaks, water droplets on glass, cinematic depth of field, 8k resolution, shot on Hasselblad H6D-100c --ar 4:5 --style raw --v 6.1
+- **R — Render / Avatar:** Botella de perfume de lujo fabricada en cristal, protagonista principal del encuadre. Superficie de vidrio cristalino con acabado premium y detalles de alta precisión.
+- **E — Entorno:** Estudio comercial de lujo. La botella está colocada sobre una mesa de piedra obsidiana negra altamente reflectante. Superficie con reflejo visible y pequeñas gotas de agua sobre el cristal.
+- **A — Acción / Postura:** La botella permanece erguida y centrada sobre la superficie. Las gotas de agua se adhieren naturalmente al vidrio. No hay interacción humana.
+- **L — Lenguaje Visual:** Fotografía comercial de producto de alta gama, estética de campaña de perfumería de lujo, cinematográfica y sofisticada. Realismo fotográfico de producto.
+- **I — Iluminación:** Iluminación dramática tipo chiaroscuro. Fuentes de luz suaves en tonos púrpura y dorado generan destellos y reflejos controlados sobre el cristal y la superficie de obsidiana. Contraste marcado entre luces y sombras.
+- **S — Sensación / Atmósfera:** Lujo, sofisticación, exclusividad y misterio. Atmósfera cinematográfica, elegante y sensual.
+- **M — Composición / Cámara:** Fotografía de producto en formato vertical 4:5. Botella como punto focal absoluto. Profundidad de campo cinematográfica, con el sujeto perfectamente definido y el entorno progresivamente desenfocado. Apariencia de captura de alta gama con cámara de formato medio, equivalente al lenguaje visual de una Hasselblad H6D-100c.
+- **O — Optimización final:** Resolución ultra alta, máxima nitidez en el producto, reflejos y transparencias físicamente creíbles, detalle preciso en el cristal y las gotas de agua, contraste cinematográfico, acabado fotográfico RAW y color grading sofisticado en púrpuras, dorados y negros.
+
+---
+
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON)
+
+\`\`\`json
+{
+  "render": "Botella de perfume de lujo fabricada en cristal, con acabado premium, superficie cristalina altamente detallada y físicamente realista. La botella es el sujeto principal y protagonista absoluto de la imagen.",
+  "entorno": "Estudio comercial de lujo. La botella está colocada sobre una mesa de piedra obsidiana negra, pulida y altamente reflectante. La superficie permite observar un reflejo definido de la botella.",
+  "accion": "Botella erguida y estable sobre la superficie de obsidiana. Pequeñas gotas de agua adheridas naturalmente a la superficie del cristal.",
+  "lenguaje_visual": "Fotografía comercial de producto de alta gama, campaña de perfumería de lujo, estética cinematográfica, sofisticada y premium, con realismo fotográfico de producto.",
+  "iluminacion": "Iluminación dramática tipo chiaroscuro. Destellos y filtraciones de luz suaves en tonos púrpura y dorado generan reflejos controlados sobre el cristal, las gotas de agua y la superficie de obsidiana. Contraste marcado entre luces y sombras.",
+  "sensacion": "Lujo, exclusividad, sofisticación, misterio y sensualidad. Atmósfera cinematográfica y elegante.",
+  "composicion": "Formato vertical 4:5. Fotografía de producto con la botella como punto focal absoluto. Profundidad de campo cinematográfica, manteniendo el producto definido mientras el entorno pierde nitidez progresivamente. Sensación de captura realizada con una cámara de formato medio Hasselblad H6D-100c.",
+  "optimizacion_final": "Resolución ultra alta, máxima nitidez y detalle en el cristal, gotas de agua y reflejos. Transparencias y refracciones físicamente creíbles. Alto rango dinámico, negros profundos, tonos púrpura y dorado sofisticados, contraste cinematográfico y acabado fotográfico RAW profesional."
+}
 \`\`\`
 `,
         tags: ["Midjourney", "Fotografía", "Producto", "Lujo"] as any
