@@ -371,11 +371,11 @@ Prompt de fotografía comercial de lujo estructurado bajo el framework de 8 dime
     {
         id: "prompt-executive-cyberpunk-portrait",
         type: "prompt",
-        title: "High-End Founder Editorial Portrait (85mm Lens)",
+        title: "Metodología R.E.A.L.I.S.M.O.: High-End Founder Editorial Portrait",
         slug: "high-end-founder-editorial-portrait",
-        summary: "Retrato fotográfico de fundador/ejecutivo estilo revista Forbes, iluminación Rembrandt, profundidad de campo shallow f/1.4, tonos dorados y azabache.",
+        summary: "Retrato fotográfico editorial para fundador de empresa tecnológica estilo portada Forbes con iluminación Rembrandt y profundidad de campo de 85mm a f/1.4.",
         category: "Retratos & Branding",
-        system_type: "Flux 1.1",
+        system_type: "Flux 1.1 / REALISMO",
         process_state: "Editorial",
         level: "advanced",
         is_published: true,
@@ -383,19 +383,53 @@ Prompt de fotografía comercial de lujo estructurado bajo el framework de 8 dime
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
+        transition_dimensions: "R, I y M",
+        transition_detail: "este rostro, esta iluminación dual y este encuadre editorial",
+        transition_user_target: "tu propio rostro o identidad de marca",
         featured_image_url: "/images/cases/power-suit-portrait.jpg",
-        prompt_text: `Editorial magazine portrait of a confident tech founder in a sleek dark tailored suit, high-end studio lighting, soft Rembrandt side light, subtle purple backlighting, shot on 85mm f/1.4 lens, crisp details, natural skin texture, Forbes magazine cover style --ar 4:5 --v 6.1`,
+        prompt_text: `{
+  "render": "Fundador de una empresa tecnológica, apariencia segura y profesional, vestido con un traje oscuro de corte impecable y estética contemporánea. Piel con textura natural y detalles faciales nítidos.",
+  "entorno": "Estudio fotográfico profesional de alta gama, minimalista y limpio, diseñado para un retrato editorial corporativo.",
+  "accion": "Postura segura y natural de fundador ejecutivo, proyectando autoridad y confianza. Mirada dirigida hacia la cámara.",
+  "lenguaje_visual": "Retrato editorial de revista de negocios, fotografía corporativa de alta gama, estética de portada de Forbes, sofisticada, moderna y aspiracional.",
+  "iluminacion": "Iluminación de estudio de alta gama con luz lateral suave tipo Rembrandt. Contraluz sutil en tonos púrpura para separar al sujeto del fondo. Iluminación controlada, con definición precisa en rostro y traje.",
+  "sensacion": "Confianza, liderazgo, autoridad, innovación, sofisticación y éxito empresarial.",
+  "composicion": "Retrato editorial vertical en formato 4:5. Encuadre de retrato de revista, con el sujeto como punto focal principal. Apariencia de lente 85mm a f/1.4, con profundidad de campo reducida y separación natural entre sujeto y fondo.",
+  "optimizacion_final": "Detalles nítidos y definidos, textura natural de la piel, acabado fotográfico de alta gama, contraste refinado, separación limpia del sujeto y estética profesional de portada editorial."
+}`,
         body_markdown: `
-# High-End Founder Editorial Portrait (85mm Lens)
+# Metodología R.E.A.L.I.S.M.O.: High-End Founder Editorial Portrait
 
-Retrato fotográfico editorial para branding personal ejecutivo, fundadores y perfiles profesionales de alto impacto.
+Retrato fotográfico editorial para branding personal ejecutivo, fundadores y perfiles profesionales estructurado bajo el framework de 8 dimensiones **R.E.A.L.I.S.M.O.**
 
 ---
 
-## 🎨 Prompt Maestro
+## 🎨 Especificación R.E.A.L.I.S.M.O.
 
-\`\`\`text
-Editorial magazine portrait of a confident tech founder in a sleek dark tailored suit, high-end studio lighting, soft Rembrandt side light, subtle purple backlighting, shot on 85mm f/1.4 lens, crisp details, natural skin texture, Forbes magazine cover style --ar 4:5 --v 6.1
+- **R — Render / Avatar:** Fundador de una empresa tecnológica, apariencia segura y profesional, vestido con un traje oscuro de corte impecable y estética contemporánea. Piel con textura natural y detalles faciales nítidos.
+- **E — Entorno:** Estudio fotográfico profesional de alta gama, minimalista y limpio, diseñado para un retrato editorial corporativo.
+- **A — Acción / Postura:** Postura segura y natural de fundador ejecutivo, proyectando autoridad y confianza. Mirada dirigida hacia la cámara.
+- **L — Lenguaje Visual:** Retrato editorial de revista de negocios, fotografía corporativa de alta gama, estética de portada de Forbes, sofisticada, moderna y aspiracional.
+- **I — Iluminación:** Iluminación de estudio de alta gama con luz lateral suave tipo Rembrandt. Contraluz sutil en tonos púrpura para separar al sujeto del fondo. Iluminación controlada, con definición precisa en rostro y traje.
+- **S — Sensación / Atmósfera:** Confianza, liderazgo, autoridad, innovación, sofisticación y éxito empresarial.
+- **M — Composición / Cámara:** Retrato editorial vertical en formato 4:5. Encuadre de retrato de revista, con el sujeto como punto focal principal. Apariencia de lente 85mm a f/1.4, con profundidad de campo reducida y separación natural entre sujeto y fondo.
+- **O — Optimización final:** Detalles nítidos y definidos, textura natural de la piel, acabado fotográfico de alta gama, contraste refinado, separación limpia del sujeto y estética profesional de portada editorial.
+
+---
+
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON)
+
+\`\`\`json
+{
+  "render": "Fundador de una empresa tecnológica, apariencia segura y profesional, vestido con un traje oscuro de corte impecable y estética contemporánea. Piel con textura natural y detalles faciales nítidos.",
+  "entorno": "Estudio fotográfico profesional de alta gama, minimalista y limpio, diseñado para un retrato editorial corporativo.",
+  "accion": "Postura segura y natural de fundador ejecutivo, proyectando autoridad y confianza. Mirada dirigida hacia la cámara.",
+  "lenguaje_visual": "Retrato editorial de revista de negocios, fotografía corporativa de alta gama, estética de portada de Forbes, sofisticada, moderna y aspiracional.",
+  "iluminacion": "Iluminación de estudio de alta gama con luz lateral suave tipo Rembrandt. Contraluz sutil en tonos púrpura para separar al sujeto del fondo. Iluminación controlada, con definición precisa en rostro y traje.",
+  "sensacion": "Confianza, liderazgo, autoridad, innovación, sofisticación y éxito empresarial.",
+  "composicion": "Retrato editorial vertical en formato 4:5. Encuadre de retrato de revista, con el sujeto como punto focal principal. Apariencia de lente 85mm a f/1.4, con profundidad de campo reducida y separación natural entre sujeto y fondo.",
+  "optimizacion_final": "Detalles nítidos y definidos, textura natural de la piel, acabado fotográfico de alta gama, contraste refinado, separación limpia del sujeto y estética profesional de portada editorial."
+}
 \`\`\`
 `,
         tags: ["Retratos", "Branding", "Midjourney", "Ejecutivos"] as any
