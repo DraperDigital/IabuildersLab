@@ -322,14 +322,33 @@ ESTRUCTURA DE TRANSICIÓN:
         transition_detail: "este producto, la refracción en cristal y la iluminación chiaroscuro",
         transition_user_target: "tu propio catálogo de productos o marca",
         prompt_text: `{
-  "render": "Botella de perfume de lujo fabricada en cristal, con acabado premium, superficie cristalina altamente detallada y físicamente realista. La botella es el sujeto principal y protagonista absoluto de la imagen.",
-  "entorno": "Estudio comercial de lujo. La botella está colocada sobre una mesa de piedra obsidiana negra, pulida y altamente reflectante. La superficie permite observar un reflejo definido de la botella.",
-  "accion": "Botella erguida y estable sobre la superficie de obsidiana. Pequeñas gotas de agua adheridas naturalmente a la superficie del cristal.",
-  "lenguaje_visual": "Fotografía comercial de producto de alta gama, campaña de perfumería de lujo, estética cinematográfica, sofisticada y premium, con realismo fotográfico de producto.",
-  "iluminacion": "Iluminación dramática tipo chiaroscuro. Destellos y filtraciones de luz suaves en tonos púrpura y dorado generan reflejos controlados sobre el cristal, las gotas de agua y la superficie de obsidiana. Contraste marcado entre luces y sombras.",
-  "sensacion": "Lujo, exclusividad, sofisticación, misterio y sensualidad. Atmósfera cinematográfica y elegante.",
-  "composicion": "Formato vertical 4:5. Fotografía de producto con la botella como punto focal absoluto. Profundidad de campo cinematográfica, manteniendo el producto definido mientras el entorno pierde nitidez progresivamente. Sensación de captura realizada con una cámara de formato medio Hasselblad H6D-100c.",
-  "optimizacion_final": "Resolución ultra alta, máxima nitidez y detalle en el cristal, gotas de agua y reflejos. Transparencias y refracciones físicamente creíbles. Alto rango dinámico, negros profundos, tonos púrpura y dorado sofisticados, contraste cinematográfico y acabado fotográfico RAW profesional."
+  "title": "prompt-luxury-perfume-product",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion": "Botella de perfume de lujo fabricada en cristal, con acabado premium, superficie cristalina altamente detallada y físicamente realista. La botella es el sujeto principal y protagonista absoluto de la imagen."
+    },
+    "E_Entorno": {
+      "descripcion": "Estudio comercial de lujo. La botella está colocada sobre una mesa de piedra obsidiana negra, pulida y altamente reflectante. La superficie permite observar un reflejo definido de la botella."
+    },
+    "A_Accion_Postura": {
+      "descripcion": "Botella erguida y estable sobre la superficie de obsidiana. Pequeñas gotas de agua adheridas naturalmente a la superficie del cristal."
+    },
+    "L_Lenguaje_Visual": {
+      "descripcion": "Fotografía comercial de producto de alta gama, campaña de perfumería de lujo, estética cinematográfica, sofisticada y premium, con realismo fotográfico de producto."
+    },
+    "I_Iluminacion": {
+      "descripcion": "Iluminación dramática tipo chiaroscuro. Destellos y filtraciones de luz suaves en tonos púrpura y dorado generan reflejos controlados sobre el cristal, las gotas de agua y la superficie de obsidiana. Contraste marcado entre luces y sombras."
+    },
+    "S_Sensacion_Atmosfera": {
+      "descripcion": "Lujo, exclusividad, sofisticación, misterio y sensualidad. Atmósfera cinematográfica y elegante."
+    },
+    "M_Composicion_Camara": {
+      "descripcion": "Formato vertical 4:5. Fotografía de producto con la botella como punto focal absoluto. Profundidad de campo cinematográfica, manteniendo el producto definido mientras el entorno pierde nitidez progresivamente. Sensación de captura realizada con una cámara de formato medio Hasselblad H6D-100c."
+    },
+    "O_Optimizacion_final": {
+      "descripcion": "Resolución ultra alta, máxima nitidez y detalle en el cristal, gotas de agua y reflejos. Transparencias y refracciones físicamente creíbles. Alto rango dinámico, negros profundos, tonos púrpura y dorado sofisticados, contraste cinematográfico y acabado fotográfico RAW profesional."
+    }
+  }
 }`,
         body_markdown: `
 # Metodología R.E.A.L.I.S.M.O.: Cinematic Dark Elegance Perfume Bottle
@@ -388,14 +407,33 @@ Prompt de fotografía comercial de lujo estructurado bajo el framework de 8 dime
         transition_user_target: "tu propio rostro o identidad de marca",
         featured_image_url: "/images/cases/power-suit-portrait.jpg",
         prompt_text: `{
-  "render": "Fundador de una empresa tecnológica, apariencia segura y profesional, vestido con un traje oscuro de corte impecable y estética contemporánea. Piel con textura natural y detalles faciales nítidos.",
-  "entorno": "Estudio fotográfico profesional de alta gama, minimalista y limpio, diseñado para un retrato editorial corporativo.",
-  "accion": "Postura segura y natural de fundador ejecutivo, proyectando autoridad y confianza. Mirada dirigida hacia la cámara.",
-  "lenguaje_visual": "Retrato editorial de revista de negocios, fotografía corporativa de alta gama, estética de portada de Forbes, sofisticada, moderna y aspiracional.",
-  "iluminacion": "Iluminación de estudio de alta gama con luz lateral suave tipo Rembrandt. Contraluz sutil en tonos púrpura para separar al sujeto del fondo. Iluminación controlada, con definición precisa en rostro y traje.",
-  "sensacion": "Confianza, liderazgo, autoridad, innovación, sofisticación y éxito empresarial.",
-  "composicion": "Retrato editorial vertical en formato 4:5. Encuadre de retrato de revista, con el sujeto como punto focal principal. Apariencia de lente 85mm a f/1.4, con profundidad de campo reducida y separación natural entre sujeto y fondo.",
-  "optimizacion_final": "Detalles nítidos y definidos, textura natural de la piel, acabado fotográfico de alta gama, contraste refinado, separación limpia del sujeto y estética profesional de portada editorial."
+  "title": "prompt-executive-cyberpunk-portrait",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion": "Fundador de una empresa tecnológica, apariencia segura y profesional, vestido con un traje oscuro de corte impecable y estética contemporánea. Piel con textura natural y detalles faciales nítidos."
+    },
+    "E_Entorno": {
+      "descripcion": "Estudio fotográfico profesional de alta gama, minimalista y limpio, diseñado para un retrato editorial corporativo."
+    },
+    "A_Accion_Postura": {
+      "descripcion": "Postura segura y natural de fundador ejecutivo, proyectando autoridad y confianza. Mirada dirigida hacia la cámara."
+    },
+    "L_Lenguaje_Visual": {
+      "descripcion": "Retrato editorial de revista de negocios, fotografía corporativa de alta gama, estética de portada de Forbes, sofisticada, moderna y aspiracional."
+    },
+    "I_Iluminacion": {
+      "descripcion": "Iluminación de estudio de alta gama con luz lateral suave tipo Rembrandt. Contraluz sutil en tonos púrpura para separar al sujeto del fondo. Iluminación controlada, con definición precisa en rostro y traje."
+    },
+    "S_Sensacion_Atmosfera": {
+      "descripcion": "Confianza, liderazgo, autoridad, innovación, sofisticación y éxito empresarial."
+    },
+    "M_Composicion_Camara": {
+      "descripcion": "Retrato editorial vertical en formato 4:5. Encuadre de retrato de revista, con el sujeto como punto focal principal. Apariencia de lente 85mm a f/1.4, con profundidad de campo reducida y separación natural entre sujeto y fondo."
+    },
+    "O_Optimizacion_final": {
+      "descripcion": "Detalles nítidos y definidos, textura natural de la piel, acabado fotográfico de alta gama, contraste refinado, separación limpia del sujeto y estética profesional de portada editorial."
+    }
+  }
 }`,
         body_markdown: `
 # Metodología R.E.A.L.I.S.M.O.: High-End Founder Editorial Portrait
@@ -454,14 +492,33 @@ Retrato fotográfico editorial para branding personal ejecutivo, fundadores y pe
         transition_detail: "los componentes de interfaz 3D, el efecto glassmorphism y la perspectiva isométrica",
         transition_user_target: "tu propio software SaaS o producto digital",
         prompt_text: `{
-  "render": "Panel analítico flotante de software SaaS con inteligencia artificial en perspectiva isométrica 3D. Tarjetas semitransparentes con efecto glassmorphism, esquinas redondeadas suavizadas y widgets de datos flotantes.",
-  "entorno": "Espacio virtual oscuro y minimalista de alta tecnología con iluminación ambiental sutil de fondo y profundidad de campo pulida.",
-  "accion": "Elementos de interfaz y widgets analíticos flotando en capas tridimensionales dinámicas con gráficos de barras, líneas y nodos interactivos.",
-  "lenguaje_visual": "Render 3D isométrico contemporáneo, estética tech minimalista premium, visualización de datos futurista, estilo Octane Render y Cinema 4D.",
-  "iluminacion": "Iluminación volumétrica con resplandor neón en tonos violeta y cian. Reflejos especulares suaves sobre el cristal esmerilado y brillo propio en los nodos de datos.",
-  "sensacion": "Innovación, sofisticación digital, tecnología de vanguardia, claridad analítica y estética futurista.",
-  "composicion": "Composición isométrica vertical 4:5. Perspectiva en ángulo diagonal de 45 grados enfocada en las capas centrales del dashboard con fondo desenfocado.",
-  "optimizacion_final": "Resolución 8K, renderizado Octane ultra limpio, refracción cristalina precisa, dispersión cromática sutil en los bordes del vidrio y acabado pulido sin ruido."
+  "title": "prompt-3d-glassmorphism-dashboard",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion": "Panel analítico flotante de software SaaS con inteligencia artificial en perspectiva isométrica 3D. Tarjetas semitransparentes con efecto glassmorphism, esquinas redondeadas suavizadas y widgets de datos flotantes."
+    },
+    "E_Entorno": {
+      "descripcion": "Espacio virtual oscuro y minimalista de alta tecnología con iluminación ambiental sutil de fondo y profundidad de campo pulida."
+    },
+    "A_Accion_Postura": {
+      "descripcion": "Elementos de interfaz y widgets analíticos flotando en capas tridimensionales dinámicas con gráficos de barras, líneas y nodos interactivos."
+    },
+    "L_Lenguaje_Visual": {
+      "descripcion": "Render 3D isométrico contemporáneo, estética tech minimalista premium, visualización de datos futurista, estilo Octane Render y Cinema 4D."
+    },
+    "I_Iluminacion": {
+      "descripcion": "Iluminación volumétrica con resplandor neón en tonos violeta y cian. Reflejos especulares suaves sobre el cristal esmerilado y brillo propio en los nodos de datos."
+    },
+    "S_Sensacion_Atmosfera": {
+      "descripcion": "Innovación, sofisticación digital, tecnología de vanguardia, claridad analítica y estética futurista."
+    },
+    "M_Composicion_Camara": {
+      "descripcion": "Composición isométrica vertical 4:5. Perspectiva en ángulo diagonal de 45 grados enfocada en las capas centrales del dashboard con fondo desenfocado."
+    },
+    "O_Optimizacion_final": {
+      "descripcion": "Resolución 8K, renderizado Octane ultra limpio, refracción cristalina precisa, dispersión cromática sutil en los bordes del vidrio y acabado pulido sin ruido."
+    }
+  }
 }`,
         body_markdown: `
 # Metodología R.E.A.L.I.S.M.O.: Isometric Floating 3D Dark Mode AI Analytics Dashboard
@@ -520,14 +577,33 @@ Prompt visual estructurado bajo la metodología de 8 dimensiones **R.E.A.L.I.S.M
         transition_detail: "las microtexturas mate, el aluminio anodizado y la iluminación difusa de estudio",
         transition_user_target: "tu catálogo de hardware o accesorios de escritorio",
         prompt_text: `{
-  "render": "Teclado mecánico de diseño industrial minimalista en acabado negro mate absoluto. Teclas de perfil bajo con grabados discretos en tipografía limpia y switches mecánicos expuestos con precisión táctil.",
-  "entorno": "Estudio fotográfico comercial sobre un escritorio de aluminio cepillado de tono gris oscuro y superficie impecable.",
-  "accion": "Teclado posicionado en primer plano estático sobre la superficie del escritorio. Primer plano enfocado en los detalles de las teclas y el acabado mate.",
-  "lenguaje_visual": "Fotografía comercial de producto industrial de alta gama, minimalismo tecnológico, estética escandinava contemporánea y fotorealismo estricto.",
-  "iluminacion": "Luz suave y difusa de estudio fotográfico procedente de un softbox cenital. Sombras progresivas muy suaves y sutiles brillos de contorno sobre los bordes metálicos.",
-  "sensacion": "Elegancia minimalista, precisión industrial, productividad, sobriedad y lujo discreto.",
-  "composicion": "Formato vertical 4:5. Plano detalle en ángulo bajo de 30 grados enfocado críticamente en las teclas principales con desenfoque suave (bokeh) en la parte posterior.",
-  "optimizacion_final": "Textura nítida de plástico mate PBT y aluminio anodizado, máxima fidelidad microtextural, ausencia total de polvo o huellas, contraste balanceado y acabado fotográfico profesional."
+  "title": "prompt-minimalist-tech-keyboard",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion": "Teclado mecánico de diseño industrial minimalista en acabado negro mate absoluto. Teclas de perfil bajo con grabados discretos en tipografía limpia y switches mecánicos expuestos con precisión táctil."
+    },
+    "E_Entorno": {
+      "descripcion": "Estudio fotográfico comercial sobre un escritorio de aluminio cepillado de tono gris oscuro y superficie impecable."
+    },
+    "A_Accion_Postura": {
+      "descripcion": "Teclado posicionado en primer plano estático sobre la superficie del escritorio. Primer plano enfocado en los detalles de las teclas y el acabado mate."
+    },
+    "L_Lenguaje_Visual": {
+      "descripcion": "Fotografía comercial de producto industrial de alta gama, minimalismo tecnológico, estética escandinava contemporánea y fotorealismo estricto."
+    },
+    "I_Iluminacion": {
+      "descripcion": "Luz suave y difusa de estudio fotográfico procedente de un softbox cenital. Sombras progresivas muy suaves y sutiles brillos de contorno sobre los bordes metálicos."
+    },
+    "S_Sensacion_Atmosfera": {
+      "descripcion": "Elegancia minimalista, precisión industrial, productividad, sobriedad y lujo discreto."
+    },
+    "M_Composicion_Camara": {
+      "descripcion": "Formato vertical 4:5. Plano detalle en ángulo bajo de 30 grados enfocado críticamente en las teclas principales con desenfoque suave (bokeh) en la parte posterior."
+    },
+    "O_Optimizacion_final": {
+      "descripcion": "Textura nítida de plástico mate PBT y aluminio anodizado, máxima fidelidad microtextural, ausencia total de polvo o huellas, contraste balanceado y acabado fotográfico profesional."
+    }
+  }
 }`,
         body_markdown: `
 # Metodología R.E.A.L.I.S.M.O.: Minimalist Matte Black Mechanical Keyboard Close-up
@@ -586,14 +662,33 @@ Prompt visual estructurado bajo la metodología de 8 dimensiones **R.E.A.L.I.S.M
         transition_detail: "la estética sci-fi, la niebla volumétrica y la perspectiva con punto de fuga central",
         transition_user_target: "tus proyectos de infraestructura, tecnología o sci-fi",
         prompt_text: `{
-  "render": "Infraestructura de servidor cuántico de inteligencia artificial de próxima generación. Racks metálicos oscuros con procesadores fotónicos, tubos de refrigeración líquida transparente y circuitos integrados expuestos.",
-  "entorno": "Sala de servidores o centro de datos futurista subterráneo de alta seguridad con pasillo central de cristal reflectante y estructuras cibernéticas a ambos lados.",
-  "accion": "Flujo continuo de luz y pulso de datos recorriendo las líneas de fibra óptica y los tubos de refrigeración con partículas de luz en movimiento.",
-  "lenguaje_visual": "Fotografía y renderizado cinematográfico de ciencia ficción, estética cyberpunk sofisticada, visualización de infraestructura tecnológica masiva.",
-  "iluminacion": "Iluminación ambiental azul eléctrico y cian combinada con pulsos de luz magenta y violeta saliendo del núcleo de cómputo. Sombras profundas en el pasillo.",
-  "sensacion": "Potencia computacional masiva, tecnología cuántica inaccesible, atmósfera misteriosa, futurista e imponente.",
-  "composicion": "Perspectiva punto de fuga central en formato vertical 4:5. El pasillo guía la mirada hacia el núcleo central del servidor cuántico en el fondo con simetría técnica.",
-  "optimizacion_final": "Resolución 8K, niebla volumétrica detallada, reflexiones en suelo pulido y cristal, alto rango dinámico (HDR), contraste cinemático y nitidez extrema."
+  "title": "prompt-futuristic-ai-server-room",
+  "framework_REALISMO": {
+    "R_Render_del_Avatar": {
+      "descripcion": "Infraestructura de servidor cuántico de inteligencia artificial de próxima generación. Racks metálicos oscuros con procesadores fotónicos, tubos de refrigeración líquida transparente y circuitos integrados expuestos."
+    },
+    "E_Entorno": {
+      "descripcion": "Sala de servidores o centro de datos futurista subterráneo de alta seguridad con pasillo central de cristal reflectante y estructuras cibernéticas a ambos lados."
+    },
+    "A_Accion_Postura": {
+      "descripcion": "Flujo continuo de luz y pulso de datos recorriendo las líneas de fibra óptica y los tubos de refrigeración con partículas de luz en movimiento."
+    },
+    "L_Lenguaje_Visual": {
+      "descripcion": "Fotografía y renderizado cinematográfico de ciencia ficción, estética cyberpunk sofisticada, visualización de infraestructura tecnológica masiva."
+    },
+    "I_Iluminacion": {
+      "descripcion": "Iluminación ambiental azul eléctrico y cian combinada con pulsos de luz magenta y violeta saliendo del núcleo de cómputo. Sombras profundas en el pasillo."
+    },
+    "S_Sensacion_Atmosfera": {
+      "descripcion": "Potencia computacional masiva, tecnología cuántica inaccesible, atmósfera misteriosa, futurista e imponente."
+    },
+    "M_Composicion_Camara": {
+      "descripcion": "Perspectiva punto de fuga central en formato vertical 4:5. El pasillo guía la mirada hacia el núcleo central del servidor cuántico en el fondo con simetría técnica."
+    },
+    "O_Optimizacion_final": {
+      "descripcion": "Resolución 8K, niebla volumétrica detallada, reflexiones en suelo pulido y cristal, alto rango dinámico (HDR), contraste cinemático y nitidez extrema."
+    }
+  }
 }`,
         body_markdown: `
 # Metodología R.E.A.L.I.S.M.O.: Next-Gen Quantum AI Server Infrastructure Core
@@ -649,7 +744,8 @@ Prompt visual estructurado bajo la metodología de 8 dimensiones **R.E.A.L.I.S.M
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-edgy-streetwear-bouquet.png",
         prompt_text: `{
-  "REALISMO": {
+  "title": "prompt-reaisemp-edgy-streetwear-bouquet",
+  "framework_REALISMO": {
     "R": "Use uploaded portrait only as exact facial identity reference; preserve facial structure, proportions and natural skin texture.",
     "E": "Young adult woman, confident neutral expression, chin slightly raised, looking slightly downward toward camera.",
     "A": "Holding a large vibrant bouquet firmly against her chest.",
@@ -657,14 +753,7 @@ Prompt visual estructurado bajo la metodología de 8 dimensiones **R.E.A.L.I.S.M
     "S": "Centered medium portrait against a solid deep saturated blue studio backdrop.",
     "E2": "Hard directional light from upper side, crisp highlights on face and flowers, pronounced chin shadow, strong contrast.",
     "M": "Edgy contemporary fashion editorial, saturated red/blue/black palette, ultra-photorealistic."
-  },
-  "photography": {
-    "camera": "professional editorial camera, 50mm portrait look",
-    "aspect_ratio": "4:5",
-    "focus": "sharp face and flowers, realistic microtexture",
-    "finish": "high-resolution fashion photography, no artificial skin smoothing"
-  },
-  "prop": "organic bouquet of red gerberas, white carnations and light blue flowers"
+  }
 }`,
         body_markdown: `
 # Metodología R.E.A.L.I.S.M.O.: Edgy Streetwear & Blue Studio Floral Portrait
@@ -723,7 +812,8 @@ Centered medium portrait of a young adult woman with long red hair and natural f
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-vintage-sticker-bomb-portrait.png",
         prompt_text: `{
-  "REALISMO": {
+  "title": "prompt-reaisemp-vintage-sticker-bomb-portrait",
+  "framework_REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve all facial proportions and features.",
     "E": "Young adult woman, centered head-and-shoulders portrait, chin slightly lifted, mouth slightly open, strong fashion presence.",
     "A": "Facing camera directly with relaxed, controlled expression.",
@@ -731,12 +821,6 @@ Centered medium portrait of a young adult woman with long red hair and natural f
     "S": "Minimal smooth off-white/pale-gray studio backdrop.",
     "E2": "Soft directional beauty light from front, subtle jaw and cheekbone shadows, natural skin highlights, gentle dimensional contrast.",
     "M": "Dense curated colorful sticker collage covering most of the face while retaining recognizable facial structure; vintage logos, typography, symbols and mini illustrations follow facial curvature with realistic edges, overlap and adhesive shadows. Eyes remain visible and lips partly visible."
-  },
-  "photography": {
-    "camera": "high-end editorial portrait",
-    "aspect_ratio": "4:5",
-    "focus": "sharp facial and sticker texture",
-    "finish": "slight desaturation, subtle film grain, photorealistic magazine aesthetic"
   }
 }`,
         body_markdown: `
@@ -795,7 +879,8 @@ Centered head-and-shoulders portrait of a young adult woman with long red hair a
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-vertical-red-laser-portrait.png",
         prompt_text: `{
-  "REALISMO": {
+  "title": "prompt-reaisemp-vertical-red-laser-portrait",
+  "framework_REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve identity, proportions and natural skin texture.",
     "E": "Young adult woman with calm, intense, controlled expression.",
     "A": "Looking directly toward camera.",
@@ -803,12 +888,6 @@ Centered head-and-shoulders portrait of a young adult woman with long red hair a
     "S": "Dark blue studio background fading naturally toward near-black.",
     "E2": "Directional key light slightly above front, minimal fill, defined highlights on forehead, nose and cheekbone, deep detailed shadows under jaw; strong cool rim light outlining hair and shoulders.",
     "M": "Thin saturated red laser line crossing one eye with subtle glow and realistic red reflection on nearby skin; cinematic, mysterious, high-contrast editorial realism."
-  },
-  "photography": {
-    "camera": "cinematic portrait camera, 50mm look",
-    "aspect_ratio": "4:5",
-    "focus": "razor-sharp visible eye and skin detail",
-    "finish": "ultra-realistic studio photography"
   }
 }`,
         body_markdown: `
@@ -867,7 +946,8 @@ Centered portrait of a young adult woman with long red hair and freckles, calm i
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-white-cobra-macro.jpg",
         prompt_text: `{
-  "REALISMO": {
+  "title": "prompt-reaisemp-white-cobra-macro-portrait",
+  "framework_REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve facial structure, proportions, pores and unique details.",
     "E": "Young adult woman with calm, fearless, controlled expression and intense direct gaze.",
     "A": "Holding completely still while a white cobra coils around her neck and crosses partially over her face.",
@@ -875,12 +955,6 @@ Centered portrait of a young adult woman with long red hair and freckles, calm i
     "S": "Extreme macro portrait against seamless dark charcoal background.",
     "E2": "Soft directional macro light from one side, sculpting facial structure and individual ivory scales; deep but detailed shadows and controlled specular highlights.",
     "M": "Cobra hood partially expanded beside face, head elevated near nose and lips, subtle forked tongue, glossy black eyes. One human eye remains razor sharp while the other is partly obscured. Extreme tactile realism."
-  },
-  "photography": {
-    "camera": "100mm macro lens, f/2.8 aesthetic",
-    "aspect_ratio": "4:5 vertical",
-    "focus": "visible eye and cobra head",
-    "finish": "ultra-realistic fine-art macro photography, HDR, natural skin pores and individual scales"
   }
 }`,
         body_markdown: `
@@ -939,7 +1013,8 @@ Extreme macro portrait of a young adult woman with calm fearless expression, hol
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-red-glitter-portrait.png",
         prompt_text: `{
-  "REALISMO": {
+  "title": "prompt-reaisemp-red-glitter-portrait",
+  "framework_REALISMO": {
     "R": "Use uploaded portrait as exact facial identity reference; preserve full facial structure and proportions.",
     "E": "Young adult woman, 3/4 head-and-shoulders portrait, intense controlled gaze toward camera.",
     "A": "Face turned slightly away from light while eyes return toward camera.",
@@ -947,12 +1022,6 @@ Extreme macro portrait of a young adult woman with calm fearless expression, hol
     "S": "Solid saturated red seamless studio background.",
     "E2": "Hard 45-degree directional key light, narrow beam, minimal fill; 60–70% of face remains in detailed shadow. Strong red rim light outlines hair and shoulders without lighting the face.",
     "M": "Skin and visible body rendered in dramatic black and white while background and rim remain red. Heavy multicolor iridescent glitter surrounds eyes with chunky reflective particles, preserving full-color sparkle."
-  },
-  "photography": {
-    "camera": "high-end cinematic editorial camera",
-    "aspect_ratio": "4:5",
-    "focus": "illuminated eye and glitter particles",
-    "finish": "moody chiaroscuro, ultra-detailed photorealism"
   }
 }`,
         body_markdown: `
@@ -1011,7 +1080,8 @@ Cinematic 3/4 editorial portrait of an intense woman, monochrome black and white
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/prompts/reaisemp-vogue-bridal-white-horse.jpg",
         prompt_text: `{
-  "REALISMO": {
+  "title": "prompt-reaisemp-vogue-bridal-white-horse",
+  "framework_REALISMO": {
     "R": "Use uploaded portrait as facial identity reference where applicable; preserve natural facial proportions and texture.",
     "E": "Adult blonde bride with serene, intimate expression.",
     "A": "Standing very close to a white horse, creating an intimate eye-to-eye composition.",
@@ -1019,12 +1089,6 @@ Cinematic 3/4 editorial portrait of an intense woman, monochrome black and white
     "S": "Minimal pristine ivory environment with polished white stone floor and seamless pale background.",
     "E2": "Soft diffused cinematic light, gentle shadows, controlled highlights across veil, skin and horse.",
     "M": "The horse's golden eye sits beside the bride's visible eye, reflecting white clouds. Luxurious Vogue-style editorial realism, clean ivory/cream palette."
-  },
-  "photography": {
-    "camera": "85mm fashion portrait lens",
-    "aspect_ratio": "4:5 vertical",
-    "focus": "eyes, veil texture and horse eye",
-    "finish": "deep cinematic sharpness, ultra-realistic skin and hair"
   }
 }`,
         body_markdown: `
