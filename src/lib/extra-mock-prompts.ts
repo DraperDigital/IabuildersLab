@@ -55,7 +55,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Intimate, cozy, luxurious, sleepy elegance.
 - **Tono:** High-fashion model off-duty bedtime selfie vibe.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Ultra-photorealistic cinematic iPhone candid portrait.
 - **Detalles:**
   - Cream luxury bedding textures
@@ -72,7 +72,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Sharp focus en rostro y ojos, background softly blurred.
 - **Profundidad de campo:** Shallow DOF para vibe premium.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Cool facial glow + warm bedside lamp contrast, cinematic soft tones.
 - **Contraste:** Suave-moderado, sin HDR exagerado.
 - **Nitidez:** Alta definición en piel, seda, ojos y bedding texture.
@@ -220,7 +220,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Playful, candid, warm, youthful.
 - **Tono:** Golden-hour lifestyle selfie con energía espontánea.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Photorealistic cinematic outdoor selfie portrait.
 - **Detalles:**
   - Cabello al viento con luz cálida
@@ -236,7 +236,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Sharp focus en ojos y rostro; background completamente suave.
 - **Profundidad de campo:** Shallow DOF cinematográfico.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Warm golden tones naturales, sin saturación excesiva.
 - **Contraste:** Suave-moderado para mantener look auténtico.
 - **Nitidez:** Alta definición en piel, cabello y ojos.
@@ -372,7 +372,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Playful, dreamy, confident, vibrant.
 - **Tono:** Surreal fashion portrait con energía pop y estética editorial.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Photorealistic saturated surreal fashion portrait.
 - **Detalles:**
   - Bolas translúcidas glowing en múltiples tonos rosa
@@ -387,7 +387,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Sharp focus en ojos expresivos y rostro; fondo lleno de bokeh glossy spheres.
 - **Ángulo:** Neutral frontal con ligera diagonal corporal para dinamismo.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Pink-magenta saturated palette intensa y alegre.
 - **Contraste:** Moderado-clean para look pop editorial.
 - **Nitidez:** Alta definición en piel, pecas, labios y textura translúcida de esferas.
@@ -526,7 +526,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Rebelde, oscuro, introspectivo, callejero.
 - **Tono:** Hip-hop underground + noir cyberpunk cinematic sequence.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Dark cyberpunk noir portrait sequence, gritty street fashion editorial.
 - **Detalles:**
   - Film grain heavy
@@ -542,7 +542,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Lentes:** Close-ups + medium shot con DOF shallow.
 - **Encuadre:** Cada frame variado pero coherente en estética neon noir.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Dominante verde neón + negros profundos noir.
 - **Contraste:** Alto para estética underground.
 - **Textura:** Grano fuerte + high ISO film look.
@@ -682,7 +682,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Cozy, sleepy, introspectivo, tranquilo.
 - **Tono:** Cinematic morning calm con vibe hogareña.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Overhead cinematic lifestyle photography ultra realista.
 - **Detalles:**
   - Textura de piel y cabello realista
@@ -699,7 +699,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Sujeto centrado con props alrededor para storytelling visual.
 - **Enfoque:** Sharp focus en rostro y cuerpo; fondo suave pero detallado.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Warm morning tones con mood cinematográfico suave.
 - **Contraste:** Moderado-natural para mantener autenticidad cozy.
 - **Nitidez:** Alta definición en piel, textiles, magazine y libros.
@@ -834,7 +834,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Confident, avant-garde, chic, editorial.
 - **Tono:** Conceptual fashion portrait con presencia moderna y artística.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Photorealistic fashion magazine editorial con couture surreal.
 - **Detalles:**
   - Cinta FRAGILE como material de outfit estructurado
@@ -849,7 +849,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Sujeto centrado con foreground diagonal tape como elemento dinámico.
 - **Enfoque:** Sharp focus en rostro y outfit; background limpio con depth suave.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Pastel minimal background + amarillo brillante dominante.
 - **Contraste:** Moderado-clean para look fashion magazine.
 - **Nitidez:** Alta definición en piel, cinta, textura y contornos faciales.
@@ -978,7 +978,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Moody, ethereal, contemplativo.
 - **Tono:** High-fashion editorial con aura misteriosa y elegante.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Photorealistic cinematic studio portrait con iluminación dual.
 - **Detalles:**
   - Glow dorado intenso arriba
@@ -993,7 +993,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Profundidad de campo:** Shallow DOF cinematográfico, fondo completamente suave.
 - **Encuadre:** Perfil dominante con espacio negativo oscuro alrededor.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Dual-tone gold + neon blue con contraste cinematográfico limpio.
 - **Nitidez:** Máxima definición en ojo, piel, contornos faciales.
 - **Contraste:** High-fashion dramatic, deep blacks controlados.
@@ -1131,7 +1131,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Heavenly, dreamy, serene, otherworldly.
 - **Tono:** Fantasy editorial con calma emocional y poesía visual.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Magical realism fantasy portrait con estética editorial elegante.
 - **Detalles:**
   - Textura fluffy ultra realista en nubes
@@ -1146,7 +1146,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Tack-sharp en ojos y piel; nubes suaves con depth controlado.
 - **Profundidad de campo:** Shallow DOF cinematográfico dreamy.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Pastel heavenly tones con glow suave.
 - **Contraste:** Bajo-moderado para mantener delicadeza etérea.
 - **Nitidez:** Alta definición en rostro, cabello y tattoos preservados.
@@ -1299,7 +1299,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Elegante, confiada, stylish, luxury diva.
 - **Tono:** Editorial magazine cover aesthetic con vibra Y2K glam.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** High-fashion beauty editorial portrait con acabado glossy.
 - **Styling Vibes:**
   - Y2K glam
@@ -1319,7 +1319,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Rostro y hombros dominantes, fur coat enmarcando composición.
 - **Enfoque:** Tack-sharp en ojos, labios glossy, piel dewy y accesorios.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Monochrome violet-lavender luxury palette con gloss refinado.
 - **Nitidez:** Alta definición en piel, maquillaje, uñas y textura del fur.
 - **Contraste:** Moderado-clean para look beauty magazine.
@@ -1466,7 +1466,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Sleek, moderno, elegante, editorial.
 - **Tono:** High-fashion minimal studio portrait con estética atemporal.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Fotografía editorial moderna de alta moda.
 - **Detalles:**
   - Texturas realistas en abrigo y denim
@@ -1481,7 +1481,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Sujeto centrado o ligeramente desplazado para tensión visual moderna.
 - **Enfoque:** Tack-sharp focus en rostro, ropa y postura; fondo suave y limpio.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Neutro cálido y elegante, sin saturación agresiva.
 - **Contraste:** Suave-moderado para un look high-key editorial.
 - **Nitidez:** Alta definición en piel, tela, cabello y bordes del chair design.
@@ -1611,7 +1611,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Playful, relajado, veraniego, alegre.
 - **Tono:** Cinematic summer fashion selfie con ternura por el perro.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Ultra photorealistic cinematic lifestyle fashion portrait.
 - **Detalles:**
   - Textura realista en piel y cabello
@@ -1627,7 +1627,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Ángulo:** Slightly low front angle para vibe espontánea.
 - **Enfoque:** Sharp focus en rostro, vaso y perro; fondo tropical suavemente desenfocado.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Natural warm summer tones con look cinematográfico suave.
 - **Contraste:** Moderado, sin sobreprocesado.
 - **Nitidez:** Alta definición en rostro, cabello, bebida y textura del perro.
@@ -1763,7 +1763,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Nostálgico, delicado, auténtico, dreamy.
 - **Tono:** Polaroid night-swim cinematic moment.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Polaroid-style authentic analog film portrait.
 - **Paleta:** Muted brown tones con color grading cálido tenue.
 - **Texturas:**
@@ -1780,7 +1780,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Plano:** Close-up a medium close portrait emergiendo del agua.
 - **Enfoque:** Tack-sharp en ojos y rostro, agua suavemente desenfocada.
 
-## P: Postproducción
+## O: Optimización final
 - **Film look:** Analog Polaroid grain, nostalgic softness.
 - **Color grading:** Muted brown cinematic tones.
 - **Contraste:** Suave, evitando over-sharpening o HDR.
@@ -1909,7 +1909,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Otherworldly, encantador, emocionalmente intenso.
 - **Tono:** High-fashion fantasy con profundidad poética y misterio.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Magical realism meets couture editorial photography.
 - **Detalles:**
   - Mariposas rosas como encaje vivo
@@ -1924,7 +1924,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Sujeto dominante centrado, mariposas ascendiendo hacia espacio negativo superior.
 - **Profundidad de campo:** Shallow DOF cinematográfico con aislamiento elegante.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Contraste fuerte negro + rosa suave luminoso.
 - **Nitidez:** Máxima definición en piel, alas y couture shimmer.
 - **Contraste:** High-fashion dramatic, deep shadows limpias.
@@ -2059,7 +2059,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Dreamy, cozy, cute, ligeramente melancólico.
 - **Tono:** Pastel cyberpunk editorial con calidez emocional.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Creative dreamy editorial photography, pastel cyberpunk gamergirl aesthetic.
 - **Detalles:**
   - Textura crochet ultra definida
@@ -2075,7 +2075,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Sujeto dominante con luces neón como marco ambiental.
 - **Enfoque:** Sharp focus en rostro y expresión; fondo suave con bokeh neón pastel.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Paleta pastel cyberpunk con glow cálido y dreamy softness.
 - **Contraste:** Suave, sin dureza, ambiente nostálgico.
 - **Nitidez:** Alta definición en rostro, tejido crochet y teclado glossy.
@@ -2215,7 +2215,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Intenso, cinematográfico, striking y cautivador.
 - **Tono:** Poster editorial de alto impacto visual.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Large-format ultra-realistic cinematic editorial poster.
 - **Detalles:**
   - Negro profundo + iluminación dramática
@@ -2229,7 +2229,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Sharp focus en rostro y neón; fondo negro limpio.
 - **Jerarquía visual:** Sujeto + letrero neón como anclas principales.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Contraste extremo con negro profundo y glow blanco intenso.
 - **Nitidez:** Alta nitidez en rostro, textura corporal y lettering neón.
 - **Efecto final:** Poster cinematic hyper-real con profundidad editorial.
@@ -2355,7 +2355,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Íntimo, cinematográfico, urbano, misterioso.
 - **Tono:** Momento fugaz de calma en medio de la energía de la ciudad.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Fotografía hiperrealista cinematográfica tipo editorial urbano.
 - **Detalles:**
   - Motion blur dinámico del tren amarillo
@@ -2369,7 +2369,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Nitidez extrema en ojos y rostro, fondo dinámico desenfocado por movimiento.
 - **Perspectiva:** Cinemática y profunda, con arquitectura del metro aportando contexto.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Tonos cálidos atmosféricos con contraste fuerte entre negro y amarillo.
 - **Contraste:** Medio-alto para dramatismo editorial.
 - **Nitidez:** Máxima nitidez en rostro y abrigo; blur limpio en el tren.
@@ -2494,7 +2494,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Editorial futurista, sofisticado, elegante.
 - **Tono:** Fashion-forward con vibra surreal moderna.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Fashion editorial × futurismo con elementos 3D glossy.
 - **Detalles:**
   - Texturas textiles nítidas
@@ -2512,7 +2512,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Sujeto centrado con formas 3D y tipografía integradas detrás.
 - **Profundidad de campo:** Shallow DOF suave para look premium.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Paleta rosa pastel + negros elegantes + highlights metálicos.
 - **Nitidez:** Alta definición en rostro, botas, pliegues de falda y objetos glossy.
 - **Contraste:** Medio cinematográfico con glow suave.
@@ -2633,7 +2633,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Dominante, elegante, misterioso.
 - **Tono:** Editorial cinematográfico de alto impacto visual.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Retrato editorial hiperrealista con estética bold y contrastada.
 - **Detalle:** High-detail fashion portrait, sombras limpias, fondo rojo saturado.
 - **Calidad:** Ultra-realistic 8K con acabado premium Vogue-style.
@@ -2644,7 +2644,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Plano:** Close-up o plano medio corto centrado en rostro y estructura.
 - **Encuadre:** Composición limpia, sujeto dominante sobre fondo rojo.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Rojos intensos con contraste cinematográfico fuerte.
 - **Nitidez:** Extrema nitidez en rostro, piel y contornos faciales.
 - **Contraste:** Alto, con deep shadows controladas.
@@ -2749,7 +2749,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Audaz, confiado, "Cold styling, hot look".
 - **Contraste:** Frío del entorno vs. calidez del sujeto.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estética:** Retrato modo smartphone high-end, editorial de influencer.
 - **Texturas:** Contraste entre piel suave, tela mate del bikini y fibras del gorro de piel.
 - **Calidad:** Photorealistic 8K, enfoque ultra-nítido.
@@ -2759,7 +2759,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Cuerpo completo con distorsión de perspectiva por la pierna extendida.
 - **Aspect Ratio:** Vertical 4:5.
 
-## P: Postproducción
+## O: Optimización final
 - **Nitidez:** Máxima definición en texturas de nieve y piel.
 - **Color:** Paleta dominada por blanco nieve y verde oliva.
 `,
@@ -2860,7 +2860,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Optimista, fresco, sereno, natural.
 - **Tono:** Lifestyle cinematográfico con energía floral suave.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Retrato hiperrealista cinematográfico exterior.
 - **Texturas:**
   - Denim detallado
@@ -2875,7 +2875,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Sujeto centrado, flores actuando como marco natural.
 - **Enfoque:** Sharp focus en rostro y jacket, fondo suavemente desenfocado.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Vibrante natural con contraste cinematográfico suave.
 - **Nitidez:** Alta definición en piel, denim y pétalos.
 - **Acabado final:** Ultra-realistic 8K outdoor floral portrait con luz soleada y atmósfera fresca.
@@ -2995,7 +2995,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Moody, misterioso, melancólico.
 - **Tono:** Cinemático, simbólico, íntimo y emocional.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Retrato editorial cinematográfico minimalista con dramatismo de luz.
 - **Texturas:**
   - Denim altamente detallado
@@ -3010,7 +3010,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Sujeto centrado con círculo de luz como elemento compositivo detrás.
 - **Enfoque:** Sharp focus en rostro, manos y flor; fondo limpio con sombra definida.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Contraste cinematográfico con dorados cálidos y tonos fríos en denim.
 - **Nitidez:** Alta definición en piel, tela y pétalos.
 - **Contraste:** Alto para enfatizar sombras y dramatismo.
@@ -3132,7 +3132,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Raw, moderno, íntimo, atemporal.
 - **Tono:** Understated elegance, effortless timeless portrait.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Retrato editorial minimalista en blanco y negro.
 - **Acabado:** Unembellished, auténtico, con textura real de piel.
 - **Paleta:** Monocromática con contraste suave.
@@ -3143,7 +3143,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Ángulo:** Eye-level neutral, moderno y directo.
 - **Enfoque:** Nitidez en rostro y expresión, fondo limpio suavemente desenfocado.
 
-## P: Postproducción
+## O: Optimización final
 - **Conversión:** Blanco y negro con separación tonal fina.
 - **Contraste:** Suave pero definido, deep blacks controlados.
 - **Textura:** Grano cinematográfico sutil opcional para mood analógico.
@@ -3261,7 +3261,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Cool, editorial, misterioso, sofisticado.
 - **Tono:** Vogue-style luxury minimalism con tensión visual.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Fotografía editorial hiperrealista de alta moda.
 - **Acabado:** Gradientes cinematográficos, sombras profundas, aura moderna.
 - **Paleta:** Naranja intenso + tonos oscuros mate para contraste elegante.
@@ -3274,7 +3274,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Ángulo:** Eye-level con composición limpia centrada.
 - **Enfoque:** Sharp focus en rostro visible, perfil iluminado y textura del jacket.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Naranja cinematográfico intenso con contraste editorial frío.
 - **Contraste:** Alto, con deep shadows limpias.
 - **Nitidez:** UHD clarity extrema en piel, tela mate y rim light.
@@ -3393,7 +3393,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Elegante, edgy, misterioso.
 - **Tono:** Fashion editorial urbano con sensación nocturna futurista.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Retrato editorial de alta moda en escenario urbano minimalista.
 - **Acabado:** Cinemático, moderno, sleek.
 - **Detalle:** Texturas metálicas + outfit negro + estética de lujo oscuro.
@@ -3405,7 +3405,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Sujeto centrado, reflejos metálicos aportan profundidad.
 - **Enfoque:** Sharp focus en rostro, gafas y vaso de café.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Tonos fríos con contraste elegante tipo editorial.
 - **Contraste:** Medio-alto para resaltar metal y outfit negro.
 - **Nitidez:** Alta definición en piel, tela y reflejos.
@@ -3521,7 +3521,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Libertad, ligereza, espiritualidad visual.
 - **Tono:** Dreamy cinematic surrealism con calma absoluta.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Fotografía hiperrealista cinematográfica surreal.
 - **Texturas:**
   - Agua espejo ultra limpia
@@ -3535,7 +3535,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Encuadre:** Sujeto centrado con simetría entre cielo y espejo de agua.
 - **Profundidad:** Espacio infinito horizontal con horizonte mínimo o inexistente.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Tonos blancos y azules suaves, look limpio celestial.
 - **Contraste:** Suave pero con alta claridad en reflejos.
 - **Nitidez:** Máxima nitidez en rostro, ropa blanca, ondas y nubes.
@@ -8377,7 +8377,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Playful, cute, bright, youthful.
 - **Tono:** Mirror selfie lifestyle con cosplay-inspired fashion charm.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Ultra-photorealistic cinematic mirror selfie aesthetic.
 - **Detalles:**
   - High-detail fabrics: brocade + gingham + lace trim
@@ -8394,7 +8394,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Sharp focus on face, outfit textures, and phone; background softly clear but not distracting.
 - **Aspect Ratio:** Vertical social media framing (9:16 implied).
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Soft warm-pink fashion palette with clean daylight tones.
 - **Contraste:** Moderate-natural, avoiding overprocessing.
 - **Nitidez:** Alta definición en rostro, textiles, lace trim y props.
@@ -8557,7 +8557,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Confident, sporty, candid lifestyle.
 - **Tono:** Fitness editorial mirror selfie con autenticidad moderna.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Ultra-photorealistic cinematic gym lifestyle portrait.
 - **Detalles:**
   - Textura ribbed sportswear definida
@@ -8574,7 +8574,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Sharp focus en rostro y outfit; background ligeramente softer pero legible.
 - **Aspect Ratio:** Vertical social framing (9:16 implied).
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Neutral cool gym tones con acabado realista moderno.
 - **Contraste:** Moderado-natural para autenticidad fitness.
 - **Nitidez:** Alta definición en piel, cabello, leggings texture y accesorios.
@@ -8721,7 +8721,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Gen-Z futuristic, dreamy, ethereal, retro-tech.
 - **Tono:** Fashion collage con nostalgia VHS moderna.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Photorealistic editorial collage con textura VHS retro.
 - **Detalles:**
   - Retro VHS grain and texture overlay
@@ -8738,7 +8738,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Sharp focus en identidad facial en cada frame; blur solo como efecto estilístico leve.
 - **Profundidad de campo:** Shallow DOF suave para look premium.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Neutral studio tones con vibe retro-dream futurista.
 - **Textura:** Subtle VHS grain + camcorder UI overlays.
 - **Contraste:** Soft-moderate para mantener delicadeza etérea.
@@ -8878,7 +8878,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Introspective, calm, timeless, editorial.
 - **Tono:** High-end fashion portrait con emoción silenciosa.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Ultra-realistic black-and-white studio fashion editorial.
 - **Detalles:**
   - Monochrome tonal separation rica
@@ -8894,7 +8894,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Sharp focus en rostro y manos; hoodie folds claramente definidos.
 - **Profundidad de campo:** Shallow DOF suave para acabado premium.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Black-and-white conversion con contrastes finos y suaves midtones.
 - **Nitidez:** Alta definición en piel, textura de tela y expresión facial.
 - **Contraste:** Moderado-high editorial sin perder suavidad.
@@ -9022,7 +9022,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Fresh, confident, summery, fashion editorial.
 - **Tono:** Lifestyle resort aesthetic con elegancia moderna.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Photorealistic swimwear editorial portrait.
 - **Detalles:**
   - Textura realista de piel
@@ -9037,7 +9037,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Enfoque:** Sharp focus en rostro y tattoo detail; fondo suavemente desenfocado.
 - **Profundidad de campo:** Shallow DOF cinematográfico.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Warm summer tones con contraste suave.
 - **Nitidez:** Alta definición en piel, bikini fabric y tattoo detail.
 - **Acabado final:** Ultra-realistic 8K poolside fashion editorial portrait con atmósfera limpia y comercial.
@@ -9167,7 +9167,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Mood:** Nostalgic, warm, private, intimate editorial lifestyle.
 - **Tono:** Soft emotional closeness with cinematic calm.
 
-## E: Estilo Visual
+## L: Lenguaje Visual
 - **Estilo general:** Hyper-realistic lifestyle portrait with 35mm film aesthetic.
 - **Detalles:**
   - Soft focus cinematic intimacy
@@ -9184,7 +9184,7 @@ export const EXTRA_MOCK_PROMPTS = [
 - **Profundidad de campo:** Soft shallow DOF with nostalgic softness.
 - **Enfoque:** Sharpest focus on eyes and facial features, softer on background.
 
-## P: Postproducción
+## O: Optimización final
 - **Color grading:** Warm golden-brown movie-grade tones.
 - **Contraste:** Soft low contrast for nostalgic intimacy.
 - **Nitidez:** Ultra detail in facial texture, lace socks, Kodak camera surface.
