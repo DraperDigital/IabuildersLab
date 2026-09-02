@@ -746,13 +746,14 @@ Prompt visual estructurado bajo la metodología de 8 dimensiones **R.E.A.L.I.S.M
         prompt_text: `{
   "title": "prompt-reaisemp-edgy-streetwear-bouquet",
   "framework_REALISMO": {
-    "R": "Use uploaded portrait only as exact facial identity reference; preserve facial structure, proportions and natural skin texture.",
-    "E": "Young adult woman, confident neutral expression, chin slightly raised, looking slightly downward toward camera.",
-    "A": "Holding a large vibrant bouquet firmly against her chest.",
-    "I": "Oversized sleeveless black tee, distressed rectangular red chest graphic, heavy silver chain, circular pendant, chunky rings, metallic bracelet/watch, black studded strap.",
-    "S": "Centered medium portrait against a solid deep saturated blue studio backdrop.",
-    "E2": "Hard directional light from upper side, crisp highlights on face and flowers, pronounced chin shadow, strong contrast.",
-    "M": "Edgy contemporary fashion editorial, saturated red/blue/black palette, ultra-photorealistic."
+    "R_Render_del_Avatar": "Use uploaded portrait only as exact facial identity reference; preserve facial structure, proportions and natural skin texture.",
+    "E_Entorno": "Young adult woman, confident neutral expression, chin slightly raised, looking slightly downward toward camera.",
+    "A_Accion_Postura": "Holding a large vibrant bouquet firmly against her chest.",
+    "L_Lenguaje_Visual": "Hard directional light from upper side, crisp highlights on face and flowers, pronounced chin shadow, strong contrast.",
+    "I_Iluminacion": "Oversized sleeveless black tee, distressed rectangular red chest graphic, heavy silver chain, circular pendant, chunky rings, metallic bracelet/watch, black studded strap.",
+    "S_Sensacion_Atmosfera": "Centered medium portrait against a solid deep saturated blue studio backdrop.",
+    "M_Composicion_Camara": "Edgy contemporary fashion editorial, saturated red/blue/black palette, ultra-photorealistic.",
+    "O_Optimizacion_final": {}
   }
 }`,
         body_markdown: `
@@ -814,13 +815,14 @@ Centered medium portrait of a young adult woman with long red hair and natural f
         prompt_text: `{
   "title": "prompt-reaisemp-vintage-sticker-bomb-portrait",
   "framework_REALISMO": {
-    "R": "Use uploaded portrait as exact facial identity reference; preserve all facial proportions and features.",
-    "E": "Young adult woman, centered head-and-shoulders portrait, chin slightly lifted, mouth slightly open, strong fashion presence.",
-    "A": "Facing camera directly with relaxed, controlled expression.",
-    "I": "Structured matte-black high-neck garment.",
-    "S": "Minimal smooth off-white/pale-gray studio backdrop.",
-    "E2": "Soft directional beauty light from front, subtle jaw and cheekbone shadows, natural skin highlights, gentle dimensional contrast.",
-    "M": "Dense curated colorful sticker collage covering most of the face while retaining recognizable facial structure; vintage logos, typography, symbols and mini illustrations follow facial curvature with realistic edges, overlap and adhesive shadows. Eyes remain visible and lips partly visible."
+    "R_Render_del_Avatar": "Use uploaded portrait as exact facial identity reference; preserve all facial proportions and features.",
+    "E_Entorno": "Young adult woman, centered head-and-shoulders portrait, chin slightly lifted, mouth slightly open, strong fashion presence.",
+    "A_Accion_Postura": "Facing camera directly with relaxed, controlled expression.",
+    "L_Lenguaje_Visual": "Soft directional beauty light from front, subtle jaw and cheekbone shadows, natural skin highlights, gentle dimensional contrast.",
+    "I_Iluminacion": "Structured matte-black high-neck garment.",
+    "S_Sensacion_Atmosfera": "Minimal smooth off-white/pale-gray studio backdrop.",
+    "M_Composicion_Camara": "Dense curated colorful sticker collage covering most of the face while retaining recognizable facial structure; vintage logos, typography, symbols and mini illustrations follow facial curvature with realistic edges, overlap and adhesive shadows. Eyes remain visible and lips partly visible.",
+    "O_Optimizacion_final": {}
   }
 }`,
         body_markdown: `
@@ -881,13 +883,14 @@ Centered head-and-shoulders portrait of a young adult woman with long red hair a
         prompt_text: `{
   "title": "prompt-reaisemp-vertical-red-laser-portrait",
   "framework_REALISMO": {
-    "R": "Use uploaded portrait as exact facial identity reference; preserve identity, proportions and natural skin texture.",
-    "E": "Young adult woman with calm, intense, controlled expression.",
-    "A": "Looking directly toward camera.",
-    "I": "Minimal structured matte-black high-neck garment.",
-    "S": "Dark blue studio background fading naturally toward near-black.",
-    "E2": "Directional key light slightly above front, minimal fill, defined highlights on forehead, nose and cheekbone, deep detailed shadows under jaw; strong cool rim light outlining hair and shoulders.",
-    "M": "Thin saturated red laser line crossing one eye with subtle glow and realistic red reflection on nearby skin; cinematic, mysterious, high-contrast editorial realism."
+    "R_Render_del_Avatar": "Use uploaded portrait as exact facial identity reference; preserve identity, proportions and natural skin texture.",
+    "E_Entorno": "Young adult woman with calm, intense, controlled expression.",
+    "A_Accion_Postura": "Looking directly toward camera.",
+    "L_Lenguaje_Visual": "Directional key light slightly above front, minimal fill, defined highlights on forehead, nose and cheekbone, deep detailed shadows under jaw; strong cool rim light outlining hair and shoulders.",
+    "I_Iluminacion": "Minimal structured matte-black high-neck garment.",
+    "S_Sensacion_Atmosfera": "Dark blue studio background fading naturally toward near-black.",
+    "M_Composicion_Camara": "Thin saturated red laser line crossing one eye with subtle glow and realistic red reflection on nearby skin; cinematic, mysterious, high-contrast editorial realism.",
+    "O_Optimizacion_final": {}
   }
 }`,
         body_markdown: `
@@ -948,13 +951,14 @@ Centered portrait of a young adult woman with long red hair and freckles, calm i
         prompt_text: `{
   "title": "prompt-reaisemp-white-cobra-macro-portrait",
   "framework_REALISMO": {
-    "R": "Use uploaded portrait as exact facial identity reference; preserve facial structure, proportions, pores and unique details.",
-    "E": "Young adult woman with calm, fearless, controlled expression and intense direct gaze.",
-    "A": "Holding completely still while a white cobra coils around her neck and crosses partially over her face.",
-    "I": "Minimal visible styling; natural skin and hair remain secondary to the face and reptile.",
-    "S": "Extreme macro portrait against seamless dark charcoal background.",
-    "E2": "Soft directional macro light from one side, sculpting facial structure and individual ivory scales; deep but detailed shadows and controlled specular highlights.",
-    "M": "Cobra hood partially expanded beside face, head elevated near nose and lips, subtle forked tongue, glossy black eyes. One human eye remains razor sharp while the other is partly obscured. Extreme tactile realism."
+    "R_Render_del_Avatar": "Use uploaded portrait as exact facial identity reference; preserve facial structure, proportions, pores and unique details.",
+    "E_Entorno": "Young adult woman with calm, fearless, controlled expression and intense direct gaze.",
+    "A_Accion_Postura": "Holding completely still while a white cobra coils around her neck and crosses partially over her face.",
+    "L_Lenguaje_Visual": "Soft directional macro light from one side, sculpting facial structure and individual ivory scales; deep but detailed shadows and controlled specular highlights.",
+    "I_Iluminacion": "Minimal visible styling; natural skin and hair remain secondary to the face and reptile.",
+    "S_Sensacion_Atmosfera": "Extreme macro portrait against seamless dark charcoal background.",
+    "M_Composicion_Camara": "Cobra hood partially expanded beside face, head elevated near nose and lips, subtle forked tongue, glossy black eyes. One human eye remains razor sharp while the other is partly obscured. Extreme tactile realism.",
+    "O_Optimizacion_final": {}
   }
 }`,
         body_markdown: `
@@ -1015,13 +1019,14 @@ Extreme macro portrait of a young adult woman with calm fearless expression, hol
         prompt_text: `{
   "title": "prompt-reaisemp-red-glitter-portrait",
   "framework_REALISMO": {
-    "R": "Use uploaded portrait as exact facial identity reference; preserve full facial structure and proportions.",
-    "E": "Young adult woman, 3/4 head-and-shoulders portrait, intense controlled gaze toward camera.",
-    "A": "Face turned slightly away from light while eyes return toward camera.",
-    "I": "Minimal elegant structured black attire.",
-    "S": "Solid saturated red seamless studio background.",
-    "E2": "Hard 45-degree directional key light, narrow beam, minimal fill; 60–70% of face remains in detailed shadow. Strong red rim light outlines hair and shoulders without lighting the face.",
-    "M": "Skin and visible body rendered in dramatic black and white while background and rim remain red. Heavy multicolor iridescent glitter surrounds eyes with chunky reflective particles, preserving full-color sparkle."
+    "R_Render_del_Avatar": "Use uploaded portrait as exact facial identity reference; preserve full facial structure and proportions.",
+    "E_Entorno": "Young adult woman, 3/4 head-and-shoulders portrait, intense controlled gaze toward camera.",
+    "A_Accion_Postura": "Face turned slightly away from light while eyes return toward camera.",
+    "L_Lenguaje_Visual": "Hard 45-degree directional key light, narrow beam, minimal fill; 60–70% of face remains in detailed shadow. Strong red rim light outlines hair and shoulders without lighting the face.",
+    "I_Iluminacion": "Minimal elegant structured black attire.",
+    "S_Sensacion_Atmosfera": "Solid saturated red seamless studio background.",
+    "M_Composicion_Camara": "Skin and visible body rendered in dramatic black and white while background and rim remain red. Heavy multicolor iridescent glitter surrounds eyes with chunky reflective particles, preserving full-color sparkle.",
+    "O_Optimizacion_final": {}
   }
 }`,
         body_markdown: `
@@ -1082,13 +1087,14 @@ Cinematic 3/4 editorial portrait of an intense woman, monochrome black and white
         prompt_text: `{
   "title": "prompt-reaisemp-vogue-bridal-white-horse",
   "framework_REALISMO": {
-    "R": "Use uploaded portrait as facial identity reference where applicable; preserve natural facial proportions and texture.",
-    "E": "Adult blonde bride with serene, intimate expression.",
-    "A": "Standing very close to a white horse, creating an intimate eye-to-eye composition.",
-    "I": "Pristine ivory bridal styling with soft pearl veil covering half the face.",
-    "S": "Minimal pristine ivory environment with polished white stone floor and seamless pale background.",
-    "E2": "Soft diffused cinematic light, gentle shadows, controlled highlights across veil, skin and horse.",
-    "M": "The horse's golden eye sits beside the bride's visible eye, reflecting white clouds. Luxurious Vogue-style editorial realism, clean ivory/cream palette."
+    "R_Render_del_Avatar": "Use uploaded portrait as facial identity reference where applicable; preserve natural facial proportions and texture.",
+    "E_Entorno": "Adult blonde bride with serene, intimate expression.",
+    "A_Accion_Postura": "Standing very close to a white horse, creating an intimate eye-to-eye composition.",
+    "L_Lenguaje_Visual": "Soft diffused cinematic light, gentle shadows, controlled highlights across veil, skin and horse.",
+    "I_Iluminacion": "Pristine ivory bridal styling with soft pearl veil covering half the face.",
+    "S_Sensacion_Atmosfera": "Minimal pristine ivory environment with polished white stone floor and seamless pale background.",
+    "M_Composicion_Camara": "The horse's golden eye sits beside the bride's visible eye, reflecting white clouds. Luxurious Vogue-style editorial realism, clean ivory/cream palette.",
+    "O_Optimizacion_final": {}
   }
 }`,
         body_markdown: `
@@ -1166,6 +1172,10 @@ Vogue style intimate close-up editorial portrait of an adult blonde bride with s
       "mirada": "Mirada dirigida ligeramente hacia abajo, hacia la cámara.",
       "expresion": "Seria, contenida y segura."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía cinematográfica de estudio, oscura y sofisticada.",
+      "realismo": "Fotorealismo de alta fidelidad con textura natural de piel y detalles faciales precisos."
+    },
     "I_Iluminacion": {
       "luz_principal": "Luz direccional proveniente ligeramente desde arriba y al frente.",
       "caracteristicas": "Iluminación de alto contraste con highlights definidos sobre la frente, puente de la nariz, pómulos y labios.",
@@ -1178,16 +1188,12 @@ Vogue style intimate close-up editorial portrait of an adult blonde bride with s
       "emocion": "Intensa, misteriosa, segura y cinematográfica.",
       "tono": "Noir contemporáneo, sofisticado y ligeramente futurista."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía cinematográfica de estudio, oscura y sofisticada.",
-      "realismo": "Fotorealismo de alta fidelidad con textura natural de piel y detalles faciales precisos."
-    },
     "M_Composicion_Camara": {
       "plano": "Primer plano de cabeza y hombros.",
       "angulo": "Low-angle, cámara situada ligeramente por debajo del rostro.",
       "enfoque": "Enfoque extremadamente nítido sobre el rostro y los ojos."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Grading cinematográfico de alto contraste con azul oscuro y negros profundos.",
       "acento_cromatico": "Rojo intenso reservado para el láser y su reflejo sobre la piel."
     }
@@ -1296,6 +1302,10 @@ Cinematic tight head-and-shoulders low-angle portrait of a serious controlled wo
       "pose": "Postura de retrato de estudio, estable y natural.",
       "orientacion": "Rostro orientado hacia la cámara."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía profesional de estudio con iluminación cinematográfica esculpida.",
+      "realismo": "Fotorealismo de alta fidelidad."
+    },
     "I_Iluminacion": {
       "fuente_principal": "Fuente de luz principal a la derecha de la cámara, iluminando intensamente el pómulo y mandíbula derechos.",
       "lado_en_sombra": "El lado izquierdo permanece visiblemente más oscuro con separación clara de sombras.",
@@ -1305,15 +1315,11 @@ Cinematic tight head-and-shoulders low-angle portrait of a serious controlled wo
       "emocion": "Seguridad, intensidad y sofisticación.",
       "tono": "Dramático, preciso y contemporáneo."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía profesional de estudio con iluminación cinematográfica esculpida.",
-      "realismo": "Fotorealismo de alta fidelidad."
-    },
     "M_Composicion_Camara": {
       "plano": "Retrato de estudio centrado.",
       "angulo": "Ángulo neutro a la altura de los ojos."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tratamiento cromático limpio con fondo púrpura índigo saturado.",
       "nitidez": "Alta nitidez en rasgos faciales y textura de piel."
     }
@@ -1414,6 +1420,10 @@ Centered high-end studio portrait of a confident woman on a solid matte deep pur
       "pose": "Retrato frontal en primer plano.",
       "encuadre_organico": "Ramas, tallos y follaje atraviesan parcialmente el rostro generando capas orgánicas en primer plano."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Retrato botánico de bellas artes con lenguaje fotográfico analógico.",
+      "vegetacion": "Flores amarillo mostaza, moradas apagadas y pétalos blancos suaves con ramas retorcidas."
+    },
     "I_Iluminacion": {
       "tipo": "Luz lateral suave y direccional cálida de ventana de tarde."
     },
@@ -1421,15 +1431,11 @@ Centered high-end studio portrait of a confident woman on a solid matte deep pur
       "emocion": "Introspectiva, tranquila y contemplativa.",
       "tono": "Orgánico, silencioso y artístico."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Retrato botánico de bellas artes con lenguaje fotográfico analógico.",
-      "vegetacion": "Flores amarillo mostaza, moradas apagadas y pétalos blancos suaves con ramas retorcidas."
-    },
     "M_Composicion_Camara": {
       "plano": "Primerísimo primer plano frontal.",
       "enfoque": "Rostro enfocado mientras vegetación cercana permanece suavemente fuera de foco."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "paleta": "Paleta terrosa y apagada con verdes desaturados y grano analógico natural."
     }
   }
@@ -1523,19 +1529,19 @@ Fine art botanical close-up frontal portrait of a quiet introspective woman, wil
       "pose": "Retrato centrado de cabeza y hombros.",
       "stickers": "Composición densa de stickers vintage amoldados a la curvatura facial."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía editorial con intervención gráfica analógica y textura realista."
+    },
     "I_Iluminacion": {
       "tipo": "Iluminación de estudio suave direccional estilo beauty."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Seguridad, sofisticación y actitud editorial."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía editorial con intervención gráfica analógica y textura realista."
-    },
     "M_Composicion_Camara": {
       "plano": "Primer plano frontal centrado."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Ligera desaturación general y grano cinematográfico sutil."
     }
   }
@@ -1623,19 +1629,19 @@ Centered editorial head-and-shoulders portrait of a confident woman in a black m
     "A_Accion_Postura": {
       "pose": "Retrato tres cuartos con rostro girado alejado de la luz principal."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía editorial cinematográfica de alto contraste con color selectivo."
+    },
     "I_Iluminacion": {
       "luz_principal": "Key light dura a 45 grados dejando 60-70% en sombra chiaroscuro y rim light rojo en cabello."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Misteriosa, intensa y sofisticada de alta moda."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía editorial cinematográfica de alto contraste con color selectivo."
-    },
     "M_Composicion_Camara": {
       "plano": "Retrato 3/4 enfocado en el ojo iluminado."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "tratamiento": "Piel en blanco y negro mientras fondo, rim y glitter permanecen en color pleno."
     }
   }
@@ -1720,19 +1726,19 @@ Framework completo en español para claroscuro dramático con color selectivo.
     "A_Accion_Postura": {
       "pose": "Composición íntima cabeza con cabeza entre la novia y el caballo."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Editorial Vogue de alta costura e hiperrealismo fotográfico."
+    },
     "I_Iluminacion": {
       "tipo": "Iluminación envolvente suave y difusa."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Íntima, etérea, elegante y romántica."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Editorial Vogue de alta costura e hiperrealismo fotográfico."
-    },
     "M_Composicion_Camara": {
       "plano": "Retrato 85mm con enfoque en ojos de la novia y del caballo."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Paleta prístina blanca, marfil, beige y crema."
     }
   }
@@ -1818,19 +1824,19 @@ Vogue magazine style close-up portrait of an elegant bride in ivory gown with pe
     "A_Accion_Postura": {
       "pose": "Extreme close-up macro con capucha parcialmente expandida cerca de la boca."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía macro hiperrealista de bellas artes."
+    },
     "I_Iluminacion": {
       "tipo": "Iluminación macro de estudio lateral dramática."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Intimidad, tensión y desafío primal."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía macro hiperrealista de bellas artes."
-    },
     "M_Composicion_Camara": {
       "plano": "Extreme close-up 100mm macro f/2.8."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tonos ivory, perla, crema y carbón oscuro."
     }
   }
@@ -1917,19 +1923,19 @@ Extreme macro fine-art portrait of a calm fearless woman with natural skin textu
     "A_Accion_Postura": {
       "pose": "Retrato íntimo con la cabeza de la serpiente cubriendo parcialmente el rostro."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía fine art gótica contemporánea de alto contraste."
+    },
     "I_Iluminacion": {
       "tipo": "Claroscuro dramático con única fuente direccional que ilumina medio rostro."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Misterio, vulnerabilidad, tentación y estética gótica."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía fine art gótica contemporánea de alto contraste."
-    },
     "M_Composicion_Camara": {
       "plano": "Primerísimo primer plano centrado en rostro y serpiente."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Paleta desaturada de tonos pálidos, carbón y bronce frío."
     }
   }
@@ -2014,19 +2020,19 @@ Dark romantic fine-art close-up portrait of a pale woman with green eyes and fre
     "A_Accion_Postura": {
       "pose": "Caminando con decisión, pie avanzando hacia la cámara en primer plano."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Editorial de moda urbana contemporánea."
+    },
     "I_Iluminacion": {
       "tipo": "Luz solar directa limpia de día."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Poderosa, urbana y energética."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Editorial de moda urbana contemporánea."
-    },
     "M_Composicion_Camara": {
       "plano": "Plano completo extreme low-angle con gran angular."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Color vibrante y natural 8K."
     }
   }
@@ -2110,19 +2116,19 @@ Full-body extreme low-angle ground-level fashion editorial of a confident woman 
     "A_Accion_Postura": {
       "pose": "Recostada en el capó extendiendo una mano al objetivo con actitud provocadora."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía Y2K hiperrealista con aberración cromática ligera y ligero light leak."
+    },
     "I_Iluminacion": {
       "tipo": "Luz cálida de atardecer con reflejos sobre la pintura automotriz."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Audaz, Y2K y viral."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía Y2K hiperrealista con aberración cromática ligera y ligero light leak."
-    },
     "M_Composicion_Camara": {
       "plano": "Perspectiva elevada gran angular con distorsión fisheye y motion blur circular."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tonos cálidos de atardecer y tratamiento digital Y2K."
     }
   }
@@ -2206,19 +2212,19 @@ Y2K fashion wide fisheye drone orbit shot of a stylish woman with mini hair buns
     "A_Accion_Postura": {
       "pose": "Sentada en el borde percibiéndose gigantesca frente a la ciudad."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía urbana hiperrealista con distorsión perspectival."
+    },
     "I_Iluminacion": {
       "tipo": "Luz urbana diurna de alto contraste."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Monumental, surrealista y poderosa."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía urbana hiperrealista con distorsión perspectival."
-    },
     "M_Composicion_Camara": {
       "plano": "Worm's-eye view gran angular con distorsión de barril."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tratamiento urbano nítido en 8K."
     }
   }
@@ -2304,19 +2310,19 @@ Colossal scale surrealism extreme low-angle worm's-eye view of a giant woman in 
     "A_Accion_Postura": {
       "pose": "Busto en perfil lateral elegante con ojos cerrados."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Editorial de joyería de lujo y fotografía museum-grade fine art."
+    },
     "I_Iluminacion": {
       "tipo": "Luz cinematográfica escultórica con refracción realista en la esmeralda."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Calma, elegancia, lujo silencioso y belleza atemporal."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Editorial de joyería de lujo y fotografía museum-grade fine art."
-    },
     "M_Composicion_Camara": {
       "plano": "Retrato de busto anamórfico 85mm f/2.8."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Gradación monocromática cálida con acento verde en la esmeralda."
     }
   }
@@ -2403,19 +2409,19 @@ Luxury jewelry editorial anamorphic 85mm shot of a fine golden sand sculpture fe
     "A_Accion_Postura": {
       "pose": "Perfil lateral suave con ramita artística sobre el cabello."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Editorial de alta joyería con estética de relieve escultórico."
+    },
     "I_Iluminacion": {
       "tipo": "Luz direccional suave que resalta contornos del relieve y facetas de gemas."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Serenidad, lujo fine art y contemplación."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Editorial de alta joyería con estética de relieve escultórico."
-    },
     "M_Composicion_Camara": {
       "plano": "Retrato de perfil 85mm anamórfico."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Monocromático dorado cálido con esmeraldas vibrantes."
     }
   }
@@ -2501,19 +2507,19 @@ Luxury fine art jewelry editorial top-down perspective of a female profile relie
     "A_Accion_Postura": {
       "pose": "Perfil lateral escultórico con ojos cerrados."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Editorial de joyería de alta gama y escultura terracota."
+    },
     "I_Iluminacion": {
       "tipo": "Luz direccional suave que proyecta sombras dentro del relieve."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Lujo, sensualidad contenida y tierra."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Editorial de joyería de alta gama y escultura terracota."
-    },
     "M_Composicion_Camara": {
       "plano": "Retrato de perfil 85mm anamórfico f/2.8."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Monocromático terracota rojo tierra con profundidad en rubíes."
     }
   }
@@ -2600,19 +2606,19 @@ Fine art luxury jewelry editorial profile relief carved into terracotta red sand
     "A_Accion_Postura": {
       "pose": "Perfil lateral atemporal con ojos cerrados."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Editorial de lujo inspirado en escultura clásica."
+    },
     "I_Iluminacion": {
       "tipo": "Luz difusa que resalta profundidad azul y facetas del zafiro."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Lujo silencioso, serenidad y belleza costera."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Editorial de lujo inspirado en escultura clásica."
-    },
     "M_Composicion_Camara": {
       "plano": "Retrato de perfil 85mm anamórfico."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Monocromático ivory-beige con acento azul zafiro."
     }
   }
@@ -2699,19 +2705,19 @@ Classical sculpture fine art jewelry editorial profile relief carved into ivory-
     "A_Accion_Postura": {
       "pose": "Sentado con piernas cruzadas ajustando las gafas de sol con actitud intensa."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "High-fashion editorial contemporáneo y arte conceptual."
+    },
     "I_Iluminacion": {
       "tipo": "Iluminación dramática de estudio controlada con alto contraste."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Confianza, intensidad, urbano y avant-garde."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "High-fashion editorial contemporáneo y arte conceptual."
-    },
     "M_Composicion_Camara": {
       "plano": "Plano medio-amplio frontal simétrico."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Entorno monocromático con la chaqueta baby pink como ruptura cromática principal."
     }
   }
@@ -2797,19 +2803,19 @@ Avant-garde fashion editorial medium shot of a young man with light beard and fu
     "A_Accion_Postura": {
       "pose": "Sentada cruzada sujetando suavemente las mejillas con ambas manos mirando a cámara."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía editorial de moda conceptual contemporánea."
+    },
     "I_Iluminacion": {
       "tipo": "Luz suave direccional uniforme para destacar rostro y patrón de ajedrez."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Teatralidad, sorpresa, surrealismo juguetón."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía editorial de moda conceptual contemporánea."
-    },
     "M_Composicion_Camara": {
       "plano": "Plano medio-amplio frontal centrado."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Monocromo con verde oscuro, gris y negro bien definidos."
     }
   }
@@ -2895,19 +2901,19 @@ Conceptual fashion editorial of a woman with open mouth shocked expression holdi
     "A_Accion_Postura": {
       "pose": "Sentada en la silla giratoria con pierna cruzada y brazo detrás de la cabeza."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía editorial de moda contemporánea minimalista."
+    },
     "I_Iluminacion": {
       "tipo": "Luz de estudio suave y difusa uniforme."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Confianza, relajación y alta moda sofisticada."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía editorial de moda contemporánea minimalista."
-    },
     "M_Composicion_Camara": {
       "plano": "Plano medio-amplio vertical 4:5 frontal."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Paleta base monocromática/beige con verde oscuro como acento principal."
     }
   }
@@ -2993,19 +2999,19 @@ Fashion editorial vertical 4:5 portrait of a confident woman with oversized sung
     "A_Accion_Postura": {
       "pose": "Tarjeta inclinada revelando profundidad y refracción sobre la piel."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Digital art hiperrealista glassmorphism."
+    },
     "I_Iluminacion": {
       "tipo": "Luz holográfica propia emitiendo glow sobre la mano."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Innovación, tecnología de lujo y futuro digital."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Digital art hiperrealista glassmorphism."
-    },
     "M_Composicion_Camara": {
       "plano": "Close-up macro 85mm f/1.8."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Azul y magenta cinematográfico."
     }
   }
@@ -3090,19 +3096,19 @@ Luxury tech digital art macro shot of a human hand holding a glowing glassmorphi
     "A_Accion_Postura": {
       "pose": "Retrato frontal rodeado de flechas y textos manuscritos."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Hand-drawn doodle art con tinta roja y amarilla."
+    },
     "I_Iluminacion": {
       "tipo": "Simulada por densidad de trazos y achurados de tinta."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Creatividad, espontaneidad y arte personal."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Hand-drawn doodle art con tinta roja y amarilla."
-    },
     "M_Composicion_Camara": {
       "plano": "Vista directa superior de página de libreta."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Paleta dominada por tinta roja y amarilla sobre papel blanco."
     }
   }
@@ -3186,19 +3192,19 @@ Hand-drawn doodle art illustration of a man's portrait on spiral notebook paper 
     "A_Accion_Postura": {
       "pose": "Retrato espontáneo con vaso cerca del rostro y mirada a cámara."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía vintage cinematográfica sepia."
+    },
     "I_Iluminacion": {
       "tipo": "Luz lateral cálida de atardecer con penumbra al fondo."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Intimidad, melancolía y calma dark aesthetic."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía vintage cinematográfica sepia."
-    },
     "M_Composicion_Camara": {
       "plano": "Close-up asimétrico con profundidad de campo reducida."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tonos sepia oscuros, marrones y grano sutil."
     }
   }
@@ -3282,19 +3288,19 @@ Moody vintage cinematic portrait of a young woman in dark brown cable-knit sweat
     "A_Accion_Postura": {
       "pose": "De pie con postura relajada y elegante."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Editorial de alta moda y arquitectura."
+    },
     "I_Iluminacion": {
       "tipo": "Luz solar directa cálida con sombras dimensionales."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Majestuosidad, elegancia atemporal y serenidad."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Editorial de alta moda y arquitectura."
-    },
     "M_Composicion_Camara": {
       "plano": "Plano completo vertical 9:16 85mm."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tonos neutros cálidos, beige y reflejos dorados."
     }
   }
@@ -3378,19 +3384,19 @@ High-fashion couture full-body editorial portrait of a woman in an ornate white 
     "A_Accion_Postura": {
       "pose": "Sentada en sofá vintage con mano en el mentón."
     },
+    "L_Lenguaje_Visual": {
+      "estilo": "Fotografía cinematográfica vintage años 30."
+    },
     "I_Iluminacion": {
       "tipo": "Luz de estudio años 30 envolvente y dramática."
     },
     "S_Sensacion_Atmosfera": {
       "emocion": "Glamour clásico de Hollywood, sofisticación y nostalgia."
     },
-    "E_visual_EstiloVisual": {
-      "estilo": "Fotografía cinematográfica vintage años 30."
-    },
     "M_Composicion_Camara": {
       "plano": "Retrato vertical 9:16 50mm."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tonos de película fotográfica vintage con grano fino."
     }
   }
