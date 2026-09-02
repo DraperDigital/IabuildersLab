@@ -1249,7 +1249,7 @@ Cinematic tight head-and-shoulders low-angle portrait of a serious controlled wo
       "emocion": "Intensa, misteriosa, segura y cinematográfica.",
       "tono": "Noir contemporáneo, sofisticado y ligeramente futurista."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía cinematográfica de estudio, oscura y sofisticada.",
       "realismo": "Fotorealismo de alta fidelidad con textura natural de piel y detalles faciales precisos."
     },
@@ -1258,7 +1258,7 @@ Cinematic tight head-and-shoulders low-angle portrait of a serious controlled wo
       "angulo": "Low-angle, cámara situada ligeramente por debajo del rostro.",
       "enfoque": "Enfoque extremadamente nítido sobre el rostro y los ojos."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Grading cinematográfico de alto contraste con azul oscuro y negros profundos.",
       "acento_cromatico": "Rojo intenso reservado para el láser y su reflejo sobre la piel."
     }
@@ -1370,7 +1370,7 @@ Centered high-end studio portrait of a confident woman on a solid matte deep pur
       "emocion": "Seguridad, intensidad y sofisticación.",
       "tono": "Dramático, preciso y contemporáneo."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía profesional de estudio con iluminación cinematográfica esculpida.",
       "realismo": "Fotorealismo de alta fidelidad."
     },
@@ -1378,7 +1378,7 @@ Centered high-end studio portrait of a confident woman on a solid matte deep pur
       "plano": "Retrato de estudio centrado.",
       "angulo": "Ángulo neutro a la altura de los ojos."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tratamiento cromático limpio con fondo púrpura índigo saturado.",
       "nitidez": "Alta nitidez en rasgos faciales y textura de piel."
     }
@@ -1481,7 +1481,7 @@ Fine art botanical close-up frontal portrait of a quiet introspective woman, wil
       "emocion": "Introspectiva, tranquila y contemplativa.",
       "tono": "Orgánico, silencioso y artístico."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Retrato botánico de bellas artes con lenguaje fotográfico analógico.",
       "vegetacion": "Flores amarillo mostaza, moradas apagadas y pétalos blancos suaves con ramas retorcidas."
     },
@@ -1489,7 +1489,7 @@ Fine art botanical close-up frontal portrait of a quiet introspective woman, wil
       "plano": "Primerísimo primer plano frontal.",
       "enfoque": "Rostro enfocado mientras vegetación cercana permanece suavemente fuera de foco."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "paleta": "Paleta terrosa y apagada con verdes desaturados y grano analógico natural."
     }
   }
@@ -1585,13 +1585,13 @@ Centered editorial head-and-shoulders portrait of a confident woman in a black m
     "S_Sensacion_Atmosfera": {
       "emocion": "Seguridad, sofisticación y actitud editorial."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía editorial con intervención gráfica analógica y textura realista."
     },
     "M_Composicion_Camara": {
       "plano": "Primer plano frontal centrado."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Ligera desaturación general y grano cinematográfico sutil."
     }
   }
@@ -1683,13 +1683,13 @@ Framework completo en español para claroscuro dramático con color selectivo.
     "S_Sensacion_Atmosfera": {
       "emocion": "Misteriosa, intensa y sofisticada de alta moda."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía editorial cinematográfica de alto contraste con color selectivo."
     },
     "M_Composicion_Camara": {
       "plano": "Retrato 3/4 enfocado en el ojo iluminado."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "tratamiento": "Piel en blanco y negro mientras fondo, rim y glitter permanecen en color pleno."
     }
   }
@@ -1779,13 +1779,13 @@ Vogue magazine style close-up portrait of an elegant bride in ivory gown with pe
     "S_Sensacion_Atmosfera": {
       "emocion": "Íntima, etérea, elegante y romántica."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Editorial Vogue de alta costura e hiperrealismo fotográfico."
     },
     "M_Composicion_Camara": {
       "plano": "Retrato 85mm con enfoque en ojos de la novia y del caballo."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Paleta prístina blanca, marfil, beige y crema."
     }
   }
@@ -1879,13 +1879,13 @@ Extreme macro fine-art portrait of a calm fearless woman with natural skin textu
     "S_Sensacion_Atmosfera": {
       "emocion": "Intimidad, tensión y desafío primal."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía macro hiperrealista de bellas artes."
     },
     "M_Composicion_Camara": {
       "plano": "Extreme close-up 100mm macro f/2.8."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tonos ivory, perla, crema y carbón oscuro."
     }
   }
@@ -1977,13 +1977,13 @@ Dark romantic fine-art close-up portrait of a pale woman with green eyes and fre
     "S_Sensacion_Atmosfera": {
       "emocion": "Misterio, vulnerabilidad, tentación y estética gótica."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía fine art gótica contemporánea de alto contraste."
     },
     "M_Composicion_Camara": {
       "plano": "Primerísimo primer plano centrado en rostro y serpiente."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Paleta desaturada de tonos pálidos, carbón y bronce frío."
     }
   }
@@ -2073,13 +2073,13 @@ Full-body extreme low-angle ground-level fashion editorial of a confident woman 
     "S_Sensacion_Atmosfera": {
       "emocion": "Poderosa, urbana y energética."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Editorial de moda urbana contemporánea."
     },
     "M_Composicion_Camara": {
       "plano": "Plano completo extreme low-angle con gran angular."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Color vibrante y natural 8K."
     }
   }
@@ -2169,13 +2169,13 @@ Y2K fashion wide fisheye drone orbit shot of a stylish woman with mini hair buns
     "S_Sensacion_Atmosfera": {
       "emocion": "Audaz, Y2K y viral."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía Y2K hiperrealista con aberración cromática ligera y ligero light leak."
     },
     "M_Composicion_Camara": {
       "plano": "Perspectiva elevada gran angular con distorsión fisheye y motion blur circular."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tonos cálidos de atardecer y tratamiento digital Y2K."
     }
   }
@@ -2265,13 +2265,13 @@ Colossal scale surrealism extreme low-angle worm's-eye view of a giant woman in 
     "S_Sensacion_Atmosfera": {
       "emocion": "Monumental, surrealista y poderosa."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía urbana hiperrealista con distorsión perspectival."
     },
     "M_Composicion_Camara": {
       "plano": "Worm's-eye view gran angular con distorsión de barril."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tratamiento urbano nítido en 8K."
     }
   }
@@ -2365,13 +2365,13 @@ Luxury jewelry editorial anamorphic 85mm shot of a fine golden sand sculpture fe
     "S_Sensacion_Atmosfera": {
       "emocion": "Calma, elegancia, lujo silencioso y belleza atemporal."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Editorial de joyería de lujo y fotografía museum-grade fine art."
     },
     "M_Composicion_Camara": {
       "plano": "Retrato de busto anamórfico 85mm f/2.8."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Gradación monocromática cálida con acento verde en la esmeralda."
     }
   }
@@ -2463,13 +2463,13 @@ Luxury fine art jewelry editorial top-down perspective of a female profile relie
     "S_Sensacion_Atmosfera": {
       "emocion": "Serenidad, lujo fine art y contemplación."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Editorial de alta joyería con estética de relieve escultórico."
     },
     "M_Composicion_Camara": {
       "plano": "Retrato de perfil 85mm anamórfico."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Monocromático dorado cálido con esmeraldas vibrantes."
     }
   }
@@ -2561,13 +2561,13 @@ Fine art luxury jewelry editorial profile relief carved into terracotta red sand
     "S_Sensacion_Atmosfera": {
       "emocion": "Lujo, sensualidad contenida y tierra."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Editorial de joyería de alta gama y escultura terracota."
     },
     "M_Composicion_Camara": {
       "plano": "Retrato de perfil 85mm anamórfico f/2.8."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Monocromático terracota rojo tierra con profundidad en rubíes."
     }
   }
@@ -2661,13 +2661,13 @@ Classical sculpture fine art jewelry editorial profile relief carved into ivory-
     "S_Sensacion_Atmosfera": {
       "emocion": "Lujo silencioso, serenidad y belleza costera."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Editorial de lujo inspirado en escultura clásica."
     },
     "M_Composicion_Camara": {
       "plano": "Retrato de perfil 85mm anamórfico."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Monocromático ivory-beige con acento azul zafiro."
     }
   }
@@ -2759,13 +2759,13 @@ Avant-garde fashion editorial medium shot of a young man with light beard and fu
     "S_Sensacion_Atmosfera": {
       "emocion": "Confianza, intensidad, urbano y avant-garde."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "High-fashion editorial contemporáneo y arte conceptual."
     },
     "M_Composicion_Camara": {
       "plano": "Plano medio-amplio frontal simétrico."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Entorno monocromático con la chaqueta baby pink como ruptura cromática principal."
     }
   }
@@ -2857,13 +2857,13 @@ Conceptual fashion editorial of a woman with open mouth shocked expression holdi
     "S_Sensacion_Atmosfera": {
       "emocion": "Teatralidad, sorpresa, surrealismo juguetón."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía editorial de moda conceptual contemporánea."
     },
     "M_Composicion_Camara": {
       "plano": "Plano medio-amplio frontal centrado."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Monocromo con verde oscuro, gris y negro bien definidos."
     }
   }
@@ -2955,13 +2955,13 @@ Fashion editorial vertical 4:5 portrait of a confident woman with oversized sung
     "S_Sensacion_Atmosfera": {
       "emocion": "Confianza, relajación y alta moda sofisticada."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía editorial de moda contemporánea minimalista."
     },
     "M_Composicion_Camara": {
       "plano": "Plano medio-amplio vertical 4:5 frontal."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Paleta base monocromática/beige con verde oscuro como acento principal."
     }
   }
@@ -3053,13 +3053,13 @@ Luxury tech digital art macro shot of a human hand holding a glowing glassmorphi
     "S_Sensacion_Atmosfera": {
       "emocion": "Innovación, tecnología de lujo y futuro digital."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Digital art hiperrealista glassmorphism."
     },
     "M_Composicion_Camara": {
       "plano": "Close-up macro 85mm f/1.8."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Azul y magenta cinematográfico."
     }
   }
@@ -3149,13 +3149,13 @@ Hand-drawn doodle art illustration of a man's portrait on spiral notebook paper 
     "S_Sensacion_Atmosfera": {
       "emocion": "Creatividad, espontaneidad y arte personal."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Hand-drawn doodle art con tinta roja y amarilla."
     },
     "M_Composicion_Camara": {
       "plano": "Vista directa superior de página de libreta."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Paleta dominada por tinta roja y amarilla sobre papel blanco."
     }
   }
@@ -3245,13 +3245,13 @@ Moody vintage cinematic portrait of a young woman in dark brown cable-knit sweat
     "S_Sensacion_Atmosfera": {
       "emocion": "Intimidad, melancolía y calma dark aesthetic."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía vintage cinematográfica sepia."
     },
     "M_Composicion_Camara": {
       "plano": "Close-up asimétrico con profundidad de campo reducida."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tonos sepia oscuros, marrones y grano sutil."
     }
   }
@@ -3341,13 +3341,13 @@ High-fashion couture full-body editorial portrait of a woman in an ornate white 
     "S_Sensacion_Atmosfera": {
       "emocion": "Majestuosidad, elegancia atemporal y serenidad."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Editorial de alta moda y arquitectura."
     },
     "M_Composicion_Camara": {
       "plano": "Plano completo vertical 9:16 85mm."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tonos neutros cálidos, beige y reflejos dorados."
     }
   }
@@ -3437,13 +3437,13 @@ Framework completo en español para glamour clásico de cine de los años 30.
     "S_Sensacion_Atmosfera": {
       "emocion": "Glamour clásico de Hollywood, sofisticación y nostalgia."
     },
-    "E_visual_EstiloVisual": {
+    "L_Lenguaje_Visual": {
       "estilo": "Fotografía cinematográfica vintage años 30."
     },
     "M_Composicion_Camara": {
       "plano": "Retrato vertical 9:16 50mm."
     },
-    "P_Postproduccion": {
+    "O_Optimizacion_final": {
       "color_grading": "Tonos de película fotográfica vintage con grano fino."
     }
   }

@@ -135,7 +135,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Intimate, cozy, luxurious, sleepy elegance.",
                     "tono": "High-fashion model off-duty bedtime selfie vibe."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Ultra-photorealistic cinematic iPhone candid portrait.",
                     "detalles": [
                         "Cream luxury bedding textures",
@@ -153,7 +153,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Sharp focus en rostro y ojos, background softly blurred.",
                     "profundidad_de_campo": "Shallow DOF para vibe premium."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Cool facial glow + warm bedside lamp contrast, cinematic soft tones.",
                     "contraste": "Suave-moderado, sin HDR exagerado.",
                     "nitidez": "Alta definición en piel, seda, ojos y bedding texture.",
@@ -284,7 +284,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Playful, candid, warm, youthful.",
                     "tono": "Golden-hour lifestyle selfie con energía espontánea."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Photorealistic cinematic outdoor selfie portrait.",
                     "detalles": [
                         "Cabello al viento con luz cálida",
@@ -301,7 +301,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Sharp focus en ojos y rostro; background completamente suave.",
                     "profundidad_de_campo": "Shallow DOF cinematográfico."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Warm golden tones naturales, sin saturación excesiva.",
                     "contraste": "Suave-moderado para mantener look auténtico.",
                     "nitidez": "Alta definición en piel, cabello y ojos.",
@@ -449,7 +449,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Playful, dreamy, confident, vibrant.",
                     "tono": "Surreal fashion portrait con energía pop y estética editorial."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Photorealistic saturated surreal fashion portrait.",
                     "detalles": [
                         "Bolas translúcidas glowing en múltiples tonos rosa",
@@ -465,7 +465,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Sharp focus en ojos expresivos y rostro; fondo lleno de bokeh glossy spheres.",
                     "angulo": "Neutral frontal con ligera diagonal corporal para dinamismo."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Pink-magenta saturated palette intensa y alegre.",
                     "contraste": "Moderado-clean para look pop editorial.",
                     "nitidez": "Alta definición en piel, pecas, labios y textura translúcida de esferas.",
@@ -597,7 +597,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Rebelde, oscuro, introspectivo, callejero.",
                     "tono": "Hip-hop underground + noir cyberpunk cinematic sequence."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Dark cyberpunk noir portrait sequence, gritty street fashion editorial.",
                     "detalles": [
                         "Film grain heavy",
@@ -614,7 +614,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "lentes": "Close-ups + medium shot con DOF shallow.",
                     "encuadre": "Cada frame variado pero coherente en estética neon noir."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Dominante verde neón + negros profundos noir.",
                     "contraste": "Alto para estética underground.",
                     "textura": "Grano fuerte + high ISO film look.",
@@ -749,7 +749,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Cozy, sleepy, introspectivo, tranquilo.",
                     "tono": "Cinematic morning calm con vibe hogareña."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Overhead cinematic lifestyle photography ultra realista.",
                     "detalles": [
                         "Textura de piel y cabello realista",
@@ -767,7 +767,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto centrado con props alrededor para storytelling visual.",
                     "enfoque": "Sharp focus en rostro y cuerpo; fondo suave pero detallado."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Warm morning tones con mood cinematográfico suave.",
                     "contraste": "Moderado-natural para mantener autenticidad cozy.",
                     "nitidez": "Alta definición en piel, textiles, magazine y libros.",
@@ -897,7 +897,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Confident, avant-garde, chic, editorial.",
                     "tono": "Conceptual fashion portrait con presencia moderna y artística."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Photorealistic fashion magazine editorial con couture surreal.",
                     "detalles": [
                         "Cinta FRAGILE como material de outfit estructurado",
@@ -913,7 +913,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto centrado con foreground diagonal tape como elemento dinámico.",
                     "enfoque": "Sharp focus en rostro y outfit; background limpio con depth suave."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Pastel minimal background + amarillo brillante dominante.",
                     "contraste": "Moderado-clean para look fashion magazine.",
                     "nitidez": "Alta definición en piel, cinta, textura y contornos faciales.",
@@ -1039,7 +1039,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Moody, ethereal, contemplativo.",
                     "tono": "High-fashion editorial con aura misteriosa y elegante."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Photorealistic cinematic studio portrait con iluminación dual.",
                     "detalles": [
                         "Glow dorado intenso arriba",
@@ -1055,7 +1055,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "profundidad_de_campo": "Shallow DOF cinematográfico, fondo completamente suave.",
                     "encuadre": "Perfil dominante con espacio negativo oscuro alrededor."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Dual-tone gold + neon blue con contraste cinematográfico limpio.",
                     "nitidez": "Máxima definición en ojo, piel, contornos faciales.",
                     "contraste": "High-fashion dramatic, deep blacks controlados.",
@@ -1205,7 +1205,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Heavenly, dreamy, serene, otherworldly.",
                     "tono": "Fantasy editorial con calma emocional y poesía visual."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Magical realism fantasy portrait con estética editorial elegante.",
                     "detalles": [
                         "Textura fluffy ultra realista en nubes",
@@ -1221,7 +1221,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Tack-sharp en ojos y piel; nubes suaves con depth controlado.",
                     "profundidad_de_campo": "Shallow DOF cinematográfico dreamy."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Pastel heavenly tones con glow suave.",
                     "contraste": "Bajo-moderado para mantener delicadeza etérea.",
                     "nitidez": "Alta definición en rostro, cabello y tattoos preservados.",
@@ -1381,7 +1381,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Elegante, confiada, stylish, luxury diva.",
                     "tono": "Editorial magazine cover aesthetic con vibra Y2K glam."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "High-fashion beauty editorial portrait con acabado glossy.",
                     "styling_vibes": [
                         "Y2K glam",
@@ -1403,7 +1403,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Rostro y hombros dominantes, fur coat enmarcando composición.",
                     "enfoque": "Tack-sharp en ojos, labios glossy, piel dewy y accesorios."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Monochrome violet-lavender luxury palette con gloss refinado.",
                     "nitidez": "Alta definición en piel, maquillaje, uñas y textura del fur.",
                     "contraste": "Moderado-clean para look beauty magazine.",
@@ -1524,7 +1524,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Sleek, moderno, elegante, editorial.",
                     "tono": "High-fashion minimal studio portrait con estética atemporal."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía editorial moderna de alta moda.",
                     "detalles": [
                         "Texturas realistas en abrigo y denim",
@@ -1540,7 +1540,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto centrado o ligeramente desplazado para tensión visual moderna.",
                     "enfoque": "Tack-sharp focus en rostro, ropa y postura; fondo suave y limpio."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Neutro cálido y elegante, sin saturación agresiva.",
                     "contraste": "Suave-moderado para un look high-key editorial.",
                     "nitidez": "Alta definición en piel, tela, cabello y bordes del chair design.",
@@ -1680,7 +1680,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Playful, relajado, veraniego, alegre.",
                     "tono": "Cinematic summer fashion selfie con ternura por el perro."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Ultra photorealistic cinematic lifestyle fashion portrait.",
                     "detalles": [
                         "Textura realista en piel y cabello",
@@ -1697,7 +1697,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Slightly low front angle para vibe espontánea.",
                     "enfoque": "Sharp focus en rostro, vaso y perro; fondo tropical suavemente desenfocado."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Natural warm summer tones con look cinematográfico suave.",
                     "contraste": "Moderado, sin sobreprocesado.",
                     "nitidez": "Alta definición en rostro, cabello, bebida y textura del perro.",
@@ -1827,7 +1827,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Nostálgico, delicado, auténtico, dreamy.",
                     "tono": "Polaroid night-swim cinematic moment."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Polaroid-style authentic analog film portrait.",
                     "paleta": "Muted brown tones con color grading cálido tenue.",
                     "texturas": [
@@ -1845,7 +1845,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "plano": "Close-up a medium close portrait emergiendo del agua.",
                     "enfoque": "Tack-sharp en ojos y rostro, agua suavemente desenfocada."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "film_look": "Analog Polaroid grain, nostalgic softness.",
                     "color_grading": "Muted brown cinematic tones.",
                     "contraste": "Suave, evitando over-sharpening o HDR.",
@@ -1968,7 +1968,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Otherworldly, encantador, emocionalmente intenso.",
                     "tono": "High-fashion fantasy con profundidad poética y misterio."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Magical realism meets couture editorial photography.",
                     "detalles": [
                         "Mariposas rosas como encaje vivo",
@@ -1984,7 +1984,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto dominante centrado, mariposas ascendiendo hacia espacio negativo superior.",
                     "profundidad_de_campo": "Shallow DOF cinematográfico con aislamiento elegante."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Contraste fuerte negro + rosa suave luminoso.",
                     "nitidez": "Máxima definición en piel, alas y couture shimmer.",
                     "contraste": "High-fashion dramatic, deep shadows limpias.",
@@ -2133,7 +2133,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Dreamy, cozy, cute, ligeramente melancólico.",
                     "tono": "Pastel cyberpunk editorial con calidez emocional."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Creative dreamy editorial photography, pastel cyberpunk gamergirl aesthetic.",
                     "detalles": [
                         "Textura crochet ultra definida",
@@ -2150,7 +2150,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto dominante con luces neón como marco ambiental.",
                     "enfoque": "Sharp focus en rostro y expresión; fondo suave con bokeh neón pastel."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta pastel cyberpunk con glow cálido y dreamy softness.",
                     "contraste": "Suave, sin dureza, ambiente nostálgico.",
                     "nitidez": "Alta definición en rostro, tejido crochet y teclado glossy.",
@@ -2274,7 +2274,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Intenso, cinematográfico, striking y cautivador.",
                     "tono": "Poster editorial de alto impacto visual."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Large-format ultra-realistic cinematic editorial poster.",
                     "detalles": [
                         "Negro profundo + iluminación dramática",
@@ -2289,7 +2289,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Sharp focus en rostro y neón; fondo negro limpio.",
                     "jerarquia_visual": "Sujeto + letrero neón como anclas principales."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Contraste extremo con negro profundo y glow blanco intenso.",
                     "nitidez": "Alta nitidez en rostro, textura corporal y lettering neón.",
                     "efecto_final": "Poster cinematic hyper-real con profundidad editorial.",
@@ -2416,7 +2416,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Íntimo, cinematográfico, urbano, misterioso.",
                     "tono": "Momento fugaz de calma en medio de la energía de la ciudad."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía hiperrealista cinematográfica tipo editorial urbano.",
                     "detalles": [
                         "Motion blur dinámico del tren amarillo",
@@ -2431,7 +2431,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Nitidez extrema en ojos y rostro, fondo dinámico desenfocado por movimiento.",
                     "perspectiva": "Cinemática y profunda, con arquitectura del metro aportando contexto."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos cálidos atmosféricos con contraste fuerte entre negro y amarillo.",
                     "contraste": "Medio-alto para dramatismo editorial.",
                     "nitidez": "Máxima nitidez en rostro y abrigo; blur limpio en el tren.",
@@ -2555,7 +2555,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Editorial futurista, sofisticado, elegante.",
                     "tono": "Fashion-forward con vibra surreal moderna."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fashion editorial × futurismo con elementos 3D glossy.",
                     "detalles": [
                         "Texturas textiles nítidas",
@@ -2575,7 +2575,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto centrado con formas 3D y tipografía integradas detrás.",
                     "profundidad_de_campo": "Shallow DOF suave para look premium."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta rosa pastel + negros elegantes + highlights metálicos.",
                     "nitidez": "Alta definición en rostro, botas, pliegues de falda y objetos glossy.",
                     "contraste": "Medio cinematográfico con glow suave.",
@@ -2680,7 +2680,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Dominante, elegante, misterioso.",
                     "tono": "Editorial cinematográfico de alto impacto visual."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato editorial hiperrealista con estética bold y contrastada.",
                     "detalle": "High-detail fashion portrait, sombras limpias, fondo rojo saturado.",
                     "calidad": "Ultra-realistic 8K con acabado premium Vogue-style."
@@ -2691,7 +2691,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "plano": "Close-up o plano medio corto centrado en rostro y estructura.",
                     "encuadre": "Composición limpia, sujeto dominante sobre fondo rojo."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Rojos intensos con contraste cinematográfico fuerte.",
                     "nitidez": "Extrema nitidez en rostro, piel y contornos faciales.",
                     "contraste": "Alto, con deep shadows controladas.",
@@ -2793,7 +2793,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Audaz, confiado, contraste frío/calor.",
                     "vibe": "High fashion editorial winter."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estetica": "Retrato smartphone high-end.",
                     "texturas": "Piel suave vs Nieve vs Piel sintética del gorro.",
                     "calidad": "Photorealistic 8K."
@@ -2917,7 +2917,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Optimista, fresco, sereno, natural.",
                     "tono": "Lifestyle cinematográfico con energía floral suave."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato hiperrealista cinematográfico exterior.",
                     "texturas": [
                         "Denim detallado",
@@ -2933,7 +2933,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto centrado, flores actuando como marco natural.",
                     "enfoque": "Sharp focus en rostro y jacket, fondo suavemente desenfocado."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Vibrante natural con contraste cinematográfico suave.",
                     "nitidez": "Alta definición en piel, denim y pétalos.",
                     "acabado_final": "Ultra-realistic 8K outdoor floral portrait con luz soleada y atmósfera fresca."
@@ -3053,7 +3053,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Moody, misterioso, melancólico.",
                     "tono": "Cinemático, simbólico, íntimo y emocional."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato editorial cinematográfico minimalista con dramatismo de luz.",
                     "texturas": [
                         "Denim altamente detallado",
@@ -3069,7 +3069,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto centrado con círculo de luz como elemento compositivo detrás.",
                     "enfoque": "Sharp focus en rostro, manos y flor; fondo limpio con sombra definida."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Contraste cinematográfico con dorados cálidos y tonos fríos en denim.",
                     "nitidez": "Alta definición en piel, tela y pétalos.",
                     "contraste": "Alto para enfatizar sombras y dramatismo.",
@@ -3185,7 +3185,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Raw, moderno, íntimo, atemporal.",
                     "tono": "Understated elegance, effortless timeless portrait."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato editorial minimalista en blanco y negro.",
                     "acabado": "Unembellished, auténtico, con textura real de piel.",
                     "paleta": "Monocromática con contraste suave.",
@@ -3196,7 +3196,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Eye-level neutral, moderno y directo.",
                     "enfoque": "Nitidez en rostro y expresión, fondo limpio suavemente desenfocado."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "conversion": "Blanco y negro con separación tonal fina.",
                     "contraste": "Suave pero definido, deep blacks controlados.",
                     "textura": "Grano cinematográfico sutil opcional para mood analógico.",
@@ -3319,7 +3319,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Cool, editorial, misterioso, sofisticado.",
                     "tono": "Vogue-style luxury minimalism con tensión visual."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía editorial hiperrealista de alta moda.",
                     "acabado": "Gradientes cinematográficos, sombras profundas, aura moderna.",
                     "paleta": "Naranja intenso + tonos oscuros mate para contraste elegante.",
@@ -3332,7 +3332,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Eye-level con composición limpia centrada.",
                     "enfoque": "Sharp focus en rostro visible, perfil iluminado y textura del jacket."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Naranja cinematográfico intenso con contraste editorial frío.",
                     "contraste": "Alto, con deep shadows limpias.",
                     "nitidez": "UHD clarity extrema en piel, tela mate y rim light.",
@@ -3448,7 +3448,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Elegante, edgy, misterioso.",
                     "tono": "Fashion editorial urbano con sensación nocturna futurista."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato editorial de alta moda en escenario urbano minimalista.",
                     "acabado": "Cinemático, moderno, sleek.",
                     "detalle": "Texturas metálicas + outfit negro + estética de lujo oscuro.",
@@ -3460,7 +3460,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto centrado, reflejos metálicos aportan profundidad.",
                     "enfoque": "Sharp focus en rostro, gafas y vaso de café."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos fríos con contraste elegante tipo editorial.",
                     "contraste": "Medio-alto para resaltar metal y outfit negro.",
                     "nitidez": "Alta definición en piel, tela y reflejos.",
@@ -3575,7 +3575,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Libertad, ligereza, espiritualidad visual.",
                     "tono": "Dreamy cinematic surrealism con calma absoluta."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía hiperrealista cinematográfica surreal.",
                     "texturas": [
                         "Agua espejo ultra limpia",
@@ -3590,7 +3590,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto centrado con simetría entre cielo y espejo de agua.",
                     "profundidad": "Espacio infinito horizontal con horizonte mínimo o inexistente."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos blancos y azules suaves, look limpio celestial.",
                     "contraste": "Suave pero con alta claridad en reflejos.",
                     "nitidez": "Máxima nitidez en rostro, ropa blanca, ondas y nubes.",
@@ -3753,7 +3753,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Épica, introspección, grandeza y melancolía.",
                     "tono": "Heroico, poético, narrativo."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Doble exposición artística estilo Midjourney.",
                     "tecnica": "Fusión, superposición y blending de capas.",
                     "color": {
@@ -3767,7 +3767,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Vista frontal o ligeramente lateral de la silueta.",
                     "encuadre": "Figura central dominante con amplio espacio negativo alrededor."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "detalle": {
                         "nivel_general": 1.45,
                         "fondo": 1.4
@@ -3840,7 +3840,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Confort, ternura, cercanía.",
                     "tono": "Cute, relajante, amigable."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Producto chibi estilo cartoon.",
                     "materiales": {
                         "exterior": "Silicona suave de grado alimenticio con acabado mate y amigable con la piel.",
@@ -3854,7 +3854,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Vista frontal o ángulo superior a 45 grados.",
                     "encuadre": "Objeto centrado con espacio negativo alrededor."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Colores limpios y naturales.",
                     "contraste": "Bajo a medio.",
                     "acabado": "Fotografía de producto en alta definición, clara y atractiva para e-commerce.",
@@ -3924,7 +3924,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Claridad, precisión, enfoque.",
                     "tono": "Educativo, científico, futurista."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Visualización anatómica avanzada.",
                     "inspiracion": "Técnicas de imagen médica y escaneo tecnológico.",
                     "colores": {
@@ -3938,7 +3938,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Vista frontal o ligeramente en perspectiva.",
                     "encuadre": "Composición centrada con el sujeto ocupando el foco visual."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "contraste": "Alto.",
                     "nitidez": "Alta definición en líneas y contornos.",
                     "acabado": "Estética pulida tipo imaging científico avanzado.",
@@ -4035,7 +4035,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Energía, modernidad, vitalidad urbana.",
                     "tono": "Alegre, dinámico, optimista."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Diorama urbano estilo LEGO altamente detallado.",
                     "arquitectura": {
                         "bund": "Edificios históricos con torres de reloj, cúpulas y columnatas.",
@@ -4049,7 +4049,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo ligeramente elevado.",
                     "encuadre": "Composición panorámica equilibrada entre Bund, río y skyline."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Colores saturados y brillantes, fieles al estilo LEGO.",
                     "contraste": "Medio.",
                     "acabado": "Look limpio, nítido y altamente detallado, estilo maqueta coleccionable."
@@ -4142,7 +4142,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Ensueño, calma, ternura, maravilla.",
                     "tono": "Poético, mágico, reconfortante."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Escena híbrida de realismo mágico.",
                     "estilo_interno": "Mundo 3D en estilo chibi adorable y detallado.",
                     "influencia_cultural": "Elementos de fantasía de Asia Oriental.",
@@ -4156,7 +4156,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo frontal ligeramente elevado.",
                     "encuadre": "Composición centrada con la bola de cristal como foco absoluto, fondo desenfocado."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta cálida dorada con acentos suaves y etéreos.",
                     "contraste": "Suave a medio.",
                     "acabado": "Look de realismo mágico cinematográfico, lujoso pero elegante.",
@@ -4551,7 +4551,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Divertido, retro, arcade.",
                     "estetica": "Nostalgia de videojuegos clásicos."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Pixel Art genuino.",
                     "paleta_colores": "Colores saturados y limitados (paleta retro)."
                 },
@@ -4559,7 +4559,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Centrado perfecto con espacio negativo alrededor.",
                     "ratio": "Cuadrado (1:1)."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "nitidez": "Bordes duros (no anti-aliasing)."
                 }
             }
@@ -4672,7 +4672,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Completamente cotidiano, sin dramatismo.",
                     "tono": "Foto casual, imperfecta, realista, accidental."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Selfie iPhone extremadamente ordinaria.",
                     "imperfecciones": [
                         "Motion blur ligero",
@@ -4687,7 +4687,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Torcido, espontáneo, como al sacar el móvil del bolsillo.",
                     "profundidad_de_campo": "Smartphone natural, fondo borroso por movimiento."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Ninguno o mínimo: colores crudos de teléfono.",
                     "contraste": "Bajo, típico de captura casual.",
                     "efectos": "Nada estilizado, acabado auténtico y accidental.",
@@ -4809,7 +4809,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Oficial, viaje internacional, descubrimiento.",
                     "estetica": "Documental realista."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía macro o escaneo de alta resolución.",
                     "nivel_de_detalle": "Micro-detalles en la tinta y fibras del papel."
                 },
@@ -4817,7 +4817,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Close-up centrado en el sello.",
                     "enfoque": "Nítido en todo el sello."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "efectos": "Simulación de imperfecciones de tinta y textura de papel para máximo realismo."
                 }
             }
@@ -4897,7 +4897,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Aventura épica, peligro arqueológico, energía explosiva.",
                     "tono": "Heroico, intenso, cinematic action card"
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Trading card illustration ultra-realista con efecto dimensional ruptured frame.",
                     "texturas": {
                         "marco": "Borde tallado en piedra antigua agrietada",
@@ -4916,7 +4916,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     },
                     "encuadre": "Carta parcialmente destruida pero texto aún legible"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "efectos": [
                         "Cracks energéticos",
                         "Distorsión espacial",
@@ -4996,7 +4996,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Elegancia, delicadeza, fantasía suave.",
                     "tono": "Fashion magazine cover con estética refinada."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía editorial hiperrealista de alta moda.",
                     "calidad": "Alta definición, detalle en tela, accesorios y mariposas.",
                     "componente_texto": "Diseño tipo portada contemporánea."
@@ -5006,7 +5006,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Sujeto dominante en el frame con espacio superior para tipografía.",
                     "texto_superior": "FASHION DESIGN"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta suave y elegante con contraste moderado.",
                     "nitidez": "Alta nitidez en rostro, flores, encaje y mariposas.",
                     "acabado_final": "Portada limpia, premium, lista para revista."
@@ -5127,7 +5127,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Competencia, creatividad, confianza.",
                     "tono": "Divertido, inspirador, profesional."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Tarjeta RPG coleccionable en estilo 3D cartoon.",
                     "interfaz": {
                         "elementos_UI": "Barras de habilidades y estadísticas visibles.",
@@ -5144,7 +5144,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo frontal.",
                     "encuadre": "Composición vertical tipo carta coleccionable."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Colores vivos pero balanceados.",
                     "contraste": "Medio.",
                     "acabado": "Aspecto pulido, limpio y listo para colección digital.",
@@ -5310,7 +5310,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Ternura, celebración, alegría familiar.",
                     "tono": "Encantador, cálido, festivo."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Personajes en estilo chibi 3D contrastando con entorno fotorealista.",
                     "texturas": {
                         "personajes": "Superficies suaves tipo juguete/figura 3D.",
@@ -5323,7 +5323,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo frontal.",
                     "encuadre": "Composición centrada dentro de un marco de foto visible."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Colores vivos y alegres.",
                     "contraste": "Medio.",
                     "acabado": "Aspecto limpio, pulido y decorativo.",
@@ -5417,7 +5417,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Asombro, surrealismo, contemplación.",
                     "tono": "Onírico, majestuoso, silencioso."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía surrealista.",
                     "referencia_fotografica": "Est estética de fotografía tomada con lente de 35 mm.",
                     "texturas": "Arquitectura detallada, superficies naturales de las islas visibles.",
@@ -5429,7 +5429,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "lente": "35 mm",
                     "encuadre": "Composición abierta que permite apreciar múltiples islas flotantes."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Colores naturales con ligero énfasis cinematográfico.",
                     "contraste": "Medio.",
                     "acabado": "Look fotográfico limpio, surrealista y cinematográfico."
@@ -5500,7 +5500,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Creatividad, estilo, autoexpresión",
                     "tono": "Moderno, fashion-forward, cool"
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Q-style 3D chibi con acabado C4D",
                     "outfit": {
                         "descripcion": "Outfit of the day inspirado en la profesión de diseñador de moda",
@@ -5525,7 +5525,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     },
                     "encuadre": "Composición balanceada tipo tarjeta editorial"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Colores limpios y coordinados",
                     "contraste": "Medio",
                     "acabado": "Look editorial fashion listo para social media o branding",
@@ -5674,7 +5674,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Elegancia, exclusividad, nostalgia.",
                     "tono": "Premium, icónico, coleccionable."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Producto coleccionable 3D con estética Funko Pop.",
                     "detalle_figura": {
                         "ropa": "Traje formal estilo James Bond",
@@ -5694,7 +5694,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Vista isométrica.",
                     "encuadre": "Caja y figura centradas como protagonistas del encuadre."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Colores equilibrados y realistas.",
                     "contraste": "Medio.",
                     "acabado": "Render de producto de alta calidad, listo para catálogo o e-commerce.",
@@ -5796,7 +5796,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Cálido, vibrante, divertido, auténtico",
                     "tono": "Everyday life + playful visual contrast"
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía casual de móvil con estética true-to-life",
                     "detalle": {
                         "figura": "Look anime coleccionable con pose exagerada",
@@ -5810,7 +5810,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Smartphone casual ligeramente imperfecto",
                     "encuadre": "Balanceado para que ambos sujetos sean visibles"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Natural y cálido, sin filtros agresivos",
                     "nitidez": "Detalle suficiente en figura y persona, estilo snapshot real",
                     "acabado_final": "Escena auténtica y encantadora con contraste juguetón"
@@ -5879,7 +5879,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Encantador, nostálgico, mágico.",
                     "estetica": "Toy-like realism, artesanía digital de alta calidad."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía ultra-realista de objeto físico (tilt-shift feel sin desenfoque excesivo).",
                     "colores": "Vibrantes y geográficamente apropiados (tonos tierra, verdes vivos, arquitectura colorida)."
                 },
@@ -5887,7 +5887,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Centrado en el contenido de la caja.",
                     "enfoque": "Nitidez total en el diorama, ligero desenfoque en las manos/fondo."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "acabado": "Aspecto físico tangible, no render digital liso."
                 }
             }
@@ -5963,7 +5963,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Futurista, limpio, premium.",
                     "tono": "Minimalismo elegante con sensación de lujo moderno."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Poster minimalista futurista con objeto 3D de vidrio líquido.",
                     "tipografia": {
                         "titulo_principal": {
@@ -5985,7 +5985,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Composición centrada, balanceada, con whitespace generoso.",
                     "enfoque": "Sharp focus general con sensación HDR."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "dynamic_range": "HDR alto, rango dinámico elevado.",
                     "nitidez": "Extrema nitidez en tipografía no cubierta y bordes del objeto.",
                     "blur": "Gaussian blur suave aplicado solo en letras detrás del vidrio.",
@@ -6068,7 +6068,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Curado, artístico, elegante, minimalista",
                     "tono": "High-end collectible artwork con esencia museográfica"
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Diorama LEGO dentro de vitrina moderna",
                     "materiales": {
                         "cubo": "Vidrio transparente limpio",
@@ -6086,7 +6086,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Cubo centrado con balance perfecto y espacio negativo limpio",
                     "layout": "Avatar + animal claramente visibles, placa legible en la base"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta elegante coordinada con el animal y el avatar",
                     "contraste": "Suave, premium",
                     "acabado_final": "Imagen lista como pieza de arte coleccionable curada",
@@ -6160,7 +6160,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Confianza, poder tranquilo, sofisticación.",
                     "tono": "Narrativa elegante y profesional con fuerza interior."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato editorial cinematográfico de alta gama.",
                     "acabado": "Elegante, limpio, moderno.",
                     "detalle": "Énfasis en texturas del traje y presencia del sujeto."
@@ -6170,7 +6170,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Eye-level neutral para autoridad y cercanía.",
                     "encuadre": "Composición centrada y balanceada."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos cálidos balanceados con contraste suave.",
                     "nitidez": "Alta nitidez en rostro y traje.",
                     "acabado_final": "Retrato contemporáneo que transmite elegancia y poder."
@@ -6236,7 +6236,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Delicado, emocional, etéreo.",
                     "tono": "Alta moda poética con tensión visual suave."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato editorial cinematográfico de alta costura.",
                     "detalle": "Couture floral, pétalos flotantes, atmósfera oscura elegante.",
                     "calidad": "Ultra-realismo 8K con acabados premium tipo revista."
@@ -6246,7 +6246,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Eye-level ligeramente estilizado.",
                     "encuadre": "Sujeto centrado con espacio para elementos flotantes."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos cinematográficos con contraste suave en piel.",
                     "nitidez": "Alta definición en rostro, flores, pétalos y tela.",
                     "acabado_final": "Ultra-realistic 8K fashion portrait con mood chiaroscuro refinado."
@@ -6343,7 +6343,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Misterio, rebelión, determinación.",
                     "tono": "Neo-noir, cyberpunk, subversivo."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato cinematográfico cyberpunk.",
                     "texturas": "Superficies mojadas, piel húmeda, neón difuso.",
                     "nivel_realismo": "Fotorrealista con estética futurista."
@@ -6353,7 +6353,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo neutro o ligeramente bajo.",
                     "encuadre": "Composición centrada con profundidad urbana al fondo."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta fría con acentos neón saturados (azules, magentas, verdes).",
                     "contraste": "Alto.",
                     "acabado": "Look cinematográfico oscuro con atmósfera rebelde y digital."
@@ -6417,7 +6417,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Soledad, anhelo, anticipación pesada.",
                     "tono": "Melancólico, introspectivo, cinematográfico."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato cinematográfico urbano narrativo.",
                     "texturas": "Superficies frías del metro, tela del abrigo con detalle visible.",
                     "nivel_realismo": "Fotorrealista con carga emocional."
@@ -6427,7 +6427,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo neutro o ligeramente bajo.",
                     "encuadre": "Composición que deja espacio negativo para enfatizar soledad."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta fría y desaturada con acentos amarillos o verdosos del metro.",
                     "contraste": "Medio-alto.",
                     "acabado": "Look cinematográfico urbano con énfasis narrativo."
@@ -6489,7 +6489,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Soledad, reflexión, melancolía suave.",
                     "tono": "Poético, íntimo, emocional."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato cinematográfico lifestyle.",
                     "texturas": "Piel natural, transiciones suaves de luz y sombra.",
                     "nivel_realismo": "Fotorrealista con sensibilidad artística."
@@ -6499,7 +6499,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo neutro.",
                     "encuadre": "Composición íntima centrada en el rostro."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos cálidos dorados con sombras suaves.",
                     "contraste": "Suave.",
                     "acabado": "Look cinematográfico delicado y emocional."
@@ -6562,7 +6562,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Confianza, autoridad, misterio.",
                     "tono": "Elegante, poderoso, cinematográfico."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato cinematográfico de poder con estética editorial.",
                     "texturas": "Tela del traje bien definida; humo etéreo.",
                     "nivel_realismo": "Fotorrealista."
@@ -6572,7 +6572,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ligeramente bajo para reforzar autoridad.",
                     "encuadre": "Formato horizontal 16:9, sujeto dominante centrado con espacio negativo lateral."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta oscura con acentos teal suaves.",
                     "contraste": "Medio.",
                     "acabado": "Look limpio y sofisticado con atmósfera envolvente.",
@@ -6637,7 +6637,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Tensión, misterio, autoridad.",
                     "tono": "Cinematográfico, cyberpunk, serio y poderoso."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato cinematográfico hyper-realista con estética cyberpunk.",
                     "vestuario": "Gabardina oscura sobre un traje estructurado y elegante.",
                     "texturas": "Materiales realistas en ropa, piel y mobiliario.",
@@ -6648,7 +6648,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo frontal ligeramente bajo para enfatizar autoridad.",
                     "encuadre": "Formato vertical 3:4, sujeto dominante en el centro del encuadre."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta oscura con acentos verdes intensos.",
                     "contraste": "Alto, con negros profundos.",
                     "acabado": "Look cinematográfico de alto impacto.",
@@ -6716,7 +6716,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Dualidad, reflexión, tensión entre progreso y naturaleza.",
                     "tono": "Poético, simbólico, contemplativo."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Arte conceptual con narrativa visual fuerte.",
                     "tecnicas": "Juxtaposición visual, división simbólica del retrato.",
                     "texturas": "Contraste entre superficies geométricas duras y elementos orgánicos vivos.",
@@ -6727,7 +6727,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo frontal.",
                     "encuadre": "Composición simétrica que enfatiza la división entre ambos mundos."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta contrastante entre tonos fríos urbanos y colores saturados naturales.",
                     "contraste": "Alto entre ambas mitades.",
                     "acabado": "Estilo artístico editorial con fuerte carga simbólica."
@@ -6790,7 +6790,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Creatividad, pasión, introspección.",
                     "tono": "Íntimo, artístico, inspirador."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato cinematográfico lifestyle en entorno musical.",
                     "texturas": "Materiales reales de instrumentos, superficies mates y metálicas.",
                     "nivel_realismo": "Fotorrealista."
@@ -6800,7 +6800,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo neutro o ligeramente lateral.",
                     "encuadre": "Composición que integra a la artista y los instrumentos sin saturar la escena."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos oscuros y cálidos con acentos suaves.",
                     "contraste": "Medio-alto, enfatizando luces y sombras.",
                     "acabado": "Look cinematográfico íntimo con sensación analógica."
@@ -6863,7 +6863,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Paz, quietud, elegancia fría.",
                     "tono": "Poético, invernal, contemplativo."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato cinematográfico de invierno.",
                     "texturas": "Detalle visible en la piel, el abrigo de piel y los copos de nieve.",
                     "nivel_realismo": "Fotorrealista con toque artístico."
@@ -6873,7 +6873,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ángulo neutro.",
                     "encuadre": "Composición centrada con nieve envolviendo al sujeto."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta fría con blancos suaves y grises azulados.",
                     "contraste": "Suave.",
                     "acabado": "Look limpio y etéreo que refuerza la tranquilidad invernal."
@@ -6934,7 +6934,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Productividad, modernidad.",
                     "tono": "Marketing clean."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Editorial minimalista.",
                     "color": "Paleta neutra elegante."
                 },
@@ -6943,7 +6943,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Neutral.",
                     "encuadre": "Modelo centrada."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos suaves.",
                     "claridad": "Alta."
                 }
@@ -7002,7 +7002,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Fuerza, elegancia, sofisticación.",
                     "tono": "Editorial clásico."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Monocromo elegante.",
                     "color": "Blancos puros, negros profundos.",
                     "textura": "Alta definición fashion."
@@ -7012,7 +7012,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Altura de ojos.",
                     "encuadre": "Ambos sujetos centrados y simétricos."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "B&W de alto contraste.",
                     "claridad": "Alta y precisa."
                 }
@@ -7071,7 +7071,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Conexión emocional.",
                     "tono": "Retrato cálido editorial."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Lifestyle cálido y moderno.",
                     "color": "Paleta cálida: beige, negro, marrón suave."
                 },
@@ -7079,7 +7079,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "plano": "Medio.",
                     "angulo": "Altura de ojos."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Cálido elegante.",
                     "claridad": "Alta y suave."
                 }
@@ -7137,7 +7137,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Alegría festiva.",
                     "tono": "Comercial navideño."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía publicitaria navideña.",
                     "color": "Rojos, verdes, dorados.",
                     "textura": "Brillo suave y cálido."
@@ -7146,7 +7146,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "plano": "Medium shot.",
                     "angulo": "Ligero picado desde arriba."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Calidez navideña.",
                     "claridad": "Alta.",
                     "efectos": "Bokeh expandido."
@@ -7205,7 +7205,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Nostalgia y calidez emocional.",
                     "tono": "Íntimo navideño."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato navideño tipo editorial.",
                     "color": "Rojos profundos y dorados oscuros."
                 },
@@ -7213,7 +7213,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "plano": "Medium close-up.",
                     "angulo": "Neutral."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Cálido profundo.",
                     "claridad": "Moderada para efecto suave."
                 }
@@ -7272,7 +7272,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Naturalidad y espontaneidad.",
                     "tono": "Realista no profesional."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Foto de móvil real.",
                     "color": "Neutros, sin estilización.",
                     "textura": "Suavidad típica de cámara de baja calidad."
@@ -7282,7 +7282,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Vertical espejo.",
                     "encuadre": "Centrado y casual."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "edicion": "Mínima.",
                     "contraste": "Natural.",
                     "nitidez": "Moderada/baja."
@@ -7342,7 +7342,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Risa, energía rebelde.",
                     "tono": "Oscuro juvenil."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Cine oscuro 50mm f/1.4 realista.",
                     "color": "Neón rosa, amarillo cálido.",
                     "textura": "Alta nitidez nocturna."
@@ -7352,7 +7352,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Altura de ojos.",
                     "enfoque": "Rostros y llama."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Oscuro-neón vibrante.",
                     "claridad": "Alta.",
                     "efectos": "Glow del fuego."
@@ -7411,7 +7411,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Juego, humor, vibra Gen Z.",
                     "tono": "Casual con toque slasher cómico."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Realismo estilo iPhone nocturno.",
                     "color": "Rosa, azul, púrpura."
                 },
@@ -7420,7 +7420,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ligeramente alto.",
                     "encuadre": "Casual y espontáneo."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Neón saturado.",
                     "claridad": "Media acorde a móvil.",
                     "ruido": "Ligero."
@@ -7479,7 +7479,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Tensión mezclada con humor irreverente.",
                     "tono": "Gritty horror 90s."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Calidad baja y ruda.",
                     "color": "Desaturado y sucio.",
                     "textura": "Ruido marcado."
@@ -7489,7 +7489,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Frontal.",
                     "encuadre": "Ajustado al centro."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos verdes fríos.",
                     "claridad": "Baja.",
                     "ruido": "Alto."
@@ -7548,7 +7548,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Casualidad nocturna.",
                     "tono": "Halloween urbano realista."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Estética iPhone nocturna.",
                     "color": "Colores fríos con acentos cálidos."
                 },
@@ -7557,7 +7557,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Ligeramente alto.",
                     "encuadre": "Desenfadado."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Urban night.",
                     "claridad": "Media-baja.",
                     "ruido": "Moderado."
@@ -7617,7 +7617,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Confianza y estilo.",
                     "tono": "Moda futurista minimalista."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "High-fashion editorial.",
                     "color": "Paleta vibrante naranja/azul/rojo.",
                     "textura": "Ropa con textura clara."
@@ -7626,7 +7626,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "plano": "Retrato medio.",
                     "angulo": "Altura de ojos."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Saturación moderada y contrastes fuertes.",
                     "claridad": "Alta."
                 }
@@ -7685,7 +7685,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Elegancia festiva.",
                     "tono": "Editorial navideño serio."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Alta moda navideña.",
                     "color": "Rojos profundos y verdes suaves."
                 },
@@ -7693,7 +7693,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "plano": "Medium shot.",
                     "angulo": "Frontal leve."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Navideño cálido.",
                     "claridad": "Alta."
                 }
@@ -7756,7 +7756,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "emocion": "Confianza, calidez profesional, cercanía.",
                     "tono": "Reliable, approachable, contemporary corporate portrait."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato profesional high-end estilo LinkedIn / corporate studio.",
                     "vestimenta": {
                         "outfit": "Cardigan business casual en charcoal sobre blusa blanca."
@@ -7769,7 +7769,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "profundidad_de_campo": "Muy poca profundidad, foco exquisito en los ojos.",
                     "bokeh": "Fondo suavemente desenfocado, bokeh elegante."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "nitidez": "Detalle nítido en tela, ojos, cabello y piel.",
                     "color_grading": "Cinemático limpio con calidez sutil y tonos balanceados.",
                     "acabado_final": "Imagen contemporánea, profesional y lista para perfil corporativo."
@@ -7847,7 +7847,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Íntimo, introspectivo, minimalista.",
                     "tono": "Editorial character-led con delicadeza emocional y quietud."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía editorial minimalista de alto nivel.",
                     "acabado": "Muted grade profesional con contraste suave.",
                     "blanco_y_negro": "Un panel incluido como acento artístico.",
@@ -7863,7 +7863,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "profundidad_de_campo": "DOF extremadamente delgada en close-ups clave.",
                     "captura": "RAW profesional, enfoque preciso en ojos y detalles faciales."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos apagados, beige studio clean, estética contemporánea.",
                     "contraste": "Suave y controlado.",
                     "grain": "Cinematic subtle grain añadido.",
@@ -7930,7 +7930,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Raw, espontáneo, misterioso, distante.",
                     "tono": "Energía paparazzi early 2000s, nocturna, urbana."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía paparazzi de principios de los 2000s.",
                     "calidad": "Lo-fi realista, ligeramente grainy, imperfecta.",
                     "detalle_temporal": "Incluye timestamp digital rojo clásico en la imagen."
@@ -7940,7 +7940,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Captura frontal ligeramente inclinada como snapshot.",
                     "profundidad_de_campo": "Fondo desenfocado por movimiento y baja luz nocturna."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos nocturnos urbanos con flash frío/blanco.",
                     "contraste": "Alto por el flash.",
                     "textura": "Grano sutil tipo cámara digital antigua.",
@@ -8005,7 +8005,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Divertido, nostálgico, emocionante.",
                     "tono": "Cinemático, fan-service épico, lleno de energía geek."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Shot hiperrealista cinematográfico.",
                     "detalle": "Alta definición en rostro y personajes secundarios.",
                     "composicion": "Escena rica en elementos visuales sin perder el foco en el sujeto principal.",
@@ -8016,7 +8016,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "angulo": "Eye-level estilo escena de película.",
                     "profundidad_de_campo": "Fondo parcialmente desenfocado pero personajes reconocibles."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Cinemático oscuro con tonos cálidos y contrastes suaves.",
                     "efectos": "Ligero glow de pantalla, atmósfera envolvente.",
                     "acabado_final": "Escena épica y emocional lista como still de película."
@@ -8085,7 +8085,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Divertido, spooky, energético.",
                     "tono": "Sensacionalista, entretenido, Halloween pop."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Miniatura YouTube ultra-realista estilo MrBeast.",
                     "calidad": "8K, hiperdefinición, colores saturados.",
                     "estetica": "Marketing viral, alto impacto visual.",
@@ -8096,7 +8096,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Close-up del rostro ocupando gran parte del frame.",
                     "composicion": "Sujeto centrado con fondo temático dinámico."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Saturación alta y contraste fuerte estilo thumbnail viral.",
                     "nitidez": "Extrema nitidez en ojos y expresión.",
                     "efectos": "Glow ligero, elementos Halloween resaltados.",
@@ -8183,7 +8183,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Romántico, cálido, nostálgico, adorable",
                     "tono": "Mini keepsake de lujo, sueño poético y afectuoso"
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Collectible chibi 3D premium con estética romántica pastel",
                     "materiales": {
                         "figuras": "Acabado suave tipo figura coleccionable",
@@ -8196,7 +8196,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "plano": "Plano medio de producto con caja abierta y escena interior visible",
                     "encuadre": "Caja como foco central, personajes claramente destacados"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos cálidos pastel con acabado premium",
                     "contraste": "Bajo-medio para suavidad romántica",
                     "acabado_final": "Miniatura de lujo soñadora lista para merchandising o regalo digital",
@@ -8285,7 +8285,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Cozy, íntimo, relajado, ligeramente seductor pero natural.",
                     "tono": "Lifestyle nostálgico con vibra Y2K digital snapshot."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Selfie hiperrealista tipo cámara digital 2000s.",
                     "textura": "On-camera flash, sombras duras, piel real, knit sweater detallado.",
                     "acabado": "Influencer realism con sensación auténtica, no editorial pulido.",
@@ -8297,7 +8297,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "aspect_ratio": "Vertical 4:5",
                     "enfoque": "Nitidez en rostro, ojos y textura del sweater, fondo más suave."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Mezcla de flash frío con glow cálido de chimenea.",
                     "contraste": "Medio-alto por estética snapshot digital.",
                     "detalles": "Preservar textura real de piel, flash reflection y sombras auténticas.",
@@ -8460,7 +8460,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Playful, cute, bright, youthful.",
                     "tono": "Mirror selfie lifestyle con cosplay-inspired fashion charm."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Ultra-photorealistic cinematic mirror selfie aesthetic.",
                     "detalles": [
                         "High-detail fabrics: brocade + gingham + lace trim",
@@ -8478,7 +8478,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Sharp focus on face, outfit textures, and phone; background softly clear but not distracting.",
                     "aspect_ratio": "Vertical social media framing (9:16 implied)."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Soft warm-pink fashion palette with clean daylight tones.",
                     "contraste": "Moderate-natural, avoiding overprocessing.",
                     "nitidez": "Alta definición en rostro, textiles, lace trim y props.",
@@ -8637,7 +8637,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Confident, sporty, candid lifestyle.",
                     "tono": "Fitness editorial mirror selfie con autenticidad moderna."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Ultra-photorealistic cinematic gym lifestyle portrait.",
                     "detalles": [
                         "Textura ribbed sportswear definida",
@@ -8655,7 +8655,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Sharp focus en rostro y outfit; background ligeramente softer pero legible.",
                     "aspect_ratio": "Vertical social framing (9:16 implied)."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Neutral cool gym tones con acabado realista moderno.",
                     "contraste": "Moderado-natural para autenticidad fitness.",
                     "nitidez": "Alta definición en piel, cabello, leggings texture y accesorios.",
@@ -8789,7 +8789,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Gen-Z futuristic, dreamy, ethereal, retro-tech.",
                     "tono": "Fashion collage con nostalgia VHS moderna."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Photorealistic editorial collage con textura VHS retro.",
                     "detalles": [
                         "Retro VHS grain and texture overlay",
@@ -8812,7 +8812,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Sharp focus en identidad facial en cada frame; blur solo como efecto estilístico leve.",
                     "profundidad_de_campo": "Shallow DOF suave para look premium."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Neutral studio tones con vibe retro-dream futurista.",
                     "textura": "Subtle VHS grain + camcorder UI overlays.",
                     "contraste": "Soft-moderate para mantener delicadeza etérea.",
@@ -8940,7 +8940,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Introspective, calm, timeless, editorial.",
                     "tono": "High-end fashion portrait con emoción silenciosa."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Ultra-realistic black-and-white studio fashion editorial.",
                     "detalles": [
                         "Monochrome tonal separation rica",
@@ -8957,7 +8957,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Sharp focus en rostro y manos; hoodie folds claramente definidos.",
                     "profundidad_de_campo": "Shallow DOF suave para acabado premium."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Black-and-white conversion con contrastes finos y suaves midtones.",
                     "nitidez": "Alta definición en piel, textura de tela y expresión facial.",
                     "contraste": "Moderado-high editorial sin perder suavidad.",
@@ -9079,7 +9079,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Fresh, confident, summery, fashion editorial.",
                     "tono": "Lifestyle resort aesthetic con elegancia moderna."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Photorealistic swimwear editorial portrait.",
                     "detalles": [
                         "Textura realista de piel",
@@ -9095,7 +9095,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "enfoque": "Sharp focus en rostro y tattoo detail; fondo suavemente desenfocado.",
                     "profundidad_de_campo": "Shallow DOF cinematográfico."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Warm summer tones con contraste suave.",
                     "nitidez": "Alta definición en piel, bikini fabric y tattoo detail.",
                     "acabado_final": "Ultra-realistic 8K poolside fashion editorial portrait con atmósfera limpia y comercial."
@@ -9241,7 +9241,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Nostalgic, warm, private, intimate editorial lifestyle.",
                     "tono": "Soft emotional closeness with cinematic calm."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Hyper-realistic lifestyle portrait with 35mm film aesthetic.",
                     "detalles": [
                         "Soft focus cinematic intimacy",
@@ -9259,7 +9259,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "profundidad_de_campo": "Soft shallow DOF with nostalgic softness.",
                     "enfoque": "Sharpest focus on eyes and facial features, softer on background."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Warm golden-brown movie-grade tones.",
                     "contraste": "Soft low contrast for nostalgic intimacy.",
                     "nitidez": "Ultra detail in facial texture, lace socks, Kodak camera surface.",
@@ -9520,7 +9520,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Acogedor, íntimo, relajado y ligeramente nostálgico.",
                     "tono": "Lifestyle de influencer con estética Y2K y vibra de noche invernal."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía lifestyle ultra realista con estética de cámara digital de principios de los 2000.",
                     "acabado": "Natural, espontáneo y ligeramente imperfecto.",
                     "paleta": "Neutros cálidos, crema, naranja del fuego y sombras marrón oscuro."
@@ -9531,7 +9531,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Composición casual, ligeramente imperfecta, con la modelo como punto focal.",
                     "formato": "Vertical 4:5."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos cálidos y ligeramente desaturados con contraste propio de cámaras digitales antiguas.",
                     "nitidez": "Detalle natural de piel, cabello y tejido de punto, sin apariencia artificial.",
                     "acabado_final": "Realismo fotográfico, flash visible, estética Y2K auténtica y sensación de fotografía personal espontánea."
@@ -9606,7 +9606,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Moderno, limpio, juvenil y seguro.",
                     "tono": "Lifestyle de influencer con estética casual y espontánea."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía mirror selfie ultra realista.",
                     "acabado": "Natural, nítido y ligeramente imperfecto como contenido auténtico de redes sociales.",
                     "detalle": "Textura real de piel, cabello, tejido del vestido y madera."
@@ -9617,7 +9617,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "encuadre": "Modelo centrada y completamente visible dentro del espejo.",
                     "dispositivo": "Smartphone con funda plateada/blanca y flash activo."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Colores limpios y naturales, destacando el azul brillante del vestido y los tonos blancos del entorno.",
                     "nitidez": "Alta nitidez con profundidad de campo natural.",
                     "acabado_final": "Fotografía realista de smartphone, sin apariencia de render 3D ni piel artificial."
@@ -9689,7 +9689,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Cálido, afectuoso, casual y feliz.",
                     "tono": "Lifestyle auténtico y espontáneo."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía lifestyle candid ultra realista.",
                     "acabado": "Aspecto natural de smartphone, sin apariencia de estudio.",
                     "texturas": "Pelaje rizado y suave, textura natural de piel y tejido de algodón del tank top.",
@@ -9703,7 +9703,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "camara": "Smartphone estilo iPhone con lente gran angular.",
                     "aspect_ratio": "4:5 vertical"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Color cálido y natural, saturación realista y contraste moderado.",
                     "nitidez": "Enfoque preciso en rostro y cachorro, conservando textura auténtica.",
                     "acabado_final": "Fotografía espontánea de alta calidad con profundidad natural y sin texto visible.",
@@ -9798,7 +9798,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Relajado, casual y lujoso.",
                     "tono": "Momento cotidiano de viaje exclusivo, capturado de forma espontánea."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía lifestyle candid ultra realista.",
                     "acabado": "Natural, ligeramente cinematográfico, con grano fotográfico sutil.",
                     "texturas": "Piel y cabello naturales, cuero suave, tejido acanalado, joyería reflectante y cristal de la ventana.",
@@ -9815,7 +9815,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "optica": "35mm–50mm equivalente.",
                     "ajustes": "ISO 200, f/2.8, 1/250s."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos cálidos y neutros, ligeramente apagados y naturales.",
                     "contraste": "Contraste definido entre el top blanco, la ventana luminosa y los pantalones negros.",
                     "nitidez": "Alta nitidez en sujeto con fondo más suave.",
@@ -9899,7 +9899,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Casual, relajado, íntimo y ligeramente contemplativo.",
                     "tono": "Instantánea nocturna cruda y auténtica de redes sociales."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía candid de smartphone con estética de flash directo.",
                     "acabado": "Raw, espontáneo y realista, evitando apariencia editorial excesivamente pulida.",
                     "texturas": "Textura natural de piel, denim, tejido del body y ropa de cama.",
@@ -9915,7 +9915,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "velocidad": "Rápida, congelando el movimiento.",
                     "aspect_ratio": "9:16 vertical"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonalidad cálida producida por el flash, saturación media y contraste natural.",
                     "nitidez": "Enfoque nítido sobre la mujer y textura realista de piel.",
                     "acabado_final": "Fotografía nocturna auténtica, sin texto, otras personas, luz diurna, maquillaje pesado, ropa estampada ni distorsión extrema de gran angular."
@@ -10000,7 +10000,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Casual, candid and ligeramente nocturno.",
                     "tono": "Fotografía espontánea de redes sociales, sin apariencia de sesión profesional."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía lifestyle candid con flash directo.",
                     "acabado": "Raw, espontáneo, ligeramente imperfecto y ultra realista.",
                     "texturas": "Tela de la sudadera, algodón del pantalón, metal pintado, plantas y superficies exteriores.",
@@ -10014,7 +10014,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "aspect_ratio": "9:16 vertical",
                     "profundidad_de_campo": "Moderada, manteniendo al sujeto nítido y el fondo ligeramente suave."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos nocturnos naturales con contraste producido por el flash.",
                     "nitidez": "Alta nitidez en rostro, ropa y objetos cercanos.",
                     "texto": "Mantener exactamente el texto WANGHAF en la parte frontal de la sudadera, perfectamente legible y sin caracteres adicionales.",
@@ -10097,7 +10097,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Glamuroso, pensativo, sereno y nocturno.",
                     "tono": "Retrato de viaje sofisticado con estética de influencer y sensación cinematográfica."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía nocturna de retrato y travel photography ultra realista.",
                     "acabado": "Realista, elegante y ligeramente dramático.",
                     "texturas": "Cabello fluido, piel natural, metal de la barandilla, agua reflectante y estructura iluminada de la Torre Eiffel.",
@@ -10113,7 +10113,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "aspect_ratio": "9:16 vertical",
                     "ajustes": "Apertura aproximada f/1.8, velocidad suficiente para congelar el flash y sensibilidad moderadamente alta."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos dorados cálidos contrastados con negros profundos y cielo nocturno.",
                     "saturacion": "Rica pero natural.",
                     "nitidez": "Alta nitidez sobre la mujer y la barandilla, con suavidad progresiva en el fondo.",
@@ -10199,7 +10199,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Elegante, alegre, sofisticado y seguro.",
                     "tono": "Retrato urbano premium con sensación espontánea y lifestyle."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato urbano chic y fotorealista.",
                     "acabado": "Limpio, natural y sofisticado, sin apariencia excesivamente retocada.",
                     "texturas": "Piel realista, cabello ondulado, tejido fluido, cuero, mármol y metal.",
@@ -10215,7 +10215,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "profundidad_de_campo": "Bokeh suave, manteniendo rostro, ropa y accesorios nítidos.",
                     "aspect_ratio": "4:5 vertical"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Color natural con tonos cálidos y luminosos.",
                     "contraste": "Moderado y elegante.",
                     "nitidez": "Alta definición en rostro y sujeto, fondo suavemente desenfocado.",
@@ -10300,7 +10300,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Fresco, aventurero, casual y elegante.",
                     "tono": "Instagram lifestyle auténtico durante unas vacaciones de esquí."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Selfie smartphone ultra fotorealista.",
                     "acabado": "Natural, espontáneo y sin apariencia de render.",
                     "texturas": "Poros visibles, cabello natural, tejido técnico de la ropa y textura realista de la nieve.",
@@ -10314,7 +10314,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "profundidad_de_campo": "Natural, sin desenfoque artificial excesivo.",
                     "aspect_ratio": "9:16 vertical"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "identidad": "Bloqueo estricto de identidad facial respecto a la referencia.",
                     "nitidez": "Alta nitidez en rostro, cabello, ropa y gafas.",
                     "detalle_piel": "Poros y textura natural visibles, sin efecto plástico.",
@@ -10400,7 +10400,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Cozy, íntimo, relajado y espontáneo.",
                     "tono": "Soft girl aesthetic, auténtico y cotidiano."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Mirror selfie candid de smartphone, hiperrealista.",
                     "acabado": "Natural, ligeramente imperfecto y propio de una fotografía personal.",
                     "texturas": "Piel realista, algodón ribbed, tejido de los shorts, madera y ropa de cama.",
@@ -10414,7 +10414,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "camara": "Smartphone.",
                     "aspect_ratio": "4:5 vertical"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "nitidez": "Alta en sujeto, cabello, ropa y teléfono.",
                     "acabado_final": "Fotografía UGC hiperrealista y espontánea, conservando pequeñas imperfecciones del entorno, sin apariencia de estudio, piel plástica, render 3D, texto añadido ni elementos artificiales."
                 }
@@ -10492,7 +10492,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Cool, íntimo, crudo y nocturno.",
                     "tono": "Snapshot privado capturado espontáneamente."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Mirror photograph con estética raw flash y emulación analógica.",
                     "acabado": "35mm vintage, grano visible, imperfecciones naturales y textura auténtica.",
                     "color_grading": "Negros ligeramente levantados, sombras verdosas y rojos moderadamente saturados."
@@ -10508,7 +10508,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "iso": 800,
                     "aspect_ratio": "4:5 vertical"
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "nitidez": "Moderada con suavidad natural del flash.",
                     "grano": "Film grain auténtico.",
                     "vignette": "Caída natural del flash hacia los bordes.",
@@ -10580,7 +10580,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Elegancia, glamour discreto y confianza tranquila.",
                     "tono": "Editorial cinematográfico de lujo suave."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato editorial sofisticado y fotorealista.",
                     "acabado": "Natural, elegante y cinematográfico, evitando apariencia artificial.",
                     "paleta": "Beige, crema, blanco y tonos cálidos neutros."
@@ -10591,7 +10591,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "aspect_ratio": "3.4:1",
                     "referencia": "Usar la imagen subida como referencia principal de identidad y composición."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "vestuario": "Bodysuit blanco ajustado sin tirantes, medias translúcidas color marfil, abrigo voluminoso de textura tipo piel sintética sobre los hombros y tacones nude.",
                     "accesorios": "Joyería mínima y manicura clara.",
                     "acabado_final": "Ultra realista, piel natural, tejidos físicamente creíbles y sin modificar la identidad facial.",
@@ -10665,7 +10665,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Soft grunge, íntimo, alternativo y cozy.",
                     "tono": "Selfie personal y espontáneo."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Retrato selfie fotorealista con estética soft-grunge/e-girl.",
                     "contraste": "Alto contraste entre piel pálida, cabello rubio y gato negro.",
                     "texturas": "Pecas, piel natural, cabello liso y pelaje suave del gato claramente definidos."
@@ -10677,7 +10677,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "aspect_ratio": "4:5 vertical",
                     "camara": "Smartphone selfie aesthetic."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "nitidez": "Alta en rostro, ojos y pelaje.",
                     "color_grading": "Cálido, ligeramente contrastado, sin sobresaturación.",
                     "acabado_final": "Fotografía realista, natural y ligeramente imperfecta, sin piel plástica, CGI, ilustración, anatomía deformada, ojos artificiales ni apariencia excesivamente retocada."
@@ -10767,7 +10767,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Elegante, urbano, contemplativo y cinematográfico.",
                     "tono": "Retrato nocturno auténtico capturado espontáneamente frente al skyline."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía nocturna hiperrealista con estética auténtica de iPhone.",
                     "texturas": "Cuero con desgaste realista, metal rayado, agua en movimiento, ladrillo, vidrio y concreto.",
                     "ambiente": "Haze ligero sobre el río y pequeñas imperfecciones ópticas naturales.",
@@ -10781,7 +10781,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "aspect_ratio": "9:16 vertical",
                     "camara": "iPhone aesthetic, handheld, natural night photography."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "nitidez": "Alta en rostro, chaqueta y elementos cercanos.",
                     "color": "Contraste natural entre luces ámbar, blanco urbano y azul frío.",
                     "acabado_final": "Ultra fotorealista, con reflejos y movimiento naturales, preservando estrictamente la identidad facial de la referencia.",
@@ -10875,7 +10875,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "mood": "Cinemático, íntimo, sofisticado y emocional.",
                     "tono": "Momento privado capturado con estética de película."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Selfie fotorealista ultra cinematográfico.",
                     "texturas": "Poros visibles, piel húmeda, gotas de agua, cabello mojado, condensación y cristal realistas.",
                     "profundidad": "Bokeh suave en las luces del fondo.",
@@ -10888,7 +10888,7 @@ export const EXTRA_MOCK_PROMPTS = [
                     "aspect_ratio": "3:4 vertical",
                     "estilo_camara": "Smartphone selfie cinematográfico."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "realismo": "Fotorealismo extremo.",
                     "face_restore": true,
                     "face_reference_strength": 1.0,

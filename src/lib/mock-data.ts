@@ -890,7 +890,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Experimental, digital, nostálgica.",
                     "tono": "Y2K, glitchcore, editorial futurista."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Minimalist screen print line art combinado con estética Y2K.",
                     "tecnicas": "Doble exposición estilo risograph, color negativo, glitch digital.",
                     "texturas": "Grano gráfico, ruido digital, overlays de niebla neón.",
@@ -901,7 +901,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo frontal.",
                     "encuadre": "Formato vertical, composición centrada con tipografía dominante."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "tipografia": "Bold typography estilo fashion magazine Y2K.",
                     "color_grading": "Paleta invertida tipo negativo con acentos neón.",
                     "contraste": "Alto.",
@@ -968,7 +968,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Poder, lujo, sensualidad elegante.",
                     "tono": "Alta costura, Vogue editorial, sofisticación absoluta."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Editorial de moda de lujo con realismo cinematográfico.",
                     "vestuario": "Vestido couture negro de lentejuelas con escote pronunciado y cut-outs sutiles.",
                     "accesorios": "Aros de diamantes oversized, anillos de oro apilados, pulsera tennis de diamantes, collares de oro en capas, stilettos negros puntiagudos.",
@@ -979,7 +979,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo frontal ligeramente bajo para enfatizar poder.",
                     "encuadre": "Composición centrada con foco en rostro, joyería y accesorios."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos profundos y ricos, énfasis en borgoña, negro y dorados.",
                     "contraste": "Medio-alto.",
                     "acabado": "Look editorial premium con nitidez extrema y profundidad de campo reducida.",
@@ -1047,7 +1047,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Frescura, calma, lujo relajado.",
                     "tono": "Summer luxury, lifestyle, natural."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía lifestyle ultra-realista con estética veraniega.",
                     "vestuario": "Vestido mini blanco off-the-shoulder con encaje tipo eyelet.",
                     "texturas": "Tela ligera, detalles delicados, piel luminosa.",
@@ -1058,7 +1058,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo neutro a la altura de los ojos.",
                     "encuadre": "Composición limpia con entorno visible sin distraer."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos claros y cálidos, blancos limpios y piel dorada.",
                     "contraste": "Suave.",
                     "acabado": "Look natural, luminoso y elegante."
@@ -1124,7 +1124,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Poder, independencia, éxito.",
                     "tono": "Luxury lifestyle, aspiracional, cinematográfico."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía lifestyle cinematográfica ultra-realista.",
                     "vestuario": "Outfit minimalista de lujo, líneas limpias y elegantes.",
                     "texturas": "Materiales premium visibles en ropa y automóvil.",
@@ -1135,7 +1135,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo neutro desde el exterior o interior del vehículo.",
                     "encuadre": "Composición limpia enfocada en el sujeto y el interior del auto."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos cálidos y neutros con contraste suave tipo película.",
                     "contraste": "Bajo a medio.",
                     "acabado": "Look cinematográfico limpio con sensación de film lifestyle."
@@ -1199,7 +1199,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Transformación, artesanía, contraste entre lo real y lo artístico.",
                     "tono": "Editorial, creativo, conceptual."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Imagen compuesta que transiciona de fotografía realista a arte bordado.",
                     "texturas": "Textura de bordado altamente detallada y visible.",
                     "nivel_realismo": "Híbrido: fotorrealismo + ilustración textil."
@@ -1209,7 +1209,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo neutro.",
                     "encuadre": "Diseño editorial dividido que muestra claramente la transformación visual."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Colores vivos en la chaqueta contrastando con blancos fríos del fondo.",
                     "contraste": "Medio.",
                     "acabado": "Layout editorial limpio con transición clara entre fotografía y bordado."
@@ -1273,7 +1273,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Calma, aspiracional, serenidad.",
                     "tono": "Cinematográfico, lifestyle, sofisticado."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía lifestyle cinematográfica ultra-realista.",
                     "film_look": "Kodak Portra con tonos cálidos.",
                     "texturas": "Grano analógico sutil.",
@@ -1284,7 +1284,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo neutro a la altura de los ojos.",
                     "encuadre": "Composición equilibrada con arquitectura icónica visible al fondo."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Warm grading con predominio de tonos dorados y ámbar.",
                     "contraste": "Suave y natural.",
                     "acabado": "Look cinematográfico limpio con grano de película discreto."
@@ -1347,7 +1347,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Actitud urbana, poder, modernidad.",
                     "tono": "Futurista, industrial, streetwear."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Street fashion contemporáneo con estética futurista.",
                     "texturas": "Ropa con telas gruesas, superficies metálicas visibles.",
                     "nivel_realismo": "Fotorrealismo."
@@ -1357,7 +1357,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo bajo (low angle shot).",
                     "encuadre": "Centrado, enfatizando presencia y altura."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Dominancia de tonos azules industriales.",
                     "contraste": "Medio-alto.",
                     "acabado": "Look urbano limpio con nitidez controlada."
@@ -1421,7 +1421,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Encanto, fantasía urbana, energía nocturna.",
                     "tono": "Kawaii, moderno, vibrante."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Cosplay japonés realista.",
                     "vestuario": "Clásico traje de maid con acabados limpios y detallados.",
                     "nivel_realismo": "Fotorrealista."
@@ -1431,7 +1431,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo neutro.",
                     "encuadre": "Horizontal 16:9, sujeto centrado con fondo visible."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Colores nocturnos intensificados con acentos neón.",
                     "contraste": "Medio.",
                     "acabado": "Nitidez equilibrada con iluminación realista."
@@ -1494,7 +1494,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Onírica, mágica, íntima.",
                     "tono": "Ethereal, nostálgico, delicado."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía analógica soñadora estilo Petra Collins.",
                     "texturas": "Grano visible de película, desenfoque suave, bloom pesado.",
                     "nivel_realismo": "Fotorrealismo analógico."
@@ -1504,7 +1504,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo neutro a la altura de la cama.",
                     "encuadre": "Íntimo, ligeramente descentrado para sensación natural."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos pastel suaves con dominancia rosada y cálida.",
                     "contraste": "Bajo.",
                     "acabado": "Look analógico, soft focus, atmósfera difusa y soñadora."
@@ -1572,7 +1572,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Surrealismo, diversión, creatividad visual.",
                     "tono": "Innovador, lúdico, 3D Pop-out."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Composición fotorrealista surrealista.",
                     "nivel_realismo": "Hiperrealista.",
                     "texturas": "Contraste entre cristal del teléfono y ropa de alta costura street."
@@ -1582,7 +1582,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo picado fuerte.",
                     "encuadre": "Enfoque en la miniatura y la mano que sostiene el dispositivo."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "efectos": "Efecto 3D de 'salir de la pantalla'.",
                     "contraste": "Medio.",
                     "acabado": "Nitidez extrema en el sujeto miniatura, profundidad de campo reducida en el fondo."
@@ -1647,7 +1647,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Amor puro, alegría, magia, ternura.",
                     "tono": "Vibrante, colorido, soñador."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Render digital 3D hiper-detallado.",
                     "texturas": "Telas suaves, pétalos delicados, cabello con volumen estilizado.",
                     "nivel_realismo": "Fantasía 3D fotorrealista."
@@ -1657,7 +1657,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo frontal neutro.",
                     "encuadre": "Sujetos perfectamente enmarcados por el arco de flores."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "filtros": "Efectos de partículas de luz (dust motes) flotando, bloom intenso en el anillo.",
                     "contraste": "Medio.",
                     "acabado": "Imagen limpia, nítida y apta para impresión editorial de alta calidad."
@@ -1720,7 +1720,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Sorpresa, magia, amor creativo.",
                     "tono": "Innovador, soñador, visualmente impactante."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Surrealismo visual / 3D Pop-out.",
                     "nivel_realismo": "Híbrido fotorrealista (mano) y Pixar-style (escena).",
                     "texturas": "Papel del marco, piel de la mano, pétalos de rosa detallados."
@@ -1730,7 +1730,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "angulo": "Ángulo frontal.",
                     "encuadre": "Composición centrada que resalta el efecto de profundidad."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "filtros": "Bloom suave, color grading cálido (ámbar/rosa), grano analógico sutil.",
                     "contraste": "Medio.",
                     "acabado": "Imagen limpia con gran impacto visual de profundidad."
@@ -1792,7 +1792,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "emocion": "Misticismo, tradición, solemnidad.",
                     "tono": "Artístico ceremonial."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Hiperrealismo 8K.",
                     "color": "Rojos, dorados, negros.",
                     "textura": "Detalles extremadamente finos."
@@ -1801,7 +1801,7 @@ export const MOCK_PROMPTS: ContentItem[] = [
                     "plano": "Close-up.",
                     "angulo": "Neutral."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos cálidos, dorados y carmesí.",
                     "claridad": "Alta para maquillaje detallado."
                 }
@@ -1878,7 +1878,7 @@ Copia el prompt REALISMO de este caso y añade el parámetro de referencia (coma
                     "emocion": "Minimalismo cool.",
                     "tono": "Cinemático B&W."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Blanco y negro elegante.",
                     "textura": "Grano suave analógico."
                 },
@@ -1886,7 +1886,7 @@ Copia el prompt REALISMO de este caso y añade el parámetro de referencia (coma
                     "plano": "Medio.",
                     "angulo": "Neutral."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "B&W contrastado.",
                     "grano": "Fino."
                 }
@@ -1962,7 +1962,7 @@ Copia el prompt y verás cómo tu pose se transforma en este retrato minimalista
                     "emocion": "Profundidad emocional.",
                     "tono": "Cine monocromático."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Hiperrealismo B&W.",
                     "textura": "Piel natural sin retoque.",
                     "color": "Monocromo detallado."
@@ -1971,7 +1971,7 @@ Copia el prompt y verás cómo tu pose se transforma en este retrato minimalista
                     "plano": "Medio vertical.",
                     "angulo": "Neutral a altura de ojos."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Curva suave en grises.",
                     "grano": "Fino clásico.",
                     "contraste": "Equilibrado."
@@ -2038,7 +2038,7 @@ Asegúrate de que la referencia sea en alta resolución para que las texturas de
                     "emocion": "Lujo, misterio.",
                     "tono": "Moderno minimalista."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fashion editorial.",
                     "color": "Oscuros profundos con acentos metálicos."
                 },
@@ -2046,7 +2046,7 @@ Asegúrate de que la referencia sea en alta resolución para que las texturas de
                     "plano": "Close-up extremo.",
                     "angulo": "Neutral."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Cinemático oscuro.",
                     "claridad": "Alta en zona focal."
                 }
@@ -2111,7 +2111,7 @@ Aplica el prompt detallado y ajusta los parámetros de visualización para que e
                     "emocion": "Poder, elegancia, autoridad.",
                     "tono": "Editorial empoderado."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Moda editorial de alto nivel.",
                     "color": "Negros y dorados sutiles."
                 },
@@ -2119,7 +2119,7 @@ Aplica el prompt detallado y ajusta los parámetros de visualización para que e
                     "plano": "Medio.",
                     "angulo": "Neutral."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos fríos con acentos cálidos.",
                     "claridad": "Alta."
                 }
@@ -2568,7 +2568,7 @@ A close-up, professionally composed photograph showcasing a hand-crocheted yarn 
                     "emocion": "Misterio, elegancia introspectiva.",
                     "tono": "Editorial analógico."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "B&W hiperrealista 8K.",
                     "textura": "Grano fino cinematográfico.",
                     "color": "Monocromo de alto contraste."
@@ -2578,7 +2578,7 @@ A close-up, professionally composed photograph showcasing a hand-crocheted yarn 
                     "angulo": "Frontal con ligera diagonal.",
                     "encuadre": "Centrado dramático."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Monocromo profundo.",
                     "contraste": "Alto.",
                     "grano": "Fino tipo película."
@@ -2643,7 +2643,7 @@ Este estilo resalta las texturas. Si quieres un look más suave, cambia I_Ilumin
                     "emocion": "Futurismo, energía eléctrica.",
                     "tono": "Editorial de moda moderna."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "High-fashion cyberpunk.",
                     "color": "Vibrante, saturado.",
                     "textura": "Ultra definida."
@@ -2653,7 +2653,7 @@ Este estilo resalta las texturas. Si quieres un look más suave, cambia I_Ilumin
                     "angulo": "Neutral frontal con giro.",
                     "encuadre": "Silueta enfatizada."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Dual-tone extremo.",
                     "claridad": "Muy alta."
                 }
@@ -2714,7 +2714,7 @@ Cambia los colores de neón en I_Iluminacion para adaptarlos a tu marca (ej: "Vi
                     "emocion": "Calma, pureza, naturaleza.",
                     "tono": "Romántico suave."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía editorial cottagecore.",
                     "color": "Verdes apagados, tonos cálidos.",
                     "textura": "Suave y limpia."
@@ -2724,7 +2724,7 @@ Cambia los colores de neón en I_Iluminacion para adaptarlos a tu marca (ej: "Vi
                     "angulo": "Top-down puro.",
                     "encuadre": "Rostro centrado."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Paleta suave vintage.",
                     "claridad": "Moderada."
                 }
@@ -2785,7 +2785,7 @@ Para un look más otoñal, cambia el E_Entorno a "Césped con hojas secas en ton
                     "emocion": "Serenidad y fuerza natural.",
                     "tono": "Fantástico realista."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Realismo artístico hiper detallado.",
                     "color": "Azules fríos y rosa suave.",
                     "textura": "Gotas de agua detalladas."
@@ -2795,7 +2795,7 @@ Para un look más otoñal, cambia el E_Entorno a "Césped con hojas secas en ton
                     "angulo": "Neutral cinematográfico.",
                     "encuadre": "Modelo centrada."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos fríos acuáticos.",
                     "claridad": "Alta."
                 }
@@ -2859,7 +2859,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Tensión visual, fuerza interior.",
                     "tono": "Noir vibrante."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Moda nocturna hiperrealista.",
                     "color": "Contrastes duros teal-orange.",
                     "textura": "Piel húmeda definida."
@@ -2869,7 +2869,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "angulo": "Frontal.",
                     "encuadre": "Rostro centrado en tensión."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Teal–orange.",
                     "claridad": "Extrema.",
                     "efectos": "Volumetric light suave."
@@ -2932,7 +2932,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Dramatismo introspectivo.",
                     "tono": "Elegante y futurista."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Hiperrealismo neon noir.",
                     "color": "Rojo–azul saturado.",
                     "textura": "Piel suave, brillante."
@@ -2942,7 +2942,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "angulo": "Ligeramente bajo.",
                     "encuadre": "Rostro y cuello enfatizados."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Dual rojo/azul.",
                     "claridad": "Muy alta."
                 }
@@ -2999,7 +2999,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Poder visual.",
                     "tono": "Cyber noir elegante."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Neon noir editorial.",
                     "color": "Rojo dominante.",
                     "textura": "Alta claridad."
@@ -3009,7 +3009,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "angulo": "Neutral.",
                     "encuadre": "Halo centrado."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Rojo saturado.",
                     "contraste": "Alto."
                 }
@@ -3066,7 +3066,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Lujo retro, libertad.",
                     "tono": "Editorial tipo Vogue."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Moda retro glam ultra detallada.",
                     "color": "Rojos brillantes, tonos de playa."
                 },
@@ -3075,7 +3075,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "angulo": "Neutral.",
                     "encuadre": "Modelo centrada en volante."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos brillantes y glossy.",
                     "claridad": "Alta."
                 }
@@ -3132,7 +3132,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Romanticismo y lujo.",
                     "tono": "Editorial bridal."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Ultra-realismo 8K.",
                     "textura": "Encaje detallado, tul voluminoso."
                 },
@@ -3140,7 +3140,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "plano": "Full body.",
                     "angulo": "Neutral."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Tonos cálidos de boda.",
                     "claridad": "Muy alta."
                 }
@@ -3201,7 +3201,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Tensión divertida, vibra misteriosa.",
                     "tono": "Pop horror estilizado."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía vibrante tipo 'arcade aesthetic'.",
                     "color": "Magenta dominante con toques de azul.",
                     "textura": "Grano ligero de ambiente nocturno."
@@ -3211,7 +3211,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "angulo": "Frontal ligeramente bajo.",
                     "encuadre": "Modelo centrada dentro de la máquina."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Magenta-neón saturado.",
                     "claridad": "Media-alta.",
                     "efectos": "Glow neón ligero."
@@ -3271,7 +3271,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Conexión, calidez, elegancia.",
                     "tono": "Retrato profesional elegante."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía editorial en estudio.",
                     "color": "Negros profundos, piel cálida.",
                     "textura": "Alta definición limpia."
@@ -3281,7 +3281,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "angulo": "Altura de ojos.",
                     "encuadre": "Pareja centrada en armonía."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Cálido suave.",
                     "claridad": "Alta.",
                     "contraste": "Moderado para estilo cinematográfico."
@@ -3351,7 +3351,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Autenticidad, calma, confianza cotidiana.",
                     "tono": "Street lifestyle, espontáneo, real."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Selfie auténtico con smartphone y lente gran angular.",
                     "vestuario": "Camisa de manga corta gris-marrón de textura suelta, ligeramente desabotonada; jeans azul claro.",
                     "texturas": "Piel con textura visible, tela natural.",
@@ -3363,7 +3363,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "encuadre": "Gran angular, composición idéntica a la referencia.",
                     "instruccion_critica": "Mantener exactamente el mismo encuadre, perspectiva y framing que la imagen original."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Ligeramente desaturado.",
                     "contraste": "Medio-alto.",
                     "acabado": "Grano sutil, look street natural.",
@@ -3430,7 +3430,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Intensidad, peligro sutil, atracción oscura.",
                     "tono": "Dark academia, lo-fi, rebelde."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Fotografía analógica lo-fi de los años 90.",
                     "tecnica": "Cámara desechable con flash integrado.",
                     "texturas": "Grano pesado, imperfecciones visibles, ligera falta de nitidez.",
@@ -3441,7 +3441,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "angulo": "Ángulo frontal a la altura de los ojos.",
                     "encuadre": "Composición centrada, rostro ocupando gran parte del encuadre."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Blanco y negro de alto contraste.",
                     "contraste": "Muy alto.",
                     "acabado": "Grano fuerte, ruido visible, estética cruda y auténtica.",
@@ -3503,7 +3503,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Misterio, intensidad contenida.",
                     "tono": "Cinematográfico, cálido, de alto contraste."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Restauración cinematográfica fotorrealista.",
                     "texturas": "Piel realista mejorada, detalles finos visibles.",
                     "nivel_realismo": "Ultra-realista."
@@ -3513,7 +3513,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "angulo": "Ángulo original sin cambios.",
                     "encuadre": "Formato vertical 9:16, composición estrictamente preservada."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "upscale": "Ultra-HD",
                     "mejoras": "Aumento de nitidez en detalles, mejora de textura de piel realista, reducción de ruido.",
                     "color_grading": "Highlights cálidos dorados con sombras profundas.",
@@ -3580,7 +3580,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "emocion": "Introspección, quietud, fuerza contenida.",
                     "tono": "Atemporal, cinematográfico, contemplativo."
                 },
-                "E_visual_EstiloVisual": {
+                "L_Lenguaje_Visual": {
                     "estilo_general": "Editorial de moda fine-art en blanco y negro.",
                     "vestuario": "Ropa oscura oversized en capas, pantalones wide-leg, botas de cuero, gafas de sol oscuras.",
                     "elementos_simbolicos": "Caballo negro fuerte de pie detrás del sujeto, alineado de forma protectora y parcialmente superpuesto a la silueta.",
@@ -3592,7 +3592,7 @@ Si prefieres un entorno más oscuro, cambia el E_Entorno a "Cueva mágica con ca
                     "angulo": "Ángulo neutro ligeramente bajo.",
                     "encuadre": "Composición equilibrada con superposición visual entre sujeto y caballo, amplio espacio negativo en el cielo."
                 },
-                "P_Postproduccion": {
+                "O_Optimizacion_final": {
                     "color_grading": "Blanco y negro de alto contraste.",
                     "contraste": "Alto, con negros profundos y highlights suaves.",
                     "acabado": "Look de película de formato medio, grano sutil, textura mate.",
