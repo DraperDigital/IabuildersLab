@@ -437,11 +437,11 @@ Retrato fotográfico editorial para branding personal ejecutivo, fundadores y pe
     {
         id: "prompt-3d-glassmorphism-dashboard",
         type: "prompt",
-        title: "Isometric Floating 3D Dark Mode AI Analytics Dashboard",
+        title: "Metodología R.E.A.L.I.S.M.O.: Isometric Floating 3D Dark Mode AI Analytics Dashboard",
         slug: "isometric-3d-dark-mode-analytics-dashboard",
         summary: "Render 3D en perspectiva isométrica de un panel analítico flotante en modo oscuro con paneles de cristal esmerilado (glassmorphism), gráficos de neón violeta y cian.",
         category: "Diseño UI/UX 3D",
-        system_type: "Midjourney v6",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "3D Render",
         level: "intermediate",
         is_published: true,
@@ -450,18 +450,52 @@ Retrato fotográfico editorial para branding personal ejecutivo, fundadores y pe
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/cases/code-style-card.jpg",
-        prompt_text: `3D isometric render of a modern AI SaaS analytics dashboard UI floating in dark space, frosted glassmorphism cards, glowing violet and cyan neon charts, smooth rounded corners, Octane Render, 8k resolution, minimalist tech aesthetic --ar 4:5 --v 6.1`,
+        transition_dimensions: "R, L y M",
+        transition_detail: "los componentes de interfaz 3D, el efecto glassmorphism y la perspectiva isométrica",
+        transition_user_target: "tu propio software SaaS o producto digital",
+        prompt_text: `{
+  "render": "Panel analítico flotante de software SaaS con inteligencia artificial en perspectiva isométrica 3D. Tarjetas semitransparentes con efecto glassmorphism, esquinas redondeadas suavizadas y widgets de datos flotantes.",
+  "entorno": "Espacio virtual oscuro y minimalista de alta tecnología con iluminación ambiental sutil de fondo y profundidad de campo pulida.",
+  "accion": "Elementos de interfaz y widgets analíticos flotando en capas tridimensionales dinámicas con gráficos de barras, líneas y nodos interactivos.",
+  "lenguaje_visual": "Render 3D isométrico contemporáneo, estética tech minimalista premium, visualización de datos futurista, estilo Octane Render y Cinema 4D.",
+  "iluminacion": "Iluminación volumétrica con resplandor neón en tonos violeta y cian. Reflejos especulares suaves sobre el cristal esmerilado y brillo propio en los nodos de datos.",
+  "sensacion": "Innovación, sofisticación digital, tecnología de vanguardia, claridad analítica y estética futurista.",
+  "composicion": "Composición isométrica vertical 4:5. Perspectiva en ángulo diagonal de 45 grados enfocada en las capas centrales del dashboard con fondo desenfocado.",
+  "optimizacion_final": "Resolución 8K, renderizado Octane ultra limpio, refracción cristalina precisa, dispersión cromática sutil en los bordes del vidrio y acabado pulido sin ruido."
+}`,
         body_markdown: `
-# Isometric Floating 3D Dark Mode AI Analytics Dashboard
+# Metodología R.E.A.L.I.S.M.O.: Isometric Floating 3D Dark Mode AI Analytics Dashboard
 
-Prompt para generar mockups UI/UX 3D y gráficos futuristas para landing pages y sitios de tecnología.
+Prompt visual estructurado bajo la metodología de 8 dimensiones **R.E.A.L.I.S.M.O.**
 
 ---
 
-## 🎨 Prompt Maestro
+## 🎨 Especificación R.E.A.L.I.S.M.O.
 
-\`\`\`text
-3D isometric render of a modern AI SaaS analytics dashboard UI floating in dark space, frosted glassmorphism cards, glowing violet and cyan neon charts, smooth rounded corners, Octane Render, 8k resolution, minimalist tech aesthetic --ar 4:5 --v 6.1
+- **R — Render / Avatar:** Panel analítico flotante de software SaaS con inteligencia artificial en perspectiva isométrica 3D. Tarjetas semitransparentes con efecto glassmorphism, esquinas redondeadas suavizadas y widgets de datos flotantes.
+- **E — Entorno:** Espacio virtual oscuro y minimalista de alta tecnología con iluminación ambiental sutil de fondo y profundidad de campo pulida.
+- **A — Acción / Postura:** Elementos de interfaz y widgets analíticos flotando en capas tridimensionales dinámicas con gráficos de barras, líneas y nodos interactivos.
+- **L — Lenguaje Visual:** Render 3D isométrico contemporáneo, estética tech minimalista premium, visualización de datos futurista, estilo Octane Render y Cinema 4D.
+- **I — Iluminación:** Iluminación volumétrica con resplandor neón en tonos violeta y cian. Reflejos especulares suaves sobre el cristal esmerilado y brillo propio en los nodos de datos.
+- **S — Sensación / Atmósfera:** Innovación, sofisticación digital, tecnología de vanguardia, claridad analítica y estética futurista.
+- **M — Composición / Cámara:** Composición isométrica vertical 4:5. Perspectiva en ángulo diagonal de 45 grados enfocada en las capas centrales del dashboard con fondo desenfocado.
+- **O — Optimización final:** Resolución 8K, renderizado Octane ultra limpio, refracción cristalina precisa, dispersión cromática sutil en los bordes del vidrio y acabado pulido sin ruido.
+
+---
+
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON)
+
+\`\`\`json
+{
+  "render": "Panel analítico flotante de software SaaS con inteligencia artificial en perspectiva isométrica 3D. Tarjetas semitransparentes con efecto glassmorphism, esquinas redondeadas suavizadas y widgets de datos flotantes.",
+  "entorno": "Espacio virtual oscuro y minimalista de alta tecnología con iluminación ambiental sutil de fondo y profundidad de campo pulida.",
+  "accion": "Elementos de interfaz y widgets analíticos flotando en capas tridimensionales dinámicas con gráficos de barras, líneas y nodos interactivos.",
+  "lenguaje_visual": "Render 3D isométrico contemporáneo, estética tech minimalista premium, visualización de datos futurista, estilo Octane Render y Cinema 4D.",
+  "iluminacion": "Iluminación volumétrica con resplandor neón en tonos violeta y cian. Reflejos especulares suaves sobre el cristal esmerilado y brillo propio en los nodos de datos.",
+  "sensacion": "Innovación, sofisticación digital, tecnología de vanguardia, claridad analítica y estética futurista.",
+  "composicion": "Composición isométrica vertical 4:5. Perspectiva en ángulo diagonal de 45 grados enfocada en las capas centrales del dashboard con fondo desenfocado.",
+  "optimizacion_final": "Resolución 8K, renderizado Octane ultra limpio, refracción cristalina precisa, dispersión cromática sutil en los bordes del vidrio y acabado pulido sin ruido."
+}
 \`\`\`
 `,
         tags: ["UI/UX", "3D", "Glassmorphism", "SaaS"] as any
@@ -469,31 +503,65 @@ Prompt para generar mockups UI/UX 3D y gráficos futuristas para landing pages y
     {
         id: "prompt-minimalist-tech-keyboard",
         type: "prompt",
-        title: "Minimalist Matte Black Mechanical Keyboard Studio Close-up",
+        title: "Metodología R.E.A.L.I.S.M.O.: Minimalist Matte Black Mechanical Keyboard Close-up",
         slug: "minimalist-matte-black-mechanical-keyboard",
-        summary: "Fotografía macro de teclado mecánico negro mate con iluminación LED sutil violeta, textura suave al tacto y composición minimalista estilo Apple.",
+        summary: "Fotografía comercial de producto minimalista para teclado mecánico en acabado negro mate sobre escritorio de aluminio cepillado.",
         category: "Minimalismo Tech",
-        system_type: "Flux 1.1",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Estudio",
-        level: "beginner",
+        level: "intermediate",
         is_published: true,
         is_featured: false,
         paywall_level: "access",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/cases/anime-figure-desk.jpg",
-        prompt_text: `Minimalist studio macro photography of a matte black custom mechanical keyboard, subtle purple RGB backlight glowing between keycaps, dark slate desk surface, clean arrangement, shot on Sony A7IV 90mm macro lens --ar 4:5 --v 6.1`,
+        transition_dimensions: "R, I y O",
+        transition_detail: "las microtexturas mate, el aluminio anodizado y la iluminación difusa de estudio",
+        transition_user_target: "tu catálogo de hardware o accesorios de escritorio",
+        prompt_text: `{
+  "render": "Teclado mecánico de diseño industrial minimalista en acabado negro mate absoluto. Teclas de perfil bajo con grabados discretos en tipografía limpia y switches mecánicos expuestos con precisión táctil.",
+  "entorno": "Estudio fotográfico comercial sobre un escritorio de aluminio cepillado de tono gris oscuro y superficie impecable.",
+  "accion": "Teclado posicionado en primer plano estático sobre la superficie del escritorio. Primer plano enfocado en los detalles de las teclas y el acabado mate.",
+  "lenguaje_visual": "Fotografía comercial de producto industrial de alta gama, minimalismo tecnológico, estética escandinava contemporánea y fotorealismo estricto.",
+  "iluminacion": "Luz suave y difusa de estudio fotográfico procedente de un softbox cenital. Sombras progresivas muy suaves y sutiles brillos de contorno sobre los bordes metálicos.",
+  "sensacion": "Elegancia minimalista, precisión industrial, productividad, sobriedad y lujo discreto.",
+  "composicion": "Formato vertical 4:5. Plano detalle en ángulo bajo de 30 grados enfocado críticamente en las teclas principales con desenfoque suave (bokeh) en la parte posterior.",
+  "optimizacion_final": "Textura nítida de plástico mate PBT y aluminio anodizado, máxima fidelidad microtextural, ausencia total de polvo o huellas, contraste balanceado y acabado fotográfico profesional."
+}`,
         body_markdown: `
-# Minimalist Matte Black Mechanical Keyboard Studio Close-up
+# Metodología R.E.A.L.I.S.M.O.: Minimalist Matte Black Mechanical Keyboard Close-up
 
-Prompt macro de fotografía de hardware minimalista para fondos de pantalla y contenido de tecnología.
+Prompt visual estructurado bajo la metodología de 8 dimensiones **R.E.A.L.I.S.M.O.**
 
 ---
 
-## 🎨 Prompt Maestro
+## 🎨 Especificación R.E.A.L.I.S.M.O.
 
-\`\`\`text
-Minimalist studio macro photography of a matte black custom mechanical keyboard, subtle purple RGB backlight glowing between keycaps, dark slate desk surface, clean arrangement, shot on Sony A7IV 90mm macro lens --ar 4:5 --v 6.1
+- **R — Render / Avatar:** Teclado mecánico de diseño industrial minimalista en acabado negro mate absoluto. Teclas de perfil bajo con grabados discretos en tipografía limpia y switches mecánicos expuestos con precisión táctil.
+- **E — Entorno:** Estudio fotográfico comercial sobre un escritorio de aluminio cepillado de tono gris oscuro y superficie impecable.
+- **A — Acción / Postura:** Teclado posicionado en primer plano estático sobre la superficie del escritorio. Primer plano enfocado en los detalles de las teclas y el acabado mate.
+- **L — Lenguaje Visual:** Fotografía comercial de producto industrial de alta gama, minimalismo tecnológico, estética escandinava contemporánea y fotorealismo estricto.
+- **I — Iluminación:** Luz suave y difusa de estudio fotográfico procedente de un softbox cenital. Sombras progresivas muy suaves y sutiles brillos de contorno sobre los bordes metálicos.
+- **S — Sensación / Atmósfera:** Elegancia minimalista, precisión industrial, productividad, sobriedad y lujo discreto.
+- **M — Composición / Cámara:** Formato vertical 4:5. Plano detalle en ángulo bajo de 30 grados enfocado críticamente en las teclas principales con desenfoque suave (bokeh) en la parte posterior.
+- **O — Optimización final:** Textura nítida de plástico mate PBT y aluminio anodizado, máxima fidelidad microtextural, ausencia total de polvo o huellas, contraste balanceado y acabado fotográfico profesional.
+
+---
+
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON)
+
+\`\`\`json
+{
+  "render": "Teclado mecánico de diseño industrial minimalista en acabado negro mate absoluto. Teclas de perfil bajo con grabados discretos en tipografía limpia y switches mecánicos expuestos con precisión táctil.",
+  "entorno": "Estudio fotográfico comercial sobre un escritorio de aluminio cepillado de tono gris oscuro y superficie impecable.",
+  "accion": "Teclado posicionado en primer plano estático sobre la superficie del escritorio. Primer plano enfocado en los detalles de las teclas y el acabado mate.",
+  "lenguaje_visual": "Fotografía comercial de producto industrial de alta gama, minimalismo tecnológico, estética escandinava contemporánea y fotorealismo estricto.",
+  "iluminacion": "Luz suave y difusa de estudio fotográfico procedente de un softbox cenital. Sombras progresivas muy suaves y sutiles brillos de contorno sobre los bordes metálicos.",
+  "sensacion": "Elegancia minimalista, precisión industrial, productividad, sobriedad y lujo discreto.",
+  "composicion": "Formato vertical 4:5. Plano detalle en ángulo bajo de 30 grados enfocado críticamente en las teclas principales con desenfoque suave (bokeh) en la parte posterior.",
+  "optimizacion_final": "Textura nítida de plástico mate PBT y aluminio anodizado, máxima fidelidad microtextural, ausencia total de polvo o huellas, contraste balanceado y acabado fotográfico profesional."
+}
 \`\`\`
 `,
         tags: ["Fotografía", "Tech", "Minimalista", "Hardware"] as any
@@ -501,11 +569,11 @@ Minimalist studio macro photography of a matte black custom mechanical keyboard,
     {
         id: "prompt-futuristic-ai-server-room",
         type: "prompt",
-        title: "Next-Gen Quantum AI Server Infrastructure Core",
+        title: "Metodología R.E.A.L.I.S.M.O.: Next-Gen Quantum AI Server Infrastructure Core",
         slug: "next-gen-quantum-ai-server-core",
-        summary: "Escena fotográfica fotorrealista de sala de servidores cuánticos enfriados por líquido, luz cibernética azul y violeta, perspectiva de túnel profundo.",
+        summary: "Renderizado cinemático de centro de datos futurista de inteligencia artificial con racks fotónicos, tubos de refrigeración líquida y pulsos de datos cian y magenta.",
         category: "Cyberpunk & Sci-Fi",
-        system_type: "Midjourney v6",
+        system_type: "Midjourney v6 / REALISMO",
         process_state: "Sci-Fi",
         level: "advanced",
         is_published: true,
@@ -514,18 +582,52 @@ Minimalist studio macro photography of a matte black custom mechanical keyboard,
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         featured_image_url: "/images/cases/cyberpunk-fashion.jpg",
-        prompt_text: `Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercomputer server hall, glowing neon purple and deep blue fiber optic cables, reflection on polished dark floor, vanishing point perspective, volumetric haze, 8k --ar 4:5 --v 6.1`,
+        transition_dimensions: "L, I y M",
+        transition_detail: "la estética sci-fi, la niebla volumétrica y la perspectiva con punto de fuga central",
+        transition_user_target: "tus proyectos de infraestructura, tecnología o sci-fi",
+        prompt_text: `{
+  "render": "Infraestructura de servidor cuántico de inteligencia artificial de próxima generación. Racks metálicos oscuros con procesadores fotónicos, tubos de refrigeración líquida transparente y circuitos integrados expuestos.",
+  "entorno": "Sala de servidores o centro de datos futurista subterráneo de alta seguridad con pasillo central de cristal reflectante y estructuras cibernéticas a ambos lados.",
+  "accion": "Flujo continuo de luz y pulso de datos recorriendo las líneas de fibra óptica y los tubos de refrigeración con partículas de luz en movimiento.",
+  "lenguaje_visual": "Fotografía y renderizado cinematográfico de ciencia ficción, estética cyberpunk sofisticada, visualización de infraestructura tecnológica masiva.",
+  "iluminacion": "Iluminación ambiental azul eléctrico y cian combinada con pulsos de luz magenta y violeta saliendo del núcleo de cómputo. Sombras profundas en el pasillo.",
+  "sensacion": "Potencia computacional masiva, tecnología cuántica inaccesible, atmósfera misteriosa, futurista e imponente.",
+  "composicion": "Perspectiva punto de fuga central en formato vertical 4:5. El pasillo guía la mirada hacia el núcleo central del servidor cuántico en el fondo con simetría técnica.",
+  "optimizacion_final": "Resolución 8K, niebla volumétrica detallada, reflexiones en suelo pulido y cristal, alto rango dinámico (HDR), contraste cinemático y nitidez extrema."
+}`,
         body_markdown: `
-# Next-Gen Quantum AI Server Infrastructure Core
+# Metodología R.E.A.L.I.S.M.O.: Next-Gen Quantum AI Server Infrastructure Core
 
-Prompt cinemático para ilustrar infraestructura de servidores, Inteligencia Artificial y computación cuántica.
+Prompt visual estructurado bajo la metodología de 8 dimensiones **R.E.A.L.I.S.M.O.**
 
 ---
 
-## 🎨 Prompt Maestro
+## 🎨 Especificación R.E.A.L.I.S.M.O.
 
-\`\`\`text
-Photorealistic wide angle shot of a futuristic liquid-cooled quantum AI supercomputer server hall, glowing neon purple and deep blue fiber optic cables, reflection on polished dark floor, vanishing point perspective, volumetric haze, 8k --ar 4:5 --v 6.1
+- **R — Render / Avatar:** Infraestructura de servidor cuántico de inteligencia artificial de próxima generación. Racks metálicos oscuros con procesadores fotónicos, tubos de refrigeración líquida transparente y circuitos integrados expuestos.
+- **E — Entorno:** Sala de servidores o centro de datos futurista subterráneo de alta seguridad con pasillo central de cristal reflectante y estructuras cibernéticas a ambos lados.
+- **A — Acción / Postura:** Flujo continuo de luz y pulso de datos recorriendo las líneas de fibra óptica y los tubos de refrigeración con partículas de luz en movimiento.
+- **L — Lenguaje Visual:** Fotografía y renderizado cinematográfico de ciencia ficción, estética cyberpunk sofisticada, visualización de infraestructura tecnológica masiva.
+- **I — Iluminación:** Iluminación ambiental azul eléctrico y cian combinada con pulsos de luz magenta y violeta saliendo del núcleo de cómputo. Sombras profundas en el pasillo.
+- **S — Sensación / Atmósfera:** Potencia computacional masiva, tecnología cuántica inaccesible, atmósfera misteriosa, futurista e imponente.
+- **M — Composición / Cámara:** Perspectiva punto de fuga central en formato vertical 4:5. El pasillo guía la mirada hacia el núcleo central del servidor cuántico en el fondo con simetría técnica.
+- **O — Optimización final:** Resolución 8K, niebla volumétrica detallada, reflexiones en suelo pulido y cristal, alto rango dinámico (HDR), contraste cinemático y nitidez extrema.
+
+---
+
+## ⚙️ Estructura R.E.A.L.I.S.M.O. (JSON)
+
+\`\`\`json
+{
+  "render": "Infraestructura de servidor cuántico de inteligencia artificial de próxima generación. Racks metálicos oscuros con procesadores fotónicos, tubos de refrigeración líquida transparente y circuitos integrados expuestos.",
+  "entorno": "Sala de servidores o centro de datos futurista subterráneo de alta seguridad con pasillo central de cristal reflectante y estructuras cibernéticas a ambos lados.",
+  "accion": "Flujo continuo de luz y pulso de datos recorriendo las líneas de fibra óptica y los tubos de refrigeración con partículas de luz en movimiento.",
+  "lenguaje_visual": "Fotografía y renderizado cinematográfico de ciencia ficción, estética cyberpunk sofisticada, visualización de infraestructura tecnológica masiva.",
+  "iluminacion": "Iluminación ambiental azul eléctrico y cian combinada con pulsos de luz magenta y violeta saliendo del núcleo de cómputo. Sombras profundas en el pasillo.",
+  "sensacion": "Potencia computacional masiva, tecnología cuántica inaccesible, atmósfera misteriosa, futurista e imponente.",
+  "composicion": "Perspectiva punto de fuga central en formato vertical 4:5. El pasillo guía la mirada hacia el núcleo central del servidor cuántico en el fondo con simetría técnica.",
+  "optimizacion_final": "Resolución 8K, niebla volumétrica detallada, reflexiones en suelo pulido y cristal, alto rango dinámico (HDR), contraste cinemático y nitidez extrema."
+}
 \`\`\`
 `,
         tags: ["Cyberpunk", "AI Infrastructure", "Servers", "Sci-Fi"] as any
