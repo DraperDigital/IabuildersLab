@@ -310,7 +310,7 @@ ESTRUCTURA DE TRANSICIÓN:
         summary: "Fotografía de estudio comercial de alta gama para perfumería de lujo con iluminación chiaroscuro, reflejos sobre obsidiana y gotas de agua en cristal cristalino.",
         category: "Fotografía de Producto",
         system_type: "Midjourney v6 / REALISMO",
-        featured_image_url: "/images/cases/focal-earring.jpg",
+        featured_image_url: "/images/prompts/luxury-perfume-dark-elegance.jpg",
         process_state: "Estudio",
         level: "intermediate",
         is_published: true,
