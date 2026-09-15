@@ -20,40 +20,41 @@ const planDetails: Record<string, {
     access: {
         name: "Access",
         price: "$29",
-        period: "month",
+        period: "mes",
         trial: true,
         features: [
-            "All systems unlocked",
-            "All prompts & automations",
-            "Private Discord community",
-            "Priority email support",
-            "Monthly live workshops"
+            "Acceso total a 78+ Sistemas Operativos de IA",
+            "50+ Automatizaciones listas para desplegar",
+            "Curso Completo: Metodología R.E.A.L.I.S.M.O.™",
+            "Biblioteca de ejecución: Directivas y copy de conversión",
+            "Workshops mensuales de actualización en vivo",
+            "Comunidad privada en Discord"
         ]
     },
     plus: {
         name: "Plus",
         price: "$79",
-        period: "month",
+        period: "mes",
         trial: false,
         features: [
-            "Everything in Access",
-            "Exclusive advanced systems",
-            "Team collaboration tools",
-            "1-on-1 implementation calls",
-            "Custom automation builds"
+            "Todo lo incluido en Access",
+            "Llamadas grupales de calibración y feedback en vivo",
+            "Revisión mensual de tus flujos e implementaciones",
+            "Sistemas avanzados multi-agente y blueprints de escala",
+            "Hasta 3 asientos de equipo incluidos"
         ]
     },
     pro: {
         name: "Pro",
         price: "$199",
-        period: "month",
+        period: "mes",
         trial: false,
         features: [
-            "Everything in Plus",
-            "White-label licensing",
-            "Dedicated account manager",
-            "Custom system development",
-            "Unlimited team seats"
+            "Todo lo incluido en Plus",
+            "Licencia White-Label para entrega a clientes",
+            "Desarrollo de sistemas y flujos a medida",
+            "Gerente de cuenta y canal privado de soporte 1-a-1",
+            "Asientos de equipo ilimitados"
         ]
     },
     'social-inicio': {
@@ -112,7 +113,7 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                         <Link href={isSocial ? "/landing" : "/pricing"} className={`font-bold text-lg flex items-center gap-2 transition-colors ${isSocial ? 'text-white hover:text-[#0026FF]' : 'text-white hover:text-purple-300'
                             }`}>
                             <ArrowLeft className="h-5 w-5" />
-                            {isSocial ? 'Volver a la Landing' : 'Back to Pricing'}
+                            {isSocial ? 'Volver a la Landing' : 'Volver a Planes'}
                         </Link>
                         {isSocial && (
                             <div className="hidden md:block text-xl font-bold tracking-tighter">
@@ -131,16 +132,16 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                         }`}>
                         <Zap className={`h-4 w-4 ${isSocial ? 'text-[#0026FF]' : 'text-purple-400'}`} />
                         <span className={`text-sm font-medium ${isSocial ? 'text-[#0026FF]' : 'text-purple-300'}`}>
-                            {isSocial ? 'Pago Seguro SSL' : 'Secure Checkout'}
+                            Pago Seguro SSL
                         </span>
                     </div>
 
                     <h1 className={`text-4xl md:text-5xl font-bold mb-4 ${isSocial ? 'text-white' : 'bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent'
                         }`}>
-                        {isSocial ? 'Finaliza tu pedido' : 'Complete Your Purchase'}
+                        {isSocial ? 'Finaliza tu pedido' : 'Finaliza tu Suscripción'}
                     </h1>
                     <p className={isSocial ? 'text-gray-400' : 'text-purple-200'}>
-                        {isSocial ? 'Estás a un paso de transformar tu presencia en redes.' : "You're one step away from accessing the full library"}
+                        {isSocial ? 'Estás a un paso de transformar tu presencia en redes.' : "Estás a un paso de acceder a la infraestructura y metodología completa."}
                     </p>
                 </div>
 
@@ -155,12 +156,12 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                                 <CardTitle className="text-white">{plan.name}</CardTitle>
                                 {plan.trial && (
                                     <Badge className="bg-purple-500/30 text-purple-300 border border-purple-500/50">
-                                        14-Day Free Trial
+                                        14 Días de Prueba Gratis
                                     </Badge>
                                 )}
                             </div>
                             <CardDescription className={isSocial ? 'text-gray-400' : 'text-purple-300'}>
-                                {isSocial ? 'Resumen de tu selección' : 'Your selected subscription'}
+                                {isSocial ? 'Resumen de tu selección' : 'Plan seleccionado'}
                             </CardDescription>
                         </CardHeader>
                         <CardContent className="space-y-6">
@@ -173,7 +174,7 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
 
                             <div className="space-y-3">
                                 <p className={`font-semibold text-sm ${isSocial ? 'text-white' : 'text-white'}`}>
-                                    {isSocial ? 'Beneficios incluidos:' : "What's included:"}
+                                    {isSocial ? 'Beneficios incluidos:' : "Lo que incluye tu acceso:"}
                                 </p>
                                 {plan.features.map((feature) => (
                                     <div key={feature} className="flex items-start gap-2">
@@ -192,10 +193,10 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                         }`}>
                         <CardHeader>
                             <CardTitle className="text-white">
-                                {isSocial ? 'Crea tu cuenta' : 'Create Your Account'}
+                                {isSocial ? 'Crea tu cuenta' : 'Crea tu Cuenta'}
                             </CardTitle>
                             <CardDescription className={isSocial ? 'text-gray-400' : 'text-purple-300'}>
-                                {isSocial ? 'Para acceder a tu pack de contenido' : 'Start with your email to continue'}
+                                {isSocial ? 'Para acceder a tu pack de contenido' : 'Ingresa tu correo para comenzar'}
                             </CardDescription>
                         </CardHeader>
                         <CardContent className="space-y-6">
@@ -208,10 +209,10 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                                         </div>
                                         <div>
                                             <p className="font-medium text-sm text-white">
-                                                {isSocial ? 'Pago 100% seguro' : 'No payment required'}
+                                                {isSocial ? 'Pago 100% seguro' : (plan.trial ? 'Sin cobro inmediato' : 'Pago 100% seguro')}
                                             </p>
                                             <p className={`text-xs ${isSocial ? 'text-gray-500' : 'text-purple-300'}`}>
-                                                {isSocial ? 'Plataforma encriptada' : (plan.trial ? "Start your free trial now" : "Payment after account creation")}
+                                                {isSocial ? 'Plataforma encriptada' : (plan.trial ? "Comienza tus 14 días de prueba gratis" : "Activación inmediata tras registrarte")}
                                             </p>
                                         </div>
                                     </div>
@@ -219,9 +220,9 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
 
                                 <div className="space-y-3">
                                     {[
-                                        isSocial ? 'Acceso inmediato a los entregables' : 'Instant access to all content',
-                                        isSocial ? 'Garantía de satisfacción 7 días' : 'Cancel anytime, no questions asked',
-                                        isSocial ? 'Soporte prioritario via Discord' : '14-day money-back guarantee'
+                                        isSocial ? 'Acceso inmediato a los entregables' : 'Acceso instantáneo a todo el contenido',
+                                        isSocial ? 'Garantía de satisfacción 7 días' : 'Cancela cuando quieras en 1 clic',
+                                        isSocial ? 'Soporte prioritario via Discord' : '14 días de garantía incondicional'
                                     ].map((text, i) => (
                                         <div key={i} className="flex items-center gap-2 text-sm text-gray-300">
                                             <Check className={`h-4 w-4 ${isSocial ? 'text-[#A6FF2E]' : 'text-green-400'}`} />
@@ -236,14 +237,14 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                                     ? 'bg-[#0026FF] hover:bg-[#0026FF]/90 text-white shadow-[0_0_20px_rgba(0,38,255,0.4)]'
                                     : 'tech-gradient glow-effect'
                                     }`}>
-                                    {isSocial ? 'Completar Registro' : (plan.trial ? "Start Free Trial" : "Continue to Sign Up")}
+                                    {isSocial ? 'Completar Registro' : (plan.trial ? "Iniciar Prueba Gratis" : "Continuar con el Registro")}
                                 </Button>
                             </Link>
 
                             <p className="text-xs text-center text-gray-500">
                                 {isSocial
                                     ? 'Al continuar, aceptas nuestros Términos y Condiciones.'
-                                    : 'By continuing, you agree to our Terms of Service and Privacy Policy'}
+                                    : 'Al continuar, aceptas nuestros Términos de Servicio y Política de Privacidad.'}
                             </p>
                         </CardContent>
                     </Card>
@@ -254,13 +255,13 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                     <p className={`text-sm mb-4 ${isSocial ? 'text-gray-500' : 'text-purple-300'}`}>
                         {isSocial
                             ? 'Únete a marcas y emprendedores que ya están convirtiendo con nuestro contenido'
-                            : 'Trusted by 2,500+ builders worldwide'}
+                            : 'Utilizado por más de 2,500 creadores y constructores en todo el mundo'}
                     </p>
                     <div className="flex justify-center gap-8 text-xs text-gray-500">
                         {[
-                            isSocial ? 'Pago Encriptado' : 'Secure Payment',
-                            isSocial ? 'Todas las Tarjetas' : 'All Cards Accepted',
-                            isSocial ? 'Garantía de Devolución' : 'Money-Back Guarantee'
+                            isSocial ? 'Pago Encriptado' : 'Pago Seguro SSL',
+                            isSocial ? 'Todas las Tarjetas' : 'Todas las Tarjetas Aceptadas',
+                            isSocial ? 'Garantía de Devolución' : 'Garantía de Satisfacción'
                         ].map((badge, i) => (
                             <div key={i} className="flex items-center gap-2">
                                 <Check className={`h-4 w-4 ${isSocial ? 'text-[#A6FF2E]' : 'text-green-400'}`} />

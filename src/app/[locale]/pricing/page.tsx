@@ -8,67 +8,68 @@ const pricingPlans = [
     {
         name: "Free Preview",
         price: "$0",
-        period: "forever",
-        description: "Perfect to explore the content",
+        period: "gratis",
+        description: "Explora la estructura y calidad de nuestros sistemas",
         icon: Sparkles,
         features: [
-            "5 free preview systems",
-            "Basic prompt templates",
-            "Community access",
-            "Email support"
+            "3 sistemas esenciales de demostración",
+            "Framework introductorio R.E.A.L.I.S.M.O.",
+            "Plantillas de ejecución rápida",
+            "Acceso a la comunidad abierta"
         ],
-        cta: "Get Started",
+        cta: "Comenzar Gratis",
         featured: false,
         gradient: "from-gray-500 to-gray-600"
     },
     {
         name: "Access",
         price: "$29",
-        period: "month",
-        description: "For individuals building with AI",
+        period: "mes",
+        description: "Para constructores individuales y creadores que auto-implementan",
         icon: Zap,
         features: [
-            "All systems unlocked",
-            "All prompts & automations",
-            "Private Discord community",
-            "Priority email support",
-            "Monthly live workshops"
+            "Acceso total a 78+ Sistemas Operativos de IA",
+            "50+ Automatizaciones listas para desplegar",
+            "Curso Completo: Metodología R.E.A.L.I.S.M.O.™",
+            "Biblioteca de ejecución: Directivas y copy de conversión",
+            "Workshops mensuales de actualización en vivo",
+            "Comunidad privada en Discord"
         ],
-        cta: "Start Trial",
+        cta: "Iniciar Prueba de Acceso",
         featured: true,
         gradient: "from-purple-500 to-blue-500"
     },
     {
         name: "Plus",
         price: "$79",
-        period: "month",
-        description: "For teams scaling AI operations",
+        period: "mes",
+        description: "Para creadores avanzados y equipos que buscan calibración y escala",
         icon: Crown,
         features: [
-            "Everything in Access",
-            "Exclusive advanced systems",
-            "Team collaboration tools",
-            "1-on-1 implementation calls",
-            "Custom automation builds"
+            "Todo lo incluido en Access",
+            "Llamadas grupales de calibración y feedback en vivo",
+            "Revisión mensual de tus flujos e implementaciones",
+            "Sistemas avanzados multi-agente y blueprints de escala",
+            "Hasta 3 asientos de equipo incluidos"
         ],
-        cta: "Contact Sales",
+        cta: "Escalar con Plus",
         featured: false,
         gradient: "from-blue-500 to-cyan-500"
     },
     {
         name: "Pro",
         price: "$199",
-        period: "month",
-        description: "For agencies & enterprises",
+        period: "mes",
+        description: "Para agencias, consultoras y operaciones enterprise",
         icon: Crown,
         features: [
-            "Everything in Plus",
-            "White-label licensing",
-            "Dedicated account manager",
-            "Custom system development",
-            "Unlimited team seats"
+            "Todo lo incluido en Plus",
+            "Licencia White-Label para entrega a clientes",
+            "Desarrollo de sistemas y flujos a medida",
+            "Gerente de cuenta y canal privado de soporte 1-a-1",
+            "Asientos de equipo ilimitados"
         ],
-        cta: "Contact Sales",
+        cta: "Hablar con Ventas",
         featured: false,
         gradient: "from-pink-500 to-purple-500"
     }
@@ -86,14 +87,14 @@ export default function PricingPage() {
                 <div className="mx-auto max-w-3xl text-center mb-16">
                     <div className="inline-flex items-center gap-2 rounded-full bg-purple-500/10 px-4 py-2 border border-purple-500/30 mb-6">
                         <Zap className="h-4 w-4 text-purple-400" />
-                        <span className="text-sm font-medium text-purple-300">Simple, Transparent Pricing</span>
+                        <span className="text-sm font-medium text-purple-300">Infraestructura & Metodología Probada</span>
                     </div>
 
                     <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
-                        Choose Your Plan
+                        Elige el Nivel de tu Sistema
                     </h1>
                     <p className="text-xl text-purple-200">
-                        Unlock the complete library of AI systems, prompts, and automation blueprints.
+                        Accede a sistemas operativos de IA, flujos de automatización listos para desplegar y domina la metodología R.E.A.L.I.S.M.O.™ para construir activos digitales de alto impacto.
                     </p>
                 </div>
 
@@ -108,7 +109,7 @@ export default function PricingPage() {
                             >
                                 {plan.featured && (
                                     <div className="absolute top-0 right-0 bg-gradient-to-r from-purple-500 to-blue-500 text-white text-xs font-semibold px-4 py-1 rounded-bl-lg">
-                                        Most Popular
+                                        Más Popular
                                     </div>
                                 )}
 
@@ -157,19 +158,19 @@ export default function PricingPage() {
                 </div>
 
                 <div className="mt-16 text-center">
-                    <p className="text-purple-300 mb-4">All plans include a 14-day money-back guarantee. Cancel anytime.</p>
+                    <p className="text-purple-300 mb-4">Todos los planes incluyen 14 días de garantía incondicional. Cancela en cualquier momento con 1 clic.</p>
                     <div className="flex justify-center gap-8 text-sm text-purple-400">
                         <div className="flex items-center gap-2">
                             <Check className="h-4 w-4" />
-                            Secure Payment
+                            Pago Seguro SSL
                         </div>
                         <div className="flex items-center gap-2">
                             <Check className="h-4 w-4" />
-                            All Cards Accepted
+                            Todas las Tarjetas Aceptadas
                         </div>
                         <div className="flex items-center gap-2">
                             <Check className="h-4 w-4" />
-                            Money-Back Guarantee
+                            Garantía de Satisfacción
                         </div>
                     </div>
                 </div>
