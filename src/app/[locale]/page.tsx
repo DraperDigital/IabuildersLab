@@ -68,40 +68,52 @@ export default async function LandingPage() {
               </Link>
             </div>
 
-            {/* Feature cards with 3D Mouse Tracking */}
-            <div className="ag-fade-up grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl w-full">
-              <AntigravityCard className="p-8 text-left group">
-                <div className="rounded-2xl bg-gradient-to-br from-purple-500/20 to-purple-600/5 w-14 h-14 flex items-center justify-center mb-6 border border-purple-500/20 shadow-inner">
-                  <Code2 className="h-7 w-7 text-purple-400 group-hover:scale-110 transition-transform duration-300" />
+            {/* Feature cards */}
+            <div className="ag-fade-up grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full">
+              <Link href="/systems" className="block group text-left">
+                <div className="p-8 rounded-2xl border border-white/10 bg-slate-900/40 backdrop-blur-md hover:border-purple-500/40 hover:bg-slate-900/70 transition-all duration-300 hover:-translate-y-1 shadow-lg h-full flex flex-col justify-between">
+                  <div>
+                    <div className="rounded-xl bg-purple-500/10 w-12 h-12 flex items-center justify-center mb-6 border border-purple-500/20">
+                      <Code2 className="h-6 w-6 text-purple-400" />
+                    </div>
+                    <h3 className="text-xl font-bold text-white mb-2">{t('systemsTitle')}</h3>
+                    <p className="text-slate-400 text-sm leading-relaxed">{t('systemsDesc')}</p>
+                  </div>
+                  <div className="mt-6 flex items-center text-purple-400 text-sm font-medium group-hover:text-purple-300 transition-colors">
+                    Explorar <ArrowRight className="ml-1.5 w-4 h-4 transition-transform group-hover:translate-x-1" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">{t('systemsTitle')}</h3>
-                <p className="text-slate-400 leading-relaxed">{t('systemsDesc')}</p>
-                <div className="mt-6 flex items-center text-purple-400 text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity translate-x-[-10px] group-hover:translate-x-0 duration-300">
-                  Explorar <ArrowRight className="ml-1 w-4 h-4" />
-                </div>
-              </AntigravityCard>
+              </Link>
 
-              <AntigravityCard className="p-8 text-left group">
-                <div className="rounded-2xl bg-gradient-to-br from-blue-500/20 to-blue-600/5 w-14 h-14 flex items-center justify-center mb-6 border border-blue-500/20 shadow-inner">
-                  <Sparkles className="h-7 w-7 text-blue-400 group-hover:scale-110 transition-transform duration-300" />
+              <Link href="/prompts" className="block group text-left">
+                <div className="p-8 rounded-2xl border border-white/10 bg-slate-900/40 backdrop-blur-md hover:border-blue-500/40 hover:bg-slate-900/70 transition-all duration-300 hover:-translate-y-1 shadow-lg h-full flex flex-col justify-between">
+                  <div>
+                    <div className="rounded-xl bg-blue-500/10 w-12 h-12 flex items-center justify-center mb-6 border border-blue-500/20">
+                      <Sparkles className="h-6 w-6 text-blue-400" />
+                    </div>
+                    <h3 className="text-xl font-bold text-white mb-2">{t('promptsTitle')}</h3>
+                    <p className="text-slate-400 text-sm leading-relaxed">{t('promptsDesc')}</p>
+                  </div>
+                  <div className="mt-6 flex items-center text-blue-400 text-sm font-medium group-hover:text-blue-300 transition-colors">
+                    Explorar <ArrowRight className="ml-1.5 w-4 h-4 transition-transform group-hover:translate-x-1" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">{t('promptsTitle')}</h3>
-                <p className="text-slate-400 leading-relaxed">{t('promptsDesc')}</p>
-                <div className="mt-6 flex items-center text-blue-400 text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity translate-x-[-10px] group-hover:translate-x-0 duration-300">
-                  Explorar <ArrowRight className="ml-1 w-4 h-4" />
-                </div>
-              </AntigravityCard>
+              </Link>
 
-              <AntigravityCard className="p-8 text-left group">
-                <div className="rounded-2xl bg-gradient-to-br from-pink-500/20 to-pink-600/5 w-14 h-14 flex items-center justify-center mb-6 border border-pink-500/20 shadow-inner">
-                  <Zap className="h-7 w-7 text-pink-400 group-hover:scale-110 transition-transform duration-300" />
+              <Link href="/automations" className="block group text-left">
+                <div className="p-8 rounded-2xl border border-white/10 bg-slate-900/40 backdrop-blur-md hover:border-pink-500/40 hover:bg-slate-900/70 transition-all duration-300 hover:-translate-y-1 shadow-lg h-full flex flex-col justify-between">
+                  <div>
+                    <div className="rounded-xl bg-pink-500/10 w-12 h-12 flex items-center justify-center mb-6 border border-pink-500/20">
+                      <Zap className="h-6 w-6 text-pink-400" />
+                    </div>
+                    <h3 className="text-xl font-bold text-white mb-2">{t('automationsTitle')}</h3>
+                    <p className="text-slate-400 text-sm leading-relaxed">{t('automationsDesc')}</p>
+                  </div>
+                  <div className="mt-6 flex items-center text-pink-400 text-sm font-medium group-hover:text-pink-300 transition-colors">
+                    Explorar <ArrowRight className="ml-1.5 w-4 h-4 transition-transform group-hover:translate-x-1" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">{t('automationsTitle')}</h3>
-                <p className="text-slate-400 leading-relaxed">{t('automationsDesc')}</p>
-                <div className="mt-6 flex items-center text-pink-400 text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity translate-x-[-10px] group-hover:translate-x-0 duration-300">
-                  Explorar <ArrowRight className="ml-1 w-4 h-4" />
-                </div>
-              </AntigravityCard>
+              </Link>
             </div>
           </AntigravityHero>
 

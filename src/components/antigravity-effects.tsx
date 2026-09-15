@@ -9,14 +9,14 @@ export function AntigravityHero({ children }: { children: React.ReactNode }) {
     useEffect(() => {
         let ctx = gsap.context(() => {
             gsap.fromTo(".ag-fade-up",
-                { y: 80, opacity: 0, rotateX: 25, scale: 0.9 },
-                { y: 0, opacity: 1, rotateX: 0, scale: 1, duration: 1.5, stagger: 0.2, ease: "power4.out" }
+                { y: 30, opacity: 0 },
+                { y: 0, opacity: 1, duration: 0.8, stagger: 0.15, ease: "power2.out" }
             );
 
             // Floating animation for isometric background cards
             gsap.to(".ag-float", {
-                y: "-=20",
-                duration: 2.5,
+                y: "-=15",
+                duration: 3,
                 yoyo: true,
                 repeat: -1,
                 ease: "sine.inOut",
@@ -29,68 +29,15 @@ export function AntigravityHero({ children }: { children: React.ReactNode }) {
         return () => ctx.revert();
     }, []);
 
-    return <div ref={container} className="relative z-10 w-full flex flex-col items-center [perspective:1500px]">{children}</div>;
+    return <div ref={container} className="relative z-10 w-full flex flex-col items-center">{children}</div>;
 }
 
 export function AntigravityCard({ children, className = "" }: { children: React.ReactNode, className?: string }) {
-    const cardRef = useRef<HTMLDivElement>(null);
-
-    useEffect(() => {
-        const card = cardRef.current;
-        if (!card) return;
-
-        const handleMouseMove = (e: MouseEvent) => {
-            const rect = card.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-
-            const centerX = rect.width / 2;
-            const centerY = rect.height / 2;
-
-            // Exaggerated rotation for obvious effect
-            const rotateX = ((y - centerY) / centerY) * -25;
-            const rotateY = ((x - centerX) / centerX) * 25;
-
-            gsap.to(card, {
-                rotateX,
-                rotateY,
-                z: 80, // pop out a lot more
-                scale: 1.05,
-                duration: 0.3,
-                ease: "power2.out",
-                transformPerspective: 1200,
-            });
-        };
-
-        const handleMouseLeave = () => {
-            gsap.to(card, {
-                rotateX: 0,
-                rotateY: 0,
-                z: 0,
-                scale: 1,
-                duration: 1.2,
-                ease: "elastic.out(1, 0.3)",
-            });
-        };
-
-        card.addEventListener("mousemove", handleMouseMove);
-        card.addEventListener("mouseleave", handleMouseLeave);
-
-        return () => {
-            card.removeEventListener("mousemove", handleMouseMove);
-            card.removeEventListener("mouseleave", handleMouseLeave);
-        };
-    }, []);
-
     return (
         <div
-            ref={cardRef}
-            className={`rounded-3xl border border-white/20 bg-white/5 backdrop-blur-3xl shadow-[0_30px_60px_rgba(0,0,0,0.6),inset_0_1px_1px_rgba(255,255,255,0.2)] will-change-transform ${className}`}
-            style={{ transformStyle: 'preserve-3d' }}
+            className={`rounded-2xl border border-white/10 bg-slate-900/40 backdrop-blur-md hover:border-purple-500/40 hover:bg-slate-900/70 transition-all duration-300 hover:-translate-y-1 shadow-lg ${className}`}
         >
-            <div style={{ transform: 'translateZ(50px)' }}>
-                {children}
-            </div>
+            {children}
         </div>
     );
 }
