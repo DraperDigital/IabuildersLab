@@ -166,7 +166,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/luxury-bedtime-selfie.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -314,7 +314,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/playful-golden-hour-selfie.jpg",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -478,7 +478,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/pink-glow-ball-immersion.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -627,7 +627,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/cyberpunk-noir-sequence.jpg",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -780,7 +780,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/overhead-cozy-sofa.jpg",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -926,7 +926,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/fragile-tape-couture.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -1068,7 +1068,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/dual-split-light-portrait.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -1234,7 +1234,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/cloud-fantasy-portrait.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -1416,7 +1416,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/violet-monochrome-diva.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -1553,7 +1553,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/modern-chair-studio-portrait.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -1710,7 +1710,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/tropical-juice-selfie.jpg",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -1858,7 +1858,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/night-pool-polaroid-portrait.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -1997,7 +1997,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/butterfly-couture-portrait.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -2163,7 +2163,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/pastel-cyber-gamergirl.jpg",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -2302,7 +2302,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/black-cinematic-neon-poster.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -2444,7 +2444,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/subway-motion-blur-portrait.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -2588,7 +2588,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/futuristic-editorial-megan.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -2704,7 +2704,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/crimson-dominance-portrait.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -2810,7 +2810,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/snowy-mountain-swimsuit.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -2945,7 +2945,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/denim-backpack-garden-portrait.jpg",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -3082,7 +3082,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/denim-rose-wall-portrait.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -3209,7 +3209,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/minimalist-bw-chair-portrait.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -3345,7 +3345,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/orange-rim-light-editorial.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -3473,7 +3473,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/elevator-neon-editorial.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [
@@ -3603,7 +3603,7 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/floating-jump-mirror-water-surreal.png",
-        paywall_level: "pro",
+        paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         tags: [

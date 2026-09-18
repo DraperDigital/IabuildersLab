@@ -64,13 +64,8 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
     const prevPrompt = filteredIndex > 0 ? filteredPrompts[filteredIndex - 1] : null;
     const nextPrompt = filteredIndex < filteredPrompts.length - 1 ? filteredPrompts[filteredIndex + 1] : null;
 
-    // Mock Access Logic (To be replaced with real auth check later)
-    // For now, let's assume 'access' (Free) logic is: You see it if you are here (simulating logged in for demo) 
-    // BUT we will block 'pro' content.
-    const isProContent = prompt.paywall_level === "pro" || prompt.paywall_level === "plus";
-    // MOCK: Toggle this to test different user states. For now, we simulate a Free Tier user.
-    const userTier: string = "free";
-    const isLocked = isProContent && userTier !== "pro";
+    // Todos los prompts son 100% gratuitos - categoría premium eliminada
+    const isLocked = false;
 
     const jsonLd = {
         '@context': 'https://schema.org',
@@ -147,11 +142,7 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
                                     <Badge variant="outline" className="border-purple-500/50 text-purple-300">
                                         {prompt.category}
                                     </Badge>
-                                    {isProContent ? (
-                                        <Badge className="bg-amber-500/10 text-amber-500 border border-amber-500/50"> Premium</Badge>
-                                    ) : (
-                                        <Badge className="bg-emerald-500/10 text-emerald-500 border border-emerald-500/50">Free</Badge>
-                                    )}
+                                    <Badge className="bg-emerald-500/10 text-emerald-500 border border-emerald-500/50">Free</Badge>
                                 </div>
                                 <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
                                     {prompt.title}

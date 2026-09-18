@@ -11,7 +11,7 @@ interface CustomizationGuideProps {
     type?: 'portrait' | 'product';
 }
 
-export function CustomizationGuide({ guide, referenceImageGuide, isLocked, type = 'portrait' }: CustomizationGuideProps) {
+export function CustomizationGuide({ guide, referenceImageGuide, isLocked = false, type = 'portrait' }: CustomizationGuideProps) {
     if (!guide && !referenceImageGuide) return null;
 
     return (
@@ -24,8 +24,8 @@ export function CustomizationGuide({ guide, referenceImageGuide, isLocked, type 
                     <h2 className="text-2xl font-bold text-white">Guía de Personalización</h2>
                     <p className="text-slate-400 text-sm">Aprende a adaptar este prompt a tus necesidades específicas</p>
                 </div>
-                <Badge className="ml-auto bg-purple-500/20 text-purple-300 border-purple-500/30 hover:bg-purple-500/30">
-                    PREMIUM
+                <Badge className="ml-auto bg-emerald-500/10 text-emerald-400 border-emerald-500/30">
+                    INCLUIDA
                 </Badge>
             </div>
 

@@ -14,8 +14,8 @@ interface PromptCardProps {
 }
 
 export function PromptCard({ prompt }: PromptCardProps) {
-    const isLocked = prompt.paywall_level === "pro" || prompt.paywall_level === "plus";
-    const isFree = prompt.paywall_level === "access" || prompt.paywall_level === "free_preview";
+    const isLocked = false;
+    const isFree = true;
     const common = useTranslations('Common');
 
     const levelColors = {
@@ -115,15 +115,9 @@ export function PromptCard({ prompt }: PromptCardProps) {
 
                     {/* Access Badge */}
                     <div className="absolute top-3 right-3 z-10 flex gap-1.5 items-center">
-                        {isLocked ? (
-                            <Badge className="bg-amber-500/90 text-slate-950 font-bold border-none gap-1 text-[10px]">
-                                <Lock className="w-3 h-3" /> PRO
-                            </Badge>
-                        ) : (
-                            <Badge className="bg-emerald-500/90 text-slate-950 font-bold border-none text-[10px]">
-                                FREE
-                            </Badge>
-                        )}
+                        <Badge className="bg-emerald-500/90 text-slate-950 font-bold border-none text-[10px]">
+                            FREE
+                        </Badge>
                     </div>
 
                     {/* Content Info (Overlay at bottom) */}
