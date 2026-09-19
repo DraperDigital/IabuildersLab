@@ -38,6 +38,16 @@ export type ContentItem = {
     transition_detail?: string;
     transition_user_target?: string;
     carousel_images?: string[];
+    carousel_shots?: CarouselShot[];
+};
+
+export type CarouselShot = {
+    id: number;
+    title: string;
+    aspect_ratio?: string;
+    reference_image_required?: boolean;
+    image_url: string;
+    prompt: string;
 };
 
 export type ContentItemWithTags = ContentItem & {
@@ -58,6 +68,7 @@ export type CreateContentInput = {
     tag_ids?: string[];
     featured_image_url?: string;
     carousel_images?: string[];
+    carousel_shots?: CarouselShot[];
 };
 
 export type UpdateContentInput = Partial<CreateContentInput> & {

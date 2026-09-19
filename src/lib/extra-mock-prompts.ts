@@ -1721,6 +1721,80 @@ export const EXTRA_MOCK_PROMPTS = [
             "/images/prompts/tropical-juice-selfie/shot-7.jpg",
             "/images/prompts/tropical-juice-selfie/shot-8.jpg"
         ],
+        carousel_shots: [
+            {
+                id: 1,
+                title: "Toma 1: Selfie con Jugo & Mascota (Cover)",
+                aspect_ratio: "4:5",
+                reference_image_required: true,
+                image_url: "/images/prompts/tropical-juice-selfie.jpg",
+                prompt: "Using the attached reference image as the character design reference, keep the same woman, same black t-shirt. Show her taking a close selfie-style photo, sipping an orange drink through a pink straw, the same white fluffy dog beside her face, wooden tropical palapa roof and palm trees softly blurred in the background, bright daylight. No text, no letters, no numbers, no watermarks."
+            },
+            {
+                id: 2,
+                title: "Toma 2: Risa Espontánea mirando a cámara",
+                aspect_ratio: "4:5",
+                reference_image_required: true,
+                image_url: "/images/prompts/tropical-juice-selfie/shot-1.jpg",
+                prompt: "Using the attached reference image as the character design reference, keep the same woman, same black t-shirt. Show her laughing candidly with the same white fluffy dog next to her, both looking toward the camera, tropical outdoor setting with palm trees, bright daylight. No text, no letters, no numbers, no watermarks."
+            },
+            {
+                id: 3,
+                title: "Toma 3: Detalle de Mano sosteniendo el Jugo",
+                aspect_ratio: "4:5",
+                reference_image_required: true,
+                image_url: "/images/prompts/tropical-juice-selfie/shot-2.jpg",
+                prompt: "Using the attached reference image as the character design reference, keep the same woman, same black t-shirt. Close-up detail of her hand holding the orange drink with the pink straw, the white fluffy dog partially visible at the edge of frame, tropical background softly blurred. No text, no letters, no numbers, no watermarks."
+            },
+            {
+                id: 4,
+                title: "Toma 4: Caminata en Sendero Tropical (Plano Medio)",
+                aspect_ratio: "4:5",
+                reference_image_required: true,
+                image_url: "/images/prompts/tropical-juice-selfie/shot-3.jpg",
+                prompt: "Using the attached reference image as the character design reference, keep the same woman, same black t-shirt. Show her walking along a tropical garden path, medium shot, palm trees and greenery around her, no dog in frame, bright daylight. No text, no letters, no numbers, no watermarks."
+            },
+            {
+                id: 5,
+                title: "Toma 5: Perfil Contemplando el Océano",
+                aspect_ratio: "4:5",
+                reference_image_required: true,
+                image_url: "/images/prompts/tropical-juice-selfie/shot-4.jpg",
+                prompt: "Using the attached reference image as the character design reference, keep the same woman, same black t-shirt. Show her in profile, looking out toward the ocean or a tropical view, no dog in frame, warm daylight. No text, no letters, no numbers, no watermarks."
+            },
+            {
+                id: 6,
+                title: "Toma 6: Barandal de Madera & Contacto con Palma",
+                aspect_ratio: "4:5",
+                reference_image_required: true,
+                image_url: "/images/prompts/tropical-juice-selfie/shot-5.jpg",
+                prompt: "Using the attached reference image as the character design reference, keep the same woman, same black t-shirt. Show her leaning on a wooden railing, gently touching a palm leaf, tropical outdoor setting, no dog in frame, bright daylight. No text, no letters, no numbers, no watermarks."
+            },
+            {
+                id: 7,
+                title: "Toma 7: Plano Abierto en Jardín Tropical con Mascota",
+                aspect_ratio: "4:5",
+                reference_image_required: true,
+                image_url: "/images/prompts/tropical-juice-selfie/shot-6.jpg",
+                prompt: "Using the attached reference image as the character design reference, keep the same woman, same black t-shirt. Wide shot in a tropical garden or beachfront area, more of the environment visible, the same white fluffy dog on a leash beside her, bright daylight. No text, no letters, no numbers, no watermarks."
+            },
+            {
+                id: 8,
+                title: "Toma 8: Movimiento Espontáneo al Andar (Candid)",
+                aspect_ratio: "4:5",
+                reference_image_required: true,
+                image_url: "/images/prompts/tropical-juice-selfie/shot-7.jpg",
+                prompt: "Using the attached reference image as the character design reference, keep the same woman, same black t-shirt. Show her caught mid-motion walking through a tropical outdoor area, natural candid movement, no dog in frame, bright daylight. No text, no letters, no numbers, no watermarks."
+            },
+            {
+                id: 9,
+                title: "Toma 9: Cierre Relajado en Hamaca con Mascota",
+                aspect_ratio: "4:5",
+                reference_image_required: true,
+                image_url: "/images/prompts/tropical-juice-selfie/shot-8.jpg",
+                prompt: "Using the attached reference image as the character design reference, keep the same woman, same black t-shirt. Closing shot, seated relaxed in a hammock or outdoor chair, the same white fluffy dog resting on her lap, warm genuine smile directly at camera, tropical setting, bright daylight. No text, no letters, no numbers, no watermarks."
+            }
+        ],
         paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),

@@ -13,6 +13,7 @@ import { AvatarCourseCTA } from "@/components/avatar-course-cta";
 import { CustomizationGuide } from "@/components/customization-guide";
 import { TransitionBlock } from "@/components/transition-block";
 import { PromptImageModal } from "@/components/prompt-image-modal";
+import { CarouselPromptExperience } from "@/components/carousel-prompt-experience";
 import { Sparkles } from "lucide-react";
 import { getDistinctCategories } from "@/actions/content-actions";
 import { getUsedTags } from "@/actions/tags";
@@ -167,22 +168,41 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
                                 )}
                             </div>
 
-                            {/* 1. Main Visual (Result Image with "Ver Imagen" Popup Modal & Carousel Gallery) */}
-                            <PromptImageModal
-                                imageUrl={prompt.featured_image_url || ""}
-                                altText={prompt.title}
-                                title={prompt.title}
-                                carouselImages={prompt.carousel_images}
-                            />
+                            {prompt.carousel_shots && prompt.carousel_shots.length > 0 ? (
+                                <>
+                                    {/* Experiencia Interactiva de Carrusel con Prompts por Toma & Copiado Maestro */}
+                                    <CarouselPromptExperience
+                                        shots={prompt.carousel_shots}
+                                        defaultImageUrl={prompt.featured_image_url || ""}
+                                        title={prompt.title}
+                                        summary={prompt.summary}
+                                        masterPromptText={prompt.prompt_text}
+                                        isLocked={isLocked}
+                                    />
 
-                            {/* 2. Educational Framework Callout (Guía Maestra REALISMO) */}
-                            <ReaisempGuide />
+                                    {/* 2. Educational Framework Callout (Guía Maestra REALISMO) */}
+                                    <ReaisempGuide />
+                                </>
+                            ) : (
+                                <>
+                                    {/* 1. Main Visual (Result Image with "Ver Imagen" Popup Modal & Carousel Gallery) */}
+                                    <PromptImageModal
+                                        imageUrl={prompt.featured_image_url || ""}
+                                        altText={prompt.title}
+                                        title={prompt.title}
+                                        carouselImages={prompt.carousel_images}
+                                    />
 
-                            {/* 3. The Prompt Block with Aspect Ratio Selector */}
-                            <PromptDisplay
-                                promptText={prompt.prompt_text || "No prompt text provided."}
-                                isLocked={isLocked}
-                            />
+                                    {/* 2. Educational Framework Callout (Guía Maestra REALISMO) */}
+                                    <ReaisempGuide />
+
+                                    {/* 3. The Prompt Block with Aspect Ratio Selector */}
+                                    <PromptDisplay
+                                        promptText={prompt.prompt_text || "No prompt text provided."}
+                                        isLocked={isLocked}
+                                    />
+                                </>
+                            )}
 
                             {/* 4. Analysis Component (Table by dimension) */}
                             <FrameworkAnalysis promptText={prompt.prompt_text || ""} />

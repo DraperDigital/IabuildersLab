@@ -15,21 +15,37 @@ interface PromptImageModalProps {
     altText?: string;
     title?: string;
     carouselImages?: string[];
+    activeIndex?: number;
+    onIndexChange?: (index: number) => void;
 }
 
 export function PromptImageModal({
     imageUrl,
     altText = "Resultado del Prompt",
     title = "Resultado Visual",
-    carouselImages = []
+    carouselImages = [],
+    activeIndex,
+    onIndexChange
 }: PromptImageModalProps) {
     // Collect all images, prioritizing carouselImages if provided
     const allImages = carouselImages && carouselImages.length > 0 
         ? Array.from(new Set([imageUrl, ...carouselImages].filter(Boolean)))
         : (imageUrl ? [imageUrl] : []);
 
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [internalIndex, setInternalIndex] = useState(0);
     const [isOpen, setIsOpen] = useState(false);
+
+    const isControlled = activeIndex !== undefined && onIndexChange !== undefined;
+    const currentIndex = isControlled ? activeIndex : internalIndex;
+
+    const setCurrentIndex = (indexOrFn: number | ((prev: number) => number)) => {
+        const nextIndex = typeof indexOrFn === "function" ? indexOrFn(currentIndex) : indexOrFn;
+        if (isControlled) {
+            onIndexChange(nextIndex);
+        } else {
+            setInternalIndex(nextIndex);
+        }
+    };
 
     const hasMultiple = allImages.length > 1;
     const currentImage = allImages[currentIndex] || imageUrl;
