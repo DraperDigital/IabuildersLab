@@ -1710,6 +1710,17 @@ export const EXTRA_MOCK_PROMPTS = [
         is_published: true,
         is_featured: true,
         featured_image_url: "/images/prompts/tropical-juice-selfie.jpg",
+        carousel_images: [
+            "/images/prompts/tropical-juice-selfie.jpg",
+            "/images/prompts/tropical-juice-selfie/shot-1.jpg",
+            "/images/prompts/tropical-juice-selfie/shot-2.jpg",
+            "/images/prompts/tropical-juice-selfie/shot-3.jpg",
+            "/images/prompts/tropical-juice-selfie/shot-4.jpg",
+            "/images/prompts/tropical-juice-selfie/shot-5.jpg",
+            "/images/prompts/tropical-juice-selfie/shot-6.jpg",
+            "/images/prompts/tropical-juice-selfie/shot-7.jpg",
+            "/images/prompts/tropical-juice-selfie/shot-8.jpg"
+        ],
         paywall_level: "free_preview",
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),

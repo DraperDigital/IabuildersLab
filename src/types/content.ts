@@ -37,6 +37,7 @@ export type ContentItem = {
     transition_dimensions?: string;
     transition_detail?: string;
     transition_user_target?: string;
+    carousel_images?: string[];
 };
 
 export type ContentItemWithTags = ContentItem & {
@@ -56,6 +57,7 @@ export type CreateContentInput = {
     paywall_level?: PaywallLevel;
     tag_ids?: string[];
     featured_image_url?: string;
+    carousel_images?: string[];
 };
 
 export type UpdateContentInput = Partial<CreateContentInput> & {

@@ -138,11 +138,16 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
 
                             {/* Title Block */}
                             <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-4">
+                                <div className="flex items-center gap-3 mb-4 flex-wrap">
                                     <Badge variant="outline" className="border-purple-500/50 text-purple-300">
                                         {prompt.category}
                                     </Badge>
                                     <Badge className="bg-emerald-500/10 text-emerald-500 border border-emerald-500/50">Free</Badge>
+                                    {prompt.carousel_images && prompt.carousel_images.length > 0 && (
+                                        <Badge className="bg-purple-500/15 text-purple-200 border border-purple-500/40 font-mono text-xs">
+                                            📸 Pack Carrusel ({prompt.carousel_images.length} Tomas)
+                                        </Badge>
+                                    )}
                                 </div>
                                 <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
                                     {prompt.title}
@@ -162,11 +167,12 @@ export default async function PromptDetailPage({ params }: PromptDetailPageProps
                                 )}
                             </div>
 
-                            {/* 1. Main Visual (Result Image with "Ver Imagen" Popup Modal) */}
+                            {/* 1. Main Visual (Result Image with "Ver Imagen" Popup Modal & Carousel Gallery) */}
                             <PromptImageModal
                                 imageUrl={prompt.featured_image_url || ""}
                                 altText={prompt.title}
                                 title={prompt.title}
+                                carouselImages={prompt.carousel_images}
                             />
 
                             {/* 2. Educational Framework Callout (Guía Maestra REALISMO) */}

@@ -106,6 +106,11 @@ export function PromptCard({ prompt }: PromptCardProps) {
                         <Badge variant="outline" className="bg-slate-950/80 backdrop-blur-md border-white/20 text-white text-[10px] uppercase tracking-wider font-mono">
                             {prompt.category || "AI"}
                         </Badge>
+                        {prompt.carousel_images && prompt.carousel_images.length > 0 && (
+                            <Badge variant="outline" className="bg-purple-600/80 backdrop-blur-md border-purple-400/40 text-white text-[10px] uppercase tracking-wider font-mono">
+                                📸 {prompt.carousel_images.length} Slides
+                            </Badge>
+                        )}
                         {prompt.system_type && (
                             <Badge variant="outline" className="bg-blue-600/60 backdrop-blur-md border-blue-400/30 text-white text-[10px] uppercase tracking-wider font-mono">
                                 {prompt.system_type}
