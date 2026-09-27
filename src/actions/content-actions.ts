@@ -122,7 +122,7 @@ function applyMockFilters(content: ContentItem[], filters?: { type?: string; sta
     return result;
 }
 
-export async function listContent(filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; page?: number; limit?: number; excludeCategories?: string[]; isSop?: boolean; isSkill?: boolean }) {
+export async function listContent(filters?: { type?: string; status?: string; search?: string; category?: string; tag?: string; domain?: string; level?: string; page?: number; limit?: number; excludeCategories?: string[]; isSop?: boolean; isSkill?: boolean }) {
     const isMock = (await cookies()).get('mock_session')?.value === 'true';
 
     // Explicit mock check
@@ -131,7 +131,6 @@ export async function listContent(filters?: { type?: string; status?: string; se
         let content = applyMockFilters(ALL_MOCK_CONTENT, filters);
 
         // Sort by updated_at desc
-        // Sort by updated_at desc, then by title asc
         content.sort((a, b) => {
             const timeDiff = new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime();
             if (timeDiff !== 0) return timeDiff;
@@ -168,6 +167,14 @@ export async function listContent(filters?: { type?: string; status?: string; se
 
         if (filters?.type && filters.type !== 'all') {
             query = query.eq('type', filters.type);
+        }
+
+        if (filters?.domain) {
+            query = query.eq('dominio', filters.domain);
+        }
+
+        if (filters?.level) {
+            query = query.eq('level', filters.level);
         }
 
         if (filters?.status) {

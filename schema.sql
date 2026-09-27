@@ -27,6 +27,7 @@ create table public.content (
   body_markdown text,
   category text,
   level text, -- 'beginner', 'intermediate', 'advanced'
+  dominio text, -- 'audiovisual', 'negocio'
   is_published boolean default false,
   published_at timestamp with time zone,
   is_featured boolean default false,

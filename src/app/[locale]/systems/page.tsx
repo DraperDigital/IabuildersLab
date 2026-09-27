@@ -14,9 +14,8 @@ export default async function SystemsPage({ searchParams }: { searchParams: Prom
     const tag = typeof resolvedParams.tag === 'string' ? resolvedParams.tag : undefined;
     const search = typeof resolvedParams.search === 'string' ? resolvedParams.search : undefined;
     
-    // In a real app we'd also pass these to listContent backend, but for UI/UX it's fine
-    // const domain = typeof resolvedParams.domain === 'string' ? resolvedParams.domain : undefined;
-    // const level = typeof resolvedParams.level === 'string' ? resolvedParams.level : undefined;
+    const domain = typeof resolvedParams.domain === 'string' ? resolvedParams.domain : undefined;
+    const level = typeof resolvedParams.level === 'string' ? resolvedParams.level : undefined;
 
     const pageParam = typeof resolvedParams.page === 'string' ? parseInt(resolvedParams.page) : 1;
     const page = isNaN(pageParam) || pageParam < 1 ? 1 : pageParam;
@@ -32,6 +31,8 @@ export default async function SystemsPage({ searchParams }: { searchParams: Prom
             status: 'published',
             category,
             tag,
+            domain,
+            level,
             search,
             page,
             limit,

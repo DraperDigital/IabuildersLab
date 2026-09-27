@@ -15,6 +15,9 @@ export default async function CopyLibraryPage({ searchParams }: { searchParams: 
     const tag = typeof resolvedParams.tag === 'string' ? resolvedParams.tag : undefined;
     const search = typeof resolvedParams.search === 'string' ? resolvedParams.search : undefined;
 
+    const domain = typeof resolvedParams.domain === 'string' ? resolvedParams.domain : undefined;
+    const level = typeof resolvedParams.level === 'string' ? resolvedParams.level : undefined;
+
     const pageParam = typeof resolvedParams.page === 'string' ? parseInt(resolvedParams.page) : 1;
     const page = isNaN(pageParam) || pageParam < 1 ? 1 : pageParam;
     const limit = 20; // List view can handle more items
@@ -29,6 +32,8 @@ export default async function CopyLibraryPage({ searchParams }: { searchParams: 
             status: 'published',
             category,
             tag,
+            domain,
+            level,
             search,
             page,
             limit
