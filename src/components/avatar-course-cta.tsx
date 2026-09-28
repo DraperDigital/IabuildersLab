@@ -22,17 +22,17 @@ export function AvatarCourseCTA() {
                     </div>
                     <div className="space-y-1">
                         <h3 className="text-xl font-bold text-white leading-tight">
-                            ¿Quieres aprender a aplicar este prompt a tu propio Avatar?
+                            ¿Quieres dominar la consistencia de tu propio personaje IA?
                         </h3>
                         <p className="text-slate-400 text-sm">
-                            Descubre el curso paso a paso para crear avatares consistentes y profesionales.
+                            Descubre el método REALISMO Blueprint para mantener la misma cara en cada foto y video.
                         </p>
                     </div>
                 </div>
 
                 <Link href="/courses/avatar-masterclass" className="relative z-10 w-full md:w-auto">
-                    <button className="w-full md:w-auto px-6 py-3 bg-white text-purple-950 font-bold rounded-lg hover:scale-105 hover:shadow-[0_0_20px_rgba(168,85,247,0.4)] transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap">
-                        Ver Curso de Implementación
+                    <button className="w-full md:w-auto px-6 py-3 bg-white text-purple-950 font-bold rounded-lg hover:scale-105 hover:shadow-[0_0_20px_rgba(168,85,247,0.4)] transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer">
+                        Ver REALISMO Blueprint
                         <ArrowRight className="w-4 h-4 ml-1" />
                     </button>
                 </Link>

@@ -83,6 +83,59 @@ const planDetails: Record<string, {
             "1 ronda de ajustes",
             "Base de Mensaje incluida"
         ]
+    },
+    'realismo-guia': {
+        name: "REALISMO Blueprint · Guía Completa",
+        price: "$9.99",
+        period: "one-time",
+        trial: false,
+        features: [
+            "PDF completo de 23 páginas con el método de 4 fases",
+            "Ficha de identidad (cara y personalidad)",
+            "Plantillas de prompt maestro listas para copiar",
+            "Checklist de calidad antes de animar en video",
+            "Acceso de por vida y garantía incondicional de 7 días"
+        ]
+    },
+    'avatar-masterclass': {
+        name: "REALISMO Blueprint · Guía Completa",
+        price: "$9.99",
+        period: "one-time",
+        trial: false,
+        features: [
+            "PDF completo de 23 páginas con el método de 4 fases",
+            "Ficha de identidad (cara y personalidad)",
+            "Plantillas de prompt maestro listas para copiar",
+            "Checklist de calidad antes de animar en video",
+            "Acceso de por vida y garantía incondicional de 7 días"
+        ]
+    },
+    'realismo-bundle': {
+        name: "REALISMO Blueprint · Bundle Completo",
+        price: "$25",
+        period: "one-time",
+        trial: false,
+        features: [
+            "Todo lo incluido en la Guía completa (PDF de 23 páginas)",
+            "Masterclass grabada de 50 a 60 min con el caso Megan",
+            "Pack de prompts completo (casting, 3 hojas y escenas)",
+            "Skills para Claude y versión en prompts universales",
+            "Archivos de Megan en alta resolución",
+            "Acceso de por vida y garantía incondicional de 7 días"
+        ]
+    },
+    'realismo-bundle-upgrade': {
+        name: "Upgrade a REALISMO Blueprint Bundle",
+        price: "$15.01",
+        period: "one-time",
+        trial: false,
+        features: [
+            "Masterclass grabada de 50 a 60 min en video",
+            "Pack de prompts del caso Megan (hojas y escenas)",
+            "Skills para Claude del método",
+            "Archivos de alta resolución de Megan",
+            "Acceso de por vida y garantía de 7 días"
+        ]
     }
 };
 
@@ -91,6 +144,10 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
     const planKey = params.plan || 'access';
     const plan = planDetails[planKey] || planDetails.access;
     const isSocial = planKey.startsWith('social-');
+    const isRealismo = planKey.startsWith('realismo-') || planKey === 'avatar-masterclass';
+
+    const backHref = isSocial ? "/landing" : (isRealismo ? "/courses/avatar-masterclass" : "/pricing");
+    const backLabel = isSocial ? 'Volver a la Landing' : (isRealismo ? 'Volver a REALISMO Blueprint' : 'Volver a Planes');
 
     return (
         <div className={`flex min-h-screen flex-col ${isSocial
@@ -110,10 +167,10 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
             <header className={`relative z-40 border-b ${isSocial ? 'border-white/10' : 'border-purple-500/20'} glass-effect`}>
                 <div className="container mx-auto px-4">
                     <div className="flex h-16 items-center justify-between py-4">
-                        <Link href={isSocial ? "/landing" : "/pricing"} className={`font-bold text-lg flex items-center gap-2 transition-colors ${isSocial ? 'text-white hover:text-[#0026FF]' : 'text-white hover:text-purple-300'
+                        <Link href={backHref} className={`font-bold text-lg flex items-center gap-2 transition-colors ${isSocial ? 'text-white hover:text-[#0026FF]' : 'text-white hover:text-purple-300'
                             }`}>
                             <ArrowLeft className="h-5 w-5" />
-                            {isSocial ? 'Volver a la Landing' : 'Volver a Planes'}
+                            {backLabel}
                         </Link>
                         {isSocial && (
                             <div className="hidden md:block text-xl font-bold tracking-tighter">
@@ -255,7 +312,7 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                     <p className={`text-sm mb-4 ${isSocial ? 'text-gray-500' : 'text-purple-300'}`}>
                         {isSocial
                             ? 'Únete a marcas y emprendedores que ya están convirtiendo con nuestro contenido'
-                            : 'Utilizado por más de 2,500 creadores y constructores en todo el mundo'}
+                            : (isRealismo ? 'Método probado y documentado para consistencia de personajes IA' : 'Sistemas y flujos de trabajo probados en proyectos propios')}
                     </p>
                     <div className="flex justify-center gap-8 text-xs text-gray-500">
                         {[
