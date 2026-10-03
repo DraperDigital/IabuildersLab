@@ -10,7 +10,10 @@ import { CopyButton } from "@/components/copy-button";
 import { PublicHeader } from "@/components/public-header";
 
 interface PageProps {
-    params: Promise<{ slug: string }>;
+    params: Promise<{
+        locale: string;
+        slug: string;
+    }>;
 }
 
 const levelTranslations: Record<string, string> = {
