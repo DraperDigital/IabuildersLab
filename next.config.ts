@@ -7,6 +7,9 @@ const withNextIntl = createNextIntlPlugin(
 
 const nextConfig: NextConfig = {
   devIndicators: false,
+  experimental: {
+    optimizePackageImports: ['@radix-ui', 'lucide-react'],
+  },
   images: {
     remotePatterns: [
       {
