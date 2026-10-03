@@ -320,6 +320,16 @@ export default function AvatarMasterclassPage() {
                             </p>
                         </div>
 
+                        {/* Outcome: Futuro Deseado */}
+                        <div className="max-w-3xl mx-auto text-center mt-16 pt-12 border-t border-white/10 space-y-3">
+                            <h3 className="text-2xl md:text-3xl font-bold text-white tracking-tight">
+                                Así se ve cuando tu personaje ya no cambia de cara
+                            </h3>
+                            <p className="text-slate-300 text-base md:text-lg leading-relaxed font-light">
+                                Publicas todos los días sin generar 20 veces para encontrar una cara que se parezca. Tu audiencia reconoce a tu personaje en cualquier foto, cualquier video, cualquier escenario — porque es el mismo, siempre. Construyes una marca o una cuenta alrededor de una identidad fija, no de suerte en cada prompt.
+                            </p>
+                        </div>
+
                     </div>
                 </section>
 
@@ -941,6 +951,13 @@ export default function AvatarMasterclassPage() {
                                 </div>
                             </Card>
 
+                        </div>
+
+                        {/* Value Contrast Callout */}
+                        <div className="max-w-3xl mx-auto text-center mb-8 px-5 py-3.5 rounded-xl bg-purple-500/10 border border-purple-500/20">
+                            <p className="text-purple-200 text-sm md:text-base font-medium leading-relaxed">
+                                El bundle incluye todo lo de la guía — más 50-60 min de masterclass grabada, el pack de prompts del caso Megan y las skills para Claude — por $15 USD más.
+                            </p>
                         </div>
 
                         {/* Risk Reversal Guarantee */}
