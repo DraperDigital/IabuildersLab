@@ -2,15 +2,17 @@ import { ContentForm } from "@/components/content-form"
 import { getContent } from "@/actions/content-actions"
 
 interface EditContentPageProps {
-    params: {
-        id: string
-    }
+    params: Promise<{
+        id: string;
+        locale: string;
+    }>;
 }
 
 export default async function EditContentPage({ params }: EditContentPageProps) {
+    const { id } = await params;
     let content = null;
     try {
-        const result = await getContent(params.id);
+        const result = await getContent(id);
         if (result.error) {
             return <div>Error loading content: {result.error}</div>;
         }
