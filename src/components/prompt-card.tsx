@@ -1,3 +1,4 @@
+import { getFallbackImage } from "@/lib/image-utils";
 import { Link } from "@/i18n/routing";
 import { ContentItem } from "@/types/content";
 import { Badge } from "@/components/ui/badge";
@@ -26,6 +27,9 @@ export function PromptCard({ prompt }: PromptCardProps) {
 
     const promptCopyText = prompt.prompt_text || prompt.body_markdown || prompt.summary || prompt.title;
     const isSkill = isSkillItem(prompt);
+    
+    // Determine image source with fallback
+    const imageSrc = prompt.featured_image_url || getFallbackImage(prompt.slug);
 
     if (isSopItem(prompt)) {
         const isSystemSop = prompt.id.startsWith('sop-') || prompt.title.toLowerCase().startsWith('sop:');
@@ -86,18 +90,11 @@ export function PromptCard({ prompt }: PromptCardProps) {
             <Link href={`/prompts/${prompt.slug}`}>
                 {/* Image Container */}
                 <div className="relative aspect-[4/5] w-full overflow-hidden">
-                    {prompt.featured_image_url ? (
-                        <img
-                            src={prompt.featured_image_url}
-                            alt={prompt.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                        />
-                    ) : (
-                        <div className="flex h-full w-full items-center justify-center bg-slate-800 text-slate-600">
-                            <ImageIcon className="h-12 w-12" />
-                        </div>
-                    )}
-
+                    <img
+                        src={imageSrc}
+                        alt={prompt.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
                     {/* Overlay Gradient */}
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent opacity-90" />
 
