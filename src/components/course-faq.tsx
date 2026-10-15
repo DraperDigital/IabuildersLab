@@ -18,8 +18,12 @@ const FAQS: FAQItem[] = [
         answer: "Sí. La guía va paso a paso desde la foto oficial; si nunca has generado una imagen, empieza por el casting de la Fase 01."
     },
     {
-        question: "¿Funciona para producto o marca?",
-        answer: "El método está hecho para personajes. Los principios (una sola fuente, referencia fija, variar solo lo necesario) sirven para producto, pero los ejemplos y plantillas son de personajes."
+        question: "¿Sirve para mi tipo de producto?",
+        answer: "Sí: bebidas, cosmética, ropa, accesorios, comida empacada y suplementos. El caso que recorremos de principio a fin a lo largo del curso es una botella de hidromiel artesanal (Vallehalla)."
+    },
+    {
+        question: "¿Mis clientes van a notar que es IA?",
+        answer: "Para eso son el checklist del cierre y el look UGC del módulo 3: eliminamos texturas plásticas, cuidamos manos y reflejos, y logramos un estilo de celular creíble que vende en vez de espantar compradores."
     },
     {
         question: "¿Cuánto tiempo tengo acceso?",
@@ -53,7 +57,7 @@ const FAQS: FAQItem[] = [
     },
     {
         question: "¿Qué diferencia hay entre la guía y el bundle?",
-        answer: "La guía es el método completo en PDF (23 páginas + plantillas listas para copiar). El bundle agrega la masterclass grabada de 50 a 60 minutos con el proceso en pantalla, el pack de prompts del caso Megan, las skills para Claude y los ejemplos en alta resolución."
+        answer: "La guía es el método completo en PDF (23 páginas + plantillas listas para copiar). El bundle incluye la guía completa y Fase 01 con entrega inmediata, más el acceso en preventa a los módulos 2 y 3 grabados en pantalla con producto real (caso Vallehalla), video UGC hablado, el pack de prompts y las skills para Claude."
     },
     {
         question: "¿Necesito entrenar un LoRA?",

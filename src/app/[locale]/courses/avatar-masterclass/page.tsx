@@ -29,17 +29,17 @@ import { CreatorBio } from "@/components/creator-bio";
 import { LeadMagnetForm } from "@/components/lead-magnet-form";
 
 export const metadata: Metadata = {
-    title: "Personajes IA que no cambian de cara · REALISMO Blueprint | IA Builders Lab",
-    description: "Método de 4 fases para crear o rescatar un personaje IA con la misma cara en cada foto y video. Guía 9.99 USD, bundle 25 USD.",
+    title: "Tu modelo IA para fotos y videos de tu producto · REALISMO Blueprint",
+    description: "Crea una modelo que no cambia, ponla con tu producto en cualquier escena y llévala a video tipo UGC. Sin modelo, sin fotógrafo, sin locación. Caso Vallehalla.",
     openGraph: {
-        title: "Personajes IA que no cambian de cara · REALISMO Blueprint",
-        description: "La misma cara en cada foto y video. Con cualquier herramienta. Método de 4 fases para crear o rescatar tu personaje IA.",
+        title: "Tu modelo IA para fotos y videos de tu producto · REALISMO Blueprint",
+        description: "Crea una modelo que no cambia, ponla con tu producto en cualquier escena y llévala a video tipo UGC. Sin modelo, sin fotógrafo, sin locación.",
         images: [
             {
                 url: "/images/courses/avatar-masterclass/megan-hero-presentation.png",
                 width: 1200,
                 height: 630,
-                alt: "REALISMO Blueprint - Consistencia de Personajes IA con Megan"
+                alt: "REALISMO Blueprint - Tu modelo IA para fotos y videos de tu producto"
             }
         ]
     }
@@ -80,38 +80,31 @@ export default function AvatarMasterclassPage() {
                                 {/* Pill Top Badge */}
                                 <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-purple-500/15 border border-purple-500/30 text-purple-200 text-xs md:text-sm font-semibold tracking-wide uppercase mb-6 shadow-[0_0_15px_rgba(168,85,247,0.15)] backdrop-blur-md">
                                     <Sparkles className="w-4 h-4 text-purple-300" />
-                                    <span>REALISMO Blueprint · Método de Consistencia</span>
+                                    <span>REALISMO Blueprint · Para Marcas con Producto</span>
                                 </div>
 
                                 {/* Headline */}
                                 <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 tracking-tight leading-[1.08] drop-shadow-md">
-                                    Personajes IA que <br />
+                                    Tu modelo IA para fotos y videos de tu producto. <br />
                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 via-pink-300 to-indigo-300">
-                                        no cambian de cara
+                                        Siempre la misma cara.
                                     </span>
                                 </h1>
 
-                                {/* Slide Sub-highlight Pill */}
-                                <div className="inline-block px-3.5 py-2 rounded-xl bg-purple-950/70 border border-purple-500/30 text-purple-200 text-sm font-medium mb-4 backdrop-blur-md max-w-xl leading-relaxed">
-                                    No anclamos la cara con descripciones: la anclamos con una foto oficial. Y no nos quedamos en la imagen: la llevamos a video.
-                                </div>
-
                                 {/* Subtitle */}
                                 <p className="text-base sm:text-xl text-slate-300 leading-relaxed font-light mb-6 max-w-xl">
-                                    Un método de 4 fases para crear —o rescatar— tu personaje IA y dejar de generar &quot;gente random&quot;.
+                                    Crea una modelo que no cambia, ponla con tu producto en cualquier escena y llévala a video tipo UGC. Sin modelo, sin fotógrafo, sin locación.
                                 </p>
 
                                 {/* Presentation Pills */}
                                 <div className="flex flex-wrap items-center gap-2 mb-8 text-xs text-slate-400 font-mono">
-                                    <span className="px-2.5 py-1 rounded-md bg-slate-900/80 border border-slate-800 text-purple-300 backdrop-blur-sm">4 fases</span>
-                                    <span>•</span>
                                     <span className="px-2.5 py-1 rounded-md bg-purple-500/20 border border-purple-500/40 text-purple-200 backdrop-blur-sm font-semibold">Foto oficial</span>
                                     <span>•</span>
-                                    <span className="px-2.5 py-1 rounded-md bg-purple-500/20 border border-purple-500/40 text-purple-200 backdrop-blur-sm font-semibold">De imagen a video</span>
+                                    <span className="px-2.5 py-1 rounded-md bg-purple-500/20 border border-purple-500/40 text-purple-200 backdrop-blur-sm font-semibold">Tu producto en escena</span>
                                     <span>•</span>
-                                    <span className="px-2.5 py-1 rounded-md bg-slate-900/80 border border-slate-800 text-purple-300 backdrop-blur-sm">Caso real</span>
+                                    <span className="px-2.5 py-1 rounded-md bg-purple-500/20 border border-purple-500/40 text-purple-200 backdrop-blur-sm font-semibold">UGC en video</span>
                                     <span>•</span>
-                                    <span className="px-2.5 py-1 rounded-md bg-slate-900/80 border border-slate-800 text-purple-300 backdrop-blur-sm">Plantillas</span>
+                                    <span className="px-2.5 py-1 rounded-md bg-slate-900/80 border border-slate-800 text-purple-300 backdrop-blur-sm">Caso Vallehalla</span>
                                 </div>
 
                                 {/* CTAs */}
@@ -282,17 +275,17 @@ export default function AvatarMasterclassPage() {
                                 },
                                 {
                                     num: "03",
-                                    title: "Le pides cosas contradictorias",
-                                    desc: "Cuando cambias de ropa o escena sin una cápsula definida y le pides cosas opuestas a la referencia, el modelo se bloquea: improvisa piel de plástico y borra los rasgos que le daban identidad.",
-                                    example: 'Ejemplo: piel con textura natural + "sin imperfecciones, porcelana".',
-                                    fix: "SE ARREGLA EN LA FASE 03 (ROLES Y CÁPSULA)"
+                                    title: "Pones tu producto y la modelo pierde el rostro o el producto se deforma",
+                                    desc: "Integrar un producto real (botella, envase, accesorio) sin una técnica fija hace que el modelo de IA deforme las etiquetas, altere los logos o borre por completo la cara de tu modelo.",
+                                    example: "Ejemplo: pides que sostenga tu producto y el envase sale derretido o la modelo cambia de persona.",
+                                    fix: "SE ARREGLA EN LA FASE 03 (PRODUCTO EN ESCENA)"
                                 },
                                 {
                                     num: "04",
-                                    title: "Mezclas fuentes y prompts al azar",
-                                    desc: "Si combinas la foto de una persona con la ficha descriptiva de tu personaje o prompts sueltos desordenados, la IA intenta promediar y genera a alguien que no se puede repetir.",
-                                    example: "Ejemplo: subes una foto real y le pegas la descripción de tu personaje esperando que la IA adivine.",
-                                    fix: "SE ARREGLA EN LA FASE 04 (PROMPT REALISMO)"
+                                    title: "Se ve de IA y tu cliente lo nota",
+                                    desc: "Piel de plástico, manos deformes, textos ilegibles o miradas perdidas. Si tu contenido grita 'hecho con IA', le resta valor a tu marca y espanta a los compradores en vez de convertirlos.",
+                                    example: "Ejemplo: reflejos imposibles, 6 dedos o texturas plásticas que delatan la generación artificial.",
+                                    fix: "SE ARREGLA EN LA FASE 04 (CHECKLIST + LOOK UGC)"
                                 }
                             ].map((card, i) => (
                                 <div 
@@ -434,10 +427,10 @@ export default function AvatarMasterclassPage() {
                                     <div className="p-4 rounded-xl bg-slate-900/60 border border-white/5 space-y-2">
                                         <div className="flex items-center gap-2">
                                             <span className="text-xs font-mono font-bold px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300">03</span>
-                                            <h4 className="text-base font-bold text-white">Roles y cápsula</h4>
+                                            <h4 className="text-base font-bold text-white">Tu producto en escena</h4>
                                         </div>
                                         <p className="text-xs text-slate-300 leading-relaxed font-light">
-                                            <strong>Sales con:</strong> 3 a 5 roles definidos (trabajo, gym, día a día) y armario cápsula de 8–12 prendas sin diluir la marca.
+                                            <strong>Sales con:</strong> Tu producto real (botella, envase, prenda o accesorio) integrado en estudio, lifestyle e interiores sin perder la cara ni deformar etiquetas o logos.
                                         </p>
                                     </div>
 
@@ -445,10 +438,10 @@ export default function AvatarMasterclassPage() {
                                     <div className="p-4 rounded-xl bg-slate-900/60 border border-white/5 space-y-2">
                                         <div className="flex items-center gap-2">
                                             <span className="text-xs font-mono font-bold px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300">04</span>
-                                            <h4 className="text-base font-bold text-white">Prompt maestro REALISMO</h4>
+                                            <h4 className="text-base font-bold text-white">UGC que vende + Checklist</h4>
                                         </div>
                                         <p className="text-xs text-slate-300 leading-relaxed font-light">
-                                            <strong>Sales con:</strong> Fotos y videos de la misma cara usando las 8 letras del framework traducidas a lenguaje natural.
+                                            <strong>Sales con:</strong> Videos tipo UGC (gancho, reseña corta, llamada a la acción) y checklist estricto de manos, piel, reflejos y textos antes de publicar.
                                         </p>
                                     </div>
                                 </div>
@@ -754,11 +747,11 @@ export default function AvatarMasterclassPage() {
                                     <div className="flex items-center justify-between mb-4">
                                         <h3 className="text-2xl font-bold text-white">Bundle Completo</h3>
                                         <Badge className="bg-purple-600 text-white font-bold">
-                                            Recomendado
+                                            PREVENTA
                                         </Badge>
                                     </div>
                                     <p className="text-slate-300 text-sm mb-6">
-                                        Todo lo de la guía más la masterclass grabada en pantalla (de foto a video y voz), el pack de prompts y las skills para Claude.
+                                        Todo lo de la guía más la masterclass grabada con el producto en pantalla, video UGC, pack de prompts y skills para Claude. La Guía y Fase 01 se entregan al instante; los módulos 2 y 3 se entregan en cuanto termine su producción.
                                     </p>
 
                                     <ul className="space-y-3 text-sm text-slate-200">
@@ -768,71 +761,84 @@ export default function AvatarMasterclassPage() {
                                         </li>
                                         <li className="flex items-start gap-2.5">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span><strong>Masterclass grabada (50 a 60 min):</strong> proceso en pantalla de principio a fin con Megan, incluyendo cómo llevarla de imagen a video y sincronizar su voz (lip-sync).</span>
+                                            <span><strong>Masterclass grabada en pantalla:</strong> proceso completo con tu modelo y producto real (caso Vallehalla), de foto a video UGC hablado con lip-sync.</span>
                                         </li>
                                         <li className="flex items-start gap-2.5">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span><strong>Pack de prompts del caso Megan:</strong> casting, las 3 hojas de referencia y escenas completas.</span>
+                                            <span><strong>Pack de prompts para producto:</strong> casting, hojas de referencia, prompts de integración de producto en escena y scripts para video UGC.</span>
                                         </li>
                                         <li className="flex items-start gap-2.5">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span><strong>Skills para Claude del método:</strong> con versión en prompts sueltos para usar con cualquier herramienta.</span>
+                                            <span><strong>Skills para Claude del método:</strong> con versión en prompts universales para usar en cualquier herramienta de IA.</span>
                                         </li>
                                         <li className="flex items-start gap-2.5">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span><strong>Ejemplos en alta resolución:</strong> hojas de Megan sin compresión y archivos listos para inspeccionar.</span>
+                                            <span><strong>Archivos en alta resolución:</strong> hojas de referencia sin compresión y plantillas listas para usar.</span>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div className="pt-4 border-t border-purple-500/20 flex items-center justify-between text-xs text-purple-300">
-                                    <span>Acceso inmediato a la grabación y recursos</span>
-                                    <span className="font-mono">50–60 min</span>
+                                    <span>Preventa · Guía y Fase 01 inmediatas</span>
+                                    <span className="font-mono">Grabaciones en camino</span>
                                 </div>
                             </div>
 
                         </div>
 
-                        {/* Temario Desglosado de la Masterclass (Sin jerga técnica) */}
+                        {/* Temario Desglosado de la Masterclass */}
                         <div className="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
-                            <h3 className="text-xl font-bold text-white flex items-center gap-2 mb-2">
-                                <FileText className="w-5 h-5 text-purple-400" />
-                                Temario de la Masterclass (Bundle)
-                            </h3>
-                            <p className="text-xs text-slate-400 mb-6">
-                                Proceso directo y práctico, sin jerga innecesaria:
-                            </p>
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-white/5 pb-4">
+                                <div>
+                                    <h3 className="text-xl font-bold text-white flex items-center gap-2">
+                                        <FileText className="w-5 h-5 text-purple-400" />
+                                        Temario de la Masterclass (Bundle)
+                                    </h3>
+                                    <p className="text-xs text-slate-400 mt-1">
+                                        Estructura 100% enfocada en marcas con producto físico.
+                                    </p>
+                                </div>
+                                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-300 text-xs font-mono">
+                                    <span>Caso de estudio: Vallehalla (Hidromiel artesanal)</span>
+                                </div>
+                            </div>
                             
                             <div className="grid md:grid-cols-2 gap-4">
-                                <div className="p-4 bg-slate-950/80 border border-slate-800 rounded-xl space-y-1.5">
+                                <div className="p-4 bg-slate-950/80 border border-slate-800 rounded-xl space-y-2">
                                     <span className="text-xs font-mono font-bold text-purple-400">MÓDULO 1</span>
-                                    <h4 className="text-sm font-semibold text-white">Avatar base</h4>
+                                    <h4 className="text-sm font-semibold text-white">Tu modelo base</h4>
                                     <p className="text-xs text-slate-300 leading-relaxed font-light">
-                                        Foto oficial, ficha y hoja de cara: la identidad fija desde el inicio para que el rostro nunca cambie.
+                                        Foto oficial, ficha de identidad y hojas de referencia para congelar los rasgos y que nunca cambie de cara.
                                     </p>
+                                    <div className="p-2 rounded bg-purple-950/40 border border-purple-500/20 text-[11px] text-purple-200 font-medium leading-relaxed">
+                                        📌 <em>&quot;Cada imagen se genera desde la hoja de referencia, nunca desde la última imagen.&quot;</em>
+                                    </div>
                                 </div>
 
-                                <div className="p-4 bg-slate-950/80 border border-slate-800 rounded-xl space-y-1.5">
+                                <div className="p-4 bg-slate-950/80 border border-slate-800 rounded-xl space-y-2">
                                     <span className="text-xs font-mono font-bold text-purple-400">MÓDULO 2</span>
-                                    <h4 className="text-sm font-semibold text-white">Variar sin romper</h4>
+                                    <h4 className="text-sm font-semibold text-white">Tu producto en escena</h4>
                                     <p className="text-xs text-slate-300 leading-relaxed font-light">
-                                        Roles, cápsula y prompt maestro: cambiar ropa, fondo y encuadre sin perder la cara de tu personaje.
+                                        Meter tu producto real (botella, envase, prenda, accesorio) en estudio, lifestyle e interiores sin perder la cara de tu modelo ni deformar el producto, etiquetas o logos.
                                     </p>
+                                    <div className="p-2 rounded bg-slate-900 border border-white/5 text-[11px] text-slate-400">
+                                        Demostrado paso a paso con la botella de <strong>Vallehalla</strong>.
+                                    </div>
                                 </div>
 
-                                <div className="p-4 bg-slate-950/80 border border-slate-800 rounded-xl space-y-1.5">
+                                <div className="p-4 bg-slate-950/80 border border-slate-800 rounded-xl space-y-2">
                                     <span className="text-xs font-mono font-bold text-purple-400">MÓDULO 3</span>
-                                    <h4 className="text-sm font-semibold text-white">Imagen → video</h4>
+                                    <h4 className="text-sm font-semibold text-white">UGC que vende</h4>
                                     <p className="text-xs text-slate-300 leading-relaxed font-light">
-                                        Animar desde una imagen aprobada: qué se hereda y cómo evitar que la cara cambie cuadro a cuadro.
+                                        De foto a video hablado con look de celular creíble, gancho visual de 3 segundos, reseña corta de producto y llamada a la acción con sincronización de voz (lip-sync).
                                     </p>
                                 </div>
 
-                                <div className="p-4 bg-slate-950/80 border border-slate-800 rounded-xl space-y-1.5">
-                                    <span className="text-xs font-mono font-bold text-purple-400">MÓDULO 4</span>
-                                    <h4 className="text-sm font-semibold text-white">Voz y coherencia</h4>
+                                <div className="p-4 bg-slate-950/80 border border-slate-800 rounded-xl space-y-2">
+                                    <span className="text-xs font-mono font-bold text-emerald-400">CIERRE</span>
+                                    <h4 className="text-sm font-semibold text-white">Checklist antes de publicar</h4>
                                     <p className="text-xs text-slate-300 leading-relaxed font-light">
-                                        Una sola voz fija y lip-sync limpio para usar el personaje en videos reales y redes sociales.
+                                        Control de calidad implacable: manos, ojos, piel, reflejos, etiquetas y textos del producto para que nadie note que fue generado con IA.
                                     </p>
                                 </div>
                             </div>
@@ -909,18 +915,18 @@ export default function AvatarMasterclassPage() {
                                 </div>
                             </Card>
 
-                            {/* Card 2: Bundle (Recomendado) */}
+                            {/* Card 2: Bundle (Preventa) */}
                             <Card className="p-8 bg-gradient-to-b from-purple-950/40 via-slate-900/80 to-slate-950 border-purple-500/50 rounded-2xl flex flex-col justify-between space-y-6 relative shadow-[0_0_50px_rgba(168,85,247,0.2)] hover:border-purple-400 transition-all">
                                 
-                                <div className="absolute -top-3.5 right-6 px-3 py-1 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-[11px] font-bold uppercase tracking-wider shadow-lg">
-                                    Recomendado
+                                <div className="absolute -top-3.5 right-6 px-3.5 py-1 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-[11px] font-bold uppercase tracking-wider shadow-lg">
+                                    PREVENTA
                                 </div>
 
                                 <div className="space-y-4">
                                     <div>
-                                        <h3 className="text-2xl font-bold text-white">Bundle</h3>
+                                        <h3 className="text-2xl font-bold text-white">Bundle Completo</h3>
                                         <p className="text-purple-200 text-xs mt-1">
-                                            Mira el proceso en pantalla, copia los prompts y acelera.
+                                            Mira el proceso en pantalla, integra tu producto real y acelera.
                                         </p>
                                     </div>
 
@@ -932,39 +938,42 @@ export default function AvatarMasterclassPage() {
                                             <span className="text-slate-400 font-mono text-sm">USD</span>
                                             <span className="text-xs text-slate-400 ml-1">(≈ $470 MXN)</span>
                                         </div>
-                                        <span className="text-xs text-emerald-400 font-medium">Pago único · Acceso de por vida</span>
+                                        <span className="text-xs text-emerald-400 font-medium">Pago único · Preventa oficial</span>
                                     </div>
 
                                     <div className="pt-4 border-t border-purple-500/30 space-y-2.5 text-xs text-slate-200">
                                         <div className="flex items-start gap-2 font-semibold text-purple-200">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span>Guía completa en PDF (23 páginas) + plantillas</span>
+                                            <span>Guía completa en PDF (23 págs) + Fase 01 (acceso inmediato)</span>
                                         </div>
                                         <div className="flex items-start gap-2">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span><strong>Masterclass (50–60 min):</strong> pantalla completa de foto a video animado y lip-sync de voz</span>
+                                            <span><strong>Masterclass en pantalla:</strong> tu modelo con producto real (caso Vallehalla) y de foto a video UGC hablado</span>
                                         </div>
                                         <div className="flex items-start gap-2">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span><strong>Pack de prompts del caso Megan:</strong> hojas y escenas</span>
+                                            <span><strong>Pack de prompts para producto:</strong> integración en escena, fondo de estudio y guiones UGC</span>
                                         </div>
                                         <div className="flex items-start gap-2">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span><strong>Skills para Claude:</strong> con versión en prompts universales</span>
+                                            <span><strong>Skills para Claude:</strong> con versión en prompts universales para cualquier IA</span>
                                         </div>
                                         <div className="flex items-start gap-2">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span><strong>Archivos de Megan en alta resolución:</strong> hojas sin compresión</span>
+                                            <span><strong>Archivos en alta resolución:</strong> hojas de referencia sin compresión y plantillas listas</span>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="pt-4">
+                                <div className="pt-4 space-y-2">
                                     <Link href="/checkout?plan=realismo-bundle" className="w-full block">
                                         <Button size="lg" className="w-full h-14 bg-gradient-to-r from-purple-600 via-indigo-600 to-purple-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold text-base shadow-lg shadow-purple-900/40 cursor-pointer">
-                                            Quiero el bundle — 25 USD
+                                            Comprar en preventa — 25 USD
                                         </Button>
                                     </Link>
+                                    <p className="text-[11px] text-slate-400 text-center">
+                                        Guía y Fase 01 inmediatas · Módulos 2 y 3 se entregan en cuanto termine su grabación.
+                                    </p>
                                 </div>
                             </Card>
 
@@ -973,8 +982,34 @@ export default function AvatarMasterclassPage() {
                         {/* Value Contrast Callout */}
                         <div className="max-w-3xl mx-auto text-center mb-8 px-5 py-3.5 rounded-xl bg-purple-500/10 border border-purple-500/20">
                             <p className="text-purple-200 text-sm md:text-base font-medium leading-relaxed">
-                                El bundle incluye todo lo de la guía — más 50-60 min de masterclass grabada, el pack de prompts del caso Megan y las skills para Claude — por $15 USD más.
+                                El bundle incluye todo lo de la guía — más las grabaciones en video de los 3 módulos con producto real, el pack de prompts y las skills para Claude — por $15 USD más.
                             </p>
+                        </div>
+
+                        {/* Agency Done-For-You CTA */}
+                        <div className="max-w-3xl mx-auto mb-10 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-slate-900 via-purple-950/40 to-slate-900 border border-purple-500/30 text-center space-y-4">
+                            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 text-xs font-semibold uppercase tracking-wider">
+                                Servicio para Marcas
+                            </div>
+                            <h3 className="text-xl md:text-2xl font-bold text-white">
+                                ¿Prefieres que lo hagamos por ti?
+                            </h3>
+                            <p className="text-slate-300 text-sm max-w-xl mx-auto font-light leading-relaxed">
+                                Producimos el catálogo completo de fotos y videos tipo UGC con tu modelo IA fija y tu producto en escena. Sin que tengas que aprender las herramientas.
+                            </p>
+                            <div className="pt-2">
+                                <a
+                                    href="https://wa.me/5215500000000?text=Hola%2C%20quiero%20cotizar%20producci%C3%B3n%20de%20contenido%20con%20modelo%20IA%20para%20mi%20marca"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-block"
+                                >
+                                    <Button size="lg" className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 h-12 rounded-xl flex items-center gap-2 shadow-lg shadow-emerald-950/40 cursor-pointer">
+                                        <MessageCircle className="w-4 h-4" />
+                                        Cotizar producción por WhatsApp
+                                    </Button>
+                                </a>
+                            </div>
                         </div>
 
                         {/* Risk Reversal Guarantee */}
@@ -1103,15 +1138,15 @@ export default function AvatarMasterclassPage() {
                                     <ul className="space-y-3.5 text-sm text-slate-300">
                                         <li className="flex items-start gap-3">
                                             <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0 mt-2" />
-                                            <span>Creas contenido con IA y tu personaje cambia de cara.</span>
+                                            <span>Vendes un producto y necesitas contenido cada semana.</span>
                                         </li>
                                         <li className="flex items-start gap-3">
                                             <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0 mt-2" />
-                                            <span>Quieres un método que puedas repetir, no prompts sueltos.</span>
+                                            <span>Ya probaste con IA y te cambia la cara o deforma el producto.</span>
                                         </li>
                                         <li className="flex items-start gap-3">
                                             <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0 mt-2" />
-                                            <span>Quieres llevar a tu personaje de foto a video.</span>
+                                            <span>No quieres pagar sesión de fotos, modelo ni locación en cada lanzamiento.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -1127,15 +1162,15 @@ export default function AvatarMasterclassPage() {
                                     <ul className="space-y-3.5 text-sm text-slate-300">
                                         <li className="flex items-start gap-3">
                                             <div className="w-1.5 h-1.5 rounded-full bg-red-400 shrink-0 mt-2" />
-                                            <span>Buscas un botón que lo haga solo.</span>
+                                            <span>Buscas un botón mágico que lo haga todo solo.</span>
                                         </li>
                                         <li className="flex items-start gap-3">
                                             <div className="w-1.5 h-1.5 rounded-full bg-red-400 shrink-0 mt-2" />
-                                            <span>No le vas a dedicar una tarde a aplicarlo.</span>
+                                            <span>No le vas a dedicar una tarde a sentar las bases.</span>
                                         </li>
                                         <li className="flex items-start gap-3">
                                             <div className="w-1.5 h-1.5 rounded-full bg-red-400 shrink-0 mt-2" />
-                                            <span>Esperas que te entreguemos las imágenes hechas.</span>
+                                            <span>Quieres que te entreguemos las fotos hechas (para eso tenemos el servicio de agencia).</span>
                                         </li>
                                     </ul>
                                 </div>
