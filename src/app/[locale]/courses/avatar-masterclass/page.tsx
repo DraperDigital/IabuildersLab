@@ -92,8 +92,8 @@ export default function AvatarMasterclassPage() {
                                 </h1>
 
                                 {/* Slide Sub-highlight Pill */}
-                                <div className="inline-block px-3.5 py-1.5 rounded-lg bg-purple-950/70 border border-purple-500/30 text-purple-200 text-sm font-medium mb-4 backdrop-blur-md">
-                                    La misma cara en cada foto y video. Con cualquier herramienta.
+                                <div className="inline-block px-3.5 py-2 rounded-xl bg-purple-950/70 border border-purple-500/30 text-purple-200 text-sm font-medium mb-4 backdrop-blur-md max-w-xl leading-relaxed">
+                                    No anclamos la cara con descripciones: la anclamos con una foto oficial. Y no nos quedamos en la imagen: la llevamos a video.
                                 </div>
 
                                 {/* Subtitle */}
@@ -104,6 +104,10 @@ export default function AvatarMasterclassPage() {
                                 {/* Presentation Pills */}
                                 <div className="flex flex-wrap items-center gap-2 mb-8 text-xs text-slate-400 font-mono">
                                     <span className="px-2.5 py-1 rounded-md bg-slate-900/80 border border-slate-800 text-purple-300 backdrop-blur-sm">4 fases</span>
+                                    <span>•</span>
+                                    <span className="px-2.5 py-1 rounded-md bg-purple-500/20 border border-purple-500/40 text-purple-200 backdrop-blur-sm font-semibold">Foto oficial</span>
+                                    <span>•</span>
+                                    <span className="px-2.5 py-1 rounded-md bg-purple-500/20 border border-purple-500/40 text-purple-200 backdrop-blur-sm font-semibold">De imagen a video</span>
                                     <span>•</span>
                                     <span className="px-2.5 py-1 rounded-md bg-slate-900/80 border border-slate-800 text-purple-300 backdrop-blur-sm">Caso real</span>
                                     <span>•</span>
@@ -266,25 +270,29 @@ export default function AvatarMasterclassPage() {
                                     num: "01",
                                     title: "Lo describes cada vez",
                                     desc: "Escribir la descripción en cada prompt no fija una cara: el texto no tiene memoria y cada generación inventa a alguien nuevo, aunque copies y pegues las mismas palabras.",
-                                    example: 'Ejemplo: "mujer rubia, 25 años, ojos azules" te da cinco personas distintas en cinco intentos.'
+                                    example: 'Ejemplo: "mujer rubia, 25 años, ojos azules" te da cinco personas distintas en cinco intentos.',
+                                    fix: "SE ARREGLA EN LA FASE 01 (FOTO OFICIAL + FICHA)"
                                 },
                                 {
                                     num: "02",
-                                    title: "Mezclas fuentes",
-                                    desc: "Si combinas la foto de una persona con la ficha descriptiva de tu personaje, la IA intenta promediar ambas referencias y genera a alguien que no se parece a ninguno.",
-                                    example: "Ejemplo: subes una foto real y le pegas la descripción de tu personaje."
+                                    title: "Editas sobre lo editado",
+                                    desc: "Cada vez que corriges o generas una imagen desde la última generada en lugar de tu base, se pierde un porcentaje del rostro original. A la quinta corrección consecutiva, ya es otra persona.",
+                                    example: "Ejemplo: cambias fondo, luego ropa, luego pose... siempre sobre la última versión.",
+                                    fix: "SE ARREGLA EN LA FASE 02 (HOJAS DE REFERENCIA)"
                                 },
                                 {
                                     num: "03",
                                     title: "Le pides cosas contradictorias",
-                                    desc: "Cuando tu imagen de referencia tiene pecas marcadas y en el prompt le pides \"piel perfecta\", el modelo se bloquea: improvisa piel de plástico y borra los rasgos que le daban identidad.",
-                                    example: 'Ejemplo: piel con textura natural + "sin imperfecciones, porcelana".'
+                                    desc: "Cuando cambias de ropa o escena sin una cápsula definida y le pides cosas opuestas a la referencia, el modelo se bloquea: improvisa piel de plástico y borra los rasgos que le daban identidad.",
+                                    example: 'Ejemplo: piel con textura natural + "sin imperfecciones, porcelana".',
+                                    fix: "SE ARREGLA EN LA FASE 03 (ROLES Y CÁPSULA)"
                                 },
                                 {
                                     num: "04",
-                                    title: "Editas sobre lo editado",
-                                    desc: "Cada vez que corriges una imagen ya generada con inpainting o prompts secundarios, se pierde un porcentaje del rostro original. A la quinta corrección consecutiva, ya es otra persona.",
-                                    example: "Ejemplo: cambias fondo, luego ropa, luego pose... siempre sobre la última versión."
+                                    title: "Mezclas fuentes y prompts al azar",
+                                    desc: "Si combinas la foto de una persona con la ficha descriptiva de tu personaje o prompts sueltos desordenados, la IA intenta promediar y genera a alguien que no se puede repetir.",
+                                    example: "Ejemplo: subes una foto real y le pegas la descripción de tu personaje esperando que la IA adivine.",
+                                    fix: "SE ARREGLA EN LA FASE 04 (PROMPT REALISMO)"
                                 }
                             ].map((card, i) => (
                                 <div 
@@ -303,8 +311,14 @@ export default function AvatarMasterclassPage() {
                                             {card.desc}
                                         </p>
                                     </div>
-                                    <div className="p-3 rounded-lg bg-black/40 border border-white/5 text-xs text-slate-400 italic">
-                                        {card.example}
+                                    <div className="space-y-3">
+                                        <div className="p-3 rounded-lg bg-black/40 border border-white/5 text-xs text-slate-400 italic">
+                                            {card.example}
+                                        </div>
+                                        <div className="p-2.5 rounded-lg bg-purple-950/50 border border-purple-500/30 text-[11px] font-mono text-purple-200 font-semibold uppercase tracking-wider flex items-center justify-between">
+                                            <span>{card.fix}</span>
+                                            <ArrowRight className="w-3.5 h-3.5 text-purple-400 shrink-0" />
+                                        </div>
                                     </div>
                                 </div>
                             ))}
@@ -391,6 +405,9 @@ export default function AvatarMasterclassPage() {
                                         <p className="text-xs text-slate-300 leading-relaxed font-light">
                                             <strong>Sales con:</strong> 3 hojas de referencia en orden: cara (3×3), cuerpo y expresiones, validadas con la prueba de fuego.
                                         </p>
+                                        <div className="mt-2 pt-2 border-t border-purple-500/20 text-[11px] text-purple-200 font-medium leading-relaxed bg-purple-950/30 p-2 rounded-lg">
+                                            📌 <strong>La regla que casi nadie sigue:</strong> cada imagen se genera desde la hoja de referencia, nunca desde la última imagen.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -741,7 +758,7 @@ export default function AvatarMasterclassPage() {
                                         </Badge>
                                     </div>
                                     <p className="text-slate-300 text-sm mb-6">
-                                        Todo lo de la guía más la masterclass grabada en pantalla, el pack de prompts y las skills para Claude.
+                                        Todo lo de la guía más la masterclass grabada en pantalla (de foto a video y voz), el pack de prompts y las skills para Claude.
                                     </p>
 
                                     <ul className="space-y-3 text-sm text-slate-200">
@@ -751,7 +768,7 @@ export default function AvatarMasterclassPage() {
                                         </li>
                                         <li className="flex items-start gap-2.5">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span><strong>Masterclass grabada (50 a 60 min):</strong> el proceso completo en pantalla con Megan de principio a fin.</span>
+                                            <span><strong>Masterclass grabada (50 a 60 min):</strong> proceso en pantalla de principio a fin con Megan, incluyendo cómo llevarla de imagen a video y sincronizar su voz (lip-sync).</span>
                                         </li>
                                         <li className="flex items-start gap-2.5">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
@@ -925,7 +942,7 @@ export default function AvatarMasterclassPage() {
                                         </div>
                                         <div className="flex items-start gap-2">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                                            <span><strong>Masterclass grabada de 50 a 60 min:</strong> proceso en pantalla</span>
+                                            <span><strong>Masterclass (50–60 min):</strong> pantalla completa de foto a video animado y lip-sync de voz</span>
                                         </div>
                                         <div className="flex items-start gap-2">
                                             <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
@@ -1060,7 +1077,74 @@ export default function AvatarMasterclassPage() {
                 {/* 10. Creator Bio */}
                 <CreatorBio />
 
-                {/* 11. FAQ */}
+                {/* 11. Es para ti / No es para ti */}
+                <section className="py-20 bg-[#07070d] border-b border-white/5 relative overflow-hidden" id="para-quien">
+                    <div className="container mx-auto px-4 max-w-4xl relative z-10">
+                        <div className="text-center max-w-2xl mx-auto mb-12 space-y-2">
+                            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 text-xs font-semibold uppercase tracking-wider">
+                                Filtro de Honestidad
+                            </div>
+                            <h3 className="text-2xl md:text-4xl font-bold text-white tracking-tight">
+                                ¿Este método es para ti?
+                            </h3>
+                            <p className="text-slate-400 text-xs sm:text-sm">
+                                Para que tomes una decisión informada antes de comprar.
+                            </p>
+                        </div>
+
+                        <div className="grid md:grid-cols-2 gap-6">
+                            {/* Es para ti */}
+                            <div className="p-6 md:p-8 rounded-2xl bg-slate-900/40 border border-emerald-500/30 flex flex-col justify-between space-y-4">
+                                <div className="space-y-4">
+                                    <div className="flex items-center gap-2 pb-3 border-b border-emerald-500/20 text-emerald-400">
+                                        <Check className="w-5 h-5 shrink-0" />
+                                        <h4 className="text-lg font-bold text-white">Es para ti si:</h4>
+                                    </div>
+                                    <ul className="space-y-3.5 text-sm text-slate-300">
+                                        <li className="flex items-start gap-3">
+                                            <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0 mt-2" />
+                                            <span>Creas contenido con IA y tu personaje cambia de cara.</span>
+                                        </li>
+                                        <li className="flex items-start gap-3">
+                                            <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0 mt-2" />
+                                            <span>Quieres un método que puedas repetir, no prompts sueltos.</span>
+                                        </li>
+                                        <li className="flex items-start gap-3">
+                                            <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0 mt-2" />
+                                            <span>Quieres llevar a tu personaje de foto a video.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            {/* No es para ti */}
+                            <div className="p-6 md:p-8 rounded-2xl bg-slate-900/40 border border-red-500/30 flex flex-col justify-between space-y-4">
+                                <div className="space-y-4">
+                                    <div className="flex items-center gap-2 pb-3 border-b border-red-500/20 text-red-400">
+                                        <XCircle className="w-5 h-5 shrink-0" />
+                                        <h4 className="text-lg font-bold text-white">No es para ti si:</h4>
+                                    </div>
+                                    <ul className="space-y-3.5 text-sm text-slate-300">
+                                        <li className="flex items-start gap-3">
+                                            <div className="w-1.5 h-1.5 rounded-full bg-red-400 shrink-0 mt-2" />
+                                            <span>Buscas un botón que lo haga solo.</span>
+                                        </li>
+                                        <li className="flex items-start gap-3">
+                                            <div className="w-1.5 h-1.5 rounded-full bg-red-400 shrink-0 mt-2" />
+                                            <span>No le vas a dedicar una tarde a aplicarlo.</span>
+                                        </li>
+                                        <li className="flex items-start gap-3">
+                                            <div className="w-1.5 h-1.5 rounded-full bg-red-400 shrink-0 mt-2" />
+                                            <span>Esperas que te entreguemos las imágenes hechas.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* 12. FAQ */}
                 <CourseFAQ />
 
                 {/* Final Call to Action */}
