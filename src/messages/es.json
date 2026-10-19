@@ -262,6 +262,7 @@
         "tutorialsDesc": "Tutoriales en video paso a paso y guías para casos de uso avanzados."
     },
     "Header": {
+        "caseStudies": "Casos de Estudio",
         "systems": "Sistemas",
         "prompts": "Prompts",
         "copyLibrary": "Biblioteca de Copy",

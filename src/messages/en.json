@@ -253,6 +253,7 @@
         "tutorialsDesc": "Step-by-step video tutorials and walkthroughs for advanced use cases."
     },
     "Header": {
+        "caseStudies": "Case Studies",
         "systems": "Systems",
         "prompts": "Prompts",
         "copyLibrary": "Copy Library",

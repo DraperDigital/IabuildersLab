@@ -28,6 +28,15 @@ export async function PublicHeader() {
 
                     {/* Desktop Navigation */}
                     <nav className="hidden md:flex gap-5 items-center">
+                        <Link
+                            href="/casos"
+                            className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-500/15 border border-purple-400/40 text-sm font-semibold text-white hover:bg-purple-500/25 hover:border-purple-400 transition-colors shadow-[0_0_15px_rgba(168,85,247,0.2)]"
+                        >
+                            <span>{t('caseStudies')}</span>
+                            <span className="px-1.5 py-0.2 rounded-full bg-purple-500 text-[10px] font-mono font-bold text-white">
+                                11
+                            </span>
+                        </Link>
                         <Link href="/systems" className="text-sm font-medium text-purple-200 hover:text-purple-400 transition-colors">
                             {t('systems')}
                         </Link>
@@ -86,6 +95,12 @@ export async function PublicHeader() {
                                 </SheetHeader>
                                 <div className="flex flex-col gap-6 mt-8">
                                     <nav className="flex flex-col gap-4">
+                                        <Link href="/casos" className="inline-flex items-center justify-between text-lg font-bold text-white bg-purple-500/15 border border-purple-500/40 px-3.5 py-2 rounded-xl hover:bg-purple-500/25 transition-colors">
+                                            <span>{t('caseStudies')}</span>
+                                            <span className="px-2 py-0.5 rounded-full bg-purple-500 text-xs font-mono font-bold text-white">
+                                                11
+                                            </span>
+                                        </Link>
                                         <Link href="/systems" className="text-lg font-medium text-purple-200 hover:text-purple-400 transition-colors">
                                             {t('systems')}
                                         </Link>
