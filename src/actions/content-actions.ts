@@ -233,7 +233,7 @@ export async function listContent(filters?: { type?: string; status?: string; se
         content = [...extraMock, ...content];
 
         // Sort by updated_at descending so newest prompts appear on page 1
-        content.sort((a, b) => new Date(b.updated_at || b.created_at || 0).getTime() - new Date(a.updated_at || a.created_at || 0).getTime());
+        content.sort((a: any, b: any) => new Date(b.updated_at || b.created_at || 0).getTime() - new Date(a.updated_at || a.created_at || 0).getTime());
 
         if (filters?.tag) {
             content = content.filter((item: any) => item.tags?.some((t: any) => t.slug === filters.tag));
@@ -272,7 +272,7 @@ export async function listContent(filters?: { type?: string; status?: string; se
         console.log("Supabase error (listContent), returning mock data as fallback", error);
         // Apply filters and pagination to fallback data
         let content = applyMockFilters(ALL_MOCK_CONTENT, filters);
-        content.sort((a, b) => new Date(b.updated_at || b.created_at || 0).getTime() - new Date(a.updated_at || a.created_at || 0).getTime());
+        content.sort((a: any, b: any) => new Date(b.updated_at || b.created_at || 0).getTime() - new Date(a.updated_at || a.created_at || 0).getTime());
         const totalCount = content.length;
         const page = filters?.page || 1;
         const limit = filters?.limit || 12;
