@@ -49,8 +49,10 @@ export function isAudiovisualItem(item: any): boolean {
     if (
         idStr.startsWith('sop-') ||
         idStr.startsWith('sys-') ||
+        idStr.startsWith('prompt-') ||
         slugStr.startsWith('sop-') ||
         slugStr.startsWith('sys-') ||
+        slugStr.startsWith('prompt-') ||
         titleLower.startsWith('sop:') ||
         titleLower.startsWith('sop ') ||
         titleLower.includes(' (sop)')

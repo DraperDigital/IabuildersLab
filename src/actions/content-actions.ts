@@ -206,14 +206,37 @@ export async function listContent(filters?: { type?: string; status?: string; se
 
         if (error) throw error;
 
-        // Post-query filtering
-        let content = data.map((item: any) => ({
-            ...item,
-            tags: item.tags.map((t: any) => t.tag)
-        }));
+        // Post-query filtering & sanitization (remove external sources, prioritize IA Builders Lab branding)
+        let content = data.map((item: any) => {
+            const cleanSummary = (item.summary || '')
+                .replace(/Created by .*\. Imported from Awesome Nano Banana\.?/gi, 'Especialidad en generación fotorrealista. IA Builders Lab.')
+                .replace(/Imported from Awesome Nano Banana\.?/gi, 'IA Builders Lab Vault.')
+                .trim();
+            const cleanBody = (item.body_markdown || '')
+                .replace(/Created by .*\. Imported from Awesome Nano Banana\.?/gi, '')
+                .replace(/Imported from Awesome Nano Banana\.?/gi, '')
+                .trim();
+            const cleanTitle = (item.title || '')
+                .replace(/^Case \d+:\s*/i, '');
+            return {
+                ...item,
+                title: cleanTitle || item.title,
+                summary: cleanSummary || item.summary,
+                body_markdown: cleanBody || item.body_markdown,
+                tags: item.tags?.map((t: any) => t.tag) || []
+            };
+        });
+
+        // Merge in mock content items not yet in DB, putting our newest curated items & HyperReals first
+        const dbIds = new Set(content.map((item: any) => item.id));
+        const extraMock = ALL_MOCK_CONTENT.filter(m => !dbIds.has(m.id));
+        content = [...extraMock, ...content];
+
+        // Sort by updated_at descending so newest prompts appear on page 1
+        content.sort((a, b) => new Date(b.updated_at || b.created_at || 0).getTime() - new Date(a.updated_at || a.created_at || 0).getTime());
 
         if (filters?.tag) {
-            content = content.filter((item: any) => item.tags.some((t: any) => t.slug === filters.tag));
+            content = content.filter((item: any) => item.tags?.some((t: any) => t.slug === filters.tag));
         }
 
         if (filters?.isSkill) {
@@ -223,6 +246,15 @@ export async function listContent(filters?: { type?: string; status?: string; se
         } else {
             // Audiovisual Tab
             content = content.filter((item: any) => isAudiovisualItem(item));
+        }
+
+        if (filters?.category) {
+            content = content.filter((item: any) => item.category?.toLowerCase() === filters.category?.toLowerCase());
+        }
+
+        if (filters?.search) {
+            const searchLower = filters.search.toLowerCase();
+            content = content.filter((item: any) => item.title.toLowerCase().includes(searchLower));
         }
 
         const totalCount = content.length;
@@ -240,6 +272,7 @@ export async function listContent(filters?: { type?: string; status?: string; se
         console.log("Supabase error (listContent), returning mock data as fallback", error);
         // Apply filters and pagination to fallback data
         let content = applyMockFilters(ALL_MOCK_CONTENT, filters);
+        content.sort((a, b) => new Date(b.updated_at || b.created_at || 0).getTime() - new Date(a.updated_at || a.created_at || 0).getTime());
         const totalCount = content.length;
         const page = filters?.page || 1;
         const limit = filters?.limit || 12;
@@ -450,10 +483,16 @@ export async function getDistinctCategories(type?: string) {
 
         if (error) throw error;
 
-        const categories = Array.from(new Set(data.map((item: any) => item.category).filter(Boolean))) as string[];
+        const mockCategories = (type ? ALL_MOCK_CONTENT.filter(c => c.type === type) : ALL_MOCK_CONTENT)
+            .map(c => c.category)
+            .filter(Boolean);
+        const categories = Array.from(new Set([...data.map((item: any) => item.category).filter(Boolean), ...mockCategories])) as string[];
         return { data: categories.sort() };
     } catch (error: any) {
         console.error('Error fetching categories:', error);
-        return { data: [], error: error.message };
+        const mockCategories = (type ? ALL_MOCK_CONTENT.filter(c => c.type === type) : ALL_MOCK_CONTENT)
+            .map(c => c.category)
+            .filter(Boolean);
+        return { data: Array.from(new Set(mockCategories)).sort() as string[], error: error.message };
     }
 }

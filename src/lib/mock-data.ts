@@ -3,6 +3,7 @@ import { EXTRA_MOCK_PROMPTS } from "@/lib/extra-mock-prompts";
 import { COPY_LIBRARY_PROMPTS } from "@/lib/copy-library-data";
 import { HYBRID_TOP_PROMPTS } from "@/lib/hybrid-top-prompts";
 import { SKILLS_DATA } from "@/lib/skills-data";
+import { REALISMO_GALLERY_PROMPTS } from "@/lib/realismo-gallery-prompts";
 
 export const MOCK_SYSTEMS: ContentItem[] = [
     {
@@ -737,6 +738,298 @@ export async function getSystemBySlug(slug: string) {
 }
 
 export const MOCK_PROMPTS: ContentItem[] = [
+    {
+        id: "prompt-humanizador-texto-ia",
+        type: "prompt",
+        title: "Humanizador de Texto IA · Tono Natural sin Muletillas (IA Builders Lab)",
+        slug: "humanizador-texto-ia-sin-muletillas",
+        summary: "Prompt maestro desarrollado por IA Builders Lab para limpiar cualquier borrador generado por ChatGPT o Claude, eliminando muletillas robóticas, conectores inflados ('En el dinámico mundo de...') y dándole una cadencia fluida y 100% humana.",
+        body_markdown: `# Humanizador de Texto IA · Tono Natural sin Muletillas (IA Builders Lab)
+
+## D.R.A.P.E.R.™ System Integration
+
+> **D - Diagnosticar:** Copia el borrador generado por IA (artículo, post, correo o guion) que suena rígido, formal o repetitivo.
+>
+> **R - Rediseñar:** Inyecta este prompt maestro en Claude o ChatGPT antes de pasar tu contenido final.
+>
+> **A - Arquitectar & Programar (El Prompt Maestro):**
+
+\`\`\`text
+Eres un editor de contenido experto de IA Builders Lab especializado en copywriting natural y tono humano. 
+
+Tu objetivo es reescribir el texto provisto para que no parezca generado por Inteligencia Artificial, manteniendo al 100% las ideas y el mensaje central.
+
+REGLAS DE EDICIÓN:
+1. Elimina muletillas y frases cliché de IA como: "En el mundo actual", "En el dinámico universo de", "Es fundamental destacar", "Descubre cómo", "En resumen", "Desbloquea el potencial", "Un viaje de", "En conclusión".
+2. Varía la longitud de las oraciones (combina frases muy cortas con frases de longitud media).
+3. Elimina adjetivos exagerados o rimbombantes ("revolucionario", "increíble", "transformador", "sin precedentes").
+4. Escribe en tono conversacional, directo y profesional (como un experto hablando con un colega).
+5. Usa la voz activa y elimina construcciones pasivas complejas.
+6. Mantén párrafos breves (1 a 3 líneas máximo).
+
+TEXTO A HUMANIZAR:
+[Pega aquí tu borrador generado por IA]
+\`\`\`
+
+> **P - Encender:** Copia el resultado procesado y verifícalo leyendo en voz alta para asegurar la cadencia natural.
+>
+> **R - Refinar:** Si el texto aún suena reservado, pide a la IA: *"Reescríbelo como si se lo estuvieras explicando a un cliente en un café sin usar jerga académica"*.`,
+        prompt_text: `Eres un editor de contenido experto de IA Builders Lab especializado en copywriting natural y tono humano.
+
+Tu objetivo es reescribir el texto provisto para que no parezca generado por Inteligencia Artificial, manteniendo al 100% las ideas y el mensaje central.
+
+REGLAS DE EDICIÓN:
+1. Elimina muletillas y frases cliché de IA como: "En el mundo actual", "En el dinámico universo de", "Es fundamental destacar", "Descubre cómo", "En resumen", "Desbloquea el potencial", "Un viaje de", "En conclusión".
+2. Varía la longitud de las oraciones (combina frases muy cortas con frases de longitud media).
+3. Elimina adjetivos exagerados o rimbombantes ("revolucionario", "increíble", "transformador", "sin precedentes").
+4. Escribe en tono conversacional, directo y profesional (como un experto hablando con un colega).
+5. Usa la voz activa y elimina construcciones pasivas complejas.
+6. Mantén párrafos breves (1 a 3 líneas máximo).
+
+TEXTO A HUMANIZAR:
+[Pega aquí tu borrador generado por IA]`,
+        category: "Copywriting & Content",
+        level: "beginner",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "free_preview",
+        created_at: "2026-10-07T09:25:00.000Z",
+        updated_at: "2026-10-07T09:25:00.000Z",
+        tags: [
+            { id: "t-copy", name: "Copywriting", slug: "copywriting" },
+            { id: "t-humanizer", name: "Humanizador", slug: "humanizador" },
+            { id: "t-claude", name: "Claude", slug: "claude" }
+        ]
+    },
+    {
+        id: "prompt-creador-landing-pages",
+        type: "prompt",
+        title: "Arquitecto de Landing Pages de Alta Conversión (IA Builders Lab)",
+        slug: "arquitecto-landing-pages-alta-conexion",
+        summary: "Prompt directivo desarrollado por IA Builders Lab para generar la estructura completa de copy, jerarquía visual y ganchos de alta conversión para cualquier Landing Page o VSL.",
+        body_markdown: `# Arquitecto de Landing Pages de Alta Conversión (IA Builders Lab)
+
+## D.R.A.P.E.R.™ System Integration
+
+> **D - Diagnosticar:** Define claramente tu oferta, el avatar de tu cliente ideal y la transformación principal de tu producto o servicio.
+>
+> **R - Rediseñar:** Inyecta este prompt en Claude para obtener el borrador estructural completo estructurado por bloques.
+>
+> **A - Arquitectar & Programar (El Prompt Maestro):**
+
+\`\`\`text
+Actúa como un Copywriter Senior de Respuesta Directa y Diseñador de Conversiones de IA Builders Lab.
+
+Genera el copywriting completo y la estructura de bloques para una Landing Page de alta conversión para el producto descrito a continuación.
+
+ESTRUCTURA DE SECCIONES REQUERIDA:
+1. HEADER:
+   - Eyebrow Pill Badge (categoría/método).
+   - Titular Principal H1 (Hook claro con el beneficio deseado).
+   - Subtitular (El problema resuelto + mecanismo único).
+   - CTA Primario (Texto directo de acción) + Micro-copy de garantía/confianza.
+2. EL PROBLEMA (Agitación de Puntos de Dolor):
+   - 4 errores comunes que comete el avatar y por qué le cuestan tiempo/dinero.
+3. EL MECANISMO ÚNICO DE SOLUCIÓN:
+   - Presentación de la metodología o producto en 3 o 4 pasos claros.
+   - Qué SÍ incluye vs Qué NO incluye para romper falsas expectativas.
+4. OFERTA & APILAMIENTO DE BENEFICIOS (Value Stack):
+   - Desglose del entregable principal y bonos con valor percibido.
+5. REVERSAL DE RIESGO:
+   - Garantía incondicional redactada de forma persuasiva.
+6. PREGUNTAS FRECUENTES (FAQ):
+   - 5 preguntas críticas respondiendo objeciones de precio, tiempo e implementación.
+
+INFORMACIÓN DEL PRODUCTO:
+- Producto / Servicio: [Inserta nombre de tu producto]
+- Cliente Ideal: [Inserta tu cliente u objetivo]
+- Promesa Principal: [Inserta el resultado tangible que logran]
+\`\`\`
+
+> **P - Encender:** Pasa la salida maquetada a tu maquetador (Next.js, Tailwind, Webflow, etc.) o compártela a tu desarrollador.
+>
+> **R - Refinar:** Audita los botones de llamada a la acción asegurándote de que respondan a la pregunta *"¿Qué obtengo cuando presiono este botón?"*.`,
+        prompt_text: `Actúa como un Copywriter Senior de Respuesta Directa y Diseñador de Conversiones de IA Builders Lab.
+
+Genera el copywriting completo y la estructura de bloques para una Landing Page de alta conversión para el producto descrito a continuación.
+
+ESTRUCTURA DE SECCIONES REQUERIDA:
+1. HEADER:
+   - Eyebrow Pill Badge (categoría/método).
+   - Titular Principal H1 (Hook claro con el beneficio deseado).
+   - Subtitular (El problema resuelto + mecanismo único).
+   - CTA Primario (Texto directo de acción) + Micro-copy de garantía/confianza.
+2. EL PROBLEMA (Agitación de Puntos de Dolor):
+   - 4 errores comunes que comete el avatar y por qué le cuestan tiempo/dinero.
+3. EL MECANISMO ÚNICO DE SOLUCIÓN:
+   - Presentación de la metodología o producto en 3 o 4 pasos claros.
+   - Qué SÍ incluye vs Qué NO incluye para romper falsas expectativas.
+4. OFERTA & APILAMIENTO DE BENEFICIOS (Value Stack):
+   - Desglose del entregable principal y bonos con valor percibido.
+5. REVERSAL DE RIESGO:
+   - Garantía incondicional redactada de forma persuasiva.
+6. PREGUNTAS FRECUENTES (FAQ):
+   - 5 preguntas críticas respondiendo objeciones de precio, tiempo e implementación.
+
+INFORMACIÓN DEL PRODUCTO:
+- Producto / Servicio: [Inserta nombre de tu producto]
+- Cliente Ideal: [Inserta tu cliente u objetivo]
+- Promesa Principal: [Inserta el resultado tangible que logran]`,
+        category: "Web & Conversion",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "access",
+        created_at: "2026-10-07T09:25:00.000Z",
+        updated_at: "2026-10-07T09:25:00.000Z",
+        tags: [
+            { id: "t-landing", name: "Landing Page", slug: "landing-page" },
+            { id: "t-cro", name: "CRO", slug: "cro" },
+            { id: "t-copy", name: "Copywriting", slug: "copywriting" }
+        ]
+    },
+    {
+        id: "prompt-preparacion-presentaciones",
+        type: "prompt",
+        title: "Generador de Presentaciones & Pitch Decks Persuasivos (IA Builders Lab)",
+        slug: "generador-presentaciones-pitch-decks",
+        summary: "Prompt copia y pega de IA Builders Lab para estructurar el guion, diapositiva por diapositiva, de cualquier webinar, demo de producto o presentación comercial persuasiva.",
+        body_markdown: `# Generador de Presentaciones & Pitch Decks Persuasivos (IA Builders Lab)
+
+## D.R.A.P.E.R.™ System Integration
+
+> **D - Diagnosticar:** Ten a la mano la meta de tu presentación (ej. vender un servicio B2B, conseguir aprobación de presupuesto, capacitar a tu equipo).
+>
+> **R - Rediseñar:** Pasa este prompt a Claude para obtener la escaleta diapositiva por diapositiva.
+>
+> **A - Arquitectar & Programar (El Prompt Maestro):**
+
+\`\`\`text
+Eres un estratega de comunicación y oratoria comercial de IA Builders Lab.
+
+Crea la escaleta y el texto diapositiva por diapositiva para una presentación de alto impacto.
+
+ESTRUCTURA DE LA PRESENTACIÓN:
+- Diapositiva 1: Portada con Gancho Disruptivo (Frase que rompa el status quo).
+- Diapositiva 2: El Contexto Actual y la Fricción Invisible que enfrenta la audiencia.
+- Diapositiva 3-4: El Nuevo Paradigma (Por qué los métodos antiguos fallan hoy).
+- Diapositiva 5-7: Los 3 Pilares del Método (Paso a paso funcional).
+- Diapositiva 8: Caso de Estudio / Demostración Práctica.
+- Diapositiva 9: El Mapa de Implementación.
+- Diapositiva 10: Llamado a la Acción Claro y Siguiente Paso Imparable.
+
+PARA CADA DIAPOSITIVA INCLUYE:
+1. Título visual de la Slide.
+2. Puntos clave visibles (máximo 3 viñetas breves).
+3. Guion del expositor (lo que dirás verbalmente durante esa diapositiva).
+
+TEMA DE LA PRESENTACIÓN:
+[Describe aquí el tema, producto o meta de tu presentación]
+\`\`\`
+
+> **P - Encender:** Vuelca la estructura resultante en Gamma.app, Pitch.com o PowerPoint.
+>
+> **R - Refinar:** Asegúrate de que las diapositivas contengan texto mínimo y que la fuerza esté en el guion del expositor.`,
+        prompt_text: `Eres un estratega de comunicación y oratoria comercial de IA Builders Lab.
+
+Crea la escaleta y el texto diapositiva por diapositiva para una presentación de alto impacto.
+
+ESTRUCTURA DE LA PRESENTACIÓN:
+- Diapositiva 1: Portada con Gancho Disruptivo (Frase que rompa el status quo).
+- Diapositiva 2: El Contexto Actual y la Fricción Invisible que enfrenta la audiencia.
+- Diapositiva 3-4: El Nuevo Paradigma (Por qué los métodos antiguos fallan hoy).
+- Diapositiva 5-7: Los 3 Pilares del Método (Paso a paso funcional).
+- Diapositiva 8: Caso de Estudio / Demostración Práctica.
+- Diapositiva 9: El Mapa de Implementación.
+- Diapositiva 10: Llamado a la Acción Claro y Siguiente Paso Imparable.
+
+PARA CADA DIAPOSITIVA INCLUYE:
+1. Título visual de la Slide.
+2. Puntos clave visibles (máximo 3 viñetas breves).
+3. Guion del expositor (lo que dirás verbalmente durante esa diapositiva).
+
+TEMA DE LA PRESENTACIÓN:
+[Describe aquí el tema, producto o meta de tu presentación]`,
+        category: "Sales & Pitching",
+        level: "beginner",
+        is_published: true,
+        is_featured: false,
+        paywall_level: "free_preview",
+        created_at: "2026-10-07T09:25:00.000Z",
+        updated_at: "2026-10-07T09:25:00.000Z",
+        tags: [
+            { id: "t-pitch", name: "Pitch Deck", slug: "pitch-deck" },
+            { id: "t-sales", name: "Sales", slug: "sales" },
+            { id: "t-presentation", name: "Presentación", slug: "presentacion" }
+        ]
+    },
+    {
+        id: "prompt-vibe-coding-checklist",
+        type: "prompt",
+        title: "Vibe Coding Checklist & Protocolo de Desarrollo Acelerado con IA",
+        slug: "vibe-coding-checklist-claude-code",
+        summary: "Protocolo de control de calidad y lista de verificación de IA Builders Lab para desarrollar aplicaciones completas a alta velocidad usando Claude Code o Antigravity CLI sin introducir deuda técnica ni romper el código.",
+        body_markdown: `# Vibe Coding Checklist & Protocolo de Desarrollo Acelerado con IA (IA Builders Lab)
+
+## D.R.A.P.E.R.™ System Integration
+
+> **D - Diagnosticar:** Antes de pedir a la IA que construya o modifique una funcionalidad, valida tus archivos de reglas (\`AGENTS.md\`, \`rules.md\`) y asegúrate de no estar asumiendo librerías inexistentes.
+>
+> **R - Rediseñar:** Divide la funcionalidad en tareas de menos de 100 líneas de cambio a la vez.
+>
+> **A - Arquitectar & Programar (El Protocolo Vibe Coding):**
+
+\`\`\`text
+PASOS DEL PROTOCOLO DE DESARROLLO ACELERADO (IA BUILDERS LAB):
+
+1. FASE DE AUDITORÍA PREVIA:
+   - Revisa las firmas exactas de funciones y tipos existentes antes de importar nuevos packages.
+   - NUNCA asumas rutas de archivos o modelos sin consultar el código autoritativo.
+
+2. FASE DE EJECUCIÓN DEL PROMPT:
+   - Pide un solo bloque contiguo de edición a la vez.
+   - Mantén los API Contracts existentes e informa cualquier cambio en variables de entorno.
+
+3. FASE DE VERIFICACIÓN EMPÍRICA:
+   - NUNCA des por terminada una tarea sin ejecutar el comando de build ('npm run build' / 'npx tsc') o test.
+   - Inspecciona los logs y tracebacks completos ante cualquier error antes de modificar el código.
+
+4. REGLA DE ORO DE EDICIÓN:
+   - Si una prueba falla, identifica la causa raíz en lugar de envolver la llamada en try/catch vacíos o retornar datos falsos.
+\`\`\`
+
+> **P - Encender:** Aplica este checklist como prompt de sistema en tu cliente de terminal (Claude Code / Antigravity AGY).
+>
+> **R - Refinar:** Registra en tu archivo de aprendizaje del proyecto (\`/learn\`) cualquier patrón recurrente de error de la IA para prevenirlo automáticamente.`,
+        prompt_text: `PASOS DEL PROTOCOLO DE DESARROLLO ACELERADO (IA BUILDERS LAB):
+
+1. FASE DE AUDITORÍA PREVIA:
+   - Revisa las firmas exactas de funciones y tipos existentes antes de importar nuevos packages.
+   - NUNCA asumas rutas de archivos o modelos sin consultar el código autoritativo.
+
+2. FASE DE EJECUCIÓN DEL PROMPT:
+   - Pide un solo bloque contiguo de edición a la vez.
+   - Mantén los API Contracts existentes e informa cualquier cambio en variables de entorno.
+
+3. FASE DE VERIFICACIÓN EMPÍRICA:
+   - NUNCA des por terminada una tarea sin ejecutar el comando de build ('npm run build' / 'npx tsc') or test.
+   - Inspecciona los logs y tracebacks completos ante cualquier error antes de modificar el código.
+
+4. REGLA DE ORO DE EDICIÓN:
+   - Si una prueba falla, identifica la causa raíz en lugar de envolver la llamada en try/catch vacíos o retornar datos falsos.`,
+        category: "Skills & Code",
+        level: "intermediate",
+        is_published: true,
+        is_featured: true,
+        paywall_level: "free_preview",
+        created_at: "2026-10-07T09:25:00.000Z",
+        updated_at: "2026-10-07T09:25:00.000Z",
+        tags: [
+            { id: "t-vibe-coding", name: "Vibe Coding", slug: "vibe-coding" },
+            { id: "t-claude-code", name: "Claude Code", slug: "claude-code" },
+            { id: "t-dev", name: "Development", slug: "development" }
+        ]
+    },
     {
         id: "sop-discovery-calls",
         type: "prompt",
@@ -3722,6 +4015,7 @@ export let ALL_MOCK_CONTENT: ContentItemWithTags[] = [
     ...SKILLS_DATA.map(transformMockItem),
     ...HYBRID_TOP_PROMPTS.map(transformMockItem),
     ...MOCK_SYSTEMS.map(transformMockItem),
+    ...REALISMO_GALLERY_PROMPTS.map(transformMockItem),
     ...MOCK_PROMPTS.map(transformMockItem),
     ...EXTRA_MOCK_PROMPTS.map(transformMockItem),
     ...COPY_LIBRARY_PROMPTS.map(transformMockItem),

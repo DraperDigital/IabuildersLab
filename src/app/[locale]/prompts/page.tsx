@@ -71,7 +71,11 @@ export default async function PromptsPage({ searchParams }: { searchParams: Prom
         "Infrastructure & Local Environment",
         "Infrastructure & Growth Automation",
         "Infrastructure & Open Source",
-        "Skills & CLI"
+        "Skills & CLI",
+        "Copywriting & Content",
+        "Web & Conversion",
+        "Sales & Pitching",
+        "Skills & Code"
     ];
     const rawCategories = categoriesData || [];
     const categories = rawCategories.filter(cat => {

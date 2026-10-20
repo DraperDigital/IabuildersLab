@@ -89,12 +89,26 @@ export function PromptCard({ prompt }: PromptCardProps) {
         <div className="group relative block w-full overflow-hidden rounded-xl bg-slate-900 border border-purple-500/20 transition-all hover:scale-[1.02] hover:shadow-xl hover:shadow-purple-500/10 hover:border-purple-500/50">
             <Link href={`/prompts/${prompt.slug}`}>
                 {/* Image Container */}
-                <div className="relative aspect-[4/5] w-full overflow-hidden">
-                    <img
-                        src={imageSrc}
-                        alt={prompt.title}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
+                <div className="relative aspect-[4/5] w-full overflow-hidden bg-slate-950">
+                    {prompt.featured_image_url ? (
+                        <img
+                            src={imageSrc}
+                            alt={prompt.title}
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        />
+                    ) : (
+                        <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center bg-gradient-to-br from-slate-950 via-purple-950/25 to-slate-900">
+                            <div className="w-12 h-12 rounded-2xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center mb-3 text-purple-300 group-hover:scale-110 transition-transform">
+                                <ImageIcon className="w-6 h-6" />
+                            </div>
+                            <span className="text-[10px] font-mono uppercase tracking-widest text-purple-300/80 px-2.5 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 mb-2">
+                                Imagen Pendiente
+                            </span>
+                            <p className="text-xs text-slate-400 line-clamp-3 max-w-[220px]">
+                                {prompt.summary}
+                            </p>
+                        </div>
+                    )}
                     {/* Overlay Gradient */}
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent opacity-90" />
 
