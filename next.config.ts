@@ -7,6 +7,10 @@ const withNextIntl = createNextIntlPlugin(
 
 const nextConfig: NextConfig = {
   devIndicators: false,
+  experimental: {
+    cpus: 1,
+    workerThreads: false,
+  },
   images: {
     remotePatterns: [
       {
