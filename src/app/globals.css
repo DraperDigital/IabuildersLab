@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Playfair+Display:wght@700;900&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
+
+@layer utilities {
+  .font-joya-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-joya-sans {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  .font-joya-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
 
 @custom-variant dark (&:is(.dark *));
 
