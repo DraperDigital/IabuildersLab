@@ -907,11 +907,11 @@ export default function AvatarMasterclassPage() {
                                 </div>
 
                                 <div className="pt-4">
-                                    <Link href="/checkout?plan=realismo-guia" className="w-full block">
+                                    <a href="https://vendora.drapersystems.online/t/iabuilderslab/checkout/realismo" className="w-full block">
                                         <Button size="lg" variant="outline" className="w-full h-14 border-purple-500/40 text-purple-200 hover:text-white hover:bg-purple-900/30 font-bold text-base cursor-pointer">
                                             Comprar la guía — 9.99 USD
                                         </Button>
-                                    </Link>
+                                    </a>
                                 </div>
                             </Card>
 
@@ -999,7 +999,7 @@ export default function AvatarMasterclassPage() {
                             </p>
                             <div className="pt-2">
                                 <a
-                                    href="https://wa.me/5215500000000?text=Hola%2C%20quiero%20cotizar%20producci%C3%B3n%20de%20contenido%20con%20modelo%20IA%20para%20mi%20marca"
+                                    href="https://wa.me/5215626594339?text=Hola%2C%20quiero%20cotizar%20producci%C3%B3n%20de%20contenido%20con%20modelo%20IA%20para%20mi%20marca"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-block"
@@ -1205,7 +1205,7 @@ export default function AvatarMasterclassPage() {
                                 </Button>
                             </a>
                             <a
-                                href="https://wa.me/5215500000000?text=Hola%2C%20tengo%20una%20pregunta%20sobre%20REALISMO%20Blueprint"
+                                href="https://wa.me/5215626594339?text=Hola%2C%20tengo%20una%20pregunta%20sobre%20REALISMO%20Blueprint"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-full sm:w-auto"

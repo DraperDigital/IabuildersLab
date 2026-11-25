@@ -25,7 +25,7 @@ function ThankYouContent() {
     const searchParams = useSearchParams();
     const type = searchParams.get('type') || '';
     
-    const WHATSAPP_NUMBER = "5215500000000"; // Reemplaza con tu número real
+    const WHATSAPP_NUMBER = "5215626594339";
     const defaultMessage = "¡Hola! Acabo de adquirir el Social Conversion Pack y quiero empezar.";
 
     // 1. Flow: Lead Magnet REALISMO (Free Phase 01 downloaded)

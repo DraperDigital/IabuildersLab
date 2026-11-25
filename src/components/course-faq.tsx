@@ -27,7 +27,7 @@ const FAQS: FAQItem[] = [
     },
     {
         question: "¿Cuánto tiempo tengo acceso?",
-        answer: "De por vida, con las actualizaciones de la guía incluidas."
+        answer: "De por vida, con las actualizaciones de la guía incluidas. La guía te llega a tu correo apenas pagas, y si pierdes el link lo recuperas con tu correo en «Mis compras»."
     },
     {
         question: "¿Cómo recibo soporte?",
@@ -36,7 +36,7 @@ const FAQS: FAQItem[] = [
                 <p>Cuentas con soporte directo del equipo de IA Builders Lab por correo y WhatsApp:</p>
                 <div className="flex flex-wrap items-center gap-3 pt-1">
                     <a
-                        href="https://wa.me/5215500000000?text=Hola%2C%20tengo%20una%20duda%20sobre%20la%20gu%C3%ADa%20REALISMO%20Blueprint"
+                        href="https://wa.me/5215626594339?text=Hola%2C%20tengo%20una%20duda%20sobre%20la%20gu%C3%ADa%20REALISMO%20Blueprint"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 hover:text-white hover:bg-emerald-500/20 text-xs font-medium transition-all"
